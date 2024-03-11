@@ -40,6 +40,12 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
         Route::view('history' , 'web.client.school.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.school.about.whyBeltei')->name('whybeltei');
     });
+    Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
+        Route::view('/bacll-batch18' , 'web.client.school.news.bacll-batch18')->name('bacll-batch18');
+    });
+    Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
+        Route::view('/campusTemplete' , 'web.client.school.campus.campusTemplete')->name('campusTemplete');
+    });
 
 });
 

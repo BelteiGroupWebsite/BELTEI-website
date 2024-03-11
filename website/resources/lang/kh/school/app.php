@@ -2,6 +2,7 @@
     return [
         'translate' => 'ភាសា',
 
+        'belteicampus' => "ប៊ែលធីទី",
             // campus 
         'CampusB1' => "គីរីរម្យ" ,
         'CampusB2' => "ផ្សារទួលទំពូង" ,

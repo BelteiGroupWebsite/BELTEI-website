@@ -29,9 +29,9 @@
         <hr>
 
         {{-- Hot News  --}}
-        <a href="" class="card card-body d-flex">
+        <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex">
             <div class="overflow-hidden">
-                <img src="https://www.khmertimeskh.com/wp-content/uploads/2018/03/5-6.jpg" alt="">
+                <img class="w-100" src="{{ asset('asset/img/school/dailyNews/1.jpg') }}" alt="">
             </div>
             <div class="p-3">
                 <h6 class="Muol-Light line-height-15">

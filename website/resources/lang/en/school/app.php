@@ -2,6 +2,8 @@
 return [
     'translate' => 'Language',
 
+    'belteicampus' => "BELTEI Campus",
+
     // campus 
     'CampusB1' => "" ,
     'CampusB2' => "" ,
