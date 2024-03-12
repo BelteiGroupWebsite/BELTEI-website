@@ -30,9 +30,9 @@ Route::get('/', function () {
 
 
 Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
-    
+
     Route::view('/' , 'web.client.school.index');
-    
+
     Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
         Route::view('/' , 'web.client.school.about.welcome')->name('welcome');
         Route::view('purpose' , 'web.client.school.about.purpose')->name('purpose');
@@ -45,6 +45,26 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
     });
     Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
         Route::view('/campusTemplete' , 'web.client.school.campus.campusTemplete')->name('campusTemplete');
+    });
+
+});
+
+Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.'], function () {
+
+    Route::view('/' , 'web.client.testcenter.index');
+
+    Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
+        Route::view('/' , 'web.client.testcenter.about.welcome')->name('welcome');
+        Route::view('purpose' , 'web.client.testcenter.about.purpose')->name('purpose');
+        Route::view('vision' , 'web.client.testcenter.about.vision')->name('vision');
+        Route::view('history' , 'web.client.testcenter.about.history')->name('history');
+        Route::view('whybeltei' , 'web.client.testcenter.about.whyBeltei')->name('whybeltei');
+    });
+    Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
+        Route::view('/bacll-batch18' , 'web.client.testcenter.news.bacll-batch18')->name('bacll-batch18');
+    });
+    Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
+        Route::view('/campusTemplete' , 'web.client.testcenter.campus.campusTemplete')->name('campusTemplete');
     });
 
 });
