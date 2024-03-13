@@ -69,3 +69,23 @@ Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.'], function () {
 
 });
 
+Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], function () {
+
+    Route::view('/' , 'web.client.beltei_university.index');
+
+    Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
+        Route::view('/' , 'web.client.beltei_university.about.welcome')->name('welcome');
+        Route::view('purpose' , 'web.client.beltei_university.about.purpose')->name('purpose');
+        Route::view('vision' , 'web.client.beltei_university.about.vision')->name('vision');
+        Route::view('history' , 'web.client.beltei_university.about.history')->name('history');
+        Route::view('whybeltei' , 'web.client.beltei_university.about.whyBeltei')->name('whybeltei');
+    });
+    Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
+        Route::view('/bacll-batch18' , 'web.client.beltei_university.news.bacll-batch18')->name('bacll-batch18');
+    });
+    Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
+        Route::view('/campusTemplete' , 'web.client.beltei_university.campus.campusTemplete')->name('campusTemplete');
+    });
+
+});
+
