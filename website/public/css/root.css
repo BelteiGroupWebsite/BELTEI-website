@@ -3,12 +3,14 @@
     --bg-header-color: #006cb8;
     --trasition-5: .25s;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Moul&family=Roboto&display=swap");
 
 @font-face {
     font-family: "KhmerOSMoul";
     src: url(../font/KhmerOSMoul.ttf);
 }
+
 @font-face {
     font-family: "Battambang-Regular";
     src: url(../font/Battambang-Regular.ttf);
@@ -22,6 +24,7 @@
     scroll-behavior: smooth;
     /* line-height: 1.5; */
 }
+
 /* Example for lazy loading images */
 /* img {
     object-fit: cover;
@@ -31,40 +34,44 @@
 
 /* Translate  */
 
-.title-translate-font ,
-.title-translate-font *:lang(en){
-    font-family: 'Times New Roman', Times, serif ,Arial, Helvetica, sans-serif ;
+.title-translate-font:lang(en),
+.title-translate-font *:lang(en) {
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
-.title-translate-font ,
-.title-translate-font *:lang(kh){
-    font-family: 'KhmerOSMoul'  ;
+.title-translate-font:lang(kh),
+.title-translate-font *:lang(kh) {
+    font-family: 'KhmerOSMoul';
 }
 
-
-.content-translate-font *:lang(en){
+.content-translate-font:lang(en),
+.content-translate-font *:lang(en) {
     /* font-family: 'Times New Roman', Times, serif ,Arial, Helvetica, sans-serif ; */
-    font-family: Arial, Helvetica, sans-serif ; 
+    /* font-family: Arial, Helvetica, sans-serif ;  */
+    font-family: var(--bs-font-sans-serif);
 }
 
-.content-translate-font *:lang(kh){
-    font-family: 'Battambang-Regular' ;
+.content-translate-font:lang(kh),
+.content-translate-font *:lang(kh) {
+    font-family: 'Battambang-Regular';
+    line-height: 1.75;
 }
 
 
 
 
 
-.translate-font,
+.translate-font:lang(en),
 .translate-font *:lang(en) {
-    font-family: Arial, Helvetica, sans-serif ; 
+    font-family: Arial, Helvetica, sans-serif;
     /* font-family: 'Times New Roman', Times, serif; */
 }
 
 /* Specify font for Khmer language */
-.translate-font,
+.translate-font:lang(kh),
 .translate-font *:lang(kh) {
-    font-family: 'Battambang-Regular' ;
+    font-family: 'Battambang-Regular';
     /* font-family: 'khmer OS Content'; */
 }
 
@@ -72,8 +79,7 @@
 
 
 
-.fa
-{
+.fa {
     font-family: var(--fa-style-family, "Font Awesome 6 Free") !important;
     font-weight: var(--fa-style, 900) !important;
 }
@@ -94,12 +100,16 @@ p {
     margin: 0;
 }
 
-.indent-1rem{
+.indent-1rem {
     text-indent: 1rem;
 }
 
-.text-justify{
-    text-align: justify;
+.text-justify {
+    text-align: justify !important;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 a {
@@ -125,6 +135,7 @@ a {
 .border-header-color {
     border-color: var(--bg-header-color) !important;
 }
+
 .bg-header-color {
     background-color: var(--bg-header-color) !important;
 }
@@ -141,7 +152,7 @@ a {
     color: var(--bis-header-color) !important;
 }
 
-.object-fit-cover{
+.object-fit-cover {
     object-fit: cover;
 }
 
@@ -159,7 +170,7 @@ a {
     transition: ease-out var(--trasition-5);
 }
 
-.cursor-pointer{
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -227,6 +238,7 @@ a {
 .max-width-200 {
     max-width: 200px;
 }
+
 .max-width-250 {
     max-width: 250px;
 }
@@ -234,6 +246,7 @@ a {
 .max-width-300 {
     max-width: 300px;
 }
+
 .max-width-350 {
     max-width: 350px;
 }
@@ -245,9 +258,11 @@ a {
 .max-width-500 {
     max-width: 500px;
 }
+
 .min-width-200 {
     min-width: 200px;
 }
+
 .min-width-250 {
     min-width: 250px;
 }
@@ -255,6 +270,7 @@ a {
 .min-width-300 {
     min-width: 300px;
 }
+
 .min-width-350 {
     min-width: 350px;
 }
@@ -276,6 +292,7 @@ a {
 .max-height-0 {
     max-height: 0px;
 }
+
 .max-height-50 {
     max-height: 50px;
 }
@@ -404,12 +421,15 @@ a {
 .min-height-200 {
     min-height: 200px;
 }
+
 .min-height-300 {
     min-height: 300px;
 }
+
 .min-height-400 {
     min-height: 400px;
 }
+
 .min-height-500 {
     min-height: 500px;
 }
@@ -421,7 +441,7 @@ a {
 /* width */
 .small-scroll-bar::-webkit-scrollbar {
     width: 4px;
-    
+
 }
 
 /* Track */
@@ -468,22 +488,22 @@ a {
 
 
 
-.Battambang-Regular{
+.Battambang-Regular {
     font-family: 'Battambang-Regular' !important;
     line-height: 2 !important;
 }
 
 .Muol-Light {
-    font-family: "Khmer OS Muol Light" , "KhmerOSMoul" !important;
+    font-family: "Khmer OS Muol Light", "KhmerOSMoul" !important;
     font-weight: 100;
 }
 
-.Times-New-Roman{
+.Times-New-Roman {
     font-family: 'Times New Roman', Times, serif !important;
 }
 
 
-.line-height-15{
+.line-height-15 {
     line-height: 1.5 !important;
 }
 
@@ -491,7 +511,7 @@ a {
 
 /* color  */
 
-.gold{
+.gold {
     color: gold;
 }
 
@@ -499,28 +519,33 @@ a {
 
 /* font  */
 
-.font-italic{
+.font-italic {
     font-style: italic;
 }
-.font-bold{
+
+.font-bold {
     font-weight: bold;
 }
-.font-bolder{
+
+.font-bolder {
     font-weight: bolder;
 }
 
 /* font size */
 
-.f10{
+.f10 {
     font-size: 10px;
 }
-.f12{
+
+.f12 {
     font-size: 12px;
 }
-.f14{
+
+.f14 {
     font-size: 14px;
 }
-.f16{
+
+.f16 {
     font-size: 16px;
 }
 
@@ -567,6 +592,9 @@ a {
 }
 
 
+.img-scale-hover:hover img{
+     transform: scale(1.2,1.2);
+}
 
 
 
@@ -577,23 +605,26 @@ a {
     .remove-768px {
         display: none;
     }
+
     .title div {
         height: 45px;
     }
-    
+
 }
 
 @media (max-width:600px) {
     .title div {
         height: 40px;
     }
-    h5{
+
+    h5 {
         font-size: 15px;
     }
-    h6{
+
+    h6 {
         font-size: 14px;
     }
-    
+
     .remove-600px {
         display: none !important;
     }
@@ -601,10 +632,12 @@ a {
     .min-width-100-600px {
         min-width: 100%;
     }
-    .justify-content-center-600px{
+
+    .justify-content-center-600px {
         justify-content: center !important;
     }
-    p{
+
+    p {
         font-size: 14px;
     }
 }
@@ -614,6 +647,7 @@ a {
         display: none !important;
     }
 }
+
 @media (min-width:600px) {
     .remove-min-600px {
         display: none !important;

@@ -1,9 +1,9 @@
 <div class="sidebar min-width-250 max-width-300 position-sticky shadow-sm p-0 m-0 px-1 content-translate-font" >
 
-    <ul class="list-group translate" style="background-color: #21ade3;">
+    <ul class="list-group translate ul-none-style" style="background-color: #21ade3;">
         <h6 class="text-uppercase text-center py-2 bg-header-color gold title-translate-font">{{ __('school/app.translate') }}</h6>
 
-        <li class="list-group-item">
+        <li class="">
             <div class="d-flex justify-content-between">
                 <a href="{{ route('set-locale', 'kh') }}" class="cursor-pointer">
                     <img src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">

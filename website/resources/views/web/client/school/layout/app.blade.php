@@ -70,55 +70,63 @@
 
                     @yield('content')
 
+                    
+
                 </div>
 
                 {{-- right sidebar  --}}
                 @include('web.client.school.layout.right_side_bar')
 
+
+                
+                
             </div>
 
             {{-- footer  --}}
+            
+            
             <div class="mt-4">
                 <h6 class="Muol-Light p-3 bg-success text-white">វីឌីអូសំខាន់ៗ</h6>
                 <hr>
                 <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; row-gap: .5rem;">
 
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/6FAbzGXrV38?si=ItshHz92LaEx3EC2" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/LuUS8xRzpd4?si=Fks838mRw3A3QiVO" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/D1kBJgm0deM?si=kNT_-qhQSt2r0f7z" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/Gtj87I5670Y?si=cHQ53JatwXP4Qf6O" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/W2K_pt28MGE?si=1H02tgwQAJ63Qr-4" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/6FAbzGXrV38?si=ItshHz92LaEx3EC2" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/LuUS8xRzpd4?si=Fks838mRw3A3QiVO" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/D1kBJgm0deM?si=kNT_-qhQSt2r0f7z" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/Gtj87I5670Y?si=cHQ53JatwXP4Qf6O" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/W2K_pt28MGE?si=1H02tgwQAJ63Qr-4" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
                         allowfullscreen></iframe>
+                   
                 </div>
             </div>
 
@@ -137,7 +145,7 @@
 
 
         <button onclick="topFunction()" id="goToTopBtn" title="Go to top"
-            class="fa fa-angle-up bg-info shadow-sm btn"></button>
+            class="fa fa-angle-up bg-info shadow btn rounded-pill text-white" style="width: 40px; height: 40px;"></button>
 
     </main>
 
