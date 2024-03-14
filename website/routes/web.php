@@ -97,6 +97,8 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
         Route::view('vision' , 'web.client.beltei_university.about.vision')->name('vision');
         Route::view('history' , 'web.client.beltei_university.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.beltei_university.about.whyBeltei')->name('whybeltei');
+        // Route::view('campus' , 'web.client.beltei_university.about.whyBeltei')->name('campus');
+
     });
 
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {

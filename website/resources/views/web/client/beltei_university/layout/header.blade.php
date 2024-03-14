@@ -11,26 +11,32 @@
     </div>
 
     <div id="universityCampus" class="universityCampus d-flex shadow-sm rounded p-3 justify-content-center mb-3 gap-5 content-translate-font">
-        <a class="w-25" href="">
+        <a class="w-25" href="{{route('beltei_university.campus.campusTemplete')}}?id=1">
             <img class="w-100" src="{{ asset('asset/img/university/campus/BIU1.png') }}" alt="">
             <div class="d-flex  justify-content-around">
-                <h3>Campus 1</h3>
+                <h5 style="font-family: Khmer OS Koulen ; color: #4156A3">ទី​តាំងទី១ ទួលស្លែង</h3>
             </div>
         </a>
-        <a class="w-25" href="">
+        <a class="w-25" href="{{route('beltei_university.campus.campusTemplete')}}?id=2">
             <img class="w-100" src="{{ asset('asset/img/university/campus/BIU2.png') }}" alt="">
             <div class="d-flex  justify-content-around">
-                <h3>Campus 2</h3>
+                <h5 style="font-family: Khmer OS Koulen ; color: #4156A3">ទី​តាំងទី២ ស្ពានអាកាស ចោមចៅ</h3>
+            </div>
+        </a>
+        <a class="w-25" href="{{route('beltei_university.campus.campusTemplete')}}?id=3">
+            <img class="w-100" src="{{ asset('asset/img/university/campus/BIU3.png') }}" alt="">
+            <div class="d-flex  justify-content-around">
+                <h5 style="font-family: Khmer OS Koulen ; color: #4156A3">គម្រោងទី​តាំងទី៣ ទួលពង្រ</h3>
             </div>
         </a>
 
     </div>
-    
+
     <div class="p-2">
         <marquee behavior="scroll" scrollamount="4.5"><span style="color: green; font-size: small;">
 
 
-                {!! __('school/app.marquee') !!}
+                {!! __('beltei_university/app.marquee') !!}
 
 
 

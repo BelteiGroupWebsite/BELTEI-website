@@ -162,7 +162,7 @@
         AOS.init();
     </script>
 
-    <script>
+    {{-- <script>
         var campusDiv = document.getElementById("campus");
         var campusDivChildren = campusDiv.children;
 
@@ -265,7 +265,7 @@
             campusDiv.appendChild(div.firstChild);
 
         }
-    </script>
+    </script> --}}
 
 
     <script src="{{ asset('css/school/layout/app.js') }}"></script>
