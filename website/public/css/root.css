@@ -599,6 +599,21 @@ a {
 
 
 
+/* COLOR  */
+.BBA-color{
+    color: #E23439 !important;
+}
+.BBA-color-bg{
+    background-color: #E23439  !important;
+}
+.BBA-color-border{
+    border-color: #E23439 !important;
+}
+
+
+
+
+
 /* Responsive  */
 
 @media (max-width:768px) {

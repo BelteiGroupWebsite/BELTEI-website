@@ -20,22 +20,22 @@
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.B4') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.B5') }}</a>
     </ul>
-    <ul class="text-capitalize list-group f14">
+    <ul class="text-capitalize list-group f14 bg-secondary">
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.C') }}</h6>
         </a>
-        <a href="{{ route('school.about.welcome') }}" class="list-group-item text-white">{{ __('school/app.C1') }}</a>
-        <a href="{{ route('school.about.purpose') }}" class="list-group-item text-white">{{ __('school/app.C2') }}</a>
+        <a href="{{ route('school.about.welcome') }}" style="border: inset 2px ;" class="list-group-item BBA-color-bg border BBA-color-border text-white">{{ __('school/app.C1') }}</a>
+        <a href="{{ route('school.about.purpose') }}" class="list-group-item bg-success text-white">{{ __('school/app.C2') }}</a>
         <a href="{{ route('school.about.vision') }}" class="list-group-item text-white">{{ __('school/app.C3') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.C4') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.C5') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.C6') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.C7') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.C8') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.C9') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.C10') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.C11') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.C12') }}</a>
+        <a href="{{ route('school.about.history') }}" class="list-group-item bg-success text-white">{{ __('school/app.C4') }}</a>
+        <a href="{{ route('school.about.history') }}" class="list-group-item bg-success text-white">{{ __('school/app.C5') }}</a>
+        <a href="{{ route('school.about.history') }}" class="list-group-item bg-success text-white">{{ __('school/app.C6') }}</a>
+        <a href="{{ route('school.about.history') }}" class="list-group-item bg-success text-white">{{ __('school/app.C7') }}</a>
+        <a href="{{ route('school.about.history') }}" class="list-group-item bg-success text-white">{{ __('school/app.C8') }}</a>
+        <a href="{{ route('school.about.history') }}" class="list-group-item bg-success text-white">{{ __('school/app.C9') }}</a>
+        <a href="{{ route('school.about.history') }}" class="list-group-item bg-success text-white">{{ __('school/app.C10') }}</a>
+        <a href="{{ route('school.about.history') }}" class="list-group-item bg-success text-white">{{ __('school/app.C11') }}</a>
+        <a href="{{ route('school.about.history') }}" class="list-group-item bg-success text-white">{{ __('school/app.C12') }}</a>
     </ul>
 
 </div>

@@ -24,7 +24,7 @@
     <tr>
         <td>3- </td>
         <td>
-            <a href="" class="d-flex img-scale-hover justify-content-between align-items-center">
+            <a href="{{ route('school.mainprogram.khmer.schedule') }}" class="d-flex img-scale-hover justify-content-between align-items-center">
                 <p>{{ __('school/mainprogram/khmer.t3') }}</p>
                 <div class="max-width-150 overflow-hidden">
                     <img class="max-width-150" src="https://www.beltei.edu.kh/eng/images/general_study/13.png" alt="">
@@ -35,7 +35,7 @@
     <tr>
         <td>4- </td>
         <td>
-            <a href="" class="d-flex img-scale-hover justify-content-between align-items-center">
+            <a href="{{ route('school.mainprogram.khmer.admission') }}" class="d-flex img-scale-hover justify-content-between align-items-center">
                 <p>{{ __('school/mainprogram/khmer.t4') }}</p>
                 <div class="max-width-150 overflow-hidden">
                     <img class="max-width-150" src="https://www.beltei.edu.kh/eng/images/general_study/09.png" alt="">
@@ -46,7 +46,7 @@
     <tr>
         <td>5- </td>
         <td>
-            <a href="" class="d-flex img-scale-hover justify-content-between align-items-center">
+            <a href="{{ route('school.mainprogram.khmer.awarding') }}" class="d-flex img-scale-hover justify-content-between align-items-center">
                 <p>{{ __('school/mainprogram/khmer.t5') }}</p>
                 <div class="max-width-150 overflow-hidden">
                     <img class="max-width-150" src="https://www.beltei.edu.kh/eng/images/general_study/06.png" alt="">

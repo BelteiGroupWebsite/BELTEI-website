@@ -11,7 +11,9 @@
         </div>
     </div>
 
-    <div id="campus" class="campus d-flex shadow-sm rounded p-3 justify-content-center mb-3 content-translate-font">
+    <div id="universityCampus" class="universityCampus d-flex shadow-sm rounded p-3 justify-content-center mb-3 gap-5 content-translate-font">
+        <img class="w-25" src="{{ asset('asset/img/university/campus/BIU1.png') }}" alt="">
+        <img class="w-25" src="{{ asset('asset/img/university/campus/BIU2.png') }}" alt="">
     </div>
 
     <div class="p-2">
