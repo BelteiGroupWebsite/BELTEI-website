@@ -1,4 +1,4 @@
-@extends('web.client.school.layout.app')
+@extends('web.client.testcenter.layout.app')
 
 @section('content')
 
@@ -122,7 +122,7 @@
 
         </div>
 
-        
+
     </div>
 
 

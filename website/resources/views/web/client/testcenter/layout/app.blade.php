@@ -7,7 +7,7 @@
 
     <title>Beltei</title>
 
-    <link rel="shortcut icon" href="{{ asset('asset/img/school/beltei_international_school_in_cambodia.png') }}" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('asset/img/testcenter/beltei_international_test_centers.png') }}" type="image/png">
 
 
     <!-- Fonts -->
@@ -53,7 +53,7 @@
         <div class="container shadow p-0 mb-5 bg-white">
 
             {{-- Header  --}}
-            @include('web.client.school.layout.header')
+            @include('web.client.testcenter.layout.header')
 
 
 
@@ -72,7 +72,7 @@
                 </div>
 
                 {{-- right sidebar  --}}
-                @include('web.client.school.layout.right_side_bar')
+                @include('web.client.testcenter.layout.right_side_bar')
 
             </div>
 
