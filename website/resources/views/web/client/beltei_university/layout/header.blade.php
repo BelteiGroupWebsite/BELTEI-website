@@ -11,10 +11,21 @@
     </div>
 
     <div id="universityCampus" class="universityCampus d-flex shadow-sm rounded p-3 justify-content-center mb-3 gap-5 content-translate-font">
-        <img class="w-25" src="{{ asset('asset/img/university/campus/BIU1.png') }}" alt="">
-        <img class="w-25" src="{{ asset('asset/img/university/campus/BIU2.png') }}" alt="">
-    </div>
+        <a class="w-25" href="">
+            <img class="w-100" src="{{ asset('asset/img/university/campus/BIU1.png') }}" alt="">
+            <div class="d-flex  justify-content-around">
+                <h3>Campus 1</h3>
+            </div>
+        </a>
+        <a class="w-25" href="">
+            <img class="w-100" src="{{ asset('asset/img/university/campus/BIU2.png') }}" alt="">
+            <div class="d-flex  justify-content-around">
+                <h3>Campus 2</h3>
+            </div>
+        </a>
 
+    </div>
+    
     <div class="p-2">
         <marquee behavior="scroll" scrollamount="4.5"><span style="color: green; font-size: small;">
 

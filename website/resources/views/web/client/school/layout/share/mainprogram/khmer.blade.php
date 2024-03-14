@@ -57,7 +57,7 @@
     <tr>
         <td>6- </td>
         <td>
-            <a href="" class="d-flex img-scale-hover justify-content-between align-items-center">
+            <a href="{{ route('school.mainprogram.khmer.preschool') }}" class="d-flex img-scale-hover justify-content-between align-items-center">
                 <p>{{ __('school/mainprogram/khmer.t6') }}</p>
                 <div class="max-width-150 overflow-hidden">
                     <img class="max-width-150" src="https://www.beltei.edu.kh/eng/images/general_study/01.png" alt="">
@@ -68,7 +68,7 @@
     <tr>
         <td>7- </td>
         <td>
-            <a href="" class="d-flex img-scale-hover justify-content-between align-items-center">
+            <a href="{{ route('school.mainprogram.khmer.elementary') }}" class="d-flex img-scale-hover justify-content-between align-items-center">
                 <p>{{ __('school/mainprogram/khmer.t7') }}</p>
                 <div class="max-width-150 overflow-hidden">
                     <img class="max-width-150" src="https://www.beltei.edu.kh/eng/images/general_study/02.png" alt="">
@@ -79,7 +79,7 @@
     <tr>
         <td>8- </td>
         <td>
-            <a href="" class="d-flex img-scale-hover justify-content-between align-items-center">
+            <a href="{{ route('school.mainprogram.khmer.junior') }}" class="d-flex img-scale-hover justify-content-between align-items-center">
                 <p>{{ __('school/mainprogram/khmer.t8') }}</p>
                 <div class="max-width-150 overflow-hidden">
                     <img class="max-width-150" src="https://www.beltei.edu.kh/eng/images/general_study/03.png" alt="">
@@ -90,7 +90,7 @@
     <tr>
         <td>9- </td>
         <td>
-            <a href="" class="d-flex img-scale-hover justify-content-between align-items-center">
+            <a href="{{ route('school.mainprogram.khmer.highschool') }}" class="d-flex img-scale-hover justify-content-between align-items-center">
                 <p>{{ __('school/mainprogram/khmer.t9') }}</p>
                 <div class="max-width-150 overflow-hidden">
                     <img class="max-width-150" src="https://www.beltei.edu.kh/eng/images/general_study/04.png" alt="">
@@ -101,7 +101,7 @@
     <tr>
         <td>10- </td>
         <td>
-            <a href="" class="d-flex img-scale-hover justify-content-between align-items-center">
+            <a href="{{ route('school.mainprogram.khmer.certificate') }}" class="d-flex img-scale-hover justify-content-between align-items-center">
                 <p>{{ __('school/mainprogram/khmer.t10') }}</p>
                 <div class="max-width-150 overflow-hidden">
                     <img class="max-width-150" src="https://www.beltei.edu.kh/eng/images/general_study/05.png" alt="">

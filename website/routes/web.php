@@ -50,7 +50,10 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
             Route::view('/admission' , 'web.client.school.mainprogram.khmerdetail.admission')->name('admission');
             Route::view('/awarding' , 'web.client.school.mainprogram.khmerdetail.awarding')->name('awarding');
             Route::view('/certificate' , 'web.client.school.mainprogram.khmerdetail.certificate')->name('certificate');
-            Route::view('/preschool' , 'web.client.school.mainprogram.khmerdetail.preschool')->name('certificate');
+            Route::view('/preschool' , 'web.client.school.mainprogram.khmerdetail.preschool')->name('preschool');
+            Route::view('/elementary' , 'web.client.school.mainprogram.khmerdetail.elementary')->name('elementary');
+            Route::view('/junior' , 'web.client.school.mainprogram.khmerdetail.junior')->name('junior');
+            Route::view('/highschool' , 'web.client.school.mainprogram.khmerdetail.highschool')->name('highschool');
         });
     });
 

@@ -31,7 +31,7 @@ body {
     border: 3px solid #21ade3 !important;
 }
 
-.campus>a>img {
+.campus>a div{
     /* height: 120px; */
     max-height: 110px;
     width: 120px;
