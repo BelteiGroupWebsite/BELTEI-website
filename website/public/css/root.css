@@ -501,6 +501,9 @@ a {
 .Times-New-Roman {
     font-family: 'Times New Roman', Times, serif !important;
 }
+.Khmer-OS-Koulen {
+    font-family: "Khmer OS Koulen", "KhmerOSKoulen" !important;
+}
 
 
 .line-height-15 {
@@ -606,8 +609,44 @@ a {
 .BBA-color-bg{
     background-color: #E23439  !important;
 }
-.BBA-color-border{
+.Gold-color-border{
+    border-color: #FDB515 !important;
+}
+.Red-color-border{
     border-color: #E23439 !important;
+}
+.BFB-color-bg{
+    background-color: #8E2F39  !important;
+}
+.BEco-color-bg{
+    background-color: #006F87  !important;
+}
+.BLaw-color-bg{
+    background-color: #0F2263  !important;
+}
+.BEdu-color-bg{
+    background-color: #4156A3  !important;
+}
+.BTh-color-bg{
+    background-color: #39A753  !important;
+}
+.BIT-color-bg{
+    background-color: #C1AA3F  !important;
+}
+.BDT-color-bg{
+    background-color: #8F61A7  !important;
+}
+.BEng-color-bg{
+    background-color: #EE8A36  !important;
+}
+.BArch-color-bg{
+    background-color: #F3868C  !important;
+}
+.BIR-color-bg{
+    background-color: #55545E  !important;
+}
+.BCA-color-bg{
+    background-color: #55545E  !important;
 }
 
 

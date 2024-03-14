@@ -1,13 +1,12 @@
 <div class="">
     <div class="header d-flex align-items-center justify-content-center gap-lg-5  bg-header-color py-2">
         <img class="max-width-100"
-            src="{{ asset('asset/img/school/beltei_international_school_in_cambodia.png') }}"
+            src="{{ asset('asset/img/university/campus/beltei_international_university_in_cambodia.png') }}"
             alt="">
         <div class="text-center gold">
-            <h2 class="Muol-Light">សាលា ប៊ែលធី អន្តរជាតិ</h2>
-            <h3 class="Times-New-Roman font-bold">BELTEI INTERNATIONAL SCHOOL</h3>
-            <h5 class="text-capitalize font-italic Times-New-Roman">BELTEI, the best quality of education in
-                cambodia</h5>
+            <h2 class="Muol-Light">សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ</h2>
+            <h3 class="Times-New-Roman font-bold">BELTEI INTERNATIONAL UNIVERSITY</h3>
+            <h5 class="text-capitalize Khmer-OS-Koulen">គុណភាណ ប្រសិទ្ធភាព ឧត្ដមភាព សីលធម៌ គុណធម៌</h5>
         </div>
     </div>
 
