@@ -1,26 +1,21 @@
 @extends('web.client.school.layout.app')
 
-
 @section('content')
-    <div class="text-start p-3">
-
-        <h2 class="title-translate-font text-center my-3 underline">{{ __('school/about/history.header') }}</h2>
-
-
-
-
-
-        <div id="campusDetail" class="content-translate-font text-justify">
-            {!! __('school/about/history.description') !!}
+    <div class="text-start Battambang-Regular p-3">
+        <h5 class="text-center font-bold mb-3">{{ __('school/app.belteicampus') }} <span id="BCampus"></span></h5>
+        <div class="text-center">
+            <img class="w-75 rounded shadow-sm " id="img" src="" alt="">
         </div>
-
-
-
-
+        <p id="description" class="p-2"></p>
     </div>
 
     <script>
+        const myKeysValues = window.location.search;
+        const urlParams = new URLSearchParams(myKeysValues);
+        const id = urlParams.get("id");
         var lang = document.documentElement.getAttribute("lang");
+        // alert(id);   
+
         if (lang == "kh") {
             var campusNameArr = [
                 "គីរីរម្យ",
@@ -90,7 +85,8 @@
             ];
         }
 
-        if (lang == "kh") {
+        if(lang == "kh")
+        {
             var descriptionArray = [
                 'ស្ថិត ​នៅ​អាគារ​លេខ​ ៧៧ ផ្លូវ​ ១២៥ សង្កាត់​វាល​វង់​​ខណ្ឌ​ ៧​មករា​ ក្រុង​ ភ្នំពេញ​ ដែល​បាន​សម្ពោធ​បើក​អោយ​ដំណើរ​ការ​នៅ​ថ្ងៃទី​ ០១​ ខែ មករា​ ឆ្នាំ​ ២០០២​ ក្រោម​អធិប​តីភាព លោក​ អ៊ុំ ហឿង ប្រធាន​មន្ទីរ​អប់រំ​ យុវ​ជន​និង​កីឡា​រាជ​ធានី​ភ្នំពេញ​។ វិទ្យា​ស្ថាន​ ប៊ែល​ធី​ទី១​ សង់​ឡើង​ពី​បេតុង​អាម៉េ​ (Reinforced Concrete) កំពស់​ ៥​ជាន់​ មាន​ ៤១​បន្ទប់ ដែល​ជា​កម្ម​សិទ្ធិ​ផ្ទាល់ខ្លួន​ និង​សាង​សង់​ដោយ​ខ្លួន​ឯង​ផ្ទាល់។',
                 'ស្ថិត​នៅ​អាគារ​លេខ​៣៤​​ ផ្លូវ​៤៣២​ សង្កាត់​ទួល​ទំពូង​១​ ខណ្ឌ​ចំការ​មន​ ក្រុង​ភ្នំពេញ​ ដែល​នឹង​គ្រោង​បើក​ ឲ្យ​ដំណើរ​ការ​ថ្ងៃ​ទី​០១​ ខែកុម្ភៈ​ ឆ្នាំ​២០១១ ខាងមុខនេះ​។​ សាលា​ ប៊ែល​ធី ​ទី​២​ សង់​ឡើង​ពី​បេ​តុង​អាម៉េ​ (Reinforced Concrete) កំពស់​ ៦ជាន់​ មាន​ ៤៥​ បន្ទប់​ ដែល​ជា​កម្ម​សិទ្ធិ​ផ្ទាល់​ខ្លួន​ និង​សាង​សង់​ដោយ​ខ្លួន​ឯង​ផ្ទាល់។',
@@ -116,63 +112,52 @@
                 'សិ្ថតនៅផ្លូវជាតិលេខ២​ ភូមិក្រាំស្វាយ សង្កាត់ព្រែកកំពឹសខណ្ឌដង្កោ ​ រាជ​ធា​នី​ភ្នំ​ពេញ។​ ដែល​បាន​សម្ពោធ​បើក​ឱ្យ​ដំ​ណើរ​ការ​នៅ ថ្ងៃទី៣០ ខែសីហាឆ្នាំ២០២១ ក្រោម​អធិ​បតី​ភាព​ដ៏​ខ្ពង់​ខ្ពស់​របស់​ ឯក​ឧត្តម​បណ្ឌិត លី ​ឆេង​ តំណាងរាស្ដ្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គ​នា​យក​ ប៊ែល​ធី​គ្រុប​ និង​ជា​ប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។​ សាលាប៊ែលធីទី២២ សាងសង់​ឡើង​ពី​បេ​តុង​អាម៉េ​មាន​កម្ពស់​ ០៩ជាន់​ មាន​ ១៥៦បន្ទប់​ និង​មាន​ជាន់​ក្រោម​ដី​សម្រាប់​ធ្វើ​ជា​ចំ​ណត​កង់​-​ម៉ូ​តូ ។',
                 'ស្ថិតនៅភូមិប្រការ សង្កាត់ព្រៃស ខណ្ឌដង្កោ រាជធានីភ្នំពេញ បានសម្ពោធបើកឱ្យដំណើរការ នៅថ្ងៃទី២៩ ខែសីហា ឆ្នាំ ២០២២ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ ឯកឧត្តម បណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌល រាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គនាយកប៊ែលធី គ្រុបនិង ជាប្រធានក្រុម ប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលា ប៊ែលធីទី២៣ សង់ឡើងពីបេតុង អាម៉េ កម្ពស់ ៩ជាន់ មាន ១៧៩បន្ទប់ និងមានជាន់ក្រោមដីសម្រាប់ធ្វើជាចំណត កង់-ម៉ូតូ។',
                 'ស្ថិតនៅ ភូមិព្រែកតាមាក់ ឃុំព្រែកតាមាក់ ស្រុកខ្សាច់ កណ្តាល ខេត្តកណ្តាល បានសម្ពោធបើកឱ្យដំណើរការ នៅថ្ងៃទី០៥ ខែកញ្ញា ឆ្នាំ ២០២២ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ ឯកឧត្តម បណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌល រាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គនាយកប៊ែលធី គ្រុបនិង ជាប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលាប៊ែលធីទី២៤ សង់ឡើងពីបេតុង អាម៉េ កម្ពស់ ៩ជាន់ មាន ១៧៣បន្ទប់ និងមានជាន់ក្រោមដីសម្រាប់ធ្វើជា ចំណត កង់-ម៉ូតូ។',
-
-            ]
-        } else {
+                
+            ]   
+        }else{
             var descriptionArray = [
-                'BELTEI Kirirom is located at 77, Street 125, Sangkat Veal Vong, Khan 7 Makara, Phnom Penh and was officially opened on January 01, 2002 and presided over by Mr. Oum Hoeung, Director of Phnom Penh Municipal Department of Education, Youth and Sport. It is a five-story building with 41 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'It is located at 34, Street 431, Sangkat Tuol Tumpoung 1, Khan Chamkamon, Phnom Penh. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has more than 50 rooms and it belongs to BELTEI and it is scheduled to open on May 02, 2011, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'It is located at Nº 10A, Street 118, Sangkat Phsar Depo 3, Khan Tuol Kork, Phnom Penh City. It was inauguration on October 30, 2014, and highly presided over by H.E. Ly Chheng, Director-General of BELTEI Group and President of BELTEI International University and Lok Chum Teav. It is the transformation of the former BELTEI Campus 3 (DN) into the new one (It’s been operated since April 20, 2005) due to the end of the contract. It is seven-storey reinforced concrete building with 60 rooms and basement and ground floor for parking lot, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'It is located at 54, Street 488, Sangkat Phsar Deum Thkov, Khan Chamka Mon, Phnom Penh. It was opened on August 03, 2006 and highly presided over by His Excellency Kep Chutema, Phnom Penh Municipal Governor. It is a reinforced concrete and six-story building with 45 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'It is situated at 36, National Road 1, Sangkat Chba Ampov I, Khan Chba Ampov, Phnom Penh. It was inaugurated on August 02, 2007 and presided over by His Excellency Mob Sarin, Deputy Phnom Penh Municipal Governor. It is a reinforced concrete and six-story building with convenient parking lots in the basement and has 55 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'Head Office, is located at 25, Street 105, Sangkat Beung Prolit, Khan 7 Makara, Phnom Penh. It was opened on June 03, 2008 and highly presided over by His Excellency Kep Chutema, Phnom Penh Municipal Governor. It is a reinforced concrete and seven-story building with 63 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'It is located at 96, Corner of Street 160 and 265, Sangkat Teuk Laak II, Khan Tuol Kork, Phnom Penh. It was opened on October 13, 2008 and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers, Director-General of BELTEI Group Co., Ltd and Director of BELTEI International Institute. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has 65 rooms and it belongs to BELTEI.',
-                'It is located at 123, Russian Federation Blvd, Sangkat Kakab, Khan Dangkor, Phnom Penh. It was opened on May 18, 2009 and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers, Director-General of BELTEI Group Co.,Ltd and Director of BELTEI International Institute. It is a reinforced concrete and four-story building with 50 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'It is located at 3032, Corner of Veng Sreng Street and 217 Sangkat Stung Meanchey, Khan Meanchey, Phnom Penh. It was opened on March 11, 2010 and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers, Director-General of BELTEI Group Co., Ltd and Director of BELTEI International Institute. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has 135 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'It is located at 57, Corner of Street 217 and 290, Sangkat Tuol Svay Prey II, Khan Chamcarmon, Phnom Penh. It was opened on September 13, 2010, and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers and Director-General of BELTEI Group Co., Ltd. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has 55 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'It is located at #1796 National Road 5,Phsa Toch Village, Sangkat Tuol Sangke,Khan Russey Keo, Phnom Penh. It was opened on September 1, 2011 and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers and Director-General of BELTEI Group Co., Ltd. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has 55 rooms, which is being built by BELTEI Construction Company of BELTEI Group and belogs to BELTEI.',
-                'It is located at the building Nº 2258, Hanoi Street (1019), Sangkat Teuk Thla, Khan Sen Sok, Phnom Penh city. It was opened on July 18, 2013 and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers and Director-General of BELTEI Group Co., Ltd. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has 81 rooms, which is being built by BELTEI Construction Company of BELTEI Group and belogs to BELTEI.',
-                'It is located at the building Nº 163, Corner of Street 528 and 353, Sangkat Boeung Kak 1, Khan Tuol Kork, Phnom Penh city. It was opened on December 02, 2013 and highly presided over by H.E. LY Chheng, Director-General of BELTEI Group and Lok Chumteav. It is a reinforced concrete with seven-storey building with 60 rooms and a basement for parking, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'BELTEI International School Campus 14 (Takhmao Town), which is located at Building Nº 786A, National Road number 2, Sangkat Preak Reosey, Takhmao City, Kandal Province. The event was presided over by H.E. LY Chheng, Director-General of BELTEI Group and Lok Chumteav. The BELTEI International School Campus 14 building consists of 7 floors including a basement for parking; 70 classrooms; terrace for exercise; and a canteen., which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'BELTEI International School Campus 15 (Phsar Chompovorn), which is located at Building Nº 119A, National Road number 4, Chumpou Vorn Village, Sangkat Chaom Chao, Khan Posenchey, Phnom Penh Capital City. The BELTEI International Institute Campus 15 building consists of 04 floors including a basement for parking; 67 classrooms; terrace for exercise; and a canteen , which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'It is located at Nº 77A Veng Sreng Street, Chrey Koang Village, Sangkat Posenchey, Phnom Penh City. It was inauguration on May 30, 2016 and highly presided over by H.E. Ly Chheng, Director-General of BELTEI Group and President of BELTEI International University and Lok Chum Teav. It is a four-storey reinforced concrete building with 82 rooms and basement for parking lot, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
-                'It is located at the National Road No 5, Sangkat Svay Pak, Khan Russey Keo,  Phnom Penh City. It was inauguration on May 02, 2017 and highly presided over by H.E. Ly Chheng, Director-General of BELTEI Group and President of BELTEI International University and Lok Chum Teav.',
-                'It is located at the National Road No 1, Preak Cheang Prom Village, Sangkat Veal Sbov, Khan Chbar Ampov,  Phnom Penh City. It is schedule to open in 2017.',
-                'It is located at the National Road Nº 6A, Sangkat Preak Leab, Khan Chroy Changvar, Phnom Penh City. It was inaugurated on July 25, 2018 and highly presided over by H.E. Dr. LY Chheng, Director-General of BELTEI Group and President of BELTEI International University. It is a eight-storey reinforced concrete building with 70 rooms and a basement for parking.',
-                'It is located at the National Road Nº 3, Sangkat Chaom Chao 3, Khan Porsenchey, Phnom Penh City. It was inaugurated on March 04, 2019 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, founder and the Director-General of BELTEI Group and the Chairman of the Biard Directors of BELTEI International University. It is five storey reinforced concrete building with 75 rooms and a basement for parking.',
-                'It is located at Street Okhna Triheng (2011) kok Kleang Village, sangkat Kok kleang, Khan Sen sok, Phnom Penh. It was inaugurated on September 03, 2020 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, founder and the Director-General of BELTEI Group and the Chairman of the Biard Directors of BELTEI International University. It is nine storey reinforced concrete building with 115 rooms and a basement for parking.',
-                'It is located at National Road N2, Krang Svay, sangkat Prek Kompues, Khan Dangkor, Phnom Penh. It was inaugurated on august 30, 2021 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, founder and the Director-General of BELTEI Group and the Chairman of the Biard Directors of BELTEI International University. It is nine storey reinforced concrete building with 156 rooms and a basement for parking.',
-                'It is located at Phum Brakar sangkat Prey Sar, Khan Dangkor, Phnom Penh. It was inaugurated on August 29, 2022 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 179 rooms and a basement for parking..',
-                'It is located at Phum Ta Meak, Khum Prek Ta Meak, Khsach Kandal District, Kandal Province. It was inaugurated on September 05, 2022 and highly presided over by H.E. Dr. Ly Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 173 rooms and a basement for parking.',
-                'It is located nearby the Beoung Tompun Pumping Station, Street 371, Tnot Chhrum 3 Village, Sangkhat Beoung Tompun, Khan Mean Chhey, Phnom Penh',
+                'BELTEI Kirirom is located at 77, Street 125, Sangkat Veal Vong, Khan 7 Makara, Phnom Penh and was officially opened on January 01, 2002 and presided over by Mr. Oum Hoeung, Director of Phnom Penh Municipal Department of Education, Youth and Sport. It is a five-story building with 41 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'It is located at 34, Street 431, Sangkat Tuol Tumpoung 1, Khan Chamkamon, Phnom Penh. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has more than 50 rooms and it belongs to BELTEI and it is scheduled to open on May 02, 2011, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'It is located at Nº 10A, Street 118, Sangkat Phsar Depo 3, Khan Tuol Kork, Phnom Penh City. It was inauguration on October 30, 2014, and highly presided over by H.E. Ly Chheng, Director-General of BELTEI Group and President of BELTEI International University and Lok Chum Teav. It is the transformation of the former BELTEI Campus 3 (DN) into the new one (It’s been operated since April 20, 2005) due to the end of the contract. It is seven-storey reinforced concrete building with 60 rooms and basement and ground floor for parking lot, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'It is located at 54, Street 488, Sangkat Phsar Deum Thkov, Khan Chamka Mon, Phnom Penh. It was opened on August 03, 2006 and highly presided over by His Excellency Kep Chutema, Phnom Penh Municipal Governor. It is a reinforced concrete and six-story building with 45 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'It is situated at 36, National Road 1, Sangkat Chba Ampov I, Khan Chba Ampov, Phnom Penh. It was inaugurated on August 02, 2007 and presided over by His Excellency Mob Sarin, Deputy Phnom Penh Municipal Governor. It is a reinforced concrete and six-story building with convenient parking lots in the basement and has 55 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'Head Office, is located at 25, Street 105, Sangkat Beung Prolit, Khan 7 Makara, Phnom Penh. It was opened on June 03, 2008 and highly presided over by His Excellency Kep Chutema, Phnom Penh Municipal Governor. It is a reinforced concrete and seven-story building with 63 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'It is located at 96, Corner of Street 160 and 265, Sangkat Teuk Laak II, Khan Tuol Kork, Phnom Penh. It was opened on October 13, 2008 and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers, Director-General of BELTEI Group Co., Ltd and Director of BELTEI International Institute. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has 65 rooms and it belongs to BELTEI.'
+                ,'It is located at 123, Russian Federation Blvd, Sangkat Kakab, Khan Dangkor, Phnom Penh. It was opened on May 18, 2009 and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers, Director-General of BELTEI Group Co.,Ltd and Director of BELTEI International Institute. It is a reinforced concrete and four-story building with 50 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'It is located at 3032, Corner of Veng Sreng Street and 217 Sangkat Stung Meanchey, Khan Meanchey, Phnom Penh. It was opened on March 11, 2010 and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers, Director-General of BELTEI Group Co., Ltd and Director of BELTEI International Institute. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has 135 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'It is located at 57, Corner of Street 217 and 290, Sangkat Tuol Svay Prey II, Khan Chamcarmon, Phnom Penh. It was opened on September 13, 2010, and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers and Director-General of BELTEI Group Co., Ltd. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has 55 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'It is located at #1796 National Road 5,Phsa Toch Village, Sangkat Tuol Sangke,Khan Russey Keo, Phnom Penh. It was opened on September 1, 2011 and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers and Director-General of BELTEI Group Co., Ltd. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has 55 rooms, which is being built by BELTEI Construction Company of BELTEI Group and belogs to BELTEI.'
+                ,'It is located at the building Nº 2258, Hanoi Street (1019), Sangkat Teuk Thla, Khan Sen Sok, Phnom Penh city. It was opened on July 18, 2013 and highly presided over by H.E. Ly Chheng, Advisor to the Council of Ministers and Director-General of BELTEI Group Co., Ltd. It is a reinforced concrete and seven-story building with convenient parking lots in the basement and has 81 rooms, which is being built by BELTEI Construction Company of BELTEI Group and belogs to BELTEI.'
+                ,'It is located at the building Nº 163, Corner of Street 528 and 353, Sangkat Boeung Kak 1, Khan Tuol Kork, Phnom Penh city. It was opened on December 02, 2013 and highly presided over by H.E. LY Chheng, Director-General of BELTEI Group and Lok Chumteav. It is a reinforced concrete with seven-storey building with 60 rooms and a basement for parking, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'BELTEI International School Campus 14 (Takhmao Town), which is located at Building Nº 786A, National Road number 2, Sangkat Preak Reosey, Takhmao City, Kandal Province. The event was presided over by H.E. LY Chheng, Director-General of BELTEI Group and Lok Chumteav. The BELTEI International School Campus 14 building consists of 7 floors including a basement for parking; 70 classrooms; terrace for exercise; and a canteen., which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'BELTEI International School Campus 15 (Phsar Chompovorn), which is located at Building Nº 119A, National Road number 4, Chumpou Vorn Village, Sangkat Chaom Chao, Khan Posenchey, Phnom Penh Capital City. The BELTEI International Institute Campus 15 building consists of 04 floors including a basement for parking; 67 classrooms; terrace for exercise; and a canteen , which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'It is located at Nº 77A Veng Sreng Street, Chrey Koang Village, Sangkat Posenchey, Phnom Penh City. It was inauguration on May 30, 2016 and highly presided over by H.E. Ly Chheng, Director-General of BELTEI Group and President of BELTEI International University and Lok Chum Teav. It is a four-storey reinforced concrete building with 82 rooms and basement for parking lot, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.'
+                ,'It is located at the National Road No 5, Sangkat Svay Pak, Khan Russey Keo,  Phnom Penh City. It was inauguration on May 02, 2017 and highly presided over by H.E. Ly Chheng, Director-General of BELTEI Group and President of BELTEI International University and Lok Chum Teav.'
+                ,'It is located at the National Road No 1, Preak Cheang Prom Village, Sangkat Veal Sbov, Khan Chbar Ampov,  Phnom Penh City. It is schedule to open in 2017.'
+                ,'It is located at the National Road Nº 6A, Sangkat Preak Leab, Khan Chroy Changvar, Phnom Penh City. It was inaugurated on July 25, 2018 and highly presided over by H.E. Dr. LY Chheng, Director-General of BELTEI Group and President of BELTEI International University. It is a eight-storey reinforced concrete building with 70 rooms and a basement for parking.'
+                ,'It is located at the National Road Nº 3, Sangkat Chaom Chao 3, Khan Porsenchey, Phnom Penh City. It was inaugurated on March 04, 2019 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, founder and the Director-General of BELTEI Group and the Chairman of the Biard Directors of BELTEI International University. It is five storey reinforced concrete building with 75 rooms and a basement for parking.'
+                ,'It is located at Street Okhna Triheng (2011) kok Kleang Village, sangkat Kok kleang, Khan Sen sok, Phnom Penh. It was inaugurated on September 03, 2020 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, founder and the Director-General of BELTEI Group and the Chairman of the Biard Directors of BELTEI International University. It is nine storey reinforced concrete building with 115 rooms and a basement for parking.'
+                ,'It is located at National Road N2, Krang Svay, sangkat Prek Kompues, Khan Dangkor, Phnom Penh. It was inaugurated on august 30, 2021 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, founder and the Director-General of BELTEI Group and the Chairman of the Biard Directors of BELTEI International University. It is nine storey reinforced concrete building with 156 rooms and a basement for parking.'
+                ,'It is located at Phum Brakar sangkat Prey Sar, Khan Dangkor, Phnom Penh. It was inaugurated on August 29, 2022 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 179 rooms and a basement for parking..'
+                ,'It is located at Phum Ta Meak, Khum Prek Ta Meak, Khsach Kandal District, Kandal Province. It was inaugurated on September 05, 2022 and highly presided over by H.E. Dr. Ly Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 173 rooms and a basement for parking.'
+                ,'It is located nearby the Beoung Tompun Pumping Station, Street 371, Tnot Chhrum 3 Village, Sangkhat Beoung Tompun, Khan Mean Chhey, Phnom Penh'
+                ,
             ]
         }
 
-        var campusContainer = document.getElementById('campusDetail');
+        try {
+            if(id){
+                var BCampus = document.getElementById('BCampus');
+                var img = document.getElementById('img');
+                var description = document.getElementById('description');
 
-        descriptionArray.forEach((description, key) => {
-            var temp = `
-            <div>
-                <h5 class="text-center bg-success py-3 gold">ប៊ែលធីសាខាទី ${key + 1} (${campusNameArr[key]})</h5>
-                <div class="d-flex align-items-center p-2 content-translate-font">
-                    <p>
-                        ${description}
-                    </p>
-                    <img class="float-end rounded shadow p-2"
-                        src="{{ asset('asset/img/school/campus/school-B${key+1}.jpg') }}"
-                        alt="">
-                </div>
-            </div>
-            `;
-
-            var div = document.createElement("div");
-            div.innerHTML = temp.trim();
-            campusContainer.appendChild(div.firstChild);
-        });
-
-
-        // campusNameArr.forEach(campusName => {
-
-        // });
+                BCampus.innerHTML = ` ${id} ( ${campusNameArr[id-1]} )`;
+                img.src = `{{ asset('asset/img/school/campus/school-B${id}.jpg') }}`;
+                description.innerHTML = descriptionArray[id-1]
+            }
+        } catch (error) {
+            
+        }
+        
     </script>
 @endsection

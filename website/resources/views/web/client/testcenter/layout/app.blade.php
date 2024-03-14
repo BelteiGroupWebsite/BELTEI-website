@@ -7,7 +7,8 @@
 
     <title>Beltei</title>
 
-    <link rel="shortcut icon" href="{{ asset('asset/img/school/beltei_international_school_in_cambodia.png') }}" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('asset/img/school/beltei_international_school_in_cambodia.png') }}"
+        type="image/png">
 
 
     <!-- Fonts -->
@@ -69,55 +70,63 @@
 
                     @yield('content')
 
+                    
+
                 </div>
 
                 {{-- right sidebar  --}}
                 @include('web.client.school.layout.right_side_bar')
 
+
+                
+                
             </div>
 
             {{-- footer  --}}
+            
+            
             <div class="mt-4">
                 <h6 class="Muol-Light p-3 bg-success text-white">វីឌីអូសំខាន់ៗ</h6>
                 <hr>
                 <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; row-gap: .5rem;">
 
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/6FAbzGXrV38?si=ItshHz92LaEx3EC2" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/LuUS8xRzpd4?si=Fks838mRw3A3QiVO" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/D1kBJgm0deM?si=kNT_-qhQSt2r0f7z" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/Gtj87I5670Y?si=cHQ53JatwXP4Qf6O" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/W2K_pt28MGE?si=1H02tgwQAJ63Qr-4" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/6FAbzGXrV38?si=ItshHz92LaEx3EC2" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/LuUS8xRzpd4?si=Fks838mRw3A3QiVO" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/D1kBJgm0deM?si=kNT_-qhQSt2r0f7z" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/Gtj87I5670Y?si=cHQ53JatwXP4Qf6O" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/W2K_pt28MGE?si=1H02tgwQAJ63Qr-4" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
                         allowfullscreen></iframe>
+                   
                 </div>
             </div>
 
@@ -135,7 +144,8 @@
         </div>
 
 
-        <button onclick="topFunction()" id="goToTopBtn" title="Go to top" class="fa fa-angle-up bg-info shadow-sm btn"></button>
+        <button onclick="topFunction()" id="goToTopBtn" title="Go to top"
+            class="fa fa-angle-up bg-info shadow btn rounded-pill text-white" style="width: 40px; height: 40px;"></button>
 
     </main>
 
@@ -151,6 +161,112 @@
     <script>
         AOS.init();
     </script>
+
+    <script>
+        var campusDiv = document.getElementById("campus");
+        var campusDivChildren = campusDiv.children;
+
+        var lang = document.documentElement.getAttribute("lang");
+        // console.log(lang); // Output: en
+        // alert(lang)
+
+        if (lang == "kh") {
+            var campusNameArr = [
+                "គីរីរម្យ",
+                "ផ្សារទួលទំពូង",
+                "ដេអិន",
+                "ផ្សារដើមថ្កូវ",
+                "ច្បារអំពៅ",
+                "អូរឫស្សី",
+                "ពេទ្យលោកសង្ឃ",
+                "ផ្សារពោធិ៍ចិនតុង",
+                "ស្ទឹងមានជ័យ",
+                "អាងទឹកអូឡាំពិក",
+                "ផ្សារតូច",
+                "ផ្សារដីហុយ",
+                "រង្វង់មូលកាំកូស៊ីធី",
+                "ក្រុងតាខ្មៅ",
+                "ផ្សារជម្ពូវ័ន",
+                "ផ្លូវកោងវែងស្រេង",
+                "ឫស្សីកែវ",
+                "ផ្សារព្រែកឯក",
+                "ផ្សារព្រែកលៀប",
+                "ចោមចៅ",
+                "ផ្សារឈូកមាស",
+                "រង្វង់មូលគួរស្រូវ",
+                "ផ្លូវព្រៃសស្តុបឫស្សីសាញ់",
+                "រង្វង់មូលព្រែកតាមាក់",
+                "ស្ថានីបូមទឹកផ្លូវ",
+                "ព្រែកប្រា",
+                "",
+                "",
+                "",
+                "",
+            ];
+        } else {
+            var campusNameArr = [
+                "Kirirom",
+                "Toul Tum Pong",
+                "DN",
+                "Phsar Doeum Thkov",
+                "Chbar Ampeou",
+                "Orssei",
+                "Loksang Hospital",
+                "Pochen Tong",
+                "Steung Meanchey",
+                "Ang Teuk Olympic",
+                "Phsar Touch",
+
+                "Phsar Deihoy",
+                "Comko City",
+                "Takhmao Town",
+                "Phsar Chumpu Vorn",
+                "Phlov Yeng Sreng",
+                "Russey Keo",
+                "Phsar Preak Leap",
+                "Phsar Preak Eak",
+                "Chom Chao",
+                "Phsar Chhouk Meas",
+                "Kour Srov",
+                "Preysor Russey Sanh",
+                "Prek Ta Mek",
+                "Pumping Station 371",
+                "Preak Pra",
+                "B27",
+                "B28",
+                "B29",
+                "B30",
+            ];
+        }
+
+        for (let i = 1; i <= 30; i++) {
+            var campusCardTemplate = `
+        <a id="sammenten${i}" href="{{ route('school.campus.campusTemplete') }}?id=${i}" data-aos="fade-left" data-aos-delay="${
+            i * 100
+        }" class="border rounded shadow-sm ">
+            <img class="shadow-sm rounded "
+                src="{{ asset('asset/img/school/campus/school-B${i}.jpg') }}"
+                alt="">
+            <div class="d-flex align-items-center justify-content-around p-1">
+                <h6 style="min-width:30px ; width: 30px; height: 30px;"
+                    class="f14 rounded-pill bg-header-color d-flex justify-content-center align-items-center text-white">
+                    ${i}
+                </h6>
+                <b class=" text-center ${
+                    campusNameArr[i - 1].length > 12 ? "f10" : "f12"
+                }">
+                    ${campusNameArr[i - 1]}
+                </b>
+            </div>
+        </a>
+    `;
+            var div = document.createElement("div");
+            div.innerHTML = campusCardTemplate.trim();
+            campusDiv.appendChild(div.firstChild);
+
+        }
+    </script>
+
 
     <script src="{{ asset('css/school/layout/app.js') }}"></script>
 
