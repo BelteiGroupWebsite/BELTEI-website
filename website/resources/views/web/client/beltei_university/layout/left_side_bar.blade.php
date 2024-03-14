@@ -14,7 +14,7 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.B') }}</h6>
         </a>
-        <a href="{{ route('school.about.welcome') }}" class="list-group-item text-white">{{ __('school/app.B1') }}</a>
+        <a href="{{ route('school.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('school/app.B1') }}</a>
         <a href="{{ route('school.about.purpose') }}" class="list-group-item text-white">{{ __('school/app.B2') }}</a>
         <a href="{{ route('school.about.vision') }}" class="list-group-item text-white">{{ __('school/app.B3') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.B4') }}</a>

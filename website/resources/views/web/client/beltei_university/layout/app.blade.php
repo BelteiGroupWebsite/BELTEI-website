@@ -54,7 +54,7 @@
         <div class="container shadow p-0 mb-5 bg-white">
 
             {{-- Header  --}}
-            @include('web.client.school.layout.header')
+            @include('web.client.beltei_university.layout.header')
 
 
 
@@ -63,62 +63,70 @@
             <div class="d-flex position-relative">
 
                 {{-- left sidebar  --}}
-                @include('web.client.school.layout.left_side_bar')
+                @include('web.client.beltei_university.layout.left_side_bar')
 
                 {{-- content  --}}
                 <div class="content shadow-sm text-center w-100  pb-lg-5 pb-md-4 pb-sm-3 p-3">
 
                     @yield('content')
 
+
+
                 </div>
 
                 {{-- right sidebar  --}}
-                @include('web.client.school.layout.right_side_bar')
+                @include('web.client.beltei_university.layout.right_side_bar')
+
+
+
 
             </div>
 
             {{-- footer  --}}
+
+
             <div class="mt-4">
                 <h6 class="Muol-Light p-3 bg-success text-white">វីឌីអូសំខាន់ៗ</h6>
                 <hr>
                 <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; row-gap: .5rem;">
 
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/6FAbzGXrV38?si=ItshHz92LaEx3EC2" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/LuUS8xRzpd4?si=Fks838mRw3A3QiVO" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/D1kBJgm0deM?si=kNT_-qhQSt2r0f7z" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/Gtj87I5670Y?si=cHQ53JatwXP4Qf6O" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/W2K_pt28MGE?si=1H02tgwQAJ63Qr-4" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/6FAbzGXrV38?si=ItshHz92LaEx3EC2" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/LuUS8xRzpd4?si=Fks838mRw3A3QiVO" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/D1kBJgm0deM?si=kNT_-qhQSt2r0f7z" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/Gtj87I5670Y?si=cHQ53JatwXP4Qf6O" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/W2K_pt28MGE?si=1H02tgwQAJ63Qr-4" frameborder="0"
                         allowfullscreen></iframe>
                     <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/BdsLrDotljE?si=7hbu1F-407WMIkCI" frameborder="0"
+                        src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
                         allowfullscreen></iframe>
+
                 </div>
             </div>
 
@@ -137,7 +145,7 @@
 
 
         <button onclick="topFunction()" id="goToTopBtn" title="Go to top"
-            class="fa fa-angle-up bg-info shadow-sm btn"></button>
+            class="fa fa-angle-up bg-info shadow btn rounded-pill text-white" style="width: 40px; height: 40px;"></button>
 
     </main>
 
@@ -231,16 +239,16 @@
             ];
         }
 
-        for (let i = 1; i <= 30; i++) {
+        for (let i = 1; i <= 2; i++) {
             var campusCardTemplate = `
-        <a id="sammenten${i}" href="{{ route('school.campus.campusTemplete') }}?id=${i}" data-aos="fade-left" data-aos-delay="${
+        <a id="sammenten${i}" href="{{ route('beltei_university.campus.campusTemplete') }}?id=${i}" data-aos="fade-left" data-aos-delay="${
             i * 100
-        }" class="border rounded shadow-sm ">
-            <img class="shadow-sm rounded "
-                src="{{ asset('asset/img/school/campus/school-B${i}.jpg') }}"
+        }" class="border rounded shadow-sm" style="width:1000px; max-width:500px ; max-height:500px ; height:250px">
+            <img class="shadow-sm rounded w-100 " style="max-height:2000px;"
+                src="{{ asset('asset/img/university/campus/BIU${i}.png') }}"
                 alt="">
             <div class="d-flex align-items-center justify-content-around p-1">
-                <h6 style="min-width:30px ; width: 30px; height: 30px;"
+                <h6 style="min-width:50px ; width: 50px; height: 50px;"
                     class="f14 rounded-pill bg-header-color d-flex justify-content-center align-items-center text-white">
                     ${i}
                 </h6>

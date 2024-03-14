@@ -11,9 +11,9 @@
         </div>
     </div>
 
-    <div id="campus" class="campus d-flex shadow-sm rounded p-3 justify-content-between mb-3 content-translate-font">
+    <div id="campus" class="campus d-flex shadow-sm rounded p-3 justify-content-center mb-3 content-translate-font">
     </div>
-    
+
     <div class="p-2">
         <marquee behavior="scroll" scrollamount="4.5"><span style="color: green; font-size: small;">
 
@@ -30,6 +30,6 @@
         <a href="">Home</a>
         <a href="">Bar</a>
     </div> --}}
-    
+
 
 </div>
