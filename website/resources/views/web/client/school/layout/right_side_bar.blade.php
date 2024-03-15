@@ -58,7 +58,24 @@
         </li> --}}
     </ul>
 
-    <ul class="text-capitalize list-group f14">
+
+    {{-- <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
+        <a class="w-100" href="/">
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold w-100">Return to BELTEI GROUP</h6>
+        </a>
+    </ul> --}}
+    <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
+        <a class="w-100" href="/">
+            <img class="w-100" src="https://www.beltei.edu.kh/khm/images/beltei_pic/belgroupkh.png" alt="">
+        </a>
+    </ul>
+    <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
+        <a class="w-100" href="/">
+            <img class="w-100" src="https://www.beltei.edu.kh/khm/images/homepics/hotnew_ay_2023.png" alt="">
+        </a>
+    </ul>
+
+    {{-- <ul class="text-capitalize list-group f14">
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.A') }}</h6>
         </a>
@@ -68,5 +85,5 @@
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A4') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A5') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A6') }}</a>
-    </ul>
+    </ul> --}}
 </div>

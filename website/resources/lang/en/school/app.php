@@ -55,22 +55,47 @@ return [
     'B5' => "Preparation Courses",
     
 
-    'C' => "up coming",
-    'C1' => "up coming",
-    'C2' => "up coming",
-    'C3' => "up coming",
-    'C4' => "up coming",
-    'C5' => "up coming",
-    'C6' => "up coming",
-    'C7' => "up coming",
-    'C8' => "up coming",
-    'C9' => "up coming",
-    'C10' => "up coming",
-    'C11' => "up coming",
-    'C12' => "up coming",
-    
-    
+    'C' => "12 Extra Curriculum",
+    'C1' => "E-learning",
+    'C2' => "Increase general knowledge",
+    'C3' => "Study Tour",
+    'C4' => "Public speaking competition",
+    'C5' => "Debate competition",
+    'C6' => "Writing Competition",
+    'C7' => "Math Challenge",
+    'C8' => "Educational Reading Competition",
+    'C9' => "Talent competition",
+    'C10' => "Study on TV",
+    'C11' => "Sports",
+    'C12' => "Stem Education (Robotic)",
 
+    'D' => "Equipment",
+    'D1' => "Classroom",
+    'D2' => "Library",
+    'D3' => "Computer room",
+    'D4' => "Laboratory",
+    'D5' => "Consultation Room",
+    'D6' => "Test room",
+    'D7' => "Robotic Room",
+    'D8' => "Co-educational Hall",
+    'D9' => "News and Hospitality",
+    'D10' => "School Supplies Store",
+    'D11' => "Management Meeting Room",
+    'D12' => "Security Camera",
+    'D13' => "Floor image",
+    'D14' => "Student bus",
+    'D15' => "Parking",
+
+    'E' => "Post",
+    'E1' => "educational institutions",
+
+    'F' => "Outstanding Student",
+    'F1' => "Student A",
+    'F2' => "Outstanding Students",
+    'F3' => "Outstanding Students",
+
+    'G' => "Outstanding Student",
+    
     'marquee' => '                
         <strong class="Muol-Light">BELTEI International School</strong>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
