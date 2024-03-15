@@ -55,6 +55,37 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
             Route::view('/junior' , 'web.client.school.mainprogram.khmerdetail.junior')->name('junior');
             Route::view('/highschool' , 'web.client.school.mainprogram.khmerdetail.highschool')->name('highschool');
         });
+
+        Route::view('/ESL' , 'web.client.school.mainprogram.ESL')->name('ESL');
+        Route::group(['prefix' => 'ESL', 'as' => 'ESL.'], function () {
+            Route::view('/vision' , 'web.client.school.mainprogram.ESLdetail.vision')->name('vision');
+            Route::view('/special-quality' , 'web.client.school.mainprogram.ESLdetail.special-quality')->name('special-quality');
+            Route::view('/schedule' , 'web.client.school.mainprogram.ESLdetail.schedule')->name('schedule');
+            Route::view('/admission' , 'web.client.school.mainprogram.ESLdetail.admission')->name('admission');
+            Route::view('/awarding' , 'web.client.school.mainprogram.ESLdetail.awarding')->name('awarding');
+            Route::view('/certificate' , 'web.client.school.mainprogram.ESLdetail.certificate')->name('certificate');
+            Route::view('/preschool' , 'web.client.school.mainprogram.ESLdetail.preschool')->name('preschool');
+            Route::view('/elementary' , 'web.client.school.mainprogram.ESLdetail.elementary')->name('elementary');
+            Route::view('/junior' , 'web.client.school.mainprogram.ESLdetail.junior')->name('junior');
+            Route::view('/highschool' , 'web.client.school.mainprogram.ESLdetail.highschool')->name('highschool');
+        });
+
+        Route::view('/CSL' , 'web.client.school.mainprogram.CSL')->name('CSL');
+        Route::group(['prefix' => 'CSL', 'as' => 'CSL.'], function () {
+            Route::view('/detail' , 'web.client.school.mainprogram.CSLdetail.CSLdetail')->name('detail');
+            Route::view('/preschool' , 'web.client.school.mainprogram.CSLdetail.preschool')->name('preschool');
+            Route::view('/young-learners' , 'web.client.school.mainprogram.CSLdetail.young-learners')->name('young-learners');
+            Route::view('/adult-learners' , 'web.client.school.mainprogram.CSLdetail.adult-learners')->name('adult-learners');
+            Route::view('/schedule' , 'web.client.school.mainprogram.CSLdetail.schedule')->name('schedule');
+        });
+
+        Route::view('/IMA' , 'web.client.school.mainprogram.IMA')->name('IMA');
+
+        Route::view('/internation-preparation' , 'web.client.school.mainprogram.internation')->name('internation-preparation');
+        Route::group(['prefix' => 'internation-preparation', 'as' => 'internation-preparation.'], function () {
+            Route::view('/vision' , 'web.client.school.mainprogram.internationdetail.vision')->name('vision');
+            Route::view('/TOEFL' , 'web.client.school.mainprogram.internationdetail.TOEFL')->name('TOEFL');
+        });
     });
 
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {

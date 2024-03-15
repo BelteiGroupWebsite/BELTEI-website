@@ -246,7 +246,7 @@
         }" class="border rounded shadow-sm ">
             <div class="overflow-hidden img-scale-hover">
                 
-                <img class="shadow-sm rounded w-100"
+                <img class="shadow-sm rounded w-100 h-100"
                     src="{{ asset('asset/img/school/campus/school-B${i}.jpg') }}"
                     alt="">
             </div>

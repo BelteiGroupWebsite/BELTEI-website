@@ -170,6 +170,10 @@ a {
     transition: ease-out var(--trasition-5);
 }
 
+
+
+
+
 .cursor-pointer {
     cursor: pointer;
 }
@@ -508,6 +512,10 @@ a {
 
 .line-height-15 {
     line-height: 1.5 !important;
+}
+
+.vertical-align-middle{
+    vertical-align: middle;
 }
 
 
