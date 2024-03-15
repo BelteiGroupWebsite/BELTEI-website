@@ -128,14 +128,14 @@
         'L5' => "ឆ្នាំទី៤",
 
         'marquee' => '
-        <strong class="Muol-Light">សាលា​ ប៊ែលធី អន្តរជាតិ</strong>
+        <strong class="Muol-Light">សាកលវិទ្យាល័យ​ ប៊ែលធី អន្តរជាតិ</strong>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
             មានកម្មវិធីសិក្សាធំៗ ៥ គឺ
         </span>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
-            ១- ចំណេះទូទៅ | ២-
-            ភាសាអង់គ្លេសទូទៅ | ៣- ភាសាចិនទូទៅ | ៤- កម្មវិធីអផិវឌ្ឍបញ្ញា IMA | ៥-
-            ថ្នាក់ត្រៀមប្រឡងតេស្តអន្តរជាតិ
+            ១- ថ្នាក់បំប៉នអង់គ្លេស និងកុំព្យូទ័រ | ២-
+            ថ្នាក់បរិញ្ញាបត្ររង | ៣- ថ្នាក់បរិញ្ញាបត្រ | ៤- ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់ | ៥-
+            ថ្នាក់បណ្ឌិត
         </span>'
 
     ];
