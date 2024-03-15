@@ -29,7 +29,8 @@ function topFunction() {
 var sidebar = document.getElementsByClassName('sidebar');
 
 
-for(let i = 0; i < sidebar.length ; i++){
+// for(let i = 0; i < sidebar.length ; i++){
+for(let i = 0; i < 1 ; i++){
     // console.log(sidebar[i])
     var subsidebar = sidebar[i].querySelectorAll('.list-group');
     for(let j = 0; j<subsidebar.length ; j++ ){

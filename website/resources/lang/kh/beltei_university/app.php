@@ -127,6 +127,14 @@
         'L4' => "ឆ្នាំទី៣",
         'L5' => "ឆ្នាំទី៤",
 
+
+
+        // left sidebar
+        'LA' => 'ដៃគូរក្នុងស្រុក',
+
+        'LB' => 'កិច្ចសហការក្រៅប្រទេស',
+
+
         'marquee' => '
         <strong class="Muol-Light">សាកលវិទ្យាល័យ​ ប៊ែលធី អន្តរជាតិ</strong>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
