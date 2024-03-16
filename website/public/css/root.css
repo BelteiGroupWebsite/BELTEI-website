@@ -2,6 +2,7 @@
     /* --bg-header-color: #0A96A5; */
     --bg-header-color: #006cb8;
     --trasition-5: .25s;
+    --text-color-testcenter-header: #2957a4;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Moul&family=Roboto&display=swap");
@@ -667,7 +668,9 @@ a {
     color: #39A753 !important
 }
 
-
+.text-color-testcenter-header{
+    color: var(--text-color-testcenter-header);
+}
 
 
 /* Responsive  */
