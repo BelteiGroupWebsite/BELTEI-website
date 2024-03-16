@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Beltei</title>
+    <title>BELTEI INTERNATIONAL TEST CENTER</title>
 
-    <link rel="shortcut icon" href="{{ asset('asset/img/school/beltei_international_school_in_cambodia.png') }}"
+    <link rel="shortcut icon" href="{{ asset('asset/img/testcenter/beltei_international_test_centers.png') }}"
         type="image/png">
 
 
@@ -54,7 +54,7 @@
         <div class="container shadow p-0 mb-5 bg-white">
 
             {{-- Header  --}}
-            @include('web.client.school.layout.header')
+            @include('web.client.testcenter.layout.header')
 
 
 
@@ -63,28 +63,28 @@
             <div class="d-flex position-relative">
 
                 {{-- left sidebar  --}}
-                @include('web.client.school.layout.left_side_bar')
+                @include('web.client.testcenter.layout.left_side_bar')
 
                 {{-- content  --}}
                 <div class="content shadow-sm text-center w-100  pb-lg-5 pb-md-4 pb-sm-3 p-3">
 
                     @yield('content')
 
-                    
+
 
                 </div>
 
                 {{-- right sidebar  --}}
-                @include('web.client.school.layout.right_side_bar')
+                @include('web.client.testcenter.layout.right_side_bar')
 
 
-                
-                
+
+
             </div>
 
             {{-- footer  --}}
-            
-            
+
+
             <div class="mt-4">
                 <h6 class="Muol-Light p-3 bg-success text-white">វីឌីអូសំខាន់ៗ</h6>
                 <hr>
@@ -126,7 +126,7 @@
                     <iframe class="rounded-16" width="200" height="160"
                         src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
                         allowfullscreen></iframe>
-                   
+
                 </div>
             </div>
 

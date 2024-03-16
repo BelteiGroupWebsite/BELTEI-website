@@ -3,7 +3,7 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.A') }}</h6>
         </a>
-        <a href="{{ route('school.about.welcome') }}" class="list-group-item text-white">{{ __('school/app.A1') }}</a>
+        <a href="{{ route('testcenter.about.welcome') }}" class="list-group-item text-white">{{ __('school/app.A1') }}</a>
         <a href="{{ route('school.about.purpose') }}" class="list-group-item text-white">{{ __('school/app.A2') }}</a>
         <a href="{{ route('school.about.vision') }}" class="list-group-item text-white">{{ __('school/app.A3') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A4') }}</a>
