@@ -15,6 +15,10 @@
     font-family: "Battambang-Regular";
     src: url(../font/Battambang-Regular.ttf);
 }
+@font-face {
+    font-family: "KhmerOSKoulen";
+    src: url(../font/KhmerOSKoulen.ttf);
+}
 
 * {
     transition: .25s;
