@@ -63,7 +63,7 @@
             <div class="d-flex position-relative">
 
                 {{-- left sidebar  --}}
-                @include('web.client.school.layout.left_side_bar')
+                @include('web.client.testcenter.layout.left_side_bar')
 
                 {{-- content  --}}
                 <div class="content shadow-sm text-center w-100  pb-lg-5 pb-md-4 pb-sm-3 p-3">
@@ -75,7 +75,7 @@
                 </div>
 
                 {{-- right sidebar  --}}
-                @include('web.client.school.layout.right_side_bar')
+                @include('web.client.testcenter.layout.right_side_bar')
 
 
 

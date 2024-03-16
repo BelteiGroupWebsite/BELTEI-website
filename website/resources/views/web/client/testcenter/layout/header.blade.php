@@ -10,14 +10,6 @@
         </div>
     </div>
 
-    <div class="welcome-msg">
-        <h2 class="Battambang-Regular text-center"
-            style="font-size: clamp(1rem, 4vw, 1.5rem); background: linear-gradient(to top right, #204683, #0353EF); color:white; padding-block: 1rem;">
-            សូមស្វាគមន៍មកកាន់
-            <br>
-            មជ្ឍមណ្ឌលតេស្តអន្តរជាតិ ប៊ែលធី
-        </h2>
-    </div>
     {{-- <div id="campus" class="campus d-flex shadow-sm rounded p-3 justify-content-between mb-3 content-translate-font">
     </div> --}}
 
