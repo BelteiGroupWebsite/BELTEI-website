@@ -15,4 +15,8 @@ return [
     't8' => "Junior High School (7-9)",
     't9' => "High School (10-12)",
     't10' => "Certificate of General Education",
+
+    'ESLt11' => 'Term/Time Studies and ESL Fee for Full Time and Part Time',
+
+    'ESLt12' => "ESL Program for Full Time and Part Time",
 ];

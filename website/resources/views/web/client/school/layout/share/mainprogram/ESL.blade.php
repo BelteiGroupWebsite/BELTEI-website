@@ -25,8 +25,7 @@
         <td>3- </td>
         <td>
             <a href="{{ route('school.mainprogram.ESL.schedule') }}" class="d-flex img-scale-hover justify-content-between align-items-center">
-                <p>Term/Time Studies and ESL Fee for
-                    Full Time and Part Time</p>
+                <p>{{ __('school/mainprogram/khmer.ESLt11') }}</p>
                 <div class="max-width-150 overflow-hidden">
                     <img class="max-width-150" src="https://www.beltei.edu.kh/eng/images/ESL/03.png" alt="">
                 </div>
@@ -37,7 +36,7 @@
         <td>4- </td>
         <td>
             <a href="{{ route('school.mainprogram.ESL.admission') }}" class="d-flex img-scale-hover justify-content-between align-items-center">
-                <p>ESL Program for Full Time and Part Time</p>
+                <p>{{ __('school/mainprogram/khmer.ESLt12') }}</p>
                 <div class="max-width-150 overflow-hidden">
                     <img class="max-width-150" src="https://www.beltei.edu.kh/eng/images/ESL/06.png" alt="">
                 </div>

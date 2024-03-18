@@ -57,8 +57,8 @@
    <area shape="rect" coords="379,282,548,493" href="{{ url('beltei_university') }}"></a>
    <area shape="rect" coords="560,281,729,495" href="https://www.beltei.edu.kh/bire/"></a>
    <!--<area shape="rect" coords="737,281,909,494" href="https://www.beltei.edu.kh/internationaltests/"></a>-->
-   <area shape="rect" coords="737,281,909,494" href="https://www.beltei.edu.kh/internationaltests"></a>
-   <area shape="rect" coords="920,281,1091,496" href="https://www.belteitour.com.kh/btk/index.php"></a>
+   <area shape="rect" coords="737,281,909,494" href="{{ url('testcenter') }}"></a>
+   <area shape="rect" coords="920,281,1091,496" href="{{ url('beltei_tours_travel') }}"></a>
    <area shape="rect" coords="1114,281,1281,494" href="https://www.belteigroup.com.kh/charitykhm/"></a>
 
 </map> 
