@@ -63,7 +63,7 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.E') }}</h6>
         </a>
-        <a href="{{ route('school.about.welcome') }}" class="list-group-item text-white f12">{{ __('school/app.E1') }}</a>
+        <a href="{{ route('school.recognition.') }}" class="list-group-item text-white f12">{{ __('school/app.E1') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('school.') }}">
@@ -76,6 +76,48 @@
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.G') }}</h6>
+        </a>
+        <a href="{{ route('school.about.welcome') }}" class="list-group-item text-white"></a>
+    </ul>
+    <ul class="text-capitalize list-group f14 unhover-padding">
+        <a href="{{ route('school.') }}">
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.G') }}</h6>
+        </a>
+        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
+             ថ្នាក់ទី​ ១២
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+
+                </div>
+                {{-- <img src="" alt=""> --}}
+             </div>
+        </a>
+        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
+             ថ្នាក់ទី​ ៩
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+
+                </div>
+                {{-- <img src="" alt=""> --}}
+             </div>
+        </a>
+        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
+             ថ្នាក់ទី​ ៦
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+
+                </div>
+                {{-- <img src="" alt=""> --}}
+             </div>
+        </a>
+        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
+             ថ្នាក់ទី​ ៣
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+
+                </div>
+                {{-- <img src="" alt=""> --}}
+             </div>
         </a>
     </ul>
 

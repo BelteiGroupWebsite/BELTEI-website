@@ -241,28 +241,29 @@
 
         for (let i = 1; i <= 30; i++) {
             var campusCardTemplate = `
-        <a id="sammenten${i}" href="{{ route('school.campus.campusTemplete') }}?id=${i}" data-aos="fade-left" data-aos-delay="${
-            i * 100
-        }" class="border rounded shadow-sm ">
-            <div class="overflow-hidden img-scale-hover">
-                
-                <img class="shadow-sm rounded w-100 h-100"
-                    src="{{ asset('asset/img/school/campus/school-B${i}.jpg') }}"
-                    alt="">
-            </div>
-            <div class="d-flex align-items-center justify-content-around p-1">
-                <h6 style="min-width:30px ; width: 30px; height: 30px;"
-                    class="f14 rounded-pill bg-header-color d-flex justify-content-center align-items-center text-white">
-                    ${i}
-                </h6>
-                <b class=" text-center ${
-                    campusNameArr[i - 1].length > 12 ? "f10" : "f12"
-                }">
-                    ${campusNameArr[i - 1]}
-                </b>
-            </div>
-        </a>
-    `;
+                <a id="sammenten${i}" href="{{ route('school.campus.campusTemplete') }}?id=${i}" data-aos="fade-left" data-aos-delay="${
+                    i * 100
+                }" class="border rounded shadow-sm ">
+                    <div class="overflow-hidden img-scale-hover">
+                        
+                        <img class="shadow-sm rounded w-100 h-100"
+                            src="{{ asset('asset/img/school/campus/school-B${i}.jpg') }}"
+                            alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-around p-1">
+                        <h6 style="min-width:30px ; width: 30px; height: 30px;"
+                            class="f14 rounded-pill bg-header-color d-flex justify-content-center align-items-center text-white">
+                            ${i}
+                        </h6>
+                        <b class=" text-center ${
+                            campusNameArr[i - 1].length > 12 ? "f10" : "f12"
+                        }">
+                            ${campusNameArr[i - 1]}
+                        </b>
+                    </div>
+                </a>
+            `;
+            
             var div = document.createElement("div");
             div.innerHTML = campusCardTemplate.trim();
             campusDiv.appendChild(div.firstChild);

@@ -18,6 +18,12 @@ body {
     padding-left: 1.5rem;
 
 }
+.sidebar ul.unhover-padding a.list-group-item:hover {
+    padding-left: 1rem;
+
+}
+
+
 
 
 .campus {

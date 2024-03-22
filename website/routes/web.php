@@ -40,7 +40,6 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
         Route::view('history' , 'web.client.school.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.school.about.whyBeltei')->name('whybeltei');
     });
-
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
         Route::view('/khmer' , 'web.client.school.mainprogram.khmer')->name('khmer');
         Route::group(['prefix' => 'khmer', 'as' => 'khmer.'], function () {
@@ -87,14 +86,18 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
             Route::view('/TOEFL' , 'web.client.school.mainprogram.internationdetail.TOEFL')->name('TOEFL');
         });
     });
-
+    Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
+        Route::view('/' , 'web.client.school.recognition.recognition');
+        Route::view('/recognitiondetail' , 'web.client.school.recognition.recognitiondetail.recognitiondetail')->name('recognitiondetail');
+    });
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
         Route::view('/' , 'web.client.school.news.news');
     });
-
     Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
         Route::view('/campusTemplete' , 'web.client.school.campus.campusTemplete')->name('campusTemplete');
     });
+
+    Route::view('/public-speaking' , 'web.client.school.public-speaking.public-speaking')->name('public-speaking');
 
 });
 

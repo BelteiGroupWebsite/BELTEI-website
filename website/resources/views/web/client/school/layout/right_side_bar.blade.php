@@ -6,7 +6,7 @@
         <li class="">
             <div class="d-flex justify-content-between">
                 <a href="{{ route('set-locale', 'kh') }}" class="cursor-pointer">
-                    <img src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img class="rounded" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
                     <p class="text-center Battambang-Regular">
                         ខ្មែរ
                         @if (str_replace('_', '-', app()->getLocale()) == 'kh')
@@ -15,7 +15,7 @@
                     </p>
                 </a>
                 <a href="{{ route('set-locale', 'en') }}" class="cursor-pointer">
-                    <img src="{{ asset('asset/img/school/language/english.png') }}" alt="">
+                    <img class="rounded" src="{{ asset('asset/img/school/language/english.png') }}" alt="">
                     <p class="text-center Battambang-Regular">
                         English
                         @if (str_replace('_', '-', app()->getLocale()) == 'en')
@@ -25,7 +25,7 @@
                 </a>
 
                 <a href="{{ route('set-locale', 'ch') }}" class="cursor-pointer">
-                    <img src="{{ asset('asset/img/school/language/chinese.png') }}" alt="">
+                    <img class="rounded" src="{{ asset('asset/img/school/language/chinese.png') }}" alt="">
                     <p class="text-center Battambang-Regular">
                         中文
                         @if (str_replace('_', '-', app()->getLocale()) == 'ch')
@@ -72,6 +72,48 @@
     <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
         <a class="w-100" href="/">
             <img class="w-100" src="https://www.beltei.edu.kh/khm/images/homepics/hotnew_ay_2023.png" alt="">
+        </a>
+    </ul>
+
+    <ul class="text-capitalize list-group f14 unhover-padding">
+        <a href="{{ route('school.') }}">
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.G') }}</h6>
+        </a>
+        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
+             ថ្នាក់ទី​ ១២
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                    
+                </div>
+                {{-- <img src="" alt=""> --}}
+             </div>
+        </a>
+        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
+             ថ្នាក់ទី​ ៩
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                    
+                </div>
+                {{-- <img src="" alt=""> --}}
+             </div>
+        </a>
+        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
+             ថ្នាក់ទី​ ៦
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                    
+                </div>
+                {{-- <img src="" alt=""> --}}
+             </div>
+        </a>
+        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
+             ថ្នាក់ទី​ ៣
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                    
+                </div>
+                {{-- <img src="" alt=""> --}}
+             </div>
         </a>
     </ul>
 
