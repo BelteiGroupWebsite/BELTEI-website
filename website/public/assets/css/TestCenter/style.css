@@ -1,0 +1,740 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Moul&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+
+
+
+@font-face {
+    font-family: 'btb_bold';
+    src: url(../../../../font/Battambang-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: 'btb_normal';
+    src: url(../../../../font/Battambang-Regular.ttf);
+
+}
+
+:root {
+    --Background-color: #7BA46A;
+    --Text-color: rgb(41, 100, 193);
+    --Text-font: "Hanuman", Georgia, "Times New Roman", Times, serif;
+    --Text-color-green: green;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+}
+
+body {
+    background-color: var(--Background-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility Classes */
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.grid-col-2 {
+    grid-template-columns: 2;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.pd-5 {
+    padding: .5rem;
+}
+
+/* Padding Utilities from Bootstrap 4 */
+
+/* Padding on all sides */
+.p-0 {
+    padding: 0 !important;
+}
+
+.p-1 {
+    padding: 0.25rem !important;
+}
+
+.p-2 {
+    padding: 0.5rem !important;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.p-5 {
+    padding: 3rem !important;
+}
+
+/* Padding on top and bottom */
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.pt-1 {
+    padding-top: 0.25rem !important;
+}
+
+.pt-2 {
+    padding-top: 0.5rem !important;
+}
+
+.pt-3 {
+    padding-top: 1rem !important;
+}
+
+.pt-4 {
+    padding-top: 1.5rem !important;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+/* Padding on left and right */
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.pl-1 {
+    padding-left: 0.25rem !important;
+}
+
+.pl-2 {
+    padding-left: 0.5rem !important;
+}
+
+.pl-3 {
+    padding-left: 1rem !important;
+}
+
+.pl-4 {
+    padding-left: 1.5rem !important;
+}
+
+.pl-5 {
+    padding-left: 3rem !important;
+}
+
+/* Padding on right and left */
+.px-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.px-1 {
+    padding-right: 0.25rem !important;
+    padding-left: 0.25rem !important;
+}
+
+.px-2 {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+}
+
+.px-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+/* Padding on top, right, bottom, and left */
+.p-0 {
+    padding: 0 !important;
+}
+
+.p-1 {
+    padding: 0.25rem !important;
+}
+
+.p-2 {
+    padding: 0.5rem !important;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.p-5 {
+    padding: 3rem !important;
+}
+
+/* Margin Utilities from Bootstrap 4 */
+
+/* Margin on all sides */
+.m-0 {
+    margin: 0 !important;
+}
+
+.m-1 {
+    margin: 0.25rem !important;
+}
+
+.m-2 {
+    margin: 0.5rem !important;
+}
+
+.m-3 {
+    margin: 1rem !important;
+}
+
+.m-4 {
+    margin: 1.5rem !important;
+}
+
+.m-5 {
+    margin: 3rem !important;
+}
+
+/* Margin on top and bottom */
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.mt-1 {
+    margin-top: 0.25rem !important;
+}
+
+.mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+/* Margin on left and right */
+.ml-0 {
+    margin-left: 0 !important;
+}
+
+.ml-1 {
+    margin-left: 0.25rem !important;
+}
+
+.ml-2 {
+    margin-left: 0.5rem !important;
+}
+
+.ml-3 {
+    margin-left: 1rem !important;
+}
+
+.ml-4 {
+    margin-left: 1.5rem !important;
+}
+
+.ml-5 {
+    margin-left: 3rem !important;
+}
+
+/* Margin on right and left */
+.mx-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.mx-1 {
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
+}
+
+.mx-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+}
+
+.mx-3 {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+}
+
+.mx-4 {
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
+}
+
+.mx-5 {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+}
+
+/* Margin on top and bottom, left and right */
+.m-0 {
+    margin: 0 !important;
+}
+
+.m-1 {
+    margin: 0.25rem !important;
+}
+
+.m-2 {
+    margin: 0.5rem !important;
+}
+
+.m-3 {
+    margin: 1rem !important;
+}
+
+.m-4 {
+    margin: 1.5rem !important;
+}
+
+.m-5 {
+    margin: 3rem !important;
+}
+
+.op-1 {
+    opacity: 1;
+}
+
+.op-80 {
+    opacity: .80;
+}
+
+.op-75 {
+    opacity: .75;
+}
+
+.op-5 {
+    opacity: .5;
+}
+
+.op-25 {
+    opacity: .25;
+}
+
+
+
+/* Element Specific Styles */
+
+/* Content Containers */
+.content-header,
+.content-footer,
+.content {
+    width: 992px;
+    max-width: 992px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    margin: auto;
+}
+
+/* Left and Right Sidebars */
+.left-slidebar,
+.right-slidebar {
+    background-color: whitesmoke;
+    min-width: 215px;
+    width: 200px;
+    min-height: auto;
+}
+
+/* Main Content Area */
+.main-content {
+    text-align: center;
+    padding: 0px;
+    max-width: 562px;
+    width: auto;
+}
+
+
+
+
+/* Specific Element Styles */
+
+/* content-header */
+.content-header>img {
+    /* box-shadow: 5px 0 5px gray; */
+    /* width: 100%; */
+
+}
+
+.content-header>div {
+
+    display: none;
+
+}
+
+/* main */
+main {
+    margin-block: 1rem;
+}
+
+.list-subcategory {
+    margin: 0.25rem;
+}
+
+.list-subcategory>ul>li {
+    background-color: #204683;
+    color: white;
+}
+
+.list-subcategory>ul>li h4 {
+    padding: 0.5rem;
+    font-family: "Koulen";
+    font-weight: normal;
+}
+
+.list-subcategory>ul>li>ul {
+    background-color: #ffffff;
+}
+
+.list-subcategory>ul>li>ul>li {
+    border: 2px solid #204683;
+    border-top: 0;
+    padding: 0.3rem;
+    color: #204683;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    /* background-image: linear-gradient(to right, #204683, #204683c9); */
+    transition: background-position 0.3s ease;
+    /* Add a transition for background po`sition */
+}
+
+.list-subcategory>ul>li>ul>li:hover {
+    background-image: linear-gradient(to left, #204683, #ffffffc9);
+    /* Set initial background gradient */
+    background-size: 200% 100%;
+    /* Set background size (twice the container width) */
+    background-position: -100% 0;
+    /* Move background to the original position (left) on hover */
+}
+
+.list-subcategory>ul>li>ul>.active {
+    background-image: linear-gradient(to left, #204683, #ffffffc9);
+    /* Set initial background gradient */
+    background-size: 200% 100%;
+    /* Set background size (twice the container width) */
+    background-position: -100% 0;
+    /* Move background to the original position (left) on hover */
+}
+
+.list-subcategory>ul>li>ul>.active a {
+    color: whitesmoke !important;
+}
+
+.list-subcategory>ul>li>ul>li a {
+    font-weight: normal;
+    color: #204683;
+    font-family: "Koulen";
+    font-size: 14px;
+    transition: color 0.3s linear;
+}
+
+.list-subcategory>ul>li>ul>li:hover a {
+    color: whitesmoke;
+}
+
+
+.list-subcategory>ul>li>ul>li a img {
+    width: 80%;
+    text-align: center;
+}
+
+.right-slidebar>div {
+    text-align: center;
+}
+
+.content-footer>div {
+    text-align: center;
+}
+
+/* Logo Container */
+.logo-container img {
+    aspect-ratio: 16/9;
+    width: 40%;
+    margin: 1rem;
+}
+
+.responesive-ul-title>h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    padding: 1rem 0rem .5rem 0rem;
+    color: #505050;
+}
+
+
+/* Specific Elements - Miscellaneous */
+.icemodule_r img,
+.icemodule_r a img,
+.about-test-center img {
+    padding: 0;
+    margin: -4px 0;
+}
+
+.icemodule_r img:first-child,
+.icemodule_r a:first-child img,
+.about-test-center img:first-child {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.icemodule_r {
+    margin-block: 8px;
+}
+
+
+
+
+
+
+
+/* Additional Styling Classes */
+.content {
+    padding-top: 1rem;
+}
+
+.main-content {
+    padding: 0.8rem;
+}
+
+.W1 {
+    width: 100%;
+}
+
+.W80 {
+    width: 80%;
+}
+
+.W75 {
+    width: 75%;
+}
+
+.W50 {
+    width: 50%;
+}
+
+.T-CENTER {
+    text-align: center;
+}
+
+.KOULEN {
+    /* font-family: "Koulen"; */
+    font-family: 'btb_normal', 'Roboto', sans-serif;
+}
+
+.MB5 {
+    margin-block: 0.5rem;
+}
+
+.SHADOW {
+    box-shadow: 1px 1px 5px gray;
+}
+
+.RD5 {
+    border-radius: 0.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.float-right {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responesive  */
+@media (max-width:992px) {
+
+    h2 {
+        font-size: clamp(16px, 4.5vw, 24px);
+    }
+
+    h3 {
+        font-size: clamp(16px, 4vw, 24px);
+    }
+
+    main {
+        margin-block: 0;
+    }
+
+    .content-header,
+    .content-footer,
+    .content {
+        width: 100%;
+        max-width: 992px;
+    }
+
+    .content {
+        min-height: 100vh;
+    }
+
+    .left-slidebar,
+    .right-slidebar {
+        background-color: whitesmoke;
+        transition: .5s;
+        width: 0px;
+        max-width: 0px;
+        min-height: auto;
+        position: absolute;
+        overflow: hidden;
+        display: none;
+    }
+
+    /* .left-slidebar,
+    .right-slidebar {
+        background-color: whitesmoke;
+        transition: 1s ease-in; 
+        min-width: 0px !important;
+        width: 0px !important;
+        max-width: 0px !important;
+        min-height: auto;
+        position: absolute;
+        overflow: hidden;
+    } */
+
+
+    .right-slidebar {
+        display: none;
+    }
+
+    .main-content {
+        padding: clamp(.5rem, 3vw, 1.5rem);
+    }
+
+    .content {
+        /* padding-top: .5rem; */
+        padding: 0;
+
+    }
+
+    .content-header>img {
+        display: none;
+    }
+
+    .content-header>div {
+        display: flex;
+    }
+
+    .left-slidebar-active {
+        background-color: whitesmoke !important;
+        transition: 1s ease-in;
+        min-width: unset;
+        width: 100%;
+        min-height: auto;
+        height: 100%;
+        min-height: auto;
+        overflow-y: auto;
+        position: absolute;
+        z-index: 10;
+        display: unset;
+        left: 0;
+    }
+
+    .right-slidebar-active {
+        display: unset;
+    }
+
+
+    .list-subcategory>ul>li>ul {
+        /* width: 80%; */
+        max-height: 0px;
+        overflow: hidden;
+        transition: 1s ease-out;
+    }
+
+    .list-subcategory>ul>li:hover ul {
+        transition: 1s ease-out;
+        /* width: 80%; */
+        max-height: 1000px;
+        overflow: hidden;
+    }
+
+    .list-subcategory>ul>li>ul>li a img {
+        /* width: 80%; */
+        width: clamp(100px, 50%, 160px);
+        text-align: center;
+    }
+
+}
+
+p {
+    white-space: wrap;
+}

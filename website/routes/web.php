@@ -1,5 +1,12 @@
 <?php
 
+// use App\Http\Controllers\User\UsersController;
+
+use App\Http\Controllers\Admin\User\ProfileController;
+use App\Http\Controllers\Admin\User\UsersController;
+use App\Http\Controllers\Admin\School\CertificateController;
+use App\Models\school\Certificate;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -96,6 +103,11 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
     Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
         Route::view('/campusTemplete' , 'web.client.school.campus.campusTemplete')->name('campusTemplete');
     });
+    Route::get('program/{program}/grade/{grade}', [CertificateController::class, 'certificateSection'])->name('certificate');
+    Route::group(['prefix' => 'certificate', 'as' => 'certificate.'], function () {
+        Route::view('program/{program}/grade/{grade}/year/{year}' , 'web.client.school.certificate.certificate')->name('year');
+    });
+
 
     Route::view('/public-speaking' , 'web.client.school.public-speaking.public-speaking')->name('public-speaking');
 
@@ -157,9 +169,6 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
     });
 
 });
-
-
-
 
 Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.'], function () {
 
@@ -230,3 +239,30 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
 
 });
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'can:access-admin-page']], function () {
+    // Dashboard
+    Route::get('/', function () {
+        return view('web.admin.index');
+    });
+
+    // User Management
+    Route::prefix('user')->group(function () {
+        Route::resource('/', UsersController::class)->names('user');
+        Route::resource('profile', ProfileController::class)->names('user.profile');
+        Route::get('/resetpassword', [ProfileController::class, 'indexReset'])->name('user.profile.reset');
+    });
+
+    // School Management
+    Route::prefix('school')->as('school.')->middleware('can:access-school-page')->group(function () {
+        Route::resource('certificate',CertificateController::class)->names('certificate');
+        Route::prefix('certificate')->as('certificate')->group(function () {
+            Route::post('/store/file', [CertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
+            Route::post('/your-route', [CertificateController::class, 'processData'])->name('.excel.upload');
+        });
+    });
+});

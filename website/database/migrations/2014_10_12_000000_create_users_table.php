@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
@@ -17,9 +18,19 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->tinyInteger('role_id')->default(6);
+            // $table->enum('role_id' , [0,1,2,3,4,5])->default(0);
             $table->rememberToken();
             $table->timestamps();
         });
+
+        $data = [
+            ['id' => 1, 'name' => 'Administrator' , 'email' => 'admin@gmail.com' , 'password' => '$2y$10$nCMYL9rxlKLKAPlBRdZssuX2DiVGIdDjMW3NKOuI/ni4CVO/mgFZS' , 'role_id' => 1], // Corrected data format //123123123
+        ];
+
+        foreach ($data as $item) {
+            DB::table('users')->insert($item); // Corrected table name
+        }
     }
 
     /**

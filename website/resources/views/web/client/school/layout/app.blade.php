@@ -9,7 +9,8 @@
 
     <link rel="shortcut icon" href="{{ asset('asset/img/school/beltei_international_school_in_cambodia.png') }}"
         type="image/png">
-
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
