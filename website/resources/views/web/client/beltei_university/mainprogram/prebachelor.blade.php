@@ -3,9 +3,9 @@
 
 @section('content')
 
-<div class="text-start p-3">
+<div class="p-lg-3">
 
-    <h2 class="title-translate-font text-center my-3 underline">{{ __('beltei_university/mainprogram/prebachelor.header') }}</h2>
+    <h2 class="title-translate-font my-3 underline Blue-color">{{ __('beltei_university/mainprogram/prebachelor.header') }}</h2>
 
 
     <div class="text-start content-translate-font  text-justify ">

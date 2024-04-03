@@ -956,7 +956,7 @@ a {
     background-color: #55545E  !important;
 }
 .BCA-color-bg{
-    background-color: #55545E  !important;
+    background-color: #42B7DA  !important;
 }
 .Blue-color{
     color: #4156A3 !important;
@@ -964,7 +964,9 @@ a {
 .Green-color{
     color: #39A753 !important
 }
-
+.RED-color{
+    color: #E23439 !important;
+}
 .text-color-testcenter-header{
     color: var(--text-color-testcenter-header);
 }
