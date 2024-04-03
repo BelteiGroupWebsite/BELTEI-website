@@ -5,12 +5,11 @@
 
 <div class="text-start p-3">
 
-    <h2 class="title-translate-font text-center my-3 underline">{{ __('beltei_university/mainprogram/khmer.header') }}</h2>
+    <h2 class="title-translate-font text-center my-3 underline">{{ __('beltei_university/mainprogram/prebachelor.header') }}</h2>
 
 
-    <div>
-
-
+    <div class="text-start content-translate-font  text-justify ">
+        {!! __('beltei_university/mainprogram/prebachelor.description') !!}
     </div>
 
 </div>
