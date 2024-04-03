@@ -143,6 +143,9 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
         Route::view('vision' , 'web.client.beltei_university.about.vision')->name('vision');
         Route::view('history' , 'web.client.beltei_university.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.beltei_university.about.whyBeltei')->name('whybeltei');
+        Route::view('sturcture' , 'web.client.beltei_university.about.sturcture')->name('sturcture');
+        Route::view('pre_bachelor' , 'web.client.beltei_university.5_main_program.pre_bachelor')->name('pre_bachelor');
+
         // Route::view('campus' , 'web.client.beltei_university.about.whyBeltei')->name('campus');
 
     });
@@ -157,7 +160,10 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
             Route::view('/awarding' , 'web.client.beltei_university.mainprogram.khmerdetail.awarding')->name('awarding');
             Route::view('/certificate' , 'web.client.beltei_university.mainprogram.khmerdetail.certificate')->name('certificate');
             Route::view('/preschool' , 'web.client.beltei_university.mainprogram.khmerdetail.preschool')->name('certificate');
+
+
         });
+        Route::view('/prebachelor' , 'web.client.beltei_university.mainprogram.prebachelor')->name('prebachelor');
     });
 
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {

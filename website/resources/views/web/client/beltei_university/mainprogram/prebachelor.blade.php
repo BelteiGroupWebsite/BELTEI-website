@@ -10,7 +10,6 @@
 
     <div>
 
-        @include('web.client.beltei_university.layout.share.mainprogram.khmer')
 
     </div>
 

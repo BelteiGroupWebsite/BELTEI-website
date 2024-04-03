@@ -1,13 +1,13 @@
-@extends('web.client.school.layout.app')
+@extends('web.client.beltei_university.layout.app')
 
 
 @section('content')
-    <div class="text-start p-3">
+<div class="p-lg-3">
 
-        <h2 class="text-center title-translate-font my-3 underline">{{ __('school/about/whyBeltei.header') }}</h2>
+        <h2 class="title-translate-font my-3 underline Blue-color">{{ __('beltei_university/about/whyBeltei.header') }}</h2>
 
         <div class="content-translate-font text-justify">
-            {!! __('school/about/whyBeltei.description') !!}
+            {!! __('beltei_university/about/whyBeltei.description') !!}
         </div>
 
 
