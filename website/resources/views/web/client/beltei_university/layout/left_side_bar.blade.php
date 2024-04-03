@@ -14,7 +14,7 @@
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.B') }}</h6>
         </a>
-        <a href="{{ route('beltei_university.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('beltei_university/app.B1') }}</a>
+        <a href="{{ route('beltei_university.mainprogram.prebachelor') }}" class="list-group-item text-white">{{ __('beltei_university/app.B1') }}</a>
         <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.B2') }}</a>
         <a href="{{ route('beltei_university.about.vision') }}" class="list-group-item text-white">{{ __('beltei_university/app.B3') }}</a>
         <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.B4') }}</a>
