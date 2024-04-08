@@ -29,7 +29,7 @@
     
                     <div class="file-count position-absolute" style="left: .5rem; bottom:.5rem">
     
-                        <p class="translate-font">{{ __('beltei_university/faculty/faculty.Page') }} <span id="currentPage"></span> {{ __('beltei_university/faculty/faculty.of') }} <span id="allPages"></span></p>
+                        {{-- <p class="translate-font">{{ __('beltei_university/faculty/faculty.Page') }} <span id="currentPage"></span> {{ __('beltei_university/faculty/faculty.of') }} <span id="allPages"></span></p> --}}
                         @php
                             try {
                                 $id = $_GET['id']; //Retrieve the 'id' parameter from the URL
