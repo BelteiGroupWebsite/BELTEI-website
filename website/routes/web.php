@@ -5,6 +5,7 @@
 use App\Http\Controllers\Admin\User\ProfileController;
 use App\Http\Controllers\Admin\User\UsersController;
 use App\Http\Controllers\Admin\School\CertificateController;
+use App\Http\Controllers\GradeAController;
 use App\Models\school\Certificate;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -174,6 +175,9 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
         Route::view('/campusTemplete' , 'web.client.beltei_university.campus.campusTemplete')->name('campusTemplete');
     });
 
+    Route::view('/faculty' , 'web.client.beltei_university.faculty.faculty_detail')->name('faculty-detail');
+
+
 });
 
 Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.'], function () {
@@ -270,5 +274,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
             Route::post('/store/file', [CertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
             Route::post('/your-route', [CertificateController::class, 'processData'])->name('.excel.upload');
         });
+
+
+        Route::resource('grade-A' , GradeAController::class)->names('grade-A');
+        
+        
     });
 });

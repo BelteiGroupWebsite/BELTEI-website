@@ -57,7 +57,7 @@
 
 @section('setting-link')
     @if (Auth::user()->role_id < 4)
-        <a class="dropdown-item" href="{{ route('admin.user.create') }}">Create User</a>
+        <a class="dropdown-item" href="{{ route('admin.school.certificate.create') }}">Create Certificate</a>
     @endif
     {{-- <a class="dropdown-item" href="javascript:;">Another action</a>
     <a class="dropdown-item" href="javascript:;">Something else here</a> --}}
@@ -75,63 +75,65 @@
                 <h4>Student Certificate</h4>
             </div>
             <div class="card-body">
-                <div class="my-3">
-                    {{-- @livewire('school.certificate-search') --}}
-                    <livewire:school.certificate-search :grade="" ,:year="" , :program ="" />
-                </div>
+                <table>
 
-                {{-- <div>
-                    <table class="table table-hover table-bordered w-100 f14" style="vertical-align: middle">
+                </table>
+
+
+                <table class="table table-bordered text-center table-hover title-translate-font vertical-align-middle"
+                    id="box-table-a" border="0" width="100%" align="center">
+                    <tbody>
                         <tr>
-                            <th>No</th>
-                            @if (str_replace('_', '-', app()->getLocale()) == 'kh')
-                                <th>Khmer</th>
-                            @else
-                                <th>Latin</th>
-                            @endif
-                            <th>Nation</th>
-                            <th>Gender</th>
-                            <th>DOB</th>
-                            <th>Campus</th>
-                            <th>Profile</th>
-                            <th>Beltei Certificate</th>
-                            <th>Moey Certificate</th>
+                            <td class="label bg-success text-white py-4" colspan="9" width="100">
+                                <h5>{{ __('school/certificate/index.header') }}</h5>
+                            </td>
                         </tr>
-                        
-                        @foreach ($certificate as $student)
-                            <tr>
-                                <td>{{ $student->certi_no }}</td>
-                                @if (str_replace('_', '-', app()->getLocale()) == 'kh')
-                                    <td class="Battambang-Regular">{{ $student->name_kh }}</td>
-                                @else
-                                    <td>{{ $student->name_eng }}</td>
-                                @endif
-                                <td>{{ $student->nation }}</td>
-                                <td>{{ $student->gender }}</td>
-                                <td>{{ $student->dob }}</td>
-                                <td>{{ $student->campus }}</td>
-                                <td>
-                                    <a href="{{ url('certificate/'.$student->grade.'/'.$student->batch.'/'.$student->identify_user.'/profile/'.$student->certi_no.'.jpg') }}">
-                                        <img loading="lazy" class="w-100" style="max-width: 100px" src="{{ asset('certificate/'.$student->grade.'/'.$student->batch.'/'.$student->identify_user.'/beltei/'.$student->certi_no.'.jpg') }}" alt="">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="{{ url('certificate/'.$student->grade.'/'.$student->batch.'/'.$student->identify_user.'/beltei/'.$student->certi_no.'.jpg') }}">
-                                        <img loading="lazy" class="w-100" style="max-width: 100px" src="{{ asset('certificate/'.$student->grade.'/'.$student->batch.'/'.$student->identify_user.'/beltei/'.$student->certi_no.'.jpg') }}" alt="">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="{{ url('certificate/'.$student->grade.'/'.$student->batch.'/'.$student->identify_user.'/moey/'.$student->moey_id.'.jpg') }}">
-                                        <img loading="lazy" class="w-100" style="max-width: 100px" src="{{ asset('certificate/'.$student->grade.'/'.$student->batch.'/'.$student->identify_user.'/moey/'.$student->moey_id.'.jpg') }}" alt="">
-                                    </a>
-                                </td>
-                            </tr>
-                        @endforeach
-                    </table>
 
-                    {{ $certificate->links() }}
-                </div> --}}
-                
+                        <tr class="" style="background-color: lightblue">
+
+                            <td rowspan="2">Program</td>
+                            <td rowspan="2">Grade</td>
+                            <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
+                            <td colspan="2">{{ __('school/certificate/index.amout_sts') }}</td>
+                            <td rowspan="2">{{ __('school/certificate/index.certi_no') }}</td>
+                            <td rowspan="2">{{ __('school/certificate/index.name') }} <br></td>
+                            <td rowspan="2">{{ __('school/certificate/index.document') }}</td>
+                        </tr>
+                        <tr class="" style="background-color: lightblue">
+                            <td>{{ __('school/certificate/index.total') }}</td>
+                            <td>{{ __('school/certificate/index.female') }}</td>
+                        </tr>
+                        @foreach ($returnData as $data)
+                            @foreach ($data['batchYears'] as $identify_user => $batchYear)
+                                <tr>
+                                    <td>{{ $data['program'] }}</td>
+                                    <td>{{ $data['grade'] }}</td>
+                                    @if ($data['program'] == 1)
+                                        <td>{{ $batchYear . ' - ' . $batchYear + 1 }}<br></td>
+                                    @else
+                                        <td>{{ $batchYear }}<br></td>
+                                    @endif
+                                    <td>{{ $data['studentsPerYear'][$batchYear] ?? 0 }}</td>
+                                    <td>{{ $data['femaleStudentPerYear'][$batchYear] }}<br></td>
+                                    <td><a
+                                            href="{{ route('school.certificate.year', ['program' => $data['program'], 'grade' => $data['grade'], 'year' => $batchYear]) }}">{{ $data['certificateNoStartToEndPerYear'][0] . ' - ' . $data['certificateNoStartToEndPerYear'][0] + $data['studentsPerYear'][$batchYear] - 1 }}</a>
+                                    </td>
+                                    <td><a class="underline"
+                                            href="{{ route('school.certificate.year', ['program' => $data['program'], 'grade' => $data['grade'], 'year' => $batchYear]) }}">{{ __('school/certificate/index.open') }}</a>
+                                    </td>
+                                    <td><a class="underline" target="blank"
+                                            href="{{ url('certificate/' . $data['program'] . '/' . $data['grade'] . '/' . $batchYear . '/' . $identify_user . '/reference/reference.pdf') }}">{{ __('school/certificate/index.reference') }}</a>
+                                    </td>
+                                </tr>
+                            @endforeach
+                        @endforeach
+
+
+
+                    </tbody>
+                </table>
+
+
             </div>
         </div>
     </div>

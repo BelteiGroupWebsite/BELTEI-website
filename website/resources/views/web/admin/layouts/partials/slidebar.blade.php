@@ -55,7 +55,11 @@
                     <div class="menu-title">Beltei School</div>
                 </a>
                 <ul>
-                    <li> <a href="component-alerts.html"><i class="bi bi-circle"></i>News</a>
+                    <li> 
+                        <a href="{{ route('admin.school.certificate.index') }}"><i class="bi bi-circle"></i>Certificate</a>
+                    </li>
+                    <li> 
+                        <a href="{{ route('admin.school.certificate.index') }}"><i class="bi bi-circle"></i>Grade A Students</a>
                     </li>
                 </ul>
             </li>

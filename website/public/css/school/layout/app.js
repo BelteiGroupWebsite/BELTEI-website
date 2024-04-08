@@ -31,15 +31,12 @@ var sidebar = document.getElementsByClassName('sidebar');
 
 // for(let i = 0; i < sidebar.length ; i++){
 for(let i = 0; i < 1 ; i++){
-    // console.log(sidebar[i])
     var subsidebar = sidebar[i].querySelectorAll('.list-group');
     for(let j = 0; j<subsidebar.length ; j++ ){
-        // console.log(subsidebar[j]);
         var h6 = subsidebar[j].querySelector('h6');
         h6.innerHTML = String.fromCharCode(65 + j) + "- " + h6.innerHTML;
         var subsubsidebar = subsidebar[j].querySelectorAll('.list-group-item');
         for(let k = 0; k < subsubsidebar.length ; k++){
-            // console.log(subsubsidebar[k]);
             subsubsidebar[k].innerHTML = (k+1) + '- ' + subsubsidebar[k].innerHTML; // add to the front
         }
     }

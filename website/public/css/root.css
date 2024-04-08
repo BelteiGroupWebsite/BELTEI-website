@@ -1028,6 +1028,29 @@ a {
     p {
         font-size: 14px;
     }
+
+    .d-block-600px{
+        display: block !important;
+    }
+    .sidebar{
+        display: none;
+    }
+    .grid-2-600px{
+        display: flex;
+    }
+    .grid-2-600px > a{
+        width: 50% !important;
+        background-color: gray;
+    }
+    .scale-9-600px{
+        transform: scale( .9 , .99);
+    }
+    .w-100-600px{
+        width: 100%;
+    }
+    .w-50-600px{
+        width: 100%;
+    }
 }
 
 @media (min-width:768px) {

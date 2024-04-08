@@ -16,8 +16,24 @@ class CertificateController extends Controller
     public function index()
     {
         //
-        $certificate = Certificate::paginate(10);
-        return view('web.admin.school.certificate.index', compact('certificate'));
+        // $certificate = Certificate::paginate(10);
+        
+        // return view('web.admin.school.certificate.index');
+
+        $programs = [1,2];
+        $grades = [12,9,6];
+
+        $returnData = [];
+        foreach($programs as $program){
+            foreach($grades as $grade){
+                
+                $returnData[] = $this->certificateSectionFun($program, $grade);
+            }
+        }
+        // dd($returnData);
+        return view('web.admin.school.certificate.index' , compact('returnData'));
+
+        
     }
 
     /**
@@ -233,7 +249,7 @@ class CertificateController extends Controller
 
     // cliend side
 
-    public function certificateSection($program , $grade)
+    public function certificateSectionFun($program , $grade)
     {
         $batchYears = Certificate::
             where('program', $program)
@@ -266,14 +282,30 @@ class CertificateController extends Controller
             ->selectRaw('batch_startYear, MIN(certi_no) as start_certificate')
             ->pluck('start_certificate');
 
-        return view('web.client.school.certificate.index', [
+        // return view('web.client.school.certificate.index', [
+        //     'program' => $program,
+        //     'grade' => $grade,
+        //     'batchYears' => $batchYears,
+        //     'studentsPerYear' => $studentsPerYear,
+        //     'femaleStudentPerYear' => $femaleStudentPerYear,
+        //     'certificateNoStartToEndPerYear' => $certificateNoStartToEndPerYear,
+        // ]);
+        return [
             'program' => $program,
             'grade' => $grade,
             'batchYears' => $batchYears,
             'studentsPerYear' => $studentsPerYear,
             'femaleStudentPerYear' => $femaleStudentPerYear,
             'certificateNoStartToEndPerYear' => $certificateNoStartToEndPerYear,
-        ]);
+        ];
     }
 
+
+
+    public function certificateSection($program , $grade){
+
+        return view('web.client.school.certificate.index', $this->certificateSectionFun($program, $grade));
+
+    }
+    
 }

@@ -61,7 +61,7 @@
 
 
             {{-- sidebar and content  --}}
-            <div class="d-flex position-relative">
+            <div class="d-flex position-relative w-100">
 
                 {{-- left sidebar  --}}
                 @include('web.client.school.layout.left_side_bar')
@@ -86,7 +86,7 @@
             {{-- footer  --}}
             
             
-            <div class="mt-4">
+            <div class="mt-4 remove-600px">
                 <h6 class="Muol-Light p-3 bg-success text-white">វីឌីអូសំខាន់ៗ</h6>
                 <hr>
                 <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; row-gap: .5rem;">
@@ -270,6 +270,19 @@
             campusDiv.appendChild(div.firstChild);
 
         }
+
+        function responesiveCardDiv(){
+            var campusDiv = document.getElementById("campus");
+            var campusDivChildren = campusDiv.children;
+            for(let i=0; i < campusDivChildren.length ; i++){
+                // campusDivChildren[i].classList.add('col-4 p-0 m-0 overflow-hidden')
+                campusDivChildren[i].setAttribute("data-aos", "fade-zoom-in");
+                campusDivChildren[i].setAttribute("data-aos-delay", 100);
+                
+            }
+        }
+        responesiveCardDiv();
+        
     </script>
 
 

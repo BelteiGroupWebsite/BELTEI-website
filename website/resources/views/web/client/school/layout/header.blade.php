@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div id="campus" class="campus d-flex shadow-sm rounded p-3 justify-content-between mb-3 content-translate-font">
+    <div id="campus" class="campus d-flex shadow-sm rounded  justify-content-between mb-3 content-translate-font p-lg-3 scale-9-600px">
     </div>
     
     <div class="p-2">
