@@ -165,6 +165,12 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
 
         });
         Route::view('/prebachelor' , 'web.client.beltei_university.mainprogram.prebachelor')->name('prebachelor');
+        Route::view('/associate' , 'web.client.beltei_university.mainprogram.associate')->name('associate');
+        Route::view('/bachelor' , 'web.client.beltei_university.mainprogram.associate')->name('bachelor');
+        Route::view('/master' , 'web.client.beltei_university.mainprogram.associate')->name('master');
+        Route::view('/doctor' , 'web.client.beltei_university.mainprogram.associate')->name('doctor');
+
+
     });
 
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
