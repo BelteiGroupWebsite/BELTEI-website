@@ -28,9 +28,9 @@ class CertificateSearch extends Component
                 ->where('certi_no', 'like', '%' . $this->search . '%')
                 ->orWhere('name_kh', 'like', '%' . $this->search . '%')
                 ->orWhere('name_eng', 'like', '%' . $this->search . '%')
-                ->paginate(20);
+                ->paginate(50);
         } else {
-            $certificates = Certificate::where('program',$this->program)->where('grade' , $this->grade)->where('batch_startYear' , $this->year)->paginate(20);
+            $certificates = Certificate::where('program',$this->program)->where('grade' , $this->grade)->where('batch_startYear' , $this->year)->paginate(50);
             // how can i paginate a campus students per one page
         }
 
