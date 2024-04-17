@@ -262,5 +262,509 @@
 
 </ul>
 
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #03b1a8" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/canada.png') }}" alt="">
+                   <br> ប្រទេសកាណាដា
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/bire/images/homepics/ferileigmou.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/bire/images/homepics/canadawestmou.png" alt="">
+                </li>
+
+            </ul>
+
+        </div>
+    </li>
+
+</ul>
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #1e01c7" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br> ប្រទេសអូស្ដ្រាលី
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+
+            </ul>
+
+        </div>
+    </li>
+
+</ul>
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #009113" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br> ប្រទេសម៉ាឡេស៊ី
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+    </li>
+
+</ul>
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #6603e7" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>សាធារណៈរដ្ធប្រជាមានិតចិន
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+    </li>
+
+</ul>
+
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #1b8800" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>ប្រទេសសិង្ហបុរី
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #5f8d53" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>សាធារណៈរដ្ធកូរ៉េ
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #ff2929" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>ប្រទេសជប៉ុន
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #00f7cd" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>ព្រះរាជាណាចក្រថៃ
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Deakin-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Concord-final.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+
+
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #f78400" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>ប្រទេសនូវែលហ្សេឡង់
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #def700" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>ប្រទេសរៀតណាម
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #f7ca00" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>ប្រទេសស្វីស
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #029286" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>ប្រទេសឥណ្ឌូនេស៊ី
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #ff9100" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>ប្រទេសបារាំង
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #009118" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>ប្រទេសប៉ូឡូញ
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #2600ff" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>ប្រទេសបង់ក្លាដែស
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+    </li>
+</ul>
+
+
+
+<ul class="p-0 m-0  list-group ">
+
+    <li class="list-group-item d-flex justify-content-center">
+
+        <div style="border:inset 7px ; border-radius: 15px ; border-color: #2600ff" class="w-100 overflow-hidden border-blue">
+            <a href="#" class="cursor-pointer justify-content-center">
+                <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                    <img  class="w-75 max-width-50 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                    <img  class="w-75 max-width-50 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                   <br>មជ្ឈមណ្ឌល់ប្រឡងតេស្សអន្តរជាតិ
+                </p>
+            </a>
+
+            <ul class="list-group">
+                <li class="list-group-item p-0">
+                    <img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Sydney.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+    </li>
+</ul>
 
 </div>
