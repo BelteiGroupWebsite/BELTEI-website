@@ -426,16 +426,16 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/EASB.png" alt=""></a>
+                    <a href="https://www.eaim.edu.sg/en/" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/EASB.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/SIM.png" alt=""></a>
+                    <a href="https://www.sim.edu.sg" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/SIM.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Jamecook-final.png" alt=""></a>
+                    <a href="https://www.jcu.edu.au" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Jamecook-final.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Educare.png" alt=""></a>
+                    <a href="https://ega.edu.sg" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Educare.png" alt=""></a>
                 </li>
 
             </ul>
@@ -459,19 +459,19 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/sangmyung.png" alt=""></a>
+                    <a href="https://www.smu.ac.kr/eng1/index.do" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/sangmyung.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Suny.png" alt=""></a>
+                    <a href="https://www.sunykorea.ac.kr/en/" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Suny.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/SHIHAN-Final1.png" alt=""></a>
+                    <a href="https://en.shinhan.ac.kr/en/index.do" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/SHIHAN-Final1.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/KDU-Final3.png" alt=""></a>
+                    <a href="https://global.kduniv.ac.kr/global/index.php" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/KDU-Final3.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/iyf.png" alt=""></a>
+                    <a href="https://www.iyf.org" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/iyf.png" alt=""></a>
                 </li>
 
             </ul>
@@ -495,16 +495,16 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Hosei-final.png" alt=""></a>
+                    <a href="https://www.hosei.ac.jp/english/" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Hosei-final.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/bire/images/homepics/university_fukui.png" alt=""></a>
+                    <a href="https://www.u-fukui.ac.jp/eng/" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/bire/images/homepics/university_fukui.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/UH-final.png" alt=""></a>
+                    <a href="https://www.u-hyogo.ac.jp/english/" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/UH-final.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Yana-final.png" alt=""></a>
+                    <a href="https://yanagigaura.ed.jp/en/" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Yana-final.png" alt=""></a>
                 </li>
 
             </ul>
@@ -529,25 +529,25 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/assumption_university.png" alt=""></a>
+                    <a href="https://www.au.edu" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/assumption_university.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/bire/images/homepics/bangkoruniversity.png" alt=""></a>
+                    <a href="https://www.bu.ac.th/th" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/bire/images/homepics/bangkoruniversity.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/utccuniversity.png" alt=""></a>
+                    <a href="https://www.utcc.ac.th/admission/" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/utccuniversity.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/RMUTT1.png" alt=""></a>
+                    <a href="https://www.eng.rmutt.ac.th" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/RMUTT1.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/AIHM-Final1.png" alt=""></a>
+                    <a href="https://www.aihm.education" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/AIHM-Final1.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/PIM-Final2.png" alt=""></a>
+                    <a href="https://www.pim.ac.th" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/PIM-Final2.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/British-college.png" alt=""></a>
+                    <a href="https://www.thebritishcollege.edu.np" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/British-college.png" alt=""></a>
                 </li>
 
 
@@ -573,7 +573,7 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/PIHMS.png" alt=""></a>
+                    <a href="https://pihms.ac.nz" target="_blank"><img style="height: 70px"  class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/PIHMS.png" alt=""></a>
                 </li>
             </ul>
 
@@ -597,7 +597,7 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Vanlang1.png" alt=""></a>
+                    <a href="https://vlu.edu.vn/en" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Vanlang1.png" alt=""></a>
                 </li>
             </ul>
 
@@ -621,10 +621,10 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/HTM.png" alt=""></a>
+                    <a href="https://htmi.ch" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/HTM.png" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/BHMS.png" alt=""></a>
+                    <a href="https://www.bhms.ch" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/BHMS.png" alt=""></a>
                 </li>
             </ul>
 
@@ -648,7 +648,7 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/BINUS.png" alt=""></a>
+                    <a href="https://binus.ac.id" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/BINUS.png" alt=""></a>
                 </li>
             </ul>
 
@@ -672,7 +672,7 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/MBA.png" alt=""></a>
+                    <a href="https://www.accessmba.com" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/MBA.png" alt=""></a>
                 </li>
             </ul>
 
@@ -695,7 +695,7 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/poland1.png" alt=""></a>
+                    <a href="https://en.uitm.edu.eu" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/poland1.png" alt=""></a>
                 </li>
             </ul>
 
@@ -719,7 +719,7 @@
 
             <ul class="list-group">
                 <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/oneeducation.png" alt=""></a>
+                    <a href="https://www.oneeducation.org.uk" target="_blank"><img style="height: 70px" style="height: 70px" class="w-100 justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/oneeducation.png" alt=""></a>
                 </li>
             </ul>
 
