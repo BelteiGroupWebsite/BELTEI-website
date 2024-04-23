@@ -3,7 +3,7 @@
 
 return [
 
-    'header' => "ថ្នាក់បំប៉នភាសាអង់គ្លេស",
+    'header' => "Inrensive Course (English and Computer)",
 
     'description' => '
 
@@ -67,12 +67,12 @@ return [
     <tbody>
 
         <tr class="BEng-color-bg">
-            <td class="label" colspan="2">កម្មវិធីសិក្សា​(សិក្សារយៈពេល១ឆ្នាំ) <br> Program of Study (One year Program)</td>
+            <td class="label" colspan="2">Program of Study (One year Program)</td>
         </tr>
 
         <tr class="BCA-color-bg">
-            <td><strong>ឆមាសទី១(Semester1 / BC1)</strong></td>
-            <td><strong>ឆមាសទី២(Semester2 / BC2)</strong></td>
+            <td><strong>Semester1 / BC1</strong></td>
+            <td><strong>Semester2 / BC2</strong></td>
         </tr>
 
         <tr class="BCA-color-bg">

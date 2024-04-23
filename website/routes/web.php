@@ -166,9 +166,9 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
         });
         Route::view('/prebachelor' , 'web.client.beltei_university.mainprogram.prebachelor')->name('prebachelor');
         Route::view('/associate' , 'web.client.beltei_university.mainprogram.associate')->name('associate');
-        Route::view('/bachelor' , 'web.client.beltei_university.mainprogram.associate')->name('bachelor');
-        Route::view('/master' , 'web.client.beltei_university.mainprogram.associate')->name('master');
-        Route::view('/doctor' , 'web.client.beltei_university.mainprogram.associate')->name('doctor');
+        Route::view('/bachelor' , 'web.client.beltei_university.mainprogram.bachelor')->name('bachelor');
+        Route::view('/master' , 'web.client.beltei_university.mainprogram.master')->name('master');
+        Route::view('/doctor' , 'web.client.beltei_university.mainprogram.doctor')->name('doctor');
 
 
     });
@@ -283,7 +283,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
 
 
         Route::resource('grade-A' , GradeAController::class)->names('grade-A');
-        
-        
+
+
     });
 });

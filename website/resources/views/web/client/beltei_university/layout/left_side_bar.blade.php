@@ -16,7 +16,7 @@
         </a>
         <a href="{{ route('beltei_university.mainprogram.prebachelor') }}" class="list-group-item text-white">{{ __('beltei_university/app.B1') }}</a>
         <a href="{{ route('beltei_university.mainprogram.associate') }}" class="list-group-item text-white">{{ __('beltei_university/app.B2') }}</a>
-        <a href="{{ route('beltei_university.about.vision') }}" class="list-group-item text-white">{{ __('beltei_university/app.B3') }}</a>
+        <a href="{{ route('beltei_university.mainprogram.bachelor') }}" class="list-group-item text-white">{{ __('beltei_university/app.B3') }}</a>
         <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.B4') }}</a>
         <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.B5') }}</a>
     </ul>
@@ -36,7 +36,7 @@
         <a href="{{ route('beltei_university.faculty-detail') }}?id=9" style="height: 40px; border: inset 3px ;  border-radius: 18px ; font-family: KhmerOSMoul ; text-shadow: 2px 2px 2px #21ade3" class="list-group-item BEng-color-bg border Gold-color-border text-white d-flex align-items-center">{{ __('beltei_university/app.C9') }}</a>
         <a href="{{ route('beltei_university.faculty-detail') }}?id=10" style="height: 40px; border: inset 3px ;  border-radius: 18px ; font-family: KhmerOSMoul ; text-shadow: 2px 2px 2px #21ade3" class="list-group-item BArch-color-bg border Gold-color-border text-white d-flex align-items-center">{{ __('beltei_university/app.C10') }}</a>
         <a href="{{ route('beltei_university.faculty-detail') }}?id=11" style="height: 40px; border: inset 3px ;  border-radius: 18px ; font-family: KhmerOSMoul ; text-shadow: 2px 2px 2px #21ade3" class="list-group-item BIR-color-bg border Gold-color-border text-white d-flex align-items-center">{{ __('beltei_university/app.C11') }}</a>
-        <a href="{{ route('beltei_university.faculty-detail') }}?id=12" style="height: 40px; border: inset 3px ;  border-radius: 18px ; font-family: KhmerOSMoul ; text-shadow: 2px 2px 2px #21ade3" class="list-group-item BBA-color-bg border Gold-color-border text-white d-flex align-items-center">{{ __('beltei_university/app.C12') }}</a>
+        <a href="{{ route('beltei_university.faculty-detail') }}?id=12" style="height: 40px; border: inset 3px ;  border-radius: 18px ; font-family: KhmerOSMoul ; text-shadow: 2px 2px 2px #21ade3" class="list-group-item BCA-color-bg border Gold-color-border text-white d-flex align-items-center">{{ __('beltei_university/app.C12') }}</a>
 
     </ul>
 
