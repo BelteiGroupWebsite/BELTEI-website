@@ -44,9 +44,24 @@
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{!! __('beltei_university/app.D') !!}</h6>
         </a>
-        <a href="{{ route('beltei_university.recognition.') }}" style="height: 70px; border:inset 3px ; border-radius: 18px" class="list-group-item text-white Red-color-border">{{ __('beltei_university/app.D1') }}</a>
-        <a href="{{ route('beltei_university.mou.national') }}" style="height: 70px; border:inset 3px ; border-radius: 18px"  class="list-group-item text-white Red-color-border">{!! __('beltei_university/app.D2') !!}</a>
-        <a href="{{ route('beltei_university.mou.international') }}" style="height: 70px; border:inset 3px ; border-radius: 18px"  class="list-group-item text-white Red-color-border">{!! __('beltei_university/app.D3') !!}</a>
+        <a href="{{ route('beltei_university.recognition.') }}" style="height: 80px; border:inset 3px ; border-radius: 18px" class="list-group-item text-white Red-color-border d-flex align-items-center">
+            <img class="width-50" src="{{ asset('asset/img/university/app/Untitled-1.png') }}" alt="">
+            <p>
+                {{ __('beltei_university/app.D1') }}
+            </p>
+        </a>
+        <a href="{{ route('beltei_university.mou.national') }}" style="height: 80px; border:inset 3px ; border-radius: 18px"  class="list-group-item text-white Red-color-border d-flex align-items-center">
+            <img class="width-50" src="{{ asset('asset/img/university/app/Untitled-2.png') }}" alt="">
+            <p>
+                {{ __('beltei_university/app.D2') }}
+            </p>
+        </a>
+        <a href="{{ route('beltei_university.mou.international') }}" style="height: 80px; border:inset 3px ; border-radius: 18px"  class="list-group-item text-white Red-color-border d-flex align-items-center">
+            <img class="width-50" src="{{ asset('asset/img/university/app/Untitled-3.png') }}" alt="">
+            <p>
+                {{ __('beltei_university/app.D3') }}
+            </p>
+        </a>
 
     </ul>
 
