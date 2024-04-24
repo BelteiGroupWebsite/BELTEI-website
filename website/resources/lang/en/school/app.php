@@ -95,6 +95,30 @@ return [
     'F3' => "Outstanding Students",
 
     'G' => "Outstanding Student",
+
+    
+    'H' => "Public speaking Content",
+    
+    'I' => "Debate",
+
+    'english-speaking' => "English Speaking Content",
+
+    'grade' => "Grade" ,
+
+    'n0' => '0',
+    'n1' => '1',
+    'n2' => '2',
+    'n3' => '3',
+    'n4' => '4',
+    'n5' => '5',
+    'n6' => '6',
+    'n7' => '7',
+    'n8' => '8',
+    'n9' => '9',
+    'n10' => '10',
+    'n11' => '11',
+    'n12' => '12',
+    
     
     'marquee' => '                
         <strong class="Muol-Light">BELTEI International School</strong>

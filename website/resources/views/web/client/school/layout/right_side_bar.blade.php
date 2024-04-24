@@ -111,55 +111,60 @@
 
     <ul class="text-capitalize list-group f14 unhover-padding">
         <a href="{{ route('school.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.G') }}</h6>
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.english-speaking') }}</h6>
         </a>
-        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
-             ថ្នាក់ទី​ ១២
+        <a href="{{ route('school.english-speaking-12') }}" class="list-group-item text-white text-center">
+            {{ __('school/app.grade') }} {{ __('school/app.n12') }}
              <div class="d-flex justify-content-center ">
                 <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
                     
                 </div>
-                {{-- <img src="" alt=""> --}}
              </div>
         </a>
-        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
-             ថ្នាក់ទី​ ៩
+        <a href="{{ route('school.english-speaking-9') }}" class="list-group-item text-white text-center">
+            {{ __('school/app.grade') }} {{ __('school/app.n9') }}
              <div class="d-flex justify-content-center ">
                 <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
                     
                 </div>
-                {{-- <img src="" alt=""> --}}
              </div>
         </a>
-        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
-             ថ្នាក់ទី​ ៦
+        <a href="{{ route('school.english-speaking-6') }}" class="list-group-item text-white text-center">
+            {{ __('school/app.grade') }} {{ __('school/app.n6') }}
              <div class="d-flex justify-content-center ">
                 <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
                     
                 </div>
-                {{-- <img src="" alt=""> --}}
              </div>
         </a>
-        <a href="{{ route('school.public-speaking') }}" class="list-group-item text-white text-center">
-             ថ្នាក់ទី​ ៣
+        <a href="{{ route('school.english-speaking-3') }}" class="list-group-item text-white text-center">
+            {{ __('school/app.grade') }} {{ __('school/app.n3') }}
              <div class="d-flex justify-content-center ">
                 <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
                     
                 </div>
-                {{-- <img src="" alt=""> --}}
              </div>
         </a>
     </ul>
 
-    {{-- <ul class="text-capitalize list-group f14">
+    <ul class="text-capitalize list-group f14 unhover-padding">
         <a href="{{ route('school.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.A') }}</h6>
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.I') }}</h6>
         </a>
-        <a href="{{ route('school.about.welcome') }}" class="list-group-item text-white">{{ __('school/app.A1') }}</a>
-        <a href="{{ route('school.about.purpose') }}" class="list-group-item text-white">{{ __('school/app.A2') }}</a>
-        <a href="{{ route('school.about.vision') }}" class="list-group-item text-white">{{ __('school/app.A3') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A4') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A5') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A6') }}</a>
-    </ul> --}}
+        <a href="{{ route('school.english-debate-12') }}" class="list-group-item text-white text-center">
+             {{ __('school/app.grade') }} {{ __('school/app.n11') }}-{{ __('school/app.n12') }}
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                </div>
+             </div>
+        </a>
+        <a href="{{ route('school.english-debate-9') }}" class="list-group-item text-white text-center">
+            {{ __('school/app.grade') }} {{ __('school/app.n9') }}-{{ __('school/app.n10') }}
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                </div>
+             </div>
+        </a>
+    </ul>
+    
 </div>

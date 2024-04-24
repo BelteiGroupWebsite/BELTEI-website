@@ -110,7 +110,28 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
     });
 
 
-    Route::view('/public-speaking' , 'web.client.school.public-speaking.public-speaking')->name('public-speaking');
+    Route::view('/public-speaking' , 'web.client.school.public-speaking.grade12')->name('public-speaking');
+
+    Route::view('/public-speaking/12' , 'web.client.school.public-speaking.grade12')->name('public-speaking-12');
+    Route::view('/public-speaking/9' , 'web.client.school.public-speaking.grade9')->name('public-speaking-9');
+    Route::view('/public-speaking/6' , 'web.client.school.public-speaking.grade6')->name('public-speaking-6');
+    Route::view('/public-speaking/3' , 'web.client.school.public-speaking.grade3')->name('public-speaking-3');
+
+    Route::view('/english-speaking/12' , 'web.client.school.english-speaking.grade12')->name('english-speaking-12');
+    Route::view('/english-speaking/9' , 'web.client.school.english-speaking.grade9')->name('english-speaking-9');
+    Route::view('/english-speaking/6' , 'web.client.school.english-speaking.grade6')->name('english-speaking-6');
+    Route::view('/english-speaking/3' , 'web.client.school.english-speaking.grade3')->name('english-speaking-3');
+    
+
+    Route::view('/khmer/debate/10' , 'web.client.school.debate.khmer.debate10')->name('khmer-debate-10');
+    Route::view('/khmer/debate/8' , 'web.client.school.debate.khmer.debate8')->name('khmer-debate-8');
+    Route::view('/khmer/debate/6' , 'web.client.school.debate.khmer.debate6')->name('khmer-debate-6');
+
+    Route::view('/english/debate/12' , 'web.client.school.debate.english.debate12')->name('english-debate-12');
+    Route::view('/english/debate/9' , 'web.client.school.debate.english.debate9')->name('english-debate-9');
+
+
+
 
 });
 
