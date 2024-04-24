@@ -15,10 +15,10 @@
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.B') }}</h6>
         </a>
         <a href="{{ route('beltei_university.mainprogram.prebachelor') }}" class="list-group-item text-white">{{ __('beltei_university/app.B1') }}</a>
-        <a href="{{ route('beltei_university.mainprogram.associate') }}" class="list-group-item text-white">{{ __('beltei_university/app.B2') }}</a>
-        <a href="{{ route('beltei_university.mainprogram.bachelor') }}" class="list-group-item text-white">{{ __('beltei_university/app.B3') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.B4') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.B5') }}</a>
+        <a href="{{ route('beltei_university.mainprogram.degree') }}?degree=associate&nation={{ app()->getLocale() }}" class="list-group-item text-white">{{ __('beltei_university/app.B2') }}</a>
+        <a href="{{ route('beltei_university.mainprogram.degree') }}?degree=bachelor&nation={{ app()->getLocale() }}" class="list-group-item text-white">{{ __('beltei_university/app.B3') }}</a>
+        <a href="{{ route('beltei_university.mainprogram.degree') }}?degree=master&nation={{ app()->getLocale() }}" class="list-group-item text-white">{{ __('beltei_university/app.B4') }}</a>
+        <a href="{{ route('beltei_university.mainprogram.degree') }}?degree=doctor&nation={{ app()->getLocale() }}" class="list-group-item text-white">{{ __('beltei_university/app.B5') }}</a>
     </ul>
     <ul style="background-color: #21ade3" class="text-capitalize list-group f14 ">
         <a href="{{ route('beltei_university.') }}">

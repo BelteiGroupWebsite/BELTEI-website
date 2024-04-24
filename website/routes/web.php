@@ -191,6 +191,8 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
         Route::view('/master' , 'web.client.beltei_university.mainprogram.master')->name('master');
         Route::view('/doctor' , 'web.client.beltei_university.mainprogram.doctor')->name('doctor');
 
+        Route::view('/' , 'web.client.beltei_university.mainprogram.degree')->name('degree');
+
 
     });
 
@@ -213,6 +215,8 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
         Route::view('/national' , 'web.client.beltei_university.mou.national')->name('national');
         Route::view('/international' , 'web.client.beltei_university.mou.international')->name('international');
     });
+
+
     
     
 });
