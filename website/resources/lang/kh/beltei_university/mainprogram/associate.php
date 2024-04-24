@@ -8,7 +8,7 @@ return [
     'description' => '
 
     <div>
-    <img src="asset/img/school/language/usa.png" alt="">
+
     </div>
     '
 ];
