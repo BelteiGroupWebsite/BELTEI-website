@@ -44,9 +44,9 @@
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{!! __('beltei_university/app.D') !!}</h6>
         </a>
-        <a href="{{ route('beltei_university.about.welcome') }}" style="height: 70px; border:inset 3px ; border-radius: 18px" class="list-group-item text-white Red-color-border">{{ __('beltei_university/app.D1') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" style="height: 70px; border:inset 3px ; border-radius: 18px"  class="list-group-item text-white Red-color-border">{!! __('beltei_university/app.D2') !!}</a>
-        <a href="{{ route('beltei_university.about.vision') }}" style="height: 70px; border:inset 3px ; border-radius: 18px"  class="list-group-item text-white Red-color-border">{!! __('beltei_university/app.D3') !!}</a>
+        <a href="{{ route('beltei_university.recognition.') }}" style="height: 70px; border:inset 3px ; border-radius: 18px" class="list-group-item text-white Red-color-border">{{ __('beltei_university/app.D1') }}</a>
+        <a href="{{ route('beltei_university.mou.national') }}" style="height: 70px; border:inset 3px ; border-radius: 18px"  class="list-group-item text-white Red-color-border">{!! __('beltei_university/app.D2') !!}</a>
+        <a href="{{ route('beltei_university.mou.international') }}" style="height: 70px; border:inset 3px ; border-radius: 18px"  class="list-group-item text-white Red-color-border">{!! __('beltei_university/app.D3') !!}</a>
 
     </ul>
 

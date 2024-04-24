@@ -205,6 +205,16 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
     Route::view('/faculty' , 'web.client.beltei_university.faculty.faculty_detail')->name('faculty-detail');
 
 
+    Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
+        Route::view('/' , 'web.client.beltei_university.recognition.recognition');
+        Route::view('/recognitiondetail' , 'web.client.beltei_university.recognition.recognitiondetail.recognitiondetail')->name('recognitiondetail');
+    });
+    Route::group(['prefix' => 'mou', 'as' => 'mou.'], function () {
+        Route::view('/national' , 'web.client.beltei_university.mou.national')->name('national');
+        Route::view('/international' , 'web.client.beltei_university.mou.international')->name('international');
+    });
+    
+    
 });
 
 Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.'], function () {
