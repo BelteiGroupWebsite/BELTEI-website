@@ -2,10 +2,25 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\school\GradeA;
 use Illuminate\Http\Request;
+use Pion\Laravel\ChunkUpload\Handler\HandlerFactory;
+use Pion\Laravel\ChunkUpload\Receiver\FileReceiver;
 
 class GradeAController extends Controller
 {
+
+    /**
+     * Display a listing of the resource.
+     */
+    public function client()
+    {
+        //
+        // return view('web.admin.school.gradeA.index');
+        $gradeA = GradeA::get();
+        return view('web.client.school.outstanding-student.grade-A.index' , compact('gradeA'));
+    }
+
     /**
      * Display a listing of the resource.
      */
@@ -13,6 +28,7 @@ class GradeAController extends Controller
     {
         //
         // return view('web.admin.school.gradeA.index');
+        return view('web.admin.school.gradeA.index');
     }
     
     /**
@@ -22,7 +38,7 @@ class GradeAController extends Controller
     {
         //
 
-        return view('web.admin.school.gradeA.index');
+        return view('web.admin.school.gradeA.create');
     }
 
     /**
@@ -64,4 +80,83 @@ class GradeAController extends Controller
     {
         //
     }
+
+
+
+        public function processData(Request $request)
+    {
+        $datas = $request->input('data');
+
+
+
+
+        session(['excelData' => $datas[0]]);
+        session(['academic_year' => $datas[1]]);
+
+        $identify = time();
+        session(['identify' => $identify]);
+
+        try {
+            foreach ($datas[0] as $data) {
+
+                GradeA::create([
+                    'khmer_name' => $data[0],
+                    'latin_name' => $data[1],
+                    'academic_year' => session('academic_year'),
+                    'campus_id' => $data[2],
+                    'identify_user' => session('identify'),
+                ]);
+            }
+        } catch (\Exception $e) {
+            return response()->json(['message' => $e->getMessage()]);
+        }
+
+        return response()->json(['message' => session('grade')]);
+    }
+
+    public function uploadLargeFiles(Request $request)
+    {
+
+
+        try{
+            $folder = $request->input('folder');
+    
+            $receiver = new FileReceiver('file', $request, HandlerFactory::classFromRequest($request));
+    
+            if (!$receiver->isUploaded()) {
+            }
+    
+            $fileReceived = $receiver->receive(); // receive file
+    
+            if ($fileReceived->isFinished()) { // file uploading is complete / all chunks are uploaded
+                $file = $fileReceived->getFile(); // get file
+                $extension = $file->getClientOriginalExtension();
+                $fileName = str_replace('.' . $extension, '', $file->getClientOriginalName()); // file name without extension
+    
+                // $cleanFileName = $fileName;
+    
+                $cleanFileName = preg_replace('/[^A-Za-z0-9_.-]/', '', str_replace(' ', '', $fileName));
+
+                $cleanFileName .= '.' . $extension;
+    
+                $folder = "gradeA/" . session('academic_year') . "/" . session('identify') . "/" . $folder;
+    
+                // $fileFolder = $folder.'/'.$cleanFileName;
+    
+                $file->move(public_path($folder), $cleanFileName);
+    
+            }
+    
+            $handler = $fileReceived->handler();
+            return [
+                'done' => $handler->getPercentageDone(),
+                'status' => true
+            ];
+        }catch(\Exception $e){
+            return $e;
+        }   
+    }
+
+    
+    
 }

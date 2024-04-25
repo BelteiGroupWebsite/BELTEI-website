@@ -132,6 +132,15 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
 
 
 
+    Route::group(['prefix' => 'outstanding-student', 'as' => 'outstanding-student.'], function () {
+
+        Route::view('/national' , 'web.client.school.outstanding-student.national.index')->name('national');
+        Route::view('/city' , 'web.client.school.outstanding-student.city.index')->name('city');
+
+        Route::get('/grade-A', [GradeAController::class, 'client'])->name('grade-A');
+
+    });
+    
 
 });
 
@@ -310,14 +319,21 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
 
     // School Management
     Route::prefix('school')->as('school.')->middleware('can:access-school-page')->group(function () {
+
+
         Route::resource('certificate',CertificateController::class)->names('certificate');
         Route::prefix('certificate')->as('certificate')->group(function () {
             Route::post('/store/file', [CertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
             Route::post('/your-route', [CertificateController::class, 'processData'])->name('.excel.upload');
         });
-
-
-        Route::resource('grade-A' , GradeAController::class)->names('grade-A');
+        
+        
+        // Route::resource('grade-A' , GradeAController::class)->names('grade-A');
+        Route::resource('grade-A',GradeAController::class)->names('grade-A');
+        Route::prefix('grade-A')->as('grade-A')->group(function () {
+            Route::post('/store/file', [GradeAController::class, 'uploadLargeFiles'])->name('.files.upload.large');
+            Route::post('/your-route', [GradeAController::class, 'processData'])->name('.excel.upload');
+        });
 
 
     });
