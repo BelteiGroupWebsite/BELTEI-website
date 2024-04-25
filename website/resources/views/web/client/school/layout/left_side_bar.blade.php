@@ -69,7 +69,7 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.F') }}</h6>
         </a>
-        <a href="{{ route('school.outstanding-student.national') }}" class="list-group-item text-white">{{ __('school/app.F1') }}</a>
+        <a href="{{ route('school.outstanding-student.grade-A') }}" class="list-group-item text-white">{{ __('school/app.F1') }}</a>
         <a href="{{ route('school.outstanding-student.national') }}" class="list-group-item text-white">{{ __('school/app.F2') }}</a>
         <a href="{{ route('school.outstanding-student.city') }}" class="list-group-item text-white">{{ __('school/app.F3') }}</a>
     </ul>
