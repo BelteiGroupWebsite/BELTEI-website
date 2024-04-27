@@ -105,6 +105,7 @@ return [
 
     'grade' => "Grade" ,
 
+
     'n0' => '0',
     'n1' => '1',
     'n2' => '2',
@@ -128,8 +129,23 @@ return [
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
         1- Khmer General Education | 2- ESL Program | 3- Skills Training Program | 4- Computer Training Program | 5- International Test Preparation Courses
 
-        </span>'
+        </span>',
 
+
+
+    // right sidebar
+
+    'graduateStudent' => "List of Graduate Student",
+    'generalProgram' => "Khmer General Education",
+    'highSchoolDiploma' => "BELTEI HIGH SCHOOL DIPLOMA",
+    'juniorHighSchool' => "BELTEI JUNIOR HIGH SCHOOL DIPLOMA",
+    'primaryCertificate' => "BELTEI PRIMARY CERTIFICATE",
+
+
+    'ESLProgram' => "ESL Program",
+
+    'ESLDiploma' => "BELTEI ESL Diploma",
+    'ESLlevel6' => "BELTEI ESL Level 6",
 
 ];
 

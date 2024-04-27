@@ -8,7 +8,7 @@ return
     
     <div>
 
-    <h4 class = "title-translate-font bg-info p-3 text-white"> Excellent student in grade 12 </h4>
+    <h4 class = "title-translate-font bg-info p-3 text-white"> Grade 12 Outstanding Student </h4>
     <div class = "content-translate-font table text-start">
    
    
@@ -62,7 +62,7 @@ return
 
 
 <div>
- <h5 class = "title-translate-font bg-success p-2 text-white text-center"> 2014 = 02 people </h5>
+ <h5 class = "title-translate-font bg-success p-2 text-white text-center"> 2014 = 02 students </h5>
  <div class = "d-flex align-items-center border">
  <img src = ":image04" alt = "">
  <p>
@@ -135,7 +135,7 @@ return
  <div class = "content-translate-font table text-start">
 
  <div>
- <h5 class = "title-translate-font bg-success p-2 text-white text-center"> 2022 = 05 people </h5>
+ <h5 class = "title-translate-font bg-success p-2 text-white text-center"> 2022 = 05 students </h5>
  <div class = "d-flex align-items-center border">
  <img src = ":image09" alt = "">
  <p>
@@ -204,7 +204,7 @@ return
 
 
 <div>
- <h5 class = "title-translate-font bg-success p-2 text-white text-center"> 2018 = 04 people </h5>
+ <h5 class = "title-translate-font bg-success p-2 text-white text-center"> 2018 = 04 students </h5>
  <div class = "d-flex align-items-center border">
  <img src = ":image14" alt = "">
  <p>
@@ -228,7 +228,7 @@ return
  </div>
 
  <div>
- <h5 class = "title-translate-font bg-success p-2 text-white text-center"> 2017 = 04 people </h5>
+ <h5 class = "title-translate-font bg-success p-2 text-white text-center"> 2017 = 04 students </h5>
  <div class = "d-flex align-items-center border">
  <img src = ":image16" alt = "">
  <p>

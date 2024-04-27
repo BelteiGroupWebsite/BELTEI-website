@@ -259,6 +259,7 @@
                             if (response.ok) {
                                 return response.json();
                             } else {
+                                console.log(response.message);
                                 throw new Error('Failed to send data');
                             }
                         })

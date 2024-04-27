@@ -59,7 +59,7 @@
                         <a href="{{ route('admin.school.certificate.index') }}"><i class="bi bi-circle"></i>Certificate</a>
                     </li>
                     <li> 
-                        <a href="{{ route('admin.school.certificate.index') }}"><i class="bi bi-circle"></i>Grade A Students</a>
+                        <a href="{{ route('admin.school.grade-A.create') }}"><i class="bi bi-circle"></i>Grade A Students</a>
                     </li>
                 </ul>
             </li>

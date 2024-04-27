@@ -7,10 +7,10 @@ return [
     <table class="table table-hover table-bordered content-translate-font ">
 
     <tr class = "bg-info">
- <th> Seventh grade study </th>
+ <th> Grade 12 Outstanding </th>
  </tr>
  <tr class = "bg-success text-white">
- <th> Last year = time </th>
+ <th> 2022 = 8 </th>
  </tr>
  <tr>
  <td class = "d-flex text-start align-items-center">
@@ -112,7 +112,7 @@ return [
 
 
  <tr class = "bg-success text-white">
- <th> 2018 = 09 people </th>
+ <th> 2018 = 09 students </th>
  </tr>
  <tr>
  <td class = "d-flex text-start align-items-center">
@@ -226,7 +226,7 @@ return [
  </td>
  </tr>
  <tr class = "bg-success text-white">
- <th> 2016 = 02 people </th>
+ <th> 2016 = 02 students </th>
  </tr>
  <tr>
  <td class = "d-flex text-start align-items-center">
@@ -251,7 +251,7 @@ return [
 
 
  <tr class = "bg-success text-white">
- <th> 2015 = 07 people </th>
+ <th> 2015 = 07 students </th>
  </tr>
  <tr>
  <td class = "d-flex text-start align-items-center">
@@ -481,7 +481,7 @@ return [
  <th> 9th Grade Outstanding Student </th>
  </tr>
  <tr class = "bg-success text-white">
- <th> 2022 = 12 people </th>
+ <th> 2022 = 12 students </th>
  </tr>
  
  
@@ -646,7 +646,7 @@ return [
 
 
  <tr class = "bg-success text-white">
- <th> 2018 = 08 people </th>
+ <th> 2018 = 08 students </th>
  </tr>
  <tr>
  <td class = "d-flex text-start align-items-center">
@@ -750,7 +750,7 @@ return [
 
 
 <tr class = "bg-success text-white">
- <th> 2017 = 07 people </th>
+ <th> 2017 = 07 students </th>
  </tr>
  <tr>
  <td class = "d-flex text-start align-items-center">
@@ -845,7 +845,7 @@ return [
 
 
  <tr class = "bg-success text-white">
- <th> 2016 = 04 people </th>
+ <th> 2016 = 04 students </th>
  </tr>
  <tr>
  <td class = "d-flex text-start align-items-center">
@@ -900,7 +900,7 @@ return [
 
 
  <tr class = "bg-success text-white">
- <th> 2014 = 03 people </th>
+ <th> 2014 = 03 students </th>
  </tr>
  <tr>
  <td class = "d-flex text-start align-items-center">

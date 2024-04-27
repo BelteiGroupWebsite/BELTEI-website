@@ -77,33 +77,35 @@
 
     <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0 unhover-padding" >
         <a href="{{ route('school.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">សិស្សបញ្ចប់ការសិក្សា</h6>
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.graduateStudent') }}</h6>
         </a>
         {{-- <h6 class="text-uppercase text-center py-2 gold list-group-item">សិស្សបញ្ចប់ការសិក្សា</h6> --}}
-        <a class="list-group-item text-center gold font-bold">ផ្នែកចំណេះដឹងទូទៅ</a>
+        <a class="list-group-item text-center gold font-bold">{{ __('school/app.generalProgram') }}</a>
         <a class="d-flex align-items-center justify-content-center px-3 py-2 border border-2 gap-1" href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 12]) }}" class="list-group-item text-white text-center">
             <img class="max-width-50 rounded shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
             <p class="text-white text-center">
-                សញ្ញាបត្រមធ្យមសិក្សាទុតិយភូមិប៊ែលធី
+                
+                {{ __('school/app.highSchoolDiploma') }}
             </p>
         </a>
         <a class="d-flex align-items-center justify-content-center px-3 py-2 border border-2 gap-1" href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 9]) }}" class="list-group-item text-white text-center">
             <img class="max-width-50 rounded shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/13.jpg" alt="">
             <p class="text-white text-center">
-                សញ្ញាបត្រមធ្យមសិក្សាបឋមភូមិប៊ែលធី
+                {{ __('school/app.juniorHighSchool') }}
+                
             </p>
         </a>
         <a class="d-flex align-items-center justify-content-center px-3 py-2 border border-2 gap-1" href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 6]) }}" class="list-group-item text-white text-center">
             <img class="max-width-50 rounded shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
             <p class="text-white text-center">
-                សញ្ញាបត្រមធ្យមសិក្សាបឋមសិក្សាប៊ែលធី
+                {{ __('school/app.primaryCertificate') }}
             </p>
         </a>
         {{-- <a href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 9]) }}" class="list-group-item text-white text-center">សញ្ញាបត្រមធ្យមសិក្សាបឋមភូមិប៊ែលធី</a>
         <a href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 6]) }}" class="list-group-item text-white text-center">សញ្ញាបត្រមធ្យមសិក្សាបឋមសិក្សាប៊ែលធី</a> --}}
-        <a class="list-group-item text-center gold font-bold">ផ្នែកភាសាអង់គ្លេសទូទៅ</a>
-        <a href="{{ route('school.certificate' , ['program'=>2 , 'grade' => 12]) }}" class="list-group-item text-white text-center">សញ្ញាបត្រប៊ែលធី កម្រិតទី១២</a>
-        <a href="{{ route('school.certificate' , ['program'=>2 , 'grade' => 9]) }}" class="list-group-item text-white text-center">សញ្ញាបត្រប៊ែលធី កម្រិតទី៦</a>
+        <a class="list-group-item text-center gold font-bold">{{ __('school/app.ESLProgram') }}</a>
+        <a href="{{ route('school.certificate' , ['program'=>2 , 'grade' => 12]) }}" class="list-group-item text-white text-center">{{ __('school/app.ESLDiploma') }}</a>
+        <a href="{{ route('school.certificate' , ['program'=>2 , 'grade' => 9]) }}" class="list-group-item text-white text-center">{{ __('school/app.ESLlevel6') }}</a>
         <a href="{{ route('school.certificate' , ['program'=>2 , 'grade' => 6]) }}" class="list-group-item text-white text-center">PRESCHOOL 6</a>
     </ul>
 
