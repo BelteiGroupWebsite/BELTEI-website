@@ -64,7 +64,7 @@
             <h6 class="text-uppercase text-center py-2 bg-header-color gold w-100">Return to BELTEI GROUP</h6>
         </a>
     </ul> --}}
-    <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0" style="background-color: #21ade3;">
+    {{-- <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0" style="background-color: #21ade3;">
         <a class="w-100" href="/">
             <img class="w-100" src="asset/img/university/campus/belgroupkh.png" alt="">
         </a>
@@ -79,7 +79,7 @@
         <a class="w-100" href="/">
             <img class="w-100" src="https://www.belteitour.com.kh/btk/images/bt-home/beltei_inboud_tour.png" alt="">
         </a>
-    </ul>
+    </ul> --}}
 
     {{-- <ul class="text-capitalize list-group f14">
         <a href="{{ route('school.') }}">

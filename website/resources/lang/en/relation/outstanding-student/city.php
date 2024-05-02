@@ -1,0 +1,997 @@
+<?php
+
+
+return [
+    'table' => '
+    
+    <table class="table table-hover table-bordered content-translate-font ">
+
+    <tr class = "bg-info">
+ <th> Grade 12 Outstanding </th>
+ </tr>
+ <tr class = "bg-success text-white">
+ <th> 2022 = 8 </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+
+ <img src = ":image_1" alt = "">
+ <p>
+ Second year - Stop accepting applications from students named Chao Fang Secondary School No. 1
+ In recruiting Phnom Penh Capital Hall students in Khmer literature
+ Receive incentives $ Blessings to teachers
+ Also received $ incentive from HE Dr. Ly Chheng
+ Phnom Penh Constituency MP Thanik Chea is the General Director and Balti Group. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_2" alt = "">
+ <p>
+ School Day 2 - 1 Student named Chan Dara before 1st grade won the 3rd prize
+ In recruiting Phnom Penh Capital Hall students in Khmer literature
+ Receive $ incentives and teachers
+ Also received many $ incentives from HE Dr. Ly Chheng
+ Member of Parliament for Phnom Penh Capital, Founder and General Director of Balti Group.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_3" alt = "">
+ <p>
+ School Day 2 - First, Sean Sopor, a 12th grade student, won the ranking.
+ In recruiting Phnom Penh Capital Hall students in Khmer literature
+ Receive $ incentives and teachers
+ Also received $ incentive from HE Dr. Ly Chheng
+ Member of Parliament for Phnom Penh Capital, Founder and General Director of Balti Group.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_4" alt = "">
+ <p>
+ 1st-1st year primary school student named Bun Meng won the 4th PP
+ In recruiting Phnom Penh Capital Hall students in Mathematics
+ Receive $ incentives and teachers
+ Also received many $ incentives from HE Dr. Ly Chheng
+ Member of Parliament for Phnom Penh Capital, Founder and General Director of Balti Group.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_5" alt = "">
+ <p>
+ School Day 2 - First, Sao Sovan Reaksa, 1st grade, won the 4th prize.
+ In recruiting Phnom Penh Capital Hall students in Mathematics
+ Receive $ incentives and teachers
+ Also received $ incentive from HE Dr. Ly Chheng
+ Member of Parliament for Phnom Penh Capital, Founder and General Director of Balti Group.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_6" alt = "">
+ <p>
+ 1st-1st year student, Ya Hat Khun Narak, 2nd grade, won the ranking
+ In recruiting Phnom Penh Capital Hall students in Mathematics
+ Receive $ incentives and teachers
+ Also received $ incentive from HE Dr. Ly Chheng
+
+ Member of Parliament for Phnom Penh Capital, Founder and General Director of Balti Group.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_7" alt = "">
+ <p>
+ School year 2021 - 2022, student named Ming Chanheng, 12th grade, won the 5th prize
+ In the selection of outstanding students throughout Phnom Penh in Physics
+ Receive $ 200 incentives and teachers
+ Also received a $ 200 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_8" alt = "">
+ <p>
+ School year 2021 - 2022, a student named Khuth Tith Mavia, 12th grade, won the 9th prize
+ In the selection of outstanding students throughout Phnom Penh in Physics
+ Receive $ 200 incentives and teachers
+ Also received a $ 200 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+ </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-success text-white">
+ <th> 2018 = 09 students </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_9" alt = "">
+ <p>
+ In the 2017-2018 academic year, a student named Em Siriphuth, Grade 12, won the 3rd prize.
+ In the selection exam for outstanding students throughout Phnom Penh in mathematics
+ And received a $ 500 incentive and a teacher also received $ 500 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_10" alt = "">
+ <p>
+ In the 2017-2018 academic year, Keo Piseth, a 12th grade student, won the 4th prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And received a $ 300 incentive and a teacher also received $ 300 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_11" alt = "">
+ <p>
+ In the 2017-2018 academic year, Peng Putin, a 12th grade student, won the 5th prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And received a $ 300 incentive and a teacher also received $ 300 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_12" alt = "">
+ <p>
+ In the 2017-2018 school year, a student named Hy Socheat, Grade 12, won the 7th prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And received a $ 300 incentive and a teacher also received $ 300 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_13" alt = "">
+
+
+ <p>
+ In the 2017-2018 school year, a student named Teng Sok You, 12th grade, won the 9th prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And received a $ 300 incentive and a teacher also received $ 300 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_14" alt = "">
+ <p>
+ In the 2017-2018 school year, a student named You Meng Huy, Grade 12, won the 11th prize
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And received a $ 300 incentive and a teacher also received $ 300 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_15" alt = "">
+ <p>
+ In the 2017-2018 school year, a student named Kim Gek Po, 12th grade, won the 4th prize.
+ In the competition to select the best students in Phnom Penh in Physics and get prizes
+ $ 300 Incentive and Teacher Receive $ 300 from BELTEI General Director Dr. Ly Chheng
+ Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_16" alt = "">
+
+
+ <p>
+ Academic year 2017-2018, student named Ly Seng Chhay, 12th grade, won the 10th prize
+ In the competition to select the best students in Phnom Penh in Physics and get prizes
+ $ 300 Incentive and Teacher Receive $ 300 from BELTEI General Director Dr. Ly Chheng
+ Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_17" alt = "">
+
+ <p>
+ In the academic year 2017-2018, student named Sieng Kong Monin Rattanak Udom, 12th grade, won the 15th prize
+ In the competition to select the best students in Phnom Penh in Physics and get prizes
+ $ 300 Incentive and Teacher Receive $ 300 from BELTEI General Director Dr. Ly Chheng
+ Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-success text-white">
+ <th> 2017 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_18" alt = "">
+ <p>
+ In the 2016-2017 school year, a student named Non Samnang Mony, Grade 12, won the first prize.
+ In the competition to select the best students in Phnom Penh in the field of literature
+ And received a $ 700 incentive and a $ 700 teacher from HE Ly Chheng
+ Director General of BELTEI Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr class = "bg-success text-white">
+ <th> 2016 = 02 students </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_19" alt = "">
+ <p>
+ In the 2015-2016 school year, Tea Hong San, a 12th grade student, won the first prize.
+ In the selection exam for outstanding students throughout Phnom Penh in mathematics
+ Received $ 700 in Incentives and $ 300 from Dr. Ly Chheng
+ Director General of BELTEI Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_20" alt = "">
+ <p>
+ School year 2015-2016, student named Soy Kimhong, 12th grade, won the 6th prize
+ In the selection exam for outstanding students throughout Phnom Penh in mathematics
+ And received a $ 300 incentive and a $ 300 teacher from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav. </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-success text-white">
+ <th> 2015 = 07 students </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_21" alt = "">
+ <p>
+ Academic year 2014-2015, student named Ly Seng Chhay, 12th grade, won the 1st prize
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And Receive $ 700 Incentive from HE Ly Chheng, General Director of BELTEI Group
+ And Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ 
+ 
+ 
+ 
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_22" alt = "">
+ <p>
+ In the academic year 2014-2015, a student named Keo Piseth, Grade 12, won the second prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And Receive a $ 600 Incentive Award from HE Dr. Ly Chheng, BELTEI General Director
+ Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_23" alt = "">
+ <p>
+ In the academic year 2014-2015, a student named Kim Gek Po, 12th grade, won the second prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And Receive a $ 600 Incentive Award from HE Dr. Ly Chheng, BELTEI General Director
+ Group and Director of BELTEI International School. </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_24" alt = "">
+ <p>
+ In the academic year 2014-2015, a student named Em Sriphot, Grade 12, won the 3rd prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And Receive a $ 500 Incentive Award from HE Dr. Ly Chheng, BELTEI General Director
+
+ Group and Director of BELTEI International School.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_25" alt = "">
+ <p>
+ In the academic year 2014-2015, a student named Hy Socheat, 12th grade, won the 3rd prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And Receive a $ 500 Incentive Award from HE Dr. Ly Chheng, BELTEI General Director
+ Group and Director of BELTEI International School.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_26ng" alt = "">
+ <p>
+ In the academic year 2014-2015, student named Sieng Kong Mony Rattanak, Grade 12, won the 6th prize
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And Receive $ 300 Incentive from HE Ly Chheng, General Director of BELTEI Group
+ And Director of BELTEI International School.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_27" alt = "">
+ <p>
+ In the academic year 2014-2015, a student named Dan Hang Sing, 12th grade, won the 5th prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And Receive a $ 300 Incentive Award from HE Dr. Ly Chheng, BELTEI General Director
+ Group and Director of BELTEI International School.
+ </p>
+ </td>
+ </tr>
+
+
+
+ <tr class = "bg-success text-white">
+ <th> 2014 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_28" alt = "">
+ <p>
+ In the 2013-2014 school year, Ly Sokhom, a 12th grade student, won the second prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And receive $ 800 incentives and a 4-year undergraduate scholarship from
+ His Excellency Sean Borath, Secretary of State of the Ministry of Education, Youth and Sports.
+
+ </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-success text-white">
+ <th> 2013 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_29" alt = "">
+ <p>
+ In the academic year 2012-2013, a student named Sam Siri Vattanak, Grade 12, won the 4th prize.
+ In the competition to select outstanding students throughout Phnom Penh in Khmer literature
+ Received a $ 300 Incentive Award from HE Dr. Ly Chheng, Director General of BELTEI
+ Group and Director of BELTEI International Institute and Mr. Chumteav.
+
+ </p>
+ </td>
+ </tr>
+
+
+
+
+
+ <tr class = "bg-success text-white">
+ <th> 2012 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_30" alt = "">
+ <p>
+ In the academic year 2011-2012, a student named Thurenech, Grade 1 2, won the 3rd prize.
+ In the competition to select outstanding students throughout Phnom Penh in Khmer literature
+ Also received $ 500 incentives and Khmer language teacher 1st grade 2
+ Those who excel in teaching also receive a $ 500 incentive.
+
+ </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-success text-white">
+ <th> 2011 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_31" alt = "">
+ <p>
+ Academic year 2010-2011, student named Huot Sengkie, 1st and 2nd grade, won the 9th prize
+ In the competition to select outstanding students throughout Phnom Penh in Khmer literature
+ Also received a $ 300 incentive from HE Ly Chheng, General Manager of BELTEI
+ Group and Director of BELTEI International Institute and Mr. Chumteav.
+
+ </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-success text-white">
+ <th> 2009 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_32" alt = "">
+ <p>
+ In the academic year 2008-2009, a student named Ear Ai Luong, 12th grade, won the 15th prize.
+ In the competition to select the best students in Phnom Penh in physics
+ And also received a $ 300 bonus from HE Sean Borath
+ Personal Adviser to Samdech Akka Moha Sena Padei Techo Hun Sen, Prime Minister
+ Of the Kingdom of Cambodia and Secretary of State for the Ministry of Education, Youth and Sports.
+
+ </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-success text-white">
+ <th> 2008 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_33" alt = "">
+ <p>
+ In the academic year 2007-2008, a student named Im Rachana, Grade 12, won the 5th prize.
+ In the competition to select outstanding students throughout Phnom Penh in Khmer literature
+ Also received a $ 700 bonus from HE Kep Chuktema
+ Personal Adviser to Samdech Akka Moha Sena Padei Techo Hun Sen, Prime Minister
+ Of the Kingdom of Cambodia and Secretary of State for the Ministry of Education, Youth and Sports.
+
+ </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-success text-white">
+ <th> 2007 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_34" alt = "">
+ <p>
+ In the academic year 2006-2007, Kheng Chanbopha, a 12th grade student, won the 6th prize.
+ In the competition to select outstanding students throughout Phnom Penh in Khmer literature
+ And also received a $ 300 incentive from HE Mop
+ Sarin, Deputy Governor of Phnom Penh.
+
+ </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-success text-white">
+ <th> 2006 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_35" alt = "">
+ <p>
+ In the 2005-2006 school year, a student named Chea Lykun, Grade 12, won the 4th prize.
+ In the competition to select the best students in Phnom Penh in mathematics
+ Also received a $ 700 bonus from HE Kep
+ Chuktema, Personal Adviser to Samdech Akka Moha Sena Padei Techo Hun Sen, Prime Minister of the Kingdom
+ The Kingdom of Cambodia and the Governor of Phnom Penh.
+
+ </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-info">
+ <th> 9th Grade Outstanding Student </th>
+ </tr>
+ <tr class = "bg-success text-white">
+ <th> 2022 = 12 students </th>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_36" alt = "">
+ <p>
+ School year 2021 - 2022, a student named Kruy Kim, 9th grade, won the first prize
+ In the competition to select the best students in Phnom Penh in Khmer literature
+ Receive $ 700 incentives and teachers
+ Also received a $ 700 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_37" alt = "">
+ <p>
+ School year 2021 - 2022, a student named Tep Thitav Leak, 9th grade, won the 3rd prize
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ Receive $ 800 incentives and teachers
+ Also received a $ 800 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_38" alt = "">
+ <p>
+ Academic year 2021 - 2022, a student named Sok Po Hong, 9th grade, won the 7th prize
+ In the selection of outstanding students throughout Phnom Penh
+ Khmer Literature Receives Incentives
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_39" alt = "">
+ <p>
+ School year 2021 - 2022, a student named Tep Vouch Heng, 9th grade, won the 7th prize
+ In the selection of outstanding students throughout Phnom Penh
+ Mathematics Receives $ 200 Incentive and Teacher
+ Also received a $ 200 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_40" alt = "">
+ <p>
+ Academic year 2021 - 2022, a student named Ka Vathana, 9th grade, won the 2nd prize
+ In the selection exam for outstanding students throughout Phnom Penh in mathematics
+ Receive $ 600 incentives and teachers
+ Also received a $ 600 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_41" alt = "">
+ <p>
+ School year 2021 - 2022, student named Saing Rachana, 9th grade, won the 3rd prize
+ In the competition to select the best students in Phnom Penh in mathematics
+ Receive $ 500 incentives and teachers
+ Also received a $ 500 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_42ng" alt = "">
+ <p>
+ In the academic year 2021 - 2022, a student named Chhoeun Sovanthearith, 9th grade, won the 6th prize
+ In the selection exam for outstanding students throughout Phnom Penh in mathematics
+ Receive $ 200 incentives and teachers
+ Also received a $ 200 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_43" alt = "">
+ <p>
+ School year 2021 - 2022, a student named Limassola, 9th grade, won the 8th prize
+ In the competition to select outstanding students throughout Phnom Penh in mathematics
+ Receive $ 200 incentives and teachers
+ Also received a $ 200 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_44" alt = "">
+ <p>
+ School year 2021 - 2022, student named Sovan Reaksa, 9th grade, won the 6th prize
+ In the selection exam for outstanding students in Kandal province in mathematics
+ Receive a $ 300 incentive and a teacher
+ Also received a $ 300 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_45" alt = "">
+ <p>
+ In the academic year 2021 - 2022, a student named Tea Kier Lim, 9th grade, won the 5th prize
+ In the selection of outstanding students throughout Phnom Penh in Physics
+ Receive $ 200 incentives and teachers
+ Also received a $ 200 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_46" alt = "">
+ <p>
+ School year 2021 - 2022, student named Chan Daravatey, 9th grade, won the 6th prize
+ In the selection of outstanding students throughout Phnom Penh in Physics
+ Receive $ 200 incentives and teachers
+ Also received a $ 200 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_47" alt = "">
+ <p>
+ In the academic year 2021 - 2022, a student named Heng Pich, 9th grade, won the 7th prize
+ In the selection exam for outstanding students throughout Phnom Penh in Physics
+ Receive $ 200 incentives and teachers
+ Also received a $ 200 incentive from HE Dr. Ly Chheng
+ Representative of Phnom Penh Constituency, Founder and General Director of BELTEI Group.
+
+ </p>
+ </td>
+ </tr>
+
+
+ <tr class = "bg-success text-white">
+ <th> 2018 = 08 students </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_48" alt = "">
+ <p>
+ In the academic year 2017-2018, a student named Dy Sal Rachana, 9th grade, won the first prize
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ Received $ 1,000 in Incentives and $ 1,000 from Teachers Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_49" alt = "">
+ <p>
+ In the 2017-2018 academic year, a student named Keo Vanvibol, 9th grade, won the second prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And received a $ 600 incentive and a teacher also received $ 600 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_50" alt = "">
+ <p>
+ In the 2017-2018 school year, a student named Kong Sunmey, 9th grade, won the 3rd prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And received a $ 500 incentive and a teacher also received $ 500 from HE Dr. Ly Chheng
+ Director General of BELTEI Group and Director of BELTEI International School and Lok Chumteav.
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_51" alt = "">
+ <p>
+ Academic year 2017-2018, student named Ly Piseth Sovathana, 9th grade, won the 5th prize
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ Received $ 300 in Incentive and $ 300 from Dr. Ly Chheng
+ Director General of BELTEI Group and Director of BELTEI International School and Lok Chumteav.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_52" alt = "">
+ <p>
+ School year 2017-2018, student named Chan Liza, 9th grade, won the 6th prize
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ Received $ 300 in Incentive and $ 300 from Dr. Ly Chheng
+ Director General of BELTEI Group and Director of BELTEI International School and Lok Chumteav.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_53" alt = "">
+ <p>
+ In the 2017-2018 school year, a student named Samnang Puthirith, 9th grade, won the 5th prize.
+ In the competition to select the best students in Phnom Penh in mathematics
+ Received $ 300 in Incentive and $ 300 from Dr. Ly Chheng
+ Director General of BELTEI Group and Director of BELTEI International School and Lok Chumteav.
+
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_54" alt = "">
+ <p>
+ In the 2017-2018 school year, Rithy Sovath, a ninth grade student, won the 7th prize.
+ In the competition to select the best students in Phnom Penh in mathematics
+ Received $ 300 in Incentive and $ 300 from Dr. Ly Chheng
+ Director General of BELTEI Group and Director of BELTEI International School and Lok Chumteav.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_55" alt = "">
+ <p>
+ In the 2017-2018 academic year, a student named Hok Lay Heng, 9th grade, won the 4th prize
+ In the competition to select the best students in Phnom Penh in Physics and get prizes
+ $ 300 Incentive and Teacher Receive $ 300 from BELTEI General Director Dr. Ly Chheng
+ Group and Director of BELTEI International School and Lok Chumteav.
+
+ </p>
+ </td>
+ </tr>
+
+
+<tr class = "bg-success text-white">
+ <th> 2017 = 07 students </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_56" alt = "">
+ <p>
+ In the 2016-2017 school year, Koy Panabi, a ninth grade student, won the first prize.
+ In the selection of outstanding students throughout Phnom Penh in Physics
+ Received $ 700 in Incentives and $ 700 from Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_57" alt = "">
+ <p>
+ In the 2016-2017 academic year, Sonarita, a ninth grade student, won the first prize.
+ In the selection of outstanding students throughout Phnom Penh in the field of literature
+ And received an $ 800 incentive and a teacher also received $ 800 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_58" alt = "">
+ <p>
+ In the 2016-2017 school year, a student named Chhun Sovannara, 9th grade, won the 3rd prize.
+ In the selection of outstanding students throughout Phnom Penh in the field of literature
+ And received a $ 500 incentive and a teacher also received $ 500 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_59" alt = "">
+ <p>
+ In the 2016-2017 school year, a student named Ou Sokhay, 9th grade, won the 3rd prize.
+ In the selection exam for outstanding students throughout Phnom Penh in mathematics
+ And received a $ 500 incentive and a teacher also received $ 500 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_60" alt = "">
+ <p>
+ In the 2016-2017 academic year, Sok Sikha, a ninth grade student, won the 5th prize.
+ In the selection of outstanding students throughout Phnom Penh in the field of literature
+ And received a $ 300 incentive and a $ 300 teacher from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_61" alt = "">
+ <p>
+ In the 2016-2017 school year, a student named Put Vito, 9th grade, won the 6th prize
+ In the selection exam for outstanding students throughout Phnom Penh in mathematics
+ And received a $ 300 incentive and a $ 300 teacher from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_62" alt = "">
+ <p>
+ In the 2016-2017 school year, a student named Sok Pochu, 9th grade, won the 4th prize.
+ In the selection of outstanding students throughout Phnom Penh in the field of literature
+ And received a $ 300 incentive and a $ 300 teacher from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+ </p>
+ </td>
+ </tr>
+
+
+
+
+ <tr class = "bg-success text-white">
+ <th> 2016 = 04 students </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_63" alt = "">
+ <p>
+ School year 2015-2016, student named Ear Kim Kieng, 9th grade, won the 2nd prize
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ And received a $ 600 incentive and a teacher also received $ 600 from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_64" alt = "">
+ <p>
+ In the 2015-2016 school year, a student named Lo Michin, 9th grade, won the 5th prize.
+ In the competition to select the best students in Phnom Penh in Physics and get prizes
+ $ 300 Incentive and Teacher Receive $ 300 from BELTEI General Director Dr. Ly Chheng
+ Group and Director of BELTEI International School and Lok Chumteav.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_65" alt = "">
+ <p>
+ In the 2015-2016 school year, a student named Huang Sovannara, 9th grade, won the 5th prize.
+ In the selection of outstanding students throughout Phnom Penh in mathematics
+ And received a $ 300 incentive and a $ 300 teacher from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav </p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_66" alt = "">
+ <p>
+ In the 2015-2016 school year, a student named Chea Mei Jing, ninth grade, won the 6th prize.
+ In the selection of outstanding students throughout Phnom Penh in mathematics
+ And received a $ 300 incentive and a $ 300 teacher from HE Dr. Ly
+ Chheng, General Director of BELTEI Group and Director of BELTEI International School and Lok Chumteav
+
+ </p>
+ </td>
+ </tr>
+
+
+
+
+ <tr class = "bg-success text-white">
+ <th> 2014 = 03 students </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_67" alt = "">
+ <p>
+ In the 2013-2014 school year, student named Ponna Sothida, 9th grade, won the 4th prize in the selection exam
+ Outstanding Students in Phnom Penh in Khmer Literature Receive $ 200 Incentive from HE
+ Sean Borath, Secretary of State, Ministry of Education, Youth and Sports.
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_68" alt = "">
+ <p>
+ In the 2013-2014 school year, a student named Tan Panu, 9th grade, won the 7th prize in the selection exam
+ Outstanding Students in Phnom Penh in Mathematics Receive $ 200 Incentive from HE Sean
+ Borath, Secretary of State, Ministry of Education, Youth and Sports.
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_69" alt = "">
+ <p>
+ School year 2013-2014, student named Kim Rithy, 9th grade, won the 10th prize in the selection exam
+ Outstanding Students in Phnom Penh in Physics Receive $ 200 Incentive from HE Sean
+ Borath, Secretary of State, Ministry of Education, Youth and Sports. </p>
+ </td>
+ </tr>
+
+
+
+ <tr class = "bg-success text-white">
+ <th> 2013 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_70" alt = "">
+ <p>
+ In the academic year 2012-2013, a student named Thong Sarybot, 9th grade, won the 5th prize in the selection exam
+ Outstanding Students in Phnom Penh in Khmer Literature Receive $ 300 Incentive from
+ HE Ly Chheng, Director General of BELTEI Group and Director of BELTEI International Institute and Lok Chumteav.
+
+ </p>
+ </td>
+ </tr>
+
+
+<tr class = "bg-success text-white">
+ <th> 2009 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_71" alt = "">
+ <p>
+ In the academic year 2008-2009, Thean Srey Mey, a ninth grade student, won the 7th prize.
+ In the selection of outstanding students throughout Phnom Penh in Khmer literature
+ Also received a $ 300 bonus from HE Sean Borath, Personal Adviser to Samdech Akka Moha Sena
+ Mr. Techo Hun Sen, Prime Minister of the Kingdom of Cambodia and Secretary of State of the Ministry of Education, Youth and Sports.
+
+ </p>
+ </td>
+ </tr>
+
+
+
+ <tr class = "bg-success text-white">
+ <th> 2007 = 01 person </th>
+ </tr>
+ <tr>
+ <td class = "d-flex text-start align-items-center">
+ <img src = ":image_72" alt = "">
+ <p>
+ In the 2006-2007 school year, Ly Monuka, a ninth grade student, won the 6th prize in the Outstanding Student Selection Exam
+ All over Phnom Penh in Mathematics and also received $ 300 incentive from HE Mop
+ Sarin, Deputy Governor of Phnom Penh.
+
+ </p>
+ </td>
+ </tr>
+
+</table>
+                             
+                             
+                             
+
+'
+]
+
+
+?>
+                                                                                                    

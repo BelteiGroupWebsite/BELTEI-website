@@ -240,8 +240,29 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
         Route::view('vision' , 'web.client.beltei_tours_travel.about.vision')->name('vision');
         Route::view('history' , 'web.client.beltei_tours_travel.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.beltei_tours_travel.about.whyBeltei')->name('whybeltei');
+
+        Route::group(['prefix' => 'cambodia', 'as' => 'cambodia.'], function () {
+            Route::view('brief-information' , 'web.client.beltei_tours_travel.about.about-cambodia.brief-information')->name('brief-information');
+            Route::view('khmer-ancient-temple-legacy' , 'web.client.beltei_tours_travel.about.about-cambodia.khmer-ancient-temple-legacy')->name('khmer-ancient-temple-legacy');
+            Route::view('cambodia-culture' , 'web.client.beltei_tours_travel.about.about-cambodia.cambodia-culture')->name('cambodia-culture');
+        });
+    
     });
 
+    Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
+        Route::view('/national' , 'web.client.beltei_tours_travel.recognition.national')->name('national');
+        Route::view('/international' , 'web.client.beltei_tours_travel.recognition.international')->name('international');
+    });
+    Route::group(['prefix' => 'location', 'as' => 'location'], function () {
+        Route::view('/' , 'web.client.beltei_tours_travel.location.location');
+    });
+    Route::group(['prefix' => 'news-event', 'as' => 'news-event.'], function () {
+        Route::view('/other' , 'web.client.beltei_tours_travel.news-event.other')->name('other');
+    });
+    
+
+
+    
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
         Route::view('/khmer' , 'web.client.beltei_tours_travel.mainprogram.khmer')->name('khmer');
         Route::group(['prefix' => 'khmer', 'as' => 'khmer.'], function () {
@@ -293,12 +314,115 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
         Route::view('/' , 'web.client.beltei_tours_travel.news.news');
     });
 
-    Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
-        Route::view('/campusTemplete' , 'web.client.beltei_tours_travel.campus.campusTemplete')->name('campusTemplete');
-    });
 
 });
 
+Route::group(['prefix' => 'relation', 'as' => 'relation.'], function () {
+
+    Route::view('/' , 'web.client.relation.index');
+
+    Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
+        Route::view('/' , 'web.client.relation.about.welcome')->name('welcome');
+        Route::view('purpose' , 'web.client.relation.about.purpose')->name('purpose');
+        Route::view('vision' , 'web.client.relation.about.vision')->name('vision');
+        Route::view('history' , 'web.client.relation.about.history')->name('history');
+        Route::view('whybeltei' , 'web.client.relation.about.whyBeltei')->name('whybeltei');
+    });
+    Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
+        Route::view('/khmer' , 'web.client.relation.mainprogram.khmer')->name('khmer');
+        Route::group(['prefix' => 'khmer', 'as' => 'khmer.'], function () {
+            Route::view('/vision' , 'web.client.relation.mainprogram.khmerdetail.vision')->name('vision');
+            Route::view('/special-quality' , 'web.client.relation.mainprogram.khmerdetail.special-quality')->name('special-quality');
+            Route::view('/schedule' , 'web.client.relation.mainprogram.khmerdetail.schedule')->name('schedule');
+            Route::view('/admission' , 'web.client.relation.mainprogram.khmerdetail.admission')->name('admission');
+            Route::view('/awarding' , 'web.client.relation.mainprogram.khmerdetail.awarding')->name('awarding');
+            Route::view('/certificate' , 'web.client.relation.mainprogram.khmerdetail.certificate')->name('certificate');
+            Route::view('/preschool' , 'web.client.relation.mainprogram.khmerdetail.preschool')->name('preschool');
+            Route::view('/elementary' , 'web.client.relation.mainprogram.khmerdetail.elementary')->name('elementary');
+            Route::view('/junior' , 'web.client.relation.mainprogram.khmerdetail.junior')->name('junior');
+            Route::view('/highschool' , 'web.client.relation.mainprogram.khmerdetail.highschool')->name('highschool');
+        });
+
+        Route::view('/ESL' , 'web.client.relation.mainprogram.ESL')->name('ESL');
+        Route::group(['prefix' => 'ESL', 'as' => 'ESL.'], function () {
+            Route::view('/vision' , 'web.client.relation.mainprogram.ESLdetail.vision')->name('vision');
+            Route::view('/special-quality' , 'web.client.relation.mainprogram.ESLdetail.special-quality')->name('special-quality');
+            Route::view('/schedule' , 'web.client.relation.mainprogram.ESLdetail.schedule')->name('schedule');
+            Route::view('/admission' , 'web.client.relation.mainprogram.ESLdetail.admission')->name('admission');
+            Route::view('/awarding' , 'web.client.relation.mainprogram.ESLdetail.awarding')->name('awarding');
+            Route::view('/certificate' , 'web.client.relation.mainprogram.ESLdetail.certificate')->name('certificate');
+            Route::view('/preschool' , 'web.client.relation.mainprogram.ESLdetail.preschool')->name('preschool');
+            Route::view('/elementary' , 'web.client.relation.mainprogram.ESLdetail.elementary')->name('elementary');
+            Route::view('/junior' , 'web.client.relation.mainprogram.ESLdetail.junior')->name('junior');
+            Route::view('/highschool' , 'web.client.relation.mainprogram.ESLdetail.highschool')->name('highschool');
+        });
+
+        Route::view('/CSL' , 'web.client.relation.mainprogram.CSL')->name('CSL');
+        Route::group(['prefix' => 'CSL', 'as' => 'CSL.'], function () {
+            Route::view('/detail' , 'web.client.relation.mainprogram.CSLdetail.CSLdetail')->name('detail');
+            Route::view('/preschool' , 'web.client.relation.mainprogram.CSLdetail.preschool')->name('preschool');
+            Route::view('/young-learners' , 'web.client.relation.mainprogram.CSLdetail.young-learners')->name('young-learners');
+            Route::view('/adult-learners' , 'web.client.relation.mainprogram.CSLdetail.adult-learners')->name('adult-learners');
+            Route::view('/schedule' , 'web.client.relation.mainprogram.CSLdetail.schedule')->name('schedule');
+        });
+
+        Route::view('/IMA' , 'web.client.relation.mainprogram.IMA')->name('IMA');
+
+        Route::view('/internation-preparation' , 'web.client.relation.mainprogram.internation')->name('internation-preparation');
+        Route::group(['prefix' => 'internation-preparation', 'as' => 'internation-preparation.'], function () {
+            Route::view('/vision' , 'web.client.relation.mainprogram.internationdetail.vision')->name('vision');
+            Route::view('/TOEFL' , 'web.client.relation.mainprogram.internationdetail.TOEFL')->name('TOEFL');
+        });
+    });
+    Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
+        Route::view('/' , 'web.client.relation.recognition.recognition');
+        Route::view('/recognitiondetail' , 'web.client.relation.recognition.recognitiondetail.recognitiondetail')->name('recognitiondetail');
+    });
+    Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
+        Route::view('/' , 'web.client.relation.news.news');
+    });
+    Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
+        Route::view('/campusTemplete' , 'web.client.relation.campus.campusTemplete')->name('campusTemplete');
+    });
+    Route::get('program/{program}/grade/{grade}', [CertificateController::class, 'certificateSection'])->name('certificate');
+    Route::group(['prefix' => 'certificate', 'as' => 'certificate.'], function () {
+        Route::view('program/{program}/grade/{grade}/year/{year}' , 'web.client.relation.certificate.certificate')->name('year');
+    });
+
+
+    Route::view('/public-speaking' , 'web.client.relation.public-speaking.grade12')->name('public-speaking');
+
+    Route::view('/public-speaking/12' , 'web.client.relation.public-speaking.grade12')->name('public-speaking-12');
+    Route::view('/public-speaking/9' , 'web.client.relation.public-speaking.grade9')->name('public-speaking-9');
+    Route::view('/public-speaking/6' , 'web.client.relation.public-speaking.grade6')->name('public-speaking-6');
+    Route::view('/public-speaking/3' , 'web.client.relation.public-speaking.grade3')->name('public-speaking-3');
+
+    Route::view('/english-speaking/12' , 'web.client.relation.english-speaking.grade12')->name('english-speaking-12');
+    Route::view('/english-speaking/9' , 'web.client.relation.english-speaking.grade9')->name('english-speaking-9');
+    Route::view('/english-speaking/6' , 'web.client.relation.english-speaking.grade6')->name('english-speaking-6');
+    Route::view('/english-speaking/3' , 'web.client.relation.english-speaking.grade3')->name('english-speaking-3');
+    
+
+    Route::view('/khmer/debate/10' , 'web.client.relation.debate.khmer.debate10')->name('khmer-debate-10');
+    Route::view('/khmer/debate/8' , 'web.client.relation.debate.khmer.debate8')->name('khmer-debate-8');
+    Route::view('/khmer/debate/6' , 'web.client.relation.debate.khmer.debate6')->name('khmer-debate-6');
+
+    Route::view('/english/debate/12' , 'web.client.relation.debate.english.debate12')->name('english-debate-12');
+    Route::view('/english/debate/9' , 'web.client.relation.debate.english.debate9')->name('english-debate-9');
+
+
+
+    Route::group(['prefix' => 'outstanding-student', 'as' => 'outstanding-student.'], function () {
+
+        Route::view('/national' , 'web.client.relation.outstanding-student.national.index')->name('national');
+        Route::view('/city' , 'web.client.relation.outstanding-student.city.index')->name('city');
+
+        Route::get('/grade-A', [GradeAController::class, 'client'])->name('grade-A');
+
+    });
+    
+
+});
 
 Auth::routes();
 
