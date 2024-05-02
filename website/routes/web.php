@@ -226,6 +226,12 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
     });
 
 
+    Route::group(['prefix' => 'graduated', 'as' => 'graduated.'], function () {
+        Route::view('/doctor' , 'web.client.beltei_university.graduated.doctor.index')->name('doctor');
+        Route::view('/doctor/detail' , 'web.client.beltei_university.graduated.doctor.detail')->name('doctor.detail');
+    });
+
+
     
     
 });
