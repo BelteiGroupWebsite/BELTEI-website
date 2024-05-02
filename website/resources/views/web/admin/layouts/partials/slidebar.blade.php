@@ -75,7 +75,8 @@
                     <div class="menu-title">Beltei University</div>
                 </a>
                 <ul>
-                    <li> <a href="component-alerts.html"><i class="bi bi-circle"></i>News</a>
+                    <li> 
+                        <a href="{{ route('admin.university.certificate.index') }}"><i class="bi bi-circle"></i>Certificate</a>
                     </li>
                 </ul>
             </li>

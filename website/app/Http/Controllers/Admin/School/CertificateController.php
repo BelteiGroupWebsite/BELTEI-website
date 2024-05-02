@@ -224,7 +224,7 @@ class CertificateController extends Controller
     }
 
 
-    public function uploudFile($request, $inputFile, $certificate, $folderName,  $entity)
+    public static function uploudFile($request, $inputFile, $certificate, $folderName,  $entity)
     {
         if ($request->hasFile($inputFile)) {
 

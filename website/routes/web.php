@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\User\ProfileController;
 use App\Http\Controllers\Admin\User\UsersController;
 use App\Http\Controllers\Admin\School\CertificateController;
 use App\Http\Controllers\GradeAController;
+use App\Http\Controllers\University\CertificateController as UniversityCertificateController;
 use App\Models\school\Certificate;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -455,6 +456,27 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
         Route::prefix('certificate')->as('certificate')->group(function () {
             Route::post('/store/file', [CertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
             Route::post('/your-route', [CertificateController::class, 'processData'])->name('.excel.upload');
+        });
+        
+        
+        // Route::resource('grade-A' , GradeAController::class)->names('grade-A');
+        Route::resource('grade-A',GradeAController::class)->names('grade-A');
+        Route::prefix('grade-A')->as('grade-A')->group(function () {
+            Route::post('/store/file', [GradeAController::class, 'uploadLargeFiles'])->name('.files.upload.large');
+            Route::post('/your-route', [GradeAController::class, 'processData'])->name('.excel.upload');
+        });
+
+
+    });
+
+    // School Management
+    Route::prefix('university')->as('university.')->middleware('can:access-university-page')->group(function () {
+
+
+        Route::resource('certificate',UniversityCertificateController::class)->names('certificate');
+        Route::prefix('certificate')->as('certificate')->group(function () {
+            Route::post('/store/file', [UniversityCertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
+            Route::post('/your-route', [UniversityCertificateController::class, 'processData'])->name('.excel.upload');
         });
         
         

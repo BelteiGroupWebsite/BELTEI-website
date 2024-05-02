@@ -80,7 +80,7 @@
         </div>
 
 
-        <table class="table table-bordered table-hover content-translate-font table-primary">
+        <table class="table table-bordered table-hover content-translate-font table-primary align-middle">
             <tbody>
             <tr>
             <td class="label" colspan="7" width="100"><strong>សូមចុចបើកមើលឈ្មោះ រូបថត និងសញ្ញាបត្រតាមជំនាន់នីមួយៗ<br></strong></td>
