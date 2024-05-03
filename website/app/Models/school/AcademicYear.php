@@ -2,6 +2,7 @@
 
 namespace App\Models\school;
 
+use App\Models\University\Certificate;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -21,6 +22,7 @@ class AcademicYear extends Model
     {
         return $this->hasMany(StudentGradeA::class, 'academic_year_id', 'id');
     }
+
 
     // public function studentGradeA()
     // {

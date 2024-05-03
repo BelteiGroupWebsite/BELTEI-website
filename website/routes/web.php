@@ -6,7 +6,7 @@ use App\Http\Controllers\Admin\User\ProfileController;
 use App\Http\Controllers\Admin\User\UsersController;
 use App\Http\Controllers\Admin\School\CertificateController;
 use App\Http\Controllers\GradeAController;
-use App\Http\Controllers\University\CertificateController as UniversityCertificateController;
+use App\Http\Controllers\Admin\University\CertificateController as UniversityCertificateController;
 use App\Models\school\Certificate;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;

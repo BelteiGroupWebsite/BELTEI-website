@@ -76,53 +76,32 @@
 
                 <div class="row">
 
-                    <div class="row mb-3 me-0 pe-0">
-                        <div class="col-6">
-                            <label for="" class="form-label">Category <i class="text-danger"></i></label>
-                            <select required class="form-select" name="category" id="category"
-                                onchange="categoryOnchange(this)">
-                                <option value="1">General Education</option>
-                                <option value="2">ESL Program</option>
-                            </select>
-                        </div>
-                        <div class="col-6">
-                            <label for="" class="form-label">Grade <i class="text-danger"></i></label>
-                            <select onchange="changeProfile(this)" required class="form-select" name="grade"
-                                id="grade">
-                                <option class="GE profile" value="12">12</option>
-                                <option class="GE profile" value="9">9</option>
-                                <option class="GE c1" value="6">6</option>
-                                <option class="ES profile" value="12">12</option>
-                                <option class="ES c1" value="9">6</option>
-                                <option class="ES c1" value="6">Pre-6</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="row mb-3 me-0 pe-0" id="batchDiv">
-                        <div class="col-6 mb-3">
-                            <label for="" class="form-label">Batch<i class="text-danger">*</i></label>
-                            <input required class="form-control" name="batch" id="batch" type="number"
-                                placeholder="18">
-                        </div>
-
-                    </div>
-                    {{-- <div class="col-6 mb-3" id="examDateDiv">
-                        <label for="" class="form-label">Exam Date<i class="text-danger">*</i></label>
-                        <input required class="form-control" name="examDate" id="examDate" type="date">
-                    </div> --}}
 
                     <div class="row mb-3 me-0 pe-0" id="academicYearDiv">
+                        <div class="col-12 mb-3">
+                            <label for="" class="form-label">Degree <i class="text-danger"></i></label>
+                            <select required name="degree" id="degree" class="form-control">
+                                <option value="" disabled selected>Please select degree</option>
+                                @foreach ($degrees as $degree)
+                                    <option value="{{ $degree->id }}">{{ $degree->degree_eng }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <label for="" class="form-label">Batch <i class="text-danger"></i></label>
+                            <input required class="form-control" name="batch" id="batch"
+                                type="number" placeholder="NN / 18">
+                        </div>
                         <div class="col-6 mb-3">
                             <label for="" class="form-label">Start Academic Year <i class="text-danger"></i></label>
                             <input required class="form-control" name="startAcademicYear" id="startAcademicYear"
                                 type="number" placeholder="YYYY / 2022">
                         </div>
-                        <div class="col-6 mb-3">
+                        {{-- <div class="col-6 mb-3">
                             <label for="" class="form-label">End Academic Year <i class="text-danger"></i></label>
                             <input required class="form-control" name="endAcademicYear" id="endAcademic" type="number"
                                 placeholder="YYYY / 2023">
-                        </div>
+                        </div> --}}
                     </div>
 
 
@@ -135,7 +114,7 @@
                             <div class="form-group d-flex">
                                 <input class="form-control" name="certificateInformationExcel"
                                     id="certificateInformationExcel" accept=".xlsx" type="file">
-                                <a class="btn btn-info text-white" id="test" href="{{ asset('assets\images\school\excel-placeholder.png') }}">?</a>
+                                <a class="btn btn-info text-white" download id="test" href="{{ asset('asset/pdf/admin/university/ExampleCertificate.xlsx') }}">?</a>
                             </div>
                         </div>
                         <div class="col-6 mb-3">
@@ -150,7 +129,7 @@
                     </div>
 
                     <div class="row mb-3 me-0 pe-0">
-                        <div class="col-4 mb-3" id="profileDiv">
+                        <div class="col-6 mb-3" id="profileDiv">
                             <label for="" class="form-label"><b>Student Profile</b> <i
                                     class="text-danger">(Multiple
                                     Images:
@@ -161,7 +140,7 @@
                                 <button class="btn btn-info text-white">?</button>
                             </div>
                         </div>
-                        <div class="col-4 mb-3" id="belteiCertificateDiv">
+                        <div class="col-6 mb-3" id="belteiCertificateDiv">
                             <label for="" class="form-label"><b>Beltei Certificate</b> <i
                                     class="text-danger">(Multiple
                                     Images:
@@ -169,17 +148,6 @@
                             <div class="form-group d-flex">
                                 <input class="form-control" name="belteiCertificateImg" id="belteiCertificateImg"
                                     accept=".jpg" multiple type="file">
-                                <button class="btn btn-info text-white">?</button>
-                            </div>
-                        </div>
-                        <div class="col-4 mb-3" id="moeyCertificateDiv">
-                            <label for="" class="form-label"><b>Moey/IELTS Certificate</b> <i
-                                    class="text-danger">(Multiple
-                                    Images:
-                                    jpg)</i></label>
-                            <div class="form-group d-flex">
-                                <input class="form-control" name="moeyCertificateImg" id="moeyCertificateImg" multiple
-                                    accept=".jpg" type="file">
                                 <button class="btn btn-info text-white">?</button>
                             </div>
                         </div>
@@ -226,13 +194,12 @@
 
     <script>
         let resumableBeltei = createResumable('beltei', '#belteiCertificateImg');
-        let resumableMoey = createResumable('moey', '#moeyCertificateImg');
         let resumableReference = createResumable('reference', '#certificateReferencePDF');
         let resumableProfile = createResumable('profile', '#studentProfileImg');
 
         function createResumable(targetUrl, fileInput) {
             let resumable = new Resumable({
-                target: '{{ route('admin.school.certificate.files.upload.large') }}?folder=' + targetUrl,
+                target: '{{ route('admin.university.certificate.files.upload.large') }}?folder=' + targetUrl,
                 query: {
                     _token: '{{ csrf_token() }}'
                 },
@@ -311,15 +278,14 @@
                     const jsonData = XLSX.utils.sheet_to_json(sheet, {
                         header: 1
                     });
-                    const cleanedData = jsonData.filter(row => row[0] !== undefined).map(row => row.slice(1, 9));
-                    var batch_startYear;
-                    if($('#batch').val()){
-                        batch_startYear = $('#batch').val();
-                    }else{
-                        batch_startYear = $('#startAcademicYear').val();
-                    }
+                    // const cleanedData = jsonData.filter(row => row[0] !== undefined).map(row => row.slice(1, 9));
+                    const cleanedData = jsonData.slice(1) // Start from the second row
+                    .filter(row => row[0] !== undefined) // Filter out rows with undefined first element
+                    .map(row => row.slice(0, 7)); // Remove the first element from each row and keep columns 1 to 9
 
-                    fetch('{{ route('admin.school.certificate.excel.upload') }}', {
+                    // console.log(cleanedData);
+
+                    fetch('{{ route('admin.university.certificate.excel.upload') }}', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json',
@@ -328,7 +294,7 @@
                             },
                             body: JSON.stringify({
                                 
-                                data: [cleanedData, $('#grade').val(), batch_startYear , $('#category').val() ]
+                                data: [cleanedData, $('#degree').val() , $('#startAcademicYear').val() ,$('#batch').val() ]
                             })
                         })
                         .then(response => {
@@ -342,9 +308,6 @@
 
                             if (!$('#belteiCertificateImg').hasClass('d-none'))
                                 resumableBeltei.upload();
-
-                            if (!$('#moeyCertificateImg').hasClass('d-none'))
-                                resumableMoey.upload();
 
                             if (!$('#certificateReferencePDF').hasClass('d-none'))
                                 resumableReference.upload();
@@ -365,79 +328,6 @@
 
         }
 
-
-        // let category = document.getElementById('category');
-        categoryOnchange(document.getElementById('category'))
-
-        function categoryOnchange(category) {
-            var GE = $('.GE');
-            var ES = $('.ES');
-
-            $('#grade').prop('selectedIndex', -1);
-
-            if (category.value === "1") {
-
-                $('#academicYearDiv input').each(function() {
-                    $(this).removeClass('d-none');
-                });
-
-
-                $('#academicYearDiv').removeClass('d-none');
-                $('#batchDiv').addClass('d-none');
-                $('#batchDiv input').addClass('d-none');
-
-                GE.each(function() {
-                    $(this).removeClass('d-none');
-                });
-                ES.each(function() {
-                    $(this).addClass('d-none');
-                });
-            } else if (category.value === "2") {
-
-                $('#academicYearDiv input').each(function() {
-                    $(this).addClass('d-none');
-                });
-
-                $('#academicYearDiv').addClass('d-none');
-                $('#batchDiv').removeClass('d-none');
-                $('#batchDiv input').removeClass('d-none');
-                GE.each(function() {
-                    $(this).addClass('d-none');
-                });
-                ES.each(function() {
-                    $(this).removeClass('d-none');
-                });
-            }
-
-
-        }
-
-
-
-        changeProfile($('#profileDiv'));
-
-        function changeProfile(select) {
-            var selectedOption = select.options[select.selectedIndex];
-            if (selectedOption.classList.contains('profile')) {
-                // Selected option has class 'profile'
-                // Perform your actions here
-                // console.log('Selected option has class "profile"');
-                $('#belteiCertificateDiv').removeClass('col-6');
-                $('#moeyCertificateDiv').removeClass('col-6');
-                $('#profileDiv').removeClass('d-none')
-            } else {
-                $('#belteiCertificateDiv').addClass('col-6');
-                $('#moeyCertificateDiv').addClass('col-6');
-                $('#profileDiv').addClass('d-none')
-
-            }
-
-            if (selectedOption.classList.contains('c1')) {
-                $('#moeyCertificateDiv').addClass('d-none');
-            } else {
-                $('#moeyCertificateDiv').removeClass('d-none');
-            }
-        }
 
         function validation() {
             var AllInput = document.querySelectorAll('[required]'); // it include input(text,file) and select
@@ -471,7 +361,7 @@
 
         // Function to create a Resumable instance for a specific file input button
         let resumable = new Resumable({
-            target: '{{ route('admin.school.certificate.files.upload.large') }}',
+            target: '{{ route('admin.university.certificate.files.upload.large') }}',
             query: {
                 _token: '{{ csrf_token() }}'
             },
@@ -514,7 +404,7 @@
             }
         });
         let resumable1 = new Resumable({
-            target: '{{ route('admin.school.certificate.files.upload.large1') }}',
+            target: '{{ route('admin.university.certificate.files.upload.large1') }}',
             query: {
                 _token: '{{ csrf_token() }}'
             },
@@ -626,7 +516,7 @@
                 console.log("Successfully");
 
 
-                fetch('{{ route('admin.school.certificate.excel.upload') }}', {
+                fetch('{{ route('admin.university.certificate.excel.upload') }}', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',

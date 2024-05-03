@@ -16,14 +16,12 @@ return new class extends Migration
             $table->string("certi_no")->nullable();
             $table->string("name_kh")->nullable();
             $table->string("name_eng")->nullable();
-            $table->string("nation")->nullable();
             $table->string("gender")->nullable();
+            $table->string("student_id")->nullable();
             $table->string("dob")->nullable();
-            $table->string("campus")->nullable();
-            $table->string("grade")->nullable();
-            $table->string("batch_startYear")->nullable();
-            $table->string("moey_id")->nullable();
-            $table->tinyInteger("program")->default(1);
+            $table->tinyInteger("academic_year_id");
+            $table->string("major_id")->nullable();
+            $table->tinyInteger("degree_id")->default(3);
             $table->string("identify_user")->nullable();
             $table->timestamps();
         });
