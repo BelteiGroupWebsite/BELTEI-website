@@ -20,7 +20,12 @@ class CertificateController extends Controller
     {
         //
         $academicBatches = AcademicBatch::get();
-        return view('web.admin.university.certificate.index', compact('academicBatches'));
+        $degrees = Degree::get();
+        // foreach($degrees as $degree){
+        //     echo $degree->certificate;
+        // }
+        // dd($degrees);
+        return view('web.admin.university.certificate.index', compact('degrees'));
     }
     
     /**
@@ -98,6 +103,7 @@ class CertificateController extends Controller
             $academicYear = AcademicBatch::firstOrCreate([
                 'start_academic_year' => session('biu_academic_year'),
                 'batch' => $datas[3],
+                'degree_id' => $datas[1]
             ]);
             
 
@@ -114,7 +120,7 @@ class CertificateController extends Controller
                     'dob' => $data[5],
                     'academic_year_id' => $academicYear->id,
                     'major_id' => $data[6],
-                    'degree_id' => $datas[1],
+                    'degree_id' => $datas[1], // lub
 
                     'identify_user' => $identify,
 

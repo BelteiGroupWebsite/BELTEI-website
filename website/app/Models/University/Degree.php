@@ -17,6 +17,13 @@ class Degree extends Model
     ];
     
     
-    
+    public function certificate()
+    {
+        return $this->hasMany(Certificate::class, 'degree_id', 'id');
+    }
+    public function academicBatch()
+    {
+        return $this->hasMany(AcademicBatch::class, 'degree_id', 'id');
+    }
     
 }

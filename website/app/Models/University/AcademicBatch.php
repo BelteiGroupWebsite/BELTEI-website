@@ -14,6 +14,7 @@ class AcademicBatch extends Model
     protected $fillable = [
         'start_academic_year',
         'batch',
+        'degree_id',
         'created_at',
         'updated_at',
     ];

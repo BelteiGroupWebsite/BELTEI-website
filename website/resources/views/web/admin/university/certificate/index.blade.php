@@ -18,43 +18,47 @@
 @section('content')
 
 
-<div class="container">
-    <div class="card">
-        <div class="card-header pt-3">
-            <h4>Student Certificate</h4>
-        </div>
-        <div class="card-body">
-            <table>
+    <div class="container">
+        <div class="card">
+            <div class="card-header pt-3">
+                <h4>Student Certificate</h4>
+            </div>
+            <div class="card-body">
+                <table>
 
-            </table>
+                </table>
 
 
-            <table class="table table-bordered text-center table-hover title-translate-font vertical-align-middle"
-                id="box-table-a" border="0" width="100%" align="center">
-                <tbody>
+                <table class="table table-bordered text-center table-hover title-translate-font vertical-align-middle"
+                    id="box-table-a" border="0" width="100%" align="center">
+                    <tbody>
+                        <tr>
+                            <td class="label bg-success text-white py-4" colspan="9" width="100">
+                                <h5>{{ __('school/certificate/index.header') }}</h5>
+                            </td>
+                        </tr>
+
+                        <tr class="" style="background-color: lightblue">
+
+                            <td rowspan="2">Degree</td>
+                            <td rowspan="2">Batch</td>
+                            {{-- <td rowspan="2">Grade</td> --}}
+                            <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
+                            <td colspan="2">{{ __('school/certificate/index.amout_sts') }}</td>
+                            <td rowspan="2">{{ __('school/certificate/index.certi_no') }}</td>
+                            <td rowspan="2">{{ __('school/certificate/index.name') }} <br></td>
+                            <td rowspan="2">{{ __('school/certificate/index.document') }}</td>
+                        </tr>
+                        <tr class="" style="background-color: lightblue">
+                            <td>{{ __('school/certificate/index.total') }}</td>
+                            <td>{{ __('school/certificate/index.female') }}</td>
+                        </tr>
+
+                        {{-- @foreach ($academicBatches as $batch)
                     <tr>
-                        <td class="label bg-success text-white py-4" colspan="9" width="100">
-                            <h5>{{ __('school/certificate/index.header') }}</h5>
+                        <td>
+                            {{ $batch->graduatedBIU }}
                         </td>
-                    </tr>
-
-                    <tr class="" style="background-color: lightblue">
-
-                        <td rowspan="2">Batch</td>
-                        {{-- <td rowspan="2">Grade</td> --}}
-                        <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
-                        <td colspan="2">{{ __('school/certificate/index.amout_sts') }}</td>
-                        <td rowspan="2">{{ __('school/certificate/index.certi_no') }}</td>
-                        <td rowspan="2">{{ __('school/certificate/index.name') }} <br></td>
-                        <td rowspan="2">{{ __('school/certificate/index.document') }}</td>
-                    </tr>
-                    <tr class="" style="background-color: lightblue">
-                        <td>{{ __('school/certificate/index.total') }}</td>
-                        <td>{{ __('school/certificate/index.female') }}</td>
-                    </tr>
-
-                    @foreach ($academicBatches as $batch)
-                    <tr>
                         <td>
                             {{ $batch->batch }}
                         </td>
@@ -79,18 +83,56 @@
                             <a href="">បើកមើល</a>
                         </td>
                     </tr>
-                @endforeach
-                
+                @endforeach --}}
+
+                        @foreach ($degrees as $degree)
+                            {{-- <tr>
+                        <td>
+                            {{ $degree }}
+                        </td>
+                    </tr> --}}
+                            @foreach ($degree->academicBatch as $academicBatch)
+                                <tr>
+                                    <td>
+                                        {{ $degree->degree_kh }}
+                                    </td>
+                                    <td>
+                                        {{ $academicBatch->batch }}
+                                    </td>
+                                    <td>
+                                        {{ $academicBatch->start_academic_year }}
+                                    </td>
+                                    <td>
+                                        {{ $academicBatch->graduatedBIU->count() }}
+                                    </td>
+                                    <td>
+                                        {{ $academicBatch->graduatedBIU->filter(function ($graduate) {
+                                            return $graduate->gender === 'F' || $graduate->gender === 'ស';
+                                        })->count() }}
+                                    </td>
+                                    <td>
+                                        {{ $academicBatch->graduatedBIU->MIN('certi_no') . " - " . $academicBatch->graduatedBIU->MAX('certi_no')}}
+                                    </td>
+                                    <td>
+                                        <a href="">បើកមើល</a>
+                                    </td>
+                                    <td>
+                                        <a href="">បើកមើល</a>
+                                    </td>
+                                </tr>
+                            @endforeach
+                        @endforeach
 
 
 
-                </tbody>
-            </table>
+
+                    </tbody>
+                </table>
 
 
+            </div>
         </div>
     </div>
-</div>
 
 
 @endsection
