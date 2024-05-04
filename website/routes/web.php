@@ -233,6 +233,8 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
     });
 
 
+    Route::get('degree/{degree}', [UniversityCertificateController::class, 'certificateSection'])->name('certificate');
+    Route::get('degree/{degree}/batch/{batch}', [UniversityCertificateController::class, 'certificateBatchSection'])->name('certificate.detail');
     
     
 });

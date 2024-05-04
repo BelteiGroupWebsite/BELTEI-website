@@ -54,43 +54,8 @@
                             <td>{{ __('school/certificate/index.female') }}</td>
                         </tr>
 
-                        {{-- @foreach ($academicBatches as $batch)
-                    <tr>
-                        <td>
-                            {{ $batch->graduatedBIU }}
-                        </td>
-                        <td>
-                            {{ $batch->batch }}
-                        </td>
-                        <td>
-                            {{ $batch->start_academic_year . " - " . ($batch->start_academic_year + 1) }}
-                        </td>
-                        <td>
-                            {{ $batch->graduatedBIU->count() }}
-                        </td>
-                        <td>
-                            {{ $batch->graduatedBIU->filter(function ($graduate) {
-                                return $graduate->gender === 'F' || $graduate->gender === 'ស';
-                            })->count() }}
-                        </td>
-                        <td>
-                            {{ $batch->graduatedBIU->MIN('certi_no') . " - " . $batch->graduatedBIU->MAX('certi_no')}}
-                        </td>
-                        <td>
-                            <a href="">បើកមើល</a>
-                        </td>
-                        <td>
-                            <a href="">បើកមើល</a>
-                        </td>
-                    </tr>
-                @endforeach --}}
-
                         @foreach ($degrees as $degree)
-                            {{-- <tr>
-                        <td>
-                            {{ $degree }}
-                        </td>
-                    </tr> --}}
+
                             @foreach ($degree->academicBatch as $academicBatch)
                                 <tr>
                                     <td>

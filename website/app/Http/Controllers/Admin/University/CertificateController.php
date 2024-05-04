@@ -19,7 +19,7 @@ class CertificateController extends Controller
     public function index()
     {
         //
-        $academicBatches = AcademicBatch::get();
+       
         $degrees = Degree::get();
         // foreach($degrees as $degree){
         //     echo $degree->certificate;
@@ -179,4 +179,23 @@ class CertificateController extends Controller
             return $e;
         }   
     }
+
+
+
+
+    
+    public function certificateSection($degree){
+
+        $academicBatches = AcademicBatch::where('degree_id' , $degree)->get();
+        return view('web.client.beltei_university.graduated.index' , compact('academicBatches'));
+    }
+
+
+    
+    public function certificateBatchSection($degree , $batch){
+
+        $academicBatches = AcademicBatch::where('degree_id' , $degree)->where('batch' , $batch)->get();
+        return view('web.client.beltei_university.graduated.detail' , compact('academicBatches'));
+    }
+    
 }
