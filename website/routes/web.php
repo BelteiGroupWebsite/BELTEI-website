@@ -270,52 +270,10 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
     });
     
 
-
-    
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
-        Route::view('/khmer' , 'web.client.beltei_tours_travel.mainprogram.khmer')->name('khmer');
-        Route::group(['prefix' => 'khmer', 'as' => 'khmer.'], function () {
-            Route::view('/vision' , 'web.client.beltei_tours_travel.mainprogram.khmerdetail.vision')->name('vision');
-            Route::view('/special-quality' , 'web.client.beltei_tours_travel.mainprogram.khmerdetail.special-quality')->name('special-quality');
-            Route::view('/schedule' , 'web.client.beltei_tours_travel.mainprogram.khmerdetail.schedule')->name('schedule');
-            Route::view('/admission' , 'web.client.beltei_tours_travel.mainprogram.khmerdetail.admission')->name('admission');
-            Route::view('/awarding' , 'web.client.beltei_tours_travel.mainprogram.khmerdetail.awarding')->name('awarding');
-            Route::view('/certificate' , 'web.client.beltei_tours_travel.mainprogram.khmerdetail.certificate')->name('certificate');
-            Route::view('/prebeltei_tours_travel' , 'web.client.beltei_tours_travel.mainprogram.khmerdetail.prebeltei_tours_travel')->name('prebeltei_tours_travel');
-            Route::view('/elementary' , 'web.client.beltei_tours_travel.mainprogram.khmerdetail.elementary')->name('elementary');
-            Route::view('/junior' , 'web.client.beltei_tours_travel.mainprogram.khmerdetail.junior')->name('junior');
-            Route::view('/highbeltei_tours_travel' , 'web.client.beltei_tours_travel.mainprogram.khmerdetail.highbeltei_tours_travel')->name('highbeltei_tours_travel');
-        });
-
-        Route::view('/ESL' , 'web.client.beltei_tours_travel.mainprogram.ESL')->name('ESL');
-        Route::group(['prefix' => 'ESL', 'as' => 'ESL.'], function () {
-            Route::view('/vision' , 'web.client.beltei_tours_travel.mainprogram.ESLdetail.vision')->name('vision');
-            Route::view('/special-quality' , 'web.client.beltei_tours_travel.mainprogram.ESLdetail.special-quality')->name('special-quality');
-            Route::view('/schedule' , 'web.client.beltei_tours_travel.mainprogram.ESLdetail.schedule')->name('schedule');
-            Route::view('/admission' , 'web.client.beltei_tours_travel.mainprogram.ESLdetail.admission')->name('admission');
-            Route::view('/awarding' , 'web.client.beltei_tours_travel.mainprogram.ESLdetail.awarding')->name('awarding');
-            Route::view('/certificate' , 'web.client.beltei_tours_travel.mainprogram.ESLdetail.certificate')->name('certificate');
-            Route::view('/prebeltei_tours_travel' , 'web.client.beltei_tours_travel.mainprogram.ESLdetail.prebeltei_tours_travel')->name('prebeltei_tours_travel');
-            Route::view('/elementary' , 'web.client.beltei_tours_travel.mainprogram.ESLdetail.elementary')->name('elementary');
-            Route::view('/junior' , 'web.client.beltei_tours_travel.mainprogram.ESLdetail.junior')->name('junior');
-            Route::view('/highbeltei_tours_travel' , 'web.client.beltei_tours_travel.mainprogram.ESLdetail.highbeltei_tours_travel')->name('highbeltei_tours_travel');
-        });
-
-        Route::view('/CSL' , 'web.client.beltei_tours_travel.mainprogram.CSL')->name('CSL');
-        Route::group(['prefix' => 'CSL', 'as' => 'CSL.'], function () {
-            Route::view('/detail' , 'web.client.beltei_tours_travel.mainprogram.CSLdetail.CSLdetail')->name('detail');
-            Route::view('/prebeltei_tours_travel' , 'web.client.beltei_tours_travel.mainprogram.CSLdetail.prebeltei_tours_travel')->name('prebeltei_tours_travel');
-            Route::view('/young-learners' , 'web.client.beltei_tours_travel.mainprogram.CSLdetail.young-learners')->name('young-learners');
-            Route::view('/adult-learners' , 'web.client.beltei_tours_travel.mainprogram.CSLdetail.adult-learners')->name('adult-learners');
-            Route::view('/schedule' , 'web.client.beltei_tours_travel.mainprogram.CSLdetail.schedule')->name('schedule');
-        });
-
-        Route::view('/IMA' , 'web.client.beltei_tours_travel.mainprogram.IMA')->name('IMA');
-
-        Route::view('/internation-preparation' , 'web.client.beltei_tours_travel.mainprogram.internation')->name('internation-preparation');
-        Route::group(['prefix' => 'internation-preparation', 'as' => 'internation-preparation.'], function () {
-            Route::view('/vision' , 'web.client.beltei_tours_travel.mainprogram.internationdetail.vision')->name('vision');
-            Route::view('/TOEFL' , 'web.client.beltei_tours_travel.mainprogram.internationdetail.TOEFL')->name('TOEFL');
+        Route::group(['prefix' => 'domestic', 'as' => 'domestic.'], function () {
+            Route::view('/cambodian' , 'web.client.beltei_tours_travel.mainprogram.domestic.cambodian')->name('cambodian');
+            Route::view('/expatrate' , 'web.client.beltei_tours_travel.mainprogram.domestic.expatrate')->name('expatrate');
         });
     });
 
