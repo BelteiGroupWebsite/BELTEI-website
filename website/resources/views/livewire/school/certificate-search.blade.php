@@ -1,36 +1,39 @@
-<div class="position-relative">
+<div class="position-relative ">
 
+    <div class="title-translate-font mb-4">
+        <h4>{{ __('beltei_university/certificate/certificate.find') }}</h4>
+    </div>
 
-    <div class="input-group">
+    <div class="input-group mb-3 shadow-sm">
         <input wire:model.live="search" type="search" class="form-control" name="" id="searchBar"
             onfocus='document.getElementById("searchResults").classList.remove("d-none");'
             onblur='setTimeout(function() { document.getElementById("searchResults").classList.add("d-none"); }, 500);'
             placeholder="Search ...">
-        <button class="btn btn-outline-secondary content-translate-font " id="modalCreatePreferenceButton"
-            type="button">
-            {{-- <i class='fa fa-search'></i> --}}
-            ស្វែងរកព័ត៍មាន
-
+        <button class="btn btn-primary content-translate-font " id="modalCreatePreferenceButton" type="button">
+            {{ __('beltei_university/certificate/certificate.search') }}
         </button>
     </div>
+
     <div>
-        <table class="table table-hover table-bordered w-100 f14" style="vertical-align: middle">
-            <tr>
-                <th>No</th>
-                @if (str_replace('_', '-', app()->getLocale()) == 'kh')
-                    <th>{{ __('beltei_university/certificate/certificate.khmer_name') }}</th>
-                @else
-                    <th>{{ __('beltei_university/certificate/certificate.latin_name') }}</th>
-                @endif
-                <th>{{ __('beltei_university/certificate/certificate.nation') }}</th>
-                <th>{{ __('beltei_university/certificate/certificate.gender') }}</th>
-                <th>{{ __('beltei_university/certificate/certificate.dob') }}</th>
-                <th>{{ __('beltei_university/certificate/certificate.campus') }}</th>
-                <th>{{ __('beltei_university/certificate/certificate.profile') }}</th>
-                <th>{{ __('beltei_university/certificate/certificate.beltei') }}</th>
-                <th>Moey</th>
-                <th>Action</th>
-            </tr>
+        <table class="table table-hover table-bordered w-100 f141 content-translate-font" style="vertical-align: middle">
+            <thead class="table-info font-bold">
+                <tr>
+                    <th>N<sup>o</sup></th>
+                    @if (str_replace('_', '-', app()->getLocale()) == 'kh')
+                        <th>{{ __('beltei_university/certificate/certificate.khmer_name') }}</th>
+                    @else
+                        <th>{{ __('beltei_university/certificate/certificate.latin_name') }}</th>
+                    @endif
+                    {{-- <th>{{ __('beltei_university/certificate/certificate.nation') }}</th> --}}
+                    <th>{{ __('beltei_university/certificate/certificate.gender') }}</th>
+                    <th>{{ __('beltei_university/certificate/certificate.dob') }}</th>
+                    <th>{{ __('beltei_university/certificate/certificate.campus') }}</th>
+                    <th>{{ __('beltei_university/certificate/certificate.profile') }}</th>
+                    <th>{{ __('beltei_university/certificate/certificate.beltei') }}</th>
+                    <th>Moey</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
 
             @foreach ($certificates as $student)
                 <tr>
@@ -40,7 +43,7 @@
                     @else
                         <td>{{ $student->name_eng }}</td>
                     @endif
-                    <td>{{ $student->nation }}</td>
+                    {{-- <td>{{ $student->nation }}</td> --}}
                     <td>{{ $student->gender }}</td>
                     <td>{{ $student->dob }}</td>
                     <td>{{ $student->campus }}</td>

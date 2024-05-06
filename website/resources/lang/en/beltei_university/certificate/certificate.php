@@ -11,4 +11,7 @@ return [
     'nation' => 'Nation',
     'campus' => "Campus",
     'beltei' => "Beltei",
+
+    'search' => "Search",
+    'find' => "Student Information",
 ];

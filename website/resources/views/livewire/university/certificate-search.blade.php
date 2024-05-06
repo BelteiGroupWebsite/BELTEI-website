@@ -2,7 +2,7 @@
 
     
     <div class="title-translate-font mb-4">
-        <h4>ស្វែងរកព័ត៍មានសញ្ញាបត្រខាងក្រោមនេះ</h4>
+        <h4>{{ __('beltei_university/certificate/certificate.find') }}</h4>
     </div>
 
     <div class="input-group mb-3 shadow-sm">
@@ -10,17 +10,14 @@
             onfocus='document.getElementById("searchResults").classList.remove("d-none");'
             onblur='setTimeout(function() { document.getElementById("searchResults").classList.add("d-none"); }, 500);'
             placeholder="Search ...">
-        <button class="btn btn-primary content-translate-font " id="modalCreatePreferenceButton"
-            type="button">
-            {{-- <i class='fa fa-search'></i> --}}
-            ស្វែងរកព័ត៍មាន
-
+        <button class="btn btn-primary content-translate-font " id="modalCreatePreferenceButton" type="button">
+            {{ __('beltei_university/certificate/certificate.search') }}
         </button>
     </div>
 
     <table class="table content-translate-font table-hover table-bordered w-100 f14" style="vertical-align: middle">
 
-        <thead class="table-primary">
+        <thead class="table-info font-bold">
             <tr>
                 <td>N<sup>o</sup></td>
                 <td>{{ __('beltei_university/certificate/certificate.khmer_name') }}</td>

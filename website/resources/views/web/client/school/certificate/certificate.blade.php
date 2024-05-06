@@ -5,9 +5,6 @@
 
 <div class="container">
     <div class="card">
-        <div class="card-header pt-3">
-            <h4>Student Certificate</h4>
-        </div>
         <div class="card-body">
             <div class="my-3">
                 {{-- @livewire('school.certificate-search') --}}
