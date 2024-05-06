@@ -15,7 +15,8 @@
     </div>
 
     <div>
-        <table class="table table-hover table-bordered w-100 f141 content-translate-font" style="vertical-align: middle">
+        <table class="table table-hover table-bordered w-100 f141 content-translate-font"
+            style="vertical-align: middle">
             <thead class="table-info font-bold">
                 <tr>
                     <th>N<sup>o</sup></th>
@@ -49,26 +50,26 @@
                     <td>{{ $student->campus }}</td>
                     <td>
                         <a target="blank"
-                            href="{{ url('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/profile/' . str_replace(' ', '', strtoupper($student->name_eng)) . '.jpg') }}">
-                            <img loading="lazy" alt="please report" class="w-100" style="max-width: 100px" 
-                                src="{{ asset('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/profile/' . str_replace(' ', '', strtoupper($student->name_eng)) . '.jpg') }}"
+                            href="{{ url('certificate/bis/' . $student->program . '/' . $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/profile/' . str_replace(' ', '', strtoupper($student->name_eng)) . '.jpg') }}">
+                            <img loading="lazy" alt="please report" class="w-100" style="max-width: 100px"
+                                src="{{ asset('certificate/bis/' . $student->program . '/' . $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/profile/' . str_replace(' ', '', strtoupper($student->name_eng)) . '.jpg') }}"
                                 alt="">
 
                         </a>
                     </td>
                     <td>
                         <a target="blank"
-                            href="{{ url('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/beltei/' . $student->certi_no . '.jpg') }}">
-                            <img loading="lazy" alt="please report" class="w-100" style="max-width: 100px" 
-                                src="{{ asset('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/beltei/' . $student->certi_no . '.jpg') }}"
+                            href="{{ url('certificate/bis/' . $student->program . '/' . $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/beltei/' . $student->certi_no . '.jpg') }}">
+                            <img loading="lazy" alt="please report" class="w-100" style="max-width: 100px"
+                                src="{{ asset('certificate/bis/' . $student->program . '/' . $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/beltei/' . $student->certi_no . '.jpg') }}"
                                 alt="">
                         </a>
                     </td>
                     <td>
                         <a target="blank"
-                            href="{{ url('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/moey/' . $student->moey_id . '.jpg') }}">
-                            <img loading="lazy" alt="please report" class="w-100" style="max-width: 100px" 
-                                src="{{ asset('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/moey/' . $student->moey_id . '.jpg') }}"
+                            href="{{ url('certificate/bis/' . $student->program . '/' . $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/moey/' . $student->moey_id . '.jpg') }}">
+                            <img loading="lazy" alt="please report" class="w-100" style="max-width: 100px"
+                                src="{{ asset('certificate/bis/' . $student->program . '/' . $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/moey/' . $student->moey_id . '.jpg') }}"
                                 alt="">
                         </a>
                     </td>
@@ -80,13 +81,15 @@
                         </td>
                     @else
                         <td>
-                            <div class="modal fade" id="exampleModalToggle{{ $student->id }}" aria-hidden="true" aria-labelledby="exampleModalToggle{{ $student->id }}Label"
-                                tabindex="-1">
+                            <div class="modal fade" id="exampleModalToggle{{ $student->id }}" aria-hidden="true"
+                                aria-labelledby="exampleModalToggle{{ $student->id }}Label" tabindex="-1">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalToggle{{ $student->id }}Label">Report Modal</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            <h5 class="modal-title" id="exampleModalToggle{{ $student->id }}Label">Report
+                                                Modal</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body text-start">
 
@@ -94,53 +97,63 @@
                                             <div class="row">
 
                                                 <div class="col-6">
-                                                    <input class="form-check-input" type="checkbox" value="" id="name{{ $student->id }}">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="name{{ $student->id }}">
                                                     <label class="form-check-label" for="name{{ $student->id }}">
                                                         Name
                                                     </label>
                                                 </div>
                                                 <div class="col-6">
-                                                    <input class="form-check-input" type="checkbox" value="" id="gender{{ $student->id }}">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="gender{{ $student->id }}">
                                                     <label class="form-check-label" for="gender{{ $student->id }}">
                                                         Gender
                                                     </label>
                                                 </div>
                                                 <div class="col-6">
-                                                    <input class="form-check-input" type="checkbox" value="" id="dob{{ $student->id }}">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="dob{{ $student->id }}">
                                                     <label class="form-check-label" for="dob{{ $student->id }}">
                                                         Date of Birth
                                                     </label>
                                                 </div>
                                                 <div class="col-6">
-                                                    <input class="form-check-input" type="checkbox" value="" id="campus{{ $student->id }}">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="campus{{ $student->id }}">
                                                     <label class="form-check-label" for="campus{{ $student->id }}">
                                                         Campus
                                                     </label>
                                                 </div>
                                                 <div class="col-6">
-                                                    <input class="form-check-input" type="checkbox" value="" id="profile{{ $student->id }}">
-                                                    <label class="form-check-label font-bold" for="profile{{ $student->id }}">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="profile{{ $student->id }}">
+                                                    <label class="form-check-label font-bold"
+                                                        for="profile{{ $student->id }}">
                                                         Profile
                                                     </label>
                                                 </div>
                                                 <div class="col-6">
-                                                    <input class="form-check-input" type="checkbox" value="" id="beltei{{ $student->id }}">
-                                                    <label class="form-check-label font-bold" for="beltei{{ $student->id }}">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="beltei{{ $student->id }}">
+                                                    <label class="form-check-label font-bold"
+                                                        for="beltei{{ $student->id }}">
                                                         Beltei Certificate
                                                     </label>
                                                 </div>
                                                 <div class="col-6">
-                                                    <input class="form-check-input" type="checkbox" value="" id="moey{{ $student->id }}">
-                                                    <label class="form-check-label font-bold" for="moey{{ $student->id }}">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="moey{{ $student->id }}">
+                                                    <label class="form-check-label font-bold"
+                                                        for="moey{{ $student->id }}">
                                                         Moey Certificate
                                                     </label>
                                                 </div>
 
                                             </div>
 
-    
 
-                                            
+
+
                                         </div>
                                         <div class="modal-footer">
                                             <button class="btn btn-warning">Report</button>
@@ -148,9 +161,10 @@
                                     </div>
                                 </div>
                             </div>
-                        
-                            <a class="btn btn-warning f10" data-bs-toggle="modal" href="#exampleModalToggle{{ $student->id }}" role="button">Report</a>
-                            
+
+                            <a class="btn btn-warning f10" data-bs-toggle="modal"
+                                href="#exampleModalToggle{{ $student->id }}" role="button">Report</a>
+
                             {{-- <a href="" class="btn btn-warning f10">Report</a> --}}
                         </td>
                     @endcan
@@ -161,12 +175,6 @@
         </table>
         {{ $certificates->links() }}
     </div>
-
-
-
-
-
-
 
 
 </div>

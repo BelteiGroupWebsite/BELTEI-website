@@ -7,22 +7,26 @@
         <a href="{{ route('beltei_tours_travel.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.A2') }}</a>
         <a href="{{ route('beltei_tours_travel.about.vision') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.A3') }}</a>
         <a href="{{ route('beltei_tours_travel.about.history') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.A4') }}</a>
-        <a  target="blank" class="list-group-item text-white">{{ __('beltei_tours_travel/app.A5') }}</a>
-        <a href="{{ route('beltei_tours_travel.about.cambodia.brief-information') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.A6') }}
-        <a href="{{ route('beltei_tours_travel.about.cambodia.khmer-ancient-temple-legacy') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.A7') }}
-        <a href="{{ route('beltei_tours_travel.about.cambodia.cambodia-culture') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.A7') }}
-
+        <a  target="blank" class="list-group-item text-white unhover-padding">{{ __('beltei_tours_travel/app.A5') }}
+            
+            <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('beltei_tours_travel.about.cambodia.brief-information') }}" class="ps-4 py-2 border-bottom text-white">- {{ __('beltei_tours_travel/app.A6') }}
+            <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('beltei_tours_travel.about.cambodia.khmer-ancient-temple-legacy') }}" class="ps-4 py-2 border-bottom text-white">- {{ __('beltei_tours_travel/app.A7') }}
+            <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('beltei_tours_travel.about.cambodia.cambodia-culture') }}" class="ps-4 py-2 border-bottom text-white">- {{ __('beltei_tours_travel/app.A7') }}</a>
         </a>
     </ul>
+    
+    
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('beltei_tours_travel.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.B') }}</h6>
         </a>
-        <a href="{{ route('beltei_tours_travel.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.B1') }}</a>
-        <a href="{{ route('beltei_tours_travel.mainprogram.ESL') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.B2') }}</a>
-        <a href="{{ route('beltei_tours_travel.mainprogram.CSL') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.B3') }}</a>
-        <a href="{{ route('beltei_tours_travel.mainprogram.IMA') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.B4') }}</a>
-        <a href="{{ route('beltei_tours_travel.mainprogram.internation-preparation') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.B5') }}</a>
+        <a href="" class="list-group-item text-white">{{ __('beltei_tours_travel/app.B1') }}
+            <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('beltei_tours_travel.mainprogram.domestic.cambodian') }}" class="ps-4 py-2 border-bottom text-white">- {{ __('beltei_tours_travel/app.B2') }}
+            <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate') }}" class="ps-4 py-2 border-bottom text-white">- {{ __('beltei_tours_travel/app.B3') }}
+    
+        </a>
+        <a href="" class="list-group-item text-white">{{ __('beltei_tours_travel/app.B4') }}</a>
+        <a href="" class="list-group-item text-white">{{ __('beltei_tours_travel/app.B5') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('beltei_tours_travel.') }}">
@@ -60,7 +64,7 @@
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.G') }}</h6>
         </a>
         <a href="{{ route('beltei_tours_travel.about.welcome') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.G1') }}</a>
-        <a href="{{ route('beltei_tours_travel.about.welcome') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.G2') }}</a>
+        <a href="{{ route('beltei_tours_travel.news-event.other') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.G2') }}</a>
 
     </ul>
     <ul class="text-capitalize list-group f14">
