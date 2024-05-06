@@ -162,7 +162,7 @@ class CertificateController extends Controller
                 }
                 $cleanFileName .= '.' . $extension;
     
-                $folder = "certificate/" .session('degree'). '/'. session('biu_academic_year') . "/" . session('identify') . "/" . $folder;
+                $folder = "certificate/biu/" .session('degree'). '/'. session('biu_academic_year') . "/" . session('identify') . "/" . $folder;
     
                 // $fileFolder = $folder.'/'.$cleanFileName;
     
@@ -186,7 +186,9 @@ class CertificateController extends Controller
     
     public function certificateSection($degree){
 
-        $academicBatches = AcademicBatch::where('degree_id' , $degree)->get();
+        $academicBatches = AcademicBatch::where('degree_id', $degree)
+        ->orderBy('batch', 'DESC')
+        ->get(); 
         return view('web.client.beltei_university.graduated.index' , compact('academicBatches'));
     }
 
@@ -194,8 +196,9 @@ class CertificateController extends Controller
     
     public function certificateBatchSection($degree , $batch){
 
-        $academicBatches = AcademicBatch::where('degree_id' , $degree)->where('batch' , $batch)->get();
-        return view('web.client.beltei_university.graduated.detail' , compact('academicBatches'));
+        // $academicBatches = AcademicBatch::where('degree_id' , $degree)->where('batch' , $batch)->get();        
+        
+        return view('web.client.beltei_university.graduated.detail' , compact('degree' ,  'batch'));
     }
     
 }

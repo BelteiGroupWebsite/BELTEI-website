@@ -79,7 +79,7 @@
                                         {{ $academicBatch->graduatedBIU->MIN('certi_no') . " - " . $academicBatch->graduatedBIU->MAX('certi_no')}}
                                     </td>
                                     <td>
-                                        <a href="">បើកមើល</a>
+                                        <a href="{{ route('beltei_university.certificate.detail' , ['degree' => $academicBatch->degree_id , 'batch' => $academicBatch->batch ]) }}">បើកមើល</a>
                                     </td>
                                     <td>
                                         <a href="">បើកមើល</a>

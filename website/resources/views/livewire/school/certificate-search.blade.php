@@ -1,5 +1,6 @@
 <div class="position-relative">
 
+
     <div class="input-group">
         <input wire:model.live="search" type="search" class="form-control" name="" id="searchBar"
             onfocus='document.getElementById("searchResults").classList.remove("d-none");'
@@ -17,16 +18,16 @@
             <tr>
                 <th>No</th>
                 @if (str_replace('_', '-', app()->getLocale()) == 'kh')
-                    <th>Khmer</th>
+                    <th>{{ __('beltei_university/certificate/certificate.khmer_name') }}</th>
                 @else
-                    <th>Latin</th>
+                    <th>{{ __('beltei_university/certificate/certificate.latin_name') }}</th>
                 @endif
-                <th>Nation</th>
-                <th>Gender</th>
-                <th>DOB</th>
-                <th>Campus</th>
-                <th>Profile</th>
-                <th>Beltei</th>
+                <th>{{ __('beltei_university/certificate/certificate.nation') }}</th>
+                <th>{{ __('beltei_university/certificate/certificate.gender') }}</th>
+                <th>{{ __('beltei_university/certificate/certificate.dob') }}</th>
+                <th>{{ __('beltei_university/certificate/certificate.campus') }}</th>
+                <th>{{ __('beltei_university/certificate/certificate.profile') }}</th>
+                <th>{{ __('beltei_university/certificate/certificate.beltei') }}</th>
                 <th>Moey</th>
                 <th>Action</th>
             </tr>
@@ -45,26 +46,26 @@
                     <td>{{ $student->campus }}</td>
                     <td>
                         <a target="blank"
-                            href="{{ url('certificate/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/profile/' . str_replace(' ', '', strtoupper($student->name_eng)) . '.jpg') }}">
+                            href="{{ url('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/profile/' . str_replace(' ', '', strtoupper($student->name_eng)) . '.jpg') }}">
                             <img loading="lazy" alt="please report" class="w-100" style="max-width: 100px" 
-                                src="{{ asset('certificate/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/profile/' . str_replace(' ', '', strtoupper($student->name_eng)) . '.jpg') }}"
+                                src="{{ asset('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/profile/' . str_replace(' ', '', strtoupper($student->name_eng)) . '.jpg') }}"
                                 alt="">
 
                         </a>
                     </td>
                     <td>
                         <a target="blank"
-                            href="{{ url('certificate/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/beltei/' . $student->certi_no . '.jpg') }}">
+                            href="{{ url('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/beltei/' . $student->certi_no . '.jpg') }}">
                             <img loading="lazy" alt="please report" class="w-100" style="max-width: 100px" 
-                                src="{{ asset('certificate/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/beltei/' . $student->certi_no . '.jpg') }}"
+                                src="{{ asset('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/beltei/' . $student->certi_no . '.jpg') }}"
                                 alt="">
                         </a>
                     </td>
                     <td>
                         <a target="blank"
-                            href="{{ url('certificate/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/moey/' . $student->moey_id . '.jpg') }}">
+                            href="{{ url('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/moey/' . $student->moey_id . '.jpg') }}">
                             <img loading="lazy" alt="please report" class="w-100" style="max-width: 100px" 
-                                src="{{ asset('certificate/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/moey/' . $student->moey_id . '.jpg') }}"
+                                src="{{ asset('certificate/bis/' .$student->program .'/'. $student->grade . '/' . $student->batch_startYear . '/' . $student->identify_user . '/moey/' . $student->moey_id . '.jpg') }}"
                                 alt="">
                         </a>
                     </td>
