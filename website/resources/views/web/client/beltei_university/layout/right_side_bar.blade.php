@@ -636,7 +636,7 @@
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
                     <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/indonesia.png') }}" alt="">
-                   <br>ប្រទេសឥណ្ឌូនេស៊ី
+                   <br>ប្រទេសឥណ្ឌូនេស៊ីok
                 </p>
             </a>
 
