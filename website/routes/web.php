@@ -284,6 +284,11 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
         Route::view('/tour-leader' , 'web.client.beltei_tours_travel.job-announcement.tour-leader')->name('tour-leader');
     });
 
+    Route::group(['prefix' => 'service', 'as' => 'service.'], function () {
+        Route::view('/passport' , 'web.client.beltei_tours_travel.service.passport')->name('passport');
+
+    });
+
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
         Route::view('/' , 'web.client.beltei_tours_travel.news.news');
     });
