@@ -109,7 +109,7 @@ class CertificateController extends Controller
         // if ($request->hasFile('studentProfileImg')) {
         //     $folderName ="profile";
         //     $file = $request->file('studentProfileImg');
-        //     $folder = "certificate/" . $certificate->grade . "/" . $certificate->batch_startYear . "/" . $certificate->identify_user . "/" . $folderName;
+        //     $folder = "certificate/bis/" . $certificate->grade . "/" . $certificate->batch_startYear . "/" . $certificate->identify_user . "/" . $folderName;
 
         //     $extension = $file->getClientOriginalExtension();
         //     $cleanFileName = str_replace(' ', '', $certificate->name_eng);
@@ -205,7 +205,7 @@ class CertificateController extends Controller
                 }
                 $cleanFileName .= '.' . $extension;
     
-                $folder = "certificate/" .session('program'). '/'. session('grade') . "/" . session('batch_startYear') . "/" . session('identify') . "/" . $folder;
+                $folder = "certificate/bis/" .session('program'). '/'. session('grade') . "/" . session('batch_startYear') . "/" . session('identify') . "/" . $folder;
     
                 // $fileFolder = $folder.'/'.$cleanFileName;
     
@@ -228,7 +228,7 @@ class CertificateController extends Controller
     {
         if ($request->hasFile($inputFile)) {
 
-            $folder = "certificate/" . $certificate->grade . "/" . $certificate->batch_startYear . "/" . $certificate->identify_user . "/" . $folderName;
+            $folder = "certificate/bis/" . $certificate->grade . "/" . $certificate->batch_startYear . "/" . $certificate->identify_user . "/" . $folderName;
 
             try {
                 unlink($folder . str_replace(' ', '', $entity) . "jpg");
