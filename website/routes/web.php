@@ -276,6 +276,13 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
             Route::view('/expatrate' , 'web.client.beltei_tours_travel.mainprogram.domestic.expatrate')->name('expatrate');
         });
     });
+    
+
+    Route::group(['prefix' => 'job-announcement', 'as' => 'job-announcement.'], function () {
+        Route::view('/staff' , 'web.client.beltei_tours_travel.job-announcement.staff')->name('staff');
+        Route::view('/freelance' , 'web.client.beltei_tours_travel.job-announcement.freelance')->name('freelance');
+        Route::view('/tour-leader' , 'web.client.beltei_tours_travel.job-announcement.tour-leader')->name('tour-leader');
+    });
 
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
         Route::view('/' , 'web.client.beltei_tours_travel.news.news');

@@ -71,7 +71,7 @@
         <a href="{{ route('beltei_tours_travel.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.H') }}</h6>
         </a>
-        <a href="{{ route('beltei_tours_travel.about.welcome') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.H1') }}</a>
+        <a href="{{ route('beltei_tours_travel.job-announcement.staff') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.H1') }}</a>
         <a href="{{ route('beltei_tours_travel.about.welcome') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.H2') }}</a>
 
     </ul>
@@ -80,6 +80,7 @@
         <a href="{{ route('beltei_tours_travel.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.H') }}</h6>
         </a>
+        
     </ul>
 
 </div>
