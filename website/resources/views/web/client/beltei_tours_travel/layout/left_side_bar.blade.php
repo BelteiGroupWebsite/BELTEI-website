@@ -21,7 +21,7 @@
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.B') }}</h6>
         </a>
         <a href="" class="list-group-item text-white">{{ __('beltei_tours_travel/app.B1') }}
-            <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('beltei_tours_travel.mainprogram.domestic.cambodian') }}" class="ps-4 py-2 border-bottom text-white">- {{ __('beltei_tours_travel/app.B2') }}
+            <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('beltei_tours_travel.mainprogram.domestic.cambodian') }}?id=1" class="ps-4 py-2 border-bottom text-white">- {{ __('beltei_tours_travel/app.B2') }}
             <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate') }}" class="ps-4 py-2 border-bottom text-white">- {{ __('beltei_tours_travel/app.B3') }}
     
         </a>

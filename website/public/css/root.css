@@ -39,23 +39,6 @@
 
 /* Translate  */
 
-.title-translate-font:lang(en),
-.title-translate-font *:lang(en) {
-    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-}
-
-.title-translate-font:lang(kh),
-.title-translate-font *:lang(kh) {
-    font-family: 'KhmerOSMoul';
-}
-
-.content-translate-font:lang(en),
-.content-translate-font *:lang(en) {
-    /* font-family: 'Times New Roman', Times, serif ,Arial, Helvetica, sans-serif ; */
-    /* font-family: Arial, Helvetica, sans-serif ;  */
-    font-family: var(--bs-font-sans-serif);
-}
 
 .content-translate-font:lang(kh),
 .content-translate-font *:lang(kh) {
@@ -81,6 +64,23 @@
 }
 
 
+.title-translate-font:lang(en),
+.title-translate-font *:lang(en) {
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.title-translate-font:lang(kh),
+.title-translate-font *:lang(kh) {
+    font-family: 'KhmerOSMoul';
+}
+
+.content-translate-font:lang(en),
+.content-translate-font *:lang(en) {
+    /* font-family: 'Times New Roman', Times, serif ,Arial, Helvetica, sans-serif ; */
+    /* font-family: Arial, Helvetica, sans-serif ;  */
+    font-family: var(--bs-font-sans-serif);
+}
 
 
 
