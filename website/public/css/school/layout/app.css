@@ -9,10 +9,11 @@ body {
 }
 
 
-.sidebar ul a,
-.sidebar ul li {
-    background-color: #21ade3;
+.sidebar ul > a,
+.sidebar ul > li {
+    background-image: linear-gradient(to left, #20409A -22.5%, #21ade3, #21ade3, #21ade3, #21ade3, #20409A 122.5%);
 }
+
 
 .sidebar ul a.list-group-item:hover {
     padding-left: 1.5rem;

@@ -913,50 +913,51 @@ a {
 
 
 /* COLOR  */
-.BBA-color{
-    color: #E23439 !important;
-}
-.BBA-color-bg{
-    background-color: #E23439  !important;
-}
 .Gold-color-border{
     border-color: #FDB515 !important;
 }
 .Red-color-border{
     border-color: #E23439 !important;
 }
+.BBA-color{
+    color: #E23439 !important;
+}
+.BBA-color-bg{
+    background: #E23439  !important;
+}
+
 .BFB-color-bg{
-    background-color: #8E2F39  !important;
+    background: #8E2F39  !important;
 }
 .BEco-color-bg{
-    background-color: #006F87  !important;
+    background: #006F87  !important;
 }
 .BLaw-color-bg{
-    background-color: #0F2263  !important;
+    background: #0F2263  !important;
 }
 .BEdu-color-bg{
-    background-color: #4156A3  !important;
+    background: #4156A3  !important;
 }
 .BTh-color-bg{
-    background-color: #39A753  !important;
+    background: #39A753  !important;
 }
 .BIT-color-bg{
-    background-color: #C1AA3F  !important;
+    background: #C1AA3F  !important;
 }
 .BDT-color-bg{
-    background-color: #8F61A7  !important;
+    background: #8F61A7  !important;
 }
 .BEng-color-bg{
-    background-color: #EE8A36  !important;
+    background: #EE8A36  !important;
 }
 .BArch-color-bg{
-    background-color: #F3868C  !important;
+    background: #F3868C  !important;
 }
 .BIR-color-bg{
-    background-color: #55545E  !important;
+    background: #55545E  !important;
 }
 .BCA-color-bg{
-    background-color: #42B7DA  !important;
+    background: #42B7DA  !important;
 }
 .Blue-color{
     color: #4156A3 !important;
