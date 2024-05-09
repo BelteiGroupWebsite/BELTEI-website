@@ -12,11 +12,11 @@
         <a href="{{ route('relation.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.B') }}</h6>
         </a>
-        <a href="{{ route('relation.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('relation/app.B1') }}</a>
-        <a href="{{ route('relation.mainprogram.ESL') }}" class="list-group-item text-white">{{ __('relation/app.B2') }}</a>
-        <a href="{{ route('relation.mainprogram.CSL') }}" class="list-group-item text-white">{{ __('relation/app.B3') }}</a>
-        <a href="{{ route('relation.mainprogram.IMA') }}" class="list-group-item text-white">{{ __('relation/app.B4') }}</a>
-        <a href="{{ route('relation.mainprogram.internation-preparation') }}" class="list-group-item text-white">{{ __('relation/app.B5') }}</a>
+        <a href="{{ route('relation.service.first_service') }}" class="list-group-item text-white">{{ __('relation/app.B1') }}</a>
+        <a href="{{ route('relation.service.second_service') }}" class="list-group-item text-white">{{ __('relation/app.B2') }}</a>
+        <a href="{{ route('relation.service.third_service') }}" class="list-group-item text-white">{{ __('relation/app.B3') }}</a>
+        <a href="{{ route('relation.service.fourth_service') }}" class="list-group-item text-white">{{ __('relation/app.B4') }}</a>
+        <a href="{{ route('relation.service.fifth_service') }}" class="list-group-item text-white">{{ __('relation/app.B5') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('relation.') }}">
@@ -77,7 +77,7 @@
         </a>
         <a href="{{ route('relation.about.welcome') }}" class="list-group-item text-white"></a>
     </ul>
-    
+
     <ul class="text-capitalize list-group f14 unhover-padding">
         <a href="{{ route('relation.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.H') }}</h6>
