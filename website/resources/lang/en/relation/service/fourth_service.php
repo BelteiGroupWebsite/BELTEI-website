@@ -1,31 +1,33 @@
 <?php
 
 return [
-    'header' => "៤- កម្មវិថីផ្លាសលប្ដូរសិស្ស*និស្សិត ទោក្រៅប្រទេស",
+    'header' => "4- Overseas Students Exchange Programs",
 
     'description' => '
 
     <div>
-    <p class="Blue-color"> <strong>I.សេច​ក្តី​ផ្តើម</strong></p>
-    <p>សេ​វា​កម្ម​នេះ​ត្រូវ​បាន​រៀប​ចំ​ឡើង​ ក្នុង​គោល​បំ​ណង​ផ្លាស់​ប្ដូរ​និ​ស្សិត​ សា​កល​វិ​ទ្យា​ល័យ​ ប៊ែល​ធី​ អន្តរ​ជាតិ​ ជា​មួយ​និ​ស្សិត​នៃ​សា​កល​វិ​ទ្យា​ល័យ​ដៃ​គូ​ដែល​បាន​ចុះ​អនុ​ស្ស​រណៈ​យោគ​យល់​គ្នា​ (MOU) ​ដែល​មាន​រយៈ​ពេល​ មួយ​ឆ​មាស​ ឬ​សិក្សា​តាម​មុខ​វិជ្ជា​ដែល​បាន​កំ​ណត់​ដោយ​សា​កល​វិ​ទ្យា​ល័យ​ ដើម្បី​ផ្ដល់​ឱ​កាស​ជូន​ដល់​និ​ស្សិត​នៃ​សា​កល​វិ​ទ្យា​ល័យ​ទាំង​ពីរ​ភា​គី​ ក្នុង​ការ​ផ្លាស់​ប្តូរ​ការ​សិក្សា​ ចែក​រំ​លែក​បទ​ពិ​សោធន៍​ និង​ស្វែង​យល់​ពី​វប្ប​ធម៌​ អ​រិយ​ធម៌​ ពី​គ្នា​ទៅ​វិញ​ទៅ​មក​។</p>
+    <p class="Blue-color"> <strong>I.Introduction</strong></p>
+    <p>This service was established in order to exchange of BELTEI International University’s students with students of partner universities, which have signed MOU, for a semester or students study a subject which has been prepared by the partner university, which offers opportunity to students of counterpart universities to exchange studies, share experiences, and learn civilizations and cultures from each other.</p><br>
 
-    <p class="Blue-color"> <strong>II. ការ​ប្រឹក្សា​យោ​បល់</strong></p>
-    <p>ប៊ែល​ធី​ ទំ​នាក់​ទំ​នង​ អន្តរ​ជាតិ​ មាន​មន្ត្រី​ជំ​នាញ​ៗ​ និង​មាន​បទ​ពិ​សោធន៍​ ក្នុង​ការ​ដោះ​ស្រាយ​រាល់​ចម្ងល់​ផ្សេងៗ​ ​និង​ផ្ដល់​យោ​បល់​ជូន​ដល់​និ​ស្សិត​ មា​តា​បិ​តា​ អា​ណា​ព្យា​បាល​ទាំង​អស់​ ដើម្បី​ឲ្យ​យល់​កាន់​តែ​ច្បាស់​អំ​ពី​កម្ម​វិ​ធី​ផ្លាស់​ប្ដូរ​និ​ស្សិត​ និង​បាន​យល់​ដឹង​អំ​ពី​អត្ថ​ប្រ​យោ​ជន៍​នៃ​កម្ម​វិ​ធី​នេះ​។​ ជា​មួយ​គ្នា​នេះ​ផង​ដែរ​ មន្ត្រី​ប៊ែល​ធី​ ទំ​នាក់​ទំ​នង​ អន្តរ​ជាតិ​ ក៏​ផ្តល់​ជូន​ព័ត៌​មាន​យ៉ាង​លម្អិត​អំ​ពី​កម្ម​វិ​ធី ​និង​ស​កម្ម​ភាព​ផ្សេងៗ​ ដែល​រៀប​ចំ​ឡើង​ដោយ​សា​កល​វិ​ទ្យា​ល័យ​ដៃ​គូ​ល្បី​ៗ​នៃ​បណ្តា​ប្រ​ទេស​ជុំ​វិញ​ពិ​ភព​លោក​។</p>
+    <p class="Blue-color"> <strong>II. Consultation</strong></p>
+    <p>BELTEI International Relations has expertise officers to provide information to students, parents, or guardians and consult them in order that they understand clearly on this student exchange program and advantages they receive from it. In the meantime, BELTEI International Relations’ officers also offer the detailed information on programs and activities which have been arranged by those well-known partner universities.</p><br>
 
-    <p class="Blue-color"> <strong>III. ការ​រៀប​ចំ​ឯក​សារ</strong></p>
-    <p>ប៊ែល​ធី​ ទំ​នាក់​ទំ​នង​ អន្តរ​ជាតិ​ ធា​នា​រៀប​ចំ​សំ​ណុំ​ឯក​សារ​ពាក់​ព័ន្ធ​នា​នា​ជូន​ដល់​និ​ស្សិត​យ៉ាង​យក​ចិត្ត​ទុក​ដាក់​ និង​ហ្មត់​ចត់​បំ​ផុត​ដូច​ជា​៖</p>
+    <p class="Blue-color"> <strong>III. Document Preparations</strong></p>
+    <p>BELTEI International Relations assures in preparing all relevant documents carefully for students which includes:</p>
     <ul>
-    <li>រៀប​ចំ​បំ​ពេញ​បែប​បទ​ និង​ប្រ​វត្តិ​រូប​សុំ​ទិ​ដ្ឋា​កា​ពី​ស្ថាន​ទូត</li>
-    <li>ស្នើ​សុំ​ឯក​សារ​ពី​សា​កល​វិ​ទ្យា​ល័យ​ឯ​ក្រៅ​ប្រ​ទេស​ ដូច​ជា​ I20​ លិ​ខិត​បញ្ជាក់​ (Confirmation Letter)​ លិ​ខិត​អនុ​ញ្ញាត​ (Admission Letter) ​និង​ឯក​សារ​ផ្សេងៗ​ទៀត</li>
-    <li>បក​ប្រែ​ឯក​សារ​ជា​ភា​សា​អង់​គ្លេស​ ដូច​ជា​ សំ​បុត្រ​កំ​ណើត​ សៀវ​ភៅ​គ្រួ​សារ​ ឬ​សៀវ​ភៅ​ស្នាក់​នៅ​ សញ្ញា​បត្រ​ និង​ឯក​សារ​ដែល​ពាក់​ព័ន្ធ​ផ្សេងៗ</li>
-    <li>ជូន​និ​ស្សិត​ទៅ​សម្ភា​សន៍​នៅ​ស្ថាន​ទូត</li>
-    <li>ជួយ​សម្រប​សម្រួល​ធ្វើ​លិ​ខិត​ឆ្លង​ដែន​ និង​កក់​សំ​បុត្រ​យន្ត​ហោះ</li>
-    <li>រៀប​ចំ​កន្លែង​ស្នាក់​នៅ​ជូន​ដល់​និ​ស្សិត</li>
-    <li>ទាក់​ទង​ដោយ​ផ្ទាល់​ជា​មួយ​សា​កល​វិ​ទ្យា​ល័យ​​ដែល​និ​ស្សិត​ត្រូវ​ធ្វើ​ការ​ផ្លាស់​ប្តូរ​ការ​សិក្សា</li>
+    <li>Completing application forms.</li>
+    <li>Requesting relevant documents from overseas partner universities such as: I20 form, confirmation letters, admission letters and so on.</li>
+    <li>Preparing forms and visa applications for embassies.</li>
+    <li>Translating in English of birth certificates, family books or residency books, certificates, and other related documents.</li>
+    <li>Bringing students to embassies for interviews.</li>
+    <li>Facilitating applications for passport and booking air tickets.</li>
+    <li>Reserving the accommodations for students.</li>
+    <li>Directly contacting to the partner universities where students are taking exchange program.</li>
     </ul>
+    <br>
 
-    <p class="Blue-color"> <strong>IV. ការ​តាម​ដាន​ការ​សិក្សា​របស់​​និ​ស្សិត​ក្នុង​អំ​ឡុង​ពេល​ផ្លាស់​ប្ដូរ​ការ​សិក្សា</strong></p>
-    <p>ដើម្បី​បង្កើន​ទំ​នុក​ចិត្ត​ខ្ពស់​ ជូន​ដល់​មា​តា​បិ​តា​ អា​ណា​ព្យា​បាល​និ​ស្សិត​ កា​រិ​យា​ល័យ​ប៊ែល​ធី​ ទំ​នាក់​ទំ​នង​ អន្តរ​ជាតិ​ បាន​តាម​ដាន​យ៉ាង​យក​ចិត្ត​ទុក​ដាក់​លើ​ការ​សិក្សា​ ការ​ស្នាក់​នៅ​ និង​សុ​វត្ថិ​ភាព​របស់​និ​ស្សិត​ ដោយ​បាន​សហ​ការ​ជា​មួយ​សា​កល​វិ​ទ្យា​ល័យ​ដៃ​គូ ​(MOU) ​នៅ​ទី​នោះ​។</p>
+    <p class="Blue-color"> <strong>IV. Obervation on Student\'s Progresses During Exchange Program</strong></p>
+    <p>To enhance more trust for students’ parents, guardians, and students; BELTEI International Relations does keep observing on the student’s progresses by collaborating with the partner universities where the students are taking exchange program.</p><br>
 
 
 </div>

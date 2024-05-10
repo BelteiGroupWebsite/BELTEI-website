@@ -1,14 +1,14 @@
 <div class="">
     <div class="header d-flex align-items-center justify-content-center gap-lg-5  bg-header-color py-2">
         <img class="max-width-100"
-            src="{{ asset('asset/img/school/beltei_international_school_in_cambodia.png') }}"
+            src="{{ asset('asset/img/school/beltei_international_relations_in_cambodia.png') }}"
             alt="">
         <div class="text-center gold">
             <h2 class="Muol-Light">ប៊ែលធី ទំនាក់ទំនង អន្តរជាតិ</h2>
             <h3 class="Times-New-Roman font-bold">BELTEI INTERNATIONAL RELATIONS</h3>
         </div>
     </div>
-    
+
     <div class="p-2">
         <marquee behavior="scroll" scrollamount="4.5"><span style="color: green; font-size: small;">
 
@@ -25,6 +25,6 @@
         <a href="">Home</a>
         <a href="">Bar</a>
     </div> --}}
-    
+
 
 </div>

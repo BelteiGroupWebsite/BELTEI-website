@@ -25,35 +25,19 @@
         <a href="{{ route('relation.about.welcome') }}" class="list-group-item text-white">{{ __('relation/app.C1') }}</a>
         <a href="{{ route('relation.about.purpose') }}" class="list-group-item text-white">{{ __('relation/app.C2') }}</a>
         <a href="{{ route('relation.about.vision') }}" class="list-group-item text-white">{{ __('relation/app.C3') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white f12">{{ __('relation/app.C4') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.C5') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.C6') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.C7') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white f12">{{ __('relation/app.C8') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.C9') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.C10') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.C11') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.C12') }}</a>
     </ul>
-    <ul class="text-capitalize list-group f14">
+    <ul style="background-color: #21ade3" class="text-capitalize list-group f14 ">
         <a href="{{ route('relation.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.D') }}</h6>
         </a>
-        <a href="{{ route('relation.about.welcome') }}" class="list-group-item text-white">{{ __('relation/app.D1') }}</a>
-        <a href="{{ route('relation.about.purpose') }}" class="list-group-item text-white">{{ __('relation/app.D2') }}</a>
-        <a href="{{ route('relation.about.vision') }}" class="list-group-item text-white">{{ __('relation/app.D3') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D4') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D5') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D6') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D7') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D8') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D9') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D10') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D11') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D12') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D13') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D14') }}</a>
-        <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.D15') }}</a>
+        <a href="{{ route('relation.about.welcome') }}" style="height: 80px; border:inset 3px ; border-radius: 18px" class="text-uppercase text-center pe-2 text-white Red-color-border d-flex align-items-center">{{ __('relation/app.D1') }}</a>
+        <a href="{{ route('relation.about.purpose') }}" style="height: 80px; border:inset 3px ; border-radius: 18px" class="text-uppercase text-center pe-2 text-white Red-color-border d-flex align-items-center" >{{ __('relation/app.D2') }}</a>
+        <a href="{{ route('relation.about.vision') }}" style="height: 80px; border:inset 3px ; border-radius: 18px" class="text-uppercase text-center pe-2 text-white Red-color-border d-flex align-items-center" >{{ __('relation/app.D3') }}</a>
+        <a href="{{ route('relation.about.history') }}" style="height: 80px; border:inset 3px ; border-radius: 18px" class="text-uppercase text-center pe-2 text-white Red-color-border d-flex align-items-center" >{{ __('relation/app.D4') }}</a>
+        <a href="{{ route('relation.about.history') }}" style="height: 80px; border:inset 3px ; border-radius: 18px" class="text-uppercase text-center pe-2 text-white Red-color-border d-flex align-items-center" >{{ __('relation/app.D5') }}</a>
+
+
+
     </ul>
 
 
@@ -62,6 +46,8 @@
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.E') }}</h6>
         </a>
         <a href="{{ route('relation.recognition.') }}" class="list-group-item text-white f12">{{ __('relation/app.E1') }}</a>
+        <a href="{{ route('relation.recognition.') }}" class="list-group-item text-white f12">{{ __('relation/app.E2') }}</a>
+        <a href="{{ route('relation.recognition.') }}" class="list-group-item text-white f12">{{ __('relation/app.E3') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('relation.') }}">

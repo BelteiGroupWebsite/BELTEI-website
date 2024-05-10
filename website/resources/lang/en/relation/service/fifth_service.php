@@ -1,31 +1,34 @@
 <?php
 
 return [
-    'header' => "៥- បញ្ជូនសិស្ស-និស្សិត​ទៅចុះកម្មសិក្សាទៅក្រៅប្រទេស",
+    'header' => "5- Transferring Students to Serve Internship Locally and Overseas Program",
 
     'description' => '
 
     <div>
-    <p class="Blue-color"> <strong>I. សេច​ក្តី​ផ្តើម</strong></p>
-    <p>សេ​វា​កម្ម​នេះ​ត្រូវ​បាន​បង្កើត​ឡើង​ ក្នុង​គោល​បំ​ណង​បញ្ជូន​និ​ស្សិត​ សា​កល​វិ​ទ្យា​ល័យ​ ប៊ែល​ធី​ អន្តរ​ជាតិ​ ទៅ​ចុះ​កម្ម​សិក្សា​រយៈ​ពេល​ពី​មួយ​ខែ​ ទៅ​បី​ខែ​ នៅ​តាម​សា​កល​វិ​ទ្យា​ល័យ​ និង​ក្រុម​ហ៊ុន​ល្បីៗ​ ជា​ដៃ​គូ​ទាំង​ក្នុង​ប្រ​ទេស​ និង​ក្រៅ​ប្រ​ទេស​ដែល​បាន​ចុះ​អនុ​ស្ស​រណៈ​យោគ​យល់​គ្នា​ (MOU)​ ជា​មួយ​សា​កល​វិ​ទ្យា​ល័យ​ ប៊ែល​ធី​ អន្តរ​ជាតិ​។</p>
+    <p class="Blue-color"> <strong>I. Introduction</strong></p>
+    <p>This service was established in order to send BELTEI International University’s students to serve internship for 1 month or 3 months in various esteemed local and overseas universities or companies which have signed MOU with BELTEI International University.</p><br>
 
-    <p class="Blue-color"> <strong>I. សេច​ក្តី​ផ្តើម</strong></p>
-    <p>ប៊ែល​ធី​ ទំ​នាក់​ទំ​នង​ អន្ដរ​ជាតិ​ ផ្តល់​ឱ​កាស​យ៉ាង​ទូ​លំ​ទូ​លាយ​ជូន​ដល់​និ​ស្សិត​ប៊ែល​ធី​ ក្នុង​ការ​ហ្វឹក​ហាត់​ការ​ងារ​ និង​ទ​ទួល​បាន​បទ​ពិ​សោធន៍​ជាក់​ស្តែង​ តាម​រយៈ​ការ​រៀប​ចំ​បញ្ជូន​និ​ស្សិត​ ទៅ​ចុះ​កម្ម​សិក្សា​នៅ​សា​កល​វិ​ទ្យា​ល័យ ​ឬ​ក្រុម​ហ៊ុន​ល្បីៗ​ ទាំង​ក្នុង​ប្រ​ទេស​ និង​ក្រៅ​ប្រ​ទេស​ជា​ច្រើន​ជុំ​វិញ​ពិ​ភព​លោក​ដែល​ជា​ដៃ​គូ​របស់​សា​កល​វិ​ទ្យា​ល័យ​ ប៊ែល​ធី​ អន្តរ​ជាតិ​។ ​ជា​មួយ​គ្នា​នេះ​ផង​ដែរ​ប៊ែល​ធី​ ទំ​នាក់​ទំ​នង ​អន្តរ​ជាតិ​ មាន​មន្រ្ដី​ជំ​នាញៗ​ និង​មាន​បទ​ពិ​សោធន៍​ក្នុង​ការ​ប្រឹ​ក្សា​យោ​បល់ ​និង​ដោះ​ស្រាយ​រាល់​ចម្ងល់​ផ្សេងៗ​ជូន​ដល់​មា​តា​បិ​តា​ អា​ណា​ព្យា​បាល​និ​ស្សិត​។</p>
+    <p class="Blue-color"> <strong>II. Consultation</strong></p>
+    <p>BELTEI International Relations offers ample opportunity to BELTEI International University’s students to train and gain practical experiences through sending them to serve their internships in our partner universities or companies locally and around the globe. In the meantime, BELTEI International Relations has expertise officers to provide meticulous information to students, parents, or guardians and consult them regarding this service.</p><br>
 
-    <p class="Blue-color"> <strong>I. សេច​ក្តី​ផ្តើម</strong></p>
-    <p>ប៊ែល​ធី​ ទំ​នាក់​ទំ​នង​ អន្តរ​ជាតិ​ ធា​នា​រៀប​ចំ​សំ​ណុំ​ឯក​សារ​ពាក់​ព័ន្ធ​នា​នា​ជូន​ដល់​និ​ស្សិត​សម្រាប់​ចុះ​កម្ម​សិក្សា​ទាំង​ក្នុង​ប្រ​ទេស​ និង​ក្រៅ​ប្រ​ទេស​យ៉ាង​យក​ចិត្ត​ទុក​ដាក់​ និង​ហ្មត់​ចត់​បំ​ផុត​ដូច​ជា​៖</p>
+    <p class="Blue-color"> <strong>III. Document Preparations</strong></p>
+    <p>BELTEI International Relations assures in preparing all relevant documents carefully for students to serve local and overseas internship which includes:</p>
     <ul>
-    <li>រៀប​ចំ​បំ​ពេញ​បែប​បទ​ និង​ប្រ​វត្តិ​រូប​សុំ​ទិ​ដ្ឋា​កា​ពី​ស្ថាន​ទូត</li>
-    <li>ស្នើ​សុំ​ឯក​សារ​ពី​សា​កល​វិ​ទ្យា​ល័យ​ឯ​ក្រៅ​ប្រ​ទេស​ ដូច​ជា​ លិ​ខិត​បញ្ជាក់​ (Confirmation Letter)​ លិ​ខិត​អនុ​ញ្ញាត​ (Admission Letter) ​និង​ឯក​សារ​ផ្សេងៗ​ទៀត​ ឬ​ឯក​សារ​ពាក់​ព័ន្ធ​នា​នា​ពី​ក្រុម​ហ៊ុន​ជា​ដើម</li>
-    <li>បក​ប្រែ​ឯក​សារ​ជា​ភា​សា​អង់​គ្លេស​ ដូច​ជា​ សំ​បុត្រ​កំ​ណើត​ សៀវ​ភៅ​គ្រួ​សារ​ ឬ​សៀវ​ភៅ​ស្នាក់​នៅ​ សញ្ញា​បត្រ​ និង​ឯក​សារ​ដែល​ពាក់​ព័ន្ធ​ផ្សេងៗ</li>
-    <li>ជូន​និ​ស្សិត​ទៅ​សម្ភា​សន៍​នៅ​ស្ថាន​ទូត</li>
-    <li>ជួយ​សម្រប​សម្រួល​ធ្វើ​លិ​ខិត​ឆ្លង​ដែន​ និង​កក់​សំ​បុត្រ​យន្ត​ហោះ</li>
-    <li>រៀប​ចំ​កន្លែង​ស្នាក់​នៅ​ជូន​ដល់​និ​ស្សិត</li>
-    <li>ទាក់​ទង​ដោយ​ផ្ទាល់​ជា​មួយ​សា​កល​វិ​ទ្យា​ល័យ​ ឬ​ក្រុម​ហ៊ុន​ ដែល​និ​ស្សិត​ត្រូវ​ចុះ​កម្ម​សិក្សា</li>
+    <li>Completing application forms.</li>
+    <li>Requesting relevant documents from overseas partner universities or companies such as: confirmation letters, admission letters and so on.</li>
+    <li>Preparing forms and visa applications for embassies.</li>
+    <li>Translating in English of birth certificates, family books or residency books, certificates, and other related documents.</li>
+    <li>Bringing students to embassies for interviews.</li>
+    <li>Facilitating applications for passport and booking air tickets.</li>
+    <li>Reserving the accommodations for students.</li>
+    <li>Directly contacting to the partner universities or companies where students are serving their internship program.</li>
     </ul>
 
-    <p class="Blue-color"> <strong>I. សេច​ក្តី​ផ្តើម</strong></p>
-    <p>ដើម្បី​បង្កើន​ទំ​នុក​ចិត្ត​ខ្ពស់​ ជូន​ដល់​មា​តា​បិ​តា​ អា​ណា​ព្យា​បាល​និ​ស្សិត​ កា​រិ​យា​ល័យ​ប៊ែល​ធី​ ទំ​នាក់​ទំ​នង​ អន្តរ​ជាតិ​ បាន​តាម​ដាន​យ៉ាង​យក​ចិត្ត​ទុក​ដាក់​លើ​ការ​សិក្សា​ ការ​រស់​នៅ​ ឬ​ស្នាក់​នៅ​ និង​សុ​វត្ថិ​ភាព​របស់​និ​ស្សិត​ ដោយ​បាន​ស​ហ​ការ​ជា​មួយ​សា​កល​វិ​ទ្យា​ល័យ​ ឬ​ក្រុម​ហ៊ុន​ជា​ដៃ​គូ​ទាំង​ក្នុង​ប្រ​ទេស​ និង​ក្រៅ​ប្រ​ទេស​។</p>
+    <br>
+
+    <p class="Blue-color"> <strong>IV. Observation on Student\'s Progresses During Internship program</strong></p>
+    <p>To enhance more trust for students’ parents, guardians, and students; BELTEI International Relations does keep observing on the student’s progresses by collaborating with the local and overseas partner universities or companies where the students are serving their internship program.</p><br>
 
 </div>
 
