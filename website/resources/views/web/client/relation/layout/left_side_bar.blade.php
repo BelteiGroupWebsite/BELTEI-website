@@ -8,23 +8,68 @@
         <a href="{{ route('relation.about.vision') }}" class="list-group-item text-white">{{ __('relation/app.A3') }}</a>
         <a href="{{ route('relation.about.history') }}" class="list-group-item text-white">{{ __('relation/app.A4') }}</a>
     </ul>
-    <ul class="text-capitalize list-group f14">
+    <ul style="background-color: #21ade3" class="text-capitalize list-group f14">
         <a href="{{ route('relation.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.B') }}</h6>
         </a>
-        <a href="{{ route('relation.service.first_service') }}" class="list-group-item text-white">{{ __('relation/app.B1') }}</a>
-        <a href="{{ route('relation.service.second_service') }}" class="list-group-item text-white">{{ __('relation/app.B2') }}</a>
-        <a href="{{ route('relation.service.third_service') }}" class="list-group-item text-white">{{ __('relation/app.B3') }}</a>
-        <a href="{{ route('relation.service.fourth_service') }}" class="list-group-item text-white">{{ __('relation/app.B4') }}</a>
-        <a href="{{ route('relation.service.fifth_service') }}" class="list-group-item text-white">{{ __('relation/app.B5') }}</a>
+
+        <a href="{{ route('beltei_university.recognition.') }}"  style="height: 80px; border:inset 3px ; border-radius: 10px" class="pe-2 text-white Gold-color-border d-flex align-items-center">
+            <h5></h5>
+            <p>
+                {{ __('relation/app.B1') }}
+            </p>
+        </a>
+        <a href="{{ route('beltei_university.recognition.') }}" style="height: 80px; border:inset 3px ; border-radius: 10px" class="pe-2 text-white Gold-color-border d-flex align-items-center">
+            <h5></h5>
+            <p>
+                {{ __('relation/app.B2') }}
+            </p>
+        </a>
+        <a href="{{ route('beltei_university.recognition.') }}"  style="height: 80px; border:inset 3px ; border-radius: 10px" class="pe-2 text-white Gold-color-border d-flex align-items-center">
+            <h5></h5>
+            <p>
+                {{ __('relation/app.B3') }}
+            </p>
+        </a>
+        <a href="{{ route('beltei_university.recognition.') }}"  style="height: 80px; border:inset 3px ; border-radius: 10px" class="pe-2 text-white Gold-color-border d-flex align-items-center">
+            <h5></h5>
+            <p>
+                {{ __('relation/app.B4') }}
+            </p>
+        </a>
+        <a href="{{ route('beltei_university.recognition.') }}"  style="height: 80px; border:inset 3px ; border-radius: 10px" class="pe-2 text-white Gold-color-border d-flex align-items-center">
+            <h5></h5>
+            <p>
+                {{ __('relation/app.B5') }}
+            </p>
+        </a>
     </ul>
-    <ul class="text-capitalize list-group f14">
+    <ul style="background-color: #21ade3" class="text-capitalize list-group f14 ">
         <a href="{{ route('relation.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.C') }}</h6>
         </a>
-        <a href="{{ route('relation.about.welcome') }}" class="list-group-item text-white">{{ __('relation/app.C1') }}</a>
-        <a href="{{ route('relation.about.purpose') }}" class="list-group-item text-white">{{ __('relation/app.C2') }}</a>
-        <a href="{{ route('relation.about.vision') }}" class="list-group-item text-white">{{ __('relation/app.C3') }}</a>
+        <a href="{{ route('beltei_university.recognition.') }}" style="height: 80px; border:inset 3px ; border-radius: 18px" class="pe-2 text-white Red-color-border d-flex align-items-center">
+            <img class="width-100" src="{{ asset('asset/img/university/app/Untitled-1.png') }}" alt="">
+            <p>
+                {{ __('relation/app.C1') }}
+            </p>
+        </a>
+        <a href="{{ route('beltei_university.mou.national') }}" style="height: 80px; border:inset 3px ; border-radius: 18px"  class="pe-2 text-white Red-color-border d-flex align-items-center">
+            <img class="width-100" src="{{ asset('asset/img/university/app/Untitled-2.png') }}" alt="">
+            <p>
+                {{ __('relation/app.C2') }}
+            </p>
+        </a>
+        <a href="{{ route('beltei_university.mou.international') }}" style="height: 80px; border:inset 3px ; border-radius: 18px"  class="pe-2 text-white Red-color-border d-flex align-items-center">
+            <img class="width-100" src="{{ asset('asset/img/university/app/Untitled-3.png') }}" alt="">
+            <p>
+                {{ __('RELATION/app.C3') }}
+            </p>
+        </a>
+
+
+
+
     </ul>
     <ul style="background-color: #21ade3" class="text-capitalize list-group f14 ">
         <a href="{{ route('relation.') }}">
@@ -35,8 +80,6 @@
         <a href="{{ route('relation.about.vision') }}" style="height: 80px; border:inset 3px ; border-radius: 18px" class="text-uppercase text-center pe-2 text-white Red-color-border d-flex align-items-center" >{{ __('relation/app.D3') }}</a>
         <a href="{{ route('relation.about.history') }}" style="height: 80px; border:inset 3px ; border-radius: 18px" class="text-uppercase text-center pe-2 text-white Red-color-border d-flex align-items-center" >{{ __('relation/app.D4') }}</a>
         <a href="{{ route('relation.about.history') }}" style="height: 80px; border:inset 3px ; border-radius: 18px" class="text-uppercase text-center pe-2 text-white Red-color-border d-flex align-items-center" >{{ __('relation/app.D5') }}</a>
-
-
 
     </ul>
 
@@ -50,79 +93,79 @@
         <a href="{{ route('relation.recognition.') }}" class="list-group-item text-white f12">{{ __('relation/app.E3') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
-        <a href="{{ route('relation.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.F') }}</h6>
-        </a>
-        <a href="{{ route('relation.outstanding-student.grade-A') }}" class="list-group-item text-white">{{ __('relation/app.F1') }}</a>
+        <a href="{{ route('relation.') }}"><h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.F') }}</h6></a>
+
+        <a href="{{ route('relation.') }}"><h6 class="text-uppercase text-center py-2 BTh-color-bg gold ">{{ __('relation/app.F1') }}</h6></a>
         <a href="{{ route('relation.outstanding-student.national') }}" class="list-group-item text-white">{{ __('relation/app.F2') }}</a>
         <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F3') }}</a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F4') }}</a>
+
+        <a href="{{ route('relation.') }}"><h6 class="text-uppercase text-center py-2 BTh-color-bg gold ">{{ __('relation/app.F5') }}</h6></a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F6') }}</a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F7') }}</a>
+
+        <a href="{{ route('relation.') }}"><h6 class="text-uppercase text-center py-2 BTh-color-bg gold ">{{ __('relation/app.F8') }}</h6></a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F9') }}</a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F10') }}</a>
+
+        <a href="{{ route('relation.') }}"><h6 class="text-uppercase text-center py-2 BTh-color-bg gold ">{{ __('relation/app.F11') }}</h6></a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F12') }}</a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F13') }}</a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F14') }}</a>
+
+        <a href="{{ route('relation.') }}"><h6 class="text-uppercase text-center py-2 BTh-color-bg gold ">{{ __('relation/app.F15') }}</h6></a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F16') }}</a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F17') }}</a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F18') }}</a>
+
+        <a href="{{ route('relation.') }}"><h6 class="text-uppercase text-center py-2 BTh-color-bg gold ">{{ __('relation/app.F19') }}</h6></a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F20') }}</a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F21') }}</a>
     </ul>
+
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('relation.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.G') }}</h6>
         </a>
-        <a href="{{ route('relation.about.welcome') }}" class="list-group-item text-white"></a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.G1') }}</a>
     </ul>
 
-    <ul class="text-capitalize list-group f14 unhover-padding">
+    <ul class="text-capitalize list-group f14">
         <a href="{{ route('relation.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.H') }}</h6>
         </a>
-        <a href="{{ route('relation.public-speaking-12') }}" class="list-group-item text-white text-center">
-             {{ __('relation/app.grade') }} {{ __('relation/app.n12') }}
-             <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
-                </div>
-             </div>
-        </a>
-        <a href="{{ route('relation.public-speaking-9') }}" class="list-group-item text-white text-center">
-            {{ __('relation/app.grade') }} {{ __('relation/app.n9') }}
-             <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
-                </div>
-             </div>
-        </a>
-        <a href="{{ route('relation.public-speaking-6') }}" class="list-group-item text-white text-center">
-            {{ __('relation/app.grade') }} {{ __('relation/app.n9') }}
-             <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
-                </div>
-             </div>
-        </a>
-        <a href="{{ route('relation.public-speaking-3') }}" class="list-group-item text-white text-center">
-            {{ __('relation/app.grade') }} {{ __('relation/app.n3') }}
-             <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
-                </div>
-             </div>
-        </a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.H1') }}</a>
+        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.H2') }}</a>
+
     </ul>
 
-    <ul class="text-capitalize list-group f14 unhover-padding">
+    <ul class="text-capitalize list-group f14">
         <a href="{{ route('relation.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('relation/app.I') }}</h6>
         </a>
-        <a href="{{ route('relation.khmer-debate-10') }}" class="list-group-item text-white text-center">
-             {{ __('relation/app.grade') }} {{ __('relation/app.n10') }}
-             <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
-                </div>
-             </div>
-        </a>
-        <a href="{{ route('relation.khmer-debate-8') }}" class="list-group-item text-white text-center">
-            {{ __('relation/app.grade') }} {{ __('relation/app.n8') }}
-             <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
-                </div>
-             </div>
-        </a>
-        <a href="{{ route('relation.khmer-debate-6') }}" class="list-group-item text-white text-center">
-            {{ __('relation/app.grade') }} {{ __('relation/app.n6') }}
-             <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
-                </div>
-             </div>
-        </a>
+        <a href="{{ route('relation.public-speaking-12') }}" class="list-group-item text-white text-center">
+            {{ __('relation/app.grade') }} {{ __('relation/app.I1') }}
+            <div class="d-flex justify-content-center ">
+               <div style="background-color: gainsboro;" class="w-100 height-200 rounded">
+               </div>
+            </div>
+       </a>
+       <a href="{{ route('relation.public-speaking-12') }}" class="list-group-item text-white text-center">
+        {{ __('relation/app.grade') }} {{ __('relation/app.I2') }}
+        <div class="d-flex justify-content-center ">
+           <div style="background-color: gainsboro;" class="w-100 height-200 rounded">
+        </div>
+        </div>
+        <a href="{{ route('relation.public-speaking-12') }}" class="list-group-item text-white text-center">
+            {{ __('relation/app.grade') }} {{ __('relation/app.I3') }}
+            <div class="d-flex justify-content-center ">
+               <div style="background-color: gainsboro;" class="w-100 height-200 rounded">
+               </div>
+            </div>
+   </a>
+
     </ul>
+
+
 
 </div>

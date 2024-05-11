@@ -6,90 +6,77 @@ return [
 
 
     // left sidebar
-    'A' => "About School",
-    'A1' => "Message from President",
+    'A' => "A- About Relation",
+    'A1' => "Welcome Message",
     'A2' => "Purpose",
     'A3' => "Vision Mission and Goal",
-    'A4' => "History and Beltei Location",
-    'A5' => "Structure",
-    'A6' => "Why Beltei?",
-    
+    'A4' => "History",
 
-    'B' => "Our Services",
+    'B' => "B- Our Services",
     'B1' => "Transferring BELTEI's Outstanding Students to study Overseas Through Oknha LY Chheng's",
     'B2' => "Sending Full Tuiltion Fees General Cambodian Students to Overseas Study",
     'B3' => "Sending Staff and All types of student in the whole country for overseas study tour",
-    'B4' => "overseas students exchange program",
-    'B5' => "transferring students for overseas internship",
-    
-
-    'C' => "12 Extra Curriculum",
-    'C1' => "E-learning",
-    'C2' => "Increase general knowledge",
-    'C3' => "Study Tour",
-    'C4' => "Public speaking competition",
-    'C5' => "Debate competition",
-    'C6' => "Writing Competition",
-    'C7' => "Math Challenge",
-    'C8' => "Educational Reading Competition",
-    'C9' => "Talent competition",
-    'C10' => "Study on TV",
-    'C11' => "Sports",
-    'C12' => "Stem Education (Robotic)",
-
-    'D' => "Equipment",
-    'D1' => "Classroom",
-    'D2' => "Library",
-    'D3' => "Computer room",
-    'D4' => "Laboratory",
-    'D5' => "Consultation Room",
-    'D6' => "Test room",
-    'D7' => "Robotic Room",
-    'D8' => "Co-educational Hall",
-    'D9' => "News and Hospitality",
-    'D10' => "School Supplies Store",
-    'D11' => "Management Meeting Room",
-    'D12' => "Security Camera",
-    'D13' => "Floor image",
-    'D14' => "Student bus",
-    'D15' => "Parking",
-
-    'E' => "Post",
-    'E1' => "educational institutions",
-
-    'F' => "Outstanding Student",
-    'F1' => "Student A",
-    'F2' => "Outstanding Students",
-    'F3' => "Outstanding Students",
-
-    'G' => "Outstanding Student",
-
-    
-    'H' => "Public speaking Content",
-    
-    'I' => "Debate",
-
-    'english-speaking' => "English Speaking Content",
-
-    'grade' => "Grade" ,
+    'B4' => "Overseas Students Exchange Program",
+    'B5' => "Transferring Students for Overseas Internship",
 
 
-    'n0' => '0',
-    'n1' => '1',
-    'n2' => '2',
-    'n3' => '3',
-    'n4' => '4',
-    'n5' => '5',
-    'n6' => '6',
-    'n7' => '7',
-    'n8' => '8',
-    'n9' => '9',
-    'n10' => '10',
-    'n11' => '11',
-    'n12' => '12',
-    
-    
-    'marquee' => '                
+    'C' => "C-Recognition",
+        'C1' => "Recognition",
+        'C2' => "National Collaboration",
+        'C3' => "International Collaboration",
+
+        'D' => "D-Our Achivements",
+        'D1' => "Okhnha LY Cheng's Scholarship Students Studied Overseas",
+        'D2' => "All Cambodia Student Who Can Afford the Tuition Fee to Study Abroad",
+        'D3' => "Overseas Study Tour's Students",
+        'D4' => "Students Transferred for Exchange Programs Overseas",
+        'D5' => "Students Transferred for Internship Program Overseas",
+
+        'E' => "E-International Test",
+        'E1' => "1-TOEFL iBT",
+        'E2' => "2-IELTS",
+        'E3' => "3-CAMBRIDGE ESOL EXAM",
+
+
+        'F' => "F-partner University",
+        'F1' => "1-The United Kingdom",
+        'F2' => "1- Regent's University",
+        'F3' => "2- York St John University",
+        'F4' => "3- Cambridge Tutors",
+        'F5' => "3-Malaysia",
+        'F6' => "1-University Kualar Lumpur",
+        'F7' => "2-Taylor's University",
+        'F8' => "3-Singapore",
+        'F9' => "1-Curtin University",
+        'F10' => "2-East Asia Instutute",
+        'F11' => "4-United States",
+        'F12' => "1-Massachusetts Lowell",
+        'F13' => "2-New Hampshire",
+        'F14' => "3-Massachusetts Boston",
+        'F15' => "5-Australia",
+        'F16' => "1-La Trobe Univerity",
+        'F17' => "2-New Hampshire",
+        'F18' => "3-Deakin University",
+        'F19' => "6-Canada",
+        'F20' => "1-Fraser International",
+        'F21' => "2-International Col Monitoba",
+
+        'G' => "G-RELATIONS Map",
+        'G1' => "BELTEI Iternational Map",
+
+
+        'H' => "H-News and Events",
+        'H1' => "1-News and Events",
+        'H2' => "2-Other Declaration",
+
+
+        'I' => "I-Special Video",
+        'I1' => "BELTEI International Relations has sent 13 Oknha LY Chheng's scholarship students to study bachelor's degree at EASB in Singapore",
+        'I2' => "BELTEI International Relations Students Study Tour to Seattle, Washington State of America.",
+        'I3' => "BELTEI International Relations Students Study Tour to Bangkok University, Thailand",
+
+
+    'marquee' => '
         <strong class="Muol-Light">BELTEI International School</strong>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
         Offers 5 Main Programs such as:
