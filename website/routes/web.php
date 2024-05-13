@@ -323,6 +323,19 @@ Route::group(['prefix' => 'relation', 'as' => 'relation.'], function () {
         Route::view('/fifth_service' , 'web.client.relation.service.fifth_service')->name('fifth_service');
 
     });
+    Route::group(['prefix' => 'mou', 'as' => 'mou.'], function () {
+        Route::view('/recognition' , 'web.client.relation.mou.recognition')->name('recognition');
+        Route::view('/national' , 'web.client.relation.mou.national')->name('national');
+        Route::view('/international' , 'web.client.relation.mou.international')->name('international');
+
+    });
+    Route::group(['prefix' => 'partner_university', 'as' => 'partner_university.'], function () {
+        Route::view('/regent_university' , 'web.client.relation.partner_university.regent_university')->name('regent_university');
+        Route::view('/cambridge' , 'web.client.relation.partner_university.cambridge')->name('cambridge');
+        Route::view('/yorkStJohn_university' , 'web.client.relation.partner_university.yorkStJohn_university')->name('yorkStJohn_university');
+
+
+    });
     Route::get('program/{program}/grade/{grade}', [CertificateController::class, 'certificateSection'])->name('certificate');
     Route::group(['prefix' => 'certificate', 'as' => 'certificate.'], function () {
         Route::view('program/{program}/grade/{grade}/year/{year}' , 'web.client.relation.certificate.certificate')->name('year');
