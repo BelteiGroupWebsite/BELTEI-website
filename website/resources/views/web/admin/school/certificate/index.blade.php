@@ -103,7 +103,7 @@
                             <td>{{ __('school/certificate/index.total') }}</td>
                             <td>{{ __('school/certificate/index.female') }}</td>
                         </tr>
-                        @foreach ($returnData as $data)
+                        {{-- @foreach ($returnData as $data)
                             @foreach ($data['batchYears'] as $identify_user => $batchYear)
                                 <tr>
                                     <td>{{ $data['program'] }}</td>
@@ -126,8 +126,40 @@
                                     </td>
                                 </tr>
                             @endforeach
-                        @endforeach
+                        @endforeach --}}
 
+                        @foreach ($programs as $program)
+                            @foreach ($program->academicBatch as $academicBatch)
+                            <tr>
+                                <td>
+                                    {{ $program->program_kh }}
+                                </td>
+                                <td>
+                                    {{ $academicBatch->grade }}
+                                </td>
+                                <td>
+                                    {{ $academicBatch->batch_startYear }}
+                                </td>
+                                <td>
+                                    {{ $academicBatch->certificate->count() }}
+                                </td>
+                                <td>
+                                    {{ $academicBatch->certificate->filter(function ($graduate) {
+                                        return $graduate->gender[0] === 'F' || $graduate->gender[0] === 'ស';
+                                    })->count() }}
+                                </td>
+                                <td>
+                                    {{ $academicBatch->certificate->MIN('certi_no') . " - " . $academicBatch->certificate->MAX('certi_no')}}
+                                </td>
+                                <td>
+                                    <a href="{{ route('school.certificate.detail' , ['program' => $academicBatch->program_id , 'grade' => $academicBatch->grade  , 'year' => $academicBatch->batch_startYear ]) }}">បើកមើល</a>
+                                </td>
+                                <td>
+                                    <a href="">បើកមើល</a>
+                                </td>
+                            </tr>
+                            @endforeach
+                        @endforeach
 
 
                     </tbody>

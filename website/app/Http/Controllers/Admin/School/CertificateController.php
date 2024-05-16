@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Admin\School;
 
 use App\Http\Controllers\Controller;
+use App\Models\school\AcademicBatch;
 use App\Models\school\Certificate;
+use App\Models\school\Program;
 use Illuminate\Http\Request;
 use Pion\Laravel\ChunkUpload\Handler\HandlerFactory;
 use Pion\Laravel\ChunkUpload\Receiver\FileReceiver;
@@ -20,18 +22,21 @@ class CertificateController extends Controller
         
         // return view('web.admin.school.certificate.index');
 
-        $programs = [1,2];
-        $grades = [12,9,6];
+        // $programs = [1,2];
+        // $grades = [12,9,6];
 
-        $returnData = [];
-        foreach($programs as $program){
-            foreach($grades as $grade){
+        // $returnData = [];
+        // foreach($programs as $program){
+        //     foreach($grades as $grade){
                 
-                $returnData[] = $this->certificateSectionFun($program, $grade);
-            }
-        }
+        //         $returnData[] = $this->certificateSectionFun($program, $grade);
+        //     }
+        // }
         // dd($returnData);
-        return view('web.admin.school.certificate.index' , compact('returnData'));
+
+        $programs = Program::get();
+        
+        return view('web.admin.school.certificate.index' , compact('programs'));
 
         
     }
@@ -148,11 +153,20 @@ class CertificateController extends Controller
         $identify = time();
         session(['identify' => $identify]);
 
+
+
         try {
+            $academicYear = AcademicBatch::firstOrCreate([
+                'batch_startYear' => session('batch_startYear'),
+                'grade' => session('grade'),
+                'program_id' => session('program')
+            ]);
+            
+
             foreach ($datas[0] as $data) {
 
                 $certi = str_replace(' ', '', $data[0]);
-                $moey_id = str_replace(' ', '', $data[7]);
+                $moey_id = $data[7] ?? null;
 
                 Certificate::create([
                     'certi_no' => $certi,
@@ -161,20 +175,103 @@ class CertificateController extends Controller
                     'gender' => $data[3],
                     'nation' => $data[4],
                     'dob' => $data[5],
-                    'campus' => $data[6],
-                    'grade' => session('grade'),
-                    'batch_startYear' => session('batch_startYear'),
-                    'identify_user' => $identify,
+                    'campus_id' => $data[6],
+
                     'moey_id' => $moey_id,
-                    'program' => session('program'),
+
+                    'academic_batch_id' => $academicYear->id,
+
+                    'identify_user' => $identify,
+
                 ]);
             }
         } catch (\Exception $e) {
             return response()->json(['message' => $e->getMessage()]);
         }
+        
+        
+        
+        // try {
+        //     foreach ($datas[0] as $data) {
+
+        //         $certi = str_replace(' ', '', $data[0]);
+        //         $moey_id = str_replace(' ', '', $data[7]);
+
+        //         Certificate::create([
+        //             'certi_no' => $certi,
+        //             'name_kh' => $data[1],
+        //             'name_eng' => $data[2],
+        //             'gender' => $data[3],
+        //             'nation' => $data[4],
+        //             'dob' => $data[5],
+        //             'campus' => $data[6],
+        //             'grade' => session('grade'),
+        //             'batch_startYear' => session('batch_startYear'),
+        //             'identify_user' => $identify,
+        //             'moey_id' => $moey_id,
+        //             'program' => session('program'),
+        //         ]);
+        //     }
+        // } catch (\Exception $e) {
+        //     return response()->json(['message' => $e->getMessage()]);
+        // }
 
         return response()->json(['message' => session('grade')]);
     }
+
+    // public function processData(Request $request)
+    // {
+    //     $datas = $request->input('data');
+
+
+    //     session([
+    //         'excelData' => $datas[0],
+    //         'degree' => $datas[1],
+    //         'biu_academic_year' => $datas[2],
+    //         'identify' => $identify = time(),
+    //     ]);
+
+
+    //     $identify = time();
+    //     session(['identify' => $identify]);
+
+    //     try {
+    //         $academicYear = AcademicBatch::firstOrCreate([
+    //             'start_academic_year' => session('biu_academic_year'),
+    //             'batch' => $datas[3],
+    //             'degree_id' => $datas[1]
+    //         ]);
+            
+
+    //         foreach ($datas[0] as $data) {
+
+    //             $certi = str_replace(' ', '', $data[0]);
+
+    //             Certificate::create([
+    //                 'certi_no' => $certi,
+    //                 'name_kh' => $data[1],
+    //                 'name_eng' => $data[2],
+    //                 'gender' => $data[3],
+    //                 'student_id' => $data[4],
+    //                 'dob' => $data[5],
+    //                 'academic_year_id' => $academicYear->id,
+    //                 'major_id' => $data[6],
+    //                 'degree_id' => $datas[1], // lub
+
+    //                 'identify_user' => $identify,
+
+    //             ]);
+    //         }
+    //     } catch (\Exception $e) {
+    //         return response()->json(['message' => $e->getMessage()]);
+    //     }
+
+    //     return response()->json(['message' => session('grade')]);
+    // }
+    
+    
+    
+    
 
     public function uploadLargeFiles(Request $request)
     {
@@ -302,10 +399,30 @@ class CertificateController extends Controller
 
 
 
+    // public function certificateSection($program , $grade){
+
+    //     return view('web.client.school.certificate.index', $this->certificateSectionFun($program, $grade));
+
+    // }
+    
+
+
+
     public function certificateSection($program , $grade){
 
-        return view('web.client.school.certificate.index', $this->certificateSectionFun($program, $grade));
-
+        $programs = AcademicBatch::where('program_id', $program)->where('grade' , $grade)
+        ->orderBy('batch_startYear', 'DESC')
+        ->get(); 
+        // return view('web.client.beltei_university.graduated.index' , compact('programs'));
+        return view('web.client.school.certificate.index' , compact( 'programs'));
     }
+
+
     
+    public function certificateBatchSection($program , $grade , $year){
+
+        // $academicBatches = AcademicBatch::where('program_id' , $program)->where('program_id' , $program)->where('batch_startYear' , $year)->get();        
+        
+        return view('web.client.school.certificate.detail' , compact('program' ,  'grade' , 'year'));
+    }
 }

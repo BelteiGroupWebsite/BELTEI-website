@@ -11,11 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('utb_academic_batch', function (Blueprint $table) {
+        Schema::create('stb_academic_batch', function (Blueprint $table) {
             $table->id();
-            $table->string('start_academic_year')->nullable();
-            $table->string('batch')->nullable();
-            $table->tinyInteger('degree_id');
+            $table->string('batch_startYear')->nullable();
+            $table->string('grade');
+            $table->tinyInteger('program_id');
             $table->timestamps();
         });
     }
@@ -25,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('utb_academic_batch');
+        Schema::dropIfExists('stb_academic_batch');
     }
 };

@@ -14,11 +14,12 @@
                 </tr>
                 <tr class="" style="background-color: lightblue">
 
-                    @if ($program == 1)
+                    {{-- @if ($program == 1)
                         <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
                     @else
                         <td rowspan="2">{{ __('school/certificate/index.batch') }}</td>
-                    @endif
+                        @endif --}}
+                    <td rowspan="2">{{ __('school/certificate/index.batch') }}</td>
 
                     <td colspan="2">{{ __('school/certificate/index.amout_sts') }}</td>
                     <td rowspan="2">{{ __('school/certificate/index.certi_no') }}</td>
@@ -32,7 +33,66 @@
 
 
 
-                @foreach ($batchYears as $identify_user => $batchYear)
+                @foreach ($programs as $academicBatch)
+                <tr>
+                    <td>
+                        {{ $academicBatch->batch_startYear }}
+                    </td>
+                    <td>
+                        {{ $academicBatch->certificate->count() }}
+                    </td>
+                    <td>
+                        {{ $academicBatch->certificate->filter(function ($graduate) {
+                            return $graduate->gender[0] === 'F' || $graduate->gender[0] === 'ស';
+                        })->count() }}
+                    </td>
+                    <td>
+                        {{ $academicBatch->certificate->MIN('certi_no') . " - " . $academicBatch->certificate->MAX('certi_no')}}
+                    </td>
+                    <td>
+                        <a href="{{ route('school.certificate.detail' , ['program' => $academicBatch->program_id , 'grade' => $academicBatch->grade  , 'year' => $academicBatch->batch_startYear ]) }}">បើកមើល</a>
+                    </td>
+                    <td>
+                        <a href="">បើកមើល</a>
+                    </td>
+                </tr>
+                @endforeach
+
+                {{-- @foreach ($programs as $program)
+                    @foreach ($program->academicBatch as $academicBatch)
+                    <tr>
+                        <td>
+                            {{ $program->program_kh }}
+                        </td>
+                        <td>
+                            {{ $academicBatch->grade }}
+                        </td>
+                        <td>
+                            {{ $academicBatch->batch_startYear }}
+                        </td>
+                        <td>
+                            {{ $academicBatch->certificate->count() }}
+                        </td>
+                        <td>
+                            {{ $academicBatch->certificate->filter(function ($graduate) {
+                                return $graduate->gender[0] === 'F' || $graduate->gender[0] === 'ស';
+                            })->count() }}
+                        </td>
+                        <td>
+                            {{ $academicBatch->certificate->MIN('certi_no') . " - " . $academicBatch->certificate->MAX('certi_no')}}
+                        </td>
+                        <td>
+                            <a href="{{ route('school.certificate.detail' , ['program' => $academicBatch->program_id , 'grade' => $academicBatch->grade  , 'year' => $academicBatch->batch_startYear ]) }}">បើកមើល</a>
+                        </td>
+                        <td>
+                            <a href="">បើកមើល</a>
+                        </td>
+                    </tr>
+                    @endforeach
+                @endforeach --}}
+                
+
+                {{-- @foreach ($batchYears as $identify_user => $batchYear)
                     <tr>
                         @if ($program == 1)
                             <td>{{ $batchYear . ' - ' . $batchYear + 1 }}<br></td>
@@ -51,7 +111,8 @@
                                 href="{{ url('certificate/' . $program . '/' . $grade . '/' . $batchYear . '/' . $identify_user . '/reference/reference.pdf') }}">{{ __('school/certificate/index.reference') }}</a>
                         </td>
                     </tr>
-                @endforeach
+                @endforeach --}}
+
             </tbody>
         </table>
 

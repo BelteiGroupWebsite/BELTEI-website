@@ -83,6 +83,7 @@
                                 onchange="categoryOnchange(this)">
                                 <option value="1">General Education</option>
                                 <option value="2">ESL Program</option>
+                                <option value="3">IMA Program</option>
                             </select>
                         </div>
                         <div class="col-6">
@@ -92,9 +93,13 @@
                                 <option class="GE profile" value="12">12</option>
                                 <option class="GE profile" value="9">9</option>
                                 <option class="GE c1" value="6">6</option>
+
                                 <option class="ES profile" value="12">12</option>
                                 <option class="ES c1" value="9">6</option>
                                 <option class="ES c1" value="6">Pre-6</option>
+
+                                <option class="IM c1" value="12">11</option>
+                                <option class="IM c1" value="6">6</option>
                             </select>
                         </div>
                     </div>
@@ -134,7 +139,7 @@
                                     .xlsx)</i></label>
                             <div class="form-group d-flex">
                                 <input class="form-control" name="certificateInformationExcel"
-                                    id="certificateInformationExcel" accept=".xlsx" type="file">
+                                    id="certificateInformationExcel" accept=".xlsx , .xls" type="file">
                                 <a class="btn btn-info text-white" id="test" href="{{ asset('assets\images\school\excel-placeholder.png') }}">?</a>
                             </div>
                         </div>
@@ -311,7 +316,14 @@
                     const jsonData = XLSX.utils.sheet_to_json(sheet, {
                         header: 1
                     });
-                    const cleanedData = jsonData.filter(row => row[0] !== undefined).map(row => row.slice(1, 9));
+                    // const cleanedData = jsonData.filter(row => row[0] !== undefined).map(row => row.slice(1, 9));
+
+                    const cleanedData = jsonData.slice(1) // Start from the second row
+                    .filter(row => row[0] !== undefined) // Filter out rows with undefined first element
+                    .map(row => row.slice(1, 9)); // Remove the first element from each row and keep columns 1 to 9
+
+                    console.log(cleanedData);
+
                     var batch_startYear;
                     if($('#batch').val()){
                         batch_startYear = $('#batch').val();
@@ -372,6 +384,7 @@
         function categoryOnchange(category) {
             var GE = $('.GE');
             var ES = $('.ES');
+            var IM = $('.IM');
 
             $('#grade').prop('selectedIndex', -1);
 
@@ -392,6 +405,10 @@
                 ES.each(function() {
                     $(this).addClass('d-none');
                 });
+                IM.each(function() {
+                    $(this).addClass('d-none');
+                });
+                
             } else if (category.value === "2") {
 
                 $('#academicYearDiv input').each(function() {
@@ -406,6 +423,26 @@
                 });
                 ES.each(function() {
                     $(this).removeClass('d-none');
+                });
+                IM.each(function() {
+                    $(this).addClass('d-none');
+                });
+            }else if (category.value === "3"){
+                $('#academicYearDiv input').each(function() {
+                    $(this).addClass('d-none');
+                });
+
+                $('#academicYearDiv').addClass('d-none');
+                $('#batchDiv').removeClass('d-none');
+                $('#batchDiv input').removeClass('d-none');
+                IM.each(function() {
+                    $(this).removeClass('d-none');
+                });
+                ES.each(function() {
+                    $(this).addClass('d-none');
+                });
+                GE.each(function() {
+                    $(this).addClass('d-none');
                 });
             }
 
@@ -461,207 +498,8 @@
         }
     </script>
 
-    {{-- <script type="text/javascript">
-        let PhotoInput = $('#belteiCertificateImg');
-        let moey = $('#moeyCertificateImg');
-        let submited = false;
-
-        var test = 1;
-
-
-        // Function to create a Resumable instance for a specific file input button
-        let resumable = new Resumable({
-            target: '{{ route('admin.school.certificate.files.upload.large') }}',
-            query: {
-                _token: '{{ csrf_token() }}'
-            },
-            // fileType: ['pdf'],
-            chunkSize: (5 * 1024 * 1024),
-            headers: {
-                'Accept': 'application/json'
-            },
-            forceChunkSize: true,
-            chunkRetryInterval: 5000, // Retry failed chunk uploads every 5 seconds
-            testChunks: true, // Test chunks before uploading
-            throttleProgressCallbacks: 1, // Increase progress event frequency
-            maxChunkRetries: 20, // Retry uploading a chunk up to 20 times
-            prioritizeFirstAndLastChunk: true,
-            simultaneousUploads: 1, // Upload files one by one to reduce errors
-        });
-        resumable.on('fileAdded', function(file) {
-            // Do not automatically upload here
-            showProgress();
-        });
-
-        resumable.on('fileProgress', function(file) {
-            // updateProgress(((test++)/2));
-            //  updateProgress(((test++)/2));
-            updateProgress(Math.floor(file.progress() * 100));
-        });
-
-        resumable.on('fileSuccess', function(file, response) {
-            response = JSON.parse(response);
-            resumable1.upload();
-        });
-
-        resumable.on('fileError', function(file, error) {
-            console.log('File Upload error:', error);
-            if (file.retry < resumable.maxChunkRetries) {
-                console.log('Retrying...');
-                file.retry(); // Retry uploading the file
-            } else {
-                alert('Failed to upload file: ' + file.fileName);
-            }
-        });
-        let resumable1 = new Resumable({
-            target: '{{ route('admin.school.certificate.files.upload.large1') }}',
-            query: {
-                _token: '{{ csrf_token() }}'
-            },
-            // fileType: ['pdf'],
-            chunkSize: (5 * 1024 * 1024),
-            headers: {
-                'Accept': 'application/json'
-            },
-            forceChunkSize: true,
-            chunkRetryInterval: 5000, // Retry failed chunk uploads every 5 seconds
-            testChunks: true, // Test chunks before uploading
-            throttleProgressCallbacks: 1, // Increase progress event frequency
-            maxChunkRetries: 20, // Retry uploading a chunk up to 20 times
-            prioritizeFirstAndLastChunk: true,
-            simultaneousUploads: 1, // Upload files one by one to reduce errors
-        });
-        resumable1.on('fileAdded', function(file) {
-            // Do not automatically upload here
-            showProgress();
-        });
-
-        resumable1.on('fileProgress', function(file) {
-            //  updateProgress(((test++)/cleanedData.length));
-            // updateProgress(Math.floor((test++)/cleanedData.length));
-            updateProgress(Math.floor(file.progress() * 100));
-        });
-
-        resumable1.on('fileSuccess', function(file, response) {
-            response = JSON.parse(response);
-            hideLoader(test++)
-            // console.log(response)
-            // setTimeout(() => {
-            //     document.getElementById("loader").classList.add('d-none');
-            //     document.getElementById("alert").classList.remove('d-none');
-            // }, 1000);
-        });
-
-        resumable1.on('fileError', function(file, error) {
-            console.log('File Upload error:', error);
-            if (file.retry < resumable1.maxChunkRetries) {
-                console.log('Retrying...');
-                file.retry(); // Retry uploading the file
-            } else {
-                alert('Failed to upload file: ' + file.fileName);
-            }
-        });
-
-        resumable.assignBrowse($('#belteiCertificateImg'));
-        resumable1.assignBrowse($('#moeyCertificateImg'));
-
-
-
-
-
-        let progress = $('.progress');
-
-        function showProgress() {
-            progress.find('.progress-bar').css('width', '0%');
-            progress.find('.progress-bar').html('0%');
-            progress.find('.progress-bar').removeClass('bg-success');
-            progress.show();
-        }
-
-        function updateProgress(value) {
-            progress.find('.progress-bar').css('width', `${value}%`);
-            progress.find('.progress-bar').html(`${value}%`);
-
-            if (value === 100) {
-                $('#fileNameP').text("Completed!");
-                progress.find('.progress-bar').addClass('bg-success');
-            }
-        }
-
-        function hideProgress() {
-            progress.hide();
-        }
-
-        function hideLoader(value){
-            if(value == cleanedData.length )
-            setTimeout(() => {
-                document.getElementById("loader").classList.add('d-none');
-                document.getElementById("alert").classList.remove('d-none');
-            }, 1000);
-        }
-        
-        function SubmitForm() {
-            const fileInput = document.getElementById('certificateInformationExcel');
-
-            document.getElementById("loader").classList.remove('d-none');
-
-            const file = fileInput.files[0];
-            const reader = new FileReader();
-
-            reader.onload = (event) => {
-                const data = new Uint8Array(event.target.result);
-                const workbook = XLSX.read(data, {
-                    type: 'array'
-                });
-                const sheetName = workbook.SheetNames[0];
-                const sheet = workbook.Sheets[sheetName];
-                const jsonData = XLSX.utils.sheet_to_json(sheet, {
-                    header: 1
-                });
-
-                // const filteredData = jsonData.map(row => row.slice(1, 8)); // Extract columns B to D
-                const cleanedData = jsonData.filter(row => row[0] !== undefined).map(row => row.slice(1,9)); // Extract columns B to D
-
-                console.log(cleanedData.length);
-                console.log("Successfully");
-
-
-                fetch('{{ route('admin.school.certificate.excel.upload') }}', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute(
-                                'content')
-                        },
-                        body: JSON.stringify({
-                            data: [cleanedData, document.getElementById('grade').value, document
-                                .getElementById('batch').value
-                            ],
-
-                        })
-                    })
-                    .then(response => {
-                        if (response.ok) {
-                            return response.json(); // Return the promise to chain further
-
-                        } else {
-                            throw new Error('Failed to send data');
-                            console.log(response);
-                            console.log(data.message);
-                        }
-                    })
-                    .then(data => {
-                        resumable.upload();
-                        console.log(data.message);
-                    })
-                    .catch(error => console.error('Error:', error));
-            }
-
-            reader.readAsArrayBuffer(file);
-
-            // });
-
-        }
-    </script> --}}
 
 @endsection
+
+
+

@@ -19,13 +19,12 @@ return new class extends Migration
             $table->string("nation")->nullable();
             $table->string("gender")->nullable();
             $table->string("dob")->nullable();
-            $table->string("campus")->nullable();
-            $table->string("grade")->nullable();
-            $table->string("batch_startYear")->nullable();
+            $table->tinyInteger("campus_id")->nullable();
             $table->string("moey_id")->nullable();
-            $table->tinyInteger("program")->default(1);
+            $table->tinyInteger("academic_batch_id")->nullable();
             $table->string("identify_user")->nullable();
             $table->timestamps();
+
         });
     }
 

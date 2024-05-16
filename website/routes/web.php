@@ -105,10 +105,14 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
     Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
         Route::view('/campusTemplete' , 'web.client.school.campus.campusTemplete')->name('campusTemplete');
     });
+
+
     Route::get('program/{program}/grade/{grade}', [CertificateController::class, 'certificateSection'])->name('certificate');
-    Route::group(['prefix' => 'certificate', 'as' => 'certificate.'], function () {
-        Route::view('program/{program}/grade/{grade}/year/{year}' , 'web.client.school.certificate.certificate')->name('year');
-    });
+    Route::get('program/{program}/grade/{grade}/year/{year}', [CertificateController::class, 'certificateBatchSection'])->name('certificate.detail');
+    // Route::get('program/{program}/grade/{grade}', [CertificateController::class, 'certificateSection'])->name('certificate');
+    // Route::group(['prefix' => 'certificate', 'as' => 'certificate.'], function () {
+    //     Route::view('program/{program}/grade/{grade}/year/{year}' , 'web.client.school.certificate.certificate')->name('year');
+    // });
 
 
     Route::view('/public-speaking' , 'web.client.school.public-speaking.grade12')->name('public-speaking');

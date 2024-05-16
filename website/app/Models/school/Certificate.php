@@ -18,13 +18,16 @@ class Certificate extends Model
         'nation',
         'gender',
         'dob',
-        'campus',
-        'batch_startYear',
-        'grade',
+        'campus_id',
         'moey_id',
-        'program',
+        'academic_batch_id',
         'identify_user',
         'created_at',
         'updated_at',
     ];
+
+    public function academicBatch()
+    {
+        return $this->belongsTo(AcademicBatch::class, 'academic_batch_id');
+    }
 }

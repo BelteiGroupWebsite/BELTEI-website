@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string("dob")->nullable();
             $table->tinyInteger("academic_year_id");
             $table->string("major_id")->nullable();
-            $table->tinyInteger("degree_id")->default(3);
+            // $table->tinyInteger("degree_id")->default(3);
             $table->string("identify_user")->nullable();
             $table->timestamps();
         });
