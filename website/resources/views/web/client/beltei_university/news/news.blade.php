@@ -22,7 +22,7 @@
 </div>
 
     <div>
-        @include('web.client.school.layout.share.news')
+        @include('web.client.beltei_university.layout.share.news')
     </div>
 
     

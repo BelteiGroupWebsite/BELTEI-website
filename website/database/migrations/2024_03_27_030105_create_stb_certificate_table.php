@@ -19,9 +19,9 @@ return new class extends Migration
             $table->string("nation")->nullable();
             $table->string("gender")->nullable();
             $table->string("dob")->nullable();
-            $table->tinyInteger("campus_id")->nullable();
+            $table->integer("campus_id")->nullable();
             $table->string("moey_id")->nullable();
-            $table->tinyInteger("academic_batch_id")->nullable();
+            $table->integer("academic_batch_id")->nullable();
             $table->string("identify_user")->nullable();
             $table->timestamps();
 
