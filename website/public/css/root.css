@@ -971,6 +971,9 @@ a {
 .RED-color{
     color: #E23439 !important;
 }
+.Gold-color{
+    color: #C1AA3F !important;
+}
 .text-color-testcenter-header{
     color: var(--text-color-testcenter-header);
 }

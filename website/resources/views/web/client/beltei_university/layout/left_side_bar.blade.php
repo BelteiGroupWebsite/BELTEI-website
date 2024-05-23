@@ -133,14 +133,75 @@
         <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.K3') }}</a>
 
     </ul>
-    <ul class="text-capitalize list-group f14">
+
+    <ul class="text-capitalize list-group f14 unhover-padding">
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.L') }}</h6>
         </a>
-        <a href="{{ route('beltei_university.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('beltei_university/app.L1') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.L2') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.L3') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.L3') }}</a>
+        <a href="{{ route('beltei_university.') }}">
+            <h6 style="height: 50px; border:inset 3px ; border-radius: 18px" class="BBA-color-bg pe-2 text-white Gold-color-border d-flex justify-content-center align-items-center">
+            {{ __('beltei_university/app.L1') }}</h6>
+        </a>
+        <a href="{{ route('school.khmer-debate-10') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+             {{ __('school/app.grade') }} {{ __('beltei_university/app.L2') }}
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                </div>
+             </div>
+        </a>
+        <a href="{{ route('school.khmer-debate-8') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+            {{ __('school/app.grade') }} {{ __('beltei_university/app.L3') }}
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                </div>
+             </div>
+        </a>
+        <a href="{{ route('school.khmer-debate-6') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+            {{ __('school/app.grade') }} {{ __('beltei_university/app.L4') }}
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                </div>
+             </div>
+        </a>
+        <a href="{{ route('school.khmer-debate-6') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+            {{ __('school/app.grade') }} {{ __('beltei_university/app.L5') }}
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                </div>
+             </div>
+        </a>
 
+        <a href="{{ route('beltei_university.') }}">
+            <h6 style="height: 50px; border:inset 3px ; border-radius: 18px" class="BEdu-color-bg pe-2 text-white Gold-color-border d-flex justify-content-center align-items-center">
+            {{ __('beltei_university/app.L6') }}</h6>
+        </a>
+        <a href="{{ route('school.khmer-debate-10') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+             {{ __('school/app.grade') }} {{ __('beltei_university/app.L7') }}
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                </div>
+             </div>
+        </a>
+        <a href="{{ route('school.khmer-debate-8') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+            {{ __('school/app.grade') }} {{ __('beltei_university/app.L8') }}
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                </div>
+             </div>
+        </a>
+        <a href="{{ route('school.khmer-debate-6') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+            {{ __('school/app.grade') }} {{ __('beltei_university/app.L9') }}
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                </div>
+             </div>
+        </a>
+        <a href="{{ route('school.khmer-debate-6') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+            {{ __('school/app.grade') }} {{ __('beltei_university/app.L10') }}
+             <div class="d-flex justify-content-center ">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                </div>
+             </div>
+        </a>
     </ul>
 </div>
