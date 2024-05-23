@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('khmer_name')->nullable();
             $table->string('latin_name')->nullable();
-            $table->tinyInteger('academic_year_id');
+            $table->integer('academic_year_id');
             $table->string('campus_id')->nullable();
             $table->string("identify_user")->nullable();
             $table->timestamps();

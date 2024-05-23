@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('start_academic_year')->nullable();
             $table->string('batch')->nullable();
-            $table->tinyInteger('degree_id');
+            $table->integer('degree_id');
             $table->timestamps();
         });
     }

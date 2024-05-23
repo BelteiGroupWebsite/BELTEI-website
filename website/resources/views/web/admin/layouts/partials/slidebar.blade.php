@@ -76,6 +76,9 @@
                 </a>
                 <ul>
                     <li> 
+                        <a href="{{ route('admin.university.news.index') }}"><i class="bi bi-circle"></i>News</a>
+                    </li>
+                    <li> 
                         <a href="{{ route('admin.university.certificate.index') }}"><i class="bi bi-circle"></i>Certificate</a>
                     </li>
                 </ul>

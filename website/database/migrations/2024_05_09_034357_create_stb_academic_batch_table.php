@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('batch_startYear')->nullable();
             $table->string('grade');
-            $table->tinyInteger('program_id');
+            $table->integer('program_id');
             $table->timestamps();
         });
     }

@@ -18,30 +18,21 @@
 @section('content')
 
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="card">
             <div class="card-header pt-3">
                 <h4>Student Certificate</h4>
             </div>
             <div class="card-body">
-                <table>
-
-                </table>
-
 
                 <table class="table table-bordered text-center table-hover title-translate-font vertical-align-middle"
                     id="box-table-a" border="0" width="100%" align="center">
                     <tbody>
-                        <tr>
-                            <td class="label bg-success text-white py-4" colspan="9" width="100">
-                                <h5>{{ __('school/certificate/index.header') }}</h5>
-                            </td>
-                        </tr>
 
                         <tr class="" style="background-color: lightblue">
 
                             <td rowspan="2">Degree</td>
-                            <td rowspan="2">Batch</td>
+                            <td rowspan="2">{{ __('school/certificate/index.batch') }}</td>
                             {{-- <td rowspan="2">Grade</td> --}}
                             <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
                             <td colspan="2">{{ __('school/certificate/index.amout_sts') }}</td>

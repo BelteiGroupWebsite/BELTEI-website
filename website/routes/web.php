@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\User\UsersController;
 use App\Http\Controllers\Admin\School\CertificateController;
 use App\Http\Controllers\GradeAController;
 use App\Http\Controllers\Admin\University\CertificateController as UniversityCertificateController;
+use App\Http\Controllers\Admin\University\NewsController;
 use App\Models\school\Certificate;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -212,6 +213,9 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
 
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
         Route::view('/' , 'web.client.beltei_university.news.news');
+        // Route::view('/detail/{id}' , 'web.client.beltei_university.news.detail');
+        Route::get('detail/{id}', [NewsController::class, 'show'])->name('detail');
+
     });
 
     Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
@@ -278,6 +282,7 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
         Route::group(['prefix' => 'domestic', 'as' => 'domestic.'], function () {
             Route::view('/cambodian' , 'web.client.beltei_tours_travel.mainprogram.domestic.cambodian')->name('cambodian');
             Route::view('/expatrate' , 'web.client.beltei_tours_travel.mainprogram.domestic.expatrate')->name('expatrate');
+            Route::view('/expatrate-detail' , 'web.client.beltei_tours_travel.mainprogram.domestic.expatrate.expatrate-detail')->name('expatrate-detail');
         });
     });
 
@@ -435,7 +440,20 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
             Route::post('/store/file', [GradeAController::class, 'uploadLargeFiles'])->name('.files.upload.large');
             Route::post('/your-route', [GradeAController::class, 'processData'])->name('.excel.upload');
         });
+        
+        
+        Route::resource('news',NewsController::class)->names('news');
+        
 
 
     });
+
+
+    Route::resource('news',NewsController::class)->names('news');
+    // Route::get('set-new-category/{locale}', function ($locale) {
+    //     if (in_array($locale, ['en', 'kh' , 'ch'])) {
+    //         session(['locale' => $locale]);
+    //     }
+    //     return back();
+    // })->name('set-new-category');
 });
