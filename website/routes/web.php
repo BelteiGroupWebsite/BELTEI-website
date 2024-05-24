@@ -245,6 +245,17 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
     Route::get('degree/{degree}/batch/{batch}', [UniversityCertificateController::class, 'certificateBatchSection'])->name('certificate.detail');
 
 
+    Route::view('/speakingk1' , 'web.client.beltei_university.speaking.khmer_speaking_year1')->name('khmer_speaking_year1');
+    Route::view('/speakingk2' , 'web.client.beltei_university.speaking.khmer_speaking_year2')->name('khmer_speaking_year2');
+    Route::view('/speakingk3' , 'web.client.beltei_university.speaking.khmer_speaking_year3')->name('khmer_speaking_year3');
+    Route::view('/speakingk4' , 'web.client.beltei_university.speaking.khmer_speaking_year4')->name('khmer_speaking_year4');
+    Route::view('/speakinge2' , 'web.client.beltei_university.speaking.english_speaking_year1')->name('english_speaking_year1');
+    Route::view('/speakinge2' , 'web.client.beltei_university.speaking.english_speaking_year2')->name('english_speaking_year2');
+    Route::view('/speakinge3' , 'web.client.beltei_university.speaking.english_speaking_year3')->name('english_speaking_year3');
+    Route::view('/speakinge4' , 'web.client.beltei_university.speaking.english_speaking_year4')->name('english_speaking_year4');
+
+
+
 });
 
 Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.'], function () {
@@ -440,10 +451,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
             Route::post('/store/file', [GradeAController::class, 'uploadLargeFiles'])->name('.files.upload.large');
             Route::post('/your-route', [GradeAController::class, 'processData'])->name('.excel.upload');
         });
-        
-        
+
+
         Route::resource('news',NewsController::class)->names('news');
-        
+
 
 
     });

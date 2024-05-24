@@ -142,31 +142,43 @@
             <h6 style="height: 50px; border:inset 3px ; border-radius: 18px" class="BBA-color-bg pe-2 text-white Gold-color-border d-flex justify-content-center align-items-center">
             {{ __('beltei_university/app.L1') }}</h6>
         </a>
-        <a href="{{ route('school.khmer-debate-10') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+        <a href="{{ route('beltei_university.khmer_speaking_year1') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
              {{ __('school/app.grade') }} {{ __('beltei_university/app.L2') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
+
                 </div>
              </div>
         </a>
-        <a href="{{ route('school.khmer-debate-8') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+        <a href="{{ route('beltei_university.khmer_speaking_year2') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L3') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
+
                 </div>
              </div>
         </a>
-        <a href="{{ route('school.khmer-debate-6') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+        <a href="{{ route('beltei_university.khmer_speaking_year3') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L4') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
+
                 </div>
              </div>
         </a>
-        <a href="{{ route('school.khmer-debate-6') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+        <a href="{{ route('beltei_university.khmer_speaking_year4') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L5') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
+
                 </div>
              </div>
         </a>
@@ -178,28 +190,36 @@
         <a href="{{ route('school.khmer-debate-10') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
              {{ __('school/app.grade') }} {{ __('beltei_university/app.L7') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
                 </div>
              </div>
         </a>
         <a href="{{ route('school.khmer-debate-8') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L8') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
                 </div>
              </div>
         </a>
         <a href="{{ route('school.khmer-debate-6') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L9') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
                 </div>
              </div>
         </a>
         <a href="{{ route('school.khmer-debate-6') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L10') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
                 </div>
              </div>
         </a>
