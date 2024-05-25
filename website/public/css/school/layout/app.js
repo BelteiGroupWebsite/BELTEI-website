@@ -43,6 +43,15 @@ for(let i = 0; i < 1 ; i++){
 }
 
 
+function setVideoSource(element) {
+    var videoUrl = element.querySelectorAll('img')[1].getAttribute('data-src');
+    document.getElementById('vd-container').src = videoUrl;
+    scrollToHrefFunction('vd-container');
+}
+
+    function scrollToHrefFunction(href) {
+        document.getElementById(href).scrollIntoView({ behavior: 'smooth' });
+    }
 
 
 
