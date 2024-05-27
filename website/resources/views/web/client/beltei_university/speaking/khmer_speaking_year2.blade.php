@@ -9,7 +9,7 @@
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16"
-                src="https://www.youtube.com/embed/IJQ7zQTikHA?si=QRoiYn5VRGd50xoN"></iframe>
+                src="https://www.youtube.com/embed/MLUtdHqI9fQ?si=hz6FkDIjBcTvGydd"></iframe>
         </div>
 
         <hr>
@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-4 height-200 content-translate-font">
                 <iframe class="w-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/IJQ7zQTikHA?si=QRoiYn5VRGd50xoN" title="YouTube video player"
+                    src="https://www.youtube.com/embed/MLUtdHqI9fQ?si=hz6FkDIjBcTvGydd" title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -27,7 +27,7 @@
             </div>
             <div class="col-4 height-200 content-translate-font">
                 <iframe class="w-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/QzeQXIApCNQ?si=koiJfOxOMZSTUG6T" title="YouTube video player"
+                    src="https://www.youtube.com/embed/ZjTTk3Elg0s?si=2GfzOpNUnbMcHxHs" title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -37,7 +37,7 @@
             </div>
             <div class="col-4 height-200 content-translate-font">
                 <iframe class="w-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/jcMHhjwNxBU?si=HRkGNa3AyI4wPOGQ" title="YouTube video player"
+                    src="https://www.youtube.com/embed/wbdLpEwMPmg?si=vwKOQz1Vplpz-oFm" title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

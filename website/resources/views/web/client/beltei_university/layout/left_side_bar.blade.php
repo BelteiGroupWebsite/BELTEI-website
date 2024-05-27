@@ -156,7 +156,7 @@
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L3') }}
              <div class="d-flex justify-content-center ">
                 <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
-                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear2.png') }}" alt="">
                     <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
 
                 </div>
@@ -176,7 +176,7 @@
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L5') }}
              <div class="d-flex justify-content-center ">
                 <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
-                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear4.png') }}" alt="">
                     <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
 
                 </div>
