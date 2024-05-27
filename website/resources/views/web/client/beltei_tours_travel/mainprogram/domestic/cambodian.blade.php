@@ -57,7 +57,7 @@
                     $id = $_GET['id'];
                 @endphp
             
-                @for ($i = 1; $i <= 12; $i++)
+                @for ($i = 1; $i <= 11; $i++)
                     <a @if ($i == $id) class="active" @endif id="paginate{{ $i }}" href="{{ route('beltei_tours_travel.mainprogram.domestic.cambodian') }}?id={{ $i }}">{{ $i }}</a>
                 @endfor
             </div>

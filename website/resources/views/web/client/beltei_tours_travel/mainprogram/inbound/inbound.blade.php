@@ -4,11 +4,7 @@
     <div>
 
         <div>
-            <h4 class="title-translate-font font-bold pb-3 text-success">WELCOME TO BELTEI TOURS</h4>
-            <p class="text-justify indent-1rem">BELTEI TOURS & TRAVEL provides domestic tour services for expatriates in
-                Cambodia traveling to the main tourist destinations in the Kingdom of Cambodia such as: Phnom Penh capital
-                city, Siem Reap , Northeast (Kratie, Stung Treng, Ratanakiri, and Mondulkiri ), Coastal areas (Koh Kong,
-                Preah Sihanouk, Kampot, and Kep), and more famous tourist attractions in other provinces.​</p>
+            <h4 class="title-translate-font font-bold pb-3 text-success">នាំភ្លៀវពីបរទេស មកកម្ពុជា</h4>
         </div>
 
 
@@ -21,126 +17,118 @@
                 <div class="row row-cols-lg-2 g-2 g-lg-4">
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=1" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/watphnom.jpg') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income01.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">1- PHNOM PENH</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">1- Fantastic Cambodia</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=2" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img02.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income02.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">2-PHNOM PENH-SIEM REAP</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">2- Amazing Cambodia</p>
 
                         </div>
-                    </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=3" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80"
-                                src="{{ asset('asset/img/tours/domestic/expatrate/Kampong-Thom-province-1.jpg') }}"
+                                src="{{ asset('asset/img/tours/mainprogram/income/income03.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">3-PHNOM PENH-KAMPONG THOM-SIEM REAP</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">3- Nothern Cambodia</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=4" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80"
-                                src="{{ asset('asset/img/tours/domestic/expatrate/14388661301438866403l-696x452.jpg') }}"
+                                src="{{ asset('asset/img/tours/mainprogram/income/income04.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">4-PHNOM PENH- PREAH VIHEAR TEMPLE</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">4- Eco-Explore</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=5" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img05.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income05.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">5-PHNOM PENH-PURSAT-BATTAMBANG</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">5-Beach Explore</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=6" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img06.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income06.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">6-Mondulkiri(Sen Monorom City)</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">6- Cambodia Reliable</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=7" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img07.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income07.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">7-PHNOM PENH-KRATIE-RATANAKIRI</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">7- Cyclical Great Lake</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=8" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img08.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income08.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">8-PP-KRATIE-S_TRENG-RATANAKIRI-MONDULKIRI</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">8- Landscape Tour</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=9" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img09.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income09.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">9-PP-KOH SDACH ISLAND-KOH KONG</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">9- Angkor Classic</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=10" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img10.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income10.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">10-PP-DARA SAKOR RESORT-KOH KONG</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">10- Majestic Angkor</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=11" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img11.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income11.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">11-PHNOM PENH-PREAH SIHANOUK</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">11- Angkor Image</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=12" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img12.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income12.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">12-PHNOM PENH- KOH THANSUR</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">12- East-West Corridor</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=13" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img13.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income13.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">13-PHNOM PENH-KAMPOT-KEP</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">13- Border Trip</p>
 
                         </div>
                     </a>
                     <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=14" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img14.png') }}"
+                            <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income14.png') }}"
                                 alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">14-PHNOM PENH-KAMPOT ( 2DAYS-1NIGHTS)</p>
+                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">14- Border Scenery</p>
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=15" class="col">
-                        <div class="p-3 border bg-light shadow rounded scale-9-hover">
-                            <img class="w-80" src="{{ asset('asset/img/tours/domestic/expatrate/img15.png') }}"
-                                alt="">
-                            <p class="height-50 align-middle align-items-center d-flex justify-content-center">15-PHNOM PENH-KEP-KAMPOT-PREAH MONIVONG BOKOR NATIONAL PARK</p>
 
-                        </div>
-                    </a>
                 </div>
             </div>
 
