@@ -35,27 +35,6 @@
                 </a>
             </div>
         </li>
-
-
-        {{-- <li class="list-group border">
-            <div class="d-flex gap-2 align-items-center"> 
-                <img src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
-                <p class="Battambang-Regular">ភាសាខ្មែរ</p>
-                <i class="fa fa-check"></i>
-            </div>
-        </li> --}}
-        {{-- <li class="list-group border">
-            <div class="d-flex gap-2 align-items-center"> 
-                <img src="{{ asset('asset/img/school/language/english.png') }}" alt="">
-                <p>English</p>
-            </div>
-        </li>
-        <li class="list-group border">
-            <div class="d-flex gap-2 align-items-center"> 
-                <img src="{{ asset('asset/img/school/language/chinese.png') }}" alt="">
-                <p>中文</p>
-            </div>
-        </li> --}}
     </ul>
 
 
@@ -160,7 +139,8 @@
         <a href="{{ route('school.english-speaking-12') }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n12') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-90 height-100 rounded">
+                <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                     <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/english-speaking/12.png') }}" alt="">
                 </div>
             </div>
@@ -168,7 +148,8 @@
         <a href="{{ route('school.english-speaking-9') }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n9') }}
             <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-90 height-100 rounded">
+                <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                     <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/english-speaking/9.png') }}" alt="">
                 </div>
              </div>
@@ -176,7 +157,8 @@
         <a href="{{ route('school.english-speaking-6') }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n6') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-90 height-100 rounded">
+                <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                     <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/english-speaking/6.png') }}" alt="">
                 </div>
             </div>
@@ -184,7 +166,8 @@
         <a href="{{ route('school.english-speaking-3') }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n3') }}
             <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-90 height-100 rounded">
+                <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                     <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/english-speaking/3.png') }}" alt="">
                 </div>
              </div>
@@ -198,14 +181,18 @@
         <a href="{{ route('school.english-debate-12') }}" class="list-group-item text-white text-center">
              {{ __('school/app.grade') }} {{ __('school/app.n11') }}-{{ __('school/app.n12') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-90 height-100 rounded">
+                <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/debate-english/12.png') }}" alt="">
                 </div>
              </div>
         </a>
         <a href="{{ route('school.english-debate-9') }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n9') }}-{{ __('school/app.n10') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-90 height-100 rounded">
+                <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/debate-english/9.png') }}" alt="">
                 </div>
              </div>
         </a>
