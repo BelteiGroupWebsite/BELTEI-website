@@ -87,28 +87,35 @@
         <a href="{{ route('school.public-speaking-12') }}" class="list-group-item text-white text-center">
              {{ __('school/app.grade') }} {{ __('school/app.n12') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-90 height-100 rounded">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/public-speaking-content/12.png') }}" alt="">
                 </div>
              </div>
         </a>
+
+        
+        
         <a href="{{ route('school.public-speaking-9') }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n9') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-90 height-100 rounded">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/public-speaking-content/9.png') }}" alt="">
                 </div>
              </div>
         </a>
         <a href="{{ route('school.public-speaking-6') }}" class="list-group-item text-white text-center">
-            {{ __('school/app.grade') }} {{ __('school/app.n9') }}
+            {{ __('school/app.grade') }} {{ __('school/app.n6') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-90 height-100 rounded">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/public-speaking-content/6.png') }}" alt="">
                 </div>
              </div>
         </a>
         <a href="{{ route('school.public-speaking-3') }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n3') }}
              <div class="d-flex justify-content-center ">
-                <div style="background-color: gainsboro;" class="w-100 height-100 rounded">
+                <div style="background-color: gainsboro;" class="w-90 height-100 rounded">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/public-speaking-content/3.png') }}" alt="">
                 </div>
              </div>
         </a>
