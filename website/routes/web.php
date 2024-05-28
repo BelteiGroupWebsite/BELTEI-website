@@ -249,7 +249,7 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
     Route::view('/speakingk2' , 'web.client.beltei_university.speaking.khmer_speaking_year2')->name('khmer_speaking_year2');
     Route::view('/speakingk3' , 'web.client.beltei_university.speaking.khmer_speaking_year3')->name('khmer_speaking_year3');
     Route::view('/speakingk4' , 'web.client.beltei_university.speaking.khmer_speaking_year4')->name('khmer_speaking_year4');
-    Route::view('/speakinge2' , 'web.client.beltei_university.speaking.english_speaking_year1')->name('english_speaking_year1');
+    Route::view('/speakinge1' , 'web.client.beltei_university.speaking.english_speaking_year1')->name('english_speaking_year1');
     Route::view('/speakinge2' , 'web.client.beltei_university.speaking.english_speaking_year2')->name('english_speaking_year2');
     Route::view('/speakinge3' , 'web.client.beltei_university.speaking.english_speaking_year3')->name('english_speaking_year3');
     Route::view('/speakinge4' , 'web.client.beltei_university.speaking.english_speaking_year4')->name('english_speaking_year4');
@@ -351,8 +351,10 @@ Route::group(['prefix' => 'relation', 'as' => 'relation.'], function () {
     });
     Route::group(['prefix' => 'partner_university', 'as' => 'partner_university.'], function () {
         Route::view('/regent_university' , 'web.client.relation.partner_university.regent_university')->name('regent_university');
-        Route::view('/cambridge' , 'web.client.relation.partner_university.cambridge')->name('cambridge');
+        Route::view('/cambridge' , 'web.client.relation.partner_university.cambridge_totors')->name('cambridge');
         Route::view('/yorkStJohn_university' , 'web.client.relation.partner_university.yorkStJohn_university')->name('yorkStJohn_university');
+        Route::view('/kuala_lumpur' , 'web.client.relation.partner_university.kuala_lumpur_university')->name('kuala_lumpur');
+
 
 
     });

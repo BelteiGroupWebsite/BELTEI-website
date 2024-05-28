@@ -98,10 +98,10 @@
         <a href="{{ route('relation.') }}"><h6 class="text-uppercase text-center py-2 BTh-color-bg gold ">{{ __('relation/app.F1') }}</h6></a>
         <a href="{{ route('relation.partner_university.regent_university') }}" class="list-group-item text-white">{{ __('relation/app.F2') }}</a>
         <a href="{{ route('relation.partner_university.yorkStJohn_university') }}" class="list-group-item text-white">{{ __('relation/app.F3') }}</a>
-        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F4') }}</a>
+        <a href="{{ route('relation.partner_university.cambridge') }}" class="list-group-item text-white">{{ __('relation/app.F4') }}</a>
 
         <a href="{{ route('relation.') }}"><h6 class="text-uppercase text-center py-2 BTh-color-bg gold ">{{ __('relation/app.F5') }}</h6></a>
-        <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F6') }}</a>
+        <a href="{{ route('relation.partner_university.kuala_lumpur') }}" class="list-group-item text-white">{{ __('relation/app.F6') }}</a>
         <a href="{{ route('relation.outstanding-student.city') }}" class="list-group-item text-white">{{ __('relation/app.F7') }}</a>
 
         <a href="{{ route('relation.') }}"><h6 class="text-uppercase text-center py-2 BTh-color-bg gold ">{{ __('relation/app.F8') }}</h6></a>

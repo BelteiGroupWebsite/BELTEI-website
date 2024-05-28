@@ -112,10 +112,19 @@
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.I') }}</h6>
         </a>
-        <a href="{{ route('beltei_university.graduated.doctor') }}" class="list-group-item text-white">{{ __('beltei_university/app.I1') }}</a>
+
+        <a href="{{ route('beltei_university.graduated.doctor') }}" class="list-group-item text-white">{{ __('beltei_university/app.I1') }}
+            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
+                <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/13.jpg" alt="">
+                <p class="text-danger font-bold text-center Khmer-OS-Koulen">
+                    {{ __('beltei_university/app.I1') }}
+                </p>
+            </div>
+        </a>
         <a href="{{ route('beltei_university.certificate' , ['degree' => 2 ]) }}" class="list-group-item text-white">{{ __('beltei_university/app.I2') }}</a>
         <a href="{{ route('beltei_university.certificate' , ['degree' => 3 ]) }}" class="list-group-item text-white">{{ __('beltei_university/app.I3') }}</a>
         <a href="{{ route('beltei_university.certificate' , ['degree' => 4 ]) }}" class="list-group-item text-white">{{ __('beltei_university/app.I4') }}</a>
+
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('beltei_university.') }}">
@@ -187,25 +196,25 @@
             <h6 style="height: 50px; border:inset 3px ; border-radius: 18px" class="BEdu-color-bg pe-2 text-white Gold-color-border d-flex justify-content-center align-items-center">
             {{ __('beltei_university/app.L6') }}</h6>
         </a>
-        <a href="{{ route('school.khmer-debate-10') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+        <a href="{{ route('beltei_university.english_speaking_year1') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
              {{ __('school/app.grade') }} {{ __('beltei_university/app.L7') }}
              <div class="d-flex justify-content-center ">
                 <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
-                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/Year1_eng.png') }}" alt="">
                     <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
                 </div>
              </div>
         </a>
-        <a href="{{ route('school.khmer-debate-8') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+        <a href="{{ route('beltei_university.english_speaking_year2') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L8') }}
              <div class="d-flex justify-content-center ">
                 <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
-                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/Year2_eng.png') }}" alt="">
                     <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
                 </div>
              </div>
         </a>
-        <a href="{{ route('school.khmer-debate-6') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+        <a href="{{ route('beltei_university.english_speaking_year3') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L9') }}
              <div class="d-flex justify-content-center ">
                 <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
@@ -214,11 +223,11 @@
                 </div>
              </div>
         </a>
-        <a href="{{ route('school.khmer-debate-6') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
+        <a href="{{ route('beltei_university.english_speaking_year4') }}" style="font-weight: bold;" class="p-3 text-white text-center Blue-color text-uppercase">
             {{ __('school/app.grade') }} {{ __('beltei_university/app.L10') }}
              <div class="d-flex justify-content-center ">
                 <div style="background-color: gainsboro;" class="w-100 height-100 rounded d-flex justify-content-center align-items-center position-relative">
-                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/speaking_kyear1.png') }}" alt="">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/biu/speaking/Year4_eng.png') }}" alt="">
                     <img class=" shadow position-absolute" width="50px" src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" alt="">
                 </div>
              </div>

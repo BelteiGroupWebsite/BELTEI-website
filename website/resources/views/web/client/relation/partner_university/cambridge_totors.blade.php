@@ -1,227 +1,82 @@
 @extends('web.client.relation.layout.app')
 
 @section('content')
+<div>
+    <img width="100%" src="\asset\img\relation\partner\head_2.png" ></img>
+</div>
+
     <div>
-        <div class="d-flex justify-content-center">
-            <img class="w-50-600px" src="https://www.beltei.edu.kh/khm/images/specialevents/school_facebook.png" alt="">
-            <img class="w-50-600px" src="https://www.beltei.edu.kh/khm/images/specialevents/beltei_youtube.png" alt="">
-        </div>
+<br>
+        <h5 class="title-translate-font mb-4 ">មហាវិទ្យាល័យ Cambridge Tutors College London</h5>
+        <p class="text-start content-translate-font text-justify Green-color"> <strong>I. ស្ថានភាពទូទៅ</strong></p>
+        <p class="text-start content-translate-font text-justify">Cambridge​ Tutors​ College​ (CTC)​ ជា​មហា​វិទ្យា​ល័យ​មួយ​ដែល​ហ៊ុម​ព័ទ្ធ​ទៅ​ដោយ​សួន​ច្បារ​ពណ៌​បៃ​តង​យ៉ាង​ស្រស់​បំ​ព្រង​ ត្រូវ​បាន​បង្កើត​នៅ​ឆ្នាំ​១​៩​៥​៨​ ។​ មហា​វិទ្យា​ល័យ​នេះ​មាន​កម្ម​វិធី​សិក្សា​ថ្នាក់​ត្រៀម​ចូល​សា​កល​វិទ្យា​ល័យ​ ឬ​ A​ Level​ សម្រាប់​បណ្តុះ​បណ្តាល​និស្សិត​ ឱ្យ​ពួក​គេ​មាន​ឱកាស​ចូល​រៀន​នៅ​ក្នុង​សា​កល​វិទ្យា​ល័យ​ល្បីៗ​ដូច​ជា​ Oxford​,Cambridge,​ Imperial​ College,​ UCL​ ហើយ​និង​ London​ School​ of​ Economics​ ជា​ដើម​។​ ភាគ​ច្រើន​នៃ​និស្សិត​ដែល​បាន​បញ្ចប់​ថ្នាក់​ត្រៀម​សា​កល​វិទ្យា​ល័យ​នៅ​ CTC​ តែង​ទទួល​បាន​និទ្ទេស​ល្អ​ A,​ A+​ នេះ​ជា​កត្តា​ដែល​ធ្វើ​ឱ្យ​និស្សិត​ និង​អា​ណា​ព្យា​បាល​ជា​ច្រើន​ទូទាំង​ស​កល​លោក​ ជ្រើស​រើស​ CTC​។​​</p>
 
-        <h5 class="title-translate-font mb-4 ">សាកលវិទ្យាល័យ ដែលបានចុះអនុស្សារណៈយោគយល់ (MOU) ក្រៅប្រទេស</h5>
+        <p class="text-start content-translate-font text-justify Green-color"> <strong>II.​ អា​សយ​ដ្ឋាន</strong></p>
+        <p class="text-start content-translate-font text-justify">Cambridge​ Tutors​ College​ មាន​ទី​តាំង​ស្ថិត​នៅ​ Water​ Tower​ Hill​ Croydon,​ CR0​ 5SX​ ទី​ក្រុង​ឡុងដ៍​នៃ​ចក្រ​ភព​អង់​គ្លេស​។​ និស្សិត​ និង​អា​ណា​ព្យា​បាល​អាច​ចូល​ទៅ​កាន់​គេ​ហ​ទំព័រ​ www​.ctc​.ac.​uk​ ឬ​ទំ​នាក់​ទំនង​តាម​ទូរ​ស័ព្ទ​លេខ​ +4​4​ (​0​)​2​0​ 8​6​8​8​5​2​8​4​ ដើម្បី​ស្វែង​យល់​បន្ថែម​ទៀត​អំពី​មហា​វិទ្យា​ល័យ​។​​</p>
+        <p class="text-start content-translate-font text-justify Green-color"> <strong>III.​ កម្ម​វិធី​សិក្សា​</strong></p>
+        <p class="text-start content-translate-font text-justify">ជា​ទូ​ទៅ​ប្រព័ន្ធ​នៃ​ការ​អប់​រំ​នៅ​ចក្រ​ភព​អង់​គ្លេស​ មុន​នឹង​ចូល​រៀន​ថ្នាក់​កម្រិត​សា​កល​វិទ្យា​ល័យ​ និ​ស្សិត​ត្រូវ​តែ​ឆ្លង​កាត់​វគ្គ​ត្រៀម​ សា​កល​វិទ្យា​ល័យ​ ឬ​ A​ Level​ ជា​មុន​សិន​ដែល​វគ្គ​នេះ​តម្រូវ​ឱ្យ​និស្សិត​ចំ​ណាយ​ពេល​សិក្សា​ពី​ ១​ឆ្នាំ​ ទៅ​ ២​ឆ្នាំ​។​ ដូច្នេះ​ CTC​ បាន​រៀប​ចំ​កម្ម​វិធី​សិក្សា​ទាំង​នេះ​ មាន​ដូច​ខាង​ក្រោមៈ​​​</p>
 
-        <table class="align-middle table table-hover" style="border: 3px solid red;" width="100%" align="center">
+
+        <table class="align-middle table table-hover text-start content-translate-font text-justify" style="border: 3px solid rgb(76, 0, 255);" width="100%">
             <tbody>
-            <tr>
-            <td class="label" style="text-align: center; background-color:green;font-size: 120%;font-family: Koulen;" colspan="3" width="70%"><img src="{{ asset('asset/img/university/mou/international/usa_flage.png') }}" border="0" width="40" height="30" style="vertical-align:middle;"><span style="color: yellow;"> សហរដ្ឋអាមេរិក</span> <span style="color: yellow;font-size: 120%;font-family: Algerian;">(USA)</span><br></td>
+
+            <tr style="border: 3px solid rgb(255, 255, 255); background-color:#00c3fffb; color: rgb(0, 0, 0)" align="left">
+                <td style="border: 3px solid rgb(255, 255, 255)"  align="center">1</td>
+                <td>A two year A level course starting in September</td>
             </tr>
-            <tr>
-            <td width="10%">១</td>
-            <td width="50%"><a href="http://www.shoreline.edu/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/shoreline_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.shoreline.edu/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/beltei_mou_with_shoreline.png') }}" border="0"></a></td>
+            <tr style="border: 3px solid rgb(255, 255, 255); background-color:rgb(255, 255, 255); color: rgb(0, 0, 0)" align="left">
+                <td style="border: 3px solid rgb(255, 255, 255)"  align="center">2</td>
+                <td>An eighteen- month accelerated A level course starting in January</td>
             </tr>
-            <tr>
-            <td width="10%">២</td>
-            <td width="50%"><a href="https://smccd.edu/international/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/san-mtao-university.png') }}" border="0"></a></td>
-            <td><a href="http://www.shoreline.edu/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/beltei-mou-with-san-mtao-university.png') }}" border="0"></a></td>
+            <tr style="border: 3px solid rgb(255, 255, 255); background-color:#00c3fffb; color: rgb(0, 0, 0)" align="left">
+                <td style="border: 3px solid rgb(255, 255, 255)"  align="center">3</td>
+                <td>A one year GCSE course starting in September</td>
             </tr>
-            <tr>
-            <td width="10%">៣</td>
-            <td width="50%"><a href="http://www.edcc.edu/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/edmonds_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.edcc.edu/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/edmonds_pic.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៤</td>
-            <td width="50%"><a href="http://www.ef.com/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/ef_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.ef.com/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/ef_pic.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៥</td>
-            <td width="50%"><a href="http://www.mheducation.com/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/magraw_hill_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.mheducation.com/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/magraw_hill_logo.png') }}" border="0" width="157" height="75"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៦</td>
-            <td width="50%"><a href="http://etstan.com/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/ets_logo.png') }}" border="0"></a></td>
-            <td><a href="http://etstan.com/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/beltei_toefl.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td class="label" style="text-align: center; background-color:green;font-size: 110%;font-family: Koulen;" colspan="3" width="70%"><img src="{{ asset('asset/img/university/mou/international/uk_flage.png') }}" border="0" width="40" height="30" style="vertical-align:middle;"><span style="color: yellow;"> ចក្រភពអង់គ្លេស</span><span style="color: yellow;font-size: 120%;font-family: Algerian;"> (UK)</span><br></td>
-            </tr>
-            <tr>
-            <td width="10%">១</td>
-            <td width="50%"><a href="http://www.regents.ac.uk/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/regent_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.regents.ac.uk/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/regent.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">២</td>
-            <td width="50%"><a href="https://www.yorksj.ac.uk/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/york_john_logo.png') }}" border="0"></a></td>
-            <td><a href="https://www.yorksj.ac.uk/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/york_saint_john.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៣</td>
-            <td width="50%"><a href="https://www.ctc.ac.uk/en/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/ctc_logo.png') }}" border="0"></a></td>
-            <td><a href="https://www.ctc.ac.uk/en/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/ctc.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៤</td>
-            <td width="50%"><a href="http://www4.springboard4asia.com/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/springboard_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www4.springboard4asia.com/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/beltei_mou_with_springboard.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td class="label" style="text-align: center; background-color:green;font-size: 120%;font-family: Koulen;" colspan="3" width="70%"><img src="{{ asset('asset/img/university/mou/international/canada_flage.png') }}" border="0" width="40" height="30" style="vertical-align:middle;"><span style="color: yellow;"> កាណាដា</span> <span style="color: yellow;font-size: 120%;font-family: Algerian;">(CANADA)</span><br></td>
-            </tr>
-            <tr>
-            <td width="10%">១</td>
-            <td width="50%"><a href="https://ucanwest.ca/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/university_canada_logo.png') }}" border="0"></a></td>
-            <td><a href="https://ucanwest.ca/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/university_canada.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td class="label" style="text-align: center; background-color:green;font-size: 110%;font-family: Koulen;" colspan="3" width="70%"><img src="{{ asset('asset/img/university/mou/international/malaysia_flage.png') }}" border="0" width="40" height="30" style="vertical-align:middle;"><span style="color: yellow;"> ប្រទេសម៉ាឡេស៊ី</span><span style="color: yellow;font-size: 120%;font-family: Algerian;"> (Malaysia)</span><br></td>
-            </tr>
-            <tr>
-            <td width="10%">១</td>
-            <td width="50%"><a href="http://www.unikl.edu.my/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/kuala_lumpur_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.unikl.edu.my/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/unikl.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">២</td>
-            <td width="50%"><a href="http://www.taylors.edu.my/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/taylor_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.taylors.edu.my/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/taylor.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td class="label" style="text-align: center; background-color:green;font-size: 110%;font-family: Koulen;" colspan="3" width="70%"><img src="{{ asset('asset/img/university/mou/international/china_flage.png') }}" border="0" width="40" height="30" style="vertical-align:middle;"><span style="color: yellow;"> សាធារណៈរដ្ឋប្រជាមានិតចិន</span><span style="color: yellow;font-size: 120%;font-family: Algerian;"> (China)</span><br></td>
-            </tr>
-            <tr>
-            <td width="10%">១</td>
-            <td width="50%"><a href="http://www.csc.edu.cn/studyinchina/universitydetailen.aspx?collegeId=52" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guangxi_medical_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.csc.edu.cn/studyinchina/universitydetailen.aspx?collegeId=52" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guangxi_medical_logo.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">២</td>
-            <td width="50%"><a href="http://www.gxufl.com/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guangxi_foreign_language_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.gxufl.com/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guangxi_foreign_language.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៣</td>
-            <td width="50%"><a href="http://www.gxun.edu.cn/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guangxi_national_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.gxun.edu.cn/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guangxi_national.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៤</td>
-            <td width="50%"><a href="http://en.glut.edu.cn/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guilin_technology_logo.png') }}" border="0"></a></td>
-            <td><a href="http://en.glut.edu.cn/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guilin_technology.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៥</td>
-            <td width="50%"><a href="http://departs.guat.edu.cn/gjc/en/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guilin_aerospace_logo.png') }}" border="0"></a></td>
-            <td><a href="http://departs.guat.edu.cn/gjc/en/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guilin_aerospace.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៦</td>
-            <td width="50%"><a href="http://www.glit.cn/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guilin_tourism_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.glit.cn/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guilin_tourism.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៧</td>
-            <td width="50%"><a href="http://www.ymcn.gx.cn/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/youjiang_medical_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.ymcn.gx.cn/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/youjiang_medical.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៨</td>
-            <td width="50%"><a href="http://www.cuecc.com/SchoolDetail/604/guizhou-medical-university" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guizhou_medical_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.cuecc.com/SchoolDetail/604/guizhou-medical-university" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guizhou_medical.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៩</td>
-            <td width="50%"><a href="http://en.whu.edu.cn/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/wuhan_uni_logo.png') }}" border="0"></a></td>
-            <td><a href="http://en.whu.edu.cn/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/wuhan_uni.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">១០</td>
-            <td width="50%"><a href="http://www.csc.edu.cn/studyinchina/universitydetailen.aspx?collegeId=352" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guangxi_teacher_university_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.csc.edu.cn/studyinchina/universitydetailen.aspx?collegeId=352" target="_blank"><img src="{{ asset('asset/img/university/mou/international/guangxi_teacher_university.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td class="label" style="text-align: center; background-color:green;font-size: 110%;font-family: Koulen;" colspan="3" width="70%"><img src="{{ asset('asset/img/university/mou/international/singapore_flage.png') }}" border="0" width="40" height="30" style="vertical-align:middle;"><span style="color: yellow;"> ប្រទេសិង្ហបុរី</span><span style="color: yellow;font-size: 120%;font-family: Algerian;"> (singapore)</span><br></td>
-            </tr>
-            <tr>
-            <td width="10%">១</td>
-            <td width="50%"><a href="http://www.easb.edu.sg/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/easb_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.easb.edu.sg/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/easb.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td class="label" style="text-align: center; background-color:green;font-size: 110%;font-family: Koulen;" colspan="3" width="70%"><img src="{{ asset('asset/img/university/mou/international/korea_flage.png') }}" border="0" width="40" height="30" style="vertical-align:middle;"><span style="color: yellow;"> សាធារណៈរដ្ឋកូរ៉េ</span><span style="color: yellow;font-size: 120%;font-family: Algerian;"> (Korea)</span><br></td>
-            </tr>
-            <tr>
-            <td width="10%">១</td>
-            <td width="50%"><a href="http://www.iyf.org/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/iyf_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.iyf.org/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/iyf.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">២</td>
-            <td width="50%"><a href="https://www.smu.ac.kr/mbs/smu/intro.jsp" target="_blank"><img src="{{ asset('asset/img/university/mou/international/sangmyung_logo.png') }}" border="0"></a></td>
-            <td><a href="https://www.smu.ac.kr/mbs/smu/intro.jsp" target="_blank"><img src="{{ asset('asset/img/university/mou/international/sangmyung.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៣</td>
-            <td width="50%"><a href="http://www.sunykorea.ac.kr/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/sunykorea_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.sunykorea.ac.kr/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/sunykorea.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td class="label" style="text-align: center; background-color:green;font-size: 110%;font-family: Koulen;" colspan="3" width="70%"><img src="{{ asset('asset/img/university/mou/international/japanese_flag.png') }}" border="0" width="40" height="30" style="vertical-align:middle;"><span style="color: yellow;"> ប្រទេសជប៉ុន</span><span style="color: yellow;font-size: 120%;font-family: Algerian;"> (Japan)<br></span></td>
-            </tr>
-            <tr>
-            <td width="10%">១</td>
-            <td width="50%"><a href="https://www.hosei.ac.jp/english/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/hosei_logo.png') }}" border="0"></a></td>
-            <td><a href="https://www.hosei.ac.jp/english/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/hosei.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">២</td>
-            <td width="50%"><a href="http://www.u-fukui.ac.jp/eng/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/fukui_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.u-fukui.ac.jp/eng/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/fukui.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td class="label" style="text-align: center; background-color:green;font-size: 110%;font-family: Koulen;" colspan="3" width="70%"><img src="{{ asset('asset/img/university/mou/international/thai_flage.png') }}" border="0" width="40" height="30" style="vertical-align:middle;"><span style="color: yellow;"> ព្រះរាជាណាចក្រថៃ</span><span style="color: yellow;font-size: 120%;font-family: Algerian;"> (Kingdom of Thailand)<br></span></td>
-            </tr>
-            <tr>
-            <td width="10%">១</td>
-            <td width="50%"><a href="http://www.graduate.au.edu/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/assumption_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.graduate.au.edu/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/assumption.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">២</td>
-            <td width="50%"><a href="http://www.bu.ac.th/tha/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/bangkok_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.bu.ac.th/tha/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/bangkok.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៣</td>
-            <td width="50%"><a href="http://www.utcc.ac.th/admission/2016/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/utcc_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.utcc.ac.th/admission/2016/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/utcc.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៤</td>
-            <td width="50%"><a href="http://www.eng.rmutt.ac.th/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/rajamangala_logo.png') }}" border="0"></a></td>
-            <td><a href="http://www.eng.rmutt.ac.th/" target="_blank"><img src="{{ asset('asset/img/university/mou/international/rajamangala.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td class="label" style="text-align: center; background-color:green;font-size: 110%;font-family: Koulen;" colspan="3" width="70%"><span style="color: yellow;">ពានរង្វាន់ដែលទទួលបាន</span><br></td>
-            </tr>
-            <tr><td width="10%">១</td>
-            <td width="50%"><a href="/biuk/index.php?option=com_content&amp;view=article&amp;id=1080&amp;Itemid=665"><img src="{{ asset('asset/img/university/mou/international/iso_9001_2008_logo.png') }}" border="0"></a></td>
-            <td><a href="/biuk/index.php?option=com_content&amp;view=article&amp;id=1080&amp;Itemid=665"><img src="{{ asset('asset/img/university/mou/international/iso_9001_2008.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">២</td>
-            <td width="50%"><a href="/biuk/index.php?option=com_content&amp;view=article&amp;id=1086&amp;Itemid=665"><img src="{{ asset('asset/img/university/mou/international/tayo_logo.png') }}" border="0">   </a></td>
-            <td><a href="/biuk/index.php?option=com_content&amp;view=article&amp;id=1086&amp;Itemid=665"><img src="{{ asset('asset/img/university/mou/international/tayo.png') }}" border="0"></a></td>
-            </tr>
-            <tr>
-            <td width="10%">៣</td>
-            <td width="50%"><a href="/biuk/index.php?option=com_content&amp;view=article&amp;id=1714&amp;Itemid=665"><img src="{{ asset('asset/img/university/mou/international/asean_logo.png') }}" border="0"></a></td>
-            <td><a href="/biuk/index.php?option=com_content&amp;view=article&amp;id=1714&amp;Itemid=665"><img src="{{ asset('asset/img/university/mou/international/asean_pic.png') }}" border="0"></a></td>
-            </tr>
+
             </tbody>
+        </table>
+
+                </ul>
+            <p class="text-start content-translate-font text-justify Green-color">IV​.​ កន្លែង​ស្នាក់​នៅ​</p>
+            <p class="text-start content-translate-font text-justify">ជា​ទូ​ទៅ​និ​ស្សិត​ដែល​ទៅ​បន្ត​ការ​សិក្សា​ថ្នាក់​ត្រៀម​សា​កល​វិទ្យា​ល័យ​នៅ​ CTC​ត្រូវ​តែ​រស់​នៅ​ជា​លក្ខណៈ​គ្រួសារ​ (​Homestay​ Program​)​ ជា​មួយ​នឹង​គ្រួសារ​ជន​ជាតិ​អង់​គ្លេស​ក្នុង​តំបន់​ ដែល​នេះ​ជា​គុណ​សម្បត្តិ​យ៉ាង​ប្រ​សើរ​សម្រាប់​និ​ស្សិត​ធ្វើ​ដំ​ណើរ​ឆ្ងាយ​ពី​គ្រួសារ​ទៅ​បន្ត​ការ​សិក្សា​នៅ​ឯ​ក្រៅ​ប្រ​ទេស​ ពី​ព្រោះ​ពួក​គេ​មាន​អ្នក​ថែ​ទាំ​ ផ្គត់​ផ្គង់​ចំណី​អា​ហារ​ និង​ជា​ពិ​សេស​ពួក​គេ​មាន​ឱ​កាស​ហ្វឹក​ហ្វឺន​ ជំ​នាញ​ភា​សា​អង់​គ្លេស​របស់​ពួក​គេ​ ហើយ​ពួក​គេ​មិន​មាន​អា​រម្មណ៍​ថា​ឯការ​។​</p>
+            <p class="text-start content-translate-font text-justify Green-color">V​.​ ជីវ​ភាព​ប្រចាំ​ថ្ងៃ​​</p>
+            <p class="text-start content-translate-font text-justify">ការ​រស់​នៅ​ជា​មួយ​គ្រួសារ​ជន​ជាតិ​អង់​គ្លេស​ និ​ស្សិត​នឹង​ទទួល​បាន​ការ​ផ្គត់​ផ្គង់​ចំ​ណី​អា​ហារ​ជា​ប្រចាំ​ថ្ងៃ​។​ ជា​ធម្មតា​ ម្ចាស់​ផ្ទះ​ ដែល​មហា​វិទ្យា​ល័យ​បាន​ជ្រើស​រើស​សម្រាប់​ឱ្យ​និ​ស្សិត​ស្នាក់​នៅ​ជា​មួយ​ ពួក​គាត់​មាន​ភាព​រួស​រាយ​រាក់​ទាក់​ និង​ទំនួល​ខុស​ត្រូវ​ខ្ពស់​លើ​សុ​វត្ថិ​ភាព​របស់​និ​ស្សិត​ក្នុង​អំឡុង​ពេល​ស្នាក់​នៅ​។​ ម៉្យាង​វិញ​ទៀត​ បរិយា​កាស​ជុំ​វិញ​កន្លែង​ស្នាក់​នៅ​មាន​ភាព​ស្រស់​បំ​ព្រង​ ពោរ​ពេញ​ទៅ​ដោយ​ សួន​កំសាន្ត​សា​ធារណៈ​ និង​រោង​មហោ​ស្រប​ជា​ច្រើន​។​ លើស​ពី​នេះ​ និ​ស្សិត​ក៏​អាច​ទៅ​ទស្សនា​ទី​ក្រុង​ឡុងដ៍​ ​ដោយ​ចំ​ណាយ​ពេល​តែ​ ១​៥​ នា​ទី​ប៉ុណ្ណោះ​ពី​កន្លែង​ដែល​គេ​រស់​នៅ​តាម​រយៈ​រថ​ភ្លើង​។​​​​​​</p>
+            <p class="text-start content-translate-font text-justify Green-color">VI​.​ ឱកាស​ផ្សេងៗ​​​</p>
+            <p class="text-start content-translate-font text-justify">នៅ​ពេល​ដែល​និ​ស្សិត​បញ្ចប់​ការ​សិក្សា​ មហា​វិទ្យា​ល័យ​នឹង​រៀប​ចំ​រក​សា​កល​វិទ្យា​ល័យ​ល្បីៗ​ឱ្យ​និស្សិត​បន្ត​ការ​សិក្សា​ថ្នាក់​ បរិញ្ញា​បត្រ​របស់​ពួក​គេ​ ដោយ​ឈរ​លើ​លទ្ធ​ផល​ជាក់​ស្តែង​ដែល​ពួក​គេ​ទទួល​បាន​ក្នុង​អំ​ឡុង​ពេល​សិក្សា​។​ ក្រោយ​ពី​រក​បាន​សា​កល​វិទ្យា​ល័យ​ល្អ​ហើយ​ មហា​វិទ្យា​ល័យ​នឹង​ពន្យល់​ពី​វិធី​សាស្ត្រ​ដើម្បី​ឱ្យ​និ​ស្សិត​បាន​ទទួល​ជោគ​ជ័យ​លើ​ការ​សម្ភាសន៍​ចូល​សិក្សា​ ហើយ​នឹង​ជួយ​រៀប​ចំ​បែប​បទ​ ចូល​សិក្សា​ដល់​និស្សិត​។​ មហា​វិទ្យា​ល័យ​មាន​កា​រិយា​ល័យ​សម្រាប់​ឱ្យ​និ​ស្សិត​ស្វែង​រក​ការ​ប្រឹក្សា​យោ​បល់​ និង​ដោះ​ស្រាយ​រាល់​វិបត្តិ​ដែល​ជួប​ប្រទះ​អំឡុង​ពេល​កំពុង​សិក្សា​។​​​</p>
+            <p class="text-start content-translate-font text-justify Green-color">VII​.​ តម្លៃ​សិក្សា​​</p>
+
+            <table class="align-middle table table-hover text-start content-translate-font text-justify" style="border: 3px solid rgb(76, 0, 255);" width="100%">
+                <tbody>
+
+                <tr style="border: 3px solid rgb(76, 0, 255); background-color:rgb(76, 0, 255); color: aliceblue" align="center">
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Programs</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Duration</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Tuition Fess (£)</td>
+                </tr>
+                <tr align="left">
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">2 YEAR A Level Course </td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">1 Year</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">£18,360</td>
+                </tr>
+                <tr align="left">
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">18 MONTH A Level Course </td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">1 Year</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">£10,200</td>
+                </tr>
+                <tr align="left">
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">1 YEAR GCSE Course </td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">1 Year</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">£18360</td>
+                </tr>
+                </tbody>
             </table>
+            <p class="text-start content-translate-font text-justify Green-color">បញ្ជាក់ៈ​
+
+            </p>
+            <ul class="text-start content-translate-font text-justify Green-color">
+            <li>តម្លៃ​សិក្សា​អាច​មាន​ការ​ប្រែ​ប្រួល​ទៅ​តាម​កម្ម​វិធី​សិក្សា​ និង​ការ​ផ្លាស់​ប្តូរ​របស់​មហា​វិទ្យា​ល័យ​។</li>
+            <li>មាន​វគ្គ​បំ​ប៉ន​ភា​សា​អង់​គ្លេស​សម្រាប់​និ​ស្សិត</li>
+        </ul>
 
     </div>
 @endsection
