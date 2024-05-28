@@ -293,7 +293,11 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
         Route::group(['prefix' => 'domestic', 'as' => 'domestic.'], function () {
             Route::view('/cambodian' , 'web.client.beltei_tours_travel.mainprogram.domestic.cambodian')->name('cambodian');
             Route::view('/expatrate' , 'web.client.beltei_tours_travel.mainprogram.domestic.expatrate')->name('expatrate');
-            Route::view('/expatrate-detail' , 'web.client.beltei_tours_travel.mainprogram.domestic.expatrate.expatrate-detail')->name('expatrate-detail');
+            Route::view('/expatrate/detail' , 'web.client.beltei_tours_travel.mainprogram.domestic.expatrate.expatrate-detail')->name('expatrate-detail');
+        });
+        Route::group(['prefix' => 'inbound', 'as' => 'inbound.'], function () {
+            Route::view('/' , 'web.client.beltei_tours_travel.mainprogram.inbound.inbound');
+            Route::view('detail' , 'web.client.beltei_tours_travel.mainprogram.inbound.detail')->name('detail');
         });
     });
 

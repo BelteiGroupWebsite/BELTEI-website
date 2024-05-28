@@ -6,7 +6,7 @@
         <h3 class="title-translate-font p-3 bg-success text-white">Public Speaking Content</h3>
         <hr>
         <div>
-            <iframe class="w-100 aspect-ratio-16"
+            <iframe class="w-100 aspect-ratio-16" id="vd-container"
                 src="https://www.youtube.com/embed/H0FtZylz8ks?si=rKrwUrcTm5bhRfHN" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -20,18 +20,18 @@
         </h5>
         <div class="row">
             <div class="col-6 height-300 content-translate-font">
-                <iframe class="w-100 h-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/H0FtZylz8ks?si=rKrwUrcTm5bhRfHN" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/H0FtZylz8ks/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/H0FtZylz8ks?si=rKrwUrcTm5bhRfHN">
+                </div>
+                
             </div>
             <div class="col-6 height-300 content-translate-font">
-                <iframe class="w-100 h-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/DeSs8vUBlI4?si=8bsBzvqO_OlZaZby" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/DeSs8vUBlI4/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/DeSs8vUBlI4?si=8bsBzvqO_OlZaZby">
+                </div>
+                
             </div>
         </div>
         <hr class="border border-success border-3">
@@ -43,18 +43,18 @@
         </h5>
         <div class="row">
             <div class="col-6 height-300 content-translate-font">
-                <iframe class="w-100 h-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/zKKLPHk6IU0?si=PKLBP5HwIWm62qPh" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/zKKLPHk6IU0/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/zKKLPHk6IU0?si=PKLBP5HwIWm62qPh">
+                </div>
+                
             </div>
             <div class="col-6 height-300 content-translate-font">
-                <iframe class="w-100 h-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/Z9gVTukGSuE?si=VFXMHmtNgVUbYsse" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/Z9gVTukGSuE/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/Z9gVTukGSuE?si=VFXMHmtNgVUbYsse">
+                </div>
+                
             </div>
         </div>
         <hr class="border border-success border-3">
@@ -66,18 +66,18 @@
         </h5>
         <div class="row">
             <div class="col-6 height-300 content-translate-font">
-                <iframe class="w-100 h-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/_-QkJVoLOmY?si=jwoYi0AO6Yq6uMuz" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/_-QkJVoLOmY/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/_-QkJVoLOmY?si=jwoYi0AO6Yq6uMuz">
+                </div>
+                
             </div>
             <div class="col-6 height-300 content-translate-font">
-                <iframe class="w-100 h-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/8kVwHMwpTho?si=IE_ONfHU3EpfbCx2" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/8kVwHMwpTho/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/8kVwHMwpTho?si=IE_ONfHU3EpfbCx2">
+                </div>
+                
             </div>
         </div>
         <hr class="border border-success border-3">
@@ -89,11 +89,11 @@
         </h5>
         <div class="row justify-content-center">
             <div class="col-6 height-300 content-translate-font">
-                <iframe class="w-100 h-100 rounded shadow-sm " width="" height=""
-                src="https://www.youtube.com/embed/Yn9SovMLgx4?si=6FGU6APEWQF1n3ob" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/Yn9SovMLgx4/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/Yn9SovMLgx4?si=6FGU6APEWQF1n3ob">
+                </div>
+                
             </div>
         </div>
         <hr class="border border-success border-3">
@@ -105,18 +105,18 @@
         </h5>
         <div class="row">
             <div class="col-6 height-300 content-translate-font">
-                <iframe class="w-100 h-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/i0L_GhLEMPc?si=-7zSN__iQ7ezql2s" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/i0L_GhLEMPc/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/i0L_GhLEMPc?si=-7zSN__iQ7ezql2s">
+                </div>
+                
             </div>
             <div class="col-6 height-300 content-translate-font">
-                <iframe class="w-100 h-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/mq0P2k9TNwg?si=e3f-drc_6dC7dxUY" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/mq0P2k9TNwg/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/mq0P2k9TNwg?si=e3f-drc_6dC7dxUY">
+                </div>
+                
             </div>
         </div>
         <hr class="border border-success border-3">
