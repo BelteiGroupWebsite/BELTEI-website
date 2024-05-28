@@ -4,8 +4,7 @@
     <div class="px-3">
 
         <div class="title-translate-font font-bold pb-3 text-success">
-            <h4>BTI-008 Landscape Tour
-                (PP–RATTANAKIRI-MONDULKIRI-KAMPONGTHOM-SIEM REAP)</h4>
+            <h4>PHNOM PENH-KOH SDACH ISLAND-KOH KONG (3 DAYS - 2 NIGHTS)</h4>
             <h4>12 days 11 nights </h4>
         </div>
 
@@ -142,22 +141,22 @@
 
 
             <div class="row g-3">
-                <img src="{{ asset('asset/img/tours/mainprogram/greatlake/greatlake1.png') }}" alt="">
-                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/greatlake/greatlake2.png') }}"
+                <img src="{{ asset('asset/img/tours/mainprogram/landscape/landscape1.png') }}" alt="">
+                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape2.png') }}"
                     alt="">
-                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/greatlake/greatlake3.png') }}"
+                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape3.png') }}"
                     alt="">
-                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/greatlake/greatlake4.png') }}"
+                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape4.png') }}"
                     alt="">
-                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/greatlake/greatlake5.png') }}"
+                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape5.png') }}"
                     alt="">
-                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/greatlake/greatlake6.png') }}"
+                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape6.png') }}"
                     alt="">
-                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/greatlake/greatlake7.png') }}"
+                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape7.png') }}"
                     alt="">
-                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/greatlake/greatlake8.png') }}"
+                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape8.png') }}"
                     alt="">
-                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/greatlake/greatlake9.png') }}"
+                <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape9.png') }}"
                     alt="">
             </div>
 
@@ -1005,6 +1004,176 @@
 
 
 </div>
+
+        `,
+        `
+        <div class="px-3">
+
+<div class="title-translate-font font-bold pb-3 text-success">
+    <h4>BTI-008 Landscape Tour
+        (PP–RATTANAKIRI-MONDULKIRI-KAMPONGTHOM-SIEM REAP)</h4>
+    <h4>12 days 11 nights </h4>
+</div>
+
+
+<div class="text-start">
+
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 1 : PHNOM PENH ARRIVAL [-/L/D]</h6>
+
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        Your arrival at the Phnom Penh International Airport is welcomed by our guides with nice vehicles. And then you are picked up for visiting Wat Phnom before transferring to the hotel for Check-In.
+    </p>
+    <p class="my-2">
+        <strong class="pe-3">PM :</strong>
+
+        Visit Independent Monument (The Monument was built for commemorates the end of Cambodia ruled by France in 1953), the Royal Palace (the royal residence of the king of Cambodia), the Silver Pagoda. Visit the Tuol Sleng Genocide Museum (S21). Enjoy shopping at the Russian market. Have dinner at the local restaurant. Stay overnight at the hotel.
+
+    </p>
+
+
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 2 : PHNOM PENH – STUNG TRENG by Overland [B/L/D]</h6>
+
+
+    <p class="my-2">
+        <strong class="pe-3">AM :</strong>
+        Transfer to Stung Treng province by overland on the way visit Nokor Bachey Temple. Visitors that travel from Phnom Penh will see the gate to the pagoda on the th right, which was built in the middle of the 11 century during the reign of Suryavarman II and King Ouphey dedicating to Brahmanism, and rubber plantation in region.
+    </p>
+
+    <p class="my-2">
+        <strong class="pe-3">PM :</strong>
+        Start to visit Wat Sorsor Muoy Roy (100 Pillars Pagoda) which was built on the site of a former Royal palace during the Chenla period in a city named Sampopura, and Preah Neang Krapom Chhouk Stupa. Check-In and free at leisure in the hotel. Stay overnight in Stung Treng.
+    </p>
+
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 3 : STUNG TRENG – RATTANAKIRI [B/L/D]</h6>
+
+
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        Excursion to discovery of the waterfalls in the jungle around Rattanakiri; visit Cha Ung waterfall about 8km Northwest of Banlung Town. Then visit Kachanh, Katieng waterfalls and enjoy the elephant riding through the jungle at Katieng Village (Own payment).            </p>
+    <p class="my-2">
+        <strong class="pe-3">PM :</strong>
+        Visit Yeak Lom Lake (Volcanic Lake); take a walk through this area to enjoy the peaceful scenery and swimming. Stay overnight in Rattanakiri.
+    </p>
+
+
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 4 : RATANAKIRI – TOMPOUN VILLAGE [B/L/D]</h6>
+
+
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        We through to the northwest and cross bamboo forests before reaching the Village of Voeune Sai, located on the left bank of the Se San river, view on the Chinese Village on the other side of the river is quite pretty. Upstream of the Se San river are a certain number of Tampoun Villages that practice funeral statuary. If it is possible we will take boat (Own payment) to go to the Village of Ka Choan that has superb totems unless we will reach it by car.
+    </p>
+    <p class="my-2">
+        <strong class="pe-3">PM :
+        </strong>
+        On the way back in the afternoon we go to the discovery of the surrounding waterfalls. Stay overnight in Rattanakiri.
+    </p>
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 5 : RATTANAKIRI – KRATIE [B/L/D]</h6>
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        Shopping in Banlung market then departure to Kratie to visit Prek Kampi seeing freshwater dolphins, which around 100 large dolphins living in Kratie province and Stung Treng province. Dolphins grow between 2 and 2.8 meter in length and weight around 180 kilograms which can swim up to 42KM/Hour and dive 300 meters within 5-10 minutes. (Own payment).
+    </p>
+    <p class="my-2">
+        <strong class="pe-3">PM : </strong>
+        Check-In at the hotel upon arrival and visit Sombouk Mountain, which about 11 kilometers north of Kratie provincial town. One of the main cultural and tourist attractions in Kratie, it was developed during Sangkum Reast Niyum regime of the Prince Norodom Sihanouk. The site features beautiful landscape, including a huge pond west of the mountain foot. Continue to enjoy the view of the sunset. Stay overnight in Kratie.
+    </p>
+
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 6 : KRATIE - MONDULKIRI [B/L/D]</h6>
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        Transfer to Mondulkiri province by overland on the way we will make the stop in the best placealong the way to take photo and visit Romanea 2 waterfall. Check-In at the hotel.
+    </p>
+    <p class="my-2">
+        <strong class="pe-3">PM : </strong>
+        Visit Putang village of ethnic group, visit Phnom Dos Kramom and watch sunset on the top of Ocean forest mountain. Stay overnight at the hotel.
+    </p>
+
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 7 : MONDULKIRI – KAMPONG CHAM [B/L/D]</h6>
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        Take an excursion to Bousra waterfall, which is considered by many to be the most beautiful waterfall in Mondulkiri, the avocado and coffee farm of the villager.
+    </p>
+    <p class="my-2">
+        <strong class="pe-3">PM : </strong>
+        Transfer to Kampong Cham and Check-In upon arrival. Free at leisure and stay overnight in Kampong Cham.
+    </p>
+
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 8 : KAMPONG CHAM – KAMPONG THOM [B/L/D]</h6>
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        Excursion to visit Phnom Pros and Phnom Srey Mountain, which is popular with Cambodians during traditional festivals like Khmer New Year and Pchum Ben. The top of the hill affords visitors a beautiful view of Kampong Cham Province.
+    </p>
+    <p class="my-2">
+        <strong class="pe-3">PM : </strong>
+        Check-In upon arrival then enjoy Ox-Card ridding to watch the sunset at the paddy fields. Have dinner at the local restaurant. Enjoy Khmer traditional dance. Stay overnight at Khmer Village homestay.
+    </p>
+
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 9 : KAMPONG THOM – SIEM REAP [B/L/D]</h6>
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        After having breakfast, depart to visit a famous Sambor Prei Kuk, which the ancient capital of Zhenla with its 140 temples dating back to the Pre-Angkorian period. Continue to Siem Reap, along the way you will enjoy the great view of the country side. Check-In at the hotel upon arrival.
+    </p>
+    <p class="my-2">
+        <strong class="pe-3">PM : </strong>
+        Enjoy shopping at the old market and visit Artisans D’Angkor (this place renowned woodworking, stone carving and polychrome training center and workshops. Free tour of different classes and workshops offer a glimpse into the unique skills training program; teaching young artists about the techniques and styles of classic Cambodian Artistry). Have buffet dinner at the restaurant with Apsara Dance Show. Stay overnight at the hotel
+    </p>
+
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 10: ANGKOR THE WORLD HERITAGE TOUR [B/L/D]</h6>
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        Enjoy with the view of sunrise at Angkor Wat, then back for breakfast at the hotel, Continue to visit the South Gate (with its huge statues depiction the churning of the ocean of milk) the ancient capital of Angkor Thom th (12 century), visit Bayon Temple, the Royal Enclosure, Baphoun, Phimeanakas, the Elephant Terrace and Terrace of the Leper King and Ta Prohm temple. Back to Siem Reap town.
+    </p>
+    <p class="my-2">
+        <strong class="pe-3">PM : </strong>
+        Visit the amazing Angkor Wat. Watch sunset from Phnom Bakheng Temple. Have buffet dinner at the restaurant with Apsara Dance Show. Stay overnight at the hotel.
+    </p>
+
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 11: SIEM REAP – KULEN THE HOLY MOUNTAIN [B/L/D]</h6>
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        After having breakfast, depart to the holy mountain where the river of 1,000 lingas features thousands of carvings engraved into rocks under the water. Also visit the rock temple with a large reclining Buddha.
+    </p>
+    <p class="my-2">
+        <strong class="pe-3">PM : </strong>
+        After having lunch, visit Banteay Srei and Banteay Samre. Return to Siem Reap. Have buffet dinner at the restaurant with Apsara Dance Show. Shopping at the Night Market. Stay overnight at the hotel.
+    </p>
+    <h6 class="bg-primary p-2 mt-4 mb-2 text-white">Day 12: SIEM REAP - DEPARTURE [B/-/-]</h6>
+    <p class="my-2">
+        <strong class="pe-3">AM : </strong>
+        AM : After having breakfast, transfer to the Siem Reap International Airport.
+    </p>
+
+    <p class="my-3"><em><strong>End of Tours. Check-Out before 12:00pm</strong></em></p>
+
+
+    <div class="row g-3">
+        <img src="{{ asset('asset/img/tours/mainprogram/landscape/landscape1.png') }}" alt="">
+        <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape2.png') }}"
+            alt="">
+        <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape3.png') }}"
+            alt="">
+        <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape4.png') }}"
+            alt="">
+        <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape5.png') }}"
+            alt="">
+        <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape6.png') }}"
+            alt="">
+        <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape7.png') }}"
+            alt="">
+        <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape8.png') }}"
+            alt="">
+        <img class="col-6 rounded shadow-sm" src="{{ asset('asset/img/tours/mainprogram/landscape/landscape9.png') }}"
+            alt="">
+    </div>
+
+
+</div>
+
+
+
+</div>
+
 
         `,
         ]
