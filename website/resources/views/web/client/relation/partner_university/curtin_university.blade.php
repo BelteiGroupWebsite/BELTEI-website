@@ -57,7 +57,7 @@
                 <td>ជំនាញឯកទេស<br>Majors</td>
             </tr>
             <tr align="left">
-                <td width="40%" style="border: 1px solid rgb(76, 0, 255)">bachelor of Commerce</td>
+                <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Bachelor of Commerce</td>
                 <td>
                     <li>Major in Accounting</li>
                     <li>Major in International Business</li>
@@ -71,119 +71,65 @@
 
                 </td>
             </tr>
+            <p class="text-start content-translate-font text-justify Green-color">
+                លក្ខ​ខណ្ឌ​ចូល​សិក្សា​</p>
+                <ul class="text-start content-translate-font text-justify">
+                    <li>ត្រូវ​មាន​សញ្ញា​បត្រ​ថ្នាក់​វិទ្យា​ល័យ​ ឬ​មាន​សញ្ញា​បត្រ​ A​ levels​​</li>
+                    <li>ត្រូវ​មាន​ពិន្ទុ​តេស្ត​អន្តរ​ជាតិ​ IELTS​ =​ 6​.​0​ ឬ​ TOEFL​ iBT​ =​ 80​</li>
+                </ul>
+                <p class="text-start content-translate-font text-justify Green-color">3​.​ ថ្នាក់​អនុ​បណ្ឌិត​ និង​បណ្ឌិត​</p>
+
+            <tr style="border: 3px solid rgb(76, 0, 255);  background-color:rgb(0, 67, 212); color: aliceblue" align="center">
+                    <td style="border: 1px solid rgb(76, 0, 255)">កម្ម​វិធី​សិក្សា​<br>Programs</td>
+                    <td>សញ្ញាបត្រ​<br>Degree</td>
+            </tr>
             <tr align="left">
-                <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Aviation & Aircraft maintenance Technology</td>
+                <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Business</td>
                 <td>
-                    <li>Bachelor of Aircraft Engineering Technology in Mechanical</li>
-                    <li>Bachelor of Aviation Management</li>
-                    <li>Bachelor of Aircraft Engineering Technology Avionics</li>
+                    <li>master of International Business</li>
+                    <li>Master of Logistics</li>
+                    <li>Graduate Diploma in International Business</li>
 
                 </td>
             </tr>
+            <tr style="border: 3px solid rgb(76, 0, 255);  background-color:rgb(0, 67, 212); color: aliceblue" align="center">
+                <td style="border: 1px solid rgb(76, 0, 255)">កម្ម​វិធី​សិក្សា​<br>Programs</td>
+                <td>សញ្ញាបត្រ​<br>Degree</td>
+        </tr>
             <tr align="left">
-                <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Medical and Allied Health Sciences</td>
+                <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Health Science</td>
                 <td>
-                    <li>Bachelor of Medicine and Bachelor of Surgery</li>
-                    <li>Bachelor of Nursing</li>
+                    <li>Master of Clinical Physiotherapy: Manipulative Therapy</li>
+                    <li>Master of Occupational Health and Safety</li>
+                    <li>Master of Science: Clinocal Leadership</li>
 
                 </td>
             </tr>
-            <tr align="left">
-                <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Medical Science Technology</td>
-                <td>
-                    <li>Bachelor of Clinical Laboratory Science</li>
-                    <li>Bachelor of Medical Science Technology in Enironmental healthcare</li>
 
-                </td>
-            </tr>
-            <tr align="left">
-                <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Entrepreneurship & Technology</td>
-                <td>
-                    <li>Bachelor of Accounting</li>
-                    <li>Bachelor if Business Administration in Management and Entrepreneurship</li>
-
-                </td>
-            </tr>
             </tbody>
         </table>
 
-        <p class="text-start content-translate-font text-justify Green-color">
-            លក្ខ​ខណ្ឌ​ចូល​សិក្សា​</p>
-            <ul class="text-start content-translate-font text-justify">
-                <li>ត្រូវ​មាន​សញ្ញា​បត្រ​ A​ levels​ ឬ​ សញ្ញា​បត្រ​ថ្នាក់​ឆ្នាំ​មូល​ដ្ឋាន​ពី​សាកល​វិទ្យា​ល័យ​UniKL​ ឬ​ សាកល​វិទ្យា​ល័យ​ ប៊ែលធី​ អន្តរ​ជាតិ​</li>
-                <li>ត្រូវ​មាន​ពិន្ទុ​តេស្ត​អន្តរ​ជាតិ​ IELTS​ =​ 5.5​ ឬ​ TOEFL​ iBT​ =​ 61​</li>
-            </ul>
-            <p class="text-start content-translate-font text-justify Green-color">3​.​ ថ្នាក់​អនុ​បណ្ឌិត​ និង​បណ្ឌិត​</p>
 
-
-
-            <table class="align-middle table table-hover text-start content-translate-font text-justify" style="border: 3px solid rgb(76, 0, 255);" width="100%">
-                <tbody>
-
-                <tr style="border: 3px solid rgb(76, 0, 255); background-color:rgb(76, 0, 255); color: aliceblue" align="center">
-                    <td style="border: 3px solid rgb(76, 0, 255)">មហាវិទ្យាល័យ<br>Faculties</td>
-                    <td>សញ្ញាបត្រ​<br>Degrees</td>
-                </tr>
-                <tr align="left">
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Electrical, Electronics & Telecommunication</td>
-                    <td>
-                        <li>Master of Engineering Technology (Electrical and Elecronic)</li>
-                        <li>PhD in Engineering Technology (Leoctrical/Electronic)</li>
-                    </td>
-                </tr>
-                <tr align="left">
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Automotive & Precision Manufacturing Technolgy</td>
-                    <td>
-                        <li>Master of Engineerng Technology (Manufacturing)</li>
-                        <li>PhD in Engineering Technology (Manufacturing)</li>
-                    </td>
-                </tr>
-
-                <tr style="border: 3px solid rgb(76, 0, 255);  background-color:rgb(0, 67, 212); color: aliceblue" align="center">
-                    <td style="border: 1px solid rgb(76, 0, 255)">មហាវិទ្យាល័យ<br>Faculties</td>
-                    <td>សញ្ញាបត្រ​<br>Degrees</td>
-                </tr>
-                <tr align="left">
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Information Technology, Multimedia Technology & Business Technology</td>
-                    <td>
-                        <li>master of Information Technology</li>
-                        <li>PhD in Engineering Technology (IT)</li>
-
-                    </td>
-                </tr>
-                <tr align="left">
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Entrepreneurship & Technology</td>
-                    <td>
-                        <li>Php in Management (by research)</li>
-                        <li>Master of Business Administration (Entrepreneurship)</li>
-                        <li>Master of Management (by research)</li>
-                        <li>Master if Business Administration</li>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
 
 
 
             <p class="text-start content-translate-font text-justify Green-color">លក្ខ​ខណ្ឌ​ចូល​សិក្សា​</p>
                 <ul class="text-start content-translate-font text-justify">
-                    <li>​ត្រូវ​មាន​សញ្ញា​បត្រ​បរិញ្ញ​ាបត្រ​ដែល​ចេញ​ដោយ​គ្រឹះ​ស្ថាន​ដែល​មាន​ការ​ទទួល​ស្គាល់​លើ​គុណ​ភាព​អប់រំ​</li>
-                    <li>ត្រូវ​មាន​ពិន្ទុ​តេស្ត​អន្តរ​ជាតិ​ IELTS​ =​ 6​.​5​ ឬ​ TOEFL​ iBT​ =​ 90​​</li>
+                    <li>ត្រូវ​មាន​សញ្ញា​បត្រ​បរិញ្ញា​បត្រ​ដែល​ចេញ​ដោយ​គ្រឹះ​ស្ថាន​ដែល​មាន​ការ​ទទួល​ស្គាល់​លើ​គុណ​ភាព​អប់រំ​​</li>
+                    <li>ត្រូវ​មាន​ពិន្ទុ​តេស្ត​អន្តរ​ជាតិ​ IELTS​ =​ 6.5​ ឬ​ TOEFL​ iBT​ =​ 90​​</li>
                 </ul>
             <p class="text-start content-translate-font text-justify Green-color">បញ្ជាក់ៈ​​</p>
                 <ul class="text-start content-translate-font text-justify">
-                    <li>វគ្គ​សិក្សា​ទាំង​អស់​ នឹង​ចាប់​ផ្តើម​នៅ​ខែ​ កក្កដា​ និង​ មករា​</li>
-                    <li>ថ្នាក់​បរិញ្ញា​បត្រ​មាន​រយៈ​ពេល​សិក្សា​ ៣​ឆ្នាំ​</li>
-                    <li>ថ្នាក់​អនុ​បណ្ឌិត​មាន​រយៈ​ពេល​សិក្សា​ ១​ឆ្នាំ​កន្លះ​</li>
-                    <li>ថ្នាក់​បណ្ឌិត​មាន​រយៈ​ពេល​សិក្សា​ ៣​ឆ្នាំ​</li>
-                    <li>មាន​វគ្គ​បំ​ប៉ន​ភាសា​អង់​គ្លេស​សម្រាប់​និស្សិត​</li>
+                    <li>វគ្គ​សិក្សា​ថ្នាក់​បរិញ្ញា​បត្រ​ចាប់​ផ្តើម​នៅ​ខែ​ មិនា​ កក្កដា​ និង​ វិច្ឆិកា​ ដែល​មាន​រយៈ​ពេល​សិក្សា​ ២​ឆ្នាំ​</li>
+                    <li>វគ្គ​សិក្សា​ថ្នាក់​អនុ​បណ្ឌិត​ចាប់​ផ្តើម​នៅ​ខែ​ មិនា​ កក្កដា​ និង​ វិច្ឆិកា​ ដែល​មាន​រយៈ​ពេល​សិក្សា​ ១​ឆ្នាំ​</li>
+                    <li>មាន​វគ្គ​បំ​ប៉ន​ភាសា​អង់​គ្លេស​សម្រាប់​និស្សិត​ ដែល​មាន​រយៈ​ពេល​ពី​ ៨​ ទៅ​ ១​៥​សប្តាហ៍​</li>
                 </ul>
             <p class="text-start content-translate-font text-justify Green-color">IV​.​ កន្លែង​ស្នាក់​នៅ​</p>
-            <p class="text-start content-translate-font text-justify">អគារ​ស្នាក់​នៅ​ទូ​ទាំង​បរិវេណ​សាកល​វិទ្យា​ល័យ​អាច​ទទួល​និស្សិត​បាន​ចំនួន​ប្រហែល​១០,០០០​ នាក់​។​ អគារ​ទាំង​នោះ​ប្រកប​ដោយ​ ផា​សុខ​ភាព​ ជា​មួយ​នឹង​ការ​បំពាក់​សម្ភារៈ​ល្អ​ៗ​ងាយ​ស្រួល​ឱ្យ​និស្សិត​ស្នាក់​នៅ​។​ រី​ឯ​កន្លែង​ស្នាក់​នៅ​ខាង​ក្រៅ​សាកល​វិទ្យា​ល័យ​វិញ​ ក៏​មាន​គុណ​ភាព​ល្អ​ ហើយ​តម្លៃ​សមរម្យ​។​​</p>
+            <p class="text-start content-translate-font text-justify">ការ​ជ្រើស​រើស​កន្លែង​ស្នាក់​នៅ​ នៅ​ប្រទេស​សិង្ហ​បុរី​មាន​ជំរើស​សម្បូរ​បែប​អាស្រ័យ​លើ​តម្រូវ​ការ​ និង​តម្លៃ​។​ និស្សិត​អាច​ជ្រើស​រើស​ ការ​ស្នាក់​នៅ​ក្នុង​អគារ​ស្នាក់​នៅ​ឯក​ជន​ដែល​មាន​បន្ទប់​សម្រាប់​មនុស្ស​ម្នាក់​ ឬ​បន្ទប់​សម្រាប់​ស្នាក់​នៅ​រួម​។​ លើស​ពី​នេះ​ទៀត​ និស្សិត​ក៏​អាច​ជ្រើស​រើស​យក​កន្លែង​ស្នាក់​នៅ​ជា​របស់​រដ្ឋ​ដែល​មាន​តម្លៃ​សមរម្យ​។​ រាល់​កន្លែង​ស្នាក់​នៅ​ទាំង​អស់​ សាកល​វិទ្យា​ល័យ​បាន​ធ្វើ​ការ​ជ្រើស​រើស​ យក​តែ​កន្លែង​ណា​ដែល​ធា​នា​បាន​នូវ​សុខ​សុវត្ថិ​ភាព​សម្រាប់​និស្សិត​ និង​មាន​ភាព​ងាយ​ស្រួល​លើ​មធ្យោ​បាយ​ធ្វើ​ដំណើរ​។​​</p>
             <p class="text-start content-translate-font text-justify Green-color">V​.​ ជីវ​ភាព​ប្រចាំ​ថ្ងៃ​​</p>
-            <p class="text-start content-translate-font text-justify">សាកល​វិទ្យា​ល័យ​បាន​បង្កើត​ឱ្យ​មាន​ក្លឹប​ និង​សកម្ម​ភាព​ជា​ច្រើន​សម្រាប់​និស្សិត​ដើម្បី​ធ្វើ​ឱ្យ​ពួក​គេ​មាន​ឱកាស​រាប់​អាន​មិត្តភក្តិ​ និង​ទទួល​បាន​បទ​ពិសោធន៍​ថ្មី​ៗ​។​ តួ​នាទី​សំខាន់​របស់​សាកល​វិទ្យាល័យ​គឺ​ផ្តល់​នូវ​សេវា​កម្ម​ជាក់​លាក់​ ដែល​មាន​គុណ​ភាព​ខ្ពស់​ដល់​និស្សិត​ ដើម្បី​ជំរុញ​ឱ្យ​ពួក​គេ​ទទួល​បាន​នូវ​ជោគ​ជ័យ​ទាំង​ការ​សិក្សា​ និង​ការ​ប្រា​ស្រ័យ​ទាក់​ទង​ក្នុង​សង្គម​អំឡុង​ពេល​កំពុង​សិក្សា​។​​​​</p>
+            <p class="text-start content-translate-font text-justify">ប្រទេស​សិង្ហ​បុរី​ជា​ប្រទេស​មួយ​ដែល​ចំរុះ​ទៅ​ដោយ​ជាតិ​សាសន៍​ជា​ច្រើន​តែ​ទោះ​បី​ជា​យ៉ាង​ណា​ ការ​ប្រា​ស្រ័យ​ទាក់​ទង​មាន​ភាព​ងាយ​ ស្រួល​បំផុត​ តាម​រយៈ​ការ​ប្រើ​ប្រាស់​ភាសា​អង់គ្លេស​តែ​មួយ​ ដែល​ធ្វើ​ឱ្យ​និស្សិត​កម្ពុជា​យើង​មាន​ឱកាស​ទំនាក់​ទំនង​ និង​ស្វែង​យល់​ពី​អរិយធម៌​ក្រៅ​ប្រទេស​បាន​យ៉ាង​ច្រើន​។​ ចំពោះ​អាកាស​ធាតុ​វិញ​មាន​ភាព​ស្រដៀង​គ្នា​យ៉ាង​ខ្លាំង​ទៅ​នឹង​ប្រទេស​កម្ពុជា​ងាយ​ ស្រួល​ឱ្យ​និស្សិត​ សម្រប​ខ្លួន​បាន​ព្រម​ទាំង​មាន​តំបន់​ទេស​ចរណ៍​ជា​ច្រើន​ដែល​ល្បី​ល្បាញ​ទូ​ទាំង​អាស៊ី​ អាច​ឱ្យ​និស្សិត​សម្រាក​លំហែ​កាយ​ក្រោយ​ពេល​ម៉ោង​សិក្សា​។​​​​​</p>
             <p class="text-start content-translate-font text-justify Green-color">VI​.​ ឱកាស​ផ្សេងៗ​​​</p>
-            <p class="text-start content-translate-font text-justify">និស្សិត​ដែល​មាន​បំណង​ចង់​បាន​អាជីព​ និង​ជំនាញ​បច្ចេក​ទេស​ប្រាកដ​ជា​មិន​ខក​បំណង​ឡើយ​ព្រោះ​ពួក​គេ​អាច​ជ្រើស​រើស​យក​ Universiti Kuala​ Lumpur​ ដើម្បី​សិក្សា​ក្រេប​យក​ចំណេះ​ដឹង​ ព្រម​ទាំង​ទទួល​បាន​បទ​ពិសោធន៍​ តាម​រយៈ​ការ​ចុះ​ធ្វើ​កម្ម​សិក្សា​ ដោយ​ផ្ទាល់​ជា​មួយ​រោង​ចក្រ​ឧស្សា​ហកម្ម​ធំ​ៗ​ដែល​ជា​ដៃ​គូ​សហ​ការ​ជា​មួយ​សាកល​វិទ្យា​ល័យ​។​ សញ្ញាបត្រ​ត្រូវ​បាន​ទទួល​ស្គាល់​ទូ​ទាំង​ពិភព​លោក​ហើយ​ និស្សិត​ ក៏​អាច​បន្ត​ការ​សិក្សា​នៅ​តាម​សាកល​វិទ្យា​ល័យ​ល្បី​ៗ​នៅ​តាម​ទ្វីប​ អឺរ៉ុប​ និង​អាមេរិច​បាន​ផង​ដែរ​។​​​​</p>
+            <p class="text-start content-translate-font text-justify">ការ​សិក្សា​នៅ​សាកល​វិទ្យា​ល័យ​ Curtin​ Singapore​ Campus​ ធ្វើ​ឱ្យ​ចំណេញ​ទាំង​ថវិកា​ និង​ពេល​វេលា​ មិន​ត្រឹម​តែ​ប៉ុណ្ណោះ​ សញ្ញា​បត្រ​ទាំង​អស់​ត្រូវ​បាន​ចេញ​ដោយ​សាកល​វិទ្យាល័យ​ Curtin​ នៅ​ប្រទេស​អូស្ត្រាលី​ ដែល​ទទួល​ស្គាល់​គុណ​ភាព​ទូ​ទាំង​ពិភព​លោក​។​​​​​</p>
             <p class="text-start content-translate-font text-justify Green-color">VII​.​ តម្លៃ​សិក្សា​​</p>
 
             <table class="align-middle table table-hover text-start content-translate-font text-justify" style="border: 3px solid rgb(76, 0, 255);" width="100%">
@@ -197,18 +143,14 @@
                 <tr align="left">
                     <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Bachelor </td>
                     <td width="40%" style="border: 1px solid rgb(76, 0, 255)">1 Year</td>
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$4,900 - $7,912</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$4,100 - $8,282</td>
                 </tr>
                 <tr align="left">
                     <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Master </td>
                     <td width="40%" style="border: 1px solid rgb(76, 0, 255)">For Whole Program</td>
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$3,100</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$30,00 - $35,000</td>
                 </tr>
-                <tr align="left">
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">PhD </td>
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">For Whole Program</td>
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$5,000</td>
-                </tr>
+
                 </tbody>
             </table>
             <p class="text-start content-translate-font text-justify Green-color">បញ្ជាក់ៈ​ តម្លៃ​សិក្សា​អាច​មាន​ការ​ប្រែ​ប្រួល​ទៅ​តាម​កម្ម​វិធី​សិក្សា​ និង​ការ​ផ្លាស់​ប្តូរ​របស់​មហា​វិទ្យា​ល័យ​។</p>

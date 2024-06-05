@@ -358,6 +358,12 @@ Route::group(['prefix' => 'relation', 'as' => 'relation.'], function () {
         Route::view('/cambridge' , 'web.client.relation.partner_university.cambridge_totors')->name('cambridge');
         Route::view('/yorkStJohn_university' , 'web.client.relation.partner_university.yorkStJohn_university')->name('yorkStJohn_university');
         Route::view('/kuala_lumpur' , 'web.client.relation.partner_university.kuala_lumpur_university')->name('kuala_lumpur');
+        Route::view('/curtin' , 'web.client.relation.partner_university.curtin_university')->name('curtin');
+        Route::view('/taylor' , 'web.client.relation.partner_university.taylor_university')->name('taylor');
+        Route::view('/easb' , 'web.client.relation.partner_university.easb_university')->name('easb');
+
+
+
 
 
 
