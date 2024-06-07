@@ -59,7 +59,7 @@
                     សា​លា​ ប៊ែល​ធី​ អន្តរ​ជាតិបាន​ប្រារព្ធ​ពិធី​ប្រគល់​សញ្ញា​បត្រ​មធ្យម​សិក្សា​បឋម​ភូមិ​ប៊ែល​ធី​​
                 </p>
             </div>
-        </a>
+        </a>  
 
         <a href="{{ route('school.news.') }}?id=4" class="col-6 d-flex align-items-center border">
             <div class="max-width-150 overflow-hidden">

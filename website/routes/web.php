@@ -42,6 +42,9 @@ Route::get('/', function () {
 Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
 
     Route::view('/' , 'web.client.school.index');
+    Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
+
+    
 
     Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
         Route::view('/' , 'web.client.school.about.welcome')->name('welcome');
@@ -153,6 +156,9 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
 Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.'], function () {
 
     Route::view('/' , 'web.client.testcenter.index');
+    Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
+
+    
 
     Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
         Route::view('/' , 'web.client.testcenter.about.welcome')->name('welcome');
@@ -173,6 +179,8 @@ Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.'], function () {
 Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], function () {
 
     Route::view('/' , 'web.client.beltei_university.index');
+    Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
+    
 
     Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
         Route::view('/' , 'web.client.beltei_university.about.welcome')->name('welcome');
@@ -261,6 +269,7 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
 Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.'], function () {
 
     Route::view('/' , 'web.client.beltei_tours_travel.index');
+    Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
 
     Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
         Route::view('/' , 'web.client.beltei_tours_travel.about.welcome')->name('welcome');
@@ -299,6 +308,10 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
             Route::view('/' , 'web.client.beltei_tours_travel.mainprogram.inbound.inbound');
             Route::view('detail' , 'web.client.beltei_tours_travel.mainprogram.inbound.detail')->name('detail');
         });
+        Route::group(['prefix' => 'outbound', 'as' => 'outbound.'], function () {
+            Route::view('/' , 'web.client.beltei_tours_travel.mainprogram.outbound.outbound');
+            Route::view('detail' , 'web.client.beltei_tours_travel.mainprogram.outbound.detail')->name('detail');
+        });
     });
 
 
@@ -323,6 +336,8 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
 Route::group(['prefix' => 'relation', 'as' => 'relation.'], function () {
 
     Route::view('/' , 'web.client.relation.index');
+    Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
+
 
     Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
         Route::view('/' , 'web.client.relation.about.welcome')->name('welcome');

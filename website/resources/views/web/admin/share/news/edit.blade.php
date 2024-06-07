@@ -86,7 +86,7 @@
                                         <div class="invalid-feedback">{{ $message }}</div>
                                     @enderror
                                 </label>
-                                <textarea required placeholder="{{ $item->language->key }}" class="form-control Battambang-Regular @error('description-' . $item->language->key) is-invalid @enderror" name="description-{{ $item->language->key }}" id="description-{{ $item->language->key }}" cols="30" rows="10">{{ old('description-' . $item->language->key, $item->description) }}</textarea>
+                                <textarea placeholder="{{ $item->language->key }}" class="mytiny w-100 form-control Battambang-Regular @error('description-' . $item->language->key) is-invalid @enderror" name="description-{{ $item->language->key }}" id="description-{{ $item->language->key }}" cols="30" rows="10">{{ old('description-' . $item->language->key, $item->description) }}</textarea>
                             </div>
                         @endforeach
                     </div>
@@ -94,9 +94,8 @@
     
                     <div class="row mb-3 me-0 pe-0">
                         <div class="col-12 mb-3">
-                            <label for="" class="form-label"><b>Certificate Information</b> <i
-                                    class="text-danger">(Excel:
-                                    .xlsx)</i></label>
+                            <label for="" class="form-label"><b>News Images</b> <i
+                                    class="text-danger">( Multiples )</i></label>
                             <div class="form-group d-flex">
                                 <input class="form-control @error('images') is-invalid @enderror" multiple  name="images[]" id="" accept=".jpg, .png, .jpeg, .webp" type="file">
                             </div>
@@ -127,4 +126,24 @@
         </div>
     </div>
 
+
+    <script src="{{ asset('assets/plugins/tiny/tinymce-min.js') }}"></script>
+
+    <script>
+        tinymce.init({
+            selector: 'textarea.mytiny', // Replace this CSS selector to match the placeholder element for TinyMCE
+            // height: 400,
+            height: 555,
+            // width: '50%',
+            plugins: [
+                'advlist', 'autolink',
+                'lists', 'link', 'image', 'charmap', 'preview', 'anchor', 'searchreplace', 'visualblocks',
+                'fullscreen', 'insertdatetime', 'media', 'table', 'help', 'wordcount'
+            ],
+            toolbar: 'undo redo | formatpainter casechange blocks | bold italic backcolor | ' +
+                'alignleft aligncenter alignright alignjustify | ' +
+                'bullist numlist outdent indent | removeformat | a11ycheck code table help'
+        });
+    </script>
+    
 @endsection

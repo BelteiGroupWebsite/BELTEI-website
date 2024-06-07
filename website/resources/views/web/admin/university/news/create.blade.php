@@ -51,7 +51,7 @@
                         @foreach ($languages as $language)            
                             <div class="col mb-3">
                                 <label for="" class="form-label">Description {{ $language->lang }}<i class="text-danger"></i></label>
-                                <textarea required placeholder="{{ $language->key }}" class="form-control Battambang-Regular @error('description-{{ $language->key }}') is-invalid @enderror" name="description-{{ $language->key }}"  id="" cols="30" rows="10"></textarea>
+                                <textarea  required placeholder="{{ $language->key }}" class="myeditorinstance form-control Battambang-Regular @error('description-{{ $language->key }}') is-invalid @enderror" name="description-{{ $language->key }}"  id="" cols="30" rows="10"></textarea>
                             </div>
                         @endforeach
                         
@@ -85,4 +85,33 @@
         </div>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="{{ asset('assets/plugins/tiny/tinymce-min.js') }}"></script>
+
+    <script>
+        $(document).ready(function() {
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+        });
+
+
+        tinymce.init({
+            selector: 'textarea.myeditorinstance', // Replace this CSS selector to match the placeholder element for TinyMCE
+            // height: 400,
+            height: 555,
+            // width: '50%',
+            // plugins: [
+            //     'advlist', 'autolink',
+            //     'lists', 'link', 'image', 'charmap', 'preview', 'anchor', 'searchreplace', 'visualblocks',
+            //     'fullscreen', 'insertdatetime', 'media', 'table', 'help', 'wordcount'
+            // ],
+            // toolbar: 'undo redo | formatpainter casechange blocks | bold italic backcolor | ' +
+            //     'alignleft aligncenter alignright alignjustify | ' +
+            //     'bullist numlist outdent indent | removeformat | a11ycheck code table help'
+        });
+    </script>
+    
 @endsection

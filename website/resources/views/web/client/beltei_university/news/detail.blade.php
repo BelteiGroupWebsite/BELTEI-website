@@ -1,6 +1,13 @@
 @extends('web.client.school.layout.app')
 
 @section('content')
+
+    <style>
+        #newsDescription *{
+            width: 100% !important;
+        }
+    </style>
+
     <div>
         <div class="text-start p-3  position-relative" id="newsContainer">
 
@@ -15,7 +22,7 @@
                     <div class=" w-100 h-100">
                         <div class="float-start w-50 content-translate-font">
                             <p id="newsDescription" class="text-justify">
-                                {{ $item->description }}
+                                {!! $item->description !!}
                             </p>
                         </div>
                         <div id="imgContainer" class="position-relative">

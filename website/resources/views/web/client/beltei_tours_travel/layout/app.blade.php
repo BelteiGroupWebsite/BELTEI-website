@@ -85,67 +85,49 @@
             {{-- footer  --}}
 
 
-            <div class="mt-4">
-                <h6 class="Muol-Light p-3 bg-success text-white">វីឌីអូសំខាន់ៗ</h6>
-                <hr>
-                <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; row-gap: .5rem;">
-
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/6FAbzGXrV38?si=ItshHz92LaEx3EC2" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/LuUS8xRzpd4?si=Fks838mRw3A3QiVO" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/D1kBJgm0deM?si=kNT_-qhQSt2r0f7z" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/Gtj87I5670Y?si=cHQ53JatwXP4Qf6O" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/W2K_pt28MGE?si=1H02tgwQAJ63Qr-4" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/6FAbzGXrV38?si=ItshHz92LaEx3EC2" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/LuUS8xRzpd4?si=Fks838mRw3A3QiVO" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/D1kBJgm0deM?si=kNT_-qhQSt2r0f7z" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/Gtj87I5670Y?si=cHQ53JatwXP4Qf6O" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/W2K_pt28MGE?si=1H02tgwQAJ63Qr-4" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
-                        allowfullscreen></iframe>
-
-                </div>
-            </div>
-
             <div>
-                <marquee class="Battambang-Regular p-3" behavior="scroll" scrollamount="4.5">
-                    <font size="3" color="green">
-                        <strong>សាលា ប៊ែលធី អន្តរជាតិ</strong>
-                    </font> មានបង្រៀន <font size="3" color="green">៥</font>កម្មវិធីធំៗគឺ <font size="3"
-                        color="green">១-
-                        ចំណេះទូទៅ | ២- ភាសាអង់គ្លេសទូទៅ | ៣- វគ្គបណ្តុះបណ្តាលជំនាញឯកទេស | ៤- វគ្គបណ្តុះបណ្តាលកុំព្យូទ័រ
-                        | ៥- ថ្នាក់ត្រៀមប្រឡងតេស្តអន្តរជាតិ</font>
-                </marquee>
+
+                <table class="table position-relative" border="0">
+                    <tbody>
+                        <tr>
+                            <td colspan="2"><img class="w-100"
+                                    src="{{ asset('asset/img/tours/footer/footer_top.png') }}"
+                                    border="0"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="{{ asset('asset/img/tours/footer/beltei_tour_text.png') }}"
+                                    border="0"></td>
+                            <td><img src="{{ asset('asset/img/tours/footer/tour_facility.png') }}"
+                                    border="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><img class="w-100"
+                                    src="{{ asset('asset/img/tours/footer/line_break.png') }}"
+                                    border="0"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="{{ asset('asset/img/tours/footer/beltei_service_text.png') }}"
+                                    border="0"></td>
+                            <td><img src="{{ asset('asset/img/tours/footer/beltei_tour_passport.png') }}"
+                                    border="0"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><img class="w-100"
+                                    src="{{ asset('asset/img/tours/footer/footer_bottom.png') }}"
+                                    border="0"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
 
         </div>
 
 
         <button onclick="topFunction()" id="goToTopBtn" title="Go to top"
-            class="fa fa-angle-up bg-info shadow btn rounded-pill text-white" style="width: 40px; height: 40px;"></button>
+            class="fa fa-angle-up bg-info shadow btn rounded-pill text-white"
+            style="width: 40px; height: 40px;"></button>
 
     </main>
 

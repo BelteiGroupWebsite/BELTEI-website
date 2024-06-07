@@ -69,14 +69,14 @@
                         @foreach ($languages as $language)            
                             <div class="col mb-3">
                                 <label for="" class="form-label">Header {{ $language->lang }}<i class="text-danger"></i></label>
-                                <textarea  required placeholder="{{ $language->key }}" class="form-control Battambang-Regular @error('header-{{ $language->key }}') is-invalid @enderror " name="header-{{ $language->key }}"  id="" cols="30" rows="3"></textarea>
+                                <textarea  required placeholder="{{ $language->key }}" class="form-control Battambang-Regular @error('header-{{ $language->key }}') is-invalid @enderror " name="header-{{ $language->key }}"  id="header-{{ $language->key }}" cols="30" rows="2"></textarea>
                             </div>
                         @endforeach
 
                         @foreach ($languages as $language)            
                             <div class="col mb-3">
                                 <label for="" class="form-label">Description {{ $language->lang }}<i class="text-danger"></i></label>
-                                <textarea required placeholder="{{ $language->key }}" class="form-control Battambang-Regular @error('description-{{ $language->key }}') is-invalid @enderror" name="description-{{ $language->key }}"  id="" cols="30" rows="10"></textarea>
+                                <textarea placeholder="{{ $language->key }}" class="mytiny form-control Battambang-Regular @error('description-{{ $language->key }}') is-invalid @enderror" name="description-{{ $language->key }}"  id="description-{{ $language->key }}" cols="30" rows="8"></textarea>
                             </div>
                         @endforeach
                         
@@ -84,9 +84,7 @@
     
                     <div class="row mb-3 me-0 pe-0">
                         <div class="col-12 mb-3">
-                            <label for="" class="form-label"><b>Certificate Information</b> <i
-                                    class="text-danger">(Excel:
-                                    .xlsx)</i></label>
+                            <label for="" class="form-label"><b>News Images</b> <i class="text-danger">( Multiples )</i></label>
                             <div class="form-group d-flex">
                                 <input required class="form-control @error('images') is-invalid @enderror" multiple  name="images[]" id="" accept=".jpg, .png, .jpeg, .webp" type="file">
                             </div>
@@ -113,5 +111,24 @@
         
     </script> --}}
     
+    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> --}}
+    <script src="{{ asset('assets/plugins/tiny/tinymce-min.js') }}"></script>
+
+    <script>
+        tinymce.init({
+            selector: 'textarea.mytiny', // Replace this CSS selector to match the placeholder element for TinyMCE
+            // height: 400,
+            height: 555,
+            // width: '50%',
+            plugins: [
+                'advlist', 'autolink',
+                'lists', 'link', 'image', 'charmap', 'preview', 'anchor', 'searchreplace', 'visualblocks',
+                'fullscreen', 'insertdatetime', 'media', 'table', 'help', 'wordcount'
+            ],
+            toolbar: 'undo redo | formatpainter casechange blocks | bold italic backcolor | ' +
+                'alignleft aligncenter alignright alignjustify | ' +
+                'bullist numlist outdent indent | removeformat | a11ycheck code table help'
+        });
+    </script>
 
 @endsection

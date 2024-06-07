@@ -63,7 +63,7 @@
                                          @if ($item->language->key == app()->getLocale())
                                             <div onclick="toggleDescription(this)" class="cursor-pointer "
                                                 data-fulltext="{{ $item->description }}">
-                                                {{ Str::limit($item->description, 200) }}
+                                                {!! Str::limit($item->description, 200) !!}
                                             </div>
                                         @endif
                                     @endforeach

@@ -15,7 +15,7 @@
             <div class="container">
                 {{-- <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-4"> --}}
                 <div class="row row-cols-lg-2 g-2 g-lg-4">
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=1" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=1" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income01.png') }}"
                                 alt="">
@@ -23,14 +23,14 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=2" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=2" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income02.png') }}"
                                 alt="">
                             <p class="height-50 align-middle align-items-center d-flex justify-content-center">2- Amazing Cambodia</p>
 
                         </div>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=3" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=3" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80"
                                 src="{{ asset('asset/img/tours/mainprogram/income/income03.png') }}"
@@ -39,7 +39,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=4" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=4" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80"
                                 src="{{ asset('asset/img/tours/mainprogram/income/income04.png') }}"
@@ -48,7 +48,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=5" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=5" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income05.png') }}"
                                 alt="">
@@ -56,7 +56,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=6" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=6" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income06.png') }}"
                                 alt="">
@@ -64,7 +64,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=7" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=7" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income07.png') }}"
                                 alt="">
@@ -72,7 +72,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=8" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=8" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income08.png') }}"
                                 alt="">
@@ -80,7 +80,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=9" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=9" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income09.png') }}"
                                 alt="">
@@ -88,7 +88,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=10" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=10" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income10.png') }}"
                                 alt="">
@@ -96,7 +96,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=11" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=11" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income11.png') }}"
                                 alt="">
@@ -104,7 +104,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=12" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=12" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income12.png') }}"
                                 alt="">
@@ -112,7 +112,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=13" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=13" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income13.png') }}"
                                 alt="">
@@ -120,7 +120,7 @@
 
                         </div>
                     </a>
-                    <a href="{{ route('beltei_tours_travel.mainprogram.domestic.expatrate-detail') }}?id=14" class="col">
+                    <a href="{{ route('beltei_tours_travel.mainprogram.inbound.detail') }}?id=14" class="col">
                         <div class="p-3 border bg-light shadow rounded scale-9-hover">
                             <img class="w-80" src="{{ asset('asset/img/tours/mainprogram/income/income14.png') }}"
                                 alt="">
