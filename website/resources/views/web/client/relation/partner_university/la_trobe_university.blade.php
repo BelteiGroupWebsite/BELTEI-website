@@ -23,7 +23,7 @@
             <tr align="left">
                 <td width="40%" style="border: 1px solid rgb(76, 0, 255)">English Languuage Programs</td>
                 <td>
-                    <li>General english</li>
+                    <li>General English</li>
                     <li>English for Further Studies</li>
                     <li>English Program for Speciflc Puposes</li>
                 </td>
@@ -36,7 +36,7 @@
             <tr align="left">
                 <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Diploma of Information Systems</td>
                 <td>
-                    <li>bachelor of Information Technology</li>
+                    <li>Bachelor of Information Technology</li>
                 </td>
             </tr>
             <tr align="left">
@@ -78,48 +78,40 @@
                     <li>Bachelor of Media Studies</li>
                 </td>
             </tr>
-            <tr align="left">
-                <td width="40%" style="border: 1px solid rgb(76, 0, 255)">PQP (Business and Law)</td>
-                <td>
-                    <li>Master of Commerce</li>
-                    <li>Master of Business (Sport Management)</li>
-                    <li>Master of Professional Accounting</li>
-                    <li>Maste of Information System</li>
-                    <li>Master of International Business</li>
-                    <li>Master of International Finance</li>
-                    <li>master of Nusiness Administration (International)</li>
-                    <li>Master of Professional Accounting/Master of Commerce</li>
-                    <li>Master os International Finance/Master of Professional Accounting</li>
-                    <li>Master of Business Administration (Interantioanl)/Master of Commerce</li>
-                    <li>Master of Business Administration (International)/Master of Professional Accounting</li>
-                    <li>Master of Business Administration (Internation)/Master of Information System</li>
-                </td>
-            </tr>
+
             </tbody>
         </table>
 
         <p class="text-start content-translate-font text-justify Green-color">លក្ខ​ខណ្ឌ​ចូល​សិក្សា​</p>
+        <p class="text-start content-translate-font text-justify Green-color">Foundation​ Studies​ Program​</p>
+
             <ul class="text-start content-translate-font text-justify">
-                <li>សម្រាប់​វគ្គ​ Diploma​ ត្រូវ​មាន​សញ្ញា​បត្រ​ថ្នាក់​វិទ្យា​ល័យ​ ឬ​មាន​សញ្ញា​បត្រ​ Certificate​ IV​ in​ Tertiary​ Preparation​ Program​ និង​មាន​ពិន្ទុ​តេស្ត​អន្តរ​ជាតិ​ IELTS​ =​ 5.5​ ឬ​ TOEFL​ iBT ​= ​59</li>
-                <li>​សម្រាប់​វគ្គ​ត្រៀម​អនុ​បណ្ឌិត​ ត្រូវ​មាន​សញ្ញា​បត្រ​បរិញ្ញា​បត្រ​ដែល​ចេញ​ដោយ​គ្រឹះ​ស្ថាន​ដែល​មាន​ការ​ទទួល​ស្គាល់​  លើ​គុណ​ភាព​អប់រំ​ និង​មាន​ពិន្ទុ​តេស្ត​អន្តរ​ជាតិ​ IELTS​ =​ 6.0​ ឬ​ TOEFL​ iBT​ =​ 80​</li>
+                <li>ត្រូវ​មាន​សញ្ញា​បត្រ​ថ្នាក់​វិទ្យា​ល័យ​ ឬ​មាន​សញ្ញា​បត្រ​ដែល​មាន​តម្លៃ​ស្មើ​ថ្នាក់​ទី​១១​នៅ​ប្រទេស​អូស្ត្រាលី​</li>
+                <li>មាន​ពិន្ទុ​ IELTS​ =​ 5.5​ ឬ​ TOEFL​ iBT​ =​ 69​​</li>
+
+            </ul>
+            <p class="text-start content-translate-font text-justify Green-color">Diploma​ Program​​</p>
+            <ul class="text-start content-translate-font text-justify">
+                <li>ត្រូវ​មាន​សញ្ញា​បត្រ​ថ្នាក់​វិទ្យា​ល័យ​ ឬ​មាន​សញ្ញា​បត្រ​ GCE​ “​A​”​ Level​​</li>
+                <li>មាន​ពិន្ទុ​ IELTS​ =​ 6.0​ ឬ​ TOEFL​ iBT​ =​ 80​​​</li>
 
             </ul>
 
+
         <p class="text-start content-translate-font text-justify Green-color">បញ្ជាក់ៈ​</p>
         <ul class="text-start content-translate-font text-justify">
-                   <li> គ្រប់​វគ្គ​សិក្សា​ទាំង​អស់​ចាប់​ផ្តើម​នៅ​ខែ​ មិនា​ មិថុនា​ តុលា​</li>
-                   <li> វគ្គ​ត្រៀម​ចូល​សា​កល​វិទ្យា​ល័យ​មាន​រយៈ​ពេល​ពី​ ៨​ ទៅ​ ១២​ខែ​​</li>
-                   <li> វគ្គ​ Diploma​ មាន​រយៈ​ពេល​ ៨​ ទៅ​ ១២​ខែ​​</li>
-                   <li> ថ្នាក់​អនុ​បណ្ឌិត​មាន​រយៈ​ពេល​ ១​ឆ្នាំ​ ទៅ​ ២​ឆ្នាំ​​</li>
-                   <li> មាន​វគ្គ​បំ​ប៉ន​ភា​សា​អង់​គ្លេស​សម្រាប់​និ​ស្សិត​​</li>
+                <li>វគ្គ​សិក្សា​ចាប់​ផ្តើម​នៅ​ខែ​ មិនា​ កក្កដា​ និង​ វិច្ឆិកា​</li>
+                <li>សញ្ញា​បត្រ​ Foundation​ Studies​ មាន​រយៈ​ពេល​សិក្សា​ ៨​ខែ​</li>
+                <li>សញ្ញា​បត្រ​ Diploma​ មាន​រយៈ​ពេល​សិក្សា​ពី​ ៨​ ទៅ​ ១​២​ ខែ​</li>
+                <li>សញ្ញា​បត្រ​បរិញ្ញា​បត្រ​មាន​រយៈ​ពេល​សិក្សា​ ៣​ឆ្នាំ​</li>
         </ul>
 
             <p class="text-start content-translate-font text-justify Green-color">IV​.​ កន្លែង​ស្នាក់​នៅ​</p>
-            <p class="text-start content-translate-font text-justify">កន្លែង​ស្នាក់​នៅ​សម្រាប់​និស្សិត​ អាច​រក​បាន​នៅ​តាម​សា​ខា​ទាំង​អស់​របស់​សា​កល​វិទ្យា​ល័យ​។​ នៅ​តាម​បន្ទប់​នីមួយៗ​មាន​បំពាក់​ ទៅ​ដោយ​ប្រ​ព័ន្ធ​ទូរ​ស័ព្ទ​ និង​កុំ​ព្យូ​ទ័រ​សម្រាប់​និ​ស្សិត​ប្រើ​ប្រាស់​។​ គ្រប់​បន្ទប់​គេង​សុទ្ធ​តែ​មាន​បំ​ពាក់​ដោយ​សម្ភារ​គ្រប់​គ្រាន់​ ដោយ​បន្ថែម​ជា​មួយ​ នូវ​ម៉ា​ស៊ីន​កំដៅ​ និង​កម្រាល​ព្រំ​ទៀត​ផង​។​ លើស​ពី​នេះ​ទៀត​នៅ​តាម​កន្លែង​ស្នាក់​នៅ​ទាំង​អស់​ចែក​ចេញ​ជា​បន្ទប់​ផ្សេងៗ​ មាន​ដូច​ជា​ បន្ទប់​ទទួល​ ភ្ញៀវ​ ផ្ទះ​បាយ​ និង​ទី​ធ្លា​ធំ​ទូ​លាយ​សម្រាប់​ប្រារឰ​ពិធី​ជួប​ជុំ​ ផ្សេងៗ​។​​</p>
+            <p class="text-start content-translate-font text-justify">បុគ្គលិក​របស់​សាកល​វិទ្យា​ល័យ​នឹង​រង់​ចាំ​ជួយ​រៀបចំ​កន្លែង​ស្នាក់​នៅ​សម្រាប់​និស្សិត​ឱ្យ​បាន​មុន​ពេល​ពួក​គេ​ចាប់​ផ្តើម​ការ​សិក្សា​ ហើយ​កន្លែង​ស្នាក់​នៅ​ទាំង​នោះ​មាន​ច្រើន​ប្រភេទ​ដើម្បី​បំពេញ​តាម​តម្រូវ​ការ​របស់​និស្សិត​។​ និស្សិត​អាច​ជ្រើស​រើស​កន្លែង​ស្នាក់​នៅ​ មាន​ដូច​ជា​ការ​ស្នាក់​នៅ​ជា​មួយ​គ្រួសារ​ជន​ជាតិ​អូស្ត្រាលី​ ការ​ស្នាក់​នៅ​ក្នុង​អគារ​របស់​សាកល​វិទ្យា​ល័យ​និង​ការ​ស្នាក់​នៅ​ក្នុង​អគារ​ខាង​ក្រៅ​សាកល​វិទ្យា​ល័យ​។​​</p>
             <p class="text-start content-translate-font text-justify Green-color">V​. ជីវ​ភាព​ប្រចាំ​ថ្ងៃ​</p>
-            <p class="text-start content-translate-font text-justify">ការ​បែក​ឆ្ងាយ​ពី​គ្រួសារ​មក​រស់​នៅ​ និង​សិក្សា​នៅ​កន្លែង​ផ្សេង​ គឺ​ជា​រឿង​មួយ​ដែល​ មាន​ផល​លំបាក​សម្រាប់​និ​ស្សិត​បរ​ទេស​ទាំង​អស់​។ ដោយ​យល់​ឃើញ​ពី​កង្វល់​ទាំង​នេះ​ និង​ដើម្បី​ជួយ​ជ្រោម​ជ្រែង​និស្សិតឱ្យ​ពួក​គេ​បាន​សម្រេច​បំណង​ក្នុង​ការ​ទទួល​បាន​ការ​បណ្តុះ​បណ្តាល​អប់រំ​តាម​បែប​សម័យ​ទំនើប​ សា​កល​វិទ្យា​ល័យ​បាន​ខិត​ខំ​រៀប​ចំ​សេវា​កម្ម​ជា​ច្រើន​ ដូច​ជា​ការ​គាំ​ពារ​សុខ​ភាព​ ការ​ផ្តល់​ប្រឹក្សា​យោ​បល់​ ការ​រៀប​ចំ​កម្ម​វិធី​ជួប​ជុំ​ផ្សេងៗ​ និង​ការ​បង្កើត​ឱ្យ​មាន​ក្លឹប​យុវ​ជន​ ដើ​ម្បី​ជួយ​សម្រួល​ផល​លំបាក​ផ្សេងៗ​ដែល​ពួក​គេ​ជួប​ប្រទះ​ ក៏​ដូច​ជា​បង្កើន​ ចំ​ណង​មិត្ត​ភាព​រវាង​ពួក​គេ​ទាំង​អស់​គ្នា​។ ​ទាំង​អស់​នេះ​ហើយ​ធ្វើ​ឱ្យ​និ​ស្សិត​អាច​សម្រប​ខ្លួន​បាន​យ៉ាង​ឆាប់​រហ័ស​ចំ​ពោះ​បរិយា​កាស​ថ្មី​ទាំង​ឡាយ  ហើយ​ពួក​គេ​នឹង​ត្រៀម​ខ្លួន​ក្នុង​ការ​ចាប់​ឱ្យ​បាន​នូវ​ឱ​កាស​និង​ជោគ​ជ័យ​សម្រាប់​អនា​គត​របស់​ពួក​គេ​។​​</p>
+            <p class="text-start content-translate-font text-justify">ដើម្បី​ផ្តល់​ភាព​ងាយ​ស្រួល​ដល់​និស្សិត​ទាំង​អស់​ក្នុង​អំឡុង​ពេល​នៃ​ការ​សិក្សា​ និង​ការ​ស្នាក់​នៅ​ សាកល​វិទ្យា​ល័យ​បាន​រៀបចំ​ឱ្យ​មាន​ ក្លឹប​និស្សិត​ ជា​ច្រើន​ទូ​ទាំង​បរិវេណ​សាកល​វិទ្យា​ល័យ​ មាន​ដូច​ជា​ ក្លឹប​កីឡា​ ក្លឹប​ហាត់​ប្រាណ​ ក្លឹប​សិក្សា​ និង​ក្លឹប​កម្សាន្ត​ជា​ច្រើន​ទៀត​ ដែល​ទាក់​ទង​នឹង​ វប្ប​ធម៌​ ហើយ​នឹង​ចំណាប់​អារម្មណ៍​របស់​និស្សិត​។​ ក្រៅ​ពី​នេះ​ និស្សិត​ក៏​អាច​ចូល​រួម​សកម្ម​ភាព​កម្សាន្ត​ខាង​ក្រៅ​ សាកល​វិទ្យា​ល័យ​បាន​ដែរ​ ដូច​ជា​ការ​ឡើង​ភ្នំ​ ការ​ជិះ​ស្គី​ ប្ញុ​ការ​ជិះ​ទូក​ជា​ដើម​។​​​</p>
             <p class="text-start content-translate-font text-justify Green-color">VI​.​ ឱកាស​ផ្សេងៗ​​</p>
-            <p class="text-start content-translate-font text-justify">និ​ស្សិត​ទាំង​អស់​ដែល​កំពុង​សិក្សា​នៅ​សា​កល​វិទ្យា​ល័យ​ DEAKIN​ នឹង​ទទួល​បាន​នូវ​បទ​ពិសោធន៍​ការ​ងារ​ ក្នុង​អំ​ឡុង​ពេល​កំពុង​សិក្សា​ ព្រោះ​សា​កល​វិទ្យា​ល័យ​បាន​រៀប​ចំ​ឱ្យ​និ​ស្សិត​ចុះ​ធ្វើ​កម្ម​សិក្សា​នៅ​តាម​បណ្តា​ ឧស្សាហ​កម្ម​ផ្សេងៗ​។​ មិន​ត្រឹម​តែ​ប៉ុ​ណ្ណោះ​ និ​សិត្ស​នឹង​មាន​ឱកាស​ ទំនាក់​ទំនង​ជា​មួយ​បណ្តា​សហ​គ្រិន​ និង​អ្នក​វិនិ​យោគ​ធំ​ៗដែល​ជា​ប្រយោជន៍​សម្រាប់​អា​ជីព​ទៅ​ថ្ងៃ​អនា​គត​របស់​ពួក​គេ​។​​</p>
+            <p class="text-start content-translate-font text-justify">សាកល​វិទ្យា​ល័យ​បាន​រៀប​ចំ​ថ្នាក់​រៀន​តូច​ល្មម​ ធ្វើ​ឱ្យ​និស្សិត​ឆាប់​យល់​ខ្លឹម​សារ​មេ​រៀន​ ព្រោះ​ដោយ​បាន​ការ​យក​ចិត្ត​ទុក​ដាក់​ខ្ពស់​ពី​សាស្ត្រា​ចារ្យ​ របស់​ពួក​គេ​។​ និស្សិត​ទាំង​អស់​នឹង​បាន​ចុះ​ធ្វើ​កម្ម​សិក្សា​ស្វែង​រក​បទ​ពិសោធន៍​ពី​បណ្តា​ក្រុម​ហ៊ុន​ និង​សហ​គ្រាស​ធំ​ៗ​នៅ​ប្រទេស​អូស្ត្រាលី​ ហើយ​ ពួក​គេ​ក៏​មាន​ឱកាស​ធ្វើ​ការ​ទំនាក់​ទំនង​ជា​មួយ​បុគ្គល​ដែល​មាន​ឥទ្ធិ​ពល​នៅ​តាម​បណ្តា​ស្ថាប័ន​ទាំង​នោះ​ ដើម្បី​ជា​ប្រយោជន៍​ក្នុង​ការ​បង្កើត​ អាជីព​ទៅ​អនា​គត​។​​</p>
             <p class="text-start content-translate-font text-justify Green-color">VII​.​ តម្លៃ​សិក្សា​</p>
 
             <table class="align-middle table table-hover text-start content-translate-font text-justify" style="border: 3px solid rgb(76, 0, 255);" width="100%">
@@ -131,25 +123,21 @@
                     <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Tuition Fess (US $)</td>
                 </tr>
                 <tr align="left">
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Certificate IV in Tertiary Preparation Program</td>
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">From 8 to 12 Months</td>
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$15,600</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Foundation</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">8 months</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$14,760</td>
                 </tr>
                 <tr align="left">
                     <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Diploma</td>
                     <td width="40%" style="border: 1px solid rgb(76, 0, 255)">From 8 to 12 Months</td>
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$18,760 - $21,200</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$14,760</td>
                 </tr>
                 <tr align="left">
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Postgraduate Qualifying Program (Business and Law)</td>
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">4 Months</td>
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$10,500</td>
-                </tr>
-                <tr align="left">
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Master</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">Bachelor</td>
                     <td width="40%" style="border: 1px solid rgb(76, 0, 255)">1 Year</td>
-                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$21,400</td>
+                    <td width="40%" style="border: 1px solid rgb(76, 0, 255)">$20,360</td>
                 </tr>
+
 
                 </tbody>
             </table>
