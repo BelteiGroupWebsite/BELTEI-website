@@ -41,42 +41,119 @@
 
 
 <html>
-<body>
-<head>
-<title>BELTEI Group Structure</title>
-<table align="center" border="0">
-<tbody>
-<tr style="text-align: center;">
-<!--<td><img src="images/new structure beltei group 2017.jpg" usemap="#f_inbound_tour" border="0" /></td>-->
-<td><img src="{{ asset('asset/img/new-structure-beltei-group-official-2019.jpg') }}" usemap="#f_inbound_tour" border="0" /></td>
-<!--<td><img src="images/bt-home/frame_inbound_tour.jpg" alt="Inbound_Tour" usemap="#f_inbound_tour" border="0" />-->
-<map name="f_inbound_tour">
-   <area shape="circle" coords="646,68,67" href="beltei_group_logos.html" target="_blank"></a>
-   <area shape="rect" coords="7,279,186,499" href="https://www.belteigroup.com.kh/bconk/"></a>
-   <area shape="rect" coords="199,281,368,495" href="{{ url('school') }}"></a>
-   <area shape="rect" coords="379,282,548,493" href="{{ url('beltei_university') }}"></a>
-   <area shape="rect" coords="560,281,729,495" href="https://www.beltei.edu.kh/bire/"></a>
-   <!--<area shape="rect" coords="737,281,909,494" href="https://www.beltei.edu.kh/internationaltests/"></a>-->
-   <area shape="rect" coords="737,281,909,494" href="{{ url('testcenter') }}"></a>
-   <area shape="rect" coords="920,281,1091,496" href="{{ url('beltei_tours_travel') }}"></a>
-   <area shape="rect" coords="1114,281,1281,494" href="https://www.belteigroup.com.kh/charitykhm/"></a>
 
-</map> 
-</td>
-</tr>
-<tr style="text-align: center;">
-<td><img src="images/beltei_motto_khmer.gif" border="0" /></td>
-</tr>
-<tr style="text-align: center;">
-<td><img src="images/beltei_motto_eng.gif" border="0" /></td>
-</tr>
-<tr style="text-align: center;color:blue;font-family: Helvetica Condensed;font-size:200%;font-weight: bold";>
-<td>www.beltei.edu.kh</td>
-</tr>
-<tr style="text-align: center;color:blue;font-family: Helvetica Condensed;font-size:200%;font-weight: bold";>
-<td><a href="https://belteigroup.com.kh/beltei_group_logos.html" target="_blank">click here to download all BELTEI's Logos<img src="images/beltei-group-logo-download.png" border="0" width="50" height=" 50"/></td></a>
-</tr>
-</tbody>
-</table>
+<head>
+    <title>BELTEI Group Structure</title>
+    <link rel="icon" href="{{ asset('asset/img/beltei_group_in_cambodia.png') }}" type="image/png">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ua-parser-js/1.0.2/ua-parser.min.js"></script>
+</head>
+
+<body>
+    <table align="center" border="0">
+        <tbody>
+            <tr style="text-align: center;">
+                <!--<td><img src="images/new structure beltei group 2017.jpg" usemap="#f_inbound_tour" border="0" /></td>-->
+                <td><img src="{{ asset('asset/img/new-structure-beltei-group-official-2019.jpg') }}"
+                        usemap="#f_inbound_tour" border="0" /></td>
+                <!--<td><img src="images/bt-home/frame_inbound_tour.jpg" alt="Inbound_Tour" usemap="#f_inbound_tour" border="0" />-->
+                <map name="f_inbound_tour">
+                    <area shape="circle" coords="646,68,67" href="beltei_group_logos.html" target="_blank"></a>
+                    <area shape="rect" coords="7,279,186,499" href="{{ url('contruction') }}"></a>
+                    <area shape="rect" coords="199,281,368,495" href="{{ url('school') }}"></a>
+                    <area shape="rect" coords="379,282,548,493" href="{{ url('beltei_university') }}"></a>
+                    <area shape="rect" coords="560,281,729,495" href="https://www.beltei.edu.kh/bire/"></a>
+                    <!--<area shape="rect" coords="737,281,909,494" href="https://www.beltei.edu.kh/internationaltests/"></a>-->
+                    <area shape="rect" coords="737,281,909,494" href="{{ url('testcenter') }}"></a>
+                    <area shape="rect" coords="920,281,1091,496" href="{{ url('beltei_tours_travel') }}"></a>
+                    <area shape="rect" coords="1114,281,1281,494"
+                        href="https://www.belteigroup.com.kh/charitykhm/"></a>
+
+                </map>
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td><img src="{{ asset('asset/img/beltei_motto_khmer.gif') }}" border="0" /></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td><img src="{{ asset('asset/img/beltei_motto_eng.gif') }}" border="0" /></td>
+            </tr>
+            <tr
+                style="text-align: center;color:blue;font-family: Helvetica Condensed;font-size:200%;font-weight: bold";>
+                <td>www.beltei.edu.kh</td>
+            </tr>
+            <tr
+                style="text-align: center;color:blue;font-family: Helvetica Condensed;font-size:200%;font-weight: bold";>
+                <td><a href="https://belteigroup.com.kh/beltei_group_logos.html" target="_blank">click here to
+                        download all BELTEI's Logos<img src="{{ asset('asset/img/beltei-group-logo-download.png') }}"
+                            border="0" width="50" height=" 50" /></td></a>
+            </tr>
+        </tbody>
+    </table>
+
+    {{-- {{ $visitors }} --}}
+    <script src="https://cdn.jsdelivr.net/npm/device-detector@1.0.2/dist/DeviceDetector.min.js"></script>
+    {{-- <p>IP Address: {{ $ip }}</p>
+    <p>Public IP Address: {{ $publicIp }}</p> --}}
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get device information using UAParser.js
+            const parser = new UAParser();
+            const result = parser.getResult();
+
+            // Gather information
+            const data = {
+                ip_address: document.getElementById('ip-address').innerText,
+                public_ip: document.getElementById('public-ip').innerText,
+                user_agent: result.ua,
+                platform: result.os.name,
+                browser: result.browser.name,
+                device: result.device.type || 'desktop'
+            };
+
+            // Send data to the server
+            fetch('/track-visitor', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+                },
+                body: JSON.stringify(data)
+            }).then(response => response.json())
+              .then(data => console.log('Success:', data))
+              .catch(error => console.error('Error:', error));
+        });
+    </script>
+    
+    {{-- <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const deviceDetector = new DeviceDetector();
+            const userAgent = navigator.userAgent;
+            const device = deviceDetector.parse(userAgent);
+
+            const data = {
+                ip_address: "{{ $ip }}",
+                public_ip: "{{ $publicIp }}",
+                user_agent: userAgent,
+                platform: device.os.name,
+                browser: device.client.name,
+                device: device.device.type
+            };
+
+            fetch('/track-visitor', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                },
+                body: JSON.stringify(data)
+            }).then(response => response.json())
+              .then(data => console.log('Success:', data))
+              .catch(error => console.error('Error:', error));
+        });
+    </script> --}}
+    
 </body>
+
 </html>

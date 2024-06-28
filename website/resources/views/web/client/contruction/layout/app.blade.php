@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>BELTEI Tour & Travel</title>
+    <title>BELTEI Contruction</title>
 
-    <link rel="shortcut icon" href="{{ asset('asset/img/beltei_tours_in_cambodia.png') }}"
+    <link rel="shortcut icon" href="{{ asset('asset/img/beltei_construction_in_cambodia.png') }}"
         type="image/png">
 
 
@@ -54,7 +54,7 @@
         <div class="container shadow p-0 mb-5 bg-white">
 
             {{-- Header  --}}
-            @include('web.client.beltei_tours_travel.layout.header')
+            @include('web.client.contruction.layout.header')
 
 
 
@@ -63,7 +63,7 @@
             <div class="d-flex position-relative">
 
                 {{-- left sidebar  --}}
-                @include('web.client.beltei_tours_travel.layout.left_side_bar')
+                @include('web.client.contruction.layout.left_side_bar')
 
                 {{-- content  --}}
                 <div class="content shadow-sm text-center w-100  pb-lg-5 pb-md-4 pb-sm-3 p-3">
@@ -75,7 +75,7 @@
                 </div>
 
                 {{-- right sidebar  --}}
-                @include('web.client.beltei_tours_travel.layout.right_side_bar')
+                @include('web.client.contruction.layout.right_side_bar')
 
 
 
@@ -83,44 +83,6 @@
             </div>
 
             {{-- footer  --}}
-
-
-            <div>
-
-                <table class="table position-relative" border="0">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><img class="w-100"
-                                    src="{{ asset('asset/img/tours/footer/footer_top.png') }}"
-                                    border="0"></td>
-                        </tr>
-                        <tr>
-                            <td><img src="{{ asset('asset/img/tours/footer/beltei_tour_text.png') }}"
-                                    border="0"></td>
-                            <td><img src="{{ asset('asset/img/tours/footer/tour_facility.png') }}"
-                                    border="0">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><img class="w-100"
-                                    src="{{ asset('asset/img/tours/footer/line_break.png') }}"
-                                    border="0"></td>
-                        </tr>
-                        <tr>
-                            <td><img src="{{ asset('asset/img/tours/footer/beltei_service_text.png') }}"
-                                    border="0"></td>
-                            <td><img src="{{ asset('asset/img/tours/footer/beltei_tour_passport.png') }}"
-                                    border="0"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><img class="w-100"
-                                    src="{{ asset('asset/img/tours/footer/footer_bottom.png') }}"
-                                    border="0"></td>
-                        </tr>
-                    </tbody>
-                </table>
-
-            </div>
 
         </div>
 

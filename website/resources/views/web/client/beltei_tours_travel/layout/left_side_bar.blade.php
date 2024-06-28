@@ -40,9 +40,9 @@
         <a href="{{ route('beltei_tours_travel.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.D') }}</h6>
         </a>
-        <a href="{{ route('beltei_tours_travel.about.welcome') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D1') }}</a>
-        <a href="{{ route('beltei_tours_travel.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D2') }}</a>
-        <a href="{{ route('beltei_tours_travel.about.vision') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D3') }}</a>
+        <a href="{{ route('beltei_tours_travel.construction') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D1') }}</a>
+        <a href="{{ route('beltei_tours_travel.service.passport') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D2') }}</a>
+        <a href="{{ route('beltei_tours_travel.construction') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D3') }}</a>
         <a href="{{ route('beltei_tours_travel.about.history') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D4') }}</a>
         <a href="{{ route('beltei_tours_travel.about.history') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D5') }}</a>
     </ul>

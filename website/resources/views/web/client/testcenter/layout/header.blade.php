@@ -9,6 +9,8 @@
                 cambodia</h5> --}}
         </div>
     </div>
+    
+    <hr>
 
     {{-- <div id="campus" class="campus d-flex shadow-sm rounded p-3 justify-content-between mb-3 content-translate-font">
     </div> --}}

@@ -9,9 +9,12 @@ use App\Http\Controllers\GradeAController;
 use App\Http\Controllers\Admin\University\CertificateController as UniversityCertificateController;
 use App\Http\Controllers\Admin\University\NewsController;
 use App\Models\school\Certificate;
+use App\Models\Visitor;
+use App\Models\VisitorInfo;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -34,8 +37,66 @@ Route::get('set-locale/{locale}', function ($locale) {
 
 
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function (Request $request) {
+    $ip = $request->ip();
+    $visitor = Visitor::firstOrCreate(['ip_address' => $ip]);
+    $visitor->increment('visits');
+    $visitor->save();
+
+    $visitors = Visitor::count();
+    // return view('welcome', compact('visitors'));
+    $ip = $request->ip();
+    $publicIp = Http::get('https://api.ipify.org?format=json')->json()['ip'];
+    
+    return view('welcome', compact('ip', 'publicIp'));
+});
+
+Route::post('/track-visitor', function (Request $request) {
+    $visitor = VisitorInfo::create([
+        'ip_address' => $request->input('ip_address'),
+        'public_ip' => $request->input('public_ip'),
+        'user_agent' => $request->input('user_agent'),
+        'platform' => $request->input('platform'),
+        'browser' => $request->input('browser'),
+        'device' => $request->input('device'),
+    ]);
+
+    return response()->json(['success' => true, 'data' => $visitor]);
+});
+
+
+
+Route::group(['prefix' => 'contruction', 'as' => 'contruction.'], function () {
+
+    Route::view('/' , 'web.client.contruction.index');
+    Route::view('/construction' , 'web.client.contruction.construction')->name('construction');
+
+    Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
+        Route::view('/' , 'web.client.contruction.about.welcome')->name('welcome');
+        Route::view('purpose' , 'web.client.contruction.about.purpose')->name('purpose');
+        Route::view('vision' , 'web.client.contruction.about.vision')->name('vision');
+        Route::view('history' , 'web.client.contruction.about.history')->name('history');
+        Route::view('whybeltei' , 'web.client.contruction.about.whyBeltei')->name('whybeltei');
+
+        Route::group(['prefix' => 'cambodia', 'as' => 'cambodia.'], function () {
+            Route::view('brief-information' , 'web.client.contruction.about.about-cambodia.brief-information')->name('brief-information');
+            Route::view('khmer-ancient-temple-legacy' , 'web.client.contruction.about.about-cambodia.khmer-ancient-temple-legacy')->name('khmer-ancient-temple-legacy');
+            Route::view('cambodia-culture' , 'web.client.contruction.about.about-cambodia.cambodia-culture')->name('cambodia-culture');
+        });
+
+    });
+
+    Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
+        Route::view('/national' , 'web.client.contruction.recognition.national')->name('national');
+        Route::view('/international' , 'web.client.contruction.recognition.international')->name('international');
+    });
+    Route::group(['prefix' => 'location', 'as' => 'location'], function () {
+        Route::view('/' , 'web.client.contruction.location.location');
+    });
+    Route::group(['prefix' => 'news-event', 'as' => 'news-event.'], function () {
+        Route::view('/other' , 'web.client.contruction.news-event.other')->name('other');
+    });
+
 });
 
 

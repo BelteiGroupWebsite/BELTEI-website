@@ -3,7 +3,7 @@
 @section('content')
 
 <div>
-    {!! __('beltei_tours_travel/service/passport.description') !!}
+    {!! __('beltei_tours_travel/service/airticket.description') !!}
 </div>
 
 @endsection

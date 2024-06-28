@@ -17,6 +17,7 @@ body {
 
 .sidebar ul a.list-group-item:hover {
     padding-left: 1.5rem;
+    background-image: linear-gradient(to left, #20409A -22.5%, #21ace3da, #21ace3da, #21ace3da, #21ace3da, #20409A 122.5%);
 
 }
 .sidebar ul.unhover-padding a.list-group-item:hover {

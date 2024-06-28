@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Beltei</title>
+    <title>BELTEI International University</title>
 
-    <link rel="shortcut icon" href="{{ asset('asset/img/school/beltei_international_school_in_cambodia.png') }}"
+    <link rel="shortcut icon" href="{{ asset('asset/img/beltei_international_university_in_cambodia.png') }}"
         type="image/png">
 
 
@@ -51,7 +51,7 @@
 
     <main>
 
-        <div class="container shadow p-0 mb-5 bg-white">
+        <div class="container shadow p-0 mb-5 bg-white position-relative">
 
             {{-- Header  --}}
             @include('web.client.beltei_university.layout.header')
