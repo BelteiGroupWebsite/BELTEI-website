@@ -114,7 +114,7 @@
         </a>
 
         <a href="{{ route('beltei_university.graduated.doctor') }}" class="list-group-item text-white">{{ __('beltei_university/app.I1') }}
-            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
+            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:inset 3px ; border-radius: 18px">
                 <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/13.jpg" alt="">
                 <p class="text-danger font-bold text-center Khmer-OS-Koulen">
                     {{ __('beltei_university/app.I1') }}
