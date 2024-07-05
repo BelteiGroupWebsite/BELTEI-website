@@ -26,6 +26,32 @@
 
     <style>
 
+        .right-bar-ul > li{
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: linear-gradient(to left, #20409A -22.5%, #21ade3, #21ade3, #21ade3, #21ade3, #20409A 122.5%);
+        }
+        .right-bar-ul > li > a {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            justify-content: center;
+        }
+        .right-bar-ul > li > a > img{
+            max-height: 70px; width: 80% !important; object-fit: contain;
+        }
+        .right-bar-ul > li:hover{
+            background-image: linear-gradient(to left, #20409A -22.5%, #1784af, #1784af, #1784af, #1784af, #20409A 122.5%);
+        }
+        .right-bar-ul > li:hover > a > img{
+            transform: scale(.9);
+        }
+
 
 
     </style>
