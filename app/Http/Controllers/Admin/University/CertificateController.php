@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\school\AcademicYear;
 use App\Models\University\AcademicBatch;
 use App\Models\University\Certificate;
+use App\Models\University\Certificate\UtbDegreeAcademicbatch;
 use App\Models\University\Degree;
 use Illuminate\Http\Request;
 use Pion\Laravel\ChunkUpload\Handler\HandlerFactory;
@@ -186,10 +187,14 @@ class CertificateController extends Controller
     
     public function certificateSection($degree){
 
-        $academicBatches = AcademicBatch::where('degree_id', $degree)
-        ->orderBy('batch', 'DESC')
-        ->get(); 
-        return view('web.client.beltei_university.graduated.index' , compact('academicBatches'));
+        $degree = Degree::where('id' , $degree)->first();
+
+        // $degreeAcademicbatch = $degree->degreeAcademicbatch;
+        
+        // $academicBatches = AcademicBatch::where('degree_id', $degree)
+        // ->orderBy('batch', 'DESC')
+        // ->get(); 
+        return view('web.client.beltei_university.graduated.index' , compact('degree'));
     }
 
 

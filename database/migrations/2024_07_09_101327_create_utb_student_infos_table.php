@@ -11,19 +11,19 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('utb_certificate', function (Blueprint $table) {
+        Schema::create('utb_student_infos', function (Blueprint $table) {
             $table->id();
             $table->string("student_id")->nullable();
             $table->string("khmer_name")->nullable();
             $table->string("latin_name")->nullable();
             $table->string("gender")->nullable();
             $table->string("dob")->nullable();
-            // $table->integer("academic_year_id");
-            $table->integer("academic_year_id");
-            $table->string("major_id")->nullable();
+            $table->string("nationality")->nullable();
+            $table->integer("degree_academicbatch_id");
+            $table->integer("major_id")->nullable();
+            $table->string("profile_no")->nullable();
             $table->string("certi_no")->nullable();
-            // $table->integer("degree_id")->default(3);
-            $table->string("identify_user")->nullable();
+            $table->string("moey_no")->nullable();
             $table->timestamps();
         });
     }
@@ -33,6 +33,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('utb_certificate');
+        Schema::dropIfExists('utb_student_infos');
     }
 };

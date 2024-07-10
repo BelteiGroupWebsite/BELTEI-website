@@ -2,6 +2,7 @@
 
 namespace App\Models\University;
 
+use App\Models\University\Certificate\UtbDegreeAcademicbatch;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -16,6 +17,9 @@ class Degree extends Model
         'updated_at',
     ];
     
+    public function degreeAcademicbatch(){
+        return $this->hasMany(UtbDegreeAcademicbatch::class, 'degree_id', 'id');
+    }
     
     public function certificate()
     {

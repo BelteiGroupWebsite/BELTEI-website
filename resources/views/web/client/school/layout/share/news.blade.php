@@ -33,7 +33,7 @@
 
 
         <a href="{{ route('school.news.') }}?id=2" class="col-6 d-flex align-items-center border d-block-600px p-2">
-            <div class="max-width-150 overflow-hidden">
+            <div class="max-width-150 w-100 overflow-hidden">
                 <img class="w-100" src="{{ asset('asset/img/school/dailyNews/2/2.jpg') }}" alt="">
             </div>
             <div class="p-3 ">
@@ -48,7 +48,7 @@
         </a>
 
         <a href="{{ route('school.news.') }}?id=3" class="col-6 d-flex align-items-center border d-block-600px p-2">
-            <div class="max-width-150 overflow-hidden">
+            <div class="max-width-150 w-100 overflow-hidden">
                 <img class="w-100" src="{{ asset('asset/img/school/dailyNews/3/8.jpg') }}" alt="">
             </div>
             <div class="p-3 ">
@@ -62,7 +62,7 @@
         </a>
 
         <a href="{{ route('school.news.') }}?id=4" class="col-6 d-flex align-items-center border d-block-600px p-2">
-            <div class="max-width-150 overflow-hidden">
+            <div class="max-width-150 w-100 overflow-hidden">
                 <img class="w-100" src="{{ asset('asset/img/school/dailyNews/4/8.jpg') }}" alt="">
             </div>
             <div class="p-3 ">
@@ -75,7 +75,7 @@
         </a>
 
         <a href="{{ route('school.news.') }}?id=5" class="col-6 d-flex align-items-center border d-block-600px p-2">
-            <div class="max-width-150 overflow-hidden">
+            <div class="max-width-150 w-100 overflow-hidden">
                 <img class="w-100" src="{{ asset('asset/img/school/dailyNews/5/1.jpg') }}" alt="">
             </div>
             <div class="p-3 ">

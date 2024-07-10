@@ -24,27 +24,27 @@
             </tr>
 
 
-            @foreach ($academicBatches as $batch)
+            @foreach ($degree->degreeAcademicbatch as $degreeAcademicbatch)
                 <tr>
                     <td>
-                        {{ $batch->batch }}
+                        {{ $degreeAcademicbatch->batch }}
                     </td>
                     <td>
-                        {{ $batch->start_academic_year . ' - ' . ($batch->start_academic_year + 1) }}
+                        {{ $degreeAcademicbatch->academic_year . ' - ' . ($degreeAcademicbatch->academic_year + 1) }}
                     </td>
                     <td>
-                        {{ $batch->graduatedBIU->count() }}
+                        {{ $degreeAcademicbatch->studentInfo->count() }}
                     </td>
                     <td>
-                        {{ $batch->graduatedBIU->filter(function ($graduate) {
+                        {{ $degreeAcademicbatch->studentInfo->filter(function ($graduate) {
                                 return $graduate->gender === 'F' || $graduate->gender === 'ស';
                             })->count() }}
                     </td>
                     <td>
-                        {{ $batch->graduatedBIU->MIN('certi_no') . ' - ' . $batch->graduatedBIU->MAX('certi_no') }}
+                        {{ $degreeAcademicbatch->studentInfo->MIN('certi_no') . ' - ' . $degreeAcademicbatch->studentInfo->MAX('certi_no') }}
                     </td>
                     <td>
-                        <a href="{{ route('beltei_university.certificate.detail' , ['degree' => $batch->degree_id , 'batch' => $batch->batch ]) }}">បើកមើល</a>
+                        <a href="{{ route('beltei_university.certificate.detail' , ['degree' => $degreeAcademicbatch->degree_id , 'batch' => $degreeAcademicbatch->id ]) }}">បើកមើល</a>
                     </td>
                     <td>
                         <a href="">បើកមើល</a>

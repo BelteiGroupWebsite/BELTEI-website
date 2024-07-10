@@ -21,7 +21,7 @@
             <tr>
                 <td>N<sup>o</sup></td>
                 <td>{{ __('beltei_university/certificate/certificate.khmer_name') }}</td>
-                <td>{{ __('beltei_university/certificate/certificate.latin_name') }}</td>
+                {{-- <td>{{ __('beltei_university/certificate/certificate.latin_name') }}</td> --}}
                 <td>{{ __('beltei_university/certificate/certificate.gender') }}</td>
                 <td>{{ __('beltei_university/certificate/certificate.dob') }}</td>
                 <td>{{ __('beltei_university/certificate/certificate.profile') }}</td>
@@ -38,11 +38,21 @@
             @foreach ($certificates as $certificate)
                 <tr>
                     <td>{{ $certificate->certi_no }}</td>
-                    <td>{{ $certificate->name_kh }}</td>
-                    <td>{{ $certificate->name_eng }}</td>
+                    <td>{{ $certificate->khmer_name }}</td>
+                    {{-- <td>{{ $certificate->latin_name }}</td> --}}
                     <td>{{ $certificate->gender }}</td>
                     <td>{{ $certificate->dob }}</td>
                     <td>
+                        <a  href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->profile_no.'.jpeg') }}">
+                            <img src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->profile_no.'.jpeg') }}" alt="profile">
+                        </a>
+                    </td>
+                    <td>
+                        <a  href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->beltei_no.'.jpeg') }}">
+                            <img src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->beltei_no.'.jpeg') }}" alt="certificate">
+                        </a>
+                    </td>
+                    {{-- <td>
                         <a target="blank" href="{{ url('certificate/biu/'.$certificate->degree_id.'/'.$certificate->academicBatch->start_academic_year.'/'.$certificate->identify_user.'/profile/'.$certificate->certi_no.'.jpg') }}">
                             <img loading="lazy" style="width: 50px" alt="report" src="{{ asset('certificate/biu/'.$certificate->degree_id.'/'.$certificate->academicBatch->start_academic_year.'/'.$certificate->identify_user.'/profile/'.$certificate->certi_no.'.jpg') }}" alt="">
                         </a>
@@ -51,7 +61,7 @@
                         <a target="blank" href="{{ url('certificate/biu/'.$certificate->degree_id.'/'.$certificate->academicBatch->start_academic_year.'/'.$certificate->identify_user.'/beltei/'.$certificate->certi_no.'.jpg') }}">
                             <img loading="lazy" style="width: 50px" alt="report" src="{{ asset('certificate/biu/'.$certificate->degree_id.'/'.$certificate->academicBatch->start_academic_year.'/'.$certificate->identify_user.'/beltei/'.$certificate->certi_no.'.jpg') }}" alt="">
                         </a>
-                    </td>
+                    </td> --}}
                 </tr>
             @endforeach
             

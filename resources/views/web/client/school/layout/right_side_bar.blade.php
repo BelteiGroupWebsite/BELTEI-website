@@ -38,12 +38,14 @@
     </ul>
 
 
+    <ul class="p-0 m-0">
+        <div class="w-100 justify-content-center">
+            <a href="/" class="cursor-pointer">
+                <img  class="w-100" src="{{ asset('asset/img/university/campus/belgroupkh.png') }}" alt="">
+            </a>
+        </div>
+    </ul>
     {{-- <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
-        <a class="w-100" href="/">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold w-100">Return to BELTEI GROUP</h6>
-        </a>
-    </ul> --}}
-    <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
         <a class="w-100" href="/">
             <img class="w-100" src="https://www.beltei.edu.kh/khm/images/beltei_pic/belgroupkh.png" alt="">
         </a>
@@ -52,7 +54,7 @@
         <a class="w-100" href="/">
             <img class="w-100" src="https://www.beltei.edu.kh/khm/images/homepics/hotnew_ay_2023.png" alt="">
         </a>
-    </ul>
+    </ul> --}}
 
     <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0 unhover-padding" >
         <a href="{{ route('school.') }}">
@@ -60,7 +62,8 @@
         </a>
         {{-- <h6 class="text-uppercase text-center py-2 gold list-group-item">សិស្សបញ្ចប់ការសិក្សា</h6> --}}
         <a class="list-group-item text-center gold font-bold">{{ __('school/app.generalProgram') }}</a>
-        <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 12]) }}" class="list-group-item text-danger font-bold text-center">
+        {{-- <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 12]) }}" class="list-group-item text-danger font-bold text-center"> --}}
+        <a class="list-group-item" href="{{ route('school.certificate' , 1) }}" class="list-group-item text-danger font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
                 <p class="text-danger font-bold text-center Khmer-OS-Koulen">
@@ -68,7 +71,7 @@
                 </p>
             </div>
         </a>
-        <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 9]) }}" class="list-group-item text-danger font-bold text-center">
+        <a class="list-group-item" href="{{ route('school.certificate' , 2) }}" class="list-group-item text-danger font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/13.jpg" alt="">
                 <p class="text-danger font-bold text-center Khmer-OS-Koulen">
@@ -76,7 +79,7 @@
                 </p>
             </div>
         </a>
-        <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 6]) }}" class="list-group-item text-danger font-bold text-center">
+        <a class="list-group-item" href="{{ route('school.certificate' , 3) }}" class="list-group-item text-danger font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
                 <p class="text-danger font-bold text-center Khmer-OS-Koulen">
@@ -86,7 +89,7 @@
         </a>
         
         <a class="list-group-item text-center gold font-bold">{{ __('school/app.ESLProgram') }}</a>
-        <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>2 , 'grade' => 12]) }}" class="list-group-item text-danger font-bold text-center">
+        <a class="list-group-item" href="{{ route('school.certificate' , 4) }}" class="list-group-item text-danger font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
                 <p class="text-danger font-bold text-center Khmer-OS-Koulen">
@@ -94,7 +97,7 @@
                 </p>
             </div>
         </a>
-        <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>2 , 'grade' => 9]) }}" class="list-group-item text-danger font-bold text-center">
+        <a class="list-group-item" href="{{ route('school.certificate' , 5) }}" class="list-group-item text-danger font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/13.jpg" alt="">
                 <p class="text-danger font-bold text-center Khmer-OS-Koulen">
@@ -102,7 +105,7 @@
                 </p>
             </div>
         </a>
-        <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>2 , 'grade' => 6]) }}" class="list-group-item text-danger font-bold text-center">
+        <a class="list-group-item" href="{{ route('school.certificate' ,6) }}" class="list-group-item text-danger font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
                 <p class="text-danger font-bold text-center Khmer-OS-Koulen">
@@ -112,7 +115,7 @@
         </a>
 
         <a class="list-group-item text-center gold font-bold">{{ __('school/app.IMA') }}</a>
-        <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>2 , 'grade' => 12]) }}" class="list-group-item text-danger font-bold text-center">
+        <a class="list-group-item" href="{{ route('school.certificate' , 7) }}" class="list-group-item text-danger font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm border border-end-2 Red-color-border" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
                 <p class="text-danger font-bold text-center Khmer-OS-Koulen">
@@ -120,7 +123,7 @@
                 </p>
             </div>
         </a>
-        <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>2 , 'grade' => 9]) }}" class="list-group-item text-danger font-bold text-center">
+        <a class="list-group-item" href="{{ route('school.certificate' , 8) }}" class="list-group-item text-danger font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm border border-end-2 Red-color-border" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/13.jpg" alt="">
                 <p class="text-danger font-bold text-center Khmer-OS-Koulen">

@@ -4,52 +4,42 @@ namespace App\Livewire\School;
 
 use App\Models\school\AcademicBatch;
 use App\Models\school\Certificate;
+use App\Models\School\Certificate\StbAcademicBatch;
 use Livewire\Component;
 
 class CertificateSearch extends Component
 {
     public $search = "";
     public $program;
-    public $grade;
-    public $year;
+    public $batch;
 
-    public function mount($program, $grade, $year)
+    public function mount( $batch)
     {
-        $this->program = $program;
-        $this->grade = $grade;
-        $this->year = $year;
+        // $this->program = $program;
+        $this->batch = $batch;
     }
 
+    
+    
     public function render()
     {
-        $certificates = [];
+        $batchId = $this->batch;
 
-        // if (strlen($this->search) >= 1) {
-        //     $certificates = Certificate::where('program' , $this->program)
-        //         ->where('certi_no', 'like', '%' . $this->search . '%')
-        //         ->orWhere('name_kh', 'like', '%' . $this->search . '%')
-        //         ->orWhere('name_eng', 'like', '%' . $this->search . '%')
-        //         ->paginate(50);
-        // } else {
-        //     $certificates = Certificate::where('program',$this->program)->where('grade' , $this->grade)->where('batch_startYear' , $this->year)->paginate(50);
-        //     // how can i paginate a campus students per one page
-        // }
+        
+        $academicBatch = StbAcademicBatch::where('id', $this->batch)->first();
 
-        $academicBatches = AcademicBatch::where('program_id', $this->program)->where('grade' , $this->grade)->where('batch_startYear', $this->year)->first();
-        $academicBatchesId = $academicBatches ? $academicBatches->id : 0;
-
+        $gradeId = $academicBatch->grade->id;
+        
+        $programId = $academicBatch->grade->program->id;
+    
         if (strlen($this->search) >= 1) {
-            $certificates = Certificate::where('academic_batch_id', $academicBatchesId)
-                ->where(function ($query) {
-                    $query->where('certi_no', 'like', '%' . $this->search . '%')
-                          ->orWhere('name_kh', 'like', '%' . $this->search . '%')
-                          ->orWhere('name_eng', 'like', '%' . $this->search . '%');
-                })
-                ->paginate(10);
+            $studentInfos = $academicBatch->studentInfo()->where('certi_no', 'like', '%' . $this->search . '%')
+                          ->orWhere('khmer_name', 'like', '%' . $this->search . '%')
+                          ->orWhere('latin_name', 'like', '%' . $this->search . '%')->paginate(20);
         } else {
-            $certificates = Certificate::where('academic_batch_id', $academicBatchesId)->paginate(50);
+            $studentInfos = $academicBatch->studentInfo()->paginate(30);
         }
-
-        return view('livewire.school.certificate-search', compact('certificates'));
+    
+        return view('livewire.school.certificate-search', compact('studentInfos' , 'programId' , 'gradeId' , 'batchId'));
     }
 }

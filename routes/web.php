@@ -5,10 +5,15 @@
 use App\Http\Controllers\Admin\User\ProfileController;
 use App\Http\Controllers\Admin\User\UsersController;
 use App\Http\Controllers\Admin\School\CertificateController;
+use App\Http\Controllers\Admin\School\StbCertificateController;
+use App\Http\Controllers\Admin\School\StbClCertificateController;
 use App\Http\Controllers\GradeAController;
 use App\Http\Controllers\Admin\University\CertificateController as UniversityCertificateController;
 use App\Http\Controllers\Admin\University\NewsController;
+use App\Http\Controllers\Admin\University\UtbCertificate;
+use App\Http\Controllers\Admin\University\UtbCertificateController;
 use App\Models\school\Certificate;
+use App\Models\School\Certificate\StbCertificate;
 use App\Models\Visitor;
 use App\Models\VisitorInfo;
 use Illuminate\Support\Facades\Auth;
@@ -171,9 +176,11 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
         Route::view('/campusTemplete' , 'web.client.school.campus.campusTemplete')->name('campusTemplete');
     });
 
+    Route::get('grade/{grade}', [StbClCertificateController::class, 'certificateSection'])->name('certificate');
+    Route::get('academicbatch/{academicbatch}', [StbClCertificateController::class, 'certificateBatchSection'])->name('certificate.detail');
 
-    Route::get('program/{program}/grade/{grade}', [CertificateController::class, 'certificateSection'])->name('certificate');
-    Route::get('program/{program}/grade/{grade}/year/{year}', [CertificateController::class, 'certificateBatchSection'])->name('certificate.detail');
+    // Route::get('program/{program}/grade/{grade}', [CertificateController::class, 'certificateSection'])->name('certificate');
+    // Route::get('program/{program}/grade/{grade}/year/{year}', [CertificateController::class, 'certificateBatchSection'])->name('certificate.detail');
     // Route::get('program/{program}/grade/{grade}', [CertificateController::class, 'certificateSection'])->name('certificate');
     // Route::group(['prefix' => 'certificate', 'as' => 'certificate.'], function () {
     //     Route::view('program/{program}/grade/{grade}/year/{year}' , 'web.client.school.certificate.certificate')->name('year');
@@ -504,12 +511,14 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
     // School Management
     Route::prefix('school')->as('school.')->middleware('can:access-school-page')->group(function () {
 
+        Route::resource('certificate',StbCertificateController::class)->names('certificate');
+        // Route::resource('certificate-new',StbCertificateController::class)->names('certificate-new');
 
-        Route::resource('certificate',CertificateController::class)->names('certificate');
-        Route::prefix('certificate')->as('certificate')->group(function () {
-            Route::post('/store/file', [CertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
-            Route::post('/your-route', [CertificateController::class, 'processData'])->name('.excel.upload');
-        });
+        // Route::resource('certificate',CertificateController::class)->names('certificate');
+        // Route::prefix('certificate')->as('certificate')->group(function () {
+        //     Route::post('/store/file', [CertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
+        //     Route::post('/your-route', [CertificateController::class, 'processData'])->name('.excel.upload');
+        // });
 
 
         // Route::resource('grade-A' , GradeAController::class)->names('grade-A');
@@ -525,12 +534,14 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
     // School Management
     Route::prefix('university')->as('university.')->middleware('can:access-university-page')->group(function () {
 
+        Route::resource('certificate',UtbCertificateController::class)->names('certificate');
+        // Route::resource('certificate-new',UtbCertificateController::class)->names('certificate-new');
 
-        Route::resource('certificate',UniversityCertificateController::class)->names('certificate');
-        Route::prefix('certificate')->as('certificate')->group(function () {
-            Route::post('/store/file', [UniversityCertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
-            Route::post('/your-route', [UniversityCertificateController::class, 'processData'])->name('.excel.upload');
-        });
+        // Route::resource('certificate',UniversityCertificateController::class)->names('certificate');
+        // Route::prefix('certificate')->as('certificate')->group(function () {
+        //     Route::post('/store/file', [UniversityCertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
+        //     Route::post('/your-route', [UniversityCertificateController::class, 'processData'])->name('.excel.upload');
+        // });
 
 
         // Route::resource('grade-A' , GradeAController::class)->names('grade-A');
