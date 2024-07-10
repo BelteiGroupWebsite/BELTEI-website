@@ -45,6 +45,7 @@ return [
     'A4' => "History and Beltei Location",
     'A5' => "Structure",
     'A6' => "Why Beltei?",
+    'A7' => "Beltei Group",
     
 
     'B' => "5 Main Programs",

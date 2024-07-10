@@ -118,6 +118,7 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
         Route::view('vision' , 'web.client.school.about.vision')->name('vision');
         Route::view('history' , 'web.client.school.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.school.about.whyBeltei')->name('whybeltei');
+        Route::view('belteigroup' , 'web.client.school.about.belteigroup')->name('belteigroup');
     });
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
         Route::view('/khmer' , 'web.client.school.mainprogram.khmer')->name('khmer');

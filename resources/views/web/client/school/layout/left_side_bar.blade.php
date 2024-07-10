@@ -6,6 +6,7 @@
         <a href="{{ route('school.about.welcome') }}" class="list-group-item text-white">{{ __('school/app.A1') }}</a>
         <a href="{{ route('school.about.purpose') }}" class="list-group-item text-white">{{ __('school/app.A2') }}</a>
         <a href="{{ route('school.about.vision') }}" class="list-group-item text-white">{{ __('school/app.A3') }}</a>
+        <a href="{{ route('school.about.belteigroup') }}" class="list-group-item text-white">{{ __('school/app.A7') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A4') }}</a>
         <a href="{{ asset('asset/img/school/organization_chart.jpg') }}" target="blank" class="list-group-item text-white">{{ __('school/app.A5') }}</a>
         <a href="{{ route('school.about.whybeltei') }}" class="list-group-item text-white">{{ __('school/app.A6') }}</a>
