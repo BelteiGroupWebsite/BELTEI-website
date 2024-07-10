@@ -511,14 +511,14 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
     // School Management
     Route::prefix('school')->as('school.')->middleware('can:access-school-page')->group(function () {
 
-        Route::resource('certificate',StbCertificateController::class)->names('certificate');
-        // Route::resource('certificate-new',StbCertificateController::class)->names('certificate-new');
+        // Route::resource('certificate',StbCertificateController::class)->names('certificate');
+        Route::resource('certificate-new',StbCertificateController::class)->names('certificate-new');
 
-        // Route::resource('certificate',CertificateController::class)->names('certificate');
-        // Route::prefix('certificate')->as('certificate')->group(function () {
-        //     Route::post('/store/file', [CertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
-        //     Route::post('/your-route', [CertificateController::class, 'processData'])->name('.excel.upload');
-        // });
+        Route::resource('certificate',CertificateController::class)->names('certificate');
+        Route::prefix('certificate')->as('certificate')->group(function () {
+            Route::post('/store/file', [CertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
+            Route::post('/your-route', [CertificateController::class, 'processData'])->name('.excel.upload');
+        });
 
 
         // Route::resource('grade-A' , GradeAController::class)->names('grade-A');
@@ -534,14 +534,14 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
     // School Management
     Route::prefix('university')->as('university.')->middleware('can:access-university-page')->group(function () {
 
-        Route::resource('certificate',UtbCertificateController::class)->names('certificate');
-        // Route::resource('certificate-new',UtbCertificateController::class)->names('certificate-new');
+        // Route::resource('certificate',UtbCertificateController::class)->names('certificate');
+        Route::resource('certificate-new',UtbCertificateController::class)->names('certificate-new');
 
-        // Route::resource('certificate',UniversityCertificateController::class)->names('certificate');
-        // Route::prefix('certificate')->as('certificate')->group(function () {
-        //     Route::post('/store/file', [UniversityCertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
-        //     Route::post('/your-route', [UniversityCertificateController::class, 'processData'])->name('.excel.upload');
-        // });
+        Route::resource('certificate',UniversityCertificateController::class)->names('certificate');
+        Route::prefix('certificate')->as('certificate')->group(function () {
+            Route::post('/store/file', [UniversityCertificateController::class, 'uploadLargeFiles'])->name('.files.upload.large');
+            Route::post('/your-route', [UniversityCertificateController::class, 'processData'])->name('.excel.upload');
+        });
 
 
         // Route::resource('grade-A' , GradeAController::class)->names('grade-A');
