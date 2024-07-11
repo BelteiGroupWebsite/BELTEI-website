@@ -45,7 +45,7 @@ class StudentInfoImport implements ToCollection, WithHeadingRow
                 ]);
             } catch (\Exception $e) {
                 Log::error('Error importing data in row ' . ($key + 1) . ': ' . $e->getMessage());
-                return back()->with('error', 'There was a problem importing the data: ' . $e->getMessage());
+                // return back()->with('error', 'There was a problem importing the data: ' . $e->getMessage());
                 // Optionally, you can throw an exception or handle it as needed
             }
         }
