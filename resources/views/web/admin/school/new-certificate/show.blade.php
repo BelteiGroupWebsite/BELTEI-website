@@ -43,16 +43,16 @@
                 <td>{{ $student->dob }}</td>
                 <td>{{ $student->nationality }}</td>
                 <td>
-                    <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$academicBatch->grade->program->id.'/'.$academicBatch->grade->id.'/'.$academicBatch->id.'/profile/'.$student->student_id.'.jpeg') }}" alt="Profile Image">
+                    <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$academicBatch->grade->program->id.'/'.$academicBatch->grade->id.'/'.$academicBatch->id.'/profile/'.$student->student_id.'.jpg') }}" alt="Profile Image">
                 </td>
                 <td>
-                    <a href="{{ asset('storage/upload/certificate/school/'.$academicBatch->grade->program->id.'/'.$academicBatch->grade->id.'/'.$academicBatch->id.'/beltei/'.$student->student_id.'.jpeg') }}">
-                        <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$academicBatch->grade->program->id.'/'.$academicBatch->grade->id.'/'.$academicBatch->id.'/beltei/'.$student->student_id.'.jpeg') }}" alt="Beltei certificate">
+                    <a href="{{ asset('storage/upload/certificate/school/'.$academicBatch->grade->program->id.'/'.$academicBatch->grade->id.'/'.$academicBatch->id.'/beltei/'.$student->student_id.'.jpg') }}">
+                        <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$academicBatch->grade->program->id.'/'.$academicBatch->grade->id.'/'.$academicBatch->id.'/beltei/'.$student->student_id.'.jpg') }}" alt="Beltei certificate">
                     </a>
                 </td>
                 <td>
-                    <a href="{{ asset('storage/upload/certificate/school/'.$academicBatch->grade->program->id.'/'.$academicBatch->grade->id.'/'.$academicBatch->id.'/moey/'.$student->moey.'.jpeg') }}">
-                        <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$academicBatch->grade->program->id.'/'.$academicBatch->grade->id.'/'.$academicBatch->id.'/beltei/'.$student->student_id.'.jpeg') }}" alt="Moey certificate">
+                    <a href="{{ asset('storage/upload/certificate/school/'.$academicBatch->grade->program->id.'/'.$academicBatch->grade->id.'/'.$academicBatch->id.'/moey/'.$student->moey.'.jpg') }}">
+                        <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$academicBatch->grade->program->id.'/'.$academicBatch->grade->id.'/'.$academicBatch->id.'/beltei/'.$student->student_id.'.jpg') }}" alt="Moey certificate">
                     </a>
                 </td>
             </tr>

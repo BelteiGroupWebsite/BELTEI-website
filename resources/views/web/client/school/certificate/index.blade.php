@@ -44,7 +44,7 @@
                             <a style="text-decoration: underline;" href="{{ route('school.certificate.detail' , $academicBatch->id) }}">បើកមើល</a>
                         </td>
                         <td>
-                            <a style="text-decoration: underline;" href="">បើកមើល</a>
+                            <a style="text-decoration: underline;" href="{{ asset('storage/'.$academicBatch->reference) }}">បើកមើល</a>
                         </td>
                     </tr>
                 @endforeach
