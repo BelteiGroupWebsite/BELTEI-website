@@ -12,6 +12,8 @@ use App\Imports\StudentsImport;
 use App\Models\School\Certificate\StbProgram;
 use Maatwebsite\Excel\Facades\Excel;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
+
 use function Livewire\store;
 
 class StbCertificateController extends Controller
@@ -48,8 +50,8 @@ class StbCertificateController extends Controller
             'grade' => 'required|integer|min:1',
             'batch' => 'nullable|integer|min:1',
             'startAcademicYear' => 'nullable|integer|digits:4|min:1900|max:' . (date('Y') + 1),
-            'certificateInformationExcel' => 'required|file|mimes:xlsx,xls',
-            'certificateReferencePDF' => 'required|file|mimes:pdf',
+            'certificateInformationExcel' => 'required|file|mimes:xlsx,xls|max:51200', // Adjusted max file size (in KB)
+            'certificateReferencePDF' => 'required|file|mimes:pdf|max:51200', // Adjusted max file size (in KB)
         ]);
     
         Log::info('Validation rules defined');
@@ -130,7 +132,9 @@ class StbCertificateController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $academicBatch = StbAcademicBatch::findOrFail($id);
+    
+        return view('web.admin.school.new-certificate.edit', compact('academicBatch'));
     }
 
     /**
@@ -138,14 +142,132 @@ class StbCertificateController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        // Define validation rules
+        $validator = Validator::make($request->all(), [
+            'programs' => 'required|integer|min:1',
+            'grade' => 'required|integer|min:1',
+            'batch' => 'nullable|integer|min:1',
+            'startAcademicYear' => 'nullable|integer|digits:4|min:1900|max:' . (date('Y') + 1),
+            'certificateInformationExcel' => 'nullable|file|mimes:xlsx,xls|max:51200', // Adjusted max file size (in KB)
+            'certificateReferencePDF' => 'nullable|file|mimes:pdf|max:51200', // Adjusted max file size (in KB)
+        ]);
+    
+        // Custom validation logic to ensure either batch or startAcademicYear is provided
+        $validator->after(function ($validator) use ($request) {
+            if (empty($request->input('batch')) && empty($request->input('startAcademicYear'))) {
+                $validator->errors()->add('batch', 'Either batch or start academic year must have a value.');
+                $validator->errors()->add('startAcademicYear', 'Either batch or start academic year must have a value.');
+            }
+        });
+    
+        // Handle validation failures
+        if ($validator->fails()) {
+            return redirect()->back()
+                ->withErrors($validator)
+                ->withInput();
+        }
+    
+        // Retrieve validated data
+        $validated = $validator->validated();
+    
+        try {
+            // Find the existing StbAcademicBatch record by ID
+            $academicBatch = StbAcademicBatch::findOrFail($id);
+    
+            // Update the existing record with validated data
+            $academicBatch->batch = $validated['batch'] ?? $academicBatch->batch;
+            $academicBatch->start_academic_year = $validated['startAcademicYear'] ?? $academicBatch->start_academic_year;
+            $academicBatch->grade_id = $validated['grade'];
+            $academicBatch->save();
+    
+            // Store the certificate reference PDF file if provided
+            if ($request->hasFile('certificateReferencePDF')) {
+                if (file_exists('storage/'.$academicBatch->reference)) {
+                    unlink('storage/'.$academicBatch->reference);
+                }
+            
+                // Store the new reference PDF file
+                $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/school/' . $validated['programs'] . '/' . $validated['grade'] . '/' . $academicBatch->id . '/reference', 'public');
+            
+                // Update the academic batch with the new reference path
+                $academicBatch->reference = $referencePath;
+                $academicBatch->save();
+            }
+            
+    
+            // Import updated Excel data if provided
+            if ($request->hasFile('certificateInformationExcel')) {
+                Excel::import(new StudentInfoImport($academicBatch->id), $request->file('certificateInformationExcel'));
+            }
+    
+            return back()->with('success', 'Academic batch updated successfully.');
+        } catch (\Exception $e) {
+            return back()->with('error', 'There was a problem updating the academic batch: ' . $e->getMessage());
+        }
     }
+    
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy($id)
     {
-        //
+        Log::info('Entering destroy method', ['id' => $id]);
+    
+        try {
+            $academicBatch = StbAcademicBatch::findOrFail($id);
+            Log::info('StbAcademicBatch found', ['academicBatch' => $academicBatch]);
+    
+            // Check if related student_info exists before deleting
+            if ($academicBatch->studentInfo()->exists()) {
+                foreach($academicBatch->studentInfo as $studentInfo) {
+                    $programId = $academicBatch->grade->program->id;
+                    $gradeId = $academicBatch->grade->id;
+                    $batchId = $academicBatch->id;
+    
+                    $profilePath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$studentInfo->profile_no.'.jpg';
+                    $belteiPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$studentInfo->certi_no.'.jpg';
+                    $moeyPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$studentInfo->moey_id.'.jpg';
+    
+                    if (file_exists($profilePath)) {
+                        unlink($profilePath);
+                    }
+    
+                    if (file_exists($belteiPath)) {
+                        unlink($belteiPath);
+                    }
+    
+                    if (file_exists($moeyPath)) {
+                        unlink($moeyPath);
+                    }
+                }
+                
+                $academicBatch->studentInfo()->delete();
+                Log::info('Related student_info records and files deleted', ['academicBatch_id' => $id]);
+            } else {
+                Log::warning('No related student_info found for StbAcademicBatch', ['academicBatch_id' => $id]);
+            }
+    
+            if (file_exists('storage/'.$academicBatch->reference)) {
+                unlink('storage/'.$academicBatch->reference);
+            }
+            
+            $academicBatch->delete();
+            Log::info('StbAcademicBatch record deleted', ['academicBatch' => $academicBatch]);
+    
+            return back()->with('success', 'Academic batch deleted successfully.');
+        } catch (\Exception $e) {
+            Log::error('Error deleting StbAcademicBatch record', [
+                'id' => $id,
+                'message' => $e->getMessage(),
+                'exception' => $e
+            ]);
+    
+            return back()->with('error', 'There was a problem deleting the academic batch: ' . $e->getMessage());
+        }
     }
+    
+    
+    
+    
 }

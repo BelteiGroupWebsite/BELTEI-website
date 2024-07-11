@@ -41,18 +41,19 @@ class StudentInfoImport implements ToCollection, WithHeadingRow
                 }
 
                 UtbStudentInfo::create([
-                    'student_id' => trim(str_replace(' ', '', $row['student_id'])),
+                    'student_id' => preg_replace('/\s+/', '', $row['student_id']),
                     'khmer_name' => $row['khmer_name'],
                     'latin_name' => $row['latin_name'],
                     'gender' => trim(substr($row['gender'], 0, 1)),
                     'nationality' => $row['nationality'],
                     'dob' => $formatted_dob,
                     'major_id' => $row['major_id'],
-                    'profile_no' => $row['profile_no'],
-                    'certi_no' => $row['certi_no'],
-                    'moey_no' => $row['moey_no'],
+                    'profile_no' => preg_replace('/\s+/', '', $row['profile_no']),
+                    'certi_no' => preg_replace('/\s+/', '', $row['certi_no']),
+                    'moey_no' => preg_replace('/\s+/', '', $row['moey_no']),
                     'degree_academicbatch_id' => $this->degree_academicbatch_id,
                 ]);
+                
             } catch (\Exception $e) {
                 Log::error('Error importing data in row ' . ($key + 1) . ': ' . $e->getMessage());
                 return back()->with('error', 'There was a problem importing the data: ' . $e->getMessage());

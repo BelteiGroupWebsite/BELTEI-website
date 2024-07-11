@@ -3,7 +3,7 @@
 @section('sub-header', 'User')
 
 @section('head')
-
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
 @endsection
 
 
@@ -37,7 +37,7 @@
             <th>Reference</th>
         </thead> --}}
 
-        <thead>
+        <thead style="">
             <tr>
                 <td class="label bg-success text-white py-4" colspan="9" width="100">
                     <h5>{{ __('school/certificate/index.header') }}</h5>
@@ -53,11 +53,13 @@
                 <td rowspan="2">{{ __('school/certificate/index.certi_no') }}</td>
                 <td rowspan="2">{{ __('school/certificate/index.name') }} <br></td>
                 <td rowspan="2">{{ __('school/certificate/index.document') }}</td>
+                <td rowspan="2">Action</td>
             </tr>
             <tr class="" style="background-color: lightblue">
                 <td>{{ __('school/certificate/index.total') }}</td>
                 <td>{{ __('school/certificate/index.female') }}</td>
             </tr>
+
         </thead>
         
         
@@ -78,6 +80,14 @@
                         <td>
                             <a style="text-decoration: underline;" href="{{ asset('storage/'.$academicBatch->reference) }}">បើកមើល</a>
                         </td>
+                        <td class="">
+                            <a href="{{ route('admin.school.certificate-new.edit', $academicBatch->id) }}" class="btn btn-warning bi bi-pencil-square"></a>
+                            <form id="delete-form-{{ $academicBatch->id }}" action="{{ route('admin.school.certificate-new.destroy', $academicBatch->id) }}" method="POST" style="display: inline;">
+                                @csrf
+                                @method('DELETE')
+                                <button type="button" class="btn btn-outline-danger bi bi-trash" onclick="confirmDelete({{ $academicBatch->id }})"></button>
+                            </form>                         
+                        </td>
                     </tr>
                 @endforeach
             @endforeach
@@ -86,6 +96,24 @@
 </div>
 
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function confirmDelete(id) {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                document.getElementById('delete-form-' + id).submit();
+            }
+        });
+    }
+    </script>
 
 @endsection
 
