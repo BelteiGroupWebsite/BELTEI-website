@@ -44,16 +44,16 @@
                     <td>{{ $student->gender }}</td>
                     <td>{{ $student->dob }}</td>
                     <td>
-                        <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$student->student_id.'.jpg') }}" alt="Profile Image">
+                        <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$student->profile.'.jpg') }}" alt="Profile Image">
                     </td>
                     <td>
-                        <a href="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$student->student_id.'.jpg') }}">
-                            <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$student->student_id.'.jpg') }}" alt="Beltei certificate">
+                        <a href="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$student->certi_no.'.jpg') }}">
+                            <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$student->certi_no.'.jpg') }}" alt="Beltei">
                         </a>
                     </td>
                     <td>
-                        <a href="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$student->moey.'.jpg') }}">
-                            <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$student->student_id.'.jpg') }}" alt="Moey certificate">
+                        <a href="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$student->moey_no.'.jpg') }}">
+                            <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$student->moey_no.'.jpg') }}" alt="Moey">
                         </a>
                     </td>
                     {{-- <td>
