@@ -44,26 +44,26 @@ Route::get('set-locale/{locale}', function ($locale) {
 
 
 
-// Route::get('/storage-link' , function (){
-//     $targetFolder = storage_path('app/public');
-//     $linkFolder = $_SERVER['DOCUMENT_ROOT'].'/storage';
-//     symlink($targetFolder , $linkFolder);
-// });
-
-Route::get('/storage-link', function () {
-    // Define the paths
+Route::get('/storage-link' , function (){
     $targetFolder = storage_path('app/public');
-    $linkFolder = public_path('storage');
-
-    // Check if the symbolic link already exists
-    if (!file_exists($linkFolder)) {
-        // Create the symbolic link
-        symlink($targetFolder, $linkFolder);
-        return 'Symlink created successfully.';
-    } else {
-        return 'Symlink already exists.';
-    }
+    $linkFolder = $_SERVER['DOCUMENT_ROOT'].'/storage';
+    symlink($targetFolder , $linkFolder);
 });
+
+// Route::get('/storage-link', function () {
+//     // Define the paths
+//     $targetFolder = storage_path('app/public');
+//     $linkFolder = public_path('storage');
+
+//     // Check if the symbolic link already exists
+//     if (!file_exists($linkFolder)) {
+//         // Create the symbolic link
+//         symlink($targetFolder, $linkFolder);
+//         return 'Symlink created successfully.';
+//     } else {
+//         return 'Symlink already exists.';
+//     }
+// });
 
 Route::get('/', function (Request $request) {
     $ip = $request->ip();
