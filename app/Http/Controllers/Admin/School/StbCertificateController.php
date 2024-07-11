@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Validator;
 use App\Imports\StudentsImport;
 use App\Models\School\Certificate\StbProgram;
 use Maatwebsite\Excel\Facades\Excel;
-
+use Illuminate\Support\Facades\Log;
 use function Livewire\store;
 
 class StbCertificateController extends Controller
@@ -40,7 +40,8 @@ class StbCertificateController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request->all());
+        Log::info('Entering store method');
+    
         // Define validation rules
         $validator = Validator::make($request->all(), [
             'programs' => 'required|integer|min:1',
@@ -51,6 +52,8 @@ class StbCertificateController extends Controller
             'certificateReferencePDF' => 'required|file|mimes:pdf',
         ]);
     
+        Log::info('Validation rules defined');
+    
         // Custom validation logic to ensure either batch or startAcademicYear is provided
         $validator->after(function ($validator) use ($request) {
             if (empty($request->input('batch')) && empty($request->input('startAcademicYear'))) {
@@ -59,36 +62,52 @@ class StbCertificateController extends Controller
             }
         });
     
+        Log::info('Custom validation logic defined');
+    
         // Handle validation failures
         if ($validator->fails()) {
+            Log::error('Validation failed', ['errors' => $validator->errors()->all()]);
             return redirect()->back()
                 ->withErrors($validator)
                 ->withInput();
         }
     
+        Log::info('Validation passed');
+    
         // Retrieve validated data
         $validated = $validator->validated();
+        Log::info('Validated data retrieved', ['validated' => $validated]);
     
         // Create a new StbAcademicBatch record using Eloquent
-        $academicBatch = new StbAcademicBatch();
-        $academicBatch->batch = $validated['batch'] ?? null;
-        $academicBatch->start_academic_year = $validated['startAcademicYear'] ?? null;
-        $academicBatch->grade_id = $validated['grade'];
-        $academicBatch->reference = ''; // Set a temporary reference value
-        $academicBatch->save();
+        try {
+            $academicBatch = new StbAcademicBatch();
+            $academicBatch->batch = $validated['batch'] ?? null;
+            $academicBatch->start_academic_year = $validated['startAcademicYear'] ?? null;
+            $academicBatch->grade_id = $validated['grade'];
+            $academicBatch->reference = ''; // Set a temporary reference value
+            $academicBatch->save();
+            Log::info('New StbAcademicBatch record created', ['academicBatch' => $academicBatch]);
     
-        // Store the certificate reference PDF file
-        $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/school/'.$validated['programs'].'/'.$validated['grade'].'/'.$academicBatch->id.'/reference', 'public');    
-        // Update the academic batch with the reference path
-        $academicBatch->reference = $referencePath;
-        $academicBatch->save();
+            // Store the certificate reference PDF file
+            $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/school/'.$validated['programs'].'/'.$validated['grade'].'/'.$academicBatch->id.'/reference', 'public');
+            Log::info('Certificate reference PDF stored', ['referencePath' => $referencePath]);
+    
+            // Update the academic batch with the reference path
+            $academicBatch->reference = $referencePath;
+            $academicBatch->save();
+            Log::info('Academic batch updated with reference path', ['academicBatch' => $academicBatch]);
+        } catch (\Exception $e) {
+            Log::error('Error creating StbAcademicBatch record', ['message' => $e->getMessage()]);
+            return back()->with('error', 'There was a problem creating the academic batch: ' . $e->getMessage());
+        }
     
         try {
             // Perform the import, explicitly specifying the reader type
             Excel::import(new StudentInfoImport($academicBatch->id), $request->file('certificateInformationExcel'));
-    
+            Log::info('Excel data imported successfully');
             return back()->with('success', 'Excel data imported successfully.');
         } catch (\Exception $e) {
+            Log::error('Error importing Excel data', ['message' => $e->getMessage()]);
             return back()->with('error', 'There was a problem importing the data: ' . $e->getMessage());
         }
     }
