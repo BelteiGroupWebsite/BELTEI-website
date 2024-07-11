@@ -40,7 +40,7 @@ class StbCertificateController extends Controller
      */
     public function store(Request $request)
     {
-        // dd($request->all());
+        dd($request->all());
         // Define validation rules
         $validator = Validator::make($request->all(), [
             'programs' => 'required|integer|min:1',
