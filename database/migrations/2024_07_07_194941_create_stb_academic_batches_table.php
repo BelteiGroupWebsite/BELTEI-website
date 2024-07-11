@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string("start_academic_year")->nullable(); // 2010 // 2016
             $table->string("batch")->nullable();
             $table->integer("grade_id"); // 1 // 1
+            $table->text('reference');
             $table->timestamps();
         });
     }

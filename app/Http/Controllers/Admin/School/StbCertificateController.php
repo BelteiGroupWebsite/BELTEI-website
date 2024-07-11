@@ -12,6 +12,8 @@ use App\Imports\StudentsImport;
 use App\Models\School\Certificate\StbProgram;
 use Maatwebsite\Excel\Facades\Excel;
 
+use function Livewire\store;
+
 class StbCertificateController extends Controller
 {
     /**
@@ -38,6 +40,7 @@ class StbCertificateController extends Controller
      */
     public function store(Request $request)
     {
+        // dd($request->all());
         // Define validation rules
         $validator = Validator::make($request->all(), [
             'programs' => 'required|integer|min:1',
@@ -66,14 +69,19 @@ class StbCertificateController extends Controller
         // Retrieve validated data
         $validated = $validator->validated();
     
-        // Create a new StbAcademicBatch record
-        $batch = $validated['batch'] ?? null;
-        $startAcademicYear =  $validated['startAcademicYear'] ?? null;
-        $academicBatch = StbAcademicBatch::create([
-            'batch' => $batch,
-            'start_academic_year' => $startAcademicYear,
-            'grade_id' => $validated['grade']
-        ]);
+        // Create a new StbAcademicBatch record using Eloquent
+        $academicBatch = new StbAcademicBatch();
+        $academicBatch->batch = $validated['batch'] ?? null;
+        $academicBatch->start_academic_year = $validated['startAcademicYear'] ?? null;
+        $academicBatch->grade_id = $validated['grade'];
+        $academicBatch->reference = ''; // Set a temporary reference value
+        $academicBatch->save();
+    
+        // Store the certificate reference PDF file
+        $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/school/'.$validated['programs'].'/'.$validated['grade'].'/'.$academicBatch->id.'/reference', 'public');    
+        // Update the academic batch with the reference path
+        $academicBatch->reference = $referencePath;
+        $academicBatch->save();
     
         try {
             // Perform the import, explicitly specifying the reader type
@@ -84,6 +92,8 @@ class StbCertificateController extends Controller
             return back()->with('error', 'There was a problem importing the data: ' . $e->getMessage());
         }
     }
+    
+    
 
     /**
      * Display the specified resource.

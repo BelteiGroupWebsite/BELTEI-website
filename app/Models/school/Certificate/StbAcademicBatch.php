@@ -12,7 +12,8 @@ class StbAcademicBatch extends Model
     protected $fillable = [
         'start_academic_year',
         'batch',
-        'grade_id'
+        'grade_id',
+        'reference'
     ];
     public function grade()
     {
