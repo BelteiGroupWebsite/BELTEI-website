@@ -40,6 +40,8 @@ class StudentInfoImport implements ToCollection, WithHeadingRow
                     'nationality' => $row['nationality'],
                     'dob' => $formatted_dob,
                     'campus' => $row['campus'],
+                    'profile_no' => $row['profile_no'],
+                    'certi_no' => $row['certi_no'],
                     'moey_no' => $row['moey_no'],
                     'academic_batch_id' => $this->academic_batch_id,
                 ]);
