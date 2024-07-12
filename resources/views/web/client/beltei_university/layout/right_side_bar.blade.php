@@ -80,9 +80,6 @@
                     <a href="https://consumer.huawei.com/kh/" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://consumer.huawei.com/etc/designs/huawei-cbg-site/clientlib-campaign-v4/common-v4/images/logo.svg" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
-                    <a href="https://consumer.huawei.com/kh/" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://consumer.huawei.com/etc/designs/huawei-cbg-site/clientlib-campaign-v4/common-v4/images/logo.svg" alt=""></a>
-                </li>
-                <li class="list-group-item p-0">
                     <a href="https://koha-community.org" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://koha-community.org/files/2013/09/cropped-kohabanner3.jpg" alt=""></a>
                 </li>
                 {{-- <li class="list-group-item p-0">
