@@ -3,14 +3,14 @@
     
     <div class="title-translate-font mb-4">
         @php
-        use Carbon\Carbon;
-        if(app()->getLocale() == "kh"){
-            $degree = $batchCert->degree->degree_kh;
-        }else{
-            $degree = $batchCert->degree->degree_eng;
+            use Carbon\Carbon;
+            if(app()->getLocale() == "kh"){
+                $degree = $batchCert->degree->degree_kh;
+            }else{
+                $degree = $batchCert->degree->degree_eng;
             }
-        
-    @endphp
+            
+        @endphp
 
         <h4 class="Blue-color">{{ $degree }} {{ __('beltei_university/certificate/certificate.batch') }} {{ $batchCert->batch }} {{ __('beltei_university/certificate/certificate.year') }} {{ $batchCert->academic_year . "-" .$batchCert->academic_year + 1 }}</h4>
         <h5 class="mt-3">{{ __('beltei_university/certificate/certificate.find') }}</h5>
@@ -46,18 +46,18 @@
             {{-- {{ dd($certificates->groupBy('major_id')) }} --}}
     
             @foreach ($certificates->groupBy('major_id') as $certificatesGroup)
-            @php
-                $facultyColor = $certificatesGroup->first()->major->faculty->color;
-                
-                if(app()->getLocale() == "kh"){
-                    $faculty = $certificatesGroup->first()->major->faculty->FacultyKhmer;
-                    $major = $certificatesGroup->first()->major->MajorKhmer;
-                }else{
-                    $major = $certificatesGroup->first()->major->MajorEnglish;
+                @php
+                    $facultyColor = $certificatesGroup->first()->major->faculty->color;
+                    
+                    if(app()->getLocale() == "kh"){
+                        $faculty = $certificatesGroup->first()->major->faculty->FacultyKhmer;
+                        $major = $certificatesGroup->first()->major->MajorKhmer;
+                    }else{
+                        $major = $certificatesGroup->first()->major->MajorEnglish;
                         $faculty = $certificatesGroup->first()->major->faculty->FacultyEnglish;
                     }
-                
-            @endphp
+                    
+                @endphp
             <tr>
                 <td colspan="10" class="text-uppercase text-white title-translate-font" style="background-color: {{ $facultyColor }}; border-color: {{ $facultyColor }} !important;">
                     <h6>{{ __('beltei_university/certificate/certificate.faculty') }} {{ $faculty }}</h6>

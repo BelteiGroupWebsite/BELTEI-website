@@ -14,5 +14,7 @@ return [
     'document' => 'ឯកសារ',
 
     'open' => 'បើកមើល',
-    'reference' => 'យោង'
+    'reference' => 'យោង',
+    'moey' => 'ស.ទុតិយភូមិ',
+    'ielts' => 'IELTS'
 ];

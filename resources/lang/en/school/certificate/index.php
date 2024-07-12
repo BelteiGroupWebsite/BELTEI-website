@@ -14,5 +14,7 @@ return [
     'document' => 'Document',
 
     'open' => 'Open',
-    'reference' => 'Reference'
+    'reference' => 'Reference',
+    'moey' => 'Moey',
+    'ielts' => 'IELTS'
 ];
