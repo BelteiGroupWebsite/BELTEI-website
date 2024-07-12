@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('gender')->nullable();
             $table->string('dob')->nullable();
             $table->string('nationality')->nullable();
+            $table->integer('campus')->nullable();
             $table->integer('academic_batch_id');
             $table->string("profile_no")->nullable();
             $table->string("certi_no")->nullable();

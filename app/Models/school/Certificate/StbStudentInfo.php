@@ -16,6 +16,7 @@ class StbStudentInfo extends Model
         'gender',
         'dob',
         'nationality',
+        'campus',
         'academic_batch_id',
         'certi_no',
         'profile_no',
