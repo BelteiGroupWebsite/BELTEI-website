@@ -36,31 +36,42 @@
             {{-- {{ dd($certificates->groupBy('major_id')) }} --}}
     
             @foreach ($certificates->groupBy('major_id') as $certificatesGroup)
-                <tr>
-                    <td colspan="10" class=" text-uppercase text-white title-translate-font" style="background-color: {{ $certificatesGroup->first()->major->faculty->color }};">
-                        <h6>FACULTY OF {{ $certificatesGroup->first()->major->faculty->FacultyEnglish }}</h6>
-                        <p>MAJOR IN {{  $certificatesGroup->first()->major->MajorEnglish }}</p>
+            @php
+                $facultyColor = $certificatesGroup->first()->major->faculty->color;
+                $facultyEnglish = $certificatesGroup->first()->major->faculty->FacultyEnglish;
+                $majorEnglish = $certificatesGroup->first()->major->MajorEnglish;
+            @endphp
+            <tr>
+                <td colspan="10" class="text-uppercase text-white title-translate-font" style="background-color: {{ $facultyColor }}; border-color: {{ $facultyColor }} !important;">
+                    <h6>FACULTY OF {{ $facultyEnglish }}</h6>
+                    <p>MAJOR IN {{ $majorEnglish }}</p>
+                </td>
+            </tr>
+            @foreach ($certificatesGroup as $certificate)
+                @php
+                    $certificateNo = $certificate->certi_no;
+                    $profileImagePath = asset("storage/upload/certificate/university/{$degreeId}/{$batchId}/profile/{$certificateNo}.jpg");
+                    $certificateImagePath = asset("storage/upload/certificate/university/{$degreeId}/{$batchId}/beltei/{$certificateNo}.jpg");
+                @endphp
+                <tr style="border-color: {{ $facultyColor }} !important;">
+                    <td>{{ $certificateNo }}</td>
+                    <td>{{ $certificate->khmer_name }}</td>
+                    <td>{{ $certificate->gender }}</td>
+                    <td>{{ $certificate->dob }}</td>
+                    <td>
+                        <a href="{{ $profileImagePath }}">
+                            <img style="max-width: 100px" src="{{ $profileImagePath }}" alt="profile">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="{{ $certificateImagePath }}">
+                            <img style="max-width: 100px" src="{{ $certificateImagePath }}" alt="certificate">
+                        </a>
                     </td>
                 </tr>
-                @foreach ($certificatesGroup as $certificate)
-                    <tr style="border-color: {{ $certificatesGroup->first()->major->faculty->color }} !important;">
-                        <td>{{ $certificate->certi_no }}</td>
-                        <td>{{ $certificate->khmer_name }}</td>
-                        <td>{{ $certificate->gender }}</td>
-                        <td>{{ $certificate->dob }}</td>
-                        <td>
-                            <a href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/' . $certificate->certi_no . '.jpg') }}">
-                                <img style="max-width: 100px" src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/' . $certificate->certi_no . '.jpg') }}" alt="profile">
-                            </a>
-                        </td>
-                        <td>
-                            <a href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/' . $certificate->certi_no . '.jpg') }}">
-                                <img style="max-width: 100px" src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/' . $certificate->certi_no . '.jpg') }}" alt="certificate">
-                            </a>
-                        </td>
-                    </tr>
-                @endforeach
             @endforeach
+        @endforeach
+        
         
             
         </tbody>
