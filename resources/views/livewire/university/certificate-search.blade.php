@@ -32,39 +32,36 @@
         </thead>
     
         <tbody class="f14">
+
+            {{-- {{ dd($certificates->groupBy('major_id')) }} --}}
     
-
-            {{-- {{ dd($certificates) }}  --}}
-
-            @foreach ($certificates as $certificate)
+            @foreach ($certificates->groupBy('major_id') as $certificatesGroup)
                 <tr>
-                    <td>{{ $certificate->certi_no }}</td>
-                    <td>{{ $certificate->khmer_name }}</td>
-                    {{-- <td>{{ $certificate->latin_name }}</td> --}}
-                    <td>{{ $certificate->gender }}</td>
-                    <td>{{ $certificate->dob }}</td>
-                    <td>
-                        <a  href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->certi_no.'.jpg') }}">
-                            <img style="max-width: 100px" src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->certi_no.'.jpg') }}" alt="profile">
-                        </a>
+                    <td colspan="10" class=" text-uppercase " style="background-color: {{ $certificatesGroup->first()->major->faculty->color }};">
+                        <h5>{{ $certificatesGroup->first()->major->faculty->FacultyEnglish }}</h5>
+                        <h6>{{ $certificatesGroup->first()->major->MajorEnglish }}</h6>
                     </td>
-                    <td>
-                        <a  href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->certi_no.'.jpg') }}">
-                            <img style="max-width: 100px" src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->certi_no.'.jpg') }}" alt="certificate">
-                        </a>
-                    </td>
-                    {{-- <td>
-                        <a target="blank" href="{{ url('certificate/biu/'.$certificate->degree_id.'/'.$certificate->academicBatch->start_academic_year.'/'.$certificate->identify_user.'/profile/'.$certificate->certi_no.'.jpg') }}">
-                            <img loading="lazy" style="width: 50px" alt="report" src="{{ asset('certificate/biu/'.$certificate->degree_id.'/'.$certificate->academicBatch->start_academic_year.'/'.$certificate->identify_user.'/profile/'.$certificate->certi_no.'.jpg') }}" alt="">
-                        </a>
-                    </td>
-                    <td>
-                        <a target="blank" href="{{ url('certificate/biu/'.$certificate->degree_id.'/'.$certificate->academicBatch->start_academic_year.'/'.$certificate->identify_user.'/beltei/'.$certificate->certi_no.'.jpg') }}">
-                            <img loading="lazy" style="width: 50px" alt="report" src="{{ asset('certificate/biu/'.$certificate->degree_id.'/'.$certificate->academicBatch->start_academic_year.'/'.$certificate->identify_user.'/beltei/'.$certificate->certi_no.'.jpg') }}" alt="">
-                        </a>
-                    </td> --}}
                 </tr>
+                @foreach ($certificatesGroup as $certificate)
+                    <tr>
+                        <td>{{ $certificate->certi_no }}</td>
+                        <td>{{ $certificate->khmer_name }}</td>
+                        <td>{{ $certificate->gender }}</td>
+                        <td>{{ $certificate->dob }}</td>
+                        <td>
+                            <a href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/' . $certificate->certi_no . '.jpg') }}">
+                                <img style="max-width: 100px" src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/' . $certificate->certi_no . '.jpg') }}" alt="profile">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/' . $certificate->certi_no . '.jpg') }}">
+                                <img style="max-width: 100px" src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/' . $certificate->certi_no . '.jpg') }}" alt="certificate">
+                            </a>
+                        </td>
+                    </tr>
+                @endforeach
             @endforeach
+        
             
         </tbody>
         
