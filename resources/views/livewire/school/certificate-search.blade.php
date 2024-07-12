@@ -56,24 +56,39 @@
                     {{-- <td>{{ $student->latin_name }}</td> --}}
                     <td>{{ $student->gender }}</td>
                     <td>{{ $student->dob }}</td>
+
+
+                    @if($profile)
                     <td>
-                        <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$student->profile.'.jpg') }}" alt="Profile Image">
+                        <a href="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$student->profile.'.jpg') }}">
+                            <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$student->profile.'.jpg') }}" alt="Profile Image">
+                        </a>
                     </td>
+                    @endif
+
+                    @if($beltei)
                     <td>
                         <a href="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$student->certi_no.'.jpg') }}">
                             <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$student->certi_no.'.jpg') }}" alt="Beltei">
                         </a>
                     </td>
+                    @endif
+
+                    @if($moey)
                     <td>
                         <a href="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$student->moey_no.'.jpg') }}">
                             <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$student->moey_no.'.jpg') }}" alt="Moey">
                         </a>
                     </td>
+                    @endif
+
+                    @if($ielts)
                     <td>
                         <a href="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$student->ielts_no.'.jpg') }}">
                             <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$student->ielts_no.'.jpg') }}" alt="IELTS">
                         </a>
                     </td>
+                    @endif
                     {{-- <td>
                         <a target="blank" href="{{ url('certificate/biu/'.$student->degree_id.'/'.$student->academicBatch->start_academic_year.'/'.$student->identify_user.'/profile/'.$student->certi_no.'.jpg') }}">
                             <img loading="lazy" style="width: 50px" alt="report" src="{{ asset('certificate/biu/'.$student->degree_id.'/'.$student->academicBatch->start_academic_year.'/'.$student->identify_user.'/profile/'.$student->certi_no.'.jpg') }}" alt="">
