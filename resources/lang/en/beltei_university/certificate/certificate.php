@@ -13,5 +13,12 @@ return [
     'beltei' => "Beltei",
 
     'search' => "Search",
-    'find' => "Student Information",
+    'find' => "Find Student Information Down Below",
+
+    'faculty' => "Faculty of",
+    'major' => "Major in",
+
+    'batch' => "Batch",
+    'year' => "In",
+
 ];

@@ -2,7 +2,17 @@
 
     
     <div class="title-translate-font mb-4">
-        <h4 class="Blue-color">{{ $batchCert->degree->degree_kh . " ជំនាន់ទី​ " . $batchCert->batch . " ឆ្នាំ " . $batchCert->academic_year . "-" .$batchCert->academic_year + 1 }}</h4>
+        @php
+        use Carbon\Carbon;
+        if(app()->getLocale() == "kh"){
+            $degree = $batchCert->degree->degree_kh;
+        }else{
+            $degree = $batchCert->degree->degree_eng;
+            }
+        
+    @endphp
+
+        <h4 class="Blue-color">{{ $degree }} {{ __('beltei_university/certificate/certificate.batch') }} {{ $batchCert->batch }} {{ __('beltei_university/certificate/certificate.year') }} {{ $batchCert->academic_year . "-" .$batchCert->academic_year + 1 }}</h4>
         <h5 class="mt-3">{{ __('beltei_university/certificate/certificate.find') }}</h5>
     </div>
 
@@ -38,13 +48,20 @@
             @foreach ($certificates->groupBy('major_id') as $certificatesGroup)
             @php
                 $facultyColor = $certificatesGroup->first()->major->faculty->color;
-                $facultyEnglish = $certificatesGroup->first()->major->faculty->FacultyEnglish;
-                $majorEnglish = $certificatesGroup->first()->major->MajorEnglish;
+                
+                if(app()->getLocale() == "kh"){
+                    $faculty = $certificatesGroup->first()->major->faculty->FacultyKhmer;
+                    $major = $certificatesGroup->first()->major->MajorKhmer;
+                }else{
+                    $major = $certificatesGroup->first()->major->MajorEnglish;
+                        $faculty = $certificatesGroup->first()->major->faculty->FacultyEnglish;
+                    }
+                
             @endphp
             <tr>
                 <td colspan="10" class="text-uppercase text-white title-translate-font" style="background-color: {{ $facultyColor }}; border-color: {{ $facultyColor }} !important;">
-                    <h6>FACULTY OF {{ $facultyEnglish }}</h6>
-                    <p>MAJOR IN {{ $majorEnglish }}</p>
+                    <h6>{{ __('beltei_university/certificate/certificate.faculty') }} {{ $faculty }}</h6>
+                    <p>{{ __('beltei_university/certificate/certificate.major') }} {{ $major }}</p>
                 </td>
             </tr>
             @foreach ($certificatesGroup as $certificate)
@@ -52,20 +69,27 @@
                     $certificateNo = $certificate->certi_no;
                     $profileImagePath = asset("storage/upload/certificate/university/{$degreeId}/{$batchId}/profile/{$certificateNo}.jpg");
                     $certificateImagePath = asset("storage/upload/certificate/university/{$degreeId}/{$batchId}/beltei/{$certificateNo}.jpg");
+
+                    if(app()->getLocale() == "kh"){
+                        $name = $certificate->khmer_name;
+                    }else{
+                        $name = $certificate->latin_name;
+                    }
+                    
                 @endphp
                 <tr style="border-color: {{ $facultyColor }} !important;">
                     <td>{{ $certificateNo }}</td>
-                    <td>{{ $certificate->khmer_name }}</td>
+                    <td>{{ $name }}</td>
                     <td>{{ $certificate->gender }}</td>
-                    <td>{{ $certificate->dob }}</td>
+                    <td>{{ Carbon::parse($certificate->dob)->format('d/M/Y') }}</td>
                     <td>
                         <a href="{{ $profileImagePath }}">
-                            <img style="max-width: 100px" src="{{ $profileImagePath }}" alt="profile">
+                            <img loading="lazy" style="max-width: 100px" src="{{ $profileImagePath }}" alt="profile">
                         </a>
                     </td>
                     <td>
                         <a href="{{ $certificateImagePath }}">
-                            <img style="max-width: 100px" src="{{ $certificateImagePath }}" alt="certificate">
+                            <img loading="lazy" style="max-width: 100px" src="{{ $certificateImagePath }}" alt="certificate">
                         </a>
                     </td>
                 </tr>
