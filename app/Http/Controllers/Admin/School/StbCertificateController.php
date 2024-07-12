@@ -197,6 +197,34 @@ class StbCertificateController extends Controller
     
             // Import updated Excel data if provided
             if ($request->hasFile('certificateInformationExcel')) {
+
+                if ($academicBatch->studentInfo()->exists()) {
+                    foreach($academicBatch->studentInfo as $studentInfo) {
+                        $programId = $academicBatch->grade->program->id;
+                        $gradeId = $academicBatch->grade->id;
+                        $batchId = $academicBatch->id;
+        
+                        $profilePath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$studentInfo->profile_no.'.jpg';
+                        $belteiPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$studentInfo->certi_no.'.jpg';
+                        $moeyPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$studentInfo->moey_id.'.jpg';
+        
+                        if (file_exists($profilePath) && is_file($profilePath)) {
+                            unlink($profilePath);
+                        }
+        
+                        if (file_exists($belteiPath) && is_file($belteiPath)) {
+                            unlink($belteiPath);
+                        }
+        
+                        if (file_exists($moeyPath) && is_file($moeyPath)) {
+                            unlink($moeyPath);
+                        }
+                    }
+                    
+                    $academicBatch->studentInfo()->delete();
+                    Log::info('Related student_info records and files deleted', ['academicBatch_id' => $id]);
+                } 
+                
                 Excel::import(new StudentInfoImport($academicBatch->id), $request->file('certificateInformationExcel'));
             }
     

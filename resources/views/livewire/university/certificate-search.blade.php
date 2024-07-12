@@ -2,7 +2,8 @@
 
     
     <div class="title-translate-font mb-4">
-        <h4>{{ __('beltei_university/certificate/certificate.find') }}</h4>
+        <h4 class="Blue-color">{{ $batchCert->degree->degree_kh . " ជំនាន់ទី​ " . $batchCert->batch . " ឆ្នាំ " . $batchCert->academic_year . "-" .$batchCert->academic_year + 1 }}</h4>
+        <h5 class="mt-3">{{ __('beltei_university/certificate/certificate.find') }}</h5>
     </div>
 
     <div class="input-group mb-3 shadow-sm">

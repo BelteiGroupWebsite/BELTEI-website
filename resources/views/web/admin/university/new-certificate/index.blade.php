@@ -44,6 +44,7 @@
                             <td rowspan="2">{{ __('school/certificate/index.certi_no') }}</td>
                             <td rowspan="2">{{ __('school/certificate/index.name') }} <br></td>
                             <td rowspan="2">{{ __('school/certificate/index.document') }}</td>
+                            <td rowspan="2">Action</td>
                         </tr>
                         <tr class="" style="background-color: lightblue">
                             <td>{{ __('school/certificate/index.total') }}</td>
@@ -65,9 +66,13 @@
                                         </a>
                                     </td>
                                     <td>
-                                        <a href="">
+                                        <a href="{{ asset('storage/'.$degreeAcademicbatch->reference) }}">
                                             បើកមើល
                                         </a>
+                                    </td>
+                                    <td>
+                                        <a href="{{ route('admin.university.certificate-new.edit', $degreeAcademicbatch->id) }}" class="btn btn-warning bi bi-pencil-square"></a>
+
                                     </td>
                                 </tr>
                                 {{-- {{ $degreeAcademicbatch->studentInfo }} --}}

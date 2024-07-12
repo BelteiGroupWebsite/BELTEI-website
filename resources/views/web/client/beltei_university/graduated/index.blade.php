@@ -47,7 +47,7 @@
                         <a href="{{ route('beltei_university.certificate.detail' , ['degree' => $degreeAcademicbatch->degree_id , 'batch' => $degreeAcademicbatch->id ]) }}">បើកមើល</a>
                     </td>
                     <td>
-                        <a href="">បើកមើល</a>
+                        <a href="{{ asset('storage/'.$degreeAcademicbatch->reference) }}">បើកមើល</a>
                     </td>
                 </tr>
             @endforeach

@@ -5,6 +5,7 @@ namespace App\Livewire\University;
 use App\Models\University\AcademicBatch;
 use App\Models\University\Certificate;
 use App\Models\University\Certificate\UtbDegreeAcademicbatch;
+use App\Models\University\Degree;
 use Livewire\Component;
 
 class CertificateSearch extends Component
@@ -25,6 +26,11 @@ class CertificateSearch extends Component
     public function render()
     {
         $degreeId = $this->degree;
+        // $degreeCert = Degree::where('id',$degreeId)->get();
+        $batchCert = UtbDegreeAcademicbatch::where('id',$this->batch)->first();
+
+        // dd($degree);
+
         $batchId = $this->batch;
 
         $degreeAcademicbatch = UtbDegreeAcademicbatch::where('id' , $this->batch)->first();
@@ -48,7 +54,7 @@ class CertificateSearch extends Component
             $certificates = $degreeAcademicbatch->studentInfo()->paginate(30);
         }
     
-        return view('livewire.university.certificate-search', compact('certificates' , 'degreeId' , 'batchId'));
+        return view('livewire.university.certificate-search', compact('certificates' , 'degreeId' , 'batchId' , 'batchCert'));
     }
     
 }
