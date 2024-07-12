@@ -20,5 +20,6 @@ return [
 
     'batch' => "Batch",
     'year' => "In",
-
+    'moey' => 'Moey',
+    'ielts' => 'IELTS'
 ];
