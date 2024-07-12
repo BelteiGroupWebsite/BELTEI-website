@@ -44,12 +44,12 @@
                     <td>{{ $certificate->dob }}</td>
                     <td>
                         <a  href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->certi_no.'.jpg') }}">
-                            <img src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->certi_no.'.jpg') }}" alt="profile">
+                            <img style="max-width: 100px" src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->certi_no.'.jpg') }}" alt="profile">
                         </a>
                     </td>
                     <td>
                         <a  href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->certi_no.'.jpg') }}">
-                            <img src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->certi_no.'.jpg') }}" alt="certificate">
+                            <img style="max-width: 100px" src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->certi_no.'.jpg') }}" alt="certificate">
                         </a>
                     </td>
                     {{-- <td>
