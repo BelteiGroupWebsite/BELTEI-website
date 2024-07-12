@@ -37,13 +37,13 @@
     
             @foreach ($certificates->groupBy('major_id') as $certificatesGroup)
                 <tr>
-                    <td colspan="10" class=" text-uppercase text-white" style="background-color: {{ $certificatesGroup->first()->major->faculty->color }};">
-                        <h5>{{ $certificatesGroup->first()->major->faculty->FacultyEnglish }}</h5>
-                        <h6>{{ $certificatesGroup->first()->major->MajorEnglish }}</h6>
+                    <td colspan="10" class=" text-uppercase text-white title-translate-font" style="background-color: {{ $certificatesGroup->first()->major->faculty->color }};">
+                        <h6>FACULTY OF {{ $certificatesGroup->first()->major->faculty->FacultyEnglish }}</h6>
+                        <p>MAJOR IN {{  $certificatesGroup->first()->major->MajorEnglish }}</p>
                     </td>
                 </tr>
                 @foreach ($certificatesGroup as $certificate)
-                    <tr>
+                    <tr style="border-color: {{ $certificatesGroup->first()->major->faculty->color }} !important;">
                         <td>{{ $certificate->certi_no }}</td>
                         <td>{{ $certificate->khmer_name }}</td>
                         <td>{{ $certificate->gender }}</td>
