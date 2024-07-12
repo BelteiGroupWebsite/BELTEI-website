@@ -43,6 +43,7 @@ class StudentInfoImport implements ToCollection, WithHeadingRow
                     'profile_no' => preg_replace('/\s+/', '', $row['profile_no']),
                     'certi_no' => preg_replace('/\s+/', '', $row['certi_no']),
                     'moey_no' => preg_replace('/\s+/', '', $row['moey_no']),
+                    'ielts_no' => preg_replace('/\s+/', '', $row['ielts_no']),
                     'academic_batch_id' => $this->academic_batch_id,
                 ]);
                 

@@ -24,9 +24,22 @@
                 {{-- <td>{{ __('beltei_university/certificate/certificate.latin_name') }}</td> --}}
                 <td>{{ __('beltei_university/certificate/certificate.gender') }}</td>
                 <td>{{ __('beltei_university/certificate/certificate.dob') }}</td>
+                @if($profile)
                 <td>{{ __('beltei_university/certificate/certificate.profile') }}</td>
+                @endif
+
+                @if($beltei)
                 <td>{{ __('beltei_university/certificate/certificate.certificate') }}</td>
-                <td>{{ __('beltei_university/certificate/certificate.certificate') }}</td>
+                @endif
+
+                @if($moey)
+                <td>{{ __('beltei_university/certificate/certificate.moey') }}</td>
+                @endif
+
+                @if($ielts)
+                <td>{{ __('beltei_university/certificate/certificate.ielts') }}</td>
+                @endif
+
             </tr>
             
         </thead>
@@ -54,6 +67,11 @@
                     <td>
                         <a href="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$student->moey_no.'.jpg') }}">
                             <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$student->moey_no.'.jpg') }}" alt="Moey">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$student->ielts_no.'.jpg') }}">
+                            <img style="max-width: 50px" loading="lazy" src="{{ asset('storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$student->ielts_no.'.jpg') }}" alt="IELTS">
                         </a>
                     </td>
                     {{-- <td>

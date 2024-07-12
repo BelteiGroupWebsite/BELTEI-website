@@ -207,6 +207,7 @@ class StbCertificateController extends Controller
                         $profilePath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$studentInfo->profile_no.'.jpg';
                         $belteiPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$studentInfo->certi_no.'.jpg';
                         $moeyPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$studentInfo->moey_id.'.jpg';
+                        $idPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/il/'.$studentInfo->il_id.'.jpg';
         
                         if (file_exists($profilePath) && is_file($profilePath)) {
                             unlink($profilePath);
@@ -218,6 +219,9 @@ class StbCertificateController extends Controller
         
                         if (file_exists($moeyPath) && is_file($moeyPath)) {
                             unlink($moeyPath);
+                        }
+                        if (file_exists($idPath) && is_file($idPath)) {
+                            unlink($idPath);
                         }
                     }
                     
@@ -256,7 +260,8 @@ class StbCertificateController extends Controller
                     $profilePath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$studentInfo->profile_no.'.jpg';
                     $belteiPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$studentInfo->certi_no.'.jpg';
                     $moeyPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$studentInfo->moey_id.'.jpg';
-    
+                    $idPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/il/'.$studentInfo->il_id.'.jpg';
+                    
                     if (file_exists($profilePath)) {
                         unlink($profilePath);
                     }
@@ -267,6 +272,9 @@ class StbCertificateController extends Controller
     
                     if (file_exists($moeyPath)) {
                         unlink($moeyPath);
+                    }
+                    if (file_exists($idPath) && is_file($idPath)) {
+                        unlink($idPath);
                     }
                 }
                 

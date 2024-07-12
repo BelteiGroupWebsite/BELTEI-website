@@ -80,13 +80,14 @@ class StbClCertificateController extends Controller
         $academicBatch = StbAcademicBatch::where('id', $academicbatch)->first();
 
         $academicBatchId = $academicBatch->id;
-        $gradeId = $academicBatch->grade->id;
-        $programId = $academicBatch->grade->program->id;
+        // $gradeId = $academicBatch->grade->id;
+        // $programId = $academicBatch->grade->program->id;
         
-        $studentInfo = $academicBatch->studentInfo()->paginate(30); // Change 10 to the number of records per page you want  
+        // $studentInfo = $academicBatch->studentInfo()->paginate(30); // Change 10 to the number of records per page you want  
 
         // dd($studentInfo);
         
-        return view('web.client.school.certificate.detail' , compact('studentInfo' , 'programId' , 'gradeId' , 'academicBatchId'));
+        // return view('web.client.school.certificate.detail' , compact('studentInfo' , 'programId' , 'gradeId' , 'academicBatchId'));
+        return view('web.client.school.certificate.detail' , compact('academicBatchId'));
     }
 }
