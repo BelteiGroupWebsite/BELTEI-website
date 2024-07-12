@@ -43,13 +43,13 @@
                     <td>{{ $certificate->gender }}</td>
                     <td>{{ $certificate->dob }}</td>
                     <td>
-                        <a  href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->profile_no.'.jpg') }}">
-                            <img src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->profile_no.'.jpg') }}" alt="profile">
+                        <a  href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->certi_no.'.jpg') }}">
+                            <img src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/profile/'. $certificate->certi_no.'.jpg') }}" alt="profile">
                         </a>
                     </td>
                     <td>
-                        <a  href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->beltei_no.'.jpg') }}">
-                            <img src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->beltei_no.'.jpg') }}" alt="certificate">
+                        <a  href="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->certi_no.'.jpg') }}">
+                            <img src="{{ asset('storage/upload/certificate/university/' . $degreeId . '/' . $batchId. '/beltei/'. $certificate->certi_no.'.jpg') }}" alt="certificate">
                         </a>
                     </td>
                     {{-- <td>
