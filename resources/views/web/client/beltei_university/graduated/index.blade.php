@@ -44,10 +44,10 @@
                         {{ $degreeAcademicbatch->studentInfo->MIN('certi_no') . ' - ' . $degreeAcademicbatch->studentInfo->MAX('certi_no') }}
                     </td>
                     <td>
-                        <a href="{{ route('beltei_university.certificate.detail' , ['degree' => $degreeAcademicbatch->degree_id , 'batch' => $degreeAcademicbatch->id ]) }}">បើកមើល</a>
+                        <a href="{{ route('beltei_university.certificate.detail' , ['degree' => $degreeAcademicbatch->degree_id , 'batch' => $degreeAcademicbatch->id ]) }}">{{ __('school/certificate/index.open') }}</a>
                     </td>
                     <td>
-                        <a href="{{ asset('storage/'.$degreeAcademicbatch->reference) }}">បើកមើល</a>
+                        <a href="{{ asset('storage/'.$degreeAcademicbatch->reference) }}">{{ __('school/certificate/index.reference') }}</a>
                     </td>
                 </tr>
             @endforeach
