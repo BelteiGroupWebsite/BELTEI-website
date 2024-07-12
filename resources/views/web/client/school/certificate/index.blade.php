@@ -41,10 +41,10 @@
                         <td>{{ $academicBatch->studentInfo->where('gender', 'F')->count() }}</td>
                         <td>{{ $academicBatch->studentInfo->min('student_id') }} - {{ $academicBatch->studentInfo->max('student_id') }}</td>
                         <td>
-                            <a style="text-decoration: underline;" href="{{ route('school.certificate.detail' , $academicBatch->id) }}">បើកមើល</a>
+                            <a style="text-decoration: underline;" href="{{ route('school.certificate.detail' , $academicBatch->id) }}">{{ __('school/certificate/index.open') }}</a>
                         </td>
                         <td>
-                            <a style="text-decoration: underline;" href="{{ asset('storage/'.$academicBatch->reference) }}">បើកមើល</a>
+                            <a style="text-decoration: underline;" href="{{ asset('storage/'.$academicBatch->reference) }}">{{ __('school/certificate/index.reference') }}</a>
                         </td>
                     </tr>
                 @endforeach
