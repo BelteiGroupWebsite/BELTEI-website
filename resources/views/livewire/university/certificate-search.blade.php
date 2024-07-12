@@ -37,7 +37,7 @@
     
             @foreach ($certificates->groupBy('major_id') as $certificatesGroup)
                 <tr>
-                    <td colspan="10" class=" text-uppercase " style="background-color: {{ $certificatesGroup->first()->major->faculty->color }};">
+                    <td colspan="10" class=" text-uppercase text-white" style="background-color: {{ $certificatesGroup->first()->major->faculty->color }};">
                         <h5>{{ $certificatesGroup->first()->major->faculty->FacultyEnglish }}</h5>
                         <h6>{{ $certificatesGroup->first()->major->MajorEnglish }}</h6>
                     </td>
