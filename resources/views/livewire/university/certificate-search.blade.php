@@ -84,12 +84,12 @@
                     <td>{{ Carbon::parse($certificate->dob)->format('d/M/Y') }}</td>
                     <td>
                         <a href="{{ $profileImagePath }}">
-                            <img loading="lazy" style="max-width: 100px" src="{{ $profileImagePath }}" alt="profile">
+                            <img loading="lazy" style="max-width: 80px" src="{{ $profileImagePath }}" alt="profile">
                         </a>
                     </td>
                     <td>
                         <a href="{{ $certificateImagePath }}">
-                            <img loading="lazy" style="max-width: 100px" src="{{ $certificateImagePath }}" alt="certificate">
+                            <img loading="lazy" style="max-width: 80px" src="{{ $certificateImagePath }}" alt="certificate">
                         </a>
                     </td>
                 </tr>
