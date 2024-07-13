@@ -25,7 +25,7 @@ class StbStudentInfo extends Model
         'ielts_no'
     ];
 
-    public function campus()
+    public function campuses()
     {
         return $this->belongsTo(Campus::class, 'campus');
     }
