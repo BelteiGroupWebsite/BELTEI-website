@@ -17,7 +17,7 @@ class StbGrade extends Model
     public function academicBatch()
     {
         // return $this->hasMany(StbAcademicBatch::class, 'grade_id', 'id');
-        return $this->hasMany(StbAcademicBatch::class, 'grade_id', 'id')->orderByDesc('batch');
+        // return $this->hasMany(StbAcademicBatch::class, 'grade_id', 'id')->orderByDesc('batch');
     }
     
     public function getSortedAcademicBatchAttribute()
