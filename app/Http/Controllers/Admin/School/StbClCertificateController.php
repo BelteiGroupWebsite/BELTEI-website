@@ -73,7 +73,7 @@ class StbClCertificateController extends Controller
 
         $grades = StbGrade::where('id' , $grade_id)->first();
 
-        dd($grades->academicBatch);
+        // dd($grades->academicBatch);
         
         return view('web.client.school.certificate.index' , compact('grades'));
         
