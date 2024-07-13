@@ -21,5 +21,6 @@ class StbStudentInfo extends Model
         'certi_no',
         'profile_no',
         'moey_no',
+        'ielts_no'
     ];
 }

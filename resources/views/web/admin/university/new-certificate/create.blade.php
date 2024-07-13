@@ -31,11 +31,12 @@
             </div>
             <div class="card-body">
 
-                <form action="{{ route('admin.university.certificate-new.store') }}" method="post" enctype="multipart/form-data">
+                <form action="{{ route('admin.university.certificate-new.store') }}" method="post"
+                    enctype="multipart/form-data">
                     @csrf
                     <div class="row">
-    
-    
+
+
                         <div class="row mb-3 me-0 pe-0" id="academicYearDiv">
                             <div class="col-12 mb-3">
                                 <label for="" class="form-label">Degree <i class="text-danger"></i></label>
@@ -48,46 +49,50 @@
                             </div>
                             <div class="col-6 mb-3">
                                 <label for="batch" class="form-label">Batch <i class="text-danger">*</i></label>
-                                <input class="form-control" required name="batch" id="batch" type="number" placeholder="18" min="1">
+                                <input class="form-control" required name="batch" id="batch" type="number"
+                                    placeholder="18" min="1">
                                 @error('batch')
                                     <div class="alert alert-danger mt-2">{{ $message }}</div>
                                 @enderror
                             </div>
                             <div class="col-6 mb-3">
-                                <label for="startAcademicYear" class="form-label">Start Academic Year <i class="text-danger"></i></label>
-                                <input class="form-control" name="startAcademicYear" id="startAcademicYear" type="number" placeholder="YYYY / 2022" min="1970" max="9999">
+                                <label for="startAcademicYear" class="form-label">Start Academic Year <i
+                                        class="text-danger"></i></label>
+                                <input class="form-control" name="startAcademicYear" id="startAcademicYear" type="number"
+                                    placeholder="YYYY / 2022" min="1970" max="9999">
                                 @error('startAcademicYear')
                                     <div class="alert alert-danger mt-2">{{ $message }}</div>
                                 @enderror
                             </div>
                         </div>
-    
-    
-    
+
+
+
                         <div class="row mb-3 me-0 pe-0">
                             <div class="col-6 mb-3">
                                 <label for="" class="form-label"><b>Certificate Information</b> <i
                                         class="text-danger">(Excel:
-                                        .xlsx)</i></label>
+                                        .xlsx, .xls)</i></label>
                                 <div class="form-group d-flex">
                                     <input required class="form-control" name="certificateInformationExcel"
                                         id="certificateInformationExcel" accept=".xlsx, .xls , .scv" type="file">
-                                    <a class="btn btn-info text-white" download id="test" href="{{ asset('asset/pdf/admin/university/ExampleCertificate.xlsx') }}">?</a>
+                                    <a class="btn btn-info text-white" download id="test"
+                                        href="{{ asset('asset/pdf/admin/university/exampleExcelList.xls') }}">?</a>
                                 </div>
                             </div>
                             <div class="col-6 mb-3">
                                 <label for="" class="form-label"><b>Certificate Reference</b> <i
-                                        class="text-danger">(Excel:
+                                        class="text-danger">(Pdf:
                                         .pdf)</i></label>
                                 <div class="form-group d-flex">
-                                    <input required class="form-control" name="certificateReferencePDF" id="certificateReferencePDF"
-                                        accept=".pdf" type="file">
+                                    <input required class="form-control" name="certificateReferencePDF"
+                                        id="certificateReferencePDF" accept=".pdf" type="file">
                                 </div>
                             </div>
                         </div>
-    
-    
-    
+
+
+
                         <div class="d-flex justify-content-end py-3">
                             <button class="btn btn-success px-3" type="submit">submit</button>
                         </div>
