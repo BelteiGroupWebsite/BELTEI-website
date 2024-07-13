@@ -54,7 +54,7 @@
                 <tr>
                     <td>{{ $student->student_id }}</td>
                     <td>{{ $student->khmer_name }}</td>
-                    <td>{{ $student->campus }}</td>
+                    <td>{{ $student->campus->campus_kh }}</td>
                     {{-- <td>{{ $student->latin_name }}</td> --}}
                     <td>{{ $student->gender }}</td>
                     <td>{{ $student->dob }}</td>
