@@ -39,7 +39,7 @@ class StudentInfoImport implements ToCollection, WithHeadingRow
                     'gender' => trim(substr($row['gender'], 0, 1)),
                     'nationality' => $row['nationality'],
                     'dob' => $formatted_dob,
-                    'campus' => $row['campus'],
+                    'campus' => is_numeric($row['campus']) ? (int)$row['campus'] : $row['campus'],
                     'profile_no' => preg_replace('/\s+/', '', $row['profile_no']),
                     'certi_no' => preg_replace('/\s+/', '', $row['certi_no']),
                     'moey_no' => preg_replace('/\s+/', '', $row['moey_no']),

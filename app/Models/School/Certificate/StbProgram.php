@@ -12,5 +12,5 @@ class StbProgram extends Model
     public function grade()
     {
         return $this->hasMany(StbGrade::class, 'program_id' , 'id');
-    }
+    }   
 }

@@ -80,9 +80,10 @@ class StbClCertificateController extends Controller
     }
     
     public function certificateBatchSection($academicbatch){
-        $academicBatch = StbAcademicBatch::where('id', $academicbatch)->first();
+        // $academicBatch = StbAcademicBatch::where('id', $academicbatch)->first();
 
-        $academicBatchId = $academicBatch->id;
+        // $academicBatchId = $academicBatch->id;
+        $academicBatchId = $academicbatch;
         // $gradeId = $academicBatch->grade->id;
         // $programId = $academicBatch->grade->program->id;
         

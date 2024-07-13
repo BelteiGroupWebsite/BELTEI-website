@@ -52,7 +52,8 @@ class CertificateSearch extends Component
     {
         $batchId = $this->batch;
 
-        $academicBatch = StbAcademicBatch::with(['grade', 'grade.program'])->find($batchId);
+        // $academicBatch = StbAcademicBatch::with(['grade', 'grade.program'])->find($batchId);
+        $academicBatch = StbAcademicBatch::find($batchId);
 
         $grade = $academicBatch->grade;
         
