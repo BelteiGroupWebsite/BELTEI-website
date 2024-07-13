@@ -20,7 +20,6 @@ class StbGrade extends Model
         // return $this->hasMany(StbAcademicBatch::class, 'grade_id', 'id')
         // ->orderByDesc('batch')
         // ->orderByDesc('start_academic_year');
-        dd
     }
     
     public function getSortedAcademicBatchAttribute()
