@@ -45,12 +45,12 @@
             </a>
         </div>
     </ul>
-    {{-- <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
+    <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
         <a class="w-100" href="/">
-            <img class="w-100" src="https://www.beltei.edu.kh/khm/images/beltei_pic/belgroupkh.png" alt="">
+            <img class="w-100" src="{{ asset('asset/img/school/app/photo_2024-07-13_17-07-50.jpg') }}" alt="">
         </a>
     </ul>
-    <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
+    {{-- <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
         <a class="w-100" href="/">
             <img class="w-100" src="https://www.beltei.edu.kh/khm/images/homepics/hotnew_ay_2023.png" alt="">
         </a>
@@ -64,69 +64,69 @@
         <a class="list-group-item text-center gold font-bold">{{ __('school/app.generalProgram') }}</a>
         {{-- <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 12]) }}" class="list-group-item text-danger font-bold text-center"> --}}
         <a class="list-group-item" href="{{ route('school.certificate' , 1) }}" class="list-group-item text-danger font-bold text-center">
-            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
-                <p class="text-danger font-bold text-center Khmer-OS-Koulen">
+            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/G12.jpg') }}" alt="">
+                <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.highSchoolDiploma') }}
                 </p>
             </div>
         </a>
-        <a class="list-group-item" href="{{ route('school.certificate' , 2) }}" class="list-group-item text-danger font-bold text-center">
-            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/13.jpg" alt="">
-                <p class="text-danger font-bold text-center Khmer-OS-Koulen">
+        <a class="list-group-item" href="{{ route('school.certificate' , 2) }}" class="list-group-item text-white font-bold text-center">
+            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/G9.png') }}" alt="">
+                <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.juniorHighSchool') }}
                 </p>
             </div>
         </a>
-        <a class="list-group-item" href="{{ route('school.certificate' , 3) }}" class="list-group-item text-danger font-bold text-center">
-            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
-                <p class="text-danger font-bold text-center Khmer-OS-Koulen">
+        <a class="list-group-item" href="{{ route('school.certificate' , 3) }}" class="list-group-item text-white font-bold text-center">
+            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/G6.png') }}" alt="">
+                <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.primaryCertificate') }}
                 </p>
             </div>
         </a>
         
         <a class="list-group-item text-center gold font-bold">{{ __('school/app.ESLProgram') }}</a>
-        <a class="list-group-item" href="{{ route('school.certificate' , 4) }}" class="list-group-item text-danger font-bold text-center">
-            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
-                <p class="text-danger font-bold text-center Khmer-OS-Koulen">
+        <a class="list-group-item" href="{{ route('school.certificate' , 4) }}" class="list-group-item text-white font-bold text-center">
+            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/L12.jpg') }}" alt="">
+                <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.highSchoolDiploma') }}
                 </p>
             </div>
         </a>
-        <a class="list-group-item" href="{{ route('school.certificate' , 5) }}" class="list-group-item text-danger font-bold text-center">
-            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/13.jpg" alt="">
-                <p class="text-danger font-bold text-center Khmer-OS-Koulen">
+        <a class="list-group-item" href="{{ route('school.certificate' , 5) }}" class="list-group-item text-white font-bold text-center">
+            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/L6.jpg') }}" alt="">
+                <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.juniorHighSchool') }}
                 </p>
             </div>
         </a>
-        <a class="list-group-item" href="{{ route('school.certificate' ,6) }}" class="list-group-item text-danger font-bold text-center">
-            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
-                <p class="text-danger font-bold text-center Khmer-OS-Koulen">
+        <a class="list-group-item" href="{{ route('school.certificate' ,6) }}" class="list-group-item text-white font-bold text-center">
+            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/PS6.jpg') }}" alt="">
+                <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.primaryCertificate') }}
                 </p>
             </div>
         </a>
 
         <a class="list-group-item text-center gold font-bold">{{ __('school/app.IMA') }}</a>
-        <a class="list-group-item" href="{{ route('school.certificate' , 7) }}" class="list-group-item text-danger font-bold text-center">
-            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border border-end-2 Red-color-border" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/14.jpg" alt="">
-                <p class="text-danger font-bold text-center Khmer-OS-Koulen">
+        <a class="list-group-item" href="{{ route('school.certificate' , 7) }}" class="list-group-item text-white font-bold text-center">
+            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/ima.jpg') }}" alt="">
+                <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.IMA11') }}
                 </p>
             </div>
         </a>
-        <a class="list-group-item" href="{{ route('school.certificate' , 8) }}" class="list-group-item text-danger font-bold text-center">
-            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded" style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border border-end-2 Red-color-border" src="https://beltei.edu.kh/khm/images/specialevents/graduation_g9_2023_g3/13.jpg" alt="">
-                <p class="text-danger font-bold text-center Khmer-OS-Koulen">
+        <a class="list-group-item" href="{{ route('school.certificate' , 8) }}" class="list-group-item text-white font-bold text-center">
+            <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/ima.jpg') }}" alt="">
+                <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.IMA6') }}
                 </p>
             </div>
