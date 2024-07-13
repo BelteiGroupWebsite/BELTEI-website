@@ -77,7 +77,7 @@
                                     <input required class="form-control" name="certificateInformationExcel"
                                         id="certificateInformationExcel" accept=".xlsx, .xls , .scv" type="file">
                                     <a class="btn btn-info text-white" download id="test"
-                                        href="{{ asset('asset/pdf/admin/university/exampleExcelList.xls') }}">?</a>
+                                        href="{{ asset('asset/pdf/admin/university/exampleExcelList.xlsx') }}">?</a>
                                 </div>
                             </div>
                             <div class="col-6 mb-3">

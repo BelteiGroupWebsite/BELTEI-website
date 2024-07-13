@@ -75,7 +75,7 @@
                                     @enderror
                                     <a class="btn btn-info text-white" title="Example Excel List" id="test"
                                     download
-                                        href="{{ asset('asset/pdf/admin/school/exampleExcelList.xls') }}">?</a>
+                                        href="{{ asset('asset/pdf/admin/school/exampleExcelList.xlsx') }}">?</a>
                                 </div>
                                 {{-- <div class="form-group d-flex">
                                     <input class="form-control" required name="certificateInformationExcel"
@@ -93,7 +93,7 @@
                                     @error('certificateReferencePDF')
                                         <div class="alert alert-danger mt-2">{{ $message }}</div>
                                     @enderror
-                                    <a class="btn btn-info text-white" id="test" download href="{{ asset('asset/pdf/admin/school/exampleReference.xls') }}">Download</a>
+                                    <a class="btn btn-info text-white" id="test" download href="{{ asset('asset/pdf/admin/school/exampleReference.xlsx') }}">Download</a>
 
                                 </div>
                                 {{-- <div class="form-group d-flex">
