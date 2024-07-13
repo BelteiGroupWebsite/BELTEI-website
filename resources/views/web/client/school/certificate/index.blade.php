@@ -32,7 +32,7 @@
                 </tr>
             </thead>
             <tbody>
-                {{-- @foreach ($grades->academicBatch as $academicBatch)
+                @foreach ($grades->academicBatch as $academicBatch)
                     <tr>
 
                         <td>{{ $academicBatch->batch }}</td>
@@ -46,7 +46,7 @@
                             <a style="text-decoration: underline;" href="{{ asset('storage/'.$academicBatch->reference) }}">{{ __('school/certificate/index.reference') }}</a>
                         </td>
                     </tr>
-                @endforeach --}}
+                @endforeach
             </tbody>
         </table>
 
