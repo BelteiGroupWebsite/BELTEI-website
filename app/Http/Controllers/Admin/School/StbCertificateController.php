@@ -252,31 +252,31 @@ class StbCertificateController extends Controller
     
             // Check if related student_info exists before deleting
             if ($academicBatch->studentInfo()->exists()) {
-                foreach($academicBatch->studentInfo as $studentInfo) {
-                    $programId = $academicBatch->grade->program->id;
-                    $gradeId = $academicBatch->grade->id;
-                    $batchId = $academicBatch->id;
+                // foreach($academicBatch->studentInfo as $studentInfo) {
+                //     $programId = $academicBatch->grade->program->id;
+                //     $gradeId = $academicBatch->grade->id;
+                //     $batchId = $academicBatch->id;
     
-                    $profilePath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$studentInfo->profile_no.'.jpg';
-                    $belteiPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$studentInfo->certi_no.'.jpg';
-                    $moeyPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$studentInfo->moey_id.'.jpg';
-                    $idPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/il/'.$studentInfo->il_id.'.jpg';
+                //     $profilePath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/profile/'.$studentInfo->profile_no.'.jpg';
+                //     $belteiPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/beltei/'.$studentInfo->certi_no.'.jpg';
+                //     $moeyPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/moey/'.$studentInfo->moey_id.'.jpg';
+                //     $idPath = 'storage/upload/certificate/school/'.$programId.'/'.$gradeId.'/'.$batchId.'/il/'.$studentInfo->il_id.'.jpg';
                     
-                    if (file_exists($profilePath)) {
-                        unlink($profilePath);
-                    }
+                //     if (file_exists($profilePath)) {
+                //         unlink($profilePath);
+                //     }
     
-                    if (file_exists($belteiPath)) {
-                        unlink($belteiPath);
-                    }
+                //     if (file_exists($belteiPath)) {
+                //         unlink($belteiPath);
+                //     }
     
-                    if (file_exists($moeyPath)) {
-                        unlink($moeyPath);
-                    }
-                    if (file_exists($idPath) && is_file($idPath)) {
-                        unlink($idPath);
-                    }
-                }
+                //     if (file_exists($moeyPath)) {
+                //         unlink($moeyPath);
+                //     }
+                //     if (file_exists($idPath) && is_file($idPath)) {
+                //         unlink($idPath);
+                //     }
+                // }
                 
                 $academicBatch->studentInfo()->delete();
                 Log::info('Related student_info records and files deleted', ['academicBatch_id' => $id]);
