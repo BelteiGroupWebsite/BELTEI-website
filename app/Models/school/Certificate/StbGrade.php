@@ -16,11 +16,11 @@ class StbGrade extends Model
 
     public function academicBatch()
     {
-        // return $this->hasMany(StbAcademicBatch::class, 'grade_id', 'id');
         return $this->hasMany(StbAcademicBatch::class, 'grade_id', 'id')
-        ->orderByDesc('batch')
-        ->orderByDesc('start_academic_year');
+                    ->orderByRaw('CAST(batch AS UNSIGNED) DESC')
+                    ->orderByDesc('start_academic_year');
     }
+    
     
     public function getSortedAcademicBatchAttribute()
     {
