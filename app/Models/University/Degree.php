@@ -18,7 +18,10 @@ class Degree extends Model
     ];
     
     public function degreeAcademicbatch(){
-        return $this->hasMany(UtbDegreeAcademicbatch::class, 'degree_id', 'id');
+        // return $this->hasMany(UtbDegreeAcademicbatch::class, 'degree_id', 'id')->orderByDesc('batch' || 'academic_year');
+        return $this->hasMany(UtbDegreeAcademicbatch::class, 'degree_id', 'id')
+        ->orderByDesc('batch')
+        ->orderByDesc('academic_year');
     }
     
     public function certificate()
