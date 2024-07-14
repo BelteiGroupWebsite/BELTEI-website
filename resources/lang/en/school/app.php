@@ -142,6 +142,7 @@ return [
     'juniorHighSchool' => "BELTEI JUNIOR HIGH SCHOOL DIPLOMA",
     'primaryCertificate' => "BELTEI PRIMARY CERTIFICATE",
 
+    'ima9' => "",
 
     'ESLProgram' => "ESL Program",
 

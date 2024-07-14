@@ -93,7 +93,7 @@
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/4.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
-                    {{ __('school/app.highSchoolDiploma') }}
+                    {{ __('school/app.ESLDiploma') }}
                 </p>
             </div>
         </a>
@@ -101,7 +101,7 @@
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/5.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
-                    {{ __('school/app.juniorHighSchool') }}
+                    {{ __('school/app.ESLlevel6') }}
                 </p>
             </div>
         </a>
@@ -109,7 +109,7 @@
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/6.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
-                    {{ __('school/app.primaryCertificate') }}
+                    Preschool 6
                 </p>
             </div>
         </a>
