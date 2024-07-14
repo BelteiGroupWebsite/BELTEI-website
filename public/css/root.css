@@ -5,6 +5,11 @@
     --text-color-testcenter-header: #2957a4;
 }
 
+.container{
+    max-width: 1320px;
+    width: 100% !important;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Moul&family=Roboto&display=swap");
 
 @font-face {

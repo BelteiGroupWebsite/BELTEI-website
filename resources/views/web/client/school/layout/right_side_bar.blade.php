@@ -65,7 +65,7 @@
         {{-- <a class="list-group-item" href="{{ route('school.certificate' , ['program'=>1 , 'grade' => 12]) }}" class="list-group-item text-danger font-bold text-center"> --}}
         <a class="list-group-item" href="{{ route('school.certificate' , 1) }}" class="list-group-item text-danger font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/G12.jpg') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/1.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.highSchoolDiploma') }}
                 </p>
@@ -73,7 +73,7 @@
         </a>
         <a class="list-group-item" href="{{ route('school.certificate' , 2) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/G9.png') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/2.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.juniorHighSchool') }}
                 </p>
@@ -81,7 +81,7 @@
         </a>
         <a class="list-group-item" href="{{ route('school.certificate' , 3) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/G6.png') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/3.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.primaryCertificate') }}
                 </p>
@@ -91,7 +91,7 @@
         <a class="list-group-item text-center gold font-bold">{{ __('school/app.ESLProgram') }}</a>
         <a class="list-group-item" href="{{ route('school.certificate' , 4) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/L12.jpg') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/4.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.highSchoolDiploma') }}
                 </p>
@@ -99,7 +99,7 @@
         </a>
         <a class="list-group-item" href="{{ route('school.certificate' , 5) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/L6.jpg') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/5.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.juniorHighSchool') }}
                 </p>
@@ -107,7 +107,7 @@
         </a>
         <a class="list-group-item" href="{{ route('school.certificate' ,6) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/PS6.jpg') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/6.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.primaryCertificate') }}
                 </p>
@@ -117,7 +117,7 @@
         <a class="list-group-item text-center gold font-bold">{{ __('school/app.IMA') }}</a>
         <a class="list-group-item" href="{{ route('school.certificate' , 7) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/ima.jpg') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/7.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.IMA11') }}
                 </p>
@@ -125,7 +125,7 @@
         </a>
         <a class="list-group-item" href="{{ route('school.certificate' , 8) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center gap-3 Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/ima.jpg') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/8.jpg') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen">
                     {{ __('school/app.IMA6') }}
                 </p>

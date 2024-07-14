@@ -4,14 +4,35 @@
 @section('content')
     <div class="container">
 
-        <table class="table table-bordered table-hover title-translate-font vertical-align-middle" id="box-table-a"
+        {{-- <div class="d-flex gap-3 bg-header-color align-items-center  border border-3 position-relative overflow-hidden" style="border-radius: 1rem;">
+            <img class="max-width-80 float-end" src="{{ asset('asset\img\school\app\G6.png') }}" alt="">
+            <div class="title-translate-font w-100" style="color: gold">
+                <h4>{{ $grades->grade_kh }}</h4>
+                <h4 class="pt-2 text-uppercase">{{ $grades->grade_latin }}</h4>
+            </div>
+        </div> --}}
+        
+        
+        <table class="table table-bordered table-hover title-translate-font vertical-align-middle overflow-hidden shadow-sm" id="box-table-a"
             border="0" width="100%" align="center">
-            <thead>
+            <thead class="align-middle">
                 <tr>
+                    <td colspan="10" class="p-0">
+                        <div class="d-flex gap-3 bg-header-color align-items-center position-relative overflow-hidden">
+                            <img class="max-width-80 float-end" src="{{ asset('asset/img/school/app/' . $grades->id . '.jpg') }}" alt="">
+
+                            <div class="title-translate-font w-100" style="color: gold">
+                                <h4>{{ $grades->grade_kh }}</h4>
+                                <h4 class="pt-2 text-uppercase">{{ $grades->grade_latin }}</h4>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                {{-- <tr>
                     <td class="label bg-success text-white py-4" colspan="6" width="100">
                         <h5>{{ __('school/certificate/index.header') }}</h5>
                     </td>
-                </tr>
+                </tr> --}}
                 <tr class="" style="background-color: lightblue">
 
                     {{-- @if ($program == 1)
@@ -47,6 +68,7 @@
                         </td>
                     </tr>
                 @endforeach
+                
             </tbody>
         </table>
 
