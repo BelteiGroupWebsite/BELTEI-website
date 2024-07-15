@@ -67,6 +67,23 @@ Route::get('/asset-link', function () {
         return 'Error creating symbolic link: ' . $e->getMessage();
     }
 });
+Route::get('/uploaded-link', function () {
+    $targetFolder = public_path('uploaded');
+    $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/uploaded';
+
+    try {
+        // Check if the symlink already exists
+        if (!file_exists($linkFolder)) {
+            // Create the symbolic link
+            symlink($targetFolder, $linkFolder);
+            return 'Symbolic link created successfully.';
+        } else {
+            return 'Symbolic link already exists.';
+        }
+    } catch (\Throwable $e) {
+        return 'Error creating symbolic link: ' . $e->getMessage();
+    }
+});
 // Route::get('/storage-link', function () {
 //     // Define the paths
 //     $targetFolder = storage_path('app/public');
