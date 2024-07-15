@@ -21,7 +21,7 @@
 
                     <div class=" w-100 h-100">
                         <div class="float-start w-50 content-translate-font">
-                            <p id="newsDescription" class="text-justify">
+                            <p id="newsDescription" class="text-justify pt-2">
                                 {!! $item->description !!}
                             </p>
                         </div>
