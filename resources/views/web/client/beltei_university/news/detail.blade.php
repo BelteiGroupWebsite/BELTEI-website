@@ -13,11 +13,11 @@
 
             @foreach ($news->newsDetail as $item)
                 @if ($item->language->key == app()->getLocale())
-                    <h4 class="title-translate-font mb-4 text-center" id="newsHeader">
+                    <h5 class="title-translate-font mb-4 text-center" id="newsHeader">
                         {{ $item->header }}
 
 
-                    </h4>
+                    </h5>
 
                     <div class=" w-100 h-100">
                         <div class="float-start w-50 content-translate-font">
