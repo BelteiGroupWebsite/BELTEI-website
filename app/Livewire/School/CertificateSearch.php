@@ -6,9 +6,11 @@ use App\Models\school\AcademicBatch;
 use App\Models\school\Certificate;
 use App\Models\School\Certificate\StbAcademicBatch;
 use Livewire\Component;
+use Livewire\WithPagination;
 
 class CertificateSearch extends Component
 {
+    use WithPagination;
     public $search = "";
     public $program;
     public $batch;
@@ -19,8 +21,8 @@ class CertificateSearch extends Component
         $this->batch = $batch;
     }
 
-    
-    
+
+
     // public function render()
     // {
     //     $batchId = $this->batch;
@@ -33,9 +35,9 @@ class CertificateSearch extends Component
     //     $ielts = $academicBatch->grade->ielts;
 
     //     $gradeId = $academicBatch->grade->id;
-        
+
     //     $programId = $academicBatch->grade->program->id;
-    
+
     //     if (strlen($this->search) >= 1) {
     //         $studentInfos = $academicBatch->studentInfo()->where('certi_no', 'like', '%' . $this->search . '%')
     //                       ->orWhere('khmer_name', 'like', '%' . $this->search . '%')
@@ -43,7 +45,7 @@ class CertificateSearch extends Component
     //     } else {
     //         $studentInfos = $academicBatch->studentInfo()->paginate(30);
     //     }
-    
+
     //     return view('livewire.school.certificate-search', compact('studentInfos' , 'programId' , 'gradeId' , 'batchId'));
     // }
 
@@ -56,7 +58,7 @@ class CertificateSearch extends Component
         $academicBatch = StbAcademicBatch::find($batchId);
 
         $grade = $academicBatch->grade;
-        
+
 
 
         $profile = $grade->profile;
@@ -82,6 +84,6 @@ class CertificateSearch extends Component
         return view('livewire.school.certificate-search', compact('studentInfos', 'programId', 'gradeId', 'batchId' , 'profile' , 'beltei' , 'moey' , 'ielts'));
     }
 
-    
-    
+
+
 }
