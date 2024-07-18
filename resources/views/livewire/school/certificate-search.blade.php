@@ -131,7 +131,7 @@
 
     </table>
 
-    {{ $studentInfos->links() }}
+    {{ $studentInfos->links('vendor.livewire.bootstrap') }}
 
 
 </div>
