@@ -111,7 +111,7 @@ class NewsController extends Controller
             abort(404, 'Category not found');
         }
         // Return the appropriate view
-        return view("web.client.{$category}.news.detail", compact('news' , 'category'));
+        return view("web.client.beltei_university.news.detail", compact('news' , 'category'));
     }
 
     /**

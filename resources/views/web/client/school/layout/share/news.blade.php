@@ -6,7 +6,7 @@
     <hr>
 
         {{-- Hot News  --}}
-        <a href="{{ route('school.news.detail' , $bis_news->first()->id) }}" class="card card-body d-flex">
+        <a href="{{ route('beltei_university.news.detail' , $bis_news->first()->id) }}" class="card card-body d-flex">
             {{-- <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex"> --}}
             <div class="overflow-hidden">
                 @if ($bis_news->first()->image)
@@ -48,7 +48,7 @@
         @foreach ($bis_news as $news)
             
         {{-- <a href="{{ route('school.news.') }}?id=2" class="col-6 d-flex align-items-center border"> --}}
-        <a href="{{ route('school.news.detail' , $news->id) }}" class="col-6 d-flex align-items-center border">
+        <a href="{{ route('beltei_university.news.detail' , $news->id) }}" class="col-6 d-flex align-items-center border">
             <div class="min-width-100 overflow-hidden">
 
                 @if ($news->image)

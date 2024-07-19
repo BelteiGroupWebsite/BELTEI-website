@@ -1,4 +1,5 @@
-@extends('web.client.beltei_university.layout.app')
+{{-- @extends('web.client.beltei_university.layout.app') --}}
+@extends('web.client.'.$category.'.layout.app')
 
 @section('content')
 
