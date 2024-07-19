@@ -304,6 +304,8 @@ Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.'], function () {
 
 });
 
+Route::get('new/detail/{id}', [NewsController::class, 'show'])->name('beltei_university.news.detail');
+
 Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], function () {
 
     Route::view('/' , 'web.client.beltei_university.index');
@@ -350,7 +352,7 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
         Route::view('/' , 'web.client.beltei_university.news.news');
         // Route::view('/detail/{id}' , 'web.client.beltei_university.news.detail');
-        Route::get('detail/{id}', [NewsController::class, 'show'])->name('detail');
+        // Route::get('detail/{id}', [NewsController::class, 'show'])->name('detail');
 
     });
 
