@@ -49,14 +49,14 @@
             
         {{-- <a href="{{ route('school.news.') }}?id=2" class="col-6 d-flex align-items-center border"> --}}
         <a href="{{ route('beltei_university.news.detail' , $news->id) }}" class="col-6 d-flex align-items-center border">
-            <div class="min-width-100 overflow-hidden">
+            <div class="min-width-150 overflow-hidden">
 
                 @if ($news->image)
-                        @foreach (array_slice(explode(',', $news->image), 0, 1) as $newsImg)
-                            <img class="rounded shadow-sm width-100" loading="lazy"
-                                src="{{ asset('uploaded/university/news/images/' . $news->id . '/' . $newsImg) }}"
-                                alt="News Image">
-                        @endforeach
+                    @foreach (array_slice(explode(',', $news->image), 0, 1) as $newsImg)
+                        <img class="rounded shadow-sm width-100" loading="lazy"
+                            src="{{ asset('uploaded/university/news/images/' . $news->id . '/' . $newsImg) }}"
+                            alt="News Image">
+                    @endforeach
                 @endif
                 
             </div>
