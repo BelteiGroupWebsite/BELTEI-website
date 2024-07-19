@@ -34,7 +34,7 @@
                         @if ($item->language_id == 1)
                             <div onclick="toggleDescription(this)" class="cursor-pointer "
                                 data-fulltext="{{ $item->description }}">
-                                {{ Str::limit($item->description, 500) }}
+                                {{ __(Str::limit($item->description, 500)) }}
                             </div>
                         @endif
                     @endforeach
