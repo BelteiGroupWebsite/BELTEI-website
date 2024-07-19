@@ -42,6 +42,6 @@
     </div>
 
     <div>
-        @include('web.client.beltei_university.layout.share.news')
+        @include('web.client.'.$category.'.layout.share.news')
     </div>
 @endsection
