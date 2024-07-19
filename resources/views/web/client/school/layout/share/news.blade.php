@@ -48,8 +48,8 @@
         @foreach ($bis_news as $news)
             
         {{-- <a href="{{ route('school.news.') }}?id=2" class="col-6 d-flex align-items-center border"> --}}
-        <a href="{{ route('beltei_university.news.detail' , $news->id) }}" class="col-6 d-flex align-items-center border">
-            <div class="min-width-150 overflow-hidden">
+        <a href="{{ route('beltei_university.news.detail' , $news->id) }}" class="col-6 row align-items-center border">
+            <div class=" col-6 overflow-hidden">
 
                 @if ($news->image)
                     @foreach (array_slice(explode(',', $news->image), 0, 1) as $newsImg)
@@ -60,7 +60,7 @@
                 @endif
                 
             </div>
-            <div class="p-2 ">
+            <div class="p-2 col-6 ">
                 <h6 class="Muol-Light f12 line-height-15">
                     @foreach ($news->newsDetail as $item)
                         @if ($item->language_id == 1)
