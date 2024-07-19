@@ -47,7 +47,7 @@
         @foreach ($biu_news as $news)
             
         <a href="{{ route('beltei_university.news.detail' , $news->id) }}" class="col-6 row align-items-center border m-0">
-            <div class=" col-4 overflow-hidden">
+            <div class=" col-6 overflow-hidden">
 
                 @if ($news->image)
                     @foreach (array_slice(explode(',', $news->image), 0, 1) as $newsImg)
