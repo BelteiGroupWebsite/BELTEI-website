@@ -1,4 +1,4 @@
-@extends('web.client.school.layout.app')
+@extends('web.client.beltei_university.layout.app')
 
 @section('content')
 
