@@ -67,6 +67,7 @@ Route::get('/asset-link', function () {
         return 'Error creating symbolic link: ' . $e->getMessage();
     }
 });
+
 Route::get('/uploaded-link', function () {
     $targetFolder = public_path('uploaded');
     $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/uploaded';

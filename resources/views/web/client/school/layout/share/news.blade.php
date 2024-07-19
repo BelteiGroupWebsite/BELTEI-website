@@ -32,7 +32,7 @@
     <div class="row p-0 m-0">
 
 
-        <a href="{{ route('school.news.') }}?id=2" class="col-6 d-flex align-items-center border d-block-600px p-2">
+        {{-- <a href="{{ route('school.news.') }}?id=2" class="col-6 d-flex align-items-center border d-block-600px p-2">
             <div class="max-width-150 w-100 overflow-hidden">
                 <img class="w-100" src="{{ asset('asset/img/school/dailyNews/2/2.jpg') }}" alt="">
             </div>
@@ -85,8 +85,41 @@
                     សាលា​ ប៊ែលធី​ អន្តរ​ជាតិ​ បាន​ប្រារព្ធ​ពិធី​ប្រគល់​វិញ្ញា​បន​បត្រ​ជូន​ដល់​សិស្សា​នុសិស្ស​ភាសា​អង់​គ្លេស​ទូទៅ
                 </p>
             </div>
-        </a>
+        </a> --}}
 
+        @foreach ($bis_news as $news)
+            
+        {{-- <a href="{{ route('school.news.') }}?id=2" class="col-6 d-flex align-items-center border"> --}}
+        <a href="{{ route('beltei_university.news.detail' , $news->id) }}" class="col-6 d-flex align-items-center border">
+            <div class="min-width-100 overflow-hidden">
+
+                @if ($news->image)
+                        @foreach (array_slice(explode(',', $news->image), 0, 1) as $newsImg)
+                            <img class="rounded shadow-sm width-100" loading="lazy"
+                                src="{{ asset('uploaded/university/news/images/' . $news->id . '/' . $newsImg) }}"
+                                alt="News Image">
+                        @endforeach
+                @endif
+                
+            </div>
+            <div class="p-3 ">
+                <h6 class="Muol-Light f12 line-height-15">
+                    @foreach ($news->newsDetail as $item)
+                        @if ($item->language_id == 1)
+                            <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                data-fulltext="{{ $item->header }}">
+                                {{ Str::limit($item->header, 80) }}
+                            </div>
+                        @endif
+                    @endforeach
+                </h6>
+                <p class="text-danger">
+                    {{ \DateTime::createFromFormat('Y-m-d', $news->date)->format('d/m/y') }}
+                </p>
+                
+            </div>
+        </a>
+    @endforeach
 
 
     </div>
