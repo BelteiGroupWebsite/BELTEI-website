@@ -43,7 +43,7 @@
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.D') }}</h6>
         </a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D1') }}</a>
-        <a href="{{ route('school.construnction') }}" class="list-group-item text-white">{{ __('school/app.D2') }}</a>
+        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D2') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D3') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D4') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D5') }}</a>
