@@ -72,7 +72,7 @@
                     @endforeach
                 </h6>
                 <p class="text-danger">
-                    {{ \DateTime::createFromFormat('Y-m-d', $news->date)->format('d/m/y') }}
+                    {{ \DateTime::createFromFormat('Y-m-d', $news->date)->format('d/M/Y') }}
                 </p>
                 
             </div>
