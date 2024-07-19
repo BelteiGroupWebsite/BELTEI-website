@@ -102,7 +102,7 @@
         
     </table>
 
-    {{ $certificates->links() }}
+    {{ $certificates->links('vendor.livewire.bootstrap') }}
     
     
 </div>
