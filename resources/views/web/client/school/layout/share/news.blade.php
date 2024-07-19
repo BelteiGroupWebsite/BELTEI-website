@@ -53,14 +53,14 @@
 
                 @if ($news->image)
                     @foreach (array_slice(explode(',', $news->image), 0, 1) as $newsImg)
-                        <img class="rounded shadow-sm width-100" loading="lazy"
+                        <img class="rounded shadow-sm min-width-150" loading="lazy"
                             src="{{ asset('uploaded/university/news/images/' . $news->id . '/' . $newsImg) }}"
                             alt="News Image">
                     @endforeach
                 @endif
                 
             </div>
-            <div class="p-3 ">
+            <div class="p-2 ">
                 <h6 class="Muol-Light f12 line-height-15">
                     @foreach ($news->newsDetail as $item)
                         @if ($item->language_id == 1)
