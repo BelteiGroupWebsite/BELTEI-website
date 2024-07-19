@@ -5,13 +5,13 @@
     </div>
     <hr>
     {{-- Hot News  --}}
-    <a href="{{ route('beltei_university.news.detail' , $bis_news->first()->id) }}" class="card card-body d-flex">
+    <a href="{{ route('beltei_university.news.detail' , $biu_news->first()->id) }}" class="card card-body d-flex">
         {{-- <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex"> --}}
         <div class="overflow-hidden">
-            @if ($bis_news->first()->image)
-                @foreach (array_slice(explode(',', $bis_news->first()->image), 0, 1) as $newsImg)
+            @if ($biu_news->first()->image)
+                @foreach (array_slice(explode(',', $biu_news->first()->image), 0, 1) as $newsImg)
                     <img class="rounded shadow-sm width-100 w-100" loading="lazy"
-                        src="{{ asset('uploaded/university/news/images/' . $bis_news->first()->id . '/' . $newsImg) }}"
+                        src="{{ asset('uploaded/university/news/images/' . $biu_news->first()->id . '/' . $newsImg) }}"
                         alt="News Image">
                 @endforeach
             @endif
@@ -19,7 +19,7 @@
         </div>
         <div class="p-3">
             <h6 class="Muol-Light line-height-15">
-                @foreach ($bis_news->first()->newsDetail as $item)
+                @foreach ($biu_news->first()->newsDetail as $item)
                     @if ($item->language_id == 1)
                         <div onclick="toggleDescription(this)" class="cursor-pointer "
                             data-fulltext="{{ $item->header }}">
@@ -29,7 +29,7 @@
                 @endforeach
             </h6>
             {{-- <p class="Battambang-Regular f14 line-height-15">​
-                @foreach ($bis_news->first()->newsDetail as $item)
+                @foreach ($biu_news->first()->newsDetail as $item)
                     @if ($item->language_id == 1)
                         <div onclick="toggleDescription(this)" class="cursor-pointer "
                             data-fulltext="{{ $item->description }}">
