@@ -27,7 +27,7 @@
         </a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C1') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C2') }}</a>
-        <a href="{{ route('school.contruction') }}" class="list-group-item text-white">{{ __('school/app.C3') }}</a>
+        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C3') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white f12">{{ __('school/app.C4') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C5') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C6') }}</a>
