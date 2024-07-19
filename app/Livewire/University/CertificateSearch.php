@@ -7,9 +7,11 @@ use App\Models\University\Certificate;
 use App\Models\University\Certificate\UtbDegreeAcademicbatch;
 use App\Models\University\Degree;
 use Livewire\Component;
+use Livewire\WithPagination;
 
 class CertificateSearch extends Component
 {
+    use WithPagination;
 
     public $search = "";
     public $degree;
@@ -21,8 +23,8 @@ class CertificateSearch extends Component
         $this->batch = $batch;
     }
 
-    
-    
+
+
     public function render()
     {
         $degreeId = $this->degree;
@@ -34,10 +36,10 @@ class CertificateSearch extends Component
         $batchId = $this->batch;
 
         $degreeAcademicbatch = UtbDegreeAcademicbatch::where('id' , $this->batch)->first();
-        
+
         // $academicBatches = AcademicBatch::where('degree_id', $this->degree)->where('batch', $this->batch)->first();
         // $academicBatchesId = $academicBatches ? $academicBatches->id : 0;
-    
+
         if (strlen($this->search) >= 1) {
             $certificates = $degreeAcademicbatch->studentInfo()->where('certi_no', 'like', '%' . $this->search . '%')
                           ->orWhere('khmer_name', 'like', '%' . $this->search . '%')
@@ -53,8 +55,8 @@ class CertificateSearch extends Component
             // $certificates = Certificate::where('academic_year_id', $academicBatchesId)->paginate(50);
             $certificates = $degreeAcademicbatch->studentInfo()->paginate(30);
         }
-    
+
         return view('livewire.university.certificate-search', compact('certificates' , 'degreeId' , 'batchId' , 'batchCert'));
     }
-    
+
 }

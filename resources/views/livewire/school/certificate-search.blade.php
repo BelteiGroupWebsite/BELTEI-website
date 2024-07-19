@@ -24,7 +24,7 @@
                 {{-- <td>{{ __('beltei_university/certificate/certificate.latin_name') }}</td> --}}
                 <td>{{ __('beltei_university/certificate/certificate.gender') }}</td>
                 <td>{{ __('beltei_university/certificate/certificate.dob') }}</td>
-                
+
                 @if ($profile)
                     <td>{{ __('beltei_university/certificate/certificate.profile') }}</td>
                 @endif
@@ -67,19 +67,19 @@
                         {{-- <td>{{ $student->latin_name }}</td> --}}
                         <td>{{ $student->gender }}</td>
                         <td>{{ $student->dob }}</td>
-    
-    
+
+
                         @if ($profile)
                             <td>
                                 <a
-                                    href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/profile/' . $student->profile . '.jpg') }}">
+                                    href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/profile/' . $student->profile_no . '.jpg') }}">
                                     <img style="max-width: 50px" loading="lazy"
-                                        src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/profile/' . $student->profile . '.jpg') }}"
+                                        src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/profile/' . $student->profile_no . '.jpg') }}"
                                         alt="Profile Image">
                                 </a>
                             </td>
                         @endif
-    
+
                         @if ($beltei)
                             <td>
                                 <a
@@ -90,7 +90,7 @@
                                 </a>
                             </td>
                         @endif
-    
+
                         @if ($moey)
                             <td>
                                 <a
@@ -101,7 +101,7 @@
                                 </a>
                             </td>
                         @endif
-    
+
                         @if ($ielts)
                             <td>
                                 <a
@@ -131,7 +131,7 @@
 
     </table>
 
-    {{ $studentInfos->links() }}
+    {{ $studentInfos->links('vendor.livewire.bootstrap') }}
 
 
 </div>
