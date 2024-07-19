@@ -53,7 +53,7 @@
 
                 @if ($news->image)
                     @foreach (array_slice(explode(',', $news->image), 0, 1) as $newsImg)
-                        <img class="rounded shadow-sm min-width-150" loading="lazy"
+                        <img class="rounded shadow-sm w-100" loading="lazy"
                             src="{{ asset('uploaded/university/news/images/' . $news->id . '/' . $newsImg) }}"
                             alt="News Image">
                     @endforeach
