@@ -166,7 +166,7 @@ Route::group(['prefix' => 'contruction', 'as' => 'contruction.'], function () {
 Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
 
     Route::view('/' , 'web.client.school.index');
-    Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
+    Route::view('/construction' , 'web.client.school.construction')->name('construction');
 
     
 
