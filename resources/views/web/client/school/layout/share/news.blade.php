@@ -29,16 +29,16 @@
                         @endif
                     @endforeach
                 </h6>
-                <p class="Battambang-Regular f14 line-height-15">​
+                {{-- <p class="Battambang-Regular f14 line-height-15">​
                     @foreach ($bis_news->first()->newsDetail as $item)
                         @if ($item->language_id == 1)
                             <div onclick="toggleDescription(this)" class="cursor-pointer "
                                 data-fulltext="{{ $item->description }}">
-                                {{-- {!! Str::limit($item->description) !!} --}}
+                                {!! Str::limit($item->description) !!}
                             </div>
                         @endif
                     @endforeach
-                </p>
+                </p> --}}
             </div>
         </a>
     
