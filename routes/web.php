@@ -230,6 +230,7 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
     });
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
         Route::view('/' , 'web.client.school.news.news');
+        Route::view('/' , 'web.client.school.news.news');
     });
     Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
         Route::view('/campusTemplete' , 'web.client.school.campus.campusTemplete')->name('campusTemplete');

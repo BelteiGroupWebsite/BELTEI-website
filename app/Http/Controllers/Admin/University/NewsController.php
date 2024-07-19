@@ -20,9 +20,9 @@ class NewsController extends Controller
 
         $news = News::paginate(100);
 
-        return view('web.admin.share.news.index' , compact('news'));
+        return view('web.admin.share.news.index', compact('news'));
     }
-    
+
     /**
      * Show the form for creating a new resource.
      */
@@ -42,7 +42,7 @@ class NewsController extends Controller
 
         $news->date = $request['date'];
         $news->category = $request['category'];
-        
+
         // Handling file uploads
         if ($request->hasFile('images')) {
             $newsImgs = $request->file('images');
@@ -82,7 +82,7 @@ class NewsController extends Controller
 
         return back()->with(['success' => "The News has been created !"]);
     }
-    
+
 
 
 
@@ -91,13 +91,27 @@ class NewsController extends Controller
      */
     public function show(string $id)
     {
-        //
-
         $news = News::findOrfail($id);
-        
-        
-        return view('web.client.beltei_university.news.detail' , compact('news'));
-        
+        $categories = [
+            1 => 'contruction_news',
+            2 => 'school',
+            3 => 'beltei_university',
+            4 => 'bir_news',
+            5 => 'tour_news',
+            6 => 'testcenter_news',
+            7 => 'charity_news',
+        ];
+
+        // Get the category name based on the news category
+        $categoryKey = $news->category;
+        if (array_key_exists($categoryKey, $categories)) {
+            $category = $categories[$categoryKey];
+        } else {
+            // Handle case where the category is not found in the array
+            abort(404, 'Category not found');
+        }
+        // Return the appropriate view
+        return view("web.client.{$category}.news.detail", compact('news' , 'category'));
     }
 
     /**
@@ -108,9 +122,9 @@ class NewsController extends Controller
         //
 
         $news = News::findOrfail($id);
-        
-        
-        return view('web.admin.share.news.edit' , compact('news'));
+
+
+        return view('web.admin.share.news.edit', compact('news'));
     }
 
     /**
@@ -120,10 +134,10 @@ class NewsController extends Controller
     {
         $languages = Language::get();
         $news = News::findOrFail($id); // Retrieve the existing news record by ID
-    
+
         $news->date = $request['date'];
         $news->category = $request['category'];
-        
+
         // Handling file uploads
         if ($request->hasFile('images')) {
             $newsImgs = $request->file('images');
@@ -136,7 +150,7 @@ class NewsController extends Controller
                 }
             }
 
-            
+
             foreach ($newsImgs as $newsImg) {
                 if ($newsImg->isValid()) {
                     $newImageName = substr(Str::uuid(), 0, 10) . '.' . $newsImg->getClientOriginalExtension();
@@ -147,34 +161,34 @@ class NewsController extends Controller
                     return back()->withErrors(['message' => 'Invalid file upload.']);
                 }
             }
-    
+
             // Update the news record with the new image paths
             $news->image = implode(',', $newsImgPaths);
         }
-    
+
         // Update the news record
         $news->save();
-    
+
         // Handling multilingual news details
         foreach ($languages as $language) {
             $newsDetail = NewsDetail::where('news_id', $news->id)
                 ->where('language_id', $language->id)
                 ->first();
-    
+
             if (!$newsDetail) {
                 $newsDetail = new NewsDetail();
                 $newsDetail->news_id = $news->id;
                 $newsDetail->language_id = $language->id;
             }
-    
+
             $newsDetail->header = $request['header-' . $language->key];
             $newsDetail->description = $request['description-' . $language->key];
             $newsDetail->save();
         }
-    
+
         return redirect()->route('admin.university.news.index')->with('success', 'News updated successfully.');
     }
-    
+
 
     /**
      * Remove the specified resource from storage.
