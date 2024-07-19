@@ -46,36 +46,35 @@
 
         @foreach ($biu_news as $news)
             
-            {{-- <a href="{{ route('school.news.') }}?id=2" class="col-6 d-flex align-items-center border"> --}}
-            <a href="{{ route('beltei_university.news.detail' , $news->id) }}" class="col-6 d-flex align-items-center border">
-                <div class="min-width-100 overflow-hidden">
+        <a href="{{ route('beltei_university.news.detail' , $news->id) }}" class="col-6 row align-items-center border m-0">
+            <div class=" col-6 overflow-hidden">
 
-                    @if ($news->image)
-                            @foreach (array_slice(explode(',', $news->image), 0, 1) as $newsImg)
-                                <img class="rounded shadow-sm width-100" loading="lazy"
-                                    src="{{ asset('uploaded/university/news/images/' . $news->id . '/' . $newsImg) }}"
-                                    alt="News Image">
-                            @endforeach
-                    @endif
-                    
-                </div>
-                <div class="p-3 ">
-                    <h6 class="Muol-Light f12 line-height-15">
-                        @foreach ($news->newsDetail as $item)
-                            @if ($item->language_id == 1)
-                                <div onclick="toggleDescription(this)" class="cursor-pointer "
-                                    data-fulltext="{{ $item->header }}">
-                                    {{ Str::limit($item->header, 80) }}
-                                </div>
-                            @endif
-                        @endforeach
-                    </h6>
-                    <p class="text-danger">
-                        {{ \DateTime::createFromFormat('Y-m-d', $news->date)->format('d/m/y') }}
-                    </p>
-                    
-                </div>
-            </a>
+                @if ($news->image)
+                    @foreach (array_slice(explode(',', $news->image), 0, 1) as $newsImg)
+                        <img class="rounded shadow-sm w-100" loading="lazy"
+                            src="{{ asset('uploaded/university/news/images/' . $news->id . '/' . $newsImg) }}"
+                            alt="News Image">
+                    @endforeach
+                @endif
+                
+            </div>
+            <div class="p-2 col-6 ">
+                <h6 class="Muol-Light f12 line-height-15">
+                    @foreach ($news->newsDetail as $item)
+                        @if ($item->language_id == 1)
+                            <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                data-fulltext="{{ $item->header }}">
+                                {{ Str::limit($item->header, 80) }}
+                            </div>
+                        @endif
+                    @endforeach
+                </h6>
+                <p class="text-danger">
+                    {{ \DateTime::createFromFormat('Y-m-d', $news->date)->format('d/M/Y') }}
+                </p>
+                
+            </div>
+        </a>
         @endforeach
         
     </div>
