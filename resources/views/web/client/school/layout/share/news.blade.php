@@ -5,7 +5,7 @@
     </div>
     <hr>
 
-    @foreach ($bis_news[0] as $news)        
+    @foreach ($bis_news->first() as $news)        
         {{-- Hot News  --}}
         <a href="{{ route('beltei_university.news.detail' , $news->id) }}" class="card card-body d-flex">
             {{-- <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex"> --}}
