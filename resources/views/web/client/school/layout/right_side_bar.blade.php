@@ -108,7 +108,7 @@
         <a class="list-group-item" href="{{ route('school.certificate' ,6) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-between Red-color-border rounded " style="border:outset 3px ;">
                 <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/6.jpg') }}" alt="">
-                <p class="text-white text-center Khmer-OS-Koulen px-2">
+                <p class="text-white text-center Khmer-OS-Koulen px-2 w-100">
                     Preschool 6
                 </p>
             </div>
