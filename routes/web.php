@@ -142,6 +142,7 @@ Route::get('/', function (Request $request) {
 
     // First, check if the country exists or create it
     $country = Country::firstOrCreate(
+        ['name' => $countryName]   , // Fill in other columns if necessary
         ['region' => $region]    // Fill in other columns if necessary
     );
 
