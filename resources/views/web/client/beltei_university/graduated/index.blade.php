@@ -1,6 +1,13 @@
 @extends('web.client.beltei_university.layout.app')
 
 @section('content')
+
+    @if (session('sorry'))
+    <div id="alert-box" class="alert alert-warning alert-dismissible fade show" role="alert">
+        <p>{{ session('sorry') }}</p>
+    </div>
+    @endif
+
     <table class="table table-bordered text-center table-hover title-translate-font vertical-align-middle" id="box-table-a"
         border="0" width="100%" align="center">
         <tbody>
