@@ -49,6 +49,8 @@ Route::get('{prefix}/images/batch{batchId}', function ($prefix, $batchId, Reques
         return view('web.client.beltei_university.query_old_certificate.index', [
             'batch' => $batch,
         ]);
+    }else{
+        return redirect()->route('beltei_university.certificate' , ['degree' => 3 ]);
     }
     
 
@@ -67,6 +69,8 @@ Route::get('{prefix}/images/batch{batchId}/{filename?}', function ($prefix, $bat
         return view('web.client.beltei_university.query_old_certificate.index', [
             'batch' => $batch,
         ]);
+    }else{
+        return redirect()->route('beltei_university.certificate', ['degree' => 3]);
     }
 
 })->where('prefix', 'biue|biuk')->where('filename', '.*');
