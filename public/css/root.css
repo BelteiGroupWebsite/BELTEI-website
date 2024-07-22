@@ -189,6 +189,9 @@ a {
 }
 
 /* Static CSS Classes */
+.max-width-25 {
+    max-width: 25px;
+}
 .max-width-50 {
     max-width: 50px;
 }
