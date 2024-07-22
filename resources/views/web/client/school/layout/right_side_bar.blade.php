@@ -209,7 +209,7 @@
                 @foreach ($countries as $country)
                     <tr>
                         <td>
-                            {{ $country->region }}
+                            {{ $country->region / $country->name }}
                         </td>
                         <td>
                             {{ $country->visitors->count() }} visitors
