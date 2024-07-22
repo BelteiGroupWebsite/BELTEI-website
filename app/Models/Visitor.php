@@ -8,5 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Visitor extends Model
 {
     use HasFactory;
-    protected $fillable = ['ip_address'];
+    protected $fillable = ['ip_address' , 'visits' , 'country_id'];
+
+    public function country() {
+        return $this->belongsTo(Country::class , 'country_id' , 'id');
+    }
+    
 }

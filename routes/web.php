@@ -12,6 +12,7 @@ use App\Http\Controllers\Admin\University\CertificateController as UniversityCer
 use App\Http\Controllers\Admin\University\NewsController;
 use App\Http\Controllers\Admin\University\UtbCertificate;
 use App\Http\Controllers\Admin\University\UtbCertificateController;
+use App\Models\Country;
 use App\Models\school\Certificate;
 use App\Models\School\Certificate\StbCertificate;
 use App\Models\University\Certificate\UtbDegreeAcademicbatch;
@@ -133,16 +134,30 @@ Route::get('/uploaded-link', function () {
 
 Route::get('/', function (Request $request) {
     $ip = $request->ip();
-    $visitor = Visitor::firstOrCreate(['ip_address' => $ip]);
+    $response = Http::get("https://ipinfo.io/{$ip}/json");
+    $data = $response->json();
+
+    $region = $data['region'] ?? 'Unknown';
+    $countryName = $data['country'] ?? 'Unknown'; // Fetch country code or name
+
+    // First, check if the country exists or create it
+    $country = Country::firstOrCreate(
+        ['region' => $region]    // Fill in other columns if necessary
+    );
+
+    // Ensure you have a unique index on 'ip_address' in Visitor model for firstOrCreate to work properly
+    $visitor = Visitor::firstOrCreate(
+        ['ip_address' => $ip],
+        ['country_id' => $country->id] // Ensure correct column name for foreign key
+    );
     $visitor->increment('visits');
     $visitor->save();
 
-    $visitors = Visitor::count();
-    // return view('welcome', compact('visitors'));
-    $ip = $request->ip();
-    $publicIp = Http::get('https://api.ipify.org?format=json')->json()['ip'];
+    // $visitors = Visitor::with('country')->get();
+    // $publicIp = Http::get('https://api.ipify.org?format=json')->json()['ip'];
     
-    return view('welcome', compact('ip', 'publicIp'));
+    // return view('welcome', compact( 'publicIp'));
+    return view('welcome');
 });
 
 Route::post('/track-visitor', function (Request $request) {

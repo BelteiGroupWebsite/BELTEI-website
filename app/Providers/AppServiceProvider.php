@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Country;
 use App\Models\Language;
 use App\Models\University\News;
 use App\Models\Visitor;
@@ -34,6 +35,9 @@ class AppServiceProvider extends ServiceProvider
 
             // Share languages with all views
             View::share('visitor', Visitor::get());
+
+            // Share languages with all views
+            View::share('countries', Country::get());
     
             // Define an associative array with category IDs and their corresponding view variable names
             $categories = [

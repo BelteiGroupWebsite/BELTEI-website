@@ -92,11 +92,11 @@
     </table>
 
     {{-- {{ $visitors }} --}}
-    <script src="https://cdn.jsdelivr.net/npm/device-detector@1.0.2/dist/DeviceDetector.min.js"></script>
+    {{-- <script src="https://cdn.jsdelivr.net/npm/device-detector@1.0.2/dist/DeviceDetector.min.js"></script> --}}
     {{-- <p>IP Address: {{ $ip }}</p>
     <p>Public IP Address: {{ $publicIp }}</p> --}}
 
-    <script>
+    {{-- <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Get device information using UAParser.js
             const parser = new UAParser();
@@ -124,7 +124,7 @@
               .then(data => console.log('Success:', data))
               .catch(error => console.error('Error:', error));
         });
-    </script>
+    </script> --}}
     
     {{-- <script>
         document.addEventListener("DOMContentLoaded", function() {
