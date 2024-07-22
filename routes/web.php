@@ -87,7 +87,7 @@ Route::get('set-locale/{locale}', function ($locale) {
 })->name('set-locale');
 
 
-
+// link folder
 Route::get('/storage-link' , function (){
     $targetFolder = storage_path('app/public');
     $linkFolder = $_SERVER['DOCUMENT_ROOT'].'/storage';
@@ -160,6 +160,7 @@ Route::post('/track-visitor', function (Request $request) {
 
 
 
+// client pages
 Route::group(['prefix' => 'contruction', 'as' => 'contruction.'], function () {
 
     Route::view('/' , 'web.client.contruction.index');
@@ -588,6 +589,9 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+
+
+// admin pages
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'can:access-admin-page']], function () {
     // Dashboard
     Route::get('/', function () {

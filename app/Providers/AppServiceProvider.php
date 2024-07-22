@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\Language;
 use App\Models\University\News;
+use App\Models\Visitor;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Pagination\Paginator as PaginationPaginator;
 use Illuminate\Support\Facades\Log;
@@ -30,6 +31,9 @@ class AppServiceProvider extends ServiceProvider
         try {
             // Share languages with all views
             View::share('languages', Language::get());
+
+            // Share languages with all views
+            View::share('visitor', Visitor::get());
     
             // Define an associative array with category IDs and their corresponding view variable names
             $categories = [
