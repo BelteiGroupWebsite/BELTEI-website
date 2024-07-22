@@ -40,11 +40,11 @@ use Illuminate\Support\Facades\Storage;
 Route::get('{prefix}/images/batch{batchId}', function ($prefix, $batchId, Request $request) {    
 
     $degreeAcademicbatch = UtbDegreeAcademicbatch::where('batch' , $batchId)->first();
+    session()->flash('sorry' , "We apologize for any inconvenience caused by our recent website update. To find your certificate, please use the new search feature on our site. If you need any assistance or have questions, feel free to contact our support team. Thank you for your understanding.");
 
     if($degreeAcademicbatch){
         $batch = $degreeAcademicbatch->id;
     
-        session()->flash('sorry' , "We apologize for any inconvenience caused by our recent website update. To find your certificate, please use the new search feature on our site. If you need any assistance or have questions, feel free to contact our support team. Thank you for your understanding.");
         
         return view('web.client.beltei_university.query_old_certificate.index', [
             'batch' => $batch,
@@ -60,11 +60,11 @@ Route::get('{prefix}/images/batch{batchId}', function ($prefix, $batchId, Reques
 Route::get('{prefix}/images/batch{batchId}/{filename?}', function ($prefix, $batchId, $filename = null, Request $request) {
 
     $degreeAcademicbatch = UtbDegreeAcademicbatch::where('batch' , $batchId)->first();
+    session()->flash('sorry' , "We apologize for any inconvenience caused by our recent website update. To find your certificate, please use the new search feature on our site. If you need any assistance or have questions, feel free to contact our support team. Thank you for your understanding.");
 
     if($degreeAcademicbatch){
         $batch = $degreeAcademicbatch->id;
     
-        session()->flash('sorry' , "We apologize for any inconvenience caused by our recent website update. To find your certificate, please use the new search feature on our site. If you need any assistance or have questions, feel free to contact our support team. Thank you for your understanding.");
         
         return view('web.client.beltei_university.query_old_certificate.index', [
             'batch' => $batch,
