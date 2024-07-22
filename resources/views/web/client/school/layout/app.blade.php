@@ -91,31 +91,31 @@
                 <hr>
                 <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; row-gap: .5rem;">
 
-                    <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <div class="col position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/6FAbzGXrV38/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/6FAbzGXrV38?rel=0&autoplay=1" />
                     </div>
-                    <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <div class="col position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/LuUS8xRzpd4/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/LuUS8xRzpd4?rel=0&autoplay=1" />
                     </div>
-                    <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <div class="col position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/D1kBJgm0deM/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/D1kBJgm0deM?rel=0&autoplay=1" />
                     </div>
-                    <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <div class="col position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/Gtj87I5670Y/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/Gtj87I5670Y?rel=0&autoplay=1" />
                     </div>
-                    <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <div class="col position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/W2K_pt28MGE/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/W2K_pt28MGE?rel=0&autoplay=1" />
                     </div>
-                    <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <div class="col position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/NAJvbtOJkm4/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/NAJvbtOJkm4?rel=0&autoplay=1" />
                     </div>
-                                       
+                   
                 </div>
             </div>
 
