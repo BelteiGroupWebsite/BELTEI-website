@@ -14,6 +14,7 @@ use App\Http\Controllers\Admin\University\UtbCertificate;
 use App\Http\Controllers\Admin\University\UtbCertificateController;
 use App\Models\school\Certificate;
 use App\Models\School\Certificate\StbCertificate;
+use App\Models\University\Certificate\UtbDegreeAcademicbatch;
 use App\Models\Visitor;
 use App\Models\VisitorInfo;
 use Illuminate\Support\Facades\Auth;
@@ -33,6 +34,38 @@ use Illuminate\Support\Facades\Storage;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+// https://www.beltei.edu.kh/biue/images/batch15/showbatch15.php?f=208
+
+// Redirect certificate
+Route::get('{prefix}/images/batch{batchId}', function ($prefix, $batchId, Request $request) {    
+
+    $degreeAcademicbatch = UtbDegreeAcademicbatch::where('batch' , $batchId)->first();
+    $batch = $degreeAcademicbatch->id;
+
+    session()->flash('sorry' , "We apologize for any inconvenience caused by our recent website update. To find your certificate, please use the new search feature on our site. If you need any assistance or have questions, feel free to contact our support team. Thank you for your understanding.");
+    
+    return view('web.client.beltei_university.query_old_certificate.index', [
+        'batch' => $batch,
+    ]);
+
+
+})->where('prefix', 'biue|biuk');
+
+Route::get('{prefix}/images/batch{batchId}/{filename?}', function ($prefix, $batchId, $filename = null, Request $request) {
+
+    $degreeAcademicbatch = UtbDegreeAcademicbatch::where('batch' , $batchId)->first();
+    $batch = $degreeAcademicbatch->id;
+
+    session()->flash('sorry' , "We apologize for any inconvenience caused by our recent website update. To find your certificate, please use the new search feature on our site. If you need any assistance or have questions, feel free to contact our support team. Thank you for your understanding.");
+    
+    return view('web.client.beltei_university.query_old_certificate.index', [
+        'batch' => $batch,
+    ]);
+
+})->where('prefix', 'biue|biuk')->where('filename', '.*');
+
+
+
 
 // Translate
 Route::get('set-locale/{locale}', function ($locale) {
@@ -85,20 +118,7 @@ Route::get('/uploaded-link', function () {
         return 'Error creating symbolic link: ' . $e->getMessage();
     }
 });
-// Route::get('/storage-link', function () {
-//     // Define the paths
-//     $targetFolder = storage_path('app/public');
-//     $linkFolder = public_path('storage');
 
-//     // Check if the symbolic link already exists
-//     if (!file_exists($linkFolder)) {
-//         // Create the symbolic link
-//         symlink($targetFolder, $linkFolder);
-//         return 'Symlink created successfully.';
-//     } else {
-//         return 'Symlink already exists.';
-//     }
-// });
 
 Route::get('/', function (Request $request) {
     $ip = $request->ip();
