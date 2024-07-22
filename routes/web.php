@@ -39,8 +39,8 @@ use Illuminate\Support\Facades\Storage;
 // Redirect certificate
 Route::get('{prefix}/images/batch{batchId}', function ($prefix, $batchId, Request $request) {    
 
-    $degreeAcademicbatch = UtbDegreeAcademicbatch::where('batch' , $batchId)->first();
-    $batch = $degreeAcademicbatch->id;
+    $degreeAcademicbatch = UtbDegreeAcademicbatch::where('batch' , $batchId)->findOrFail();
+    $batch = $degreeAcademicbatch->id ?? null;
 
     session()->flash('sorry' , "We apologize for any inconvenience caused by our recent website update. To find your certificate, please use the new search feature on our site. If you need any assistance or have questions, feel free to contact our support team. Thank you for your understanding.");
     
@@ -53,8 +53,8 @@ Route::get('{prefix}/images/batch{batchId}', function ($prefix, $batchId, Reques
 
 Route::get('{prefix}/images/batch{batchId}/{filename?}', function ($prefix, $batchId, $filename = null, Request $request) {
 
-    $degreeAcademicbatch = UtbDegreeAcademicbatch::where('batch' , $batchId)->first();
-    $batch = $degreeAcademicbatch->id;
+    $degreeAcademicbatch = UtbDegreeAcademicbatch::where('batch' , $batchId)->findOrFail();
+    $batch = $degreeAcademicbatch->id ?? null;
 
     session()->flash('sorry' , "We apologize for any inconvenience caused by our recent website update. To find your certificate, please use the new search feature on our site. If you need any assistance or have questions, feel free to contact our support team. Thank you for your understanding.");
     
