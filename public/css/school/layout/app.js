@@ -49,10 +49,14 @@ function setVideoSource(element) {
     scrollToHrefFunction('vd-container');
 }
 
-    function scrollToHrefFunction(href) {
-        document.getElementById(href).scrollIntoView({ behavior: 'smooth' });
-    }
+function scrollToHrefFunction(href) {
+    document.getElementById(href).scrollIntoView({ behavior: 'smooth' });
+}
 
+function linkToYoutube(element) {
+    const videoUrl = element.querySelector('.youtube-thumbnail').getAttribute('data-src');
+    window.location.href = videoUrl;
+}
 
 
 
