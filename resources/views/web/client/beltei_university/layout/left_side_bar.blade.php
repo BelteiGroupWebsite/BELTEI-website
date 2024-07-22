@@ -115,7 +115,7 @@
         </a>
         <a class="list-group-item" href="{{ route('beltei_university.graduated.doctor') }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/2.jpg') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/biu/app/phd.png') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen px-2">
                     {{ __('beltei_university/app.I1') }}
                 </p>
@@ -123,7 +123,7 @@
         </a>
         <a class="list-group-item" href="{{ route('beltei_university.certificate' , ['degree' => 2 ]) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/2.jpg') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/biu/app/master.png') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen px-2">
                     {{ __('beltei_university/app.I2') }}
                 </p>
@@ -131,7 +131,7 @@
         </a>
         <a class="list-group-item" href="{{ route('beltei_university.certificate' , ['degree' => 3 ]) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/3.jpg') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/biu/app/bachelor.png') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen px-2">
                     {{ __('beltei_university/app.I3') }}
                 </p>
@@ -139,7 +139,7 @@
         </a>
         <a class="list-group-item" href="{{ route('beltei_university.certificate' , ['degree' => 4 ]) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-center Red-color-border rounded " style="border:outset 3px ;">
-                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/school/app/3.jpg') }}" alt="">
+                <img class="max-width-50 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/biu/app/assoiate.png') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen px-2">
                     {{ __('beltei_university/app.I4') }}
                 </p>
