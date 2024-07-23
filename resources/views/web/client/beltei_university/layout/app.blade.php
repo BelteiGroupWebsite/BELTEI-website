@@ -116,43 +116,26 @@
                 <hr>
                 <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; row-gap: .5rem;">
 
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/6FAbzGXrV38?si=ItshHz92LaEx3EC2" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/LuUS8xRzpd4?si=Fks838mRw3A3QiVO" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/D1kBJgm0deM?si=kNT_-qhQSt2r0f7z" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/Gtj87I5670Y?si=cHQ53JatwXP4Qf6O" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/W2K_pt28MGE?si=1H02tgwQAJ63Qr-4" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/6FAbzGXrV38?si=ItshHz92LaEx3EC2" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/LuUS8xRzpd4?si=Fks838mRw3A3QiVO" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/D1kBJgm0deM?si=kNT_-qhQSt2r0f7z" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/Gtj87I5670Y?si=cHQ53JatwXP4Qf6O" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/W2K_pt28MGE?si=1H02tgwQAJ63Qr-4" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe class="rounded-16" width="200" height="160"
-                        src="https://www.youtube.com/embed/NAJvbtOJkm4?si=0YVx23gc2DsuHZ1f" frameborder="0"
-                        allowfullscreen></iframe>
-
+                    <a href="https://www.youtube.com/embed/LuUS8xRzpd4?rel=0&autoplay=1" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/LuUS8xRzpd4/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/LuUS8xRzpd4?rel=0&autoplay=1" />
+                    </a>
+                    <a href="https://www.youtube.com/embed/Gtj87I5670Y?rel=0&autoplay=1" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/Gtj87I5670Y/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/Gtj87I5670Y?rel=0&autoplay=1" />
+                    </a>
+                    <a href="https://www.youtube.com/embed/W2K_pt28MGE?rel=0&autoplay=1" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/W2K_pt28MGE/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/W2K_pt28MGE?rel=0&autoplay=1" />
+                    </a>
+                    <a href="https://www.youtube.com/embed/kyM32Imki2E?rel=0&autoplay=1" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/kyM32Imki2E/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/kyM32Imki2E?rel=0&autoplay=1" />
+                    </a>
+                    <a href="https://www.youtube.com/embed/mDXDdcPVj1M?rel=0&autoplay=1" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/mDXDdcPVj1M/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/mDXDdcPVj1M?rel=0&autoplay=1" />
+                    </a>
                 </div>
             </div>
 
