@@ -68,4 +68,8 @@ class Kernel extends HttpKernel
 
         'pagePermission' => \App\Http\Middleware\PagePermissionMiddleware::class,
     ];
+    protected $routeMiddleware = [
+        'visitor.tracking' => \App\Http\Middleware\VisitorTracking::class,
+    ];
+    
 }

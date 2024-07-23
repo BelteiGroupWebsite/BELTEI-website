@@ -10,19 +10,13 @@ use App\Http\Controllers\Admin\School\StbClCertificateController;
 use App\Http\Controllers\GradeAController;
 use App\Http\Controllers\Admin\University\CertificateController as UniversityCertificateController;
 use App\Http\Controllers\Admin\University\NewsController;
-use App\Http\Controllers\Admin\University\UtbCertificate;
 use App\Http\Controllers\Admin\University\UtbCertificateController;
-use App\Models\Country;
-use App\Models\school\Certificate;
-use App\Models\School\Certificate\StbCertificate;
+use App\Http\Controllers\VisitorController;
 use App\Models\University\Certificate\UtbDegreeAcademicbatch;
-use App\Models\Visitor;
 use App\Models\VisitorInfo;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Storage;
 
 
 /*
@@ -132,32 +126,8 @@ Route::get('/uploaded-link', function () {
 });
 
 
-Route::get('/', function (Request $request) {
-    $ip = $request->ip();
-    $response = Http::get("https://ipinfo.io/{$ip}/json");
-    $data = $response->json();
-
-    $region = $data['region'] ?? 'Unknown';
-    $countryName = $data['country'] ?? 'Unknown'; // Fetch country code or name
-
-    // First, check if the country exists or create it
-    $country = Country::firstOrCreate(
-        ['name' => $countryName]   , // Fill in other columns if necessary
-        ['region' => $region]    // Fill in other columns if necessary
-    );
-
-    // Ensure you have a unique index on 'ip_address' in Visitor model for firstOrCreate to work properly
-    $visitor = Visitor::firstOrCreate(
-        ['ip_address' => $ip],
-        ['country_id' => $country->id] // Ensure correct column name for foreign key
-    );
-    $visitor->increment('visits');
-    $visitor->save();
-
-    // $visitors = Visitor::with('country')->get();
-    // $publicIp = Http::get('https://api.ipify.org?format=json')->json()['ip'];
-    
-    // return view('welcome', compact( 'publicIp'));
+Route::get('/', function (Request $request ,VisitorController $controller) {
+    $controller->handleVisitor($request);
     return view('welcome');
 });
 
@@ -177,8 +147,7 @@ Route::post('/track-visitor', function (Request $request) {
 
 
 // client pages
-Route::group(['prefix' => 'contruction', 'as' => 'contruction.'], function () {
-
+Route::group(['prefix' => 'construction', 'as' => 'construction.', 'middleware' => 'visitor.tracking'], function () {
     Route::view('/' , 'web.client.contruction.index');
     Route::view('/construction' , 'web.client.contruction.construction')->name('construction');
 
@@ -211,7 +180,7 @@ Route::group(['prefix' => 'contruction', 'as' => 'contruction.'], function () {
 });
 
 
-Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
+Route::group(['prefix' => 'school', 'as' => 'school.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/' , 'web.client.school.index');
     Route::view('/construction' , 'web.client.school.construction')->name('construction');
@@ -329,7 +298,7 @@ Route::group(['prefix' => 'school', 'as' => 'school.'], function () {
 
 });
 
-Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.'], function () {
+Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/' , 'web.client.testcenter.index');
     Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
@@ -354,7 +323,7 @@ Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.'], function () {
 
 Route::get('new/detail/{id}', [NewsController::class, 'show'])->name('beltei_university.news.detail');
 
-Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], function () {
+Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/' , 'web.client.beltei_university.index');
     Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
@@ -444,7 +413,7 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.'], fu
 
 });
 
-Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.'], function () {
+Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/' , 'web.client.beltei_tours_travel.index');
     Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
@@ -511,7 +480,7 @@ Route::group(['prefix' => 'beltei_tours_travel', 'as' => 'beltei_tours_travel.']
 
 });
 
-Route::group(['prefix' => 'relation', 'as' => 'relation.'], function () {
+Route::group(['prefix' => 'relation', 'as' => 'relation.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/' , 'web.client.relation.index');
     Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
