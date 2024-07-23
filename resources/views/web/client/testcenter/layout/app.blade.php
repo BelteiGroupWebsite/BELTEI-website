@@ -88,7 +88,7 @@
             <div class="mt-4">
                 <h6 class="Muol-Light p-3 bg-success text-white">វីឌីអូសំខាន់ៗ</h6>
                 <hr>
-                <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; row-gap: .5rem;">
+                <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; gap: .5rem;">
 
                     <a href="https://www.youtube.com/embed/LuUS8xRzpd4?rel=0&autoplay=1" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
