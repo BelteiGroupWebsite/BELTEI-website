@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models\school;
+namespace App\Models\School;
 
 use App\Models\University\Certificate;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
