@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin\School;
 
 use App\Http\Controllers\Controller;
 use App\Imports\School\GradeAImport;
-use App\Models\school\AcademicYear;
+use App\Models\School\AcademicYear;
 use Illuminate\Http\Request;
 use Maatwebsite\Excel\Facades\Excel;
 
