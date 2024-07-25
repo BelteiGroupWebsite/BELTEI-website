@@ -88,17 +88,7 @@
                                 <input required class="form-control" name="startAcademicYear" id="startAcademicYear"
                                     type="number" placeholder="YYYY / 2022">
                             </div>
-                            <div class="col-6 mb-3">
-                                <label for="" class="form-label">End Academic Year <i
-                                        class="text-danger"></i></label>
-                                <input required class="form-control" name="endAcademicYear" id="endAcademic" type="number"
-                                    placeholder="YYYY / 2023">
-                            </div>
-                        </div>
 
-
-
-                        <div class="row mb-3 me-0 pe-0">
                             <div class="col-6 mb-3">
                                 <label for="" class="form-label"><b>Student Information</b> <i
                                         class="text-danger">(Excel:
@@ -110,33 +100,12 @@
                                         href="{{ asset('assets\images\school\excel-placeholder.png') }}">?</a>
                                 </div>
                             </div>
-                            <div class="col-6 mb-3">
-                                <label for="" class="form-label"><b>Student Images</b> <i
-                                        class="text-danger">(Excel:
-                                        .pdf)</i></label>
-                                <div class="form-group d-flex">
-                                    <input  class="form-control" name="studentProfileImg" id="studentProfileImg"
-                                        accept=".jpg , .png , .jpeg" multiple type="file">
-                                </div>
-                            </div>
                         </div>
 
-
-                        <div class="my-3">
-                            <div class="col-12">
-                                <p id="fileNameP"></p>
-                                <div class="progress mt-3" style="height: 25px">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
-                                        style="width: 0%; height: 100%">
-                                        0%</div>
-                                </div>
-                            </div>
-                        </div>
 
 
                         <div class="d-flex justify-content-end py-3">
-                            <button class="btn btn-success px-3" type="button" onclick="SubmitForm()">submit</button>
+                            <button class="btn btn-success px-3" type="submit">submit</button>
                         </div>
                     </div>
 
@@ -147,7 +116,7 @@
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.4/xlsx.full.min.js"></script>
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.4/xlsx.full.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.2/min/dropzone.min.js"></script>
@@ -302,6 +271,6 @@
 
             return isChecked;
         }
-    </script>
+    </script> --}}
 
 @endsection

@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\User\UsersController;
 use App\Http\Controllers\Admin\School\CertificateController;
 use App\Http\Controllers\Admin\School\StbCertificateController;
 use App\Http\Controllers\Admin\School\StbClCertificateController;
+use App\Http\Controllers\Admin\School\StbGradeAController;
 use App\Http\Controllers\GradeAController;
 use App\Http\Controllers\Admin\University\CertificateController as UniversityCertificateController;
 use App\Http\Controllers\Admin\University\NewsController;
@@ -604,13 +605,15 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
 
 
         // Route::resource('grade-A' , GradeAController::class)->names('grade-A');
-        Route::resource('grade-A',GradeAController::class)->names('grade-A');
+        // Route::resource('grade-A',GradeAController::class)->names('grade-A');
         Route::prefix('grade-A')->as('grade-A')->group(function () {
             Route::post('/store/file', [GradeAController::class, 'uploadLargeFiles'])->name('.files.upload.large');
             Route::post('/your-route', [GradeAController::class, 'processData'])->name('.excel.upload');
         });
 
 
+        Route::resource('grade-A', StbGradeAController::class)->names('grade-A');
+        
     });
 
     // School Management
