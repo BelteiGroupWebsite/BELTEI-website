@@ -21,12 +21,10 @@ class GradeAImport implements ToCollection , WithHeadingRow
 
     public function collection(Collection $rows)
     {
-        Log::error('Error importing data in row ' . $rows);
         $userId = Auth::user()->id;
         
         foreach ($rows as $key => $row) {
             try {
-                Log::error('Error importing data in row ' . $row);
                 StudentGradeA::create([
                     // 'student_id' => preg_replace('/\s+/', '', $row['student_id']),
                     'khmer_name' => $row['khmer_name'],
@@ -37,7 +35,6 @@ class GradeAImport implements ToCollection , WithHeadingRow
                 ]);
                 
             } catch (\Exception $e) {
-                Log::error('Error importing data in row ' . ($key + 1) . ': ' . $e->getMessage());
                 return back()->with('error', 'There was a problem importing the data: ' . $e->getMessage());
                 // Optionally, you can throw an exception or handle it as needed
             }
