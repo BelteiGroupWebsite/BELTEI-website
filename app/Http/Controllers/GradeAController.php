@@ -20,7 +20,7 @@ class GradeAController extends Controller
         
         $gradeAs = AcademicYear::with('studentGradeA')->paginate(10);
 
-        return view('web.client.school.outstanding-student.grade-a.index', compact('gradeAs'));
+        return view('web.client.school.outstanding-student.grade-A.index', compact('gradeAs'));
     }
 
     /**
