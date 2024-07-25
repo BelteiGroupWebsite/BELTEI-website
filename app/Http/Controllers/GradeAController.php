@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\school\AcademicYear;
-use App\Models\school\GradeA;
-use App\Models\school\StudentGradeA;
+use App\Models\School\AcademicYear;
+use App\Models\School\GradeA;
+use App\Models\School\StudentGradeA;
 use Illuminate\Http\Request;
 use Pion\Laravel\ChunkUpload\Handler\HandlerFactory;
 use Pion\Laravel\ChunkUpload\Receiver\FileReceiver;
