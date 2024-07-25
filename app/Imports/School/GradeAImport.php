@@ -3,7 +3,7 @@
 namespace App\Imports\School;
 
 use App\Models\school\GradeA;
-use App\Models\school\StudentGradeA;
+use App\Models\School\StudentGradeA;
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
 use Illuminate\Support\Facades\Auth;
