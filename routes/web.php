@@ -332,6 +332,9 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.' , 'm
 
     Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
         Route::view('/' , 'web.client.beltei_university.about.welcome')->name('welcome');
+        
+        Route::view('/belteigroup' , 'web.client.beltei_university.about.belteigroup')->name('belteigroup');
+
         Route::view('purpose' , 'web.client.beltei_university.about.purpose')->name('purpose');
         Route::view('vision' , 'web.client.beltei_university.about.vision')->name('vision');
         Route::view('history' , 'web.client.beltei_university.about.history')->name('history');
