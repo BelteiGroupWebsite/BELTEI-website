@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div id="universityCampus" class="universityCampus row shadow-sm rounded p-3 justify-content-center mb-3 gap-5 content-translate-font">
+    <div id="universityCampus" class="universityCampus row shadow-sm rounded p-3 justify-content-center mb-3 content-translate-font">
     {{-- <div id="universityCampus" class="universityCampus d-flex shadow-sm rounded p-3 justify-content-center mb-3 gap-5 content-translate-font"> --}}
         <a class="col-3" href="{{route('beltei_university.campus.campusTemplete')}}?id=1">
             <img class="w-100" src="{{ asset('asset/img/BTG.png') }}" alt="">
