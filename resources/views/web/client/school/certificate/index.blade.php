@@ -2,7 +2,7 @@
 
 
 @section('content')
-    <div class="container">
+    <div class="">
 
         {{-- <div class="d-flex gap-3 bg-header-color align-items-center  border border-3 position-relative overflow-hidden" style="border-radius: 1rem;">
             <img class="max-width-80 float-end" src="{{ asset('asset\img\school\app\G6.png') }}" alt="">
