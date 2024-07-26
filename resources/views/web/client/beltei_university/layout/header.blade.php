@@ -12,7 +12,7 @@
 
     <div id="universityCampus" class="universityCampus d-flex shadow-sm rounded p-3 justify-content-center mb-3 gap-5 content-translate-font">
         <a class="w-25" href="{{route('beltei_university.campus.campusTemplete')}}?id=1">
-            <img class="h-100" width="32" src="{{ asset('asset/img/BELTEIGroup.png') }}" alt="">
+            <img class="h-100" src="{{ asset('asset/img/BELTEIGroup.png') }}" alt="">
             <div class="d-flex  justify-content-around">
                 <h5 class="Khmer-OS-Koulen py-3 Blue-color">ស្នាក់ការកណ្តាល ប៊ែលធី គ្រុប</h3>
             </div>
