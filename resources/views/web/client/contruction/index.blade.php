@@ -62,7 +62,7 @@
         </div>
 
         <div>
-            <img data-aos="zoom-out-up" class="w-75" src="{{ asset('asset/img/BTG.png') }}" alt="">
+            <img data-aos="zoom-out-up" class="w-75 my-2" src="{{ asset('asset/img/BTG.png') }}" alt="">
             <img data-aos="zoom-out-up" class="w-75 my-1 shadow" src="{{ asset('asset/img/construction/content/headoffice.jpg') }}" alt="">
             <img data-aos="zoom-out-up" class="w-75 my-1 shadow" src="{{ asset('asset/img/construction/content/photo_2024-06-28_10-42-13.jpg') }}" alt="">
             <img data-aos="zoom-out-up" class="w-75 my-1 shadow" src="{{ asset('asset/img/construction/content/photo_2024-06-28_10-42-04.jpg') }}" alt="">
