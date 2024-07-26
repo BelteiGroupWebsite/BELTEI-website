@@ -1021,7 +1021,7 @@ a {
 
 /* Responsive  */
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
     .remove-768px {
         display: none;
     }
@@ -1095,4 +1095,9 @@ a {
     .remove-min-600px {
         display: none !important;
     }
-}
+} */
+
+
+
+
+
