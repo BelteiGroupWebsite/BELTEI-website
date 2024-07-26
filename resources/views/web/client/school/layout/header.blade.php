@@ -12,7 +12,7 @@
     </div>
 
     <div class="text-center">
-        <a href="{{ route('school.about.belteigroup') }}" class="text-center">
+        <a href="{{ route('school.about.belteigroup', ['goto' , content]) }}" class="text-center">
             <img class="w-50 mt-2" src="{{ asset('asset/img/school/Head_combine.png') }}" alt="">
         </a>
     </div>
