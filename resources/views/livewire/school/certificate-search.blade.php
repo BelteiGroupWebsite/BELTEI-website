@@ -15,123 +15,126 @@
         </button>
     </div>
 
-    <table class="table table-responsive content-translate-font table-hover table-bordered w-100 f14" style="vertical-align: middle">
-
-        <thead class="table-info font-bold">
-            <tr>
-                <td>N<sup>o</sup></td>
-                <td>{{ __('beltei_university/certificate/certificate.khmer_name') }}</td>
-                {{-- <td>{{ __('beltei_university/certificate/certificate.latin_name') }}</td> --}}
-                <td>{{ __('beltei_university/certificate/certificate.gender') }}</td>
-                <td>{{ __('beltei_university/certificate/certificate.dob') }}</td>
-
-                @if ($profile)
-                    <td>{{ __('beltei_university/certificate/certificate.profile') }}</td>
-                @endif
-
-                @if ($beltei)
-                    <td>{{ __('beltei_university/certificate/certificate.certificate') }}</td>
-                @endif
-
-                @if ($moey)
-                    <td>{{ __('beltei_university/certificate/certificate.moey') }}</td>
-                @endif
-
-                @if ($ielts)
-                    <td>{{ __('beltei_university/certificate/certificate.ielts') }}</td>
-                @endif
-
-            </tr>
-
-        </thead>
-
-        <tbody class="f14">
-
-
-            {{-- {{ dd($studentInfos->groupBy('campus')) }}  --}}
-
-            @foreach ($studentInfos->groupBy('campus') as $studentInfo)
-                @if($studentInfo->first()->campuses)
+    <div class="w-100 overflow-hidden overflow-x-scroll">
+        <table class="table table-responsive content-translate-font table-hover table-bordered w-100 f14" style="vertical-align: middle">
+    
+            <thead class="table-info font-bold">
                 <tr>
-                    <td colspan="10" class="bg-success text-white title-translate-font">
-                        <h6>
-                            សាខាទី {{ $studentInfo->first()->campuses->id }} {{ $studentInfo->first()->campuses->campus_kh }}
-                        </h6>
-                    </td>
+                    <td>N<sup>o</sup></td>
+                    <td>{{ __('beltei_university/certificate/certificate.khmer_name') }}</td>
+                    {{-- <td>{{ __('beltei_university/certificate/certificate.latin_name') }}</td> --}}
+                    <td>{{ __('beltei_university/certificate/certificate.gender') }}</td>
+                    <td>{{ __('beltei_university/certificate/certificate.dob') }}</td>
+    
+                    @if ($profile)
+                        <td>{{ __('beltei_university/certificate/certificate.profile') }}</td>
+                    @endif
+    
+                    @if ($beltei)
+                        <td>{{ __('beltei_university/certificate/certificate.certificate') }}</td>
+                    @endif
+    
+                    @if ($moey)
+                        <td>{{ __('beltei_university/certificate/certificate.moey') }}</td>
+                    @endif
+    
+                    @if ($ielts)
+                        <td>{{ __('beltei_university/certificate/certificate.ielts') }}</td>
+                    @endif
+    
                 </tr>
-                @endif
-                @foreach ($studentInfo as $student)
+    
+            </thead>
+    
+            <tbody class="f14">
+    
+    
+                {{-- {{ dd($studentInfos->groupBy('campus')) }}  --}}
+    
+                @foreach ($studentInfos->groupBy('campus') as $studentInfo)
+                    @if($studentInfo->first()->campuses)
                     <tr>
-                        <td>{{ $student->student_id }}</td>
-                        <td>{{ $student->khmer_name }}</td>
-                        {{-- <td>{{ $student->latin_name }}</td> --}}
-                        <td>{{ $student->gender }}</td>
-                        <td>{{ $student->dob }}</td>
-
-
-                        @if ($profile)
-                            <td>
-                                <a
-                                    href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/profile/' . $student->profile_no . '.jpg') }}">
-                                    <img style="max-width: 50px" loading="lazy"
-                                        src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/profile/' . $student->profile_no . '.jpg') }}"
-                                        alt="Profile Image">
-                                </a>
-                            </td>
-                        @endif
-
-                        @if ($beltei)
-                            <td>
-                                <a
-                                    href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/beltei/' . $student->certi_no . '.jpg') }}">
-                                    <img style="max-width: 50px" loading="lazy"
-                                        src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/beltei/' . $student->certi_no . '.jpg') }}"
-                                        alt="Beltei">
-                                </a>
-                            </td>
-                        @endif
-
-                        @if ($moey)
-                            <td>
-                                <a
-                                    href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/moey/' . $student->moey_no . '.jpg') }}">
-                                    <img style="max-width: 50px" loading="lazy"
-                                        src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/moey/' . $student->moey_no . '.jpg') }}"
-                                        alt="Moey">
-                                </a>
-                            </td>
-                        @endif
-
-                        @if ($ielts)
-                            <td>
-                                <a
-                                    href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/moey/' . $student->ielts_no . '.jpg') }}">
-                                    <img style="max-width: 50px" loading="lazy"
-                                        src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/moey/' . $student->ielts_no . '.jpg') }}"
-                                        alt="IELTS">
-                                </a>
-                            </td>
-                        @endif
-                        {{-- <td>
-                            <a target="blank" href="{{ url('certificate/biu/'.$student->degree_id.'/'.$student->academicBatch->start_academic_year.'/'.$student->identify_user.'/profile/'.$student->certi_no.'.jpg') }}">
-                                <img loading="lazy" style="width: 50px" alt="report" src="{{ asset('certificate/biu/'.$student->degree_id.'/'.$student->academicBatch->start_academic_year.'/'.$student->identify_user.'/profile/'.$student->certi_no.'.jpg') }}" alt="">
-                            </a>
+                        <td colspan="10" class="bg-success text-white title-translate-font">
+                            <h6>
+                                សាខាទី {{ $studentInfo->first()->campuses->id }} {{ $studentInfo->first()->campuses->campus_kh }}
+                            </h6>
                         </td>
-                        <td>
-                            <a target="blank" href="{{ url('certificate/biu/'.$student->degree_id.'/'.$student->academicBatch->start_academic_year.'/'.$student->identify_user.'/beltei/'.$student->certi_no.'.jpg') }}">
-                                <img loading="lazy" style="width: 50px" alt="report" src="{{ asset('certificate/biu/'.$student->degree_id.'/'.$student->academicBatch->start_academic_year.'/'.$student->identify_user.'/beltei/'.$student->certi_no.'.jpg') }}" alt="">
-                            </a>
-                        </td> --}}
                     </tr>
+                    @endif
+                    @foreach ($studentInfo as $student)
+                        <tr>
+                            <td>{{ $student->student_id }}</td>
+                            <td>{{ $student->khmer_name }}</td>
+                            {{-- <td>{{ $student->latin_name }}</td> --}}
+                            <td>{{ $student->gender }}</td>
+                            <td>{{ $student->dob }}</td>
+    
+    
+                            @if ($profile)
+                                <td>
+                                    <a
+                                        href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/profile/' . $student->profile_no . '.jpg') }}">
+                                        <img style="max-width: 50px" loading="lazy"
+                                            src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/profile/' . $student->profile_no . '.jpg') }}"
+                                            alt="Profile Image">
+                                    </a>
+                                </td>
+                            @endif
+    
+                            @if ($beltei)
+                                <td>
+                                    <a
+                                        href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/beltei/' . $student->certi_no . '.jpg') }}">
+                                        <img style="max-width: 50px" loading="lazy"
+                                            src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/beltei/' . $student->certi_no . '.jpg') }}"
+                                            alt="Beltei">
+                                    </a>
+                                </td>
+                            @endif
+    
+                            @if ($moey)
+                                <td>
+                                    <a
+                                        href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/moey/' . $student->moey_no . '.jpg') }}">
+                                        <img style="max-width: 50px" loading="lazy"
+                                            src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/moey/' . $student->moey_no . '.jpg') }}"
+                                            alt="Moey">
+                                    </a>
+                                </td>
+                            @endif
+    
+                            @if ($ielts)
+                                <td>
+                                    <a
+                                        href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/moey/' . $student->ielts_no . '.jpg') }}">
+                                        <img style="max-width: 50px" loading="lazy"
+                                            src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/moey/' . $student->ielts_no . '.jpg') }}"
+                                            alt="IELTS">
+                                    </a>
+                                </td>
+                            @endif
+                            {{-- <td>
+                                <a target="blank" href="{{ url('certificate/biu/'.$student->degree_id.'/'.$student->academicBatch->start_academic_year.'/'.$student->identify_user.'/profile/'.$student->certi_no.'.jpg') }}">
+                                    <img loading="lazy" style="width: 50px" alt="report" src="{{ asset('certificate/biu/'.$student->degree_id.'/'.$student->academicBatch->start_academic_year.'/'.$student->identify_user.'/profile/'.$student->certi_no.'.jpg') }}" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a target="blank" href="{{ url('certificate/biu/'.$student->degree_id.'/'.$student->academicBatch->start_academic_year.'/'.$student->identify_user.'/beltei/'.$student->certi_no.'.jpg') }}">
+                                    <img loading="lazy" style="width: 50px" alt="report" src="{{ asset('certificate/biu/'.$student->degree_id.'/'.$student->academicBatch->start_academic_year.'/'.$student->identify_user.'/beltei/'.$student->certi_no.'.jpg') }}" alt="">
+                                </a>
+                            </td> --}}
+                        </tr>
+                    @endforeach
                 @endforeach
-            @endforeach
-
-
-        </tbody>
-
-    </table>
-
-    {{ $studentInfos->links('vendor.livewire.bootstrap') }}
+    
+    
+            </tbody>
+    
+        </table>
+    
+        {{ $studentInfos->links('vendor.livewire.bootstrap') }}
+    </div>
+    
 
 
 </div>
