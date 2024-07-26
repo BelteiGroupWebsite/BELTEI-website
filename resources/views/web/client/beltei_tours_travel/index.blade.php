@@ -11,10 +11,10 @@
     </div>
 
     <div>
-        <img class="w-75 my-2" src="{{ asset('asset/img/BTG.png') }}" alt="">
+        <img data-aos="zoom-out-up" class="w-75 my-2" src="{{ asset('asset/img/BTG.png') }}" alt="">
     </div>
 
-    <iframe class="w-75 my-2" width="500" height="280" src="https://www.youtube.com/embed/6I8WENHBtOc?si=izlAt6OZxnbO-vPT" title="YouTube video player" frameborder="0" allow="autoplay; " allowfullscreen></iframe>
+    <iframe data-aos="zoom-out-up" class="w-75 my-2" width="500" height="280" src="https://www.youtube.com/embed/6I8WENHBtOc?si=izlAt6OZxnbO-vPT" title="YouTube video player" frameborder="0" allow="autoplay; " allowfullscreen></iframe>
 
 
     <img data-aos="zoom-out-up" class="w-75 my-2" src="https://www.belteitour.com.kh/btk/images/announcement/beltei_tour_new_promotion.jpg"
