@@ -148,7 +148,7 @@ Route::post('/track-visitor', function (Request $request) {
 
 
 // client pages
-Route::group(['prefix' => 'construction', 'as' => 'construction.', 'middleware' => 'visitor.tracking'], function () {
+Route::group(['prefix' => 'construction', 'as' => 'contruction.', 'middleware' => 'visitor.tracking'], function () {
     Route::view('/' , 'web.client.contruction.index');
     Route::view('/construction' , 'web.client.contruction.construction')->name('construction');
 
@@ -332,7 +332,7 @@ Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.' , 'm
 
     Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
         Route::view('/' , 'web.client.beltei_university.about.welcome')->name('welcome');
-        
+
         Route::view('/belteigroup' , 'web.client.beltei_university.about.belteigroup')->name('belteigroup');
 
         Route::view('purpose' , 'web.client.beltei_university.about.purpose')->name('purpose');
