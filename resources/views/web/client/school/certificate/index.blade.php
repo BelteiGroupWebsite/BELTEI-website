@@ -13,7 +13,7 @@
         </div> --}}
         
         
-        <table class="table table-bordered table-hover title-translate-font vertical-align-middle overflow-hidden shadow-sm" id="box-table-a"
+        <table class="table table-bordered table-hover table-responsive title-translate-font vertical-align-middle overflow-hidden shadow-sm" id="box-table-a"
             border="0" width="100%" align="center">
             <thead class="align-middle">
                 <tr>

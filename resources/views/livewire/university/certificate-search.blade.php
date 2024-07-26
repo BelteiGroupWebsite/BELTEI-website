@@ -26,7 +26,7 @@
         </button>
     </div>
 
-    <table class="table content-translate-font table-hover table-bordered w-100 f14" style="vertical-align: middle">
+    <table class="table table-responsive content-translate-font table-hover table-bordered w-100 f14" style="vertical-align: middle">
 
         <thead class="table-info font-bold">
             <tr>
