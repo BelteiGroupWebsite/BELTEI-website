@@ -19,7 +19,7 @@
                         <div class="d-flex align-items-center border">
                             <div class="max-width-200 max-height-200  overflow-hidden" style="border-radius: 100% 50%;">
                                 <img class="w-100" loading="lazy"
-                                    src="{{ asset('gradeA/' . $gradeA->start_academic_year . '/' . $studentGradeA->identify_user . '/profile/' . ($key + 1) . '.JPG') }}"
+                                    src="{{ asset('storage/upload/gradeA/' . $gradeA->start_academic_year . '/profile/' . ($key + 1) . '.jpg') }}"
                                     alt="">
                             </div>
                             @if (app()->getLocale() == 'kh')

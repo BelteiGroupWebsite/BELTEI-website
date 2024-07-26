@@ -97,7 +97,7 @@
                                     <input  class="form-control" name="certificateInformationExcel"
                                         id="certificateInformationExcel" accept=".xlsx" type="file">
                                     <a class="btn btn-info text-white" id="test"
-                                        href="{{ asset('assets\images\school\excel-placeholder.png') }}">?</a>
+                                        href="{{ asset('asset\pdf\admin\school\gradeA.xlsx') }}">?</a>
                                 </div>
                             </div>
                         </div>
