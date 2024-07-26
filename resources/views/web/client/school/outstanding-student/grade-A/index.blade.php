@@ -9,7 +9,7 @@
 
 
                 <div>
-                    <h5 class="content-translate-font bg-success p-2 text-white text-center">
+                    <h5 class="title-translate-font bg-success p-2 text-white text-center">
 
                         {{ $gradeA->start_academic_year }}  = {{ $gradeA->studentGradeA->count() }}  
                     
