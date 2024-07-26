@@ -31,7 +31,7 @@
             </div>
         </a>
         <a class="col-3" href="{{route('beltei_university.campus.campusTemplete')}}?id=3">
-            <img class="w-100" src="{{ asset('asset/img/university/campus/BTIU3.png') }}" alt="">
+            <img class="w-100" src="{{ asset('asset/img/BTIU3.png') }}" alt="">
             <div class="d-flex  justify-content-around text-center">
                 <h5 class="Khmer-OS-Koulen py-3 Blue-color text-capitalize">{{ __('beltei_university/app.campus3') }}</h3>
             </div>
