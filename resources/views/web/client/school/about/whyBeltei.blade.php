@@ -2,7 +2,7 @@
 
 
 @section('content')
-    <div class="text-start p-3" id="content">
+    <div class="text-start p-3" >
 
         <h2 class="text-center title-translate-font my-3 underline">{{ __('school/about/whyBeltei.header') }}</h2>
 
@@ -12,20 +12,5 @@
 
 
     </div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const myKeysValues = window.location.search;
-            const urlParams = new URLSearchParams(myKeysValues);
-            const goto = urlParams.get("goto");
-    
-            if (goto === "content") {
-                const element = document.getElementById("content");
-                if (element) {
-                    element.scrollIntoView({ behavior: 'smooth' });
-                }
-            }
-        });
-    </script>
     
 @endsection
