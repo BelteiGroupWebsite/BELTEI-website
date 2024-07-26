@@ -17,6 +17,10 @@
         <img src="https://www.beltei.edu.kh/khm/images/specialevents/beltei_youtube.png" alt="">
     </div>
 
+    <div>
+        <img data-aos="zoom-out-up" class="w-75 my-2" src="{{ asset('asset/img/BTG.png') }}" alt="">
+    </div>
+    
     {{-- <img data-aos="zoom-out-up" class="" src="https://www.beltei.edu.kh/khm/images/announcement/New_term_2024.jpg"
         border="0">
     <img data-aos="zoom-out-up" class="" src="https://www.beltei.edu.kh/khm/images/announcement/03_02_2024_p1.jpg"
