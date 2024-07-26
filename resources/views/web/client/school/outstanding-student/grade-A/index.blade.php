@@ -9,7 +9,7 @@
 
 
                 <div>
-                    <h5 class="title-translate-font bg-success p-2 text-white text-center">
+                    <h5 class="title-translate-font bg-success p-2 text-white text-center py-3">
 
                         {{ __('school/outstanding-student/gradeA.academicYear') }}
                         {{ $gradeA->start_academic_year }}  = {{ $gradeA->studentGradeA->count() }}  
