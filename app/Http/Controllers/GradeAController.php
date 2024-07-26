@@ -15,10 +15,17 @@ class GradeAController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function client()
+    public function client(Request $request)
     {
-        
-        $gradeAs = AcademicYear::with('studentGradeA')->paginate(10);
+        // Paginate AcademicYear records
+        $gradeAs = AcademicYear::paginate(10);
+
+        // Paginate studentGradeA records for each AcademicYear
+        $gradeAs->each(function ($academicYear) use ($request) {
+            $academicYear->studentGradeAPaginated = $academicYear->studentGradeA()->paginate(10, ['*'], 'studentGradeAPage', $request->input('studentGradeAPage', 1));
+        });
+
+
 
         return view('web.client.school.outstanding-student.grade-A.index', compact('gradeAs'));
     }
