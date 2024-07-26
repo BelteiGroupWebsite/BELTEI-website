@@ -181,7 +181,7 @@ Route::group(['prefix' => 'construction', 'as' => 'contruction.', 'middleware' =
 });
 
 
-Route::group(['prefix' => 'school', 'as' => 'school.' , 'middleware' => 'visitor.tracking'], function () {
+Route::group(['prefix' => 'bis', 'as' => 'school.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/' , 'web.client.school.index');
     Route::view('/construction' , 'web.client.school.construction')->name('construction');
@@ -324,7 +324,7 @@ Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.' , 'middleware' => 
 
 Route::get('new/detail/{id}', [NewsController::class, 'show'])->name('beltei_university.news.detail');
 
-Route::group(['prefix' => 'beltei_university', 'as' => 'beltei_university.' , 'middleware' => 'visitor.tracking'], function () {
+Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/' , 'web.client.beltei_university.index');
     Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');

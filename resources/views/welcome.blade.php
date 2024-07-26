@@ -59,10 +59,10 @@
                 <!--<td><img src="images/bt-home/frame_inbound_tour.jpg" alt="Inbound_Tour" usemap="#f_inbound_tour" border="0" />-->
                 <map name="f_inbound_tour">
                     <area shape="circle" coords="646,68,67" href="beltei_group_logos.html" target="_blank"></a>
-                    <area shape="rect" coords="7,279,186,499" href="{{ url('contruction') }}"></a>
-                    <area shape="rect" coords="199,281,368,495" href="{{ url('school') }}"></a>
-                    <area shape="rect" coords="379,282,548,493" href="{{ url('beltei_university') }}"></a>
-                    <area shape="rect" coords="560,281,729,495" href="https://www.beltei.edu.kh/bire/"></a>
+                    <area shape="rect" coords="7,279,186,499" href="{{ url('construction') }}"></a>
+                    <area shape="rect" coords="199,281,368,495" href="{{ url('bis') }}"></a>
+                    <area shape="rect" coords="379,282,548,493" href="{{ url('biu') }}"></a>
+                    <area shape="rect" coords="560,281,729,495" href="{{ url('relation') }}"></a>
                     <!--<area shape="rect" coords="737,281,909,494" href="https://www.beltei.edu.kh/internationaltests/"></a>-->
                     <area shape="rect" coords="737,281,909,494" href="{{ url('testcenter') }}"></a>
                     <area shape="rect" coords="920,281,1091,496" href="{{ url('beltei_tours_travel') }}"></a>
