@@ -12,6 +12,7 @@
     </div>
 
     <div>
+        <img data-aos="zoom-out-up" class="w-100-600px" src="{{ asset('asset/img/BTG.png') }}" alt="">
         <iframe width="500" height="285" src="https://www.youtube.com/embed/UyMJdh_j1AQ?si=KGP9XP6NAgJvCiGG" ></iframe>
         <iframe width="500" height="285" src="https://www.youtube.com/embed/Sia-Qj5lHzU?si=nOBmydBZydAB4uqw" ></iframe>
         <img data-aos="zoom-out-up"  class="w-100-600px" src="{{ asset('asset/img/relation/beltei-international-relations-service1.jpg') }}" alt="">
