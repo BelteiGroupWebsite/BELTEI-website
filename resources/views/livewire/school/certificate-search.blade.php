@@ -15,7 +15,7 @@
         </button>
     </div>
 
-    <div class="w-100 overflow-hidden overflow-x-scroll">
+    <div class="w-100 overflow-x-scroll">
         <table class="table table-responsive content-translate-font table-hover table-bordered w-100 f14" style="vertical-align: middle">
     
             <thead class="table-info font-bold">
