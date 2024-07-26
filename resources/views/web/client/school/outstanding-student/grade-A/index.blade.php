@@ -17,8 +17,8 @@
 
                     @foreach ($gradeA->studentGradeA as $key => $studentGradeA)
                         <div class="d-flex align-items-center border">
-                            <div class="max-width-200 max-height-200  overflow-hidden" style="border-radius: 100% 50%;">
-                                <img class="w-100" loading="lazy"
+                            <div class="max-width-200 max-height-200  overflow-hidden">
+                                <img class="w-100 rounded shadow-sm" loading="lazy"
                                     src="{{ asset('storage/upload/gradeA/' . $gradeA->start_academic_year . '/profile/' . ($key + 1) . '.jpg') }}"
                                     alt="">
                             </div>
