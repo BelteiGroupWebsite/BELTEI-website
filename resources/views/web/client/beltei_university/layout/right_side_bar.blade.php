@@ -60,8 +60,8 @@
 
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #006cb8" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
+                <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
                     ប្រទេសកម្ពុជា
                 </p>
             </a>
