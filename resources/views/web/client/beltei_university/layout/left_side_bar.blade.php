@@ -7,6 +7,7 @@
         <a href="{{ route('beltei_university.about.welcome') }}" class="list-group-item text-white">{{ __('beltei_university/app.A1') }}</a>
         <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.A2') }}</a>
         <a href="{{ route('beltei_university.about.vision') }}" class="list-group-item text-white">{{ __('beltei_university/app.A3') }}</a>
+        <a href="{{ route('beltei_university.about.belteigroup') }}" class="list-group-item text-white">{{ __('school/app.A7') }}</a>
         <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.A4') }}</a>
         <a href="{{ route('beltei_university.about.sturcture') }}" class="list-group-item text-white">{{ __('beltei_university/app.A5') }}</a>
         <a href="{{ route('beltei_university.about.whybeltei') }}" class="list-group-item text-white">{{ __('beltei_university/app.A6') }}</a>
