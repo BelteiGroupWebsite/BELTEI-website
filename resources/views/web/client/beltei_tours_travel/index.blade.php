@@ -10,6 +10,10 @@
         <img src="https://www.belteitour.com.kh/btk/images/bt-home/beltei_youtube.png" alt="">
     </div>
 
+    <div>
+        <img class="w-100" src="{{ asset('asset/img/BTG.png') }}" alt="">
+    </div>
+
     <iframe width="500" height="280" src="https://www.youtube.com/embed/6I8WENHBtOc?si=izlAt6OZxnbO-vPT" title="YouTube video player" frameborder="0" allow="autoplay; " allowfullscreen></iframe>
 
 
