@@ -145,9 +145,9 @@
         </span>' ,
 
 
-        'belteigroup' => "BELTEI GROUP​ HEADQUARTERS",
-        'campus1' => "CAMPUS 1 (Tuol Sleng)",
-        'campus2' => "CAMPUS 2 (Chom Chao)",
-        'campus3' => "CAMPUS 3 ",
+        'belteigroup' => "Beltei Group​ Headquarters",
+        'campus1' => "Campus 1 (Tuol Sleng)",
+        'campus2' => "Campus 2 (Chom Chao)",
+        'campus3' => "Campus 3 ",
         
     ];
