@@ -15,25 +15,25 @@
         <a class="col-3" href="{{route('beltei_university.about.belteigroup')}}?id=1">
             <img class="w-100" src="{{ asset('asset/img/BTG.png') }}" alt="">
             <div class="d-flex  justify-content-around">
-                <h5 class="Khmer-OS-Koulen py-3 Blue-color">ស្នាក់ការកណ្តាល ប៊ែលធី គ្រុប</h3>
+                <h5 class="Khmer-OS-Koulen py-3 Blue-color">{{ __('beltei_university/app.belteigroup') }}</h3>
             </div>
         </a>
         <a class="col-3" href="{{route('beltei_university.campus.campusTemplete')}}?id=1">
             <img class="w-100" src="{{ asset('asset/img/university/campus/BIU1.png') }}" alt="">
             <div class="d-flex  justify-content-around">
-                <h5 class="Khmer-OS-Koulen py-3 Blue-color">ទី​តាំងទី១ ទួលស្លែង</h3>
+                <h5 class="Khmer-OS-Koulen py-3 Blue-color">{{ __('beltei_university/app.campus1') }}</h3>
             </div>
         </a>
         <a class="col-3" href="{{route('beltei_university.campus.campusTemplete')}}?id=2">
             <img class="w-100" src="{{ asset('asset/img/university/campus/BIU2.png') }}" alt="">
             <div class="d-flex  justify-content-around">
-                <h5 class="Khmer-OS-Koulen py-3 Blue-color">ទី​តាំងទី២ ស្ពានអាកាស ចោមចៅ</h3>
+                <h5 class="Khmer-OS-Koulen py-3 Blue-color">{{ __('beltei_university/app.campus2') }}</h3>
             </div>
         </a>
         <a class="col-3" href="{{route('beltei_university.campus.campusTemplete')}}?id=3">
             <img class="w-100" src="{{ asset('asset/img/university/campus/BIU3.png') }}" alt="">
             <div class="d-flex  justify-content-around">
-                <h5 class="Khmer-OS-Koulen py-3 Blue-color">គម្រោងទី​តាំងទី៣ ទួលពង្រ</h3>
+                <h5 class="Khmer-OS-Koulen py-3 Blue-color">{{ __('beltei_university/app.campus3') }}</h3>
             </div>
         </a>
 

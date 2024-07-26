@@ -142,6 +142,12 @@
         </span>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
             1- Intensive Course (English and Computer) | 2- Associate Degrees | 3- Bachelor Degree | 4- Master Degrees | 5- Doctoral Degrees
-        </span>'
+        </span>' ,
 
+
+        'belteigroup' => "BELTEI GROUP​ HEADQUARTERS",
+        'campus1' => "CAMPUS 1 (Tuol Sleng)",
+        'campus2' => "CAMPUS 2 (Chom Chao)",
+        'campus3' => "CAMPUS 3 ",
+        
     ];
