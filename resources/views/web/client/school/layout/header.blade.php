@@ -11,9 +11,11 @@
         </div>
     </div>
 
-    <a href="{{ route('school.about.belteigroup') }}" class="text-center">
-        <img class="w-50 mt-2" src="{{ asset('asset/img/school/Head_combine.png') }}" alt="">
-    </a>
+    <div class="text-center">
+        <a href="{{ route('school.about.belteigroup') }}" class="text-center">
+            <img class="w-50 mt-2" src="{{ asset('asset/img/school/Head_combine.png') }}" alt="">
+        </a>
+    </div>
     <div id="campus" class="campus d-flex shadow-sm rounded  justify-content-between mb-3 content-translate-font p-lg-3 scale-9-600px">
     </div>
     
