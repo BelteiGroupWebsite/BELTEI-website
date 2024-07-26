@@ -1,4 +1,4 @@
-<div class="sidebar min-width-250 max-width-300 shadow-sm p-0 m-0 content-translate-font px-1">
+<div class="sidebar max-width-250 w-100 shadow-sm p-0 m-0 content-translate-font px-1">
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('beltei_tours_travel.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.A') }}</h6>

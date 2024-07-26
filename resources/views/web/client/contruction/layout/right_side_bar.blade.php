@@ -1,4 +1,4 @@
-<div class="sidebar min-width-250 max-width-300 position-sticky shadow-sm p-0 m-0 px-1 content-translate-font">
+<div class="sidebar max-width-250 w-100 shadow-sm p-0 m-0 content-translate-font px-1">
 
     <ul class="list-group translate ul-none-style" style="background-color: #21ade3;">
         <h6 class="text-uppercase text-center py-2 bg-header-color gold title-translate-font">
