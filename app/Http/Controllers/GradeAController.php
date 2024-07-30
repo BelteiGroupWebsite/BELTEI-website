@@ -17,18 +17,19 @@ class GradeAController extends Controller
      */
     public function client(Request $request)
     {
-        // Paginate AcademicYear records
-        $gradeAs = AcademicYear::paginate(10)->orderBy('start_academic_year', 'desc');
-
+        // Paginate AcademicYear records with ordering
+        $gradeAs = AcademicYear::orderBy('start_academic_year', 'desc')->paginate(10);
+    
         // Paginate studentGradeA records for each AcademicYear
         $gradeAs->each(function ($academicYear) use ($request) {
-            $academicYear->studentGradeAPaginated = $academicYear->studentGradeA()->paginate(10, ['*'], 'studentGradeAPage', $request->input('studentGradeAPage', 1));
+            // Paginate studentGradeA records with a custom page name
+            $academicYear->studentGradeAPaginated = $academicYear->studentGradeA()
+                ->paginate(10, ['*'], 'studentGradeAPage', $request->input('studentGradeAPage', 1));
         });
-
-
-
+    
         return view('web.client.school.outstanding-student.grade-A.index', compact('gradeAs'));
     }
+    
 
     /**
      * Display a listing of the resource.
