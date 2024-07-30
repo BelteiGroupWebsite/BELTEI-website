@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="text-start Battambang-Regular p-3">
-        <h5 class="Khmer-OS-Koulen text-center" style="color: #4156A3" class="text-center font-bold mb-3"><span id="BCampus"></span></h5>
+        <h5 class="Khmer-OS-Koulen text-center mb-3" style="color: #4156A3" class="text-center font-bold mb-3"><span id="BCampus"></span></h5>
         <div class="text-center">
             <img class="w-75 rounded shadow-sm " id="img" src="" alt="">
         </div>
