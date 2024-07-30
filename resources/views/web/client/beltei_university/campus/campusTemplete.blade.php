@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="text-start Battambang-Regular p-3">
-        <h5 style="font-family: Khmer OS Koulen ; color: #4156A3" class="text-center font-bold mb-3"><span id="BCampus"></span></h5>
+        <h5 class="Khmer-OS-Koulen" style="color: #4156A3" class="text-center font-bold mb-3"><span id="BCampus"></span></h5>
         <div class="text-center">
             <img class="w-75 rounded shadow-sm " id="img" src="" alt="">
         </div>
@@ -22,7 +22,7 @@
             var campusNameArr = [
                 "សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ ទី​តាំង​ទី ១ ទួលស្លែង",
                 "សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ ទី​តាំង​ទី ២ ស្ពានអាកាស ចោមចៅ",
-                "សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ គម្រោងទី​តាំង​ទី ៣ ផ្សារទួលទំពូង",
+                "សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ គម្រោងទី​តាំង​ទី ៣ ទួលពង្រ",
 
             ];
         } else {
