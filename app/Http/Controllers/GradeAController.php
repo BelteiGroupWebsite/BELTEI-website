@@ -18,7 +18,7 @@ class GradeAController extends Controller
     public function client(Request $request)
     {
         // Paginate AcademicYear records
-        $gradeAs = AcademicYear::paginate(10);
+        $gradeAs = AcademicYear::paginate(10)->orderBy('start_academic_year', 'desc');
 
         // Paginate studentGradeA records for each AcademicYear
         $gradeAs->each(function ($academicYear) use ($request) {
