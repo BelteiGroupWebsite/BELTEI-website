@@ -2,7 +2,7 @@
 
 @section('content')
     <div>
-        @foreach ($gradeAs->orderBy('start_academic_year', 'desc') as $gradeA)
+        @foreach ($gradeAs as $gradeA)
             <div class="content-translate-font table text-start">
                 <div>
                     <h5 class="title-translate-font bg-success p-2 text-white text-center py-3">
