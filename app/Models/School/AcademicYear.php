@@ -20,12 +20,8 @@ class AcademicYear extends Model
 
     public function studentGradeA()
     {
-        return $this->hasMany(StudentGradeA::class, 'academic_year_id', 'id');
+        return $this->hasMany(StudentGradeA::class, 'academic_year_id', 'id')
+                    ->orderBy('start_academic_year', 'desc'); // Sort from largest to smallest
     }
 
-
-    // public function studentGradeA()
-    // {
-    //     return $this->hasMany(StudentGradeA::class);
-    // }
 }
