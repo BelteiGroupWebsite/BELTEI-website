@@ -21,10 +21,11 @@
         </h5>
         <div class="row">
             <div class="col-6 height-300 content-translate-font">
-                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
-                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/RaybuOZlW7k/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/RaybuOZlW7k?si=OTvn54xUezuBiukv">
-                </div>
+                    <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                        <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/YqmUKjLuzzk/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/YqmUKjLuzzk?si=Um62-UfgIaHCQBCH">
+                    </div>
+
             </div>
 
             <div class="col-6 height-300 content-translate-font">
