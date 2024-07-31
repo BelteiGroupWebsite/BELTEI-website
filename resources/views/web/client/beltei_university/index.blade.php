@@ -46,6 +46,8 @@
     </div>
     
     <div class="row gy-2 justify-content-center">
+        <img  data-aos="zoom-out-up"  class="w-75 rounded shadow p-0" src="{{ asset('asset\img\university\app\photo_2024-07-30_19-35-57.jpg') }}" alt="">
+        <img  data-aos="zoom-out-up"  class="w-75 rounded shadow p-0" src="{{ asset('asset\img\university\app\photo_2024-07-30_19-35-59.jpg') }}" alt="">
         <img  data-aos="zoom-out-up"  class="w-75 rounded shadow p-0" src="{{ asset('asset\img\university\app\photo_2024-07-05_09-06-49.jpg') }}" alt="">
         <img data-aos="zoom-out-up"  class="w-75 rounded shadow p-0" src="{{ asset('asset\img\university\app\photo_2024-07-05_09-06-55.jpg') }}" alt="">
         <img data-aos="zoom-out-up"  class="w-75 rounded shadow p-0" src="{{ asset('asset\img\university\app\photo_2024-07-05_09-06-58.jpg') }}" alt="">
