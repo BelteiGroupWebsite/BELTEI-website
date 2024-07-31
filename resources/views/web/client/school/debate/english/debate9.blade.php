@@ -21,19 +21,19 @@
         </h5>
         <div class="row">
             <div class="col-6 height-300 content-translate-font">
-                    <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
-                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                        <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/YqmUKjLuzzk/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/YqmUKjLuzzk?si=Um62-UfgIaHCQBCH">
-                    </div>
-
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/YqmUKjLuzzk/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/YqmUKjLuzzk?si=Um62-UfgIaHCQBCH">
+                </div>
             </div>
+
 
             <div class="col-6 height-300 content-translate-font">
-            <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
-                <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/RaybuOZlW7k/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/RaybuOZlW7k?si=OTvn54xUezuBiukv">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/U1E1AhW0hi0/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/U1E1AhW0hi0?si=cr-kEqoKNBSX2Mba">
+                </div>
             </div>
-        </div>
         </div>
         <hr class="border border-success border-3">
 
@@ -43,17 +43,19 @@
         </h5>
         <div class="row">
             <div class="col-6 height-300 content-translate-font">
-            <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
-                <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/RaybuOZlW7k/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/RaybuOZlW7k?si=OTvn54xUezuBiukv">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/_DG8PPGX-Hw/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/_DG8PPGX-Hw?si=wXAO9k76nd8IZerd">
+                </div>
             </div>
-            </div>
+
             <div class="col-6 height-300 content-translate-font">
-            <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
-                <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/RaybuOZlW7k/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/RaybuOZlW7k?si=OTvn54xUezuBiukv">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/6-L1heIYZAg/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/6-L1heIYZAg?si=Fq5Ja3XZE1em0z9Z">
+                </div>
             </div>
-            </div>
+
         </div>
 
         <hr class="border border-success border-3">
@@ -65,11 +67,11 @@
         <div class="row justify-content-center">
             <div class="col-6 height-300 content-translate-font">
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
-                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/RaybuOZlW7k/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/RaybuOZlW7k?si=OTvn54xUezuBiukv">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/g_S1f3SYdT0/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/g_S1f3SYdT0?si=5Sxe-qCm5nAITQq9">
                 </div>
-
             </div>
+
         </div>
 
 
