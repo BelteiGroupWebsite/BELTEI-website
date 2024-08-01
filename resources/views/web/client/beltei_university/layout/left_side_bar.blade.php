@@ -71,44 +71,44 @@
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.E') }}</h6>
         </a>
-        <a href="{{ route('beltei_university.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('beltei_university/app.E1') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.E2') }}</a>
-        <a href="{{ route('beltei_university.about.vision') }}" class="list-group-item text-white">{{ __('beltei_university/app.E3') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.E4') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.E5') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.E6') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.E1') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.E2') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.E3') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.E4') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.E5') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.E6') }}</a>
     </ul>
 
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.F') }}</h6>
         </a>
-        <a href="{{ route('beltei_university.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('beltei_university/app.F1') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.F2') }}</a>
-        <a href="{{ route('beltei_university.about.vision') }}" class="list-group-item text-white">{{ __('beltei_university/app.F3') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.F4') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.F5') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.F1') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.F2') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.F3') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.F4') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.F5') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.G') }}</h6>
         </a>
-        <a href="{{ route('beltei_university.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('beltei_university/app.G1') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.G2') }}</a>
-        <a href="{{ route('beltei_university.about.vision') }}" class="list-group-item text-white">{{ __('beltei_university/app.G3') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.G4') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.G5') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.G6') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G1') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G2') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G3') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G4') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G5') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G6') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.H') }}</h6>
         </a>
-        <a href="{{ route('beltei_university.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('beltei_university/app.H1') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.H2') }}</a>
-        <a href="{{ route('beltei_university.about.vision') }}" class="list-group-item text-white">{{ __('beltei_university/app.H3') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.H4') }}</a>
-        <a href="{{ route('beltei_university.about.history') }}" class="list-group-item text-white">{{ __('beltei_university/app.H5') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.H1') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.H2') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.H3') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.H4') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.H5') }}</a>
     </ul>
     <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0 unhover-padding" >
         <a href="{{ route('beltei_university.') }}">
@@ -170,16 +170,16 @@
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.J') }}</h6>
         </a>
-        <a href="{{ route('beltei_university.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('beltei_university/app.J1') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.J2') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.J1') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.J2') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.K') }}</h6>
         </a>
-        <a href="{{ route('beltei_university.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('beltei_university/app.K1') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.K2') }}</a>
-        <a href="{{ route('beltei_university.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_university/app.K3') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.K1') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.K2') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.K3') }}</a>
 
     </ul>
 
