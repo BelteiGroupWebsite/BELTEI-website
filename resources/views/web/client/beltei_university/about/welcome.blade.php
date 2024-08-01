@@ -13,8 +13,10 @@
             <div class="text-justify">
                 {!! __('beltei_university/about/welcome.welcome') !!}
             </div>
-            <img class="float-start rounded"
+            <img class="float-start rounded" style="width: 200px"
                 src="{{ asset('asset/img/biu/app/HEDr_sign.png')}}" alt="">
+                <p class="title-translate-font"> បណ្ឌិត លី ឆេង</p>
+
         </div>
     </div>
 @endsection
