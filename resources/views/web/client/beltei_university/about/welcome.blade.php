@@ -14,7 +14,7 @@
                 {!! __('beltei_university/about/welcome.welcome') !!}
             </div>
             <img class="float-start rounded"
-                src="https://www.beltei.edu.kh/biuk/images/beltei_pic/beltei_international_university_in_cambodia_ly_chheng_singature.png" alt="">
+                src="{{ asset('asset/img/biu/app/HEDr_sign.png')}}" alt="">
         </div>
     </div>
 @endsection
