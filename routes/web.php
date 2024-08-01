@@ -327,7 +327,7 @@ Route::get('new/detail/{id}', [NewsController::class, 'show'])->name('beltei_uni
 Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/' , 'web.client.beltei_university.index');
-    Route::view('/construction' , 'web.client.beltei_tours_travel.construction')->name('construction');
+    Route::view('/construction' , 'web.client.beltei_university.construction')->name('construction');
     
 
     Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
