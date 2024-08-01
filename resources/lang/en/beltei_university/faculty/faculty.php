@@ -15,6 +15,7 @@ return [
     'f10'=> "FACULTY OF ARCHITECTURE",
     'f11'=> "FACULTY OF INTERNATIONAL RELATION",
     'f12'=> "FACULTY OF CIVIL AVIATION",
+    'f13'=> "FACULTY OF CHINESE -中文学院",
 
 
 
