@@ -19,7 +19,7 @@
 
     </div>
 
-    <script>
+    {{-- <script>
         var lang = document.documentElement.getAttribute("lang");
         if (lang == "kh") {
             var campusNameArr = [
@@ -78,5 +78,5 @@
         // campusNameArr.forEach(campusName => {
 
         // });
-    </script>
+    </script> --}}
 @endsection
