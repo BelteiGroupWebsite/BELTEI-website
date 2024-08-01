@@ -33,7 +33,7 @@ return [
 <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>ប្រធានក្រុមប្រឹក្សាភិបាល</span></p>
 <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ</span></p>
 <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><br></p>
-<img src="{{ asset(\'asset\img\biu\app\HEDr_sign.png\') }}" alt="">
+<img src="asset/img/biu/app/HEDr_sign.png" alt="">
 <p style=\'margin-top:12.0pt;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:19px;font-family:"Khmer OS Muol Light";\'>បណ្ឌិត លី ឆេង</span></p>
 </div>
 
