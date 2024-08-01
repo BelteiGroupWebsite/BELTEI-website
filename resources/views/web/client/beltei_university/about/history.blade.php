@@ -15,6 +15,13 @@
         </div>
 
 
+        <div class="row">
+            <div class="col-6">
+                <img src="{{ asset('asset/img/university/campus/BIU1.png') }}" alt="">
+                <img src="{{ asset('asset/img/university/campus/BIU2.png') }}" alt="">
+            </div>
+        </div>
+
 
 
     </div>
