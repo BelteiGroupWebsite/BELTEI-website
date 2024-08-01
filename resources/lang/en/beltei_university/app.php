@@ -68,6 +68,7 @@
         'C10' => "Architecture",
         'C11' => "International Relations",
         'C12' => "Civil Aviation",
+        'C13' => "CHINESE -中文学院",
 
         'D' => "Recognition",
         'D1' => "Recognition",

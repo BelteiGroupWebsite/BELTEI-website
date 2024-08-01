@@ -39,6 +39,7 @@
         <a href="{{ route('beltei_university.faculty-detail') }}?id=10" style="height: 40px;  border-radius: 16px ; text-shadow: 2px 2px 2px #21ade3" class="list-group-item title-translate-font py-4 BArch-color-bg border border-2 border-bottom-0 Gold-color-border text-white d-flex align-items-center">{{ __('beltei_university/app.C10') }}</a>
         <a href="{{ route('beltei_university.faculty-detail') }}?id=11" style="height: 40px;  border-radius: 16px ; text-shadow: 2px 2px 2px #21ade3" class="list-group-item title-translate-font py-4 BIR-color-bg border border-2 border-bottom-0 Gold-color-border text-white d-flex align-items-center">{{ __('beltei_university/app.C11') }}</a>
         <a href="{{ route('beltei_university.faculty-detail') }}?id=12" style="height: 40px;  border-radius: 16px ; text-shadow: 2px 2px 2px #21ade3" class="list-group-item title-translate-font py-4 BCA-color-bg border border-2 border-bottom-0 Gold-color-border text-white d-flex align-items-center">{{ __('beltei_university/app.C12') }}</a>
+        <a href="{{ route('beltei_university.faculty-detail') }}?id=13" style="height: 40px;  border-radius: 16px ; text-shadow: 2px 2px 2px #21ade3 ; background: #FFC62A;" class="list-group-item title-translate-font py-4  border border-2 border-bottom-0 Gold-color-border text-white d-flex align-items-center">{{ __('beltei_university/app.C13') }}</a>
 
     </ul>
 
