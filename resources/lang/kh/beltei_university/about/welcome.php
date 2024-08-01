@@ -6,92 +6,27 @@ return [
     'header' => "សារស្វាគមន៍ពីនាយកសាលា",
 
     'welcome' => '
-    <p>
-    សូម​គោ​រព  និង​សូម​ស្វា​គមន៍  សម្តេច  ឯក​ឧត្តម​​​​លោក​ឧក​ញ៉ា ​​លោក​ជំ​ទាវ​ លោក ​លោក​ស្រី​ អ្នក​នាង​កញ្ញា  ជា​ថ្នាក់​ដឹក​នាំ  មន្ត្រី​រាជ​ការ  បុគ្គ​លិក​ សាស្រ្តា​ចារ្យ​ លោក​គ្រូ​ ​ អ្នក​គ្រូ​បុគ្គ​លិក​អង្គ​ការ​មិន​មែន​រដ្ឋា​ភិ​បាល​ និង​សិស្ស​-​និ​ស្សិត​ទាំង​អស់​ដែល​បាន​សម្រេច​ចិត្ត​បន្ត​ការ​សិក្សា​ថ្នាក់​ឧ​ត្តម​សិក្សា​នៅ​សា​កល​វិ​ទ្យា​ល័យ ​ប៊ែល​ធី ​អន្តរ​ជាតិ ​ដើម្បី​បង្កើន​ចំ​ណេះ​ដឹង​ សម​ត្ថ​ភាព​ និង​សម្រេច​គោល​ដៅ​របស់​ខ្លួន​ទៅ​ថ្ងៃ​អ​នា​គត​។
-</p>
-<p>សា​កល​វិ​ទ្យា​ល័យ  ប៊ែល​ធី  អន្តរ​ជាតិ​ បាន​បង្កើត​ឡើង​ក្នុង​គោល​បំ​ណង​រួម​ចំ​ណែក​អភិ​វឌ្ឍន៍​វិ​ស័យ​អប់​រំ​ថ្នាក់​ឧត្តម​សិក្សា​នៅ​ប្រ​ទេស​កម្ពុជា​ និង​ដើម្បី​បង្កើន​ធន​ធាន​មនុ​ស្ស​ប្រ​កប​ដោយ​គុណ​ភាព​ ឧត្តម​ភាព​ សីល​ធម៌​ និង​គុណ​ធម៌​ ស្រប​តាម​យុទ្ធ​សាស្រ្ត​ចតុ​កោណ​របស់​រាជ​រដ្ឋា​ភិ​បាល​ដែល​មាន​ សម្ដេច​អគ្គ​ម​ហា​សេ​នា​បតី​តេ​ជោ  ហ៊ុន  សែន​  ជា​នា​យក​រដ្ឋ​មន្ត្រី​ និង​ជា​វី​រៈ​កុល​បុត្រ​ខ្មែរ​ដ៏​ឆ្នើម​ ដែល​ធ្វើ​ឱ្យ​ប្រ​ទេស​ជាតិ​មាន​សុខ​សន្តិ​ភាព ​និង​ការ​អ​ភិ​វឌ្ឍ​លើ​គ្រប់​វិ​ស័យ​។ សា​កល​វិ​ទ្យា​ល័យ​ បាន​និង​កំ​ពុង​បណ្ដុះ​បណ្ដាល​ថ្នាក់​បរិ​ញ្ញា​បត្រ​រង​ និង​បរិ​ញ្ញា​បត្រ​ ជា​កម្ម​វិ​ធី​សិក្សា​ភា​សា​ជាតិ​ និង​អន្តរ​ជាតិ ​ដែល​មាន ​១២​ ម​ហា​វិ​ទ្យា​ល័យ​ ​សំ​ខាន់​ៗ ​រួម​មាន​៖។</p>
-<ul>
-    <li>
-        ១​-​គ្រប់​គ្រង​ពា​ណិជ្ជ​កម្ម
-    </li>
-    <li>
-        ២​. ហិរញ្ញវត្ថុ និងធនាគារ
-    </li>
-    <li>
-        ៣. សេដ្ឋកិច្ច
-    </li>
-    <li>
-        ៤. ច្បាប់
-    </li>
-    <li>
-        ៥. អប់រំ សិល្បៈ និងមនុស្សសាស្ត្រ
-    </li>
-    <li>
-         ៦. ទេសចរណ៍ និងបដិសណ្ឋារកិច្ច
-    </li>
-    <li>
-        ៧. ព័ត៌មានវិទ្យា និងវិទ្យាសាស្រ្ត
-    </li>
-    <li>
-         ៨. បច្ចេកវិទ្យាឌីជីថល និងទូរគមនាគមន៍
-    </li>
-    <li>
-        ៩. វិស្វកម្ម​
-    </li>
-    <li>
-        ១០. ស្ថាបត្យកម្ម​
-    </li>
-    <li>
-        ១១. ទំនាក់ទំនងអន្តរជាតិ
-    </li>
-    <li>
-        ១២. អាកាសចរស៊ីវិល​
-    </li>
-</ul>
 
-<p>
-បច្ចុ​ប្បន្ន​ សា​កល​វិ​ទ្យា​ល័យ​ផ្ដល់​ជូន​នូវ​កម្ម​វិ​ធី​សិក្សា​តាម​វិ​ធី​សាស្ត្រ​ធំ​ៗ ទាំង​៣​គឺ​៖​
-</p>
-
-<ul>
-    <li>
-    ១. ការ​សិក្សា​ផ្ទាល់​នៅ​ក្នុង​ថ្នាក់​ (On-Campus Learning)
-    </li>
-    <li>
-    ២. ការ​សិក្សា​តាម​ប្រ​ព័ន្ធ​អេ​ឡិច​ត្រូ​និក ​(Online Learning)
-    </li>
-    <li>
-    ៣. ការ​សិក្សា​តាម​បែប​ចម្រុះ ​(Blended Learning)
-    </li>
-</ul>
-
-<p>
-សា​កល​វិ​ទ្យា​ល័យ​ក៏​បាន​រៀប​ចំ​ប្រ​ព័ន្ធ​ស្វ័យ​សិក្សា​តាម​រយៈ​ការ​បង្កើត​ឱ្យ​មាន​៖
-</p>
-
-<ul>
-    <li>
-    ១. ​បណ្ណា​ល័យ​ធំ​ទូ​លាយ​ ​ សម្រាប់​និ​ស្សិត​ធ្វើ​ការ​ស្រាវ​ជា្រវ​ដោយ​ផ្ទាល់​នូវ​រាល់​ឯក​សារ​ និង​សៀវ​ភៅ​ថ្មីៗ​យ៉ាង​សម្បូរ​បែប​
-    </li>
-    <li>
-    ២. ​បណ្ណា​ល័យ​អេ​ឡិច​ត្រូ​និក ​​សម្រាប់​ផ្តល់​ភាព​ងាយ​ស្រួល​ដល់​និ​ស្សិត​សិក្សា​ស្រាវ​ជ្រាវ​នូវ​ឯក​សារ​ និង​សៀវ​ភៅ​សិក្សា​តាម​ប្រ​ព័ន្ធ​អេ​ឡិច​ត្រូ​និក​
-    </li>
-    <li>
-    ៣. ​BELTEI IU Mobile App ​សម្រាប់​ឱ្យ​និ​ស្សិត​ធ្វើ​ស្វ័យ​សិក្សា​បន្ថែម​បាន​គ្រប់​ពេល​វេលា​ និង​គ្រប់​ទី​កន្លែង​។​​
-    </li>
-</ul>
-
-<p>
-តាង​នាម​ ក្រុម​ប្រឹ​ក្សា​ភិ​បាល​ គណៈ​គ្រប់​គ្រង ​បុគ្គ​លិក ​និង​សា​ស្ត្រា​ចារ្យ​នៃ​សា​កល​វិ​ទ្យា​ល័យ​ ប៊ែល​ធី​ អន្តរ​ជាតិ​ យើង​បាន​ប្តេ​ជ្ញា​ចិត្ត​ខិត​ខំ​រៀប​ចំ​កម្ម​វិ​ធី​សិក្សា​ទំ​នើបៗ​បន្ថែម​ទៀត ​ស្រប​តាម​ស្តង់​ដារ​ជាតិ​ និង​អន្តរ​ជាតិ​សំ​ដៅ​លើក​កម្ពស់​គុណ​ភាព​អប់​រំ ​ចំ​ណេះ​ដឹង​ ភា​សា ​ជំ​នាញ​វិ​ជ្ជា​ជី​វៈ​វិ​ទ្យា​សាស្ត្រ​បច្ចេក​វិ​ទ្យា  គំ​និត​ច្នៃ​ប្រ​ឌិត​ប្រ​កប​ដោយ​ស​មត្ថ​ភាព  ស្រប​តាម​ស​ម័យ​ឌី​ជី​ថល​ (Digital Era)​ និង​បដិ​វត្តិ​ឧ​ស្សា​ហ​កម្ម​៤​.​០  ព្រម​ទាំង​មាន​សី​ល​ធម៌  និង​គុណ​ធម៌​ខ្ពស់​។ ។​
-</p>
-
-<p>
-យើង​ខ្ញុំ​រង់​ចាំ​ទ​ទួល​ស្វា​គមន៍​ សម្តេច ​ឯក​ឧ​ត្តម​ លោក​ឧក​ញ៉ា ​លោក​ជំ​ទាវ​ លោក ​លោក​ស្រី​ អ្នក​នាង​ កញ្ញា​ និង​សិស្ស​-​និ​ស្សិត​ទាំង​អស់​ដោយ​ក្តី​សោ​មន​ស្ស​រីក​រាយ​ជា​និច្ច​។ សូម​គោ​រព​ជូន​ពរ​ សុខ​ភាព​ល្អ​ សុ​ភ​មង្គល​ និង​ជោគ​ជ័យ​គ្រប់​ភារ​កិច្ច​ជា​និច្ច​និ​រន្ដ​។ ​
-</p>
-
-<p>
-សូម​​គោរព​ជូន​ពរ​ សុខ​ភាព​​ល្អ​ និង​​ជោគ​​ជ័យ​​គ្រប់​​ភារ​​កិច្ច។
-</p>
-
-    '
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>សូមគោរព និងសូមស្វាគមន៍ សម្តេច ឯកឧត្តម &nbsp; លោកឧកញ៉ា &nbsp;លោកជំទាវ &nbsp;លោក លោកស្រី អ្នកនាង &nbsp;កញ្ញា &nbsp; ជាថ្នាក់ដឹកនាំ មន្ត្រីរាជការ បុគ្គលិក សាស្រ្តាចារ្យ លោកគ្រូ អ្នកគ្រូបុគ្គលិកអង្គការមិនមែនរដ្ឋាភិបាល និងសិស្ស-និស្សិតទាំងអស់ដែលបានសម្រេចចិត្តបន្តការសិក្សាថ្នាក់ឧត្តមសិក្សានៅសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ ដើម្បីបង្កើនចំណេះដឹង សមត្ថភាពនិងសម្រេចគោលដៅរបស់ខ្លួនទៅថ្ងៃអនាគត។សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ បានបង្កើតឡើង ក្នុងគោលបំណងរួមចំណែកអភិវឌ្ឍវិស័យអប់រំថ្នាក់ឧត្តមសិក្សានៅប្រទេសកម្ពុជា និងដើម្បីបង្កើនមូលធនមនុស្សប្រកបដោយ &ldquo;គុណភាព ប្រសិទ្ធភាព ឧត្តមភាព សីលធម៌ និងគុណធម៌&rdquo; ស្របតាមយុទ្ធសាស្ត្រចតុកោណ &nbsp; របស់រាជរដ្ឋាភិបាល &nbsp; ដឹកនាំដោយ &nbsp;សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុន សែន អតីតនាយករដ្ឋមន្ត្រី ដែលជាវីរបុរសជាតិស្ថាបនិកមគ្គុទេសក៍ឯក និងប្រតិបត្តិករ នយោបាយ ឈ្នះ ឈ្នះដែលនាំមកនូវសន្តិភាព និងការឯកភាពជាតិពេញលេញព្រមទាំងស្របតាមយុទ្ធសាស្ត្របញ្ចកោណរបស់រាជរដ្ឋាភិបាល នីតិកាលទី៧ នៃរដ្ឋសភាដឹកនាំដោយ <strong>សម្តេចមហាបវរធិបតី &nbsp;</strong></span><strong><span style=\'font-size:16px;line-height:107%;font-family:"Khmer M1";\'>ហ៊ុន &nbsp;ម៉ាណែត</span></strong><strong><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; នាយករដ្ឋមន្ត្រី</span></strong><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; នៃព្រះរាជាណាចក្រកម្ពុជា ពោរពេញដោយសមត្ថភាព បន្តដឹកនាំប្រទេសជាតិឱ្យមាន សុខសន្តិភាព &nbsp; និងការអភិវឌ្ឍលើគ្រប់វិស័យ។ សាកលវិទ្យាល័យបាននឹងកំពុងបណ្តុះបណ្តាលថ្នាក់បរិញ្ញាបត្ររង ថ្នាក់បរិញ្ញាបត្រ ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់ និងថ្នាក់បណ្ឌិតតាមកម្មវិធីសិក្សាជាភាសាជាតិ និងអន្តរជាតិ ដែលមាន១២មហាវិទ្យាល័យរួមមាន៖</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp;១. គ្រប់គ្រងពាណិជ្ជកម្ម &nbsp; &nbsp;&nbsp;</span><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;៨. បច្ចេកវិទ្យាឌីជីថល និងទូរគមនាគមន៍</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp;២. ហិរញ្ញវត្ថុ និងធនាគារ &nbsp; &nbsp; &nbsp;</span><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;៩.វិស្វកម្ម</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp;៣. សេដ្ឋកិច្ច &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; ១០.ស្ថាបត្យកម្ម</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp;៤. ច្បាប់ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; ១១.ទំនាក់ទំនងអន្តរជាតិ&nbsp;</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp; ៥.អប់រំ សិល្បៈ និងមនុស្សសាស្ត្រ &nbsp; &nbsp; ១២. អាកាសចរស៊ីវិល&nbsp;</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp; ៦.ទេសចរណ៍ និងបដិសណ្ឋារកិច្ច &nbsp; &nbsp;១៣. ភាសាចិន</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-indent:7.1pt;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp;៧.ព័ត៌មានវិទ្យា និងវិទ្យាសាស្ត្រ&nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;បច្ចុប្បន្នសាកលវិទ្យាល័យផ្ដល់ជូននូវកម្មវិធីសិក្សាតាមវិធីសាស្ត្រ</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>ធំៗទាំង៣៖&nbsp;</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>១. ការសិក្សាផ្ទាល់នៅក្នុងថ្នាក់ (</span><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>On-Campus Learning)</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>២. ការសិក្សាតាមប្រព័ន្ធអេឡិចត្រូនិក (</span><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>Online Learning)</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>៣. ការសិក្សាតាមបែបចម្រុះ (</span><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>Blended Learning)</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;សាកលវិទ្យាល័យក៏បានរៀបចំប្រព័ន្ធស្វ័យសិក្សាតាមរយៈការបង្កើតឱ្យមាន៖</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>១. បណ្ណាល័យឌីជីថល សម្រាប់និស្សិតធ្វើការស្រាវជា្រវដោយផ្ទាល់នូវរាល់ឯកសារនិងសៀវភៅថ្មីៗយ៉ាងសម្បូរបែប&nbsp;</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>២. បណ្ណាល័យអេឡិចត្រូនិក សម្រាប់ផ្តល់ភាពងាយស្រួលដល់និស្សិតសិក្សាស្រាវជ្រាវនូវឯកសារនិងសៀវភៅសិក្សាតាមប្រព័ន្ធអេឡិចត្រូនិក</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>៣.&nbsp;</span><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>BELTEI IU Mobile App សម្រាប់ឱ្យនិស្សិតធ្វើស្វ័យសិក្សាបន្ថែមបានគ្រប់ពេលវេលា និងគ្រប់ទីកន្លែង។</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>តាងនាមក្រុមប្រឹក្សាភិបាល គណៈគ្រប់គ្រង បុគ្គលិកនិងសាស្ត្រាចារ្យនៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិយើងបានប្តេជ្ញាចិត្តខិតខំរៀបចំកម្មវិធីសិក្សាទំនើបៗបន្ថែមទៀត ស្របតាមស្តង់ដារជាតិ និងអន្តរជាតិ សំដៅលើក កម្ពស់គុណភាពអប់រំ &nbsp;ចំណេះដឹងភាសា ជំនាញវិជ្ជាជីវៈវិទ្យាសាស្ត្របច្ចេកវិទ្យា គំនិតច្នៃប្រឌិត ប្រកបដោយសមត្ថភាព ស្របតាមសម័យឌីជីថល (</span><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>Digital Era) និងបដិវត្តិឧស្សាហកម្ម ៤.០ព្រមទាំងមានសីលធម៌ និងគុណធម៌ខ្ពស់។</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>យើងខ្ញុំរង់ចាំទទួលស្វាគមន៍ សម្តេច ឯកឧត្តម លោកឧកញ៉ា លោកជំទាវលោកលោកស្រី អ្នកនាង កញ្ញានិងសិស្សនិស្សិតទាំងអស់ ដោយក្តីសោមនស្សរីករាយជានិច្ច។ សូមគោរពជូនពរ សុខភាពល្អ សុភមង្គលនិងជោគជ័យគ្រប់ភារកិច្ចជានិច្ចនិរន្ដរ៍។</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp;</span></p>
+    
+'
 ];
