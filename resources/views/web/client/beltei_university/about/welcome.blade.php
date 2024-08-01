@@ -1,7 +1,7 @@
 @extends('web.client.beltei_university.layout.app')
 
 @section('content')
-    <h2 class="title-translate-font my-3 underline Blue-color">{{ __('beltei_university/about/welcome.header') }}</h2>
+    <h4 class="title-translate-font my-3 underline Blue-color">{{ __('beltei_university/about/welcome.header') }}</h4>
 
 
 
