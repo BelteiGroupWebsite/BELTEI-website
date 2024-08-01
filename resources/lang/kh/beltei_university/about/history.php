@@ -1,35 +1,17 @@
 <?php
 
 return [
-    'header' => "ប្រវត្តិ និងប្លង់ទីតាំង",
+    'header' => "ប្រវត្តិសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ",
 
     'description' => '
 
-    <div>
-    <p>
-    <span class="Green-color">សាកល​វិទ្យា​ល័យ​ ប៊ែលធី​ អន្តរ​ជាតិ</span> គឺ​ជា​គ្រឹះ​ស្ថាន​អប់រំ​ឧត្តម​សិក្សា​ឯកជន​មួយ​ ដែល​បាន​ចាប់​បដិសន្ធ​ឡើង​នៅ​ថ្ងៃ​ទី​៤​ ខែ​សីហា​ ឆ្នាំ​២០០៥​ ដោយ​ផ្តើម​ចេញ​ពី​វិទ្យាស្ថាន​ ប៊ែលធី​ អន្តរ​ជាតិ​ និង​បាន​អភិវឌ្ឍ​ទៅ​ជា​សាកល​វិទ្យា​ល័យ​ ប៊ែលធី​ អន្តរ​ជាតិ​ នៅ​ថ្ងៃ​ទី​៦​ ខែ​កញ្ញា​ ឆ្នាំ​២០១២​។​ សាកល​វិទ្យា​ល័យ​ប៊ែលធី​ អន្តរ​ជាតិ​ ត្រូវ​បាន​សម្ពោធ​ដាក់​ឱ្យ​ប្រើ​ប្រាស់​ជា​ផ្លូវ​ការ​ នៅ​ថ្ងៃ​ទី​២១​ ខែ​សីហា​ ឆ្នាំ​២០១៤​ ក្រោម​អធិបតី​ភាព​ដ៏ខ្ពង់ខ្ពស់​ <span class="Green-color">សម្តេច​អគ្គមហា​សេនា​បតី​តេជោ​ ហ៊ុន​ សែន​ នាយក​រដ្ឋ​មន្ត្រី​ នៃ​ព្រះ​រាជា​ណាចក្រ​កម្ពុជា </span>​។
-    </p>
-    <br>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:18.0pt;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ គឺជាគ្រឹះស្ថានអប់រំឧត្តមសិក្សាឯកជនមួយ ដែលបានចាប់បដិសន្ធិឡើងនៅថ្ងៃទី៤ ខែសីហា ឆ្នាំ២០០៥ដោយផ្តើមចេញពីវិទ្យាស្ថាន ប៊ែលធី &nbsp; អន្តរជាតិ &nbsp;និងបានអភិវឌ្ឍទៅជាសាកលវិទ្យាល័យ ប៊ែលធី &nbsp;អន្តរជាតិ &nbsp;នៅថ្ងៃទី៦ &nbsp; ខែកញ្ញា &nbsp; ឆ្នាំ២០១២។សាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ ត្រូវបានសម្ពោធដាក់ឱ្យប្រើប្រាស់ជាផ្លូវការ នៅថ្ងៃទី២១ខែសីហា ឆ្នាំ២០១៤ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់&nbsp;</span><span style=\'font-size:16px;font-family:"Khmer OS Muol Light";\'>សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុន សែន</span><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>&nbsp;នាយករដ្ឋមន្ត្រី នៃព្រះរាជាណាចក្រកម្ពុជា។&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:18.0pt;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>សាកលវិទ្យាល័យ មានឈ្មោះពេញជាភាសាខ្មែរ&nbsp;</span><span style=\'font-size:16px;font-family:"Khmer OS Muol Light";\'>&ldquo;សាកលវិទ្យា-ល័យ ប៊ែលធី អន្តរជាតិ&rdquo;</span><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp;និងជាភាសាអង់គ្លេស &nbsp;&nbsp;</span><strong><span style=\'font-size:16px;font-family:"Calibri Light",sans-serif;\'>&ldquo;</span></strong><strong><span style=\'font-size:16px;font-family:"Calibri Light",sans-serif;\'>BELTEI INTERNATIONAL &nbsp;UNIVERSITY&rdquo;&nbsp;</span></strong><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>&nbsp;ហើយឈ្មោះ&nbsp;</span><strong><span style=\'font-size:16px;font-family:"Calibri Light",sans-serif;\'>&ldquo;</span></strong><strong><span style=\'font-size:16px;font-family:"Calibri Light",sans-serif;\'>BELTEI&rdquo;</span></strong><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>&nbsp; នេះផ្គុំទ្បើងដោយ ៦មុខជំនាញធំៗដូចជា&nbsp;</span><strong><span style=\'font-size:16px;font-family:"Calibri Light",sans-serif;\'>&ldquo;</span></strong><strong><span style=\'font-size:16px;font-family:"Calibri Light",sans-serif;\'>BEL&rdquo;</span></strong><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>&nbsp;មកពីពាក្យ&nbsp;</span><strong><span style=\'font-size:16px;font-family:"Calibri Light",sans-serif;\'>Business, Economics, Law</span></strong><strong><span style="font-size:16px;">&nbsp;</span></strong><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>&nbsp;និង &nbsp;&nbsp;</span><strong><span style=\'font-size:16px;font-family:"Calibri Light",sans-serif;\'>&ldquo;</span></strong><strong><span style=\'font-size:16px;font-family:"Calibri Light",sans-serif;\'>TEI&rdquo;</span></strong><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>&nbsp; &nbsp;មកពីពាក្យ &nbsp;Tourism, &nbsp;English, Information Technology ។</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:21.3pt;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Muol Light";\'>ឯកឧត្តមបណ្ឌិត លី ឆេង</span><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>&nbsp;បច្ចុប្បន្នជាតំណាងរាស្ត្រមណ្ឌលរាជធានីភ្នំពេញ ជាអគ្គនាយក ប៊ែលធីគ្រុប និងជាប្រធានក្រុមប្រឹក្សាភិបាល សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ គឺជាស្ថាបនិកតែម្នាក់គត់ ដែលបានវិនិយោគទុនក្នុងការបង្កើត និងសាងសង់អគារសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ ទាំងអស់នេះ។</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:21.3pt;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>បច្ចុប្បន្ន សាកលវិទ្យាល័យមាន ២ទីតាំង នៅរាជធានីភ្នំពេញ ដែលកំពុងដំណើរការកម្មវិធី២ធំៗ (កម្មវិធីសិក្សាជា ភាសាជាតិ និងកម្មវិធីសិក្សា អន្តរជាតិ) មាន ១៣មហាវិទ្យាល័យ និង ៤៥ជំនាញ៖</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Muol Light";\'>- សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ ទីតាំងទី ១ ទួលស្លែង</span><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>៖ អគារ២១ ផ្លូវ៣៦០ សង្កាត់បឹងកេងកង៣ ខណ្ឌបឹងកេងកង រាជធានីភ្នំពេញ (ខាងត្បូងសារមន្ទីរទួលស្លែង១០០ម៉ែត្រ) អគារមានកម្ពស់១៥ជាន់ស្មើនឹង១១០បន្ទប់ មានសាលសហសិក្សា១ ចំណុះ១៥០នាក់ និងសាលសន្និសីទ១ ចំណុះ៧០០នាក់ មានអាហារដ្ឋាន១កន្លែង បណ្ណាល័យ១ និងចំណតយានយន្ត២ជាន់។&nbsp;</span></p>
+<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:7.1pt;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Muol Light";\'>- សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ ទីតាំងទី ២ ស្ពានអាកាស ចោមចៅ៖</span><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>&nbsp;អគារ១៥១ ផ្លូវជាតិលេខ៣ សង្កាត់ចោមចៅទី២ ខណ្ឌពោធិ៍សែនជ័យ រាជធានីភ្នំពេញ (ចម្ងាយប្រហែល ៥០០ម៉ែត្រ ពីស្ពានអាកាសចោមចៅ) &nbsp;អគារកម្ពស់៩ជាន់ ស្មើនឹង១៤២បន្ទប់ មានសាលសហសិក្សា១ចំណុះ១៥០នាក់ សាលមហោស្រព១ ចំណុះ៨០០នាក់ និងសាលសន្និសីទ១ ចំណុះ១</span><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>,២០០នាក់ មានអាហារដ្ឋាន១កន្លែង បណ្ណាល័យ១ មានអគារអន្តេវាសិកដ្ឋាន១ ខ្នង ស្មើនឹង៦៥បន្ទប់មានគ្រែចំនួន១៣០ និងមានចំណតយានយន្តជាង១០,០០០ ម៉ែត្រការ៉េ។</span></p>
 
-    <p>
-    សាកល​វិទ្យា​ល័យ​ មាន​ឈ្មោះ​ពេញ​ជា​ភាសា​ខ្មែរ​ “​សាកល​វិទ្យាល័យ​ ប៊ែលធី​ អន្តរ​ជាតិ​”​និង​ជា​ភា​សា​អង់គ្លេស​ <span class="Green-color">“​BELTEI​ INTERNATIONAL​ UNIVERSITY​”​</span>ហើយ​ឈ្មោះ​ “​BELTEI​” នេះ​ផ្គុំ​ទ្បើង​ដោយ​ ៦​មុខ​ជំនាញ​ធំៗ​ដូចជា​ “​BEL​” មក​ពី​ពាក្យ​ Business​, ​Economics​, Law​ និង​ “TEI”​ មក​ពី​ពាក្យ​ Tourism,​ English,​ Information​ Technology​ ។
-    </p>
-    <br>
-
-    <p><span class="Green-color">ឯក​ឧត្តម​បណ្ឌិត​ លី​ ឆេង</span>​ បច្ចុប្បន្ន​ជា​តំ​ណាង​រាស្ត្រ​មណ្ឌល​ រាជ​ធា​នី​ភ្នំ​ពេញ​ ជា​អគ្គ​នាយក​ ប៊ែលធី​គ្រុប​ និង​ជា​ប្រធាន​ក្រុម​ប្រឹក្សា​ភិបាល​ សាកល​វិទ្យា​ល័យ​ ប៊ែលធី​ អន្តរ​ជាតិ​ គឺ​ជា​ស្ថាបនិក​តែ​ម្នាក់​គត់​ ដែល​បាន​ វិនិ​យោគ​ទុន​ក្នុង​ការ​បង្កើត​ និង​សាងសង់​អគារ​សាកល​វិទ្យា​ល័យ​ ប៊ែលធី​ អន្តរ​ជាតិ​ ទាំង​អស់នេះ​។</p>
-    <br>
-    <p>បច្ចុប្បន្ន​ <span class="Green-color">សាកល​វិទ្យា​ល័យ​មាន​ ២​ទីតាំង</span>​ នៅ​រាជ​ធានី​ភ្នំពេញ​ ដែល​ កំពុង​ដំណើរ​ការ​កម្ម​វិធី​២ធំៗ​ (​កម្ម​វិធី​សិក្សា​ជា​ ភា​សា​ជាតិ​ និង​កម្ម​វិធី​ សិក្សា​ អន្តរ​ជាតិ​)​ មាន​ ១២​មហា​វិទ្យា​ល័យ​ និង​ ៤២​ជំនាញ​៖</p>
-    <br><ul class="">
-        <li>
-        <span class="Green-color">សាកល​វិទ្យាល័យ​ ប៊ែលធី​ អន្តរ​ជាតិ​ ទី​តាំង​ទី​ ១​ ទួល​ស្លែង​៖</span>​ អគារ​២១​ ផ្លូវ​៣៦០​ សង្កាត់​បឹង​កេង​កង​៣ ​ខណ្ឌ​បឹង​កេង​កង​ រាជ​ធានី​ ភ្នំ​ពេញ​ (​ខាង​ត្បូង​សារ​មន្ទីរ​ទួល​ស្លែង​១០០​ម៉ែត្រ​)​ អគារ​មាន​កម្ពស់​១៥​ ជាន់​ស្មើ​នឹង​១១០​បន្ទប់​ មាន​សាលសហ​សិក្សា១​ ចំណុះ​១៥០​នាក់​ និង​ សាល​សន្និសីទ​១​ ចំណុះ​៧០០​នាក់​ មាន​អាហារ​ដ្ឋាន​១កន្លែង​ បណ្ណា​ល័យ​១​ និង​ចំណត​យាន​យន្ត​២​ជាន់​។
-        </li>    <br>
-        <li>
-        <span class="Green-color">សាកល​វិទ្យា​ល័យ​ ប៊ែលធី​ អន្តរ​ជាតិ​ ទី​តាំងទី​ ២​ ស្ពាន​អាកាស​ចោមចៅ​៖</span>​ អគារ​១៥១​ ផ្លូវ​ជាតិ​លេខ​៣​ សង្កាត់​ចោម​ចៅ​ទី​២​ ខណ្ឌ​ពោធិ៍​សែន​ជ័យ​ រាជ​ធានី​ភ្នំពេញ​ (​ចម្ងាយ​ប្រហែល​ ៥០០​ម៉ែត្រ​ ពី​ ស្ពាន​អាកាស​ចោម​ចៅ​) ​អគារ​កម្ពស់​៩ជាន់​ ស្មើ​នឹង​១៤២​បន្ទប់​ មាន​សាល​សហ​សិក្សា​១​ចំណុះ​១៥០​នាក់​ សាល​មហោ​ស្រព​១​ ចំណុះ​៨០០​នាក់​ និង​សាល​សន្និសីទ​១​ ចំណុះ​១,២០០​នាក់​ មាន​អាហារ​ដ្ឋាន​១​កន្លែង​ បណ្ណា​ល័យ​១​ មាន​អគារ​អន្តេវា​សិកដ្ឋាន​១​ ខ្នង​ ស្មើ​នឹង​៦៥​បន្ទប់​មាន​ គ្រែ​ចំនួន​១៣០​ និង​មាន​ចំណត​យាន​យន្ត​ជាង​១០,០០០​ ម៉ែត្រ​ការ៉េ​។
-        </li>
-
-    </ul>
-
-</div>
-
-    '
+    
+    ',
 ];
