@@ -29,7 +29,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
                     </p>
             </div>
             <div class="col-4 height-200 content-translate-font">
@@ -40,7 +40,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
                     </p>
             </div>
             <div class="col-4 height-200 content-translate-font">
@@ -51,7 +51,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
                     </p>
             </div>
         </div>
@@ -66,7 +66,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
                     </p>
             </div>
             <div class="col-4 height-200 content-translate-font">
@@ -77,7 +77,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
                     </p>
             </div>
             <div class="col-4 height-200 content-translate-font">
@@ -88,7 +88,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
                     </p>
             </div>
         </div>
@@ -103,7 +103,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
                     </p>
             </div>
             <div class="col-4 height-200 content-translate-font">
@@ -114,7 +114,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
                     </p>
             </div>
             <div class="col-4 height-200 content-translate-font">
@@ -125,7 +125,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
                     </p>
             </div>
         </div>
@@ -141,7 +141,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
                     </p>
 
             </div>
@@ -153,7 +153,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
                     </p>
             </div>
             <div class="col-4 height-200 content-translate-font">
@@ -164,7 +164,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
                     </p>
             </div>
         </div>
@@ -176,7 +176,7 @@
                 <iframe class="w-100 rounded shadow-sm" src="https://www.youtube.com/embed/5o5EQzefWfs?rel=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
                     </p>
 
             </div>
@@ -184,14 +184,14 @@
                 <iframe class="w-100 rounded shadow-sm" src="https://www.youtube.com/embed/5o5EQzefWfs?rel=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
                     </p>
             </div>
             <div class="col-4 height-200 content-translate-font">
                 <iframe class="w-100 rounded shadow-sm" src="https://www.youtube.com/embed/5o5EQzefWfs?rel=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
                     </p>
             </div>
         </div>
@@ -207,7 +207,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
                     </p>
             </div>
             <div class="col-4 height-200 content-translate-font">
@@ -218,7 +218,7 @@
                 </div>
 
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
                     </p>
             </div>
             <div class="col-4 height-200 content-translate-font">
@@ -227,7 +227,7 @@
                     <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/4JrUIVQ7ZIU/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/4JrUIVQ7ZIU?si=WQl-4xu7bMaiVrtj">
                 </div>
                     <p class="goldenrod font-bold">
-                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
                     </p>
             </div>
         </div>

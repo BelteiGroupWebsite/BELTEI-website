@@ -25,7 +25,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n1') }}
                 </p>
             </div>
@@ -36,7 +36,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n2') }}
                 </p>
             </div>
@@ -47,7 +47,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n3') }}
                 </p>
             </div>
@@ -64,7 +64,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n1') }}
                 </p>
             </div>
@@ -75,7 +75,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n2') }}
                 </p>
             </div>
@@ -86,7 +86,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n3') }}
                 </p>
             </div>
@@ -103,7 +103,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n1') }}
                 </p>
             </div>
@@ -114,7 +114,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n2') }}
                 </p>
             </div>
@@ -125,7 +125,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n3') }}
                 </p>
             </div>
@@ -143,7 +143,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n1') }}
                 </p>
 
@@ -155,7 +155,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n2') }}
                 </p>
             </div>
@@ -166,7 +166,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n3') }}
                 </p>
             </div>
@@ -184,7 +184,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n1') }}
                 </p>
 
@@ -196,7 +196,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n2') }}
                 </p>
             </div>
@@ -204,7 +204,7 @@
 
                 <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/5o5EQzefWfs/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/5o5EQzefWfs?rel=0&autoplay=1">
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n3') }}
                 </p>
             </div>
@@ -224,7 +224,7 @@
 
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n1') }}
                 </p>
             </div>
@@ -236,7 +236,7 @@
 
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n2') }}
                 </p>
             </div>
@@ -247,7 +247,7 @@
                 </div>
 
                 <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }}
+                    {{ __('school/public-speaking/public-speaking.place') }}
                     {{ __('school/public-speaking/public-speaking.n3') }}
                 </p>
             </div>
