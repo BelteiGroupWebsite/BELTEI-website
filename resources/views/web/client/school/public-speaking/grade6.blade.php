@@ -7,13 +7,48 @@
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16" id="vd-container"
-                src="https://www.youtube.com/embed/3TjLH1SGNO8?si=-mAqtLfBtpDw3Y37" title="YouTube video player"
+                src="https://www.youtube.com/embed/kNx7ZMasf2k?si=NoD4QsNhCLbp1a2p" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
 
         <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2024 ({{ __('school/public-speaking/public-speaking.Batch') }} 9)</h5>
+        <div class="row">
+            <div class="col-4 height-200 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/kNx7ZMasf2k/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/kNx7ZMasf2k?si=NoD4QsNhCLbp1a2p">
+                </div>
+
+                    <p class="goldenrod font-bold">
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                    </p>
+            </div>
+            <div class="col-4 height-200 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/16Hos844Mgg/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/16Hos844Mgg?si=KsdyXT_z1H2GL7gc">
+                </div>
+
+                    <p class="goldenrod font-bold">
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
+                    </p>
+            </div>
+            <div class="col-4 height-200 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/N0y5Vk1HUvU/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/N0y5Vk1HUvU?si=ctlGG7Myrvry-lrc">
+                </div>
+
+                    <p class="goldenrod font-bold">
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
+                    </p>
+            </div>
+        </div>
+        <hr class="border border-success border-3">
+
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2023 ({{ __('school/public-speaking/public-speaking.Batch') }} 8)</h5>
         <div class="row">
             <div class="col-4 height-200 content-translate-font">
@@ -48,6 +83,7 @@
             </div>
         </div>
         <hr class="border border-success border-3">
+
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }} {{ __('school/public-speaking/public-speaking.in') }} 2022 ({{ __('school/public-speaking/public-speaking.Batch') }} 7)</h5>
         <div class="row">
             <div class="col-4 height-200 content-translate-font">
