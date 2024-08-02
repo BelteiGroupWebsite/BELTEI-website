@@ -8,7 +8,7 @@
     <h2 class="title-translate-font my-3 underline Blue-color">{{ __('beltei_university/mainprogram/prebachelor.header') }}</h2>
 
     <div class="row my-2">
-        <div class="col-8 vertical-align-middle">
+        <div class="col-8 d-flex align-items-center">
             <img class="w-100" src="{{ asset('asset/img/university/main_degree/cc/1.png') }}" alt="">
         </div>
         <div class="col-4">
