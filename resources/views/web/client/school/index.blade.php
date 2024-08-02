@@ -11,13 +11,15 @@
     </div>
 
     <div class="row gy-2 justify-content-center">
-        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('assets/images/school/New_term_2024.jpg') }}"
+        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('assets/images/school/app/announcement/new_team_2024.png') }}"
             border="0">
-        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('assets/images/school/03_02_2024_p1.jpg') }}"
+        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('assets/images/school/app/announcement/new_team_2024_1.jpg') }}"
             border="0">
-        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('assets/images/school/03_02_2024_p2.jpg') }}"
+        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('assets/images/school/app/announcement/new_team_2024_2.jpg') }}"
             border="0">
-        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('assets/images/school/03_02_2024_p3.jpg') }}"
+        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('assets/images/school/app/announcement/new_team_2024_3.jpg') }}"
+            border="0">
+        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('assets/images/school/app/announcement/new_team_2024_4.jpg') }}"
             border="0">
         <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('assets/images/school/03_02_2024_p4.jpg') }}"
             border="0">
