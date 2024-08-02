@@ -265,7 +265,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #03a5c2" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/usa.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/english.png') }}" alt="">
                    <br> 
                    ចក្រភពអង់គ្លេស
                 </p>
@@ -311,7 +311,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #0059ff" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/english.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/usa.png') }}" alt="">
                    <br>
                    សហរដ្ឋអាមេរិក
                 </p>
@@ -388,7 +388,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #0059ff" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/canada.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/south_korea.png') }}" alt="">
                    <br>
                    កូរ៉េខាងក្បូង
                 </p>
@@ -435,7 +435,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #0059ff" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/newzealand.png') }}" alt="">
                    <br>
                    នូវេលសេឡង់
                 </p>
@@ -463,7 +463,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #009113" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/malaysia.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/switzerland.png') }}" alt="">
                    <br> ស្វីស
                 </p>
             </a>
@@ -492,7 +492,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #6603e7" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/chinese.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/malaysia.png') }}" alt="">
                    <br>ម៉ាឡេស៊ី
                 </p>
             </a>
@@ -544,7 +544,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #6603e7" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/singapore.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
                    <br>អូស្រ្តាលី
                 </p>
             </a>
@@ -583,7 +583,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #6603e7" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/south_korea.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/canada.png') }}" alt="">
                    <br>កាណាដា
                 </p>
             </a>
@@ -616,7 +616,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #6603e7" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/japan.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/singapore.png') }}" alt="">
                    <br>សឹង្ហបុរី
                 </p>
             </a>
@@ -664,7 +664,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #6603e7" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/thailand.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/japan.png') }}" alt="">
                    <br>ជប៉ុន
                 </p>
             </a>
@@ -714,7 +714,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #6603e7" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/newzealand.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/thailand.png') }}" alt="">
                    <br>ថៃ
                 </p>
             </a>
@@ -787,7 +787,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #6603e7" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/vietnam.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/chinese.png') }}" alt="">
                    <br>ចិន
                 </p>
             </a>
@@ -898,7 +898,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #6603e7" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/switzerland.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/testcenter/beltei_international_test_centers.png') }}" alt="">
                    <br>មជ្ឈមណ្ឌលតេស្តអន្តរជាតិ
                 </p>
             </a>
@@ -1010,7 +1010,7 @@
         <div style="border:inset 7px ; border-radius: 15px ; border-color: #6603e7" class="w-100 overflow-hidden border-blue">
             <a href="#" class="cursor-pointer justify-content-center">
                 <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/poland.png') }}" alt="">
+                    <img  class="w-100 max-width-100 justify-content-center" src="{{ asset('asset/img/school/language/vietnam.png') }}" alt="">
                    <br>វៀតណាម
                 </p>
             </a>
