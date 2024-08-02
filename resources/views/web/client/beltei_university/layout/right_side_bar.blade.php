@@ -1019,7 +1019,7 @@
 
             <ul class="list-group right-bar-ul">
                 <li class="list-group-item p-0">
-                    <a href="https://vlu.edu.vn/en" target="_blank"><img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/vietnam/១.png') }}" alt=""></a>
+                    <a href="https://vlu.edu.vn/en" target="_blank"><img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/vietnam/1.png') }}" alt=""></a>
                 </li>
             </ul>
         </div>
