@@ -12,28 +12,28 @@
     </div>
     <div class="row g-2">
         <div class="col-6">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/library/1.png') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/library/1.png') }}" alt="">
         </div>
         <div class="col-6">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/library/2.png') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/library/2.png') }}" alt="">
         </div>
         <div class="col-6">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/library/3.png') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/library/3.png') }}" alt="">
         </div>
         <div class="col-6">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/library/4.png') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/library/4.png') }}" alt="">
         </div>
         <div class="col-6">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/library/5.png') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/library/5.png') }}" alt="">
         </div>
         <div class="col-6">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/library/6.png') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/library/6.png') }}" alt="">
         </div>
         <div class="col-6">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/library/7.png') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/library/7.png') }}" alt="">
         </div>
         <div class="col-6">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/library/8.png') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/library/8.png') }}" alt="">
         </div>
     </div>
 </div>

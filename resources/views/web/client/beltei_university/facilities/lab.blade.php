@@ -12,13 +12,13 @@
     </div>
     <div class="row g-2">
         <div class="col-6">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/lab/1.jpg') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/lab/1.jpg') }}" alt="">
         </div>
         <div class="col-6">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/lab/2.jpg') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/lab/2.jpg') }}" alt="">
         </div>
         <div class="col-12">
-            <img class="w-100" src="{{ asset('asset/img/university/facility/lab/3.jpg') }}" alt="">
+            <img class="w-100 h-100" src="{{ asset('asset/img/university/facility/lab/3.jpg') }}" alt="">
         </div>
     </div>
 </div>
