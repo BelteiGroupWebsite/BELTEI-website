@@ -144,7 +144,7 @@
                 </li>
                 <li class="list-group-item p-0">
                     <a href="https://www.prudential.com.kh/" target="_blank">
-                        <img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/16.png') }}" alt="">
+                        <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/16.png') }}" alt="">
                     </a>
                 </li>
                 <li class="list-group-item p-0">
