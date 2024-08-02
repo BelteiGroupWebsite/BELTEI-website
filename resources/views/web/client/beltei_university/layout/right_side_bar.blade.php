@@ -149,22 +149,22 @@
                 </li>
                 <li class="list-group-item p-0">
                     <a href="https://www.pse.ong/" target="_blank">
-                        <img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/17.png') }}" alt="">
+                        <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/17.png') }}" alt="">
                     </a>
                 </li>
                 <li class="list-group-item p-0">
                     <a href="https://mlmupc.gov.kh/" target="_blank">
-                        <img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/18.png') }}" alt="">
+                        <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/18.png') }}" alt="">
                     </a>
                 </li>
                 <li class="list-group-item p-0">
                     <a href="https://mptc.gov.kh/en/" target="_blank">
-                        <img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/19.png') }}" alt="">
+                        <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/19.png') }}" alt="">
                     </a>
                 </li>
                 <li class="list-group-item p-0">
                     <a href="https://mptc.gov.kh/en/" target="_blank">
-                        <img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/20.png') }}" alt="">
+                        <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/20.png') }}" alt="">
                     </a>
                 </li>
                 <li class="list-group-item p-0">
@@ -194,17 +194,17 @@
                 </li>
                 <li class="list-group-item p-0">
                     <a href="https://experteducation.com/australia/" target="_blank">
-                        <img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/26.png') }}" alt="">
+                        <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/26.png') }}" alt="">
                     </a>
                 </li>
                 <li class="list-group-item p-0">
                     <a href="https://www.mlvt.gov.kh/" target="_blank">
-                        <img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/27.png') }}" alt="">
+                        <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/27.png') }}" alt="">
                     </a>
                 </li>
                 <li class="list-group-item p-0">
                     <a href="https://cdc.gov.kh/km/" target="_blank">
-                        <img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/28.png') }}" alt="">
+                        <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/28.png') }}" alt="">
                     </a>
                 </li>
             </ul>
