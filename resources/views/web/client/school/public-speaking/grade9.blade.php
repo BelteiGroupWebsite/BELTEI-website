@@ -6,7 +6,7 @@
         <h3 class="title-translate-font p-3 bg-success text-white">Public Speaking Content</h3>
         <hr>
         <div>
-            <iframe class="w-100 aspect-ratio-16" src="https://www.youtube.com/embed/ThFIf1gj3tU?si=Xxk_eqO7obxFT8UA" id="vd-container"
+            <iframe class="w-100 aspect-ratio-16" src="https://www.youtube.com/embed/4jlH-_2SXwQ?si=bbj_OgvEqC-ObuCf" id="vd-container"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -15,13 +15,13 @@
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner') }}
             {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }}
-            {{ __('school/public-speaking/public-speaking.in') }} 2023
-            ({{ __('school/public-speaking/public-speaking.Batch') }} 8)</h5>
+            {{ __('school/public-speaking/public-speaking.in') }} 2024
+            ({{ __('school/public-speaking/public-speaking.Batch') }} 9)</h5>
         <div class="row">
             <div class="col-4 height-200 content-translate-font">
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/ThFIf1gj3tU/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/ThFIf1gj3tU?si=Xxk_eqO7obxFT8UA">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/4jlH-_2SXwQ/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/4jlH-_2SXwQ?si=bbj_OgvEqC-ObuCf">
                 </div>
 
                 <p class="goldenrod font-bold">
@@ -32,7 +32,7 @@
             <div class="col-4 height-200 content-translate-font">
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/J2_m9SkMiKo/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/J2_m9SkMiKo?si=MYMtVKwbhjsXAqmY">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/QVveuMAqTno/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/QVveuMAqTno?si=i_v7T7KnmORqAqFY">
                 </div>
 
                 <p class="goldenrod font-bold">
@@ -43,7 +43,7 @@
             <div class="col-4 height-200 content-translate-font">
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/-NIV1J78kVk/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/-NIV1J78kVk?si=XVwromf5naNgFP71">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/81UyrumG4qA/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/81UyrumG4qA?si=CvNw6ShRxwrwEpAU">
                 </div>
 
                 <p class="goldenrod font-bold">
