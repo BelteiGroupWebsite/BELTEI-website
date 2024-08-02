@@ -4,7 +4,7 @@
 @section('content')
 <div class="p-lg-3">
 
-        <h2 class="title-translate-font my-3 underline Blue-color">{{ __('beltei_university/about/whyBeltei.header') }}</h2>
+        <h4 class="title-translate-font my-3 underline Blue-color">{{ __('beltei_university/about/whyBeltei.header') }}</h4>
 
         <div>
             <img class="w-75 text-center" src="{{ asset('asset/img/university/about/whybeltei.jpg') }}" alt="">
