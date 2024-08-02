@@ -7,8 +7,8 @@
 
     <h2 class="title-translate-font my-3 underline Blue-color">{{ __('beltei_university/mainprogram/prebachelor.header') }}</h2>
 
-    <div class="row">
-        <div class="col-8">
+    <div class="row my-2">
+        <div class="col-8 vertical-align-middle">
             <img class="w-100" src="{{ asset('asset/img/university/main_degree/cc/1.png') }}" alt="">
         </div>
         <div class="col-4">
@@ -16,18 +16,18 @@
         </div>
     </div>
 
-    <div class="text-start content-translate-font  text-justify ">
+    <div class="text-start content-translate-font  text-justify indent-1rem">
         {!! __('beltei_university/mainprogram/prebachelor.description') !!}
     </div>
 
-    <div class="row">
-        <div class="col-4">
+    <div class="row my-2">
+        <div class="col-4 my-2">
             <img class="w-100" src="{{ asset('asset/img/university/main_degree/cc/3.png') }}" alt="">
         </div>
-        <div class="col-4">
+        <div class="col-4 my-2">
             <img class="w-100" src="{{ asset('asset/img/university/main_degree/cc/4.png') }}" alt="">
         </div>
-        <div class="col-4">
+        <div class="col-4 my-2">
             <img class="w-100" src="{{ asset('asset/img/university/main_degree/cc/5.png') }}" alt="">
         </div>
         <div class="col-12">
