@@ -68,7 +68,7 @@
 
             <ul class="list-group text-center right-bar-ul">
                 <li class="list-group-item p-0">
-                    <a href="https://moeys.gov.kh/kh" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('img/university/app/rightsidebar/cambodia/1.png') }}" alt=""></a>
+                    <a href="https://moeys.gov.kh/kh" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/1.png') }}" alt=""></a>
                 </li>
             </ul>
             {{-- <ul class="list-group text-center right-bar-ul">
