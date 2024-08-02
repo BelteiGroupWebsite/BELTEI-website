@@ -68,23 +68,19 @@
 
             <ul class="list-group text-center right-bar-ul">
                 <li class="list-group-item p-0">
+                    <a href="https://moeys.gov.kh/kh" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="{{ asset('img/university/app/rightsidebar/cambodia/1.png') }}" alt=""></a>
+                </li>
+            </ul>
+            {{-- <ul class="list-group text-center right-bar-ul">
+                <li class="list-group-item p-0">
                     <a href="https://moeys.gov.kh/kh" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="https://moeys.gov.kh/uploads/images/general-sitting/6686023ab18c5.png" alt=""></a>
                 </li>
-                {{-- <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Acc2.png" alt=""></a>
-                </li>
-                <li class="list-group-item p-0">
-                    <a href="https://opendevelopmentcambodia.net/km/tag/cambodian-higher-education-association-chea/#!/story=post-182453" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/CHEA3.png" alt=""></a>
-                </li> --}}
                 <li class="list-group-item p-0">
                     <a href="https://consumer.huawei.com/kh/" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://consumer.huawei.com/etc/designs/huawei-cbg-site/clientlib-campaign-v4/common-v4/images/logo.svg" alt=""></a>
                 </li>
                 <li class="list-group-item p-0">
                     <a href="https://koha-community.org" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://koha-community.org/files/2013/09/cropped-kohabanner3.jpg" alt=""></a>
                 </li>
-                {{-- <li class="list-group-item p-0">
-                    <a href="https://libraryhub-manila.blogspot.com/p/home.html" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/HUB6.png" alt=""></a>
-                </li> --}}
                 <li class="list-group-item p-0">
                     <a href="https://www.wownow-kh.com" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.wownow-kh.com/images/wownow/logo/wownow-white-no-slogan.png" alt=""></a>
                 </li>
@@ -94,9 +90,6 @@
                 <li class="list-group-item p-0">
                     <a href="https://mrtrainingandjobscenter.com.kh" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="http://mrtrainingandjobscenter.com.kh/wp-content/uploads/2023/03/LOGO-MR-UYFC-01.png" alt=""></a>
                 </li>
-                {{-- <li class="list-group-item p-0">
-                    <a href="#" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/POSCAR10.png" alt=""></a>
-                </li> --}}
                 <li class="list-group-item p-0">
                     <a href="https://www.firstcambodia.com.kh" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.firstcambodia.com.kh/assets/img/fc_logo_white.webp" alt=""></a>
                 </li>
@@ -106,12 +99,6 @@
                 <li class="list-group-item p-0">
                     <a href="https://www.sofitel-phnompenh-phokeethra.com" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/90/2024/06/04075931/Sofitel__Phnom-Penh-Phokeethra_logo_White_2024.png" alt=""></a>
                 </li>
-                {{-- <li class="list-group-item p-0">
-                    <a href="https://yourshumanly.org" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/HUMANLY13.png" alt=""></a>
-                </li>
-                <li class="list-group-item p-0">
-                    <a href="https://yourshumanly.org" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/HYATT14.png" alt=""></a>
-                </li> --}}
                 <li class="list-group-item p-0">
                     <a href="https://www.rosewoodhotels.com/en/phnom-penh" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.rosewoodhotels.com/content/dam/rosewoodhotels/property/phnom-penh/en/logo/34_RW%20Phnom%20Penh%20English%20reverse%20FA.svg" alt=""></a>
                 </li>
@@ -121,11 +108,7 @@
                 <li class="list-group-item p-0">
                     <a href="https://www.information.gov.kh/" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.information.gov.kh/_next/static/images/logo-website-e3c294f0d2594b180dd35793aee6dc1a.png" alt=""></a>
                 </li>
-                {{-- <li class="list-group-item p-0">
-                    <a href="https://www.rosewoodhotels.com/en/phnom-penh" target="_blank"><img style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.beltei.edu.kh/biuk/images/homepics/Ministry_comere.png" alt=""></a>
-                </li> --}}
-
-            </ul>
+            </ul> --}}
 
         </div>
     </li>
