@@ -12,7 +12,6 @@ return [
 <p><span>បណ្ណាល័យ ក៏បានរៀបចំសៀវភៅ និងឯកសារផ្សេងៗតាមប្រព័ន្ធគ្រប់គ្រងបណ្ណាល័យ&nbsp;</span><span>(</span><span>KOHA System)</span><span>&nbsp;ដើម្បីងាយស្រួលក្នុងការស្វែងរក និងឯកសារអេឡិចត្រូននិច ទិន្នន័យដុល ទស្សនាវដ្តីអេឡិចត្រូនិច ព្រមទាំងកុំព្យូទ័រ ដែលមានភ្ជាប់</span></p>
 <p><span>អ៊ិនធឺណិត សម្រាប់ធ្វើការសិក្សាស្រាវជ្រាវ។</span></p>
 <p><span>យើងក៏មានបណ្ណារក្សរង់ចាំ បម្រើដោយក្តីរីករាយ ហើយបុគ្គលិក សាស្ត្រាចារ្យ និងនិស្សិតរបស់យើង មានសិទ្ធិខ្ចីសៀវភៅយក ទៅអាននៅផ្ទះផងដែរ។&nbsp;</span></p>
-<div style="color: red; font-size: 12px; width: 600px; margin: 0 auto; text-align: center;">Created with <a href="https://wordtohtml.net/">WordToHTML.net</a> trial.</div>
     
     '
 ];
