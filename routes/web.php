@@ -346,6 +346,10 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 
 
     });
 
+    Route::group(['prefix' => 'facility' , 'as' => 'facility.'] , function(){
+        Route::view('library' , 'web.client.beltei_university.facilities.library')->name('library');
+    });
+
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
         Route::view('/khmer' , 'web.client.beltei_university.mainprogram.khmer')->name('khmer');
         Route::group(['prefix' => 'khmer', 'as' => 'khmer.'], function () {
