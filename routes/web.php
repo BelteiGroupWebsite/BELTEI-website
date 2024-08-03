@@ -351,6 +351,7 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 
         Route::view('lab' , 'web.client.beltei_university.facilities.lab')->name('lab');
         Route::view('meetingroom' , 'web.client.beltei_university.facilities.meetingroom')->name('meetingroom');
         Route::view('classroom' , 'web.client.beltei_university.facilities.classroom')->name('classroom');
+        Route::view('hall' , 'web.client.beltei_university.facilities.hall')->name('hall');
     });
 
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
