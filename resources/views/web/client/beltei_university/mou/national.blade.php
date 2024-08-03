@@ -36,9 +36,9 @@
         </table> --}}
 
         <table class="table table-hover table-bordered text-center vertical-align-middle">
-            <tr>
+            <tr class="title-translate-font">
                 <td colspan="3">
-                    <img src="" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
                     ប្រទេសកម្ពុជា​ (CAMBODIA)
                 </td>
             </tr>
