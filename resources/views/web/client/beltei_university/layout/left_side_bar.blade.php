@@ -77,7 +77,7 @@
         <a href="{{ route('beltei_university.facility.meetingroom') }}" class="list-group-item text-white">{{ __('beltei_university/app.E3') }}</a>
         <a href="{{ route('beltei_university.facility.classroom') }}" class="list-group-item text-white">{{ __('beltei_university/app.E4') }}</a>
         <a href="{{ route('beltei_university.facility.hall') }}" class="list-group-item text-white">{{ __('beltei_university/app.E5') }}</a>
-        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.E6') }}</a>
+        <a href="{{ route('beltei_university.facility.cafeteria') }}" class="list-group-item text-white">{{ __('beltei_university/app.E6') }}</a>
     </ul>
 
     <ul class="text-capitalize list-group f14">
