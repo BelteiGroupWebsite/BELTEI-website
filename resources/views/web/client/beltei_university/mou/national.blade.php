@@ -35,7 +35,7 @@
             </tbody>
         </table> --}}
 
-        <table class="table table-hover table-bordered text-center">
+        <table class="table table-hover table-bordered text-center vertical-align-middle">
             <tr>
                 <td colspan="3">
                     <img src="" alt="">
