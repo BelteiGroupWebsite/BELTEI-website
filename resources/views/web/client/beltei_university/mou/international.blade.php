@@ -430,7 +430,7 @@
         <table class="table table-hover table-bordered text-center vertical-align-middle">
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/uk.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/english.png') }}" alt="">
                     ចក្រភពអង់គ្លេស (United Kingdom)
                 </td>
             </tr>
@@ -533,7 +533,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/korea.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/south_korea.png') }}" alt="">
                     កូរ៉េខាងក្បូង (South Korea)
                 </td>
             </tr>
@@ -567,7 +567,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/newZealand.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/newzealand.png') }}" alt="">
                     នូវេលសេឡង់ (New Zealand)
                 </td>
             </tr>
@@ -583,8 +583,8 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/switland.png') }}" alt="">
-                    ស្វីស (Switlannd)
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/switzerland.png') }}" alt="">
+                    ស្វីស (Switzerland)
                 </td>
             </tr>
             <tr>
@@ -949,7 +949,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/franch.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/france.png') }}" alt="">
                     ប្រទេសបារាំង (Franch)
                 </td>
             </tr>
