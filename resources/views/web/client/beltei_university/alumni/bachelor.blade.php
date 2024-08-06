@@ -1,14 +1,19 @@
 @extends('web.client.beltei_university.layout.app')
 
 @section('content')
-
-
     <div>
-        @for ($i = 1; $i <= 32; $i++)
-            <img class="w-80" src="{{ asset("asset/img/university/alumni/bachelor/bachelor_$i.jpg") }}" alt="">
-        @endfor
-    
+        @foreach ($images as $image)
+            <img class="w-80" src="{{ $image }}" alt="">
+        @endforeach
     </div>
 
-    
+    <div class="pagination">
+        @if ($currentPage > 1)
+            <a href="{{ url()->current() }}?page={{ $currentPage - 1 }}">Previous</a>
+        @endif
+
+        @if ($currentPage < $totalPages)
+            <a href="{{ url()->current() }}?page={{ $currentPage + 1 }}">Next</a>
+        @endif
+    </div>
 @endsection

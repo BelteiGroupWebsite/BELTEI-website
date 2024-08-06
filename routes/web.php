@@ -359,7 +359,31 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 
         Route::view('price' , 'web.client.beltei_university.admission.price')->name('price');
     });
     Route::group(['prefix' => 'alumni' , 'as' => 'alumni.'] , function(){
-        Route::view('bachelor' , 'web.client.beltei_university.alumni.bachelor')->name('bachelor');
+        // Route::view('bachelor' , 'web.client.beltei_university.alumni.bachelor')->name('bachelor');
+        Route::post('/bachelor', function (Request $request) {
+            $imagesPerPage = 8; // Number of images per page
+            $totalImages = 32; // Total number of images
+            $currentPage = $request->input('page', 1); // Current page number
+            
+            // Calculate the start and end index for the current page
+            $start = ($currentPage - 1) * $imagesPerPage + 1;
+            $end = min($start + $imagesPerPage - 1, $totalImages);
+            
+            // Generate the image URLs for the current page
+            $images = [];
+            for ($i = $start; $i <= $end; $i++) {
+                $images[] = asset("asset/img/university/alumni/bachelor/bachelor_$i.jpg");
+            }
+            
+            // Return the view with the images and pagination data
+            return view('web.client.beltei_university.alumni.bachelor', [
+                'images' => $images,
+                'currentPage' => $currentPage,
+                'totalPages' => ceil($totalImages / $imagesPerPage),
+            ]);
+        })->name('bachelor');
+        
+        
         Route::view('master' , 'web.client.beltei_university.alumni.master')->name('master');
         Route::view('doctoral' , 'web.client.beltei_university.alumni.doctoral')->name('doctoral');
     });
