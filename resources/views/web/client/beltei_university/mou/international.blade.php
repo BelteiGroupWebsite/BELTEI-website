@@ -674,12 +674,12 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td><a href="https://www.ucanwest.ca/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/canada/Logo/1.png') }}" alt="Link to MOEYS"></a></td>
+                <td><a href="https://www.ucanwest.ca/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/canada/logo/1.png') }}" alt="Link to MOEYS"></a></td>
                 <td><img src="{{ asset('asset/img/university/app/collaborate/canada/Photo/1.jpg') }}" alt="Image 1" style="max-height:80px;"></td>
             </tr>
             <tr>
                 <td>2</td>
-                <td><a href=""><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/canada/Logo/2.png') }}" alt="Link to MOEYS"></a></td>
+                <td><a href=""><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/canada/logo/2.png') }}" alt="Link to MOEYS"></a></td>
                 <td><img src="{{ asset('asset/img/university/app/collaborate/canada/Photo/2.jpg') }}" alt="Image 2" style="max-height:80px;"></td>
             </tr>
 
