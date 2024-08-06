@@ -430,7 +430,7 @@
         <table class="table table-hover table-bordered text-center vertical-align-middle">
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/uk.png') }}" alt="">
                     ចក្រភពអង់គ្លេស (United Kingdom)
                 </td>
             </tr>
@@ -463,7 +463,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/usa.png') }}" alt="">
                     សហរដ្ឋអាមេរិក (USA)
                 </td>
             </tr>
@@ -533,7 +533,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/korea.png') }}" alt="">
                     កូរ៉េខាងក្បូង (South Korea)
                 </td>
             </tr>
@@ -567,7 +567,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/newZealand.png') }}" alt="">
                     នូវេលសេឡង់ (New Zealand)
                 </td>
             </tr>
@@ -583,7 +583,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/switland.png') }}" alt="">
                     ស្វីស (Switlannd)
                 </td>
             </tr>
@@ -602,7 +602,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/malaysia.png') }}" alt="">
                     ម៉ាឡេស៊ី (Malaysia)
                 </td>
             </tr>
@@ -640,7 +640,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/australia.png') }}" alt="">
                     អូស្រ្តាលី (Australia)
                 </td>
             </tr>
@@ -668,7 +668,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/canada.png') }}" alt="">
                     កាណាដា (Canada)
                 </td>
             </tr>
@@ -688,7 +688,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/singapore.png') }}" alt="">
                     សឹង្ហបុរី (Singapore)
                 </td>
             </tr>
@@ -722,7 +722,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/japan.png') }}" alt="">
                     ជប៉ុន (Japan)
                 </td>
             </tr>
@@ -756,7 +756,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/thailand.png') }}" alt="">
                     ថៃ (Thailand)
                 </td>
             </tr>
@@ -820,7 +820,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/china.png') }}" alt="">
                     ចិន (China)
                 </td>
             </tr>
@@ -890,7 +890,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/indonesia.png') }}" alt="">
                     ប្រទេសឥណ្ឌូនេស៊ី (Indonesia)
                 </td>
             </tr>
@@ -905,7 +905,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/testcenter.png') }}" alt="">
                     មជ្ឈមណ្ឌលតេស្តអន្តរជាតិ (Test Center)
                 </td>
             </tr>
@@ -935,7 +935,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/bangladesh.png') }}" alt="">
                     ប្រទេសបង់ក្លាដែស (bangladesh)
                 </td>
             </tr>
@@ -949,7 +949,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/franch.png') }}" alt="">
                     ប្រទេសបារាំង (Franch)
                 </td>
             </tr>
@@ -962,7 +962,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/poland.png') }}" alt="">
                     ប្រទេសប៉ូឡូញ (Poland)
                 </td>
             </tr>
@@ -975,7 +975,7 @@
 
             <tr class="title-translate-font bg-success text-white">
                 <td colspan="3">
-                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/khmer.png') }}" alt="">
+                    <img style="max-height: 50px;" src="{{ asset('asset/img/school/language/vietnam.png') }}" alt="">
                     វៀតណាម (Vietnam)
                 </td>
             </tr>
