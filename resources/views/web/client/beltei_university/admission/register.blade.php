@@ -12,6 +12,10 @@
             padding: 1rem;
             color: white;
         }
+
+        hr{
+            border: 2px;
+        }
     </style>
 
     <div class="text-start content-translate-font">
