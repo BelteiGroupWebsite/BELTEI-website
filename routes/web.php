@@ -358,6 +358,11 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 
         Route::view('register' , 'web.client.beltei_university.admission.register')->name('register');
         Route::view('price' , 'web.client.beltei_university.admission.price')->name('price');
     });
+    Route::group(['prefix' => 'alumni' , 'as' => 'alumni.'] , function(){
+        Route::view('bachelor' , 'web.client.beltei_university.alumni.bachelor')->name('bachelor');
+        Route::view('master' , 'web.client.beltei_university.alumni.master')->name('master');
+        Route::view('doctoral' , 'web.client.beltei_university.alumni.doctoral')->name('doctoral');
+    });
 
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
         Route::view('/khmer' , 'web.client.beltei_university.mainprogram.khmer')->name('khmer');
