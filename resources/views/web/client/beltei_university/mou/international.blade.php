@@ -911,23 +911,23 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td><a href="https://www.ets.org/toefl.html"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/testcenter/Logo/2.png') }}" alt="Link to TOEFL"></a></td>
-                <td><img src="{{ asset('asset/img/university/app/collaborate/testcenter/Photo/2.jpg') }}" alt="Image 2" style="max-height:80px;"></td>
+                <td><a href="https://www.ets.org/toefl.html"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/testcenter/Logo/1.png') }}" alt="Link to TOEFL"></a></td>
+                <td><img src="{{ asset('asset/img/university/app/collaborate/testcenter/Photo/1.jpg') }}" alt="Image 1" style="max-height:80px;"></td>
             </tr>
             <tr>
                 <td>2</td>
-                <td><a href="https://www.ets.org/gre.html"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/testcenter/Logo/3.png') }}" alt="Link to GRE"></a></td>
-                <td><img src="{{ asset('asset/img/university/app/collaborate/testcenter/Photo/3.jpg') }}" alt="Image 3" style="max-height:80px;"></td>
+                <td><a href="https://www.ets.org/gre.html"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/testcenter/Logo/2.png') }}" alt="Link to GRE"></a></td>
+                <td><img src="{{ asset('asset/img/university/app/collaborate/testcenter/Photo/2.jpg') }}" alt="Image 2" style="max-height:80px;"></td>
             </tr>
             <tr>
                 <td>3</td>
-                <td><a href="https://takeielts.britishcouncil.org/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/testcenter/Logo/4.png') }}" alt="Link to IELTS"></a></td>
-                <td><img src="{{ asset('asset/img/university/app/collaborate/testcenter/Photo/4.jpg') }}" alt="Image 4" style="max-height:80px;"></td>
+                <td><a href="https://takeielts.britishcouncil.org/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/testcenter/Logo/3.png') }}" alt="Link to IELTS"></a></td>
+                <td><img src="{{ asset('asset/img/university/app/collaborate/testcenter/Photo/3.jpg') }}" alt="Image 3" style="max-height:80px;"></td>
             </tr>
             <tr>
                 <td>4</td>
-                <td><a href="https://skillsforenglish.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/testcenter/Logo/5.png') }}" alt="Link to Skills for English"></a></td>
-                <td><img src="{{ asset('asset/img/university/app/collaborate/testcenter/Photo/5.jpg') }}" alt="Image 5" style="max-height:80px;"></td>
+                <td><a href="https://skillsforenglish.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/testcenter/Logo/4.png') }}" alt="Link to Skills for English"></a></td>
+                <td><img src="{{ asset('asset/img/university/app/collaborate/testcenter/Photo/4.jpg') }}" alt="Image 4" style="max-height:80px;"></td>
             </tr>
             
 
