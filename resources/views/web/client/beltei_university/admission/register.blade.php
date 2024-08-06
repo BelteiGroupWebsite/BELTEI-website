@@ -1,13 +1,21 @@
 @extends('web.client.beltei_university.layout.app')
 
 @section('content')
+
+    <style>
+        h5 span{
+            width: 50%;
+            padding: 1rem;
+        }
+    </style>
+
     <div class="text-start">
 
         <h3 class="text-center">ការចុះឈ្មោះចូលរៀន និងការផ្ទេរការសិក្សា</h3>
 
 
         <div>
-            <h5><span>ថ្នាក់បំប៉នភាសាអង់គ្លេស</span></h5>
+            <h5><span style="background-color: lightblue">ថ្នាក់បំប៉នភាសាអង់គ្លេស</span></h5>
             <hr>
 
             <div>
