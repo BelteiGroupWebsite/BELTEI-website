@@ -9,9 +9,9 @@
         }
     </style>
 
-    <div class="text-start">
+    <div class="text-start content-translate-font">
 
-        <h3 class="text-center">ការចុះឈ្មោះចូលរៀន និងការផ្ទេរការសិក្សា</h3>
+        <h3 class="text-center title-translate-font">ការចុះឈ្មោះចូលរៀន និងការផ្ទេរការសិក្សា</h3>
 
 
         <div>
