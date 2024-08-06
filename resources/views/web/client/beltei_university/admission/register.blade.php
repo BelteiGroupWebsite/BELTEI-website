@@ -3,10 +3,13 @@
 @section('content')
 
     <style>
+        h6{
+            margin-top: 1rem;
+
+        }
         h6 span{
             /* width: 50%; */
             padding: 1rem;
-            margin-top: 1rem;
         }
     </style>
 
