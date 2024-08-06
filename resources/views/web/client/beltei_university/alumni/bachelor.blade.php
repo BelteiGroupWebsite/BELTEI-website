@@ -7,7 +7,7 @@
         @endforeach
     </div>
 
-    <div class="my-4 d-flex justify-between">
+    <div class="my-4 d-flex justify-content-between">
         @if ($currentPage > 1)
             <a class="btn btn-primary" href="{{ url()->current() }}?page={{ $currentPage - 1 }}">Previous</a>
         @endif
