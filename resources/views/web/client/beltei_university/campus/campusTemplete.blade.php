@@ -7,7 +7,7 @@
             <img class="w-75 rounded shadow-sm " id="img" src="" alt="">
         </div>
         <p id="description" class="p-2"></p>
-        <div id="map" class="row">
+        <div id="map" class="row my-3">
 
         </div>
         <div class="text-center row" id="images">
@@ -48,9 +48,9 @@
         }
 
         var mapArray = [
-            '<iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15636.232687399719!2d104.9168647!3d11.5476849!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109511f69ba6309%3A0xc65060947881cb4e!2sBELTEI%20International%20University%20(Campus%201%2C%20Tuol%20Sleng)!5e0!3m2!1sen!2skh!4v1722940783471!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-            '<iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15637.514707648124!2d104.823231!3d11.5246703!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31094fbd312449f5%3A0xaf3393bc9eda7678!2sBELTEI%20International%20University%20(Campus%202%2C%20Chaom%20Chao%20Flyover)!5e0!3m2!1sen!2skh!4v1722940869245!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-            '<iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.4542554620853!2d104.85475149999999!3d11.5192366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951b387d85e35%3A0xb90241fb295e5441!2sBELTEI%20International%20School%2C%20Campus%2029!5e0!3m2!1sen!2skh!4v1722940907880!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+            '<iframe class="col-12 rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15636.232687399719!2d104.9168647!3d11.5476849!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109511f69ba6309%3A0xc65060947881cb4e!2sBELTEI%20International%20University%20(Campus%201%2C%20Tuol%20Sleng)!5e0!3m2!1sen!2skh!4v1722940783471!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+            '<iframe class="col-12 rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15637.514707648124!2d104.823231!3d11.5246703!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31094fbd312449f5%3A0xaf3393bc9eda7678!2sBELTEI%20International%20University%20(Campus%202%2C%20Chaom%20Chao%20Flyover)!5e0!3m2!1sen!2skh!4v1722940869245!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+            '<iframe class="col-12 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.4542554620853!2d104.85475149999999!3d11.5192366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951b387d85e35%3A0xb90241fb295e5441!2sBELTEI%20International%20School%2C%20Campus%2029!5e0!3m2!1sen!2skh!4v1722940907880!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
         ];
 
         try {
