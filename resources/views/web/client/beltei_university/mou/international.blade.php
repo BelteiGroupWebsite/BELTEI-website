@@ -955,8 +955,8 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td><a href="https://www.ets.org/toefl.html"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/franch/Logo/2.png') }}" alt="Link to TOEFL"></a></td>
-                <td><img src="{{ asset('asset/img/university/app/collaborate/franch/Photo/2.jpg') }}" alt="Image 2" style="max-height:80px;"></td>
+                <td><a href="https://www.ets.org/toefl.html"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/franch/Logo/1.png') }}" alt="Link to TOEFL"></a></td>
+                <td><img src="{{ asset('asset/img/university/app/collaborate/franch/Photo/1.jpg') }}" alt="Image 1" style="max-height:80px;"></td>
             </tr>
                                     
 
