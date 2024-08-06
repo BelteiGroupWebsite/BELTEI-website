@@ -4,7 +4,7 @@
 
     <style>
         h5 span{
-            width: 50%;
+            /* width: 50%; */
             padding: 1rem;
         }
     </style>
