@@ -4,7 +4,7 @@
 
     <style>
         .dd h6{
-            margin-top: 1.5rem;
+            margin-top: 2rem;
 
         }
         .dd h6 span{
