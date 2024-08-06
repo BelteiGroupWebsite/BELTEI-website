@@ -156,13 +156,8 @@
             </div>
 
             <div>
-                <marquee class="Battambang-Regular p-3" behavior="scroll" scrollamount="4.5">
-                    <font size="3" color="green">
-                        <strong>សាលា ប៊ែលធី អន្តរជាតិ</strong>
-                    </font> មានបង្រៀន <font size="3" color="green">៥</font>កម្មវិធីធំៗគឺ <font size="3"
-                        color="green">១-
-                        ចំណេះទូទៅ | ២- ភាសាអង់គ្លេសទូទៅ | ៣- វគ្គបណ្តុះបណ្តាលជំនាញឯកទេស | ៤- វគ្គបណ្តុះបណ្តាលកុំព្យូទ័រ
-                        | ៥- ថ្នាក់ត្រៀមប្រឡងតេស្តអន្តរជាតិ</font>
+                <marquee behavior="scroll" scrollamount="4.5"><span style="color: green; font-size: small;">
+                        {!! __('beltei_university/app.marquee') !!}
                 </marquee>
             </div>
 
