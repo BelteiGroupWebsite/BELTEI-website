@@ -14,7 +14,7 @@
         }
 
         hr{
-            border: 2px;
+            border-width: 3px !important;
         }
     </style>
 
