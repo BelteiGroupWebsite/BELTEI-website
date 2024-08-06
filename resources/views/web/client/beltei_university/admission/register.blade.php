@@ -1,9 +1,9 @@
 @extends('web.client.beltei_university.layout.app')
 
 @section('content')
-    <div>
+    <div class="text-start">
 
-        <h3>ការចុះឈ្មោះចូលរៀន និងការផ្ទេរការសិក្សា</h3>
+        <h3 class="text-center">ការចុះឈ្មោះចូលរៀន និងការផ្ទេរការសិក្សា</h3>
 
 
         <div>
