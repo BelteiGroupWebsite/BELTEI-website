@@ -24,7 +24,7 @@
         <h3 class="text-center title-translate-font mb-4">ការចុះឈ្មោះចូលរៀន និងការផ្ទេរការសិក្សា</h3>
 
 
-        <div>
+        <div class="px-3">
             <h6><span class="title-translate-font" style="background-color: #00B0F0">ថ្នាក់បំប៉នភាសាអង់គ្លេស</span></h6>
             <hr style="border-color: #00B0F0;">
 
@@ -38,7 +38,7 @@
         </div>
 
 
-        <div>
+        <div class="px-3">
             <h6><span class="title-translate-font" style="background-color: #002060">ថ្នាក់បំប៉នចិត្ត-គរុកោសល្យ</span></h6>
             <hr style="border-color: #002060;">
 
@@ -54,7 +54,7 @@
             <h6><span class="title-translate-font" style="background-color: #FF0000">ថ្នាក់បរិញ្ញាបត្ររង</span></h6>
             <hr style="border-color: #FF0000;">
 
-            <div>
+            <div class="px-3">
 
                 <p><span>&bull; &nbsp;លក្ខខណ្ឌទូទៅ</span></p>
                 <p><span>១- បេក្ខជនទាំងពីរភេទជានិស្សិតខ្មែរ ឬបរទេស ព្រះសង្ឃ មន្រ្តីរាជការ បុគ្គលិកក្រុមហ៊ុន
@@ -98,7 +98,7 @@
             <h6><span class="title-translate-font" style="background-color: #4472C4">ថ្នាក់បរិញ្ញាបត្ររង</span></h6>
             <hr style="border-color: #4472C4;">
 
-            <div>
+            <div class="px-3">
 
                 <p><span>&bull; &nbsp;លក្ខខណ្ឌទូទៅ</span></p>
                 <p><span>១- បេក្ខជនទាំងពីរភេទជានិស្សិតខ្មែរ ឬបរទេស ព្រះសង្ឃ មន្រ្តីរាជការ បុគ្គលិកក្រុមហ៊ុន និងប្រជាពលរដ្ឋទូទៅ មានសិទ្ធិដាក់ពាក្យចូលរៀននៅសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិបាន គ្រប់ៗគ្នាដោយគ្រាន់តែបំពេញបែបបទចុះឈ្មោះចូលរៀនតាមប្រភេទកម្មវិធីសិក្សា និងបំពេញ កាតព្វកិច្ចប្រឡងចូល ដែលក្រសួងអប់រំ យុវជន និងកីឡាបានកំណត់។</span></p>
@@ -124,7 +124,7 @@
             <h6><span class="title-translate-font" style="background-color: #7F6000">ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់</span></h6>
             <hr style="border-color: #7F6000;">
 
-            <div>
+            <div class="px-3">
 
                 <p><span>&bull; &nbsp; លក្ខខណ្ឌទូទៅ</span></p>
                 <p><span>១- បេក្ខជនទាំងពីរភេទជានិស្សិតខ្មែរ ឬបរទេស ព្រះសង្ឃ មន្រ្តីរាជការ បុគ្គលិកក្រុមហ៊ុន និងប្រជាពលរដ្ឋទូទៅ មានសិទ្ធិដាក់ពាក្យចូលរៀននៅសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិបាន គ្រប់ៗគ្នាដោយគ្រាន់តែបំពេញបែបបទចុះឈ្មោះចូលរៀនតាមប្រភេទកម្មវិធីសិក្សា និងបំពេញ កាតព្វកិច្ចប្រឡងចូល ដែលក្រសួងអប់រំ យុវជន និងកីឡាបានកំណត់។</span></p>
@@ -149,7 +149,7 @@
             <h6><span class="title-translate-font" style="background-color: #70AD47">ថ្នាក់បណ្ឌិត</span></h6>
             <hr style="border-color: #70AD47;">
 
-            <div>
+            <div class="px-3">
 
                 <p><span>&bull; &nbsp; APPLICANTS</span></p>
                 <p><span>&nbsp; &nbsp; &nbsp; - All Candidates are students or alumni, monks, public servants and foreigners are eligible to apply for admission to BELTEI International University by submitting the application form provided by the university or the Ministry of Education, Youth and Sports.</span></p>
