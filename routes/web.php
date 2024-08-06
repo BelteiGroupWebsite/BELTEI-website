@@ -360,7 +360,7 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 
     });
     Route::group(['prefix' => 'alumni' , 'as' => 'alumni.'] , function(){
         // Route::view('bachelor' , 'web.client.beltei_university.alumni.bachelor')->name('bachelor');
-        Route::post('/bachelor', function (Request $request) {
+        Route::get('/bachelor', function (Request $request) {
             $imagesPerPage = 8; // Number of images per page
             $totalImages = 32; // Total number of images
             $currentPage = $request->input('page', 1); // Current page number
