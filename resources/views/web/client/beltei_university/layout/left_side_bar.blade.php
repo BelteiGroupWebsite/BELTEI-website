@@ -85,9 +85,9 @@
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.F') }}</h6>
         </a>
         <a href="{{ route('beltei_university.admission.register') }}" class="list-group-item text-white">{{ __('beltei_university/app.F1') }}</a>
-        <a href="{{ route('beltei_university.admission.price') }}" class="list-group-item text-white">{{ __('beltei_university/app.F2') }}</a>
+        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.F2') }}</a>
         <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.F3') }}</a>
-        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.F4') }}</a>
+        <a href="{{ route('beltei_university.admission.register') }}" class="list-group-item text-white">{{ __('beltei_university/app.F4') }}</a>
         <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.F5') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
