@@ -7,7 +7,7 @@
     <div>
         <h3 class="title-translate-font">១. តម្លៃសិក្សាកម្មវិធីជា ភាសាជាតិ</h3>
         <table class="table table-hover table-bordered">
-            <tr class="bg-primary title-translate-font">
+            <tr class="bg-primary title-translate-font text-white">
                 <th>កម្រិតសិក្សា</th>
                 <th>ឆមាស</th>
                 <th>ឆ្នាំ</th>
@@ -38,7 +38,7 @@
     <div>
         <h3 class="title-translate-font">២. តម្លៃសិក្សាកម្មវិធីអន្តរជាតិ</h3>
         <table class="table table-hover table-bordered">
-            <tr class="bg-primary title-translate-font">
+            <tr class="bg-primary title-translate-font text-white">
                 <th>កម្រិតសិក្សា</th>
                 <th>ឆមាស</th>
                 <th>ឆ្នាំ</th>
@@ -69,7 +69,7 @@
     <div>
         <h3 class="title-translate-font">៣. តម្លៃសិក្សាកម្មវិធីអន្តរជាតិ (អាកាសចរស៊ីវិល)</h3>
         <table class="table table-hover table-bordered">
-            <tr class="bg-primary title-translate-font">
+            <tr class="bg-primary title-translate-font text-white">
                 <th>កម្រិតសិក្សា</th>
                 <th>ឆមាស</th>
                 <th>ឆ្នាំ</th>
