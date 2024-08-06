@@ -128,6 +128,9 @@
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/7Bozi7A_9lw/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/7Bozi7A_9lw?si=2R0s3VpOkFck2jPr" />
                     </a>
+
+                </div>
+                <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; gap: .5rem;">
                     <a href="https://www.youtube.com/embed/0ha5Xtf6BLo?si=zYAql8Nj-nVJ-4-H" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/0ha5Xtf6BLo/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/0ha5Xtf6BLo?si=zYAql8Nj-nVJ-4-H" />
@@ -136,8 +139,6 @@
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/7G6AK-zk7w0/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/7G6AK-zk7w0?si=yvkG5Uimh4puKuCR" />
                     </a>
-                </div>
-                <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; gap: .5rem;">
                     <a href="https://www.youtube.com/embed/Ip-QgjIWhoo?si=xJx2AAJHR_I19LRu" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/Ip-QgjIWhoo/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/Ip-QgjIWhoo?si=xJx2AAJHR_I19LRu" />
