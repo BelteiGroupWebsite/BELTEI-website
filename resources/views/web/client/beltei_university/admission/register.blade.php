@@ -24,11 +24,11 @@
         <h3 class="text-center title-translate-font mb-4">ការចុះឈ្មោះចូលរៀន និងការផ្ទេរការសិក្សា</h3>
 
 
-        <div class="px-3">
+        <div>
             <h6><span class="title-translate-font" style="background-color: #00B0F0">ថ្នាក់បំប៉នភាសាអង់គ្លេស</span></h6>
             <hr style="border-color: #00B0F0;">
 
-            <div class="px-3">
+            <div>
                 <p><span>១</span><span>-</span><span>&nbsp; &nbsp; &nbsp;&nbsp;និស្សិត នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ
                         ដែលរៀនថ្នាក់បរិញ្ញាបត្ររង ឬបរិញ្ញាបត្រ នៅឆ្នាំទី១ នៃកម្មវិធីសិក្សាជាភាសាជាតិ
                         អាចចុះឈ្មោះចូលរៀនបាន។</span></p>
@@ -38,11 +38,11 @@
         </div>
 
 
-        <div class="px-3">
+        <div>
             <h6><span class="title-translate-font" style="background-color: #002060">ថ្នាក់បំប៉នចិត្ត-គរុកោសល្យ</span></h6>
             <hr style="border-color: #002060;">
 
-            <div class="px-3">
+            <div>
                 <p><span>១</span><span>-</span><span>&nbsp; &nbsp; &nbsp; បេក្ខជនទូទៅ អាចចុះឈ្មោះចូលរៀន
                         កម្មវិធីសិក្សាថ្នាក់ចិត្ត-គរុកោសល្យ (ជាភាសាខ្មែរ ឬជាភាសាអង់គ្លេស) ដោយមិនគិតពីកម្រិតសញ្ញាបត្រ។</span>
                 </p>
@@ -54,7 +54,7 @@
             <h6><span class="title-translate-font" style="background-color: #FF0000">ថ្នាក់បរិញ្ញាបត្ររង</span></h6>
             <hr style="border-color: #FF0000;">
 
-            <div class="px-3">
+            <div>
 
                 <p><span>&bull; &nbsp;លក្ខខណ្ឌទូទៅ</span></p>
                 <p><span>១- បេក្ខជនទាំងពីរភេទជានិស្សិតខ្មែរ ឬបរទេស ព្រះសង្ឃ មន្រ្តីរាជការ បុគ្គលិកក្រុមហ៊ុន
@@ -98,7 +98,7 @@
             <h6><span class="title-translate-font" style="background-color: #4472C4">ថ្នាក់បរិញ្ញាបត្ររង</span></h6>
             <hr style="border-color: #4472C4;">
 
-            <div class="px-3">
+            <div>
 
                 <p><span>&bull; &nbsp;លក្ខខណ្ឌទូទៅ</span></p>
                 <p><span>១- បេក្ខជនទាំងពីរភេទជានិស្សិតខ្មែរ ឬបរទេស ព្រះសង្ឃ មន្រ្តីរាជការ បុគ្គលិកក្រុមហ៊ុន និងប្រជាពលរដ្ឋទូទៅ មានសិទ្ធិដាក់ពាក្យចូលរៀននៅសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិបាន គ្រប់ៗគ្នាដោយគ្រាន់តែបំពេញបែបបទចុះឈ្មោះចូលរៀនតាមប្រភេទកម្មវិធីសិក្សា និងបំពេញ កាតព្វកិច្ចប្រឡងចូល ដែលក្រសួងអប់រំ យុវជន និងកីឡាបានកំណត់។</span></p>
@@ -124,7 +124,7 @@
             <h6><span class="title-translate-font" style="background-color: #7F6000">ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់</span></h6>
             <hr style="border-color: #7F6000;">
 
-            <div class="px-3">
+            <div>
 
                 <p><span>&bull; &nbsp; លក្ខខណ្ឌទូទៅ</span></p>
                 <p><span>១- បេក្ខជនទាំងពីរភេទជានិស្សិតខ្មែរ ឬបរទេស ព្រះសង្ឃ មន្រ្តីរាជការ បុគ្គលិកក្រុមហ៊ុន និងប្រជាពលរដ្ឋទូទៅ មានសិទ្ធិដាក់ពាក្យចូលរៀននៅសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិបាន គ្រប់ៗគ្នាដោយគ្រាន់តែបំពេញបែបបទចុះឈ្មោះចូលរៀនតាមប្រភេទកម្មវិធីសិក្សា និងបំពេញ កាតព្វកិច្ចប្រឡងចូល ដែលក្រសួងអប់រំ យុវជន និងកីឡាបានកំណត់។</span></p>
@@ -149,7 +149,7 @@
             <h6><span class="title-translate-font" style="background-color: #70AD47">ថ្នាក់បណ្ឌិត</span></h6>
             <hr style="border-color: #70AD47;">
 
-            <div class="px-3">
+            <div>
 
                 <p><span>&bull; &nbsp; APPLICANTS</span></p>
                 <p><span>&nbsp; &nbsp; &nbsp; - All Candidates are students or alumni, monks, public servants and foreigners are eligible to apply for admission to BELTEI International University by submitting the application form provided by the university or the Ministry of Education, Youth and Sports.</span></p>
@@ -168,7 +168,7 @@
             <h6><span class="title-translate-font" style="background-color: #7F6000">ការសុំផ្ទេរការសិក្សាចូល</span></h6>
             <hr style="border-color: #7F6000;">
 
-            <div class="px-3">
+            <div>
                 <p><span>១-&nbsp;&nbsp;និស្សិតអាចផ្ទេរការសិក្សាពីសាកលវិទ្យាល័យ ឬគ្រឹះស្ថានសិក្សានានា មកបន្តការសិក្សានៅសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិបានលុះត្រាតែ និស្សិតរូបនោះមកពីគ្រឹះស្ថានសិក្សាដែលមានការទទួលស្គាល់ពីរាជរដ្ឋាភិបាលកម្ពុជា</span><span>&nbsp;(</span><span>ក្រសួងអប់រំ</span><span>&nbsp;យុវជន និងកីឡា និងគណៈកម្មាធិការ</span><span>ទទួលស្គាល់គុណភាពអប់រំនៃកម្ពុជា</span><span>)</span><span>។</span></p>
                 <p><span>២-&nbsp;&nbsp;និស្សិតត្រូវភ្ជាប់មកជាមួយ នូវសញ្ញាបត្រមធ្យមសិក្សាទុតិយភូមិ (បាក់ឌុប) ឬសញ្ញាបត្រដែលមានតម្លៃស្មើ វិញ្ញាបនបត្រថ្នាក់ឆ្នាំសិក្សាមូលដ្ឋាន និងព្រឹត្តិបត្រពិន្ទុផ្លូវការដែលចេញដោយសាមីគ្រឹះស្ថាន។</span></p>
                 <p><span>៣-&nbsp;&nbsp;និស្សិតត្រូវគោរព និងអនុវត្តរាល់ច្បាប់ គោលការណ៍ បទបញ្ជាផ្ទៃក្នុង និងលិខិតបទដ្ឋានផ្សេងៗរបស់សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ ដែលមានចែងជាធរមាន។</span></p>
@@ -193,7 +193,7 @@
             <h6><span class="title-translate-font" style="background-color: #7030A0">ការសុំផ្ទេរការសិក្សាចេញ</span></h6>
             <hr style="border-color: #7030A0;">
 
-            <div class="px-3">
+            <div>
                 <p><span>១-&nbsp;&nbsp;និស្សិតមានសិទ្ធិផ្ទេរការសិក្សាចេញទៅគ្រឹះស្ថានឧត្តមសិក្សាដទៃបាន ដោយត្រូវបំពេញសំណុំបែបបទផ្ទេរការសិក្សា ដែលកំណត់ដោយសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។</span></p>
                 <p><span>២-&nbsp;&nbsp;ទឹកប្រាក់ដែលបានបង់រួច ឬទឹកប្រាក់ដែលនៅសល់ មិនអាចដក រក្សាទុក ឬផ្ទេរឱ្យសិស្ស</span><span>-</span><span>និស្សិតផ្សេងបានឡើយ។</span></p>
                 <p><span>៣-&nbsp;&nbsp;និស្សិត ត្រូវសិក្សាឱ្យចប់មួយឆមាស ឬមួយឆ្នាំសិក្សាពេញលេញ ទើបមានសិទ្ធិផ្ទេរចេញ។</span></p>
