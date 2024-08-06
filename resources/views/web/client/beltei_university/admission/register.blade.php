@@ -14,6 +14,7 @@
         }
 
         hr{
+            border: 1px solid #dee2e6 !important;
             border-width: 3px !important;
         }
     </style>
