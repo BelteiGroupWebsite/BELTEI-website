@@ -7,13 +7,13 @@
         @endforeach
     </div>
 
-    <div class="pagination">
+    <div class="pagination my-4 d-flex justify-end">
         @if ($currentPage > 1)
-            <a href="{{ url()->current() }}?page={{ $currentPage - 1 }}">Previous</a>
+            <a class="btn btn-primary" href="{{ url()->current() }}?page={{ $currentPage - 1 }}">Previous</a>
         @endif
 
         @if ($currentPage < $totalPages)
-            <a href="{{ url()->current() }}?page={{ $currentPage + 1 }}">Next</a>
+            <a class="btn btn-primary" href="{{ url()->current() }}?page={{ $currentPage + 1 }}">Next</a>
         @endif
     </div>
 @endsection
