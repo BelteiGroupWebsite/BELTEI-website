@@ -762,7 +762,7 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td><a href="https://www.ucanwest.ca/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/thailand/Logo/1.png') }}" alt="Link to UCAN West"></a></td>
+                <td><a href="https://www.ucanwest.ca/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/collaborate/thailand/logo/1.png') }}" alt="Link to UCAN West"></a></td>
                 <td><img src="{{ asset('asset/img/university/app/collaborate/thailand/Photo/1.jpg') }}" alt="Image 1" style="max-height:80px;"></td>
             </tr>
             <tr>
