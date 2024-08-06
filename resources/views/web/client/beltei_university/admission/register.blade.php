@@ -3,23 +3,23 @@
 @section('content')
 
     <style>
-        h6{
+        .dd h6{
             margin-top: 1.5rem;
 
         }
-        h6 span{
+        .dd h6 span{
             /* width: 50%; */
             padding: 1rem;
             color: white;
         }
 
-        hr{
+        .dd hr{
             border: 1px solid #dee2e6 ;
             border-width: 3px ;
         }
     </style>
 
-    <div class="text-start content-translate-font">
+    <div class="text-start content-translate-font dd">
 
         <h3 class="text-center title-translate-font mb-4">ការចុះឈ្មោះចូលរៀន និងការផ្ទេរការសិក្សា</h3>
 
