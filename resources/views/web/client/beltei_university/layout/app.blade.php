@@ -136,12 +136,12 @@
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/7G6AK-zk7w0/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/7G6AK-zk7w0?si=yvkG5Uimh4puKuCR" />
                     </a>
+                </div>
+                <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; gap: .5rem;">
                     <a href="https://www.youtube.com/embed/Ip-QgjIWhoo?si=xJx2AAJHR_I19LRu" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/Ip-QgjIWhoo/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/Ip-QgjIWhoo?si=xJx2AAJHR_I19LRu" />
                     </a>
-                </div>
-                <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; gap: .5rem;">
                     <a href="https://www.youtube.com/embed/l88M7K1oYlA?si=J_uCR0w6B7vBnlRe" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                         <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/l88M7K1oYlA/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/l88M7K1oYlA?si=J_uCR0w6B7vBnlRe" />
