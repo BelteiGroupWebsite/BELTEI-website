@@ -354,6 +354,9 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 
         Route::view('hall' , 'web.client.beltei_university.facilities.hall')->name('hall');
         Route::view('cafeteria' , 'web.client.beltei_university.facilities.cafeteria')->name('cafeteria');
     });
+    Route::group(['prefix' => 'admission' , 'as' => 'admission.'] , function(){
+        Route::view('register' , 'web.client.beltei_university.admission.register')->name('register');
+    });
 
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
         Route::view('/khmer' , 'web.client.beltei_university.mainprogram.khmer')->name('khmer');
