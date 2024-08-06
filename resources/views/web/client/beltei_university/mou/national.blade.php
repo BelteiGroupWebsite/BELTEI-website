@@ -64,7 +64,7 @@
             </tr>
             <tr>
                 <td>5</td>
-                <td><a href="https://www.wownow-kh.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/5.png') }}" alt="Link to Wownow KH"></a></td>
+                <td><a href="https://www.wownow-kh.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/5.png') }}" alt="Link to Wownow"></a></td>
                 <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/5.jpg') }}" alt="Image 5" style="max-height:80px;"></td>
             </tr>
             <tr>
@@ -79,7 +79,7 @@
             </tr>
             <tr>
                 <td>8</td>
-                <td><a href="https://poscardigital.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/8.png') }}" alt="Link to Postcardigital"></a></td>
+                <td><a href="https://poscardigital.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/8.png') }}" alt="Link to Poscardigital"></a></td>
                 <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/8.jpg') }}" alt="Image 8" style="max-height:80px;"></td>
             </tr>
             <tr>
@@ -89,7 +89,7 @@
             </tr>
             <tr>
                 <td>10</td>
-                <td><a href="https://www.sofitel-phnompenh-phokeethra.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/10.png') }}" alt="Link to Sofitel Phnom Penh"></a></td>
+                <td><a href="https://www.sofitel-phnompenh-phokeethra.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/10.png') }}" alt="Link to Sofitel Phnom Penh Phokeethra"></a></td>
                 <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/10.jpg') }}" alt="Image 10" style="max-height:80px;"></td>
             </tr>
             <tr>
@@ -109,7 +109,7 @@
             </tr>
             <tr>
                 <td>14</td>
-                <td><a href="https://www.prudential.com.kh/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/14.png') }}" alt="Link to Prudential"></a></td>
+                <td><a href="https://www.prudential.com.kh/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/14.png') }}" alt="Link to Prudential Cambodia"></a></td>
                 <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/14.jpg') }}" alt="Image 14" style="max-height:80px;"></td>
             </tr>
             <tr>
@@ -119,7 +119,7 @@
             </tr>
             <tr>
                 <td>16</td>
-                <td><a href="https://mlmupc.gov.kh/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/16.png') }}" alt="Link to MLM UPC"></a></td>
+                <td><a href="https://mlmupc.gov.kh/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/16.png') }}" alt="Link to MLMUPC"></a></td>
                 <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/16.jpg') }}" alt="Image 16" style="max-height:80px;"></td>
             </tr>
             <tr>
@@ -134,7 +134,7 @@
             </tr>
             <tr>
                 <td>19</td>
-                <td><a href="https://www.marriott.com/en-us/hotels/pnhcy-courtyard-phnom-penh/overview/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/19.png') }}" alt="Link to Courtyard Marriott Phnom Penh"></a></td>
+                <td><a href="https://www.marriott.com/en-us/hotels/pnhcy-courtyard-phnom-penh/overview/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/19.png') }}" alt="Link to Marriott Courtyard Phnom Penh"></a></td>
                 <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/19.jpg') }}" alt="Image 19" style="max-height:80px;"></td>
             </tr>
             <tr>
@@ -156,6 +156,31 @@
                 <td>23</td>
                 <td><a href="https://cdc.gov.kh/km/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/23.png') }}" alt="Link to CDC"></a></td>
                 <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/23.jpg') }}" alt="Image 23" style="max-height:80px;"></td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td><a href="https://www.phnompenhpost.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/24.png') }}" alt="Link to Phnom Penh Post"></a></td>
+                <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/24.jpg') }}" alt="Image 24" style="max-height:80px;"></td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td><a href="https://www.rfa.org/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/25.png') }}" alt="Link to Radio Free Asia"></a></td>
+                <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/25.jpg') }}" alt="Image 25" style="max-height:80px;"></td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td><a href="https://www.khmerload.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/26.png') }}" alt="Link to Khmerload"></a></td>
+                <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/26.jpg') }}" alt="Image 26" style="max-height:80px;"></td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td><a href="https://www.khmertimeskh.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/27.png') }}" alt="Link to Khmer Times"></a></td>
+                <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/27.jpg') }}" alt="Image 27" style="max-height:80px;"></td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td><a href="https://www.cambodiadaily.com/"><img style="max-height:80px;" src="{{ asset('asset/img/university/app/rightsidebar/cambodia/28.png') }}" alt="Link to Cambodia Daily"></a></td>
+                <td><img src="{{ asset('asset/img/university/app/rightsidebar/cambodia/photo/28.jpg') }}" alt="Image 28" style="max-height:80px;"></td>
             </tr>
         </table>
         

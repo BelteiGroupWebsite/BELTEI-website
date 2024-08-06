@@ -15,7 +15,7 @@
 
 
         <div>
-            <h5><span class="title-translate-font" style="background-color: lightblue">ថ្នាក់បំប៉នភាសាអង់គ្លេស</span></h5>
+            <h5><span class="title-translate-font" style="background-color: #00B0F0">ថ្នាក់បំប៉នភាសាអង់គ្លេស</span></h5>
             <hr>
 
             <div>
@@ -29,7 +29,7 @@
 
 
         <div>
-            <h5><span class="title-translate-font">ថ្នាក់បំប៉នចិត្ត-គរុកោសល្យ</span></h5>
+            <h5><span class="title-translate-font" style="background-color: #00B0F0">ថ្នាក់បំប៉នចិត្ត-គរុកោសល្យ</span></h5>
             <hr>
 
             <div>
@@ -41,7 +41,7 @@
 
 
         <div>
-            <h5><span class="title-translate-font">ថ្នាក់បរិញ្ញាបត្ររង</span></h5>
+            <h5><span class="title-translate-font" style="background-color: #00B0F0">ថ្នាក់បរិញ្ញាបត្ររង</span></h5>
             <hr>
 
             <div>
@@ -85,7 +85,7 @@
 
 
         <div>
-            <h5><span class="title-translate-font">ថ្នាក់បរិញ្ញាបត្ររង</span></h5>
+            <h5><span class="title-translate-font" style="background-color: #00B0F0">ថ្នាក់បរិញ្ញាបត្ររង</span></h5>
             <hr>
 
             <div>
@@ -111,7 +111,7 @@
 
 
         <div>
-            <h5><span class="title-translate-font">ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់</span></h5>
+            <h5><span class="title-translate-font" style="background-color: #00B0F0">ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់</span></h5>
             <hr>
 
             <div>
@@ -136,7 +136,7 @@
 
 
         <div>
-            <h5><span class="title-translate-font">ថ្នាក់បណ្ឌិត</span></h5>
+            <h5><span class="title-translate-font" style="background-color: #00B0F0">ថ្នាក់បណ្ឌិត</span></h5>
             <hr>
 
             <div>
@@ -155,7 +155,7 @@
 
 
         <div>
-            <h5><span class="title-translate-font">ការសុំផ្ទេរការសិក្សាចូល</span></h5>
+            <h5><span class="title-translate-font" style="background-color: #00B0F0">ការសុំផ្ទេរការសិក្សាចូល</span></h5>
             <hr>
 
             <div>
@@ -180,7 +180,7 @@
 
 
         <div>
-            <h5><span class="title-translate-font">ការសុំផ្ទេរការសិក្សាចេញ</span></h5>
+            <h5><span class="title-translate-font" style="background-color: #00B0F0">ការសុំផ្ទេរការសិក្សាចេញ</span></h5>
             <hr>
 
             <div>
@@ -193,7 +193,7 @@
 
 
         <div>
-            <h5><span class="title-translate-font">កាលបរិច្ឆេទចូលរៀន</span></h5>
+            <h5><span class="title-translate-font" style="background-color: #00B0F0">កាលបរិច្ឆេទចូលរៀន</span></h5>
             <hr>
 
             <div>
