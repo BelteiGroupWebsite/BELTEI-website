@@ -11,7 +11,7 @@
 
     <div class="text-start content-translate-font">
 
-        <h3 class="text-center title-translate-font mb-5">ការចុះឈ្មោះចូលរៀន និងការផ្ទេរការសិក្សា</h3>
+        <h3 class="text-center title-translate-font mb-4">ការចុះឈ្មោះចូលរៀន និងការផ្ទេរការសិក្សា</h3>
 
 
         <div>
