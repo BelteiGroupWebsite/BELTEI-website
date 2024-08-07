@@ -2,12 +2,12 @@
 
 @section('content')
     <div class="dailyNews mt-4">
-        {{-- <hr>
+        <hr>
         <div>
-            <h6 class="Muol-Light p-3 my-2 bg-success text-white">ព្រឹត្តិការណ៍សំខាន់ៗប្រចាំថ្ងៃ</h6>
+            <h6 class="Muol-Light p-3 my-2 bg-success text-white">{{ __('beltei_university/activity/fieldtrip.header') }}</h6>
         </div>
-        <hr> --}}
-        
+        <hr>
+
         {{-- Hot News  --}}
         <a href="{{ route('beltei_university.news.detail', $biutrip_news->first()->id) }}" class="card card-body d-flex">
             {{-- <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex"> --}}
