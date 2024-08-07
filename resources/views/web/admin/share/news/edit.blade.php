@@ -54,6 +54,7 @@
                                     <option value="5" {{ $news->category == 5 ? 'selected' : '' }}>Beltei Tour and Travel</option>
                                     <option value="6" {{ $news->category == 6 ? 'selected' : '' }}>Beltei Test Center</option>
                                     <option value="7" {{ $news->category == 7 ? 'selected' : '' }}>Beltei Charity</option>
+                                    <option value="8" {{ $news->category == 8 ? 'selected' : '' }}>BIU Field Trip</option>
                                 </select>
                             </div>
                         </div>
