@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'header' => "BIU Student Activities"
+    'header' => "BELTEI International University Student Activities"
 ];
