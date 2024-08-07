@@ -48,6 +48,7 @@ class AppServiceProvider extends ServiceProvider
                 5 => 'tour_news',
                 6 => 'testcenter_news',
                 7 => 'charity_news',
+                8 => 'biutrip_news',
             ];
     
             // Loop through the categories and share the news for each category with the corresponding view variable name
