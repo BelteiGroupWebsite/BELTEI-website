@@ -1,7 +1,7 @@
 @extends('web.client.school.layout.app')
 
 @section('content')
-    <div class="text-start Battambang-Regular p-3">
+    <div class="text-start Battambang-Regular p-3 pt-0">
 
 
         <hr>
