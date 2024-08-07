@@ -387,6 +387,9 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 
         Route::view('master' , 'web.client.beltei_university.alumni.master')->name('master');
         Route::view('doctoral' , 'web.client.beltei_university.alumni.doctoral')->name('doctoral');
     });
+    Route::group(['prefix' => 'activities' , 'as' => 'activities.'] , function(){
+        Route::view('fieldtrip' , 'web.client.beltei_university.activity.fieldtrip')->name('fieldtrip');
+    });
 
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
         Route::view('/khmer' , 'web.client.beltei_university.mainprogram.khmer')->name('khmer');

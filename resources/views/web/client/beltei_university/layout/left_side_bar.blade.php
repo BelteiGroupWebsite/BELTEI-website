@@ -94,7 +94,7 @@
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.G') }}</h6>
         </a>
-        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G1') }}</a>
+        <a href="{{ route('beltei_university.activities.fieldtrip') }}" class="list-group-item text-white">{{ __('beltei_university/app.G1') }}</a>
         <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G2') }}</a>
         <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G3') }}</a>
         <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G4') }}</a>
