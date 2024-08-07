@@ -6,7 +6,7 @@
 
         <hr>
         <div>
-            <h4 class="Muol-Light p-3 my-3 bg-success text-white">{{ __('school/app.belteicampus') }} <span id="BCampus"></span></h4>
+            <h4 class="Muol-Light p-3 my-3 bg-success text-white text-center">{{ __('school/app.belteicampus') }} <span id="BCampus"></span></h4>
         </div>
         <hr>
         
