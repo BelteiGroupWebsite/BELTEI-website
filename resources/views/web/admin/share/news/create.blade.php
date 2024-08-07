@@ -53,6 +53,7 @@
                                     <option value="6">Beltei Test Center</option>
                                     <option value="7">Beltei Test Charity</option>
                                     <option value="8">BIU Field Trip</option>
+                                    <option value="9">BIU Practical Training</option>
                                 </select>
                             </div>
                         </div>

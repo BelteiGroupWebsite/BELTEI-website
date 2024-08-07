@@ -98,7 +98,7 @@
         <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G2') }}</a>
         <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G3') }}</a>
         <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G4') }}</a>
-        <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G5') }}</a>
+        <a href="{{ route('beltei_university.activities.training') }}" class="list-group-item text-white">{{ __('beltei_university/app.G5') }}</a>
         <a href="{{ route('beltei_university.construction') }}" class="list-group-item text-white">{{ __('beltei_university/app.G6') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">

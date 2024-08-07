@@ -101,6 +101,7 @@ class NewsController extends Controller
             6 => 'testcenter_news',
             7 => 'charity_news',
             8 => 'beltei_university',
+            9 => 'beltei_university',
         ];
 
         // Get the category name based on the news category

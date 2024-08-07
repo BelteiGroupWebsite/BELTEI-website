@@ -389,6 +389,7 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 
     });
     Route::group(['prefix' => 'activities' , 'as' => 'activities.'] , function(){
         Route::view('fieldtrip' , 'web.client.beltei_university.activity.fieldtrip')->name('fieldtrip');
+        Route::view('training' , 'web.client.beltei_university.activity.training')->name('training');
     });
 
     Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
