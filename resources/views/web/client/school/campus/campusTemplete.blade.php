@@ -7,11 +7,11 @@
             <img class="w-75 rounded shadow-sm " id="img" src="" alt="">
         </div>
 
-        <div id="map" class="my-3">
-
-        </div>
         
         <p id="description" class="p-2"></p>
+        
+        <div id="map" class="my-3">
+        </div>
     </div>
 
     <script>
