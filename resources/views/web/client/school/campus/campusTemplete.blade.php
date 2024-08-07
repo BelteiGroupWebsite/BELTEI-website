@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="text-start Battambang-Regular p-3">
-        <h5 class="text-center font-bold mb-3">{{ __('school/app.belteicampus') }} <span id="BCampus"></span></h5>
+        <h5 class="text-center font-bold mb-3 title-translate-font underline">{{ __('school/app.belteicampus') }} <span id="BCampus"></span></h5>
         <div class="text-center">
             <img class="w-75 rounded shadow-sm " id="img" src="" alt="">
         </div>
@@ -10,7 +10,7 @@
         
         <p id="description" class="p-2"></p>
 
-        <h4 class="text-center font-bold my-3 text-center">{{ __('school/app.map') }} <span id="BCampus"></span></h4>
+        <h4 class="text-center font-bold my-3 text-center title-translate-font underline">{{ __('school/app.map') }} <span id="BCampus"></span></h4>
         <div id="map" class="my-3">
         </div>
     </div>
