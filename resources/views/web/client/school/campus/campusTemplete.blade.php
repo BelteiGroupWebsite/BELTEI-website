@@ -9,7 +9,8 @@
 
         
         <p id="description" class="p-2"></p>
-        
+
+        <h4 class="text-center font-bold my-3 text-center">{{ __('school/app.map') }} <span id="BCampus"></span></h4>
         <div id="map" class="my-3">
         </div>
     </div>

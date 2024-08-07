@@ -149,5 +149,7 @@ return [
     'ESLDiploma' => "BELTEI ESL Diploma",
     'ESLlevel6' => "BELTEI ESL Level 6",
 
+    'map' => "Location",
+
 ];
 
