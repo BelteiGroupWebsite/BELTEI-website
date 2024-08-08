@@ -16,7 +16,7 @@
 
             <ul>
                 @foreach ($bicc_news as $news)
-                <li>
+                <li class="border">
                     <a href="{{ route('beltei_university.news.detail', $news->id) }}">
                         <h5 class="content-translate-font line-height-15">
                             @foreach ($news->newsDetail as $item)
