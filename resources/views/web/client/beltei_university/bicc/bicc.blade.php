@@ -4,7 +4,7 @@
     <div class="dailyNews mt-4">
         <hr>
         <div>
-            <h6 class="Muol-Light p-3 my-2 bg-success text-white">{{ __('beltei_university/activity/fieldtrip.header') }}</h6>
+            <h6 class="Muol-Light p-3 my-2 bg-success text-white">{{ __('beltei_university/activity/fieldtrip.biccheader') }}</h6>
         </div>
         <hr>
 
