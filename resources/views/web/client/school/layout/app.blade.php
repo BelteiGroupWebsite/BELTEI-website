@@ -230,9 +230,9 @@
                 <a id="sammenten${i}" href="{{ route('school.campus.campusTemplete') }}?id=${i}" data-aos="fade-left" data-aos-delay="${
                     i * 100
                 }" class="border rounded shadow-sm ">
-                    <div class="overflow-hidden img-scale-hover">
+                    <div class="overflow-hidden img-scale-hover" style="width:120px; height:110px">
                         
-                        <img class="shadow-sm rounded w-100 h-100" style="width:120px; height:110px"
+                        <img class="shadow-sm rounded w-100 h-100" style="width:120px; height:110px ; object-fit:cover;"
                             src="{{ asset('asset/img/school/campus/school-B${i}.jpg') }}"
                             alt="">
                     </div>

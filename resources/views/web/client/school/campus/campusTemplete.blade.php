@@ -94,6 +94,7 @@
                 'ស្ថិតនៅផ្លូវទំនប់កប់ស្រូវ សង្កាត់ព្រែកព្នៅ ខណ្ឌព្រែកព្នៅ រាជធានីភ្នំពេញ។ បើកដំណើរការ នៅថ្ងៃទី១១ ខែមីនា ឆ្នាំ២០២៤។​ សាលាប៊ែលធី អន្តរជាតិទី២៧ សង់ឡើងពីបេតុង អាម៉េ កម្អស់ ៩ជាន់ មាន១៨៤បន្ទប់ និងមានជាន់ក្រោមដី សម្រាប់ធ្វើជាចំណត នង់-ម៉ូតូ។',
                 'ស្ថិតនៅផ្លូវទំនប់កប់ស្រូវ សង្កាត់ព្រែកព្នៅ ខណ្ឌព្រែកព្នៅ រាជធានីភ្នំពេញ។ បើកដំណើរការ នៅថ្ងៃទី១១ ខែមីនា ឆ្នាំ២០២៤។​ សាលាប៊ែលធី អន្តរជាតិទី២៧ សង់ឡើងពីបេតុង អាម៉េ កម្អស់ ៩ជាន់ មាន១៨៤បន្ទប់ និងមានជាន់ក្រោមដី សម្រាប់ធ្វើជាចំណត នង់-ម៉ូតូ។',
                 'ស្ថិតនៅផ្លូវទំនប់កប់ស្រូវ សង្កាត់ព្រែកព្នៅ ខណ្ឌព្រែកព្នៅ រាជធានីភ្នំពេញ។ បើកដំណើរការ នៅថ្ងៃទី១១ ខែមីនា ឆ្នាំ២០២៤។​ សាលាប៊ែលធី អន្តរជាតិទី២៧ សង់ឡើងពីបេតុង អាម៉េ កម្អស់ ៩ជាន់ មាន១៨៤បន្ទប់ និងមានជាន់ក្រោមដី សម្រាប់ធ្វើជាចំណត នង់-ម៉ូតូ។',
+                'ស្ថិតនៅផ្លូវទំនប់កប់ស្រូវ សង្កាត់ព្រែកព្នៅ ខណ្ឌព្រែកព្នៅ រាជធានីភ្នំពេញ។ បើកដំណើរការ នៅថ្ងៃទី១១ ខែមីនា ឆ្នាំ២០២៤។​ សាលាប៊ែលធី អន្តរជាតិទី២៧ សង់ឡើងពីបេតុង អាម៉េ កម្អស់ ៩ជាន់ មាន១៨៤បន្ទប់ និងមានជាន់ក្រោមដី សម្រាប់ធ្វើជាចំណត នង់-ម៉ូតូ។',
                 
             ];
         } else {
@@ -156,6 +157,10 @@
                 ,'It is located at Phum Brakar sangkat Prey Sar, Khan Dangkor, Phnom Penh. It was inaugurated on August 29, 2022 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 179 rooms and a basement for parking..'
                 ,'It is located at Phum Ta Meak, Khum Prek Ta Meak, Khsach Kandal District, Kandal Province. It was inaugurated on September 05, 2022 and highly presided over by H.E. Dr. Ly Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 173 rooms and a basement for parking.'
                 ,'It is located nearby the Beoung Tompun Pumping Station, Street 371, Tnot Chhrum 3 Village, Sangkhat Beoung Tompun, Khan Mean Chhey, Phnom Penh'
+
+                ,'It is located along Tumnup Kobsrov, Sangkat Prek Phnov, Khan Prek Phnov, Phnom Penh and was inaugurated on March 11, 2024. It is 9 storey reinforced concrete building with 184 rooms and a basement for parking.'
+                ,'It is located along Tumnup Kobsrov, Sangkat Prek Phnov, Khan Prek Phnov, Phnom Penh and was inaugurated on March 11, 2024. It is 9 storey reinforced concrete building with 184 rooms and a basement for parking.'
+                ,'It is located along Tumnup Kobsrov, Sangkat Prek Phnov, Khan Prek Phnov, Phnom Penh and was inaugurated on March 11, 2024. It is 9 storey reinforced concrete building with 184 rooms and a basement for parking.'
                 ,'It is located along Tumnup Kobsrov, Sangkat Prek Phnov, Khan Prek Phnov, Phnom Penh and was inaugurated on March 11, 2024. It is 9 storey reinforced concrete building with 184 rooms and a basement for parking.'
             ];
         }
