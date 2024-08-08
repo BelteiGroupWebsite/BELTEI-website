@@ -358,6 +358,9 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 
         Route::view('register' , 'web.client.beltei_university.admission.register')->name('register');
         Route::view('price' , 'web.client.beltei_university.admission.price')->name('price');
     });
+    Route::group(['prefix' => 'bicc' , 'as' => 'bicc.'] , function(){
+        Route::view('bicc' , 'web.client.beltei_university.bicc.bicc')->name('bicc');
+    });
     Route::group(['prefix' => 'alumni' , 'as' => 'alumni.'] , function(){
         // Route::view('bachelor' , 'web.client.beltei_university.alumni.bachelor')->name('bachelor');
         Route::get('/bachelor', function (Request $request) {

@@ -37,7 +37,9 @@
             <img data-aos="zoom-out-up" class="" style="" src="{{ asset('asset\img\university\app\beltei_the_future_of_global_leaders.gif') }}">
         </div>
         <div>
-            <img data-aos="zoom-out-up" class="" style="max-width: 200px" src="{{ asset('asset\img\university\app\BICC.jpg') }}">
+            <a href="{{ route('beltei_university.bicc.bicc') }}">
+                <img data-aos="zoom-out-up" class="" style="max-width: 200px" src="{{ asset('asset\img\university\app\BICC.jpg') }}">
+            </a>
         </div>
         <div>
             <a href="https://www.facebook.com/belteiuniversity">
