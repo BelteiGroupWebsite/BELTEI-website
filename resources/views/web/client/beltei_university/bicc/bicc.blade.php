@@ -23,7 +23,7 @@
                 </tr>
                 @foreach ($bicc_news as $news)
                     <tr>
-                        <td>
+                        <td class="ps-2">
                             <a href="{{ route('beltei_university.news.detail', $news->id) }}">
                                 <h6 class="content-translate-font line-height-15">
                                     @foreach ($news->newsDetail as $item)
