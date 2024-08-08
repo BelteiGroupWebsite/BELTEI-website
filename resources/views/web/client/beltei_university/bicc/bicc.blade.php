@@ -21,7 +21,7 @@
                         <h6>1- BELTEI International Collaboration Conference Education Fair</h6>
                     </td>
                 </tr>
-                @foreach ($bicc_news as $news)
+                @foreach ($bicc_news->reverse() as $news)
                     <tr>
                         <td class="ps-4 py-2">
                             <a href="{{ route('beltei_university.news.detail', $news->id) }}">
