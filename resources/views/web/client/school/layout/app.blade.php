@@ -184,7 +184,7 @@
                 "រង្វង់មូលព្រែកតាមាក់",
                 "ស្ថានីបូមទឹកផ្លូវ",
                 "ព្រែកប្រា",
-                "",
+                "តអង្គតាមិញ",
                 "",
                 "",
                 "",
@@ -218,7 +218,7 @@
                 "Prek Ta Mek",
                 "Pumping Station 371",
                 "Preak Pra",
-                "B27",
+                "Wat Ang Taminh",
                 "B28",
                 "B29",
                 "B30",
@@ -232,7 +232,7 @@
                 }" class="border rounded shadow-sm ">
                     <div class="overflow-hidden img-scale-hover">
                         
-                        <img class="shadow-sm rounded w-100 h-100"
+                        <img class="shadow-sm rounded w-100 h-100" style="width:120px; height:110px"
                             src="{{ asset('asset/img/school/campus/school-B${i}.jpg') }}"
                             alt="">
                     </div>
