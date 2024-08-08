@@ -4,7 +4,8 @@
     <div class="dailyNews mt-4">
         <hr>
         <div>
-            <h6 class="Muol-Light p-3 my-2 bg-success text-white">{{ __('beltei_university/activity/fieldtrip.biccheader') }}</h6>
+            <h6 class="Muol-Light p-3 my-2 bg-success text-white">{{ __('beltei_university/activity/fieldtrip.biccheader') }}
+            </h6>
         </div>
         <hr>
 
@@ -14,24 +15,26 @@
 
         <div class="row p-0 m-0 text-start my-3">
 
-            <ul>
+            <table class="table table-hover table-bordered">
                 @foreach ($bicc_news as $news)
-                <li class="border">
-                    <a href="{{ route('beltei_university.news.detail', $news->id) }}">
-                        <h5 class="content-translate-font line-height-15">
-                            @foreach ($news->newsDetail as $item)
-                                @if ($item->language_id == 1)
-                                    <div onclick="toggleDescription(this)" class="cursor-pointer "
-                                        data-fulltext="{{ $item->header }}">
-                                        {{ Str::limit($item->header, 70) }}
-                                    </div>
-                                @endif
-                            @endforeach
-                        </h5>
-                    </a>
-                </li>
+                    <tr>
+                        <td>
+                            <a href="{{ route('beltei_university.news.detail', $news->id) }}">
+                                <h5 class="content-translate-font line-height-15">
+                                    @foreach ($news->newsDetail as $item)
+                                        @if ($item->language_id == 1)
+                                            <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                                data-fulltext="{{ $item->header }}">
+                                                {{ Str::limit($item->header, 70) }}
+                                            </div>
+                                        @endif
+                                    @endforeach
+                                </h5>
+                            </a>
+                        </td>
+                    </tr>
                 @endforeach
-            </ul>
+            </table>
             {{-- @foreach ($bicc_news as $news)
                 <a href="{{ route('beltei_university.news.detail', $news->id) }}"
                     class="col-6 row align-items-center py-2 border m-0">
