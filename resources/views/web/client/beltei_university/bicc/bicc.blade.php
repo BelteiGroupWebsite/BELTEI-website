@@ -9,7 +9,7 @@
         <hr>
 
         <div class="text-center">
-            <img src="{{ asset('asset/img/university/bicc/BICC.png') }}" width="500px" alt="">
+            <img src="{{ asset('asset/img/university/bicc/BICC.png') }}" width="400px" alt="">
         </div>
 
         <div class="row p-0 m-0 text-start my-3">
