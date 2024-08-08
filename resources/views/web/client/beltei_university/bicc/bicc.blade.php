@@ -27,7 +27,7 @@
                             <a href="{{ route('beltei_university.news.detail', $news->id) }}">
                                 <h6 class="content-translate-font line-height-15">
                                     @foreach ($news->newsDetail as $item)
-                                        @if ($item->language_id == 1)
+                                        @if ($item->language_id == 2)
                                             <div onclick="toggleDescription(this)" class="cursor-pointer "
                                                 data-fulltext="{{ $item->header }}">
                                                 - {{ Str::limit($item->header, 70) }}
