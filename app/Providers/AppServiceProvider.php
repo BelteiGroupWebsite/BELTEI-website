@@ -51,6 +51,7 @@ class AppServiceProvider extends ServiceProvider
                 8 => 'biutrip_news',
                 9 => 'biutraining_news',
                 10 => 'bicc_news',
+                11 => 'biccr_news',
             ];
     
             // Loop through the categories and share the news for each category with the corresponding view variable name

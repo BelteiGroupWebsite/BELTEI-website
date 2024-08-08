@@ -54,7 +54,8 @@
                                     <option value="7">Beltei Test Charity</option>
                                     <option value="8">BIU Field Trip</option>
                                     <option value="9">BIU Practical Training</option>
-                                    <option value="10">BICC</option>
+                                    <option value="10">BICC Education Fair</option>
+                                    <option value="11">BICC Research Forum</option>
                                 </select>
                             </div>
                         </div>
