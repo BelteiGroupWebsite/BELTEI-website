@@ -18,7 +18,7 @@
                 @foreach ($bicc_news as $news)
                 <li>
                     <a href="{{ route('beltei_university.news.detail', $news->id) }}">
-                        <h5 class="content-translate-font f12 line-height-15">
+                        <h5 class="content-translate-font line-height-15">
                             @foreach ($news->newsDetail as $item)
                                 @if ($item->language_id == 1)
                                     <div onclick="toggleDescription(this)" class="cursor-pointer "
