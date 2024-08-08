@@ -60,7 +60,7 @@
                 "រង្វង់មូលព្រែកតាមាក់",
                 "ស្ថានីបូមទឹកផ្លូវ",
                 "ព្រែកប្រា",
-                "",
+                "វត្តអង្គតាមិញ",
                 "",
                 "",
                 "",
@@ -90,6 +90,7 @@
                 'សិ្ថតនៅផ្លូវជាតិលេខ២​ ភូមិក្រាំស្វាយ សង្កាត់ព្រែកកំពឹសខណ្ឌដង្កោ ​ រាជ​ធា​នី​ភ្នំ​ពេញ។​ ដែល​បាន​សម្ពោធ​បើក​ឱ្យ​ដំ​ណើរ​ការ​នៅ ថ្ងៃទី៣០ ខែសីហាឆ្នាំ២០២១ ក្រោម​អធិ​បតី​ភាព​ដ៏​ខ្ពង់​ខ្ពស់​របស់​ ឯក​ឧត្តម​បណ្ឌិត លី ​ឆេង​ តំណាងរាស្ដ្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គ​នា​យក​ ប៊ែល​ធី​គ្រុប​ និង​ជា​ប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។​ សាលាប៊ែលធីទី២២ សាងសង់​ឡើង​ពី​បេ​តុង​អាម៉េ​មាន​កម្ពស់​ ០៩ជាន់​ មាន​ ១៥៦បន្ទប់​ និង​មាន​ជាន់​ក្រោម​ដី​សម្រាប់​ធ្វើ​ជា​ចំ​ណត​កង់​-​ម៉ូ​តូ ។',
                 'ស្ថិតនៅភូមិប្រការ សង្កាត់ព្រៃស ខណ្ឌដង្កោ រាជធានីភ្នំពេញ បានសម្ពោធបើកឱ្យដំណើរការ នៅថ្ងៃទី២៩ ខែសីហា ឆ្នាំ ២០២២ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ ឯកឧត្តម បណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌល រាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គនាយកប៊ែលធី គ្រុបនិង ជាប្រធានក្រុម ប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលា ប៊ែលធីទី២៣ សង់ឡើងពីបេតុង អាម៉េ កម្ពស់ ៩ជាន់ មាន ១៧៩បន្ទប់ និងមានជាន់ក្រោមដីសម្រាប់ធ្វើជាចំណត កង់-ម៉ូតូ។',
                 'ស្ថិតនៅ ភូមិព្រែកតាមាក់ ឃុំព្រែកតាមាក់ ស្រុកខ្សាច់ កណ្តាល ខេត្តកណ្តាល បានសម្ពោធបើកឱ្យដំណើរការ នៅថ្ងៃទី០៥ ខែកញ្ញា ឆ្នាំ ២០២២ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ ឯកឧត្តម បណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌល រាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គនាយកប៊ែលធី គ្រុបនិង ជាប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលាប៊ែលធីទី២៤ សង់ឡើងពីបេតុង អាម៉េ កម្ពស់ ៩ជាន់ មាន ១៧៣បន្ទប់ និងមានជាន់ក្រោមដីសម្រាប់ធ្វើជា ចំណត កង់-ម៉ូតូ។',
+                'ស្ថិតនៅផ្លូវទំនប់កប់ស្រូវ សង្កាត់ព្រែកព្នៅ ខណ្ឌព្រែកព្នៅ រាជធានីភ្នំពេញ។ បើកដំណើរការ នៅថ្ងៃទី១១ ខែមីនា ឆ្នាំ២០២៤។​ សាលាប៊ែលធី អន្តរជាតិទី២៧ សង់ឡើងពីបេតុង អាម៉េ កម្អស់ ៩ជាន់ មាន១៨៤បន្ទប់ និងមានជាន់ក្រោមដី សម្រាប់ធ្វើជាចំណត នង់-ម៉ូតូ។'
                 
             ];
         } else {
@@ -121,7 +122,7 @@
                 "Prek Ta Mek",
                 "Pumping Station 371",
                 "Preak Pra",
-                "B27",
+                "Wat Ang Taminh",
                 "B28",
                 "B29",
                 "B30",
@@ -152,7 +153,7 @@
                 ,'It is located at Phum Brakar sangkat Prey Sar, Khan Dangkor, Phnom Penh. It was inaugurated on August 29, 2022 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 179 rooms and a basement for parking..'
                 ,'It is located at Phum Ta Meak, Khum Prek Ta Meak, Khsach Kandal District, Kandal Province. It was inaugurated on September 05, 2022 and highly presided over by H.E. Dr. Ly Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 173 rooms and a basement for parking.'
                 ,'It is located nearby the Beoung Tompun Pumping Station, Street 371, Tnot Chhrum 3 Village, Sangkhat Beoung Tompun, Khan Mean Chhey, Phnom Penh'
-                ,
+                ,'It is located along Tumnup Kobsrov, Sangkat Prek Phnov, Khan Prek Phnov, Phnom Penh and was inaugurated on March 11, 2024. It is 9 storey reinforced concrete building with 184 rooms and a basement for parking.'
             ];
         }
 
