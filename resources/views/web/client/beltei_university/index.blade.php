@@ -34,10 +34,14 @@
 
     <div>
         <div>
-            <img data-aos="zoom-out-up" class="" style="" src="{{ asset('asset\img\university\app\beltei_the_future_of_global_leaders.gif') }}">
+            <a href="https://www.facebook.com/belteiuniversity">
+                <img data-aos="zoom-out-up" class="" style="" src="{{ asset('asset\img\university\app\beltei_the_future_of_global_leaders.gif') }}">
+            </a>
         </div>
         <div>
-            <img data-aos="zoom-out-up" class="" style="max-width: 200px" src="{{ asset('asset\img\university\app\BICC.jpg') }}">
+            <a href="https://www.youtube.com/channel/UCV8pvuK4Wu0l-K1o38h5iag">
+                <img data-aos="zoom-out-up" class="" style="max-width: 200px" src="{{ asset('asset\img\university\app\BICC.jpg') }}">
+            </a>
         </div>
         <div>
             <img data-aos="zoom-out-up" class="" style="max-width: 50%" src="{{ asset('asset\img\university\app\photo_2024-07-05_09-27-01.jpg') }}">
