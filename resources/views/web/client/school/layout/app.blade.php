@@ -184,10 +184,10 @@
                 "រង្វង់មូលព្រែកតាមាក់",
                 "ស្ថានីបូមទឹកផ្លូវ",
                 "ព្រែកប្រា",
-                "តអង្គតាមិញ",
-                "",
-                "",
-                "",
+                "ព្រែកព្នៅ បុរី លី សុវណ្ណ",
+                "វត្តអង្គតាមិញ",
+                "ទួលពង្រ",
+                "បុរីអ័រគីដេ ៦អា",
             ];
         } else {
             var campusNameArr = [
@@ -218,10 +218,10 @@
                 "Prek Ta Mek",
                 "Pumping Station 371",
                 "Preak Pra",
+                "Prek Pnov Borey Ly Sovann",
                 "Wat Ang Taminh",
-                "B28",
-                "B29",
-                "B30",
+                "Tuol Pongro",
+                "Borey Orkide 6A",
             ];
         }
 
