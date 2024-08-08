@@ -16,24 +16,34 @@
         <div class="row p-0 m-0 text-start my-3">
 
             <table class="table table-hover table-bordered">
+                <tr>
+                    <td>
+                        <h6>1- BELTEI International Collaboration Conference Education Fair</h6>
+                    </td>
+                </tr>
                 @foreach ($bicc_news as $news)
                     <tr>
                         <td>
                             <a href="{{ route('beltei_university.news.detail', $news->id) }}">
-                                <h5 class="content-translate-font line-height-15">
+                                <h6 class="content-translate-font line-height-15">
                                     @foreach ($news->newsDetail as $item)
                                         @if ($item->language_id == 1)
                                             <div onclick="toggleDescription(this)" class="cursor-pointer "
                                                 data-fulltext="{{ $item->header }}">
-                                                {{ Str::limit($item->header, 70) }}
+                                                - {{ Str::limit($item->header, 70) }}
                                             </div>
                                         @endif
                                     @endforeach
-                                </h5>
+                                </h6>
                             </a>
                         </td>
                     </tr>
                 @endforeach
+                <tr>
+                    <td>
+                        <h6>2- BELTEI International Collaboration Conference Research Forum</h6>
+                    </td>
+                </tr>
             </table>
             {{-- @foreach ($bicc_news as $news)
                 <a href="{{ route('beltei_university.news.detail', $news->id) }}"
