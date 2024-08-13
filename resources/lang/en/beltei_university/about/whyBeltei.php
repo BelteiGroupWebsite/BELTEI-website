@@ -32,7 +32,8 @@ return [
 </tbody>
 </table>
 
-<ol start="6">
+
+<ol start="7">
 
 <li>National and international lecturers holding doctoral degrees with many years of teaching experiences.</li>
 <li>The university has created a Mobile App &ldquo;BELTEI International University&rdquo; to facilitate student\'s self-studies and research anytime and anywhere.</li>
