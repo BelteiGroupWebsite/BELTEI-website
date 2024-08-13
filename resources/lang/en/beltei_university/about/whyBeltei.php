@@ -20,7 +20,7 @@ return [
 <li>There are 13 main faculties with 45 majors:</li>
 </ol>
 
-<table class="my-2">
+<table class="m-3">
 <tbody>
 <tr><td>1. Business Administration</td><td> 8. Digital Technology and Telecommunication</td></tr>
 <tr><td>2. Finance and Banking</td><td> 9. Engineering</td></tr>
