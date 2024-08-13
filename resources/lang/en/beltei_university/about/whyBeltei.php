@@ -19,14 +19,21 @@ return [
 <ol start="5">
 <li>There are 13 main faculties with 45 majors:</li>
 </ol>
-<p>1.Business Administration 8. Digital Technology and Telecommunication</p>
-<p>2.Finance and Banking 9. Engineering</p>
-<p>3.Economics 10. Architecture</p>
-<p>4.Law 11. International Relations</p>
-<p>5.Education, Arts, and Humanities 12. Civil Aviation</p>
-<p>6.Tourism and Hospitality 13. Chinese</p>
+
+<table>
+<tbody>
+<tr><td>1. Business Administration</td><td> 8. Digital Technology and Telecommunication</td></tr>
+<tr><td>2. Finance and Banking</td><td> 9. Engineering</td></tr>
+<tr><td>3. Economics</td><td> 10. Architecture</td></tr>
+<tr><td>4. Law</td><td> 11. International Relations</td></tr>
+<tr><td>5. Education Arts and Humanities</td><td> 12. Civil Aviation </td></tr>
+<tr><td>6. Tourism and Hospitality</td><td> 13. Chinese </td></tr>
+<tr><td>7.Information Technology and Science</td><td></td></tr>
+</tbody>
+</table>
+
 <ol start="7">
-<li>Information Technology and Science</li>
+
 <li>National and international lecturers holding doctoral degrees with many years of teaching experiences.</li>
 <li>The university has created a Mobile App &ldquo;BELTEI International University&rdquo; to facilitate student\'s self-studies and research anytime and anywhere.</li>
 <li>Well-known guest speakers, industry leaders and experts are invited every semester to share their knowledge and experiences in accordance with students\' chosen major (Experience sharing program).</li>
