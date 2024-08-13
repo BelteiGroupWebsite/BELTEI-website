@@ -7,7 +7,7 @@ return [
     'description' => '
     
 <div>
- <h4 class = "title-translate-font"> 1. Tuition Fee for National Program  </h4>
+ <h4 class = "title-translate-font mb-2"> 1. Tuition Fee for National Program  </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Program </th>
@@ -38,7 +38,7 @@ return [
  </div>
 
  <div>
- <h4 class = "title-translate-font mt-4"> 2. Tuition Fee for International Program </h4>
+ <h4 class = "title-translate-font mt-4 mb-2"> 2. Tuition Fee for International Program </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Program </th>
@@ -69,7 +69,7 @@ return [
  </div>
 
  <div>
- <h4 class = "title-translate-font mt-4"> 3. Tuition Fee for International Program (Civil Aviation) </h4>
+ <h4 class = "title-translate-font mt-4 mb-2"> 3. Tuition Fee for International Program (Civil Aviation) </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Program </th>
@@ -95,7 +95,7 @@ return [
  </div>
 
  <div>
- <h4 class = "title-translate-font mt-4"> DAY AND TIME </h4>
+ <h4 class = "title-translate-font mt-4 mb-2"> DAY AND TIME </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Monday – Friday </th>
