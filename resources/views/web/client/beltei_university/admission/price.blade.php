@@ -4,7 +4,7 @@
 
 <div class="content-translate-font">
 
-    {!! __('beltei_university/admission.description') !!}
+    {!! __('beltei_university/admission/price.description') !!}
     
 </div>
 
