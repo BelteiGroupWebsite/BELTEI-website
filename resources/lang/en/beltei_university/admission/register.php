@@ -228,8 +228,8 @@ return [
 
             <div>
                 <ul>
-                    <li><span>ចូលរៀនលើក១៖</span><strong><span>01/October </span></strong></li>
-                    <li><span>ចូលរៀនលើក២៖</span><strong><span>01/March </span></strong></li>
+                    <li><span>intake 1st :</span><strong><span>01/October </span></strong></li>
+                    <li><span>intake 2nd :</span><strong><span>01/March </span></strong></li>
                 </ul>
             </div>
         </div>
