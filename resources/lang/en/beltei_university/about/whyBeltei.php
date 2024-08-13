@@ -20,7 +20,7 @@ return [
 <li>There are 13 main faculties with 45 majors:</li>
 </ol>
 
-<table>
+<table class="my-2>
 <tbody>
 <tr><td>1. Business Administration</td><td> 8. Digital Technology and Telecommunication</td></tr>
 <tr><td>2. Finance and Banking</td><td> 9. Engineering</td></tr>
@@ -32,7 +32,7 @@ return [
 </tbody>
 </table>
 
-<ol start="7">
+<ol start="6">
 
 <li>National and international lecturers holding doctoral degrees with many years of teaching experiences.</li>
 <li>The university has created a Mobile App &ldquo;BELTEI International University&rdquo; to facilitate student\'s self-studies and research anytime and anywhere.</li>
