@@ -6,84 +6,30 @@ return [
     'header' => "Message from Chairman of the Board of Directors",
 
     'welcome' => '
-    <p>
-    With great reverence, I warmly welcome Samdech, Your Excellencies, Lok Oknha, Lok Chumteav, Civil Servants, Staff, Lecturers, Teachers, NGO staff, especially all Students, Ladies and Gentlemen who have decided to pursue their undergraduate studies at BELTEI International University to improve knowledge and ability to achieve their future goals.
-</p>
-<p>BELTEI International University was founded with the purpose to contribute to development of higher education in Cambodia and human resources with quality, excellence, morality and virtue, aligning with the Royal Government Rectangular Strategy governed by Samdech Akka Moha Sena Padei Techo HUN SEN, the Prime Minister, a great Khmer hero, who has brought in peace and development in all sectors. The university has been offering the undergraduate studies for national and international programs with 12 main faculties as follows:</p>
-<ul>
-    <li>
-    1. Business Administration
-    </li>
-    <li>
-    2. Finance and Banking
-    </li>
-    <li>
-    3. Economics
-    </li>
-    <li>
-    4. Law
-    </li>
-    <li>
-    5. Education, Arts, and Humanities
-    </li>
-    <li>
-    6. Tourism and Hospitality
-    </li>
-    <li>
-    7. Information Technology and Science
-    </li>
-    <li>
-    8. Digital Technology and Telecommunication
-    </li>
-    <li>
-    9. Engineering
-    </li>
-    <li>
-    10. Architecture
-    </li>
-    <li>
-    11. International Relations
-    </li>
-    <li>
-    12. Civil Aviation
-    </li>
-</ul>
-
-<p>
-Currently the university offers its study programs with 3 main learning approaches:</p>
-<ul>
-    <li>
-    1. On-Campus Learning
-    </li>
-    <li>
-    2. Online Learning
-    </li>
-    <li>
-    3. Blended Learning
-    </li>
-</ul>
-
-<p>
-The university has set up a modernized self-learning system such as:
-</p>
-
-<ul>
-    <li>
-    1. Spacious library for students to do research with abundant documents and up-to-dated books.    </li>
-    <li>
-    2. E-library for students to research on digital documents and books.
-    </li>
-    <li>
-    3. BELTEI IU Mobile App has a lot of study materials and videos for students to perform self-studies anytime and anywhere.
-    </li>
-</ul>
-
-<p>
-On behalf of the Board of Directors, Management Team, Staff, Professors and Lecturers of BELTEI International University, we are committed to developing and updating our curricula in accordance with national and international standards in order to enhance the quality of education, knowledge, language, professionalism, science, technology, creativity with sufficient ability corresponding to the digital era and the fourth industrial revolution, together with high morality and virtue.</p>
-
-<p>
-We look forward to welcoming Samdech, Your Excellencies, Lok Oknha, Lok Chumteav, Ladies and Gentlemen and all students who are planning to pursue their tertiary studies at BELTEI International University. Please, accept my best wishes for good health, happiness, and constantly great success..</p>
-
-
+    <p>With great reverence, I warmly welcome Samdech, Your Excellencies, Lok Oknha, Lok Chumteav, Civil Servants, Staff, Lecturers, Teachers, NGO staff, especially all Students, Ladies and Gentlemen who have decided to pursue their undergraduate studies at BELTEI International University to improve knowledge and ability to achieve their future goals.</p>
+<p>BELTEI International University was established with the purpose of contributing to the development of higher education in Cambodia and the growth of human capital with "Quality, Efficiency, Excellence, Morality, and Virtue". It aligns with the Royal Government\'s Rectangular Strategy formulated by Samdech Akka Moha Sena Padei Techo HUN SEN, the Former Prime Minister, who is the National Hero, the Top Founder, Special Guide, and Operator of the Win-Win Policy Who Brings Peace and Full National Unity! It also aligns with the Pentagonal Strategy of the Royal Government\'s 7th Mandate of the National Assembly led by Samdech Moha Borvor Thipadei HUN MANET, the Prime Minister of Cambodia, who is a competent leader to lead the country for peace and development of all sectors. Currently, the University has been offering at the Associate Degrees, Bachelor&rsquo;s Degrees, Master&rsquo;s Degrees Doctoral Degrees for National and International Programs with 12 main Faculties as follows:</p>
+<ol>
+<li>Business Administration 8. Digital Technology and Telecommunication</li>
+<li>Finance and Banking 9. Engineering</li>
+<li>Economics 10. Architecture</li>
+<li>Law 11. International Relations</li>
+<li>Education, Arts, and Humanities 12. Civil Aviation 13. Chinese</li>
+<li>Tourism and Hospitality</li>
+</ol>
+<p>7.Information Technology and Science</p>
+<p>Currently, the University offers its study programs with 3 main learning approaches:</p>
+<ol>
+<li>On-Campus Learning</li>
+<li>Online Learning</li>
+<li>Blended Learning</li>
+</ol>
+<p>The university has set up a modernized self-learning system such as:</p>
+<ol>
+<li>Spacious library for students to do research with abundant documents and up-to-dated books.</li>
+<li>Digital-library for students to research on digital documents and books.</li>
+<li>BELTEI IU Mobile App has a lot of study materials and videos for students to perform self-studies anytime and anywhere.</li>
+</ol>
+<p>On behalf of the Board of Directors, Management Team, Staff, Professors and Lecturers of BELTEI International University, we are committed to developing and updating our curricula in accordance with national and international standards in order to enhance the quality of education, knowledge, language, professionalism, science, technology, creativity with sufficient ability corresponding to the digital era and the fourth industrial revolution, together with high morality and virtue.</p>
+<p>We look forward to welcoming Samdech, Your Excellencies, Lok Oknha, Lok Chumteav, Ladies and Gentlemen and all students who are planning to pursue their tertiary studies at BELTEI International University. Please, accept my best wishes for good health, happiness, and constantly great success.</p>
     '
 ];
