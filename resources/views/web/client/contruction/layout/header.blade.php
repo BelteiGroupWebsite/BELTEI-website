@@ -13,4 +13,34 @@
     </div>
     {{-- <br> --}}
     <hr>    
+
+    <div id="universityCampus" class="universityCampus row shadow-sm rounded p-3 justify-content-center mb-3 content-translate-font">
+        {{-- <div id="universityCampus" class="universityCampus d-flex shadow-sm rounded p-3 justify-content-center mb-3 gap-5 content-translate-font"> --}}
+            <a class="col-3" href="{{route('beltei_university.about.belteigroup')}}?id=1">
+                <img class="w-100" src="{{ asset('asset/img/BTG.png') }}" alt="">
+                <div class="d-flex  justify-content-around text-center">
+                    <h5 class="Khmer-OS-Koulen py-3 Blue-color text-capitalize">{{ __('beltei_university/app.belteigroup') }}</h3>
+                </div>
+            </a>
+            <a class="col-3" href="{{route('beltei_university.campus.campusTemplete')}}?id=1">
+                <img class="w-100" src="{{ asset('asset/img/university/campus/BIU1.png') }}" alt="">
+                <div class="d-flex  justify-content-around text-center">
+                    <h5 class="Khmer-OS-Koulen py-3 Blue-color text-capitalize">{{ __('beltei_university/app.campus1') }}</h3>
+                </div>
+            </a>
+            <a class="col-3" href="{{route('beltei_university.campus.campusTemplete')}}?id=2">
+                <img class="w-100" src="{{ asset('asset/img/university/campus/BIU2.png') }}" alt="">
+                <div class="d-flex  justify-content-around text-center">
+                    <h5 class="Khmer-OS-Koulen py-3 Blue-color text-capitalize">{{ __('beltei_university/app.campus2') }}</h3>
+                </div>
+            </a>
+            <a class="col-3" href="{{route('beltei_university.campus.campusTemplete')}}?id=3">
+                <img class="w-100" src="{{ asset('asset/img/BTIU3.png') }}" alt="">
+                <div class="d-flex  justify-content-around text-center">
+                    <h5 class="Khmer-OS-Koulen py-3 Blue-color text-capitalize">{{ __('beltei_university/app.campus3') }}</h3>
+                </div>
+            </a>
+    
+        </div>
+    
 </div>
