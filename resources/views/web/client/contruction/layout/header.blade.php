@@ -12,7 +12,7 @@
         <img src="{{ asset('asset/img/construction/logo.jpg') }}" alt="">
     </div>
     {{-- <br> --}}
-    <hr>    
+    {{-- <hr>     --}}
 
     <div id="universityCampus" class="universityCampus row shadow-sm rounded p-3 justify-content-center mb-3 content-translate-font">
         {{-- <div id="universityCampus" class="universityCampus d-flex shadow-sm rounded p-3 justify-content-center mb-3 gap-5 content-translate-font"> --}}
