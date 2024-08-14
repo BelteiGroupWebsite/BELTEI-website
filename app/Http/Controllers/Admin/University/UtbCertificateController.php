@@ -172,23 +172,23 @@ class UtbCertificateController extends Controller
             if ($request->hasFile('certificateInformationExcel')) {
                 // Delete existing student info and their associated files
                 if ($academicBatch->studentInfo()->exists()) {
-                    foreach ($academicBatch->studentInfo as $studentInfo) {
-                        $profilePath = 'storage/upload/certificate/university/' . $academicBatch->degree_id . '/' . $academicBatch->id . '/profile/' . $studentInfo->profile_no . '.jpg';
-                        $belteiPath = 'storage/upload/certificate/university/' . $academicBatch->degree_id . '/' . $academicBatch->id . '/beltei/' . $studentInfo->certi_no . '.jpg';
-                        $moeyPath = 'storage/upload/certificate/university/' . $academicBatch->degree_id . '/' . $academicBatch->id . '/moey/' . $studentInfo->moey_id . '.jpg';
+                    // foreach ($academicBatch->studentInfo as $studentInfo) {
+                    //     $profilePath = 'storage/upload/certificate/university/' . $academicBatch->degree_id . '/' . $academicBatch->id . '/profile/' . $studentInfo->profile_no . '.jpg';
+                    //     $belteiPath = 'storage/upload/certificate/university/' . $academicBatch->degree_id . '/' . $academicBatch->id . '/beltei/' . $studentInfo->certi_no . '.jpg';
+                    //     $moeyPath = 'storage/upload/certificate/university/' . $academicBatch->degree_id . '/' . $academicBatch->id . '/moey/' . $studentInfo->moey_id . '.jpg';
     
-                        if (file_exists($profilePath) && is_file($profilePath)) {
-                            unlink($profilePath);
-                        }
+                    //     if (file_exists($profilePath) && is_file($profilePath)) {
+                    //         unlink($profilePath);
+                    //     }
     
-                        if (file_exists($belteiPath) && is_file($belteiPath)) {
-                            unlink($belteiPath);
-                        }
+                    //     if (file_exists($belteiPath) && is_file($belteiPath)) {
+                    //         unlink($belteiPath);
+                    //     }
     
-                        if (file_exists($moeyPath) && is_file($moeyPath)) {
-                            unlink($moeyPath);
-                        }
-                    }
+                    //     if (file_exists($moeyPath) && is_file($moeyPath)) {
+                    //         unlink($moeyPath);
+                    //     }
+                    // }
     
                     $academicBatch->studentInfo()->delete();
                 }
