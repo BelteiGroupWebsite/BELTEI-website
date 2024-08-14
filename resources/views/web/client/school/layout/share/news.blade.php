@@ -21,11 +21,21 @@
             <div class="p-3">
                 <h6 class="Muol-Light line-height-15">
                     @foreach ($bis_news->first()->newsDetail as $item)
-                        @if ($item->language_id == 1)
-                            <div onclick="toggleDescription(this)" class="cursor-pointer "
-                                data-fulltext="{{ $item->header }}">
-                                {{ Str::limit($item->header, 200) }}
-                            </div>
+
+                        @if(app()->getLocale() == "kh")
+                            @if ($item->language_id == 1)
+                                <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                    data-fulltext="{{ $item->header }}">
+                                    {{ Str::limit($item->header, 200) }}
+                                </div>
+                            @endif
+                        @else 
+                            @if ($item->language_id == 2)
+                                <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                    data-fulltext="{{ $item->header }}">
+                                    {{ Str::limit($item->header, 200) }}
+                                </div>
+                            @endif
                         @endif
                     @endforeach
                 </h6>
@@ -63,11 +73,21 @@
             <div class="p-2 col-6 ">
                 <h6 class="Muol-Light f12 line-height-15">
                     @foreach ($news->newsDetail as $item)
-                        @if ($item->language_id == 1)
-                            <div onclick="toggleDescription(this)" class="cursor-pointer "
-                                data-fulltext="{{ $item->header }}">
-                                {{ Str::limit($item->header, 80) }}
-                            </div>
+
+                        @if(app()->getLocale() == "kh")
+                            @if ($item->language_id == 1)
+                                <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                    data-fulltext="{{ $item->header }}">
+                                    {{ Str::limit($item->header, 80) }}
+                                </div>
+                            @endif
+                        @else
+                            @if ($item->language_id == 2)
+                                <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                    data-fulltext="{{ $item->header }}">
+                                    {{ Str::limit($item->header, 80) }}
+                                </div>
+                            @endif
                         @endif
                     @endforeach
                 </h6>
