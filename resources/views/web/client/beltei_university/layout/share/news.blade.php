@@ -20,12 +20,23 @@
         <div class="p-3">
             <h6 class="Muol-Light line-height-15">
                 @foreach ($biu_news->first()->newsDetail as $item)
-                    @if ($item->language_id == 1)
-                        <div onclick="toggleDescription(this)" class="cursor-pointer "
-                            data-fulltext="{{ $item->header }}">
-                            {{ Str::limit($item->header, 200) }}
-                        </div>
+                    @if(app()->getLocale() == "kh")
+                        @if ($item->language_id == 1)
+                            <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                data-fulltext="{{ $item->header }}">
+                                {{ Str::limit($item->header, 200) }}
+                            </div>
+                        @endif
+                    @else
+                        @if ($item->language_id == 2)
+                            <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                data-fulltext="{{ $item->header }}">
+                                {{ Str::limit($item->header, 200) }}
+                            </div>
+                        @endif
+
                     @endif
+
                 @endforeach
             </h6>
             {{-- <p class="Battambang-Regular f14 line-height-15">​
