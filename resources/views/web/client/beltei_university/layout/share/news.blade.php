@@ -72,11 +72,20 @@
             <div class="p-2 col-6 ">
                 <h6 class="content-translate-font f12 line-height-15">
                     @foreach ($news->newsDetail as $item)
-                        @if ($item->language_id == 1)
-                            <div onclick="toggleDescription(this)" class="cursor-pointer "
-                                data-fulltext="{{ $item->header }}">
-                                {{ Str::limit($item->header, 70) }}
-                            </div>
+                        @if(app()->getLocale() == "kh")
+                            @if ($item->language_id == 1)
+                                <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                    data-fulltext="{{ $item->header }}">
+                                    {{ Str::limit($item->header, 70) }}
+                                </div>
+                            @endif
+                        @else
+                            @if ($item->language_id == 2)
+                                <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                    data-fulltext="{{ $item->header }}">
+                                    {{ Str::limit($item->header, 70) }}
+                                </div>
+                            @endif
                         @endif
                     @endforeach
                 </h6>
