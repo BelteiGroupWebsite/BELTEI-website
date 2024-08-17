@@ -67,7 +67,7 @@
                     <area shape="rect" coords="737,281,909,494" href="{{ url('testcenter') }}"></a>
                     <area shape="rect" coords="920,281,1091,496" href="{{ url('tour') }}"></a>
                     <area shape="rect" coords="1114,281,1281,494"
-                        href="https://www.belteigroup.com.kh/charitykhm/"></a>
+                        href="{{ url('charity') }}"></a>
 
                 </map>
                 </td>
