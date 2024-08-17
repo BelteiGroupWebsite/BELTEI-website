@@ -55,7 +55,9 @@
         មកកាន់ មូលនិធិសប្បុរសធម៍ប៊ែលធី</h3>
     {{-- <p class="line-1 anim-typewriter">Animation typewriter style using css steps()</p> --}}
     <div>
-        <img src="{{ asset('asset/img/construction/facebook.jpg') }}" alt="">
+        <a href="https://www.facebook.com/belteicharity">
+            <img src="{{ asset('asset/img/charity/facebook.jpg') }}" alt="">
+        </a>
         <img src="{{ asset('asset/img/construction/youtube.jpg') }}" alt="">
     </div>
 

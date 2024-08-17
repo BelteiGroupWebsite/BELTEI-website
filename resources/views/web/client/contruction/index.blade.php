@@ -55,9 +55,7 @@
                 មកកាន់ ប៊ែលធី សំណង់</h3>
             {{-- <p class="line-1 anim-typewriter">Animation typewriter style using css steps()</p> --}}
             <div>
-                <a href="https://www.facebook.com/belteicharity">
-                    <img src="{{ asset('asset/img/charity/facebook.jpg') }}" alt="">
-                </a>
+                <img src="{{ asset('asset/img/charity/facebook.jpg') }}" alt="">
                 <img src="{{ asset('asset/img/construction/youtube.jpg') }}" alt="">
             </div>
 
