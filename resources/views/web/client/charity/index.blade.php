@@ -1,28 +1,17 @@
 @extends('web.client.charity.layout.app')
 
 @section('content')
-    <img data-aos="zoom-out-up" class=""
-        src="https://www.belteitour.com.kh/btk/images/bt-home/welcome_to_beltei_tour.png"
-        border="0">
-
+<div class="text-center">
+    
+    <h3 class="title-translate-font text-primary welcomeText line-1 anim-typewriter py-2" style="">សូមស្វាគមន៍​
+        មកកាន់ ប៊ែលធី សំណង់</h3>
+    {{-- <p class="line-1 anim-typewriter">Animation typewriter style using css steps()</p> --}}
     <div>
-        <img src="https://www.belteitour.com.kh/btk/images/bt-home/tour_facebook.png" alt="">
-        <img src="https://www.belteitour.com.kh/btk/images/bt-home/beltei_youtube.png" alt="">
+        <img src="{{ asset('asset/img/construction/facebook.jpg') }}" alt="">
+        <img src="{{ asset('asset/img/construction/youtube.jpg') }}" alt="">
     </div>
 
-    <div>
-        <img data-aos="zoom-out-up" class="w-75 my-2" src="{{ asset('asset/img/BTG.png') }}" alt="">
-    </div>
-
-    <iframe data-aos="zoom-out-up" class="w-75 my-2" width="500" height="280" src="https://www.youtube.com/embed/6I8WENHBtOc?si=izlAt6OZxnbO-vPT" title="YouTube video player" frameborder="0" allow="autoplay; " allowfullscreen></iframe>
-
-
-    <img data-aos="zoom-out-up" class="w-75 my-2" src="https://www.belteitour.com.kh/btk/images/announcement/beltei_tour_new_promotion.jpg"
-        border="0">
-    <img data-aos="zoom-out-up" class="w-75 my-2" src="https://www.belteitour.com.kh/btk/images/announcement/beltei_tour_in_cambodia_new_promotion_to_china.jpg"
-        border="0">
-    <img data-aos="zoom-out-up" class="w-75 my-2" src="https://www.belteitour.com.kh/btk/images/homepics/office_1.jpg"
-        border="0">
+</div>
 
 
     @include('web.client.charity.layout.share.news')
