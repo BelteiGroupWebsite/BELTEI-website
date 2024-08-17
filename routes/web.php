@@ -623,6 +623,76 @@ Route::group(['prefix' => 'bir', 'as' => 'relation.' , 'middleware' => 'visitor.
 
 });
 
+
+
+Route::group(['prefix' => 'tour', 'as' => 'charity.' , 'middleware' => 'visitor.tracking'], function () {
+
+    Route::view('/' , 'web.client.charity.index');
+    Route::view('/construction' , 'web.client.charity.construction')->name('construction');
+
+    Route::group(['prefix' => 'about', 'as' => 'about.'], function () {
+        Route::view('/' , 'web.client.charity.about.welcome')->name('welcome');
+        Route::view('purpose' , 'web.client.charity.about.purpose')->name('purpose');
+        Route::view('vision' , 'web.client.charity.about.vision')->name('vision');
+        Route::view('history' , 'web.client.charity.about.history')->name('history');
+        Route::view('whybeltei' , 'web.client.charity.about.whyBeltei')->name('whybeltei');
+
+        Route::group(['prefix' => 'cambodia', 'as' => 'cambodia.'], function () {
+            Route::view('brief-information' , 'web.client.charity.about.about-cambodia.brief-information')->name('brief-information');
+            Route::view('khmer-ancient-temple-legacy' , 'web.client.charity.about.about-cambodia.khmer-ancient-temple-legacy')->name('khmer-ancient-temple-legacy');
+            Route::view('cambodia-culture' , 'web.client.charity.about.about-cambodia.cambodia-culture')->name('cambodia-culture');
+        });
+
+    });
+
+    Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
+        Route::view('/national' , 'web.client.charity.recognition.national')->name('national');
+        Route::view('/international' , 'web.client.charity.recognition.international')->name('international');
+    });
+    Route::group(['prefix' => 'location', 'as' => 'location'], function () {
+        Route::view('/' , 'web.client.charity.location.location');
+    });
+    Route::group(['prefix' => 'news-event', 'as' => 'news-event.'], function () {
+        Route::view('/other' , 'web.client.charity.news-event.other')->name('other');
+    });
+
+
+    Route::group(['prefix' => 'mainprogram', 'as' => 'mainprogram.'], function () {
+        Route::group(['prefix' => 'domestic', 'as' => 'domestic.'], function () {
+            Route::view('/cambodian' , 'web.client.charity.mainprogram.domestic.cambodian')->name('cambodian');
+            Route::view('/expatrate' , 'web.client.charity.mainprogram.domestic.expatrate')->name('expatrate');
+            Route::view('/expatrate/detail' , 'web.client.charity.mainprogram.domestic.expatrate.expatrate-detail')->name('expatrate-detail');
+        });
+        Route::group(['prefix' => 'inbound', 'as' => 'inbound.'], function () {
+            Route::view('/' , 'web.client.charity.mainprogram.inbound.inbound');
+            Route::view('detail' , 'web.client.charity.mainprogram.inbound.detail')->name('detail');
+        });
+        Route::group(['prefix' => 'outbound', 'as' => 'outbound.'], function () {
+            Route::view('/' , 'web.client.charity.mainprogram.outbound.outbound');
+            Route::view('detail' , 'web.client.charity.mainprogram.outbound.detail')->name('detail');
+        });
+    });
+
+
+    Route::group(['prefix' => 'job-announcement', 'as' => 'job-announcement.'], function () {
+        Route::view('/staff' , 'web.client.charity.job-announcement.staff')->name('staff');
+        Route::view('/freelance' , 'web.client.charity.job-announcement.freelance')->name('freelance');
+        Route::view('/tour-leader' , 'web.client.charity.job-announcement.tour-leader')->name('tour-leader');
+    });
+
+    Route::group(['prefix' => 'service', 'as' => 'service.'], function () {
+        Route::view('/passport' , 'web.client.charity.service.passport')->name('passport');
+
+    });
+
+    Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
+        Route::view('/' , 'web.client.charity.news.news');
+    });
+
+
+});
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
