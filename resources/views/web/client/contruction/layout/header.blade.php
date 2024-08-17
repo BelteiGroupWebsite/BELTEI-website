@@ -10,6 +10,8 @@
                 cambodia</h5>
         </div> --}}
         <img src="{{ asset('asset/img/construction/logo.jpg') }}" alt="">
+        <img src="{{ asset('asset/img/construction/head1.jpg') }}" alt="">
+        <img src="{{ asset('asset/img/construction/head.jpg') }}" alt="">
     </div>
     {{-- <br> --}}
     {{-- <hr>     --}}
