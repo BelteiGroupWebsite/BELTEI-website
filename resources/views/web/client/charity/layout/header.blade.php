@@ -1,6 +1,6 @@
 <div class="">
     <div class="header d-flex align-items-center justify-content-center gap-lg-5  bg-header-color py-2">
-        <img class="max-width-100 rounded-pill overflow-hidden" style="border: 1px solid goldenrod;"
+        <img class="max-width-120 rounded-pill overflow-hidden" style="border: 2px solid goldenrod;"
             src="{{ asset('asset/img/charity/beltei_charity_in_cambodia.png') }}"
             alt="">
         <div class="text-center gold">
