@@ -1,4 +1,4 @@
-@extends('web.client.beltei_tours_travel.layout.app')
+@extends('web.client.charity.layout.app')
 
 @section('content')
 
