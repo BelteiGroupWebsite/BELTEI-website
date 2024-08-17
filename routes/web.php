@@ -625,7 +625,7 @@ Route::group(['prefix' => 'bir', 'as' => 'relation.' , 'middleware' => 'visitor.
 
 
 
-Route::group(['prefix' => 'tour', 'as' => 'charity.' , 'middleware' => 'visitor.tracking'], function () {
+Route::group(['prefix' => 'charity', 'as' => 'charity.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/' , 'web.client.charity.index');
     Route::view('/construction' , 'web.client.charity.construction')->name('construction');
