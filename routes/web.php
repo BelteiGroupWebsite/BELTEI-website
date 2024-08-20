@@ -478,7 +478,7 @@ Route::group(['prefix' => 'tour', 'as' => 'beltei_tours_travel.' , 'middleware' 
         Route::view('history' , 'web.client.beltei_tours_travel.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.beltei_tours_travel.about.whyBeltei')->name('whybeltei');
 
-        Route::view('belteigroup' , 'web.client.school.about.belteigroup')->name('belteigroup');
+        Route::view('belteigroup' , 'web.client.beltei_tours_travel.about.belteigroup')->name('belteigroup');
         
         Route::group(['prefix' => 'cambodia', 'as' => 'cambodia.'], function () {
             Route::view('brief-information' , 'web.client.beltei_tours_travel.about.about-cambodia.brief-information')->name('brief-information');
