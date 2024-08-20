@@ -1,7 +1,7 @@
 <div class="sidebar max-width-250 w-100 shadow-sm p-0 m-0 content-translate-font px-1">
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('contruction.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('contruction/app.A') }}</h6>
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.A') }}</h6>
         </a>
         <a href="{{ route('contruction.about.welcome') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.A1') }}</a>
         <a href="{{ route('contruction.about.purpose') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.A2') }}</a>
