@@ -7,7 +7,7 @@
 
         <h2 class="title-translate-font my-3 underline">{{ __('beltei_tours_travel/about/vision.header') }}</h2>
 
-        <div class="">
+        <div class="text-start">
             {!! __('construction/about/vision.description') !!}
         </div>
 

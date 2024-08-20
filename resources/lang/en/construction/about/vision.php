@@ -3,7 +3,6 @@
 return [    
     "description"=> "
     
-<p><strong>Vision Mission and Goal</strong></p>
 <p>Vision:</p>
 <p>BELTEI Construction will become the construction company which is recognized locally and internationally in providing service in real-estates and constructing all types of buildings.</p>
 <p>Mission:</p>
