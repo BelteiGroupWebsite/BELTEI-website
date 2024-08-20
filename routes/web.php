@@ -158,7 +158,7 @@ Route::group(['prefix' => 'con', 'as' => 'contruction.', 'middleware' => 'visito
         Route::view('vision' , 'web.client.contruction.about.vision')->name('vision');
         Route::view('history' , 'web.client.contruction.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.contruction.about.whyBeltei')->name('whybeltei');
-        Route::view('belteigroup' , 'web.client.construction.about.belteigroup')->name('belteigroup');
+        Route::view('belteigroup' , 'web.client.contruction.about.belteigroup')->name('belteigroup');
         Route::group(['prefix' => 'cambodia', 'as' => 'cambodia.'], function () {
             Route::view('brief-information' , 'web.client.contruction.about.about-cambodia.brief-information')->name('brief-information');
             Route::view('khmer-ancient-temple-legacy' , 'web.client.contruction.about.about-cambodia.khmer-ancient-temple-legacy')->name('khmer-ancient-temple-legacy');
