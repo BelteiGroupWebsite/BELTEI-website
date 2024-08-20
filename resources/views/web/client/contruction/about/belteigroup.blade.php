@@ -1,4 +1,4 @@
-@extends('web.client.construction.layout.app')
+@extends('web.client.contruction.layout.app')
 
 
 
