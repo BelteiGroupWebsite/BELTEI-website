@@ -3,17 +3,18 @@
 return [    
     "description"=> "
     
-    <h3>ចក្ខុវិស័យ បេសកកម្ម និងគោលដៅ</h3>
-<p><strong>ចក្ខុវិស័យ</strong></p>
-<p>ប៊ែលធី សំណង់ នឹងក្លាយជាក្រុមហ៊ុនសំណង់ដែលមានការទទួលស្គាល់ទាំងកម្រិតជាតិ និង អន្តរជាតិ ក្នុងការបម្រើ សេវាកម្ម ទិញ-លក់ អចលនទ្រព្យ និងការសាងសង់សំណង់អគារគ្រប់ប្រភេទ។</p>
-<p><strong>បេសកកម្ម</strong></p>
-<p>-រួមចំណែកកែប្រែសោភណភាពទីក្រុង-ជនបទ តាមរយៈការសាងសង់អគារខ្ពស់ៗ វីឡា ផ្ទះល្វែង ឫសំណង់ផ្សេងៗទៀត។</p>
-<p>-ផ្តល់ជូនឧបករណ៍សាងសង់ទំនើបៗសម្រាប់ការសាងសង់សំណង់ផ្សេងៗ និងធានាឲ្យបាននូវគុណភាពស្របតាមបទដ្ឋានជាតិ និងអន្តរជាតិ។</p>
-<p>-ទទួលពិគ្រោះយោបល់អំពីការសាងសង់ និងការរចនាម៉ូដទំនើបៗតម្រូវតាមចិត្តនិងការចង់បានរបស់អតិថិជន។</p>
-<p>-ផ្តល់ជូនអតិថិជននូវសេវាកម្មទិញ-លក់អចលនទ្រព្យគ្រប់ប្រភេទ។</p>
-<p>-ទទួលគម្រោងសាងសង់នានាគ្រប់ប្រភេទ។</p>
-<p><strong>គោលដៅ</strong></p>
-<p>ដោយមានចក្ខុវិស័យ និងបេសកកម្មច្បាស់លាស់ យើងជឿជាក់ថា ក្រុមហ៊ុន ប៊ែលធី សំណង់ នឹងទទួលបានជោគជ័យក្នុងការសាងសង់អគារធំៗរបស់ខ្លូន និងការបម្រើសេវាជូនអតិថិជនលើវិស័យសំណង់ និងអចលនទ្រព្យ ប្រកបដោយ មោទនភាព និងទទួលបានការគាំទ្រ ពីសំណាក់អតិថិជនកាន់តែច្រើនថែមទៀតតទៅ អនាគត។</p>
-    
+<p><strong>Vision Mission and Goal</strong></p>
+<p>Vision:</p>
+<p>BELTEI Construction will become the construction company which is recognized locally and internationally in providing service in real-estates and constructing all types of buildings.</p>
+<p>Mission:</p>
+<ul>
+<li>Taking part in modifying the beauty of city-country side through constructing high-rise buildings, villas, apartments, or other structures.</li>
+<li>Providing modern constructional equipment/materials for constructing buildings and ensuring the quality with local and international standards.</li>
+<li>Consulting about modern constructions and designs depending on the demands of the customers.</li>
+<li>Providing services in selling and buying all types of real-estates.</li>
+<li>Accepting all kinds of construction projects.</li>
+</ul>
+<p>Goal:</p>
+<p>With our clear vision and mission, we believe that BELTEI Construction will be successful in constructing its big projects, providing services in construction &amp; real-estates with pride, and receiving great supports from more customers in the future.</p>    
     ",
 ];
