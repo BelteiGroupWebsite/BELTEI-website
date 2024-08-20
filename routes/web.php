@@ -639,7 +639,7 @@ Route::group(['prefix' => 'charity', 'as' => 'charity.' , 'middleware' => 'visit
         Route::view('vision' , 'web.client.charity.about.vision')->name('vision');
         Route::view('history' , 'web.client.charity.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.charity.about.whyBeltei')->name('whybeltei');
-        Route::view('belteigroup' , 'web.client.relation.about.belteigroup')->name('belteigroup');
+        Route::view('belteigroup' , 'web.client.charity.about.belteigroup')->name('belteigroup');
         Route::group(['prefix' => 'cambodia', 'as' => 'cambodia.'], function () {
             Route::view('brief-information' , 'web.client.charity.about.about-cambodia.brief-information')->name('brief-information');
             Route::view('khmer-ancient-temple-legacy' , 'web.client.charity.about.about-cambodia.khmer-ancient-temple-legacy')->name('khmer-ancient-temple-legacy');
