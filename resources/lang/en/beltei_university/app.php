@@ -150,5 +150,7 @@
         'campus1' => "Campus 1 (Tuol Sleng)",
         'campus2' => "Campus 2 (Chom Chao)",
         'campus3' => "Campus 3 ",
+
+        'tour' => "BELTEI Tourism"
         
     ];
