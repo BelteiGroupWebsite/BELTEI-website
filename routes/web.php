@@ -158,7 +158,7 @@ Route::group(['prefix' => 'con', 'as' => 'contruction.', 'middleware' => 'visito
         Route::view('vision' , 'web.client.contruction.about.vision')->name('vision');
         Route::view('history' , 'web.client.contruction.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.contruction.about.whyBeltei')->name('whybeltei');
-
+        Route::view('belteigroup' , 'web.client.construction.about.belteigroup')->name('belteigroup');
         Route::group(['prefix' => 'cambodia', 'as' => 'cambodia.'], function () {
             Route::view('brief-information' , 'web.client.contruction.about.about-cambodia.brief-information')->name('brief-information');
             Route::view('khmer-ancient-temple-legacy' , 'web.client.contruction.about.about-cambodia.khmer-ancient-temple-legacy')->name('khmer-ancient-temple-legacy');
@@ -312,6 +312,7 @@ Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.' , 'middleware' => 
         Route::view('vision' , 'web.client.testcenter.about.vision')->name('vision');
         Route::view('history' , 'web.client.testcenter.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.testcenter.about.whyBeltei')->name('whybeltei');
+        Route::view('belteigroup' , 'web.client.testcenter.about.belteigroup')->name('belteigroup');
     });
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
         // Route::view('/bacll-batch18' , 'web.client.testcenter.news.bacll-batch18')->name('bacll-batch18');
@@ -405,7 +406,7 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' , 'middleware' => 
             Route::view('/awarding' , 'web.client.beltei_university.mainprogram.khmerdetail.awarding')->name('awarding');
             Route::view('/certificate' , 'web.client.beltei_university.mainprogram.khmerdetail.certificate')->name('certificate');
             Route::view('/preschool' , 'web.client.beltei_university.mainprogram.khmerdetail.preschool')->name('certificate');
-
+            
 
         });
         Route::view('/prebachelor' , 'web.client.beltei_university.mainprogram.prebachelor')->name('prebachelor');
@@ -477,7 +478,6 @@ Route::group(['prefix' => 'tour', 'as' => 'beltei_tours_travel.' , 'middleware' 
         Route::view('vision' , 'web.client.beltei_tours_travel.about.vision')->name('vision');
         Route::view('history' , 'web.client.beltei_tours_travel.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.beltei_tours_travel.about.whyBeltei')->name('whybeltei');
-
         Route::view('belteigroup' , 'web.client.beltei_tours_travel.about.belteigroup')->name('belteigroup');
         
         Route::group(['prefix' => 'cambodia', 'as' => 'cambodia.'], function () {
@@ -547,6 +547,7 @@ Route::group(['prefix' => 'bir', 'as' => 'relation.' , 'middleware' => 'visitor.
         Route::view('vision' , 'web.client.relation.about.vision')->name('vision');
         Route::view('history' , 'web.client.relation.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.relation.about.whyBeltei')->name('whybeltei');
+        Route::view('belteigroup' , 'web.client.relation.about.belteigroup')->name('belteigroup');
     });
 
     Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
@@ -638,7 +639,7 @@ Route::group(['prefix' => 'charity', 'as' => 'charity.' , 'middleware' => 'visit
         Route::view('vision' , 'web.client.charity.about.vision')->name('vision');
         Route::view('history' , 'web.client.charity.about.history')->name('history');
         Route::view('whybeltei' , 'web.client.charity.about.whyBeltei')->name('whybeltei');
-
+        Route::view('belteigroup' , 'web.client.relation.about.belteigroup')->name('belteigroup');
         Route::group(['prefix' => 'cambodia', 'as' => 'cambodia.'], function () {
             Route::view('brief-information' , 'web.client.charity.about.about-cambodia.brief-information')->name('brief-information');
             Route::view('khmer-ancient-temple-legacy' , 'web.client.charity.about.about-cambodia.khmer-ancient-temple-legacy')->name('khmer-ancient-temple-legacy');
