@@ -1,6 +1,6 @@
 <?php 
 
 return [
-    'header' => "Message From Beltei Construction",
+    'header' => "History of Beltei Contruction",
 
 ];
