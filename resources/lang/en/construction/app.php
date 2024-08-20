@@ -2,6 +2,6 @@
 
 return [
 
-    "a"=> "About BELTEI Construction",
+    "A"=> "About BELTEI Construction",
 
 ];
