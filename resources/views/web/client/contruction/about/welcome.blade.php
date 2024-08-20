@@ -19,7 +19,7 @@
             <img class="float-start rounded shadow-sm p-3"
                 src="https://www.beltei.edu.kh/khm/images/beltei_pic/H.E_Dr_Ly_chheng_beltei.jpg" alt="">
             <div class="text-justify">
-                {!! __('construction/about/welcome.welcome') !!}
+                {!! __('construction/about/welcome.description') !!}
             </div>
         </div>
     </div>

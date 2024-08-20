@@ -1,7 +1,7 @@
 <?php 
 
 return [
-    'header' => "សារស្វាគមន៍",
+    'header' => "Message From Beltei Construction",
 
     "description"=> "
 

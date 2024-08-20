@@ -1,7 +1,7 @@
 <?php 
 
 return [
-    'header' => "សារស្វាគមន៍",
+    'header' => "សារស្វាគមន៍ពីប៊ែលធីសំណង់",
 
     "description"=> "
 
