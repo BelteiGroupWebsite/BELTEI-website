@@ -58,6 +58,14 @@
         </li> --}}
     </ul>
 
+    <ul class="p-0 m-0">
+        <div class="w-100 justify-content-center">
+            <a href="/" class="cursor-pointer">
+                <img  class="w-100" src="{{ asset('asset/img/university/campus/belgroupkh.png') }}" alt="">
+            </a>
+        </div>
+    </ul>
+
     {{-- <ul class="text-capitalize list-group f14">
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.A') }}</h6>
