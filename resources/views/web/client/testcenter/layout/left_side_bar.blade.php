@@ -35,5 +35,45 @@
         </a>
 
     </ul>
+
+    <ul class="p-0 m-0  list-group ">
+
+        <li class="list-group-item d-flex justify-content-center">
+    
+            <div style="border:inset 7px ; border-radius: 15px ; border-color: #0059ff" class="w-100 overflow-hidden border-blue">
+    
+                <ul class="list-group right-bar-ul">
+                    <li class="list-group-item p-0">
+                        <a href="https://www.smu.ac.kr/eng1/index.do" target="_blank">
+                            <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/korea/1.png') }}" alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://en.shinhan.ac.kr/en/index.do" target="_blank">
+                            <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/korea/2.png') }}" alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.sunykorea.ac.kr/en/" target="_blank">
+                            <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/korea/3.png') }}" alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://global.kduniv.ac.kr/global/index.php" target="_blank">
+                            <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/korea/4.png') }}" alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://en.sejong.ac.kr/eng/index.do" target="_blank">
+                            <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/korea/5.png') }}" alt="">
+                        </a>
+                    </li>
+                </ul>
+                
+    
+            </div>
+        </li>
+    
+    </ul>
     
 </div>
