@@ -40,7 +40,7 @@
 
         <li class="list-group-item d-flex justify-content-center">
     
-            <div style="border:inset 7px ; border-radius: 15px ; border-color: #0059ff" class="w-100 overflow-hidden border-blue">
+            <div class="w-100 overflow-hidden border-blue">
     
                 <ul class="list-group right-bar-ul">
                     <li class="list-group-item p-0">
