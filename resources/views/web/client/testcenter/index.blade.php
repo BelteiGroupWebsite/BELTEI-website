@@ -19,7 +19,7 @@
 
     <div>
         <img data-aos="zoom-out-up" class="w-75 my-2" src="{{ asset('asset/img/BTG.png') }}" alt="">
-        <img data-aos="zoom-out-up" class="w-75 my-2 shadow rounded" src="{{ asset('asset/img/testcenter/BELTEIITCCover.png') }}" alt="">
+        <img data-aos="zoom-out-up" class="w-75 my-2 shadow-sm rounded" src="{{ asset('asset/img/testcenter/BELTEIITCCover.png') }}" alt="">
     </div>
     
     {{-- <img data-aos="zoom-out-up" class="" src="https://www.beltei.edu.kh/khm/images/announcement/New_term_2024.jpg"
