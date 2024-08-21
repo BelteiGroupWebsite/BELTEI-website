@@ -19,9 +19,11 @@
     </ul>
 
     <ul class="p-0 m-0  list-group ">
-        <a href="{{ route('school.') }}">
-            <h5 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('testcenter/app.C') }}</h5>
-        </a>
+        <div>            
+            <a href="{{ route('school.') }}">
+                <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('testcenter/app.C') }}</h6>
+            </a>
+        </div>
         <li class="list-group-item">
             <a href="https://www.smu.ac.kr/eng1/index.do" target="_blank">
                 <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/TOEFL.png') }}" alt="">
