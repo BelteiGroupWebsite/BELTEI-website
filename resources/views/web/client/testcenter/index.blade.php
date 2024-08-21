@@ -14,7 +14,7 @@
         border="0">
     <div>
         <img src="https://www.beltei.edu.kh/khm/images/specialevents/school_facebook.png" alt="">
-        <img src="https://www.beltei.edu.kh/khm/images/specialevents/beltei_youtube.png" alt="">
+        <img class="shadow-sm rounded" src="https://www.beltei.edu.kh/khm/images/specialevents/beltei_youtube.png" alt="">
     </div>
 
     <div>
