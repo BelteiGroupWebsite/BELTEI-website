@@ -20,7 +20,7 @@
 
     <ul class="p-0 m-0  list-group ">
         <a href="{{ route('school.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('testcenter/app.C') }}</h6>
+            <h5 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('testcenter/app.C') }}</h5>
         </a>
         <li class="list-group-item d-flex justify-content-center">
     
