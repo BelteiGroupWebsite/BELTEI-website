@@ -5,7 +5,7 @@
 @section('content')
     <div class="p-3">
 
-        <h2 class="title-translate-font my-3 underline">{{ __('school/about/belteigroup.header') }}</h2>
+        <h2 class="title-translate-font my-3 underline">{{ __('testcenter/about/belteigroup.header') }}</h2>
         
         <div class="row g-3">
             <div class="col-12 col-md-6">
@@ -20,7 +20,7 @@
 
         </div>
         <div class="text-start content-translate-font text-justify">
-            {!! __('school/about/belteigroup.description') !!}
+            {!! __('testcenter/about/belteigroup.description') !!}
         </div>
 
 
