@@ -15,43 +15,47 @@
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.C') }}</h6>
         </a>
         <a href="{{ route('contruction.recognition.national') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.C1') }}</a>
-        <a href="{{ route('contruction.recognition.international') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.C2') }}</a>
+        {{-- <a href="{{ route('contruction.recognition.international') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.C2') }}</a> --}}
 
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('contruction.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.D') }}</h6>
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('construction/app.C') }}</h6>
         </a>
-        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D1') }}</a>
-        {{-- <a href="{{ route('contruction.service.passport') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D2') }}</a> --}}
-        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D3') }}</a>
-        <a href="{{ route('contruction.about.history') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D4') }}</a>
-        <a href="{{ route('contruction.about.history') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.D5') }}</a>
-    </ul>
-
-
-    <ul class="text-capitalize list-group f14">
-        <a href="{{ route('contruction.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.F') }}</h6>
-        </a>
-        <a href="{{ route('contruction.location') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.F1') }}</a>
+        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('construction/app.C1') }}</a>
+        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('construction/app.C2') }}</a>
+        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('construction/app.C3') }}</a>
+        <a href="{{ route('contruction.about.history') }}" class="list-group-item text-white">{{ __('construction/app.C4') }}</a>
+        <a href="{{ route('contruction.about.history') }}" class="list-group-item text-white">{{ __('construction/app.C5') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('contruction.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.G') }}</h6>
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('construction/app.D') }}</h6>
         </a>
-        <a href="{{ route('contruction.about.welcome') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.G1') }}</a>
-        <a href="{{ route('contruction.news-event.other') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.G2') }}</a>
-
+        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('construction/app.D1') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('contruction.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_tours_travel/app.H') }}</h6>
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('construction/app.E') }}</h6>
         </a>
-        {{-- <a href="{{ route('contruction.job-announcement.staff') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.H1') }}</a> --}}
-        <a href="{{ route('contruction.about.welcome') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.H2') }}</a>
-        <a href="{{ route('contruction.about.welcome') }}" class="list-group-item text-white">{{ __('beltei_tours_travel/app.H3') }}</a>
-
+        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('construction/app.E1') }}</a>
+        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('construction/app.E2') }}</a>
     </ul>
+    <ul class="text-capitalize list-group f14">
+        <a href="{{ route('contruction.') }}">
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('construction/app.F') }}</h6>
+        </a>
+        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('construction/app.F1') }}</a>
+        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('construction/app.F2') }}</a>
+        <a href="{{ route('contruction.construction') }}" class="list-group-item text-white">{{ __('construction/app.F3') }}</a>
+    </ul>
+    <ul class="text-capitalize list-group f14">
+        <a href="{{ route('contruction.') }}">
+            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('construction/app.G') }}</h6>
+        </a>
+    </ul>
+
+
+
 
 </div>
