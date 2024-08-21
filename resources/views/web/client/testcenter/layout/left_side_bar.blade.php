@@ -23,22 +23,22 @@
             <h5 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('testcenter/app.C') }}</h5>
         </a>
         <li class="list-group-item">
-            <a href="https://www.smu.ac.kr/eng1/index.do" target="_blank">
+            <a href="https://www.ets.org/toefl.html" target="_blank">
                 <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/TOEFL.png') }}" alt="">
             </a>
         </li>
         <li class="list-group-item">
-            <a href="https://en.shinhan.ac.kr/en/index.do" target="_blank">
+            <a href="https://www.ets.org/gre.html" target="_blank">
                 <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/GRE.png') }}" alt="">
             </a>
         </li>
         <li class="list-group-item">
-            <a href="https://www.sunykorea.ac.kr/en/" target="_blank">
+            <a href="https://takeielts.britishcouncil.org/" target="_blank">
                 <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/IELTS.png') }}" alt="">
             </a>
         </li>
         <li class="list-group-item">
-            <a href="https://global.kduniv.ac.kr/global/index.php" target="_blank">
+            <a href="https://skillsforenglish.com/test/selt/" target="_blank">
                 <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/SELT.png') }}" alt="">
             </a>
         </li>
