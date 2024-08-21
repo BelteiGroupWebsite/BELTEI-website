@@ -17,21 +17,21 @@
         <a href="{{ route('school.about.vision') }}" class="list-group-item text-white">{{ __('testcenter/app.B3') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('testcenter/app.B4') }}</a>
     </ul>
-    <ul class="text-capitalize w-100 f14 unhover-padding">
+    <ul class="text-capitalize list-group f14 unhover-padding">
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('testcenter/app.C') }}</h6>
         </a>
-        <a href="https://www.gre.ac.uk/" class="list-group-item text-white" target="_blank">
-            <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/TOEFL.png') }}" alt="">
+        <a href="https://www.gre.ac.uk/" class=" text-white" target="_blank">
+            <img class="w-100 justify-content-center list-group-item" src="{{ asset('asset/img/testcenter/TOEFL.png') }}" alt="">
         </a>
-        <a href="https://ctc.ac.uk/" class="list-group-item text-white" target="_blank">
-            <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/GRE.png') }}" alt="">
+        <a href="https://ctc.ac.uk/" class=" text-white" target="_blank">
+            <img class="w-100 justify-content-center list-group-item" src="{{ asset('asset/img/testcenter/GRE.png') }}" alt="">
         </a>
-        <a href="https://www.yorksj.ac.uk/" class="list-group-item text-white" target="_blank">
-            <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/IELTS.png') }}" alt="">
+        <a href="https://www.yorksj.ac.uk/" class=" text-white" target="_blank">
+            <img class="w-100 justify-content-center list-group-item" src="{{ asset('asset/img/testcenter/IELTS.png') }}" alt="">
         </a>
-        <a href="https://www.regents.ac.uk/" class="list-group-item text-white" target="_blank">
-            <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/SELT.png') }}" alt="">
+        <a href="https://www.regents.ac.uk/" class=" text-white" target="_blank">
+            <img class="w-100 justify-content-center list-group-item" src="{{ asset('asset/img/testcenter/SELT.png') }}" alt="">
         </a>
 
     </ul>
