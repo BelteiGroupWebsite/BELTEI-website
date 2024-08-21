@@ -21,28 +21,19 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('testcenter/app.C') }}</h6>
         </a>
-        <ul class="list-group right-bar-ul">
-            <li class="list-group-item p-0">
-                <a href="https://www.gre.ac.uk/" target="_blank">
-                    <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/TOEFL.png') }}" alt="">
-                </a>
-            </li>
-            <li class="list-group-item p-0">
-                <a href="https://ctc.ac.uk/" target="_blank">
-                    <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/GRE.png') }}" alt="">
-                </a>
-            </li>
-            <li class="list-group-item p-0">
-                <a href="https://www.yorksj.ac.uk/" target="_blank">
-                    <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/IELTS.png') }}" alt="">
-                </a>
-            </li>
-            <li class="list-group-item p-0">
-                <a href="https://www.regents.ac.uk/" target="_blank">
-                    <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/SELT.png') }}" alt="">
-                </a>
-            </li>
-        </ul>
+        <a href="https://www.gre.ac.uk/" target="_blank">
+            <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/TOEFL.png') }}" alt="">
+        </a>
+        <a href="https://ctc.ac.uk/" target="_blank">
+            <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/GRE.png') }}" alt="">
+        </a>
+        <a href="https://www.yorksj.ac.uk/" target="_blank">
+            <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/IELTS.png') }}" alt="">
+        </a>
+        <a href="https://www.regents.ac.uk/" target="_blank">
+            <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/SELT.png') }}" alt="">
+        </a>
+
     </ul>
 
     {{-- <ul class="p-0 m-0  list-group ">
