@@ -40,7 +40,7 @@
 
         <li class="list-group-item d-flex justify-content-center">
     
-            <ul class="list-group right-bar-ul">
+            <ul class=" right-bar-ul">
                 <li class="list-group-item p-0">
                     <a href="https://www.smu.ac.kr/eng1/index.do" target="_blank">
                         <img class="w-100 justify-content-center" src="{{ asset('asset/img/university/app/rightsidebar/korea/1.png') }}" alt="">
