@@ -17,7 +17,7 @@
         <a href="{{ route('school.about.vision') }}" class="list-group-item text-white">{{ __('testcenter/app.B3') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('testcenter/app.B4') }}</a>
     </ul>
-    <ul class="text-capitalize list-group f14 unhover-padding">
+    <ul class="text-capitalize  f14 unhover-padding">
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('testcenter/app.C') }}</h6>
         </a>
