@@ -17,17 +17,35 @@
         <a href="{{ route('school.about.vision') }}" class="list-group-item text-white">{{ __('testcenter/app.B3') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('testcenter/app.B4') }}</a>
     </ul>
-    {{-- <ul class="text-capitalize list-group f14">
+    <ul class="text-capitalize list-group f14">
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('testcenter/app.C') }}</h6>
         </a>
-        <a href="{{ route('school.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('testcenter/app.C1') }}</a>
-        <a href="{{ route('school.about.purpose') }}" class="list-group-item text-white">{{ __('testcenter/app.C2') }}</a>
-        <a href="{{ route('school.about.vision') }}" class="list-group-item text-white">{{ __('testcenter/app.C3') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('testcenter/app.C4') }}</a>
-    </ul> --}}
+        <ul class="list-group right-bar-ul">
+            <li class="list-group-item p-0">
+                <a href="https://www.gre.ac.uk/" target="_blank">
+                    <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/TOEFL.png') }}" alt="">
+                </a>
+            </li>
+            <li class="list-group-item p-0">
+                <a href="https://ctc.ac.uk/" target="_blank">
+                    <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/GRE.png') }}" alt="">
+                </a>
+            </li>
+            <li class="list-group-item p-0">
+                <a href="https://www.yorksj.ac.uk/" target="_blank">
+                    <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/IELTS.png') }}" alt="">
+                </a>
+            </li>
+            <li class="list-group-item p-0">
+                <a href="https://www.regents.ac.uk/" target="_blank">
+                    <img class="w-100 justify-content-center" src="{{ asset('asset/img/testcenter/SELT.png') }}" alt="">
+                </a>
+            </li>
+        </ul>
+    </ul>
 
-    <ul class="p-0 m-0  list-group ">
+    {{-- <ul class="p-0 m-0  list-group ">
 
         <li class="list-group-item d-flex justify-content-center">
     
@@ -61,6 +79,6 @@
             </div>
         </li>
     
-    </ul>
+    </ul> --}}
     
 </div>
