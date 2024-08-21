@@ -14,12 +14,12 @@
         border="0">
     <div>
         <img src="https://www.beltei.edu.kh/khm/images/specialevents/school_facebook.png" alt="">
-        <img class="shadow-sm rounded" src="https://www.beltei.edu.kh/khm/images/specialevents/beltei_youtube.png" alt="">
+        <img src="https://www.beltei.edu.kh/khm/images/specialevents/beltei_youtube.png" alt="">
     </div>
 
     <div>
         <img data-aos="zoom-out-up" class="w-75 my-2" src="{{ asset('asset/img/BTG.png') }}" alt="">
-        <img data-aos="zoom-out-up" class="w-75 my-2" src="{{ asset('asset/img/testcenter/BELTEIITCCover.png') }}" alt="">
+        <img data-aos="zoom-out-up" class="w-75 my-2 shadow rounded" src="{{ asset('asset/img/testcenter/BELTEIITCCover.png') }}" alt="">
     </div>
     
     {{-- <img data-aos="zoom-out-up" class="" src="https://www.beltei.edu.kh/khm/images/announcement/New_term_2024.jpg"
