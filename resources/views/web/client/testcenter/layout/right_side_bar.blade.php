@@ -58,7 +58,7 @@
         </li> --}}
     </ul>
 
-    <ul class="text-capitalize list-group f14">
+    {{-- <ul class="text-capitalize list-group f14">
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.A') }}</h6>
         </a>
@@ -68,7 +68,7 @@
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A4') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A5') }}</a>
         <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('school/app.A6') }}</a>
-    </ul>
+    </ul> --}}
 
     @include('web.client.share.visitor')
     
