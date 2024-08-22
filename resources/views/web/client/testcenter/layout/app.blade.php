@@ -26,16 +26,21 @@
 
     <style>
 
-        .content-container p{
+        .content-container > p{
             text-indent: 1rem;
             padding-top: 1rem;
         }
 
         .title-style{
             background-color: var(--bg-header-color);
+
         }
         .title-style span{
-            padding: 2rem;
+            /* padding: 1rem; */
+            text-align: center;
+            background-color: whitesmoke;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             border: 2px solid var(--bg-header-color);
         }
