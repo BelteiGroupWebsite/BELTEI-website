@@ -33,9 +33,11 @@
 
         .title-style{
             background-color: var(--bg-header-color);
-            margin-block: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
             padding-block: .75rem;
             color: whitesmoke;
+
         }
         .title-style span{
             font-weight: bolder;
