@@ -33,7 +33,7 @@
 
         .title-style{
             background-color: var(--bg-header-color);
-            margin-block: 2rem;
+            margin-block: 1.5rem;
             padding-block: .75rem;
             color: whitesmoke;
         }
