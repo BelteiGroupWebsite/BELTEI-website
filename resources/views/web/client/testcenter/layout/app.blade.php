@@ -34,6 +34,9 @@
         .title-style{
             background-color: var(--bg-header-color);
             margin-block: 2rem;
+            padding-block: .5rem;
+            color: whitesmoke;
+            font-weight: bolder;
         }
         .title-style span{
             padding: 1rem;
