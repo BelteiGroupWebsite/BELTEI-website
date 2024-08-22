@@ -34,7 +34,7 @@
         .title-style{
             background-color: var(--bg-header-color);
             margin-block: 2rem;
-            padding-block: .5rem;
+            padding-block: .75rem;
             color: whitesmoke;
             font-weight: bolder;
         }
@@ -46,6 +46,9 @@
             height: 100px;
             color: var(--bg-header-color);
             border: 2px solid var(--bg-header-color);
+        }
+        .title-style p{
+            padding-left: 1rem;
         }
 
     </style>
