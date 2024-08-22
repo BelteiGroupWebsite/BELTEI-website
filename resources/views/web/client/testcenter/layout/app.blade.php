@@ -44,7 +44,7 @@
             background-color: whitesmoke;
             width: 100px;
             height: 100px;
-            border-radius: 50%;
+            color: var(--bg-header-color);
             border: 2px solid var(--bg-header-color);
         }
 
