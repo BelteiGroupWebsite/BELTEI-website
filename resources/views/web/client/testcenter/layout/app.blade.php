@@ -36,14 +36,15 @@
             margin-block: 2rem;
             padding-block: .75rem;
             color: whitesmoke;
-            font-weight: bolder;
         }
         .title-style span{
+            font-weight: bolder;
             padding: 1rem;
             text-align: center;
             background-color: whitesmoke;
             width: 100px;
             height: 100px;
+            font-size: 20px;
             color: var(--bg-header-color);
             border: 2px solid var(--bg-header-color);
         }
