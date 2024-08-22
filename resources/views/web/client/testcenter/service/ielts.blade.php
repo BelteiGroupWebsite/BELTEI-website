@@ -11,7 +11,7 @@
             <img class="w-75 " src="{{ asset('asset/img/testcenter/IELTS.png') }}" alt="">
         </div>
         
-        <div class="text-start content-translate-font">
+        <div class="content-container text-start content-translate-font">
             {!! __('testcenter/service/ielts.description') !!}
         </div>
 

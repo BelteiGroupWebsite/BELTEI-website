@@ -26,7 +26,10 @@
 
     <style>
 
-
+        .content-container p{
+            text-indent: 1rem;
+            padding-top: 1rem;
+        }
 
     </style>
 
