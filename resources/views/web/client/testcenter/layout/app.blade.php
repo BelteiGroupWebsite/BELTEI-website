@@ -46,7 +46,7 @@
             height: 100px;
             font-size: 20px;
             color: var(--bg-header-color);
-            border: 2px solid var(--bg-header-color);
+            border: 3px solid var(--bg-header-color);
         }
         .title-style p{
             padding-left: 1rem;
