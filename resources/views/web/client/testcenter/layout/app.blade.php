@@ -31,6 +31,15 @@
             padding-top: 1rem;
         }
 
+        .title-style{
+            background-color: var(--bg-header-color);
+        }
+        .title-style span{
+            padding: 2rem;
+            border-radius: 50%;
+            border: 2px solid var(--bg-header-color);
+        }
+
     </style>
 
 </head>
