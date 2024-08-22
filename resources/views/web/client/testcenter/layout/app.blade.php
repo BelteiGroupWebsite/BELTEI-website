@@ -46,7 +46,7 @@
             background-color: whitesmoke;
             width: 100px;
             height: 100px;
-            font-size: 20px;
+            font-size: 26px;
             color: var(--bg-header-color);
             border: 3px solid var(--bg-header-color);
         }
