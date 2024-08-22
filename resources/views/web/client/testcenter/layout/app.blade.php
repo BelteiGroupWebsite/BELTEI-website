@@ -37,7 +37,7 @@
             margin-bottom: 1rem;
             padding-block: .75rem;
             color: white;
-            border-radius: 10px;
+            border-radius: 50%;
 
         }
         .title-style span{
