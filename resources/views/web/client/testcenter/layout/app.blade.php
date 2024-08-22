@@ -36,7 +36,7 @@
 
         }
         .title-style span{
-            /* padding: 1rem; */
+            padding: 1rem;
             text-align: center;
             background-color: whitesmoke;
             width: 100px;
