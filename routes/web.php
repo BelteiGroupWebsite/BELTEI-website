@@ -314,6 +314,14 @@ Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.' , 'middleware' => 
         Route::view('whybeltei' , 'web.client.testcenter.about.whyBeltei')->name('whybeltei');
         Route::view('belteigroup' , 'web.client.testcenter.about.belteigroup')->name('belteigroup');
     });
+
+    Route::group(['prefix'=> 'service', 'as'=> 'service.'], function (){
+        Route::view('/toefl' ,'web.client.testcenter.service.toefl')->name('toefl');
+        Route::view('/gre' ,'web.client.testcenter.service.gre')->name('gre');
+        Route::view('/ielts' ,'web.client.testcenter.service.ielts')->name('ielts');
+        Route::view('/selt' ,'web.client.testcenter.service.selt')->name('selt');
+    });
+    
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
         // Route::view('/bacll-batch18' , 'web.client.testcenter.news.bacll-batch18')->name('bacll-batch18');
     });

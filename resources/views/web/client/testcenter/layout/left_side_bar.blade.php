@@ -12,10 +12,10 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('testcenter/app.B') }}</h6>
         </a>
-        <a href="{{ route('school.mainprogram.khmer') }}" class="list-group-item text-white">{{ __('testcenter/app.B1') }}</a>
-        <a href="{{ route('school.about.purpose') }}" class="list-group-item text-white">{{ __('testcenter/app.B2') }}</a>
-        <a href="{{ route('school.about.vision') }}" class="list-group-item text-white">{{ __('testcenter/app.B3') }}</a>
-        <a href="{{ route('school.about.history') }}" class="list-group-item text-white">{{ __('testcenter/app.B4') }}</a>
+        <a href="{{ route('testcenter.service.toefl') }}" class="list-group-item text-white">{{ __('testcenter/app.B1') }}</a>
+        <a href="{{ route('testcenter.service.gre') }}" class="list-group-item text-white">{{ __('testcenter/app.B2') }}</a>
+        <a href="{{ route('testcenter.service.ielts') }}" class="list-group-item text-white">{{ __('testcenter/app.B3') }}</a>
+        <a href="{{ route('testcenter.service.selt') }}" class="list-group-item text-white">{{ __('testcenter/app.B4') }}</a>
     </ul>
 
     <ul class="p-0 m-0  list-group ">
