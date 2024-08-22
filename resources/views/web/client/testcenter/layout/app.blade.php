@@ -33,7 +33,7 @@
 
         .title-style{
             background-color: var(--bg-header-color);
-
+            padding-block: 2rem;
         }
         .title-style span{
             padding: 1rem;
