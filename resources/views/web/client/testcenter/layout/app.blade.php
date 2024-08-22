@@ -32,7 +32,9 @@
         }
 
         .title-style{
-            background-color: var(--bg-header-color);
+            /* background-color: var(--bg-header-color); */
+            background: rgb(2,0,36);
+            background: linear-gradient(36deg, rgba(2,0,36,1) 0%, rgba(0,108,184,1) 0%, rgba(0,133,227,1) 100%);
             margin-top: 1.5rem;
             /* margin-bottom: 1rem; */
             padding-block: .75rem;
