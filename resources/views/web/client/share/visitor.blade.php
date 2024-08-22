@@ -8,7 +8,7 @@
                     <td>
                         {{ $country->region ." / ". $country->name }}
                     </td>
-                    <td>
+                    <td class="text-end">
                         {{ $country->visitors->count() }} <i class="fa fa-eye"></i>
                     </td>
                 </tr>
