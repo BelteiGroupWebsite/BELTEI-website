@@ -14,10 +14,10 @@ return [
 
 <h5 class = "text-center my-3"> The SELT International Test has the following benefits: </h5>
 
-<div class = "title-style"> <span class = "title-translate-font"> 1 </span> Obtained a visa to the United Kingdom by the United Kingdom Government </div>
-<div class = "title-style"> <span class = "title-translate-font"> 2 </span> Recognized by many universities around the world to apply </div>
-<div class = "title-style"> <span class = "title-translate-font"> 3 </span> Measure English Proficiency </div>
-<div class = "title-style"> <span class = "title-translate-font"> 4 </span> Easy exam locations and up to 125 countries around the world </div>
-<div class = "title-style"> <span class = "title-translate-font"> 5 </span> Exam results are released to candidates within 3-5 days, easy to use as needed </div>
+<div class = "title-style"><span class = "title-translate-font">1</span> Obtained a visa to the United Kingdom by the United Kingdom Government </div>
+<div class = "title-style"><span class = "title-translate-font">2</span> Recognized by many universities around the world to apply </div>
+<div class = "title-style"><span class = "title-translate-font">3</span> Measure English Proficiency </div>
+<div class = "title-style"><span class = "title-translate-font">4</span> Easy exam locations and up to 125 countries around the world </div>
+<div class = "title-style"><span class = "title-translate-font">5</span> Exam results are released to candidates within 3-5 days, easy to use as needed </div>
     ',
 ];

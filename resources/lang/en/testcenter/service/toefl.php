@@ -12,23 +12,23 @@ return [
  <p> 4- Writing </p>
  <p> The International TOEFL test has the following benefits: </p>
 
- <div class = "title-style"> <span class = "title-translate-font"> 1 </span> Objective Assessment Exam </div>
+ <div class = "title-style"><span class = "title-translate-font">1</span> Objective Assessment Exam </div>
  <p> TOEFL is a good exam because of its scope. It makes the university you are applying to and the company you are applying for visible to your English proficiency. An accurate scoring system gives you confidence in your English proficiency. </p>
 
- <div class = "title-style"> <span class = "title-translate-font"> 2 </span> Certificates are universally recognized </div>
+ <div class = "title-style"><span class = "title-translate-font">2</span> Certificates are universally recognized </div>
  <p> TOEFL is a universally recognized English language proficiency test. </p>
  <p> With a TOEFL certification, you can be assured that your university and employers will recognize and accept your English language proficiency scores. </p>
 
- <div class = "title-style"> <span class = "title-translate-font"> 3 </span> English Development </div>
+ <div class = "title-style"><span class = "title-translate-font">3</span> English Development </div>
  <p> Preparing for the TOEFL will improve your English skills. It takes budget, time and energy to take the TOEFL exam. Therefore, it is better to spend time learning to get ready in advance. </p>
  <p> You can take the free test on the ETS website or purchase additional study materials. </p>
  <p> While you want to improve your English to get good grades, your English skills will have a positive impact on other areas of your life as well. </p>
 
- <div class = "title-style"> <span class = "title-translate-font"> 4 </span> Encourage hard work </div>
+ <div class = "title-style"><span class = "title-translate-font">4</span> Encourage hard work </div>
  <p> Knowing that you have a TOEFL schedule soon can be a great motivator! </p>
  <p> When you have a clear goal, you will organize your time more efficiently and focus better. </p>
 
- <div class = "title-style"> <span class = "title-translate-font"> 5 </span> Develop your resume </div>
+ <div class = "title-style"><span class = "title-translate-font">5</span> Develop your resume </div>
  <p> Whether you are applying for a new job soon or not, having a TOEFL score on your resume is still a good thing. </p>
  <p> It shows your commitment to both the fluency of the English language and the success of your chosen career. </p>
     
