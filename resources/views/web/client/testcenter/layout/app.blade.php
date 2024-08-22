@@ -36,14 +36,15 @@
             margin-top: 1.5rem;
             margin-bottom: 1rem;
             padding-block: .75rem;
-            color: whitesmoke;
+            color: white;
+            border-radius: 10px;
 
         }
         .title-style span{
             font-weight: bolder;
             padding: 1rem;
             text-align: center;
-            background-color: whitesmoke;
+            background-color: white;
             width: 100px;
             height: 100px;
             font-size: 20px;
