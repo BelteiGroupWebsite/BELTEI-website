@@ -3,7 +3,7 @@
         <h6 class="text-uppercase text-center py-2 bg-header-color gold ">Visitors : {{ $visitor->count() }}</h6>
         <table class="table content-translate-font text-white">
             @foreach ($countries as $country)
-                @if($country->visitors->count() > 10)
+                @if($country->visitors->count() > 50)
                 <tr>
                     <td>
                         {{ $country->region ." / ". $country->name }}
