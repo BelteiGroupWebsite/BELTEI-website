@@ -18,32 +18,38 @@
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2023 ({{ __('school/public-speaking/public-speaking.Batch') }} 17)</h5>
         <div class="row">
             <div class="col-4 height-200 content-translate-font">
-                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BdfC23ldML0?si=S_jT6c4e86Rc2kEi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    {{-- <img class="w-100 rounded shadow-sm min-height-100" src="https://img.youtube.com/vi/VdCCsBOMBts/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/VdCCsBOMBts?si=Pl6wKOs2Ymp0jKxL"> --}}
+                    <img class="w-100 rounded shadow-sm min-height-100" src="https://img.youtube.com/vi/wOE57yFL-HU/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/wOE57yFL-HU?si=E3JqVl1M3qINXKao" title="YouTube video player" />
                 </div>
-                <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
-                </p>
-            </div>
 
+                    <p class="goldenrod font-bold">
+                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                    </p>
+            </div>
             <div class="col-4 height-200 content-translate-font">
-                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CSEKd5o75RE?si=jDtsCN62NhYox-FP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    {{-- <img class="w-100 rounded shadow-sm min-height-100" src="https://img.youtube.com/vi/VdCCsBOMBts/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/VdCCsBOMBts?si=Pl6wKOs2Ymp0jKxL"> --}}
+                    <img class="w-100 rounded shadow-sm min-height-100 youtube-thumbnail" src="https://img.youtube.com/vi/-ULTZvF-TJ8/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/-ULTZvF-TJ8?si=r0nNYzJWCWAtXVnU" title="YouTube video player" />
                 </div>
-                <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
-                </p>
-            </div>
 
+                    <p class="goldenrod font-bold">
+                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
+                    </p>
+            </div>
             <div class="col-4 height-200 content-translate-font">
-                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/droK0UR_5og?si=Zj5CpXt9V1Xv8CQ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    {{-- <img class="w-100 rounded shadow-sm min-height-100" src="https://img.youtube.com/vi/VdCCsBOMBts/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/VdCCsBOMBts?si=Pl6wKOs2Ymp0jKxL"> --}}
+                    <img class="w-100 rounded shadow-sm min-height-100 youtube-thumbnail" src="https://img.youtube.com/vi/droK0UR_5og/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/droK0UR_5og?si=Zj5CpXt9V1Xv8CQ_" title="YouTube video player" />
                 </div>
-                <p class="goldenrod font-bold">
-                    {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
-                </p>
-            </div>
 
+                    <p class="goldenrod font-bold">
+                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
+                    </p>
+            </div>
         </div>
 
 
