@@ -13,6 +13,7 @@
                 allowfullscreen></iframe>
         </div>
 
+
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2023 ({{ __('school/public-speaking/public-speaking.Batch') }} 17)</h5>
         <div class="row">
@@ -50,6 +51,9 @@
                     </p>
             </div>
         </div>
+
+
+
         <hr class="border border-success border-3">
 
         <hr>
@@ -529,7 +533,7 @@
         </div>
         <hr class="border border-success border-3">
 
-        
+
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2023 ({{ __('school/public-speaking/public-speaking.Batch') }} 17)</h5>
         <div class="row">
@@ -569,7 +573,7 @@
         </div>
         <hr class="border border-success border-3">
 
-        
+
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2023 ({{ __('school/public-speaking/public-speaking.Batch') }} 17)</h5>
         <div class="row">
