@@ -7,11 +7,50 @@
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16"
-                src="https://www.youtube.com/embed/5ps7xR7fg9I?si=ZmbHANcYYYS73pMi" title="YouTube video player"
+                src="https://www.youtube.com/embed/qKos4iNrmiY?si=nDWgyP1Fw6LoweAG" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
+
+
+
+        <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2023 ({{ __('school/public-speaking/public-speaking.Batch') }} 17)</h5>
+        <div class="row">
+            <div class="col-4 height-200 content-translate-font">
+                <iframe class="w-100 rounded shadow-sm " width="" height=""
+                    src="https://www.youtube.com/embed/qKos4iNrmiY?si=nDWgyP1Fw6LoweAG" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="goldenrod font-bold">
+                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                    </p>
+            </div>
+            <div class="col-4 height-200 content-translate-font">
+                <iframe class="w-100 rounded shadow-sm " width="" height=""
+                    src="https://www.youtube.com/embed/k_MMeh8WdAY?si=vAUARp6VTroeJZk9" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="goldenrod font-bold">
+                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
+                    </p>
+            </div>
+            <div class="col-4 height-200 content-translate-font">
+                <iframe class="w-100 rounded shadow-sm " width="" height=""
+                    src="https://www.youtube.com/embed/uSyIXQX4KQI?si=tqE08Z1YvF4VR7Om" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="goldenrod font-bold">
+                        {{ __('school\public-speaking\public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
+                    </p>
+            </div>
+        </div>
+
+
 
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2023 ({{ __('school/public-speaking/public-speaking.Batch') }} 17)</h5>
@@ -514,7 +553,7 @@
 
 
 
-        
+
 
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2014 ({{ __('school/public-speaking/public-speaking.Batch') }} 2)</h5>
         <div class="row">
@@ -550,7 +589,7 @@
             </div>
         </div>
         <hr class="border border-success border-3">
-        
+
 
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2014 ({{ __('school/public-speaking/public-speaking.Batch') }} 1)</h5>
         <div class="row">
