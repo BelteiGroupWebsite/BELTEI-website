@@ -21,7 +21,7 @@
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                     {{-- <img class="w-100 rounded shadow-sm min-height-100" src="https://img.youtube.com/vi/VdCCsBOMBts/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/VdCCsBOMBts?si=Pl6wKOs2Ymp0jKxL"> --}}
-                    <img class="w-100 rounded shadow-sm min-height-100" src="https://img.youtube.com/vi/wOE57yFL-HU/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/wOE57yFL-HU?si=E3JqVl1M3qINXKao" title="YouTube video player" />
+                    <img class="w-100 rounded shadow-sm min-height-100" src="https://img.youtube.com/vi/BdfC23ldML0/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/BdfC23ldML0?si=S_jT6c4e86Rc2kEi" title="YouTube video player" />
                 </div>
 
                     <p class="goldenrod font-bold">
@@ -32,7 +32,7 @@
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
                     {{-- <img class="w-100 rounded shadow-sm min-height-100" src="https://img.youtube.com/vi/VdCCsBOMBts/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/VdCCsBOMBts?si=Pl6wKOs2Ymp0jKxL"> --}}
-                    <img class="w-100 rounded shadow-sm min-height-100 youtube-thumbnail" src="https://img.youtube.com/vi/-ULTZvF-TJ8/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/-ULTZvF-TJ8?si=r0nNYzJWCWAtXVnU" title="YouTube video player" />
+                    <img class="w-100 rounded shadow-sm min-height-100 youtube-thumbnail" src="https://img.youtube.com/vi/CSEKd5o75RE/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/CSEKd5o75RE?si=jDtsCN62NhYox-FP" title="YouTube video player" />
                 </div>
 
                     <p class="goldenrod font-bold">
