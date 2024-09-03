@@ -93,7 +93,7 @@ class NewsController extends Controller
     {
         $news = News::findOrfail($id);
         $categories = [
-            1 => 'contruction_news',
+            1 => 'contruction',
             2 => 'school',
             3 => 'beltei_university',
             4 => 'bir_news',
