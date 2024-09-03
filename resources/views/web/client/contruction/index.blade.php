@@ -68,6 +68,12 @@
             <img data-aos="zoom-out-up" class="w-75 my-1 shadow" src="{{ asset('asset/img/construction/content/photo_2024-06-28_10-42-04.jpg') }}" alt="">
             <img data-aos="zoom-out-up" class="w-75 my-1 shadow" src="{{ asset('asset/img/construction/content/photo_2024-06-28_10-42-10.jpg') }}" alt="">
         </div>
+
+
+        <div>
+            @include('web.client.contruction.layout.share.news')
+        </div>
+        
         
     </div>
 @endsection

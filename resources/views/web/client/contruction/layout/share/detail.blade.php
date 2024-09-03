@@ -1,4 +1,4 @@
-@extends('web.client.school.layout.app')
+@extends('web.client.contruction.layout.app')
 
 @section('content')
 
@@ -41,6 +41,6 @@
     </div>
 
     <div>
-        @include('web.client.school.layout.share.news')
+        @include('web.client.contruction.layout.share.news')
     </div>
 @endsection
