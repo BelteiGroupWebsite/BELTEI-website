@@ -248,7 +248,23 @@ Route::group(['prefix' => 'bis', 'as' => 'school.' , 'middleware' => 'visitor.tr
     });
     Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
         Route::view('/' , 'web.client.school.news.news');
-        Route::view('/' , 'web.client.school.news.news');
+    });
+    Route::group(['prefix' => 'equipment', 'as' => 'equipment.'], function () {
+        Route::view('/classroom' , 'web.client.school.equipment.classroom')->name('classroom');
+        Route::view('/library' , 'web.client.school.equipment.library')->name('library');
+        Route::view('/computerlab' , 'web.client.school.equipment.computerlab')->name('computerlab');
+        Route::view('/laboratory' , 'web.client.school.equipment.laboratory')->name('laboratory');
+        Route::view('/consultation' , 'web.client.school.equipment.consultation')->name('consultation');
+        Route::view('/testroom' , 'web.client.school.equipment.testroom')->name('testroom');
+        Route::view('/robotic' , 'web.client.school.equipment.robotic')->name('robotic');
+        Route::view('/educational' , 'web.client.school.equipment.educational')->name('educational');
+        Route::view('/news' , 'web.client.school.equipment.news')->name('news');
+        Route::view('/store' , 'web.client.school.equipment.store')->name('store');
+        Route::view('/meetingroom' , 'web.client.school.equipment.meetingroom')->name('meeting');
+        Route::view('/securitycamera' , 'web.client.school.equipment.securitycamera')->name('securitycamera');
+        Route::view('/floor' , 'web.client.school.equipment.floor')->name('floor');
+        Route::view('/bus' , 'web.client.school.equipment.bus')->name('bus');
+        Route::view('/parking' , 'web.client.school.equipment.parking')->name('parking');
     });
     Route::group(['prefix' => 'campus', 'as' => 'campus.'], function () {
         Route::view('/campusTemplete' , 'web.client.school.campus.campusTemplete')->name('campusTemplete');

@@ -42,21 +42,21 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.D') }}</h6>
         </a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D1') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D2') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D3') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D4') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D5') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D6') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D7') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D8') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D9') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D10') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D11') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D12') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D13') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D14') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.D15') }}</a>
+        <a href="{{ route('school.equipment.classroom') }}" class="list-group-item text-white">{{ __('school/app.D1') }}</a>
+        <a href="{{ route('school.equipment.library') }}" class="list-group-item text-white">{{ __('school/app.D2') }}</a>
+        <a href="{{ route('school.equipment.computerlab') }}" class="list-group-item text-white">{{ __('school/app.D3') }}</a>
+        <a href="{{ route('school.equipment.laboratory') }}" class="list-group-item text-white">{{ __('school/app.D4') }}</a>
+        <a href="{{ route('school.equipment.consultation') }}" class="list-group-item text-white">{{ __('school/app.D5') }}</a>
+        <a href="{{ route('school.equipment.testroom') }}" class="list-group-item text-white">{{ __('school/app.D6') }}</a>
+        <a href="{{ route('school.equipment.robotic') }}" class="list-group-item text-white">{{ __('school/app.D7') }}</a>
+        <a href="{{ route('school.equipment.educational') }}" class="list-group-item text-white">{{ __('school/app.D8') }}</a>
+        <a href="{{ route('school.equipment.news') }}" class="list-group-item text-white">{{ __('school/app.D9') }}</a>
+        <a href="{{ route('school.equipment.store') }}" class="list-group-item text-white">{{ __('school/app.D10') }}</a>
+        <a href="{{ route('school.equipment.meetingroom') }}" class="list-group-item text-white">{{ __('school/app.D11') }}</a>
+        <a href="{{ route('school.equipment.secritycamera') }}" class="list-group-item text-white">{{ __('school/app.D12') }}</a>
+        <a href="{{ route('school.equipment.floor') }}" class="list-group-item text-white">{{ __('school/app.D13') }}</a>
+        <a href="{{ route('school.equipment.bus') }}" class="list-group-item text-white">{{ __('school/app.D14') }}</a>
+        <a href="{{ route('school.equipment.parking') }}" class="list-group-item text-white">{{ __('school/app.D15') }}</a>
     </ul>
 
 
