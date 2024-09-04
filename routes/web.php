@@ -260,7 +260,7 @@ Route::group(['prefix' => 'bis', 'as' => 'school.' , 'middleware' => 'visitor.tr
         Route::view('/educational' , 'web.client.school.equipment.educational')->name('educational');
         Route::view('/news' , 'web.client.school.equipment.news')->name('news');
         Route::view('/store' , 'web.client.school.equipment.store')->name('store');
-        Route::view('/meetingroom' , 'web.client.school.equipment.meetingroom')->name('meeting');
+        Route::view('/meetingroom' , 'web.client.school.equipment.meetingroom')->name('meetingroom');
         Route::view('/securitycamera' , 'web.client.school.equipment.securitycamera')->name('securitycamera');
         Route::view('/floor' , 'web.client.school.equipment.floor')->name('floor');
         Route::view('/bus' , 'web.client.school.equipment.bus')->name('bus');
