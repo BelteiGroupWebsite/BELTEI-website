@@ -2,7 +2,7 @@
 
 @section('content')
     <div>
-        <h3>Laboratory</h3>
+        <h3>{{ __('school/app.D4') }}</h3>
     </div>
 
 

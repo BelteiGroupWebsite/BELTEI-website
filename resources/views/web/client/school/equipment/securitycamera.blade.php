@@ -2,7 +2,7 @@
 
 @section('content')
     <div>
-        <h3>Security Camera</h3>
+        <h3>{{ __('school/app.D12') }}</h3>
     </div>
 
     <div class="row">

@@ -2,7 +2,7 @@
 
 @section('content')
     <div>
-        <h3>Consultation Room</h3>
+        <h3>{{ __('school/app.D5') }}</h3>
     </div>
 
     @include('web.client.school.layout.share.news')
