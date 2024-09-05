@@ -48,6 +48,6 @@
         @endforeach
 
         <!-- Pagination Links for AcademicYear -->
-        {{ $gradeAs->links() }}
+        {{ $gradeAs->links('vender') }}
     </div>
 @endsection
