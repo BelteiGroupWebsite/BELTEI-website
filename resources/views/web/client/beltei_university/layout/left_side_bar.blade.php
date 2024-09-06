@@ -115,7 +115,8 @@
         <a href="{{ route('beltei_university.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('beltei_university/app.I') }}</h6>
         </a>
-        <a class="list-group-item" href="{{ route('beltei_university.graduated.doctor') }}" class="list-group-item text-white font-bold text-center">
+        {{-- <a class="list-group-item" href="{{ route('beltei_university.graduated.doctor') }}" class="list-group-item text-white font-bold text-center"> --}}
+        <a class="list-group-item" href="{{ route('beltei_university.certificate' , ['degree' => 1 ]) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-between Red-color-border rounded " style="border:outset 3px ;">
                 <img class="max-width-50 px-2 shadow-sm border-end Red-color-border" src="{{ asset('asset/img/biu/app/phd.png') }}" alt="">
                 <p class="text-white text-center Khmer-OS-Koulen px-2 w-100">
