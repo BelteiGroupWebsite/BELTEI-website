@@ -30,25 +30,31 @@
             </div>
 
             <div class="col-4 height-200 content-translate-font">
-                <iframe class="w-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/LpllmqZiUXs?si=jm0uHko4GAIL0rNu" title="YouTube video player"
+                <iframe class="w-100 rounded shadow-sm"
+                    src="https://www.youtube.com/embed/AOQrThdKVT4?si=Kj0921QBTvAH4RKl"
+                    title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <p class="goldenrod font-bold">
-                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
-                    </p>
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+                <p class="goldenrod font-bold">
+                    {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                </p>
             </div>
+
             <div class="col-4 height-200 content-translate-font">
-                <iframe class="w-100 rounded shadow-sm " width="" height=""
-                    src="https://www.youtube.com/embed/srdRetQMW_k?si=_HHhLVnUj2CZIx44" title="YouTube video player"
+                <iframe class="w-100 rounded shadow-sm"
+                    src="https://www.youtube.com/embed/FHEquXNrRdo?si=NFjCXoT7EpuakIfP"
+                    title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <p class="goldenrod font-bold">
-                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
-                    </p>
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+                <p class="goldenrod font-bold">
+                    {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                </p>
             </div>
+
         </div>
 
         <hr>
