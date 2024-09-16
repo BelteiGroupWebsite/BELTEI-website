@@ -9,11 +9,8 @@
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16"
-                src="https://www.youtube.com/embed/VqHAYKpv4KQ?si=9qPfee2vqgUeBIur"></iframe>
+                src="https://www.youtube.com/embed/RJNhC5AXrZg?si=bwJ3f8ewsvscRyav"></iframe>
         </div>
-
-
-
 
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2023 ({{ __('school/public-speaking/public-speaking.Batch') }} 8)</h5>
