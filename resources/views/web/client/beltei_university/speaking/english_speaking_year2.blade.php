@@ -9,7 +9,52 @@
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16"
-            src="https://www.youtube.com/embed/qB78OelqhMs?si=aiksQAwqW8Y6e5ly"></iframe>
+            src="https://www.youtube.com/embed/4R8NhEma7sk?si=tFTU-V5UPisat__j"></iframe>
+        </div>
+
+
+        <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2024 ({{ __('school/public-speaking/public-speaking.Batch') }} 10)</h5>
+        <div class="row">
+            <div class="col-4 height-200 content-translate-font">
+                <iframe class="w-100 rounded shadow-sm"
+                    src="https://www.youtube.com/embed/4R8NhEma7sk?si=tFTU-V5UPisat__j"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+                <p class="goldenrod font-bold">
+                    {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                </p>
+            </div>
+
+            <div class="col-4 height-200 content-translate-font">
+                <iframe class="w-100 rounded shadow-sm"
+                    src="https://www.youtube.com/embed/dX631KWkhAE?si=ssDqYZJ3nZcSy9j4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+                <p class="goldenrod font-bold">
+                    {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                </p>
+            </div>
+
+            <div class="col-4 height-200 content-translate-font">
+                <iframe class="w-100 rounded shadow-sm"
+                    src="https://www.youtube.com/embed/9KLWbJ5vuHc?si=cPZ4Q__nyLq9YtUb"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+                <p class="goldenrod font-bold">
+                    {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                </p>
+            </div>
+
         </div>
 
         <hr>
