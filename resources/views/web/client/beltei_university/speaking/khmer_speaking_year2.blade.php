@@ -38,7 +38,7 @@
                     referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen></iframe>
                 <p class="goldenrod font-bold">
-                    {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                    {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
                 </p>
             </div>
 
@@ -51,7 +51,7 @@
                     referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen></iframe>
                 <p class="goldenrod font-bold">
-                    {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                    {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
                 </p>
             </div>
 
