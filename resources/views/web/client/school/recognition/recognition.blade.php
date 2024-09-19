@@ -4,9 +4,14 @@
 
 <div>
     <h3 class="title-translate-font mt-2 mb-3">ការទទួលស្គាល់ក្នុងប្រទេស</h3>
-    <table class="table table-bordered table-hover content-translate-font vertical-align-middle" id="box-table-a" border="0" width="100%" align="center">
+    <table id="orderTable" class="table table-bordered table-hover content-translate-font vertical-align-middle" id="box-table-a" border="0" width="100%" align="center">
         <tbody>
         
+        <tr>
+        <td>១</td>
+        <td><a href="{{ route('school.recognition.recognitiondetail') }}?id=30">ប្រ​កាស​៖សាលា​ ប៊ែល​ធី​ អន្តរ​ជាតិ​ ទី​២៦</a></td>
+        <td><a href="{{ route('school.recognition.recognitiondetail') }}?id=30"><img src="{{ asset('asset/img/school/recognition/01.png') }}" border="0"></a></td>
+        </tr>
         <tr>
         <td>១</td>
         <td><a href="{{ route('school.recognition.recognitiondetail') }}?id=1">ប្រ​កាស​៖សាលា​ ប៊ែល​ធី​ អន្តរ​ជាតិ​ ទី​២៥</a></td>
@@ -158,5 +163,27 @@
         </tbody>
         </table>
 </div>
+
+
+<script>
+    let orderTable = document.getElementById('orderTable');
+
+    // Get only the first 'td' of each 'tr'
+    let orderTableTds = orderTable.querySelectorAll('tr td:first-child');
+
+    let khmerNumber = [
+        '១','២', '៣', '៤', '៥', '៦', '៧', '៨', '៩', '១០', 
+        '១១', '១២', '១៣', '១៤', '១៥', '១៦', '១៧', '១៨', '១៩', '២០',
+        '២១', '២២', '២៣', '២៤', '២៥', '២៦', '២៧', '២៨', '២៩', '៣០'
+    ];
+
+    // Loop over each first 'td' and assign Khmer numbers
+    orderTableTds.forEach((element, key) => {
+        if (key < khmerNumber.length) {
+            element.innerText = khmerNumber[key]; // Set the text to the corresponding Khmer number
+        }
+    });
+</script>
+
 
 @endsection

@@ -6,7 +6,7 @@
         <div class="text-center gold">
             <h2 class="Muol-Light">សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ</h2>
             <h3 class="Times-New-Roman font-bold">BELTEI INTERNATIONAL UNIVERSITY</h3>
-            <h5 class="text-capitalize Khmer-OS-Koulen">គុណភាណ ប្រសិទ្ធភាព ឧត្ដមភាព សីលធម៌ គុណធម៌</h5>
+            <h5 class="text-capitalize Khmer-OS-Koulen">គុណភាព ប្រសិទ្ធភាព ឧត្ដមភាព សីលធម៌ គុណធម៌</h5>
         </div>
     </div>
 
