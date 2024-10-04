@@ -76,7 +76,7 @@
                                     <td>
                                         <a href="{{ route('admin.university.certificate-new.edit', $degreeAcademicbatch->id) }}"
                                             class="btn btn-warning bi bi-pencil-square"></a>
-                                        <form id="delete-form-{{ $academicBatch->id }}"
+                                        <form id="delete-form-{{ $degreeAcademicbatch->id }}"
                                             action="{{ route('admin.university.certificate-new.destroy', $degreeAcademicbatch->id) }}"
                                             method="POST" style="display: inline;">
                                             @csrf
