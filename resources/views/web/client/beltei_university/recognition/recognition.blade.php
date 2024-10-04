@@ -19,7 +19,7 @@
                             (ISO 9001:2015) លើ ប្រព័ន្ធគ្រប់គ្រងគុណភាព (Quality Management System) ពីវិទ្យាស្ថាន
                             ស្តង់ដារកម្ពុជា (ISC) នៃព្រះរាជាណាចក្រកម្ពុជា លេខ No. QMS 006/24 D/DER-ISC</a></td>
                     <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=1"><img
-                                src="{{ asset('asset/img/university/recognition/acc.jpg') }}" border="0"></a></td>
+                                src="{{ asset('asset/img/school/recognition/04.png') }}" border="0"></a></td>
                 </tr>
                 <tr>
                     <td>២</td>
@@ -63,7 +63,7 @@
                     <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=6">វិញ្ញាបនបត្រទទួលស្គាល់ប្រព័ន្ធគ្រប់គ្រងគុណភាពថ្នាក់អន្តរជាតិ
                             (ISO9001:2008)</a></td>
                     <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=6"><img
-                                src="{{ asset('asset/img/school/recognition/01.png') }}" border="0"></a></td>
+                                src="{{ asset('asset/img/school/recognition/04.png') }}" border="0"></a></td>
                 </tr>
                 <tr>
                     <td>៨</td>
