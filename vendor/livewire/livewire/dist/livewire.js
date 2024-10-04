@@ -851,9 +851,10 @@
     });
   }
   function cleanupElement(el) {
-    el._x_effects?.forEach(dequeueJob);
-    while (el._x_cleanups?.length)
-      el._x_cleanups.pop()();
+    if (el._x_cleanups) {
+      while (el._x_cleanups.length)
+        el._x_cleanups.pop()();
+    }
   }
   var observer = new MutationObserver(onMutate);
   var currentlyObserving = false;
@@ -1091,22 +1092,26 @@
     magics[name] = callback;
   }
   function injectMagics(obj, el) {
-    let memoizedUtilities = getUtilities(el);
     Object.entries(magics).forEach(([name, callback]) => {
+      let memoizedUtilities = null;
+      function getUtilities() {
+        if (memoizedUtilities) {
+          return memoizedUtilities;
+        } else {
+          let [utilities, cleanup2] = getElementBoundUtilities(el);
+          memoizedUtilities = { interceptor, ...utilities };
+          onElRemoved(el, cleanup2);
+          return memoizedUtilities;
+        }
+      }
       Object.defineProperty(obj, `$${name}`, {
         get() {
-          return callback(el, memoizedUtilities);
+          return callback(el, getUtilities());
         },
         enumerable: false
       });
     });
     return obj;
-  }
-  function getUtilities(el) {
-    let [utilities, cleanup2] = getElementBoundUtilities(el);
-    let utils = { interceptor, ...utilities };
-    onElRemoved(el, cleanup2);
-    return utils;
   }
   function tryCatch(el, expression, callback, ...args) {
     try {
@@ -1481,8 +1486,8 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
   }
   function destroyTree(root, walker = walk) {
     walker(root, (el) => {
-      cleanupElement(el);
       cleanupAttributes(el);
+      cleanupElement(el);
     });
   }
   function warnAboutMissingPlugins() {
@@ -2062,37 +2067,34 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     }
     return rawValue ? Boolean(rawValue) : null;
   }
-  var booleanAttributes = /* @__PURE__ */ new Set([
-    "allowfullscreen",
-    "async",
-    "autofocus",
-    "autoplay",
-    "checked",
-    "controls",
-    "default",
-    "defer",
-    "disabled",
-    "formnovalidate",
-    "inert",
-    "ismap",
-    "itemscope",
-    "loop",
-    "multiple",
-    "muted",
-    "nomodule",
-    "novalidate",
-    "open",
-    "playsinline",
-    "readonly",
-    "required",
-    "reversed",
-    "selected",
-    "shadowrootclonable",
-    "shadowrootdelegatesfocus",
-    "shadowrootserializable"
-  ]);
   function isBooleanAttr(attrName) {
-    return booleanAttributes.has(attrName);
+    const booleanAttributes = [
+      "disabled",
+      "checked",
+      "required",
+      "readonly",
+      "open",
+      "selected",
+      "autofocus",
+      "itemscope",
+      "multiple",
+      "novalidate",
+      "allowfullscreen",
+      "allowpaymentrequest",
+      "formnovalidate",
+      "autoplay",
+      "controls",
+      "loop",
+      "muted",
+      "playsinline",
+      "default",
+      "ismap",
+      "reversed",
+      "async",
+      "defer",
+      "nomodule"
+    ];
+    return booleanAttributes.includes(attrName);
   }
   function attributeShouldntBePreservedIfFalsy(name) {
     return !["aria-pressed", "aria-checked", "aria-expanded", "aria-selected"].includes(name);
@@ -2193,10 +2195,10 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
       return stores[name];
     }
     stores[name] = value;
-    initInterceptors(stores[name]);
     if (typeof value === "object" && value !== null && value.hasOwnProperty("init") && typeof value.init === "function") {
       stores[name].init();
     }
+    initInterceptors(stores[name]);
   }
   function getStores() {
     return stores;
@@ -3134,10 +3136,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
         placeInDom(el._x_teleport, target2, modifiers);
       });
     };
-    cleanup2(() => mutateDom(() => {
-      clone2.remove();
-      destroyTree(clone2);
-    }));
+    cleanup2(() => clone2.remove());
   });
   var teleportContainerDuringClone = document.createElement("div");
   function getTarget(expression) {
@@ -3625,10 +3624,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     el._x_lookup = {};
     effect3(() => loop(el, iteratorNames, evaluateItems, evaluateKey));
     cleanup2(() => {
-      Object.values(el._x_lookup).forEach((el2) => mutateDom(() => {
-        destroyTree(el2);
-        el2.remove();
-      }));
+      Object.values(el._x_lookup).forEach((el2) => el2.remove());
       delete el._x_prevKeys;
       delete el._x_lookup;
     });
@@ -3697,12 +3693,11 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
       }
       for (let i = 0; i < removes.length; i++) {
         let key = removes[i];
-        if (!(key in lookup))
-          continue;
-        mutateDom(() => {
-          destroyTree(lookup[key]);
-          lookup[key].remove();
-        });
+        if (!!lookup[key]._x_effects) {
+          lookup[key]._x_effects.forEach(dequeueJob);
+        }
+        lookup[key].remove();
+        lookup[key] = null;
         delete lookup[key];
       }
       for (let i = 0; i < moves.length; i++) {
@@ -3823,10 +3818,12 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
       });
       el._x_currentIfEl = clone2;
       el._x_undoIf = () => {
-        mutateDom(() => {
-          destroyTree(clone2);
-          clone2.remove();
+        walk(clone2, (node) => {
+          if (!!node._x_effects) {
+            node._x_effects.forEach(dequeueJob);
+          }
         });
+        clone2.remove();
         delete el._x_currentIfEl;
       };
       return clone2;
@@ -4765,7 +4762,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     }
   };
 
-  // ../../../../usr/local/lib/node_modules/@alpinejs/collapse/dist/module.esm.js
+  // ../alpine/packages/collapse/dist/module.esm.js
   function src_default2(Alpine3) {
     Alpine3.directive("collapse", collapse);
     collapse.inline = (el, { modifiers }) => {
@@ -4815,7 +4812,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
             start: { height: current + "px" },
             end: { height: full + "px" }
           }, () => el._x_isShown = true, () => {
-            if (el.getBoundingClientRect().height == full) {
+            if (Math.abs(el.getBoundingClientRect().height - full) < 1) {
               el.style.overflow = null;
             }
           });
@@ -4859,7 +4856,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
   }
   var module_default2 = src_default2;
 
-  // ../../../../usr/local/lib/node_modules/@alpinejs/focus/dist/module.esm.js
+  // ../alpine/packages/focus/dist/module.esm.js
   var candidateSelectors = ["input", "select", "textarea", "a[href]", "button", "[tabindex]:not(slot)", "audio[controls]", "video[controls]", '[contenteditable]:not([contenteditable="false"])', "details>summary:first-of-type", "details"];
   var candidateSelector = /* @__PURE__ */ candidateSelectors.join(",");
   var NoElement = typeof Element === "undefined";
@@ -5808,7 +5805,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
   }
   var module_default3 = src_default3;
 
-  // ../../../../usr/local/lib/node_modules/@alpinejs/persist/dist/module.esm.js
+  // ../alpine/packages/persist/dist/module.esm.js
   function src_default4(Alpine3) {
     let persist = () => {
       let alias;
@@ -5870,7 +5867,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
   }
   var module_default4 = src_default4;
 
-  // ../../../../usr/local/lib/node_modules/@alpinejs/intersect/dist/module.esm.js
+  // ../alpine/packages/intersect/dist/module.esm.js
   function src_default5(Alpine3) {
     Alpine3.directive("intersect", Alpine3.skipDuringClone((el, { value, expression, modifiers }, { evaluateLater: evaluateLater2, cleanup: cleanup2 }) => {
       let evaluate3 = evaluateLater2(expression);
@@ -5924,51 +5921,6 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     return values.length ? values.join(" ").trim() : fallback2;
   }
   var module_default5 = src_default5;
-
-  // node_modules/@alpinejs/resize/dist/module.esm.js
-  function src_default6(Alpine3) {
-    Alpine3.directive("resize", Alpine3.skipDuringClone((el, { value, expression, modifiers }, { evaluateLater: evaluateLater2, cleanup: cleanup2 }) => {
-      let evaluator = evaluateLater2(expression);
-      let evaluate3 = (width, height) => {
-        evaluator(() => {
-        }, { scope: { "$width": width, "$height": height } });
-      };
-      let off = modifiers.includes("document") ? onDocumentResize(evaluate3) : onElResize(el, evaluate3);
-      cleanup2(() => off());
-    }));
-  }
-  function onElResize(el, callback) {
-    let observer2 = new ResizeObserver((entries) => {
-      let [width, height] = dimensions(entries);
-      callback(width, height);
-    });
-    observer2.observe(el);
-    return () => observer2.disconnect();
-  }
-  var documentResizeObserver;
-  var documentResizeObserverCallbacks = /* @__PURE__ */ new Set();
-  function onDocumentResize(callback) {
-    documentResizeObserverCallbacks.add(callback);
-    if (!documentResizeObserver) {
-      documentResizeObserver = new ResizeObserver((entries) => {
-        let [width, height] = dimensions(entries);
-        documentResizeObserverCallbacks.forEach((i) => i(width, height));
-      });
-      documentResizeObserver.observe(document.documentElement);
-    }
-    return () => {
-      documentResizeObserverCallbacks.delete(callback);
-    };
-  }
-  function dimensions(entries) {
-    let width, height;
-    for (let entry of entries) {
-      width = entry.borderBoxSize[0].inlineSize;
-      height = entry.borderBoxSize[0].blockSize;
-    }
-    return [width, height];
-  }
-  var module_default6 = src_default6;
 
   // ../alpine/packages/anchor/dist/module.esm.js
   var min = Math.min;
@@ -7144,7 +7096,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
       platform: platformWithCache
     });
   };
-  function src_default7(Alpine3) {
+  function src_default6(Alpine3) {
     Alpine3.magic("anchor", (el) => {
       if (!el._x_anchor)
         throw "Alpine: No x-anchor directive found on element using $anchor...";
@@ -7202,7 +7154,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     let unstyled = modifiers.includes("no-style");
     return { placement, offsetValue, unstyled };
   }
-  var module_default7 = src_default7;
+  var module_default6 = src_default6;
 
   // js/plugins/navigate/history.js
   var Snapshot = class {
@@ -7474,10 +7426,8 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
       }
     };
     queueMicrotask(() => {
-      queueMicrotask(() => {
-        scroll(document.body);
-        document.querySelectorAll(["[x-navigate\\:scroll]", "[wire\\:scroll]"]).forEach(scroll);
-      });
+      scroll(document.body);
+      document.querySelectorAll(["[x-navigate\\:scroll]", "[wire\\:scroll]"]).forEach(scroll);
     });
   }
 
@@ -8212,8 +8162,6 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
       let toAttributes = Array.from(to.attributes);
       for (let i = domAttributes.length - 1; i >= 0; i--) {
         let name = domAttributes[i].name;
-        if (name === "style")
-          continue;
         if (!to.hasAttribute(name)) {
           from2.removeAttribute(name);
         }
@@ -8221,8 +8169,6 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
       for (let i = toAttributes.length - 1; i >= 0; i--) {
         let name = toAttributes[i].name;
         let value = toAttributes[i].value;
-        if (name === "style")
-          continue;
         if (from2.getAttribute(name) !== value) {
           from2.setAttribute(name, value);
         }
@@ -8471,13 +8417,13 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     to.setAttribute("id", fromId);
     to.id = fromId;
   }
-  function src_default8(Alpine3) {
+  function src_default7(Alpine3) {
     Alpine3.morph = morph;
   }
-  var module_default8 = src_default8;
+  var module_default7 = src_default7;
 
-  // ../../../../usr/local/lib/node_modules/@alpinejs/mask/dist/module.esm.js
-  function src_default9(Alpine3) {
+  // ../alpine/packages/mask/dist/module.esm.js
+  function src_default8(Alpine3) {
     Alpine3.directive("mask", (el, { value, expression }, { effect: effect3, evaluateLater: evaluateLater2, cleanup: cleanup2 }) => {
       let templateFn = () => expression;
       let lastInputValue = "";
@@ -8639,23 +8585,22 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     });
     return template;
   }
-  var module_default9 = src_default9;
+  var module_default8 = src_default8;
 
   // js/lifecycle.js
   function start2() {
     setTimeout(() => ensureLivewireScriptIsntMisplaced());
     dispatch(document, "livewire:init");
     dispatch(document, "livewire:initializing");
-    module_default.plugin(module_default8);
+    module_default.plugin(module_default7);
     module_default.plugin(history2);
     module_default.plugin(module_default5);
-    module_default.plugin(module_default6);
     module_default.plugin(module_default2);
-    module_default.plugin(module_default7);
+    module_default.plugin(module_default6);
     module_default.plugin(module_default3);
     module_default.plugin(module_default4);
     module_default.plugin(navigate_default);
-    module_default.plugin(module_default9);
+    module_default.plugin(module_default8);
     module_default.addRootSelector(() => "[wire\\:id]");
     module_default.onAttributesAdded((el, attributes) => {
       if (!Array.from(attributes).some((attribute) => matchesForLivewireDirective(attribute.name)))

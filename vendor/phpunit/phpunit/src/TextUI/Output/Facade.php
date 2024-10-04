@@ -9,7 +9,6 @@
  */
 namespace PHPUnit\TextUI\Output;
 
-use const PHP_EOL;
 use function assert;
 use PHPUnit\Event\EventFacadeIsSealedException;
 use PHPUnit\Event\Facade as EventFacade;
@@ -29,8 +28,6 @@ use SebastianBergmann\Timer\Duration;
 use SebastianBergmann\Timer\ResourceUsageFormatter;
 
 /**
- * @no-named-arguments Parameter names are not covered by the backward compatibility promise for PHPUnit
- *
  * @internal This class is not covered by the backward compatibility promise for PHPUnit
  */
 final class Facade
@@ -206,7 +203,7 @@ final class Facade
                 self::$printer,
                 true,
                 true,
-                $configuration->displayDetailsOnPhpunitDeprecations(),
+                true,
                 false,
                 false,
                 true,
@@ -239,7 +236,7 @@ final class Facade
             self::$printer,
             true,
             true,
-            $configuration->displayDetailsOnPhpunitDeprecations(),
+            true,
             true,
             true,
             true,
