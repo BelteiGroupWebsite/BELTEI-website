@@ -58,21 +58,32 @@
                                     <td>{{ $degreeAcademicbatch->batch }}</td>
                                     <td>{{ $degreeAcademicbatch->academic_year }}</td>
                                     <td>{{ $degreeAcademicbatch->studentInfo->count() }}</td>
-                                    <td>{{ $degreeAcademicbatch->studentInfo->whereIn('gender', ['F', 'f'])->count() }}</td>
-                                    <td>{{ $degreeAcademicbatch->studentInfo->min('student_id') }} - {{ $degreeAcademicbatch->studentInfo->max('student_id') }}</td>
+                                    <td>{{ $degreeAcademicbatch->studentInfo->whereIn('gender', ['F', 'f'])->count() }}
+                                    </td>
+                                    <td>{{ $degreeAcademicbatch->studentInfo->min('student_id') }} -
+                                        {{ $degreeAcademicbatch->studentInfo->max('student_id') }}</td>
                                     <td>
-                                        <a href="{{ route('admin.university.certificate-new.show' , $degreeAcademicbatch->id) }}">
+                                        <a
+                                            href="{{ route('admin.university.certificate-new.show', $degreeAcademicbatch->id) }}">
                                             បើកមើល
                                         </a>
                                     </td>
                                     <td>
-                                        <a href="{{ asset('storage/'.$degreeAcademicbatch->reference) }}">
+                                        <a href="{{ asset('storage/' . $degreeAcademicbatch->reference) }}">
                                             បើកមើល
                                         </a>
                                     </td>
                                     <td>
-                                        <a href="{{ route('admin.university.certificate-new.edit', $degreeAcademicbatch->id) }}" class="btn btn-warning bi bi-pencil-square"></a>
-
+                                        <a href="{{ route('admin.university.certificate-new.edit', $degreeAcademicbatch->id) }}"
+                                            class="btn btn-warning bi bi-pencil-square"></a>
+                                        <form id="delete-form-{{ $academicBatch->id }}"
+                                            action="{{ route('admin.university.certificate-new.destroy', $degreeAcademicbatch->id) }}"
+                                            method="POST" style="display: inline;">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="button" class="btn btn-outline-danger bi bi-trash"
+                                                onclick="confirmDelete({{ $degreeAcademicbatch->id }})"></button>
+                                        </form>
                                     </td>
                                 </tr>
                                 {{-- {{ $degreeAcademicbatch->studentInfo }} --}}
@@ -88,5 +99,24 @@
         </div>
     </div>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function confirmDelete(id) {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    document.getElementById('delete-form-' + id).submit();
+                }
+            });
+        }
+    </script>
 
 @endsection
