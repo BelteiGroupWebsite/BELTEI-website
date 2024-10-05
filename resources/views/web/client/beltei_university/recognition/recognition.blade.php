@@ -90,7 +90,7 @@
                             របស់ ACC លេខៈ គ.ទ.ក ០២៤៦១១១២ ចុះថ្ងៃទី១៩ ខែកញ្ញា ឆ្នាំ២០១១ ចុះហត្ថលេខាដោយ ឯកឧត្តម សាម មន្តិយ៉ា
                         </a></td>
                     <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=9"><img
-                                style="width: 150px" src="{{ asset('asset/img/school/recognition/01.png') }}"
+                                style="width: 150px" src="{{ asset('asset/img/university/recognition/acc.jpg') }}"
                                 border="0"></a></td>
                 </tr>
 
@@ -100,7 +100,7 @@
                             របស់ ACC លេខៈ គ.ទ.ក ០២៤៦០៨៣២ ចុះថ្ងៃទី២២ ខែតុលា ឆ្នាំ២០០៨ ចុះហត្ថលេខាដោយ ឯកឧត្តម សុខ អាន </a>
                     </td>
                     <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=10"><img
-                                style="width: 150px" src="{{ asset('asset/img/school/recognition/01.png') }}"
+                                style="width: 150px" src="{{ asset('asset/img/university/recognition/acc.jpg') }}"
                                 border="0"></a></td>
                 </tr>
                 <tr>
