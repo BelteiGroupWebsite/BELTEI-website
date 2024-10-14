@@ -51,7 +51,7 @@
                 {{-- {{ dd($certificates->groupBy('major_id')) }} --}}
 
                 @foreach ($certificates->groupBy('major_id') as $certificatesGroup)
-                    @if ($certificatesGroup->first()->major->faculty)
+                    @if ($certificatesGroup->first()->major)
                         @php
                             $facultyColor = $certificatesGroup->first()->major->faculty->color;
 
