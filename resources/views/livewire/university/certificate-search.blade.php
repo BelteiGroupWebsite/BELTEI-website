@@ -51,25 +51,28 @@
                 {{-- {{ dd($certificates->groupBy('major_id')) }} --}}
 
                 @foreach ($certificates->groupBy('major_id') as $certificatesGroup)
-                    @php
-                        $facultyColor = $certificatesGroup->first()->major->faculty->color;
+                    @if ($certificatesGroup->first()->major->faculty)
+                        @php
+                            $facultyColor = $certificatesGroup->first()->major->faculty->color;
 
-                        if (app()->getLocale() == 'kh') {
-                            $faculty = $certificatesGroup->first()->major->faculty->FacultyKhmer;
-                            $major = $certificatesGroup->first()->major->MajorKhmer;
-                        } else {
-                            $major = $certificatesGroup->first()->major->MajorEnglish;
-                            $faculty = $certificatesGroup->first()->major->faculty->FacultyEnglish;
-                        }
+                            if (app()->getLocale() == 'kh') {
+                                $faculty = $certificatesGroup->first()->major->faculty->FacultyKhmer;
+                                $major = $certificatesGroup->first()->major->MajorKhmer;
+                            } else {
+                                $major = $certificatesGroup->first()->major->MajorEnglish;
+                                $faculty = $certificatesGroup->first()->major->faculty->FacultyEnglish;
+                            }
 
-                    @endphp
-                    <tr>
-                        <td colspan="10" class="text-uppercase text-white title-translate-font"
-                            style="background-color: {{ $facultyColor }}; border-color: {{ $facultyColor }} !important;">
-                            <h6>{{ __('beltei_university/certificate/certificate.faculty') }} {{ $faculty }}</h6>
-                            <p>{{ __('beltei_university/certificate/certificate.major') }} {{ $major }}</p>
-                        </td>
-                    </tr>
+                        @endphp
+                        <tr>
+                            <td colspan="10" class="text-uppercase text-white title-translate-font"
+                                style="background-color: {{ $facultyColor }}; border-color: {{ $facultyColor }} !important;">
+                                <h6>{{ __('beltei_university/certificate/certificate.faculty') }} {{ $faculty }}
+                                </h6>
+                                <p>{{ __('beltei_university/certificate/certificate.major') }} {{ $major }}</p>
+                            </td>
+                        </tr>
+                    @endif
                     @foreach ($certificatesGroup as $certificate)
                         @php
                             $certificateNo = $certificate->certi_no;
