@@ -5,7 +5,7 @@ return [
     'header' => "",
 
     'description' => '
-    
+
 <div>
  <h4 class = "title-translate-font mb-2"> 1. Tuition Fee for National Program  </h4>
  <table class = "table table-hover table-bordered">
@@ -77,19 +77,24 @@ return [
  <th> Year </th>
  </tr>
  <tr>
- <td> Associate Degree </td>
+ <td> Associate of Civil Aviation</td>
  <td> $ 1,100 </td>
  <td> $ 2,000 </td>
  </tr>
  <tr>
- <td> Bachelor Degree </td>
- <td> $ 1,600 </td>
- <td> $ 3,000 </td>
+ <td> Bachelor of Civil Aviation </td>
+ <td> $ 1,100 </td>
+ <td> $ 2,000 </td>
  </tr>
  <tr>
- <td> Master\'s Degree </td>
- <td> $ 2,600 </td>
- <td> $ 5,000 </td>
+ <td> Master of Civil Aviation</td>
+ <td> $ 1,300 </td>
+ <td> $ 2,500 </td>
+ </tr>
+  <tr>
+ <td> Doctoral of Civil Aviation</td>
+ <td> $ 1,800 </td>
+ <td> $ 3,500 </td>
  </tr>
  </table>
  </div>
@@ -121,7 +126,7 @@ return [
  </tr>
  <tr>
  <td> Saturday </td>
- <td> 
+ <td>
  08:00AM – 11:15AM <br>
  01:30PM – 05:30PM
  </td>
@@ -132,8 +137,8 @@ return [
  </tr>
  </table>
  </div>
- 
- 
+
+
     '
-    
+
 ];
