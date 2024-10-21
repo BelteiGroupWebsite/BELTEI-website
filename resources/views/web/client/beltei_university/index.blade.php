@@ -52,6 +52,7 @@
     </div>
 
     <div class="row gy-2 justify-content-center">
+        <img  data-aos="zoom-out-up"  class="w-75 rounded shadow p-0" src="{{ asset('asset\img\university\app\new_term_2024_2025.jpg') }}" alt="">
         <img  data-aos="zoom-out-up"  class="w-75 rounded shadow p-0" src="{{ asset('asset\img\university\app\New_term_3.jpg') }}" alt="">
         <img  data-aos="zoom-out-up"  class="w-75 rounded shadow p-0" src="{{ asset('asset\img\university\app\New_term_4.jpg') }}" alt="">
         <img  data-aos="zoom-out-up"  class="w-75 rounded shadow p-0" src="{{ asset('asset\img\university\app\New_term_5.jpg') }}" alt="">
