@@ -22,18 +22,14 @@
                 @foreach ($biu_news->first()->newsDetail as $item)
                     @if (app()->getLocale() == 'kh')
                         @if ($item->language_id == 1)
-                            <div onclick="toggleDescription(this)" class="cursor-pointer "
-                                {{-- data-fulltext="{{ $item->header }}" --}}
-                                >
+                            <div onclick="toggleDescription(this)" class="cursor-pointer " {{-- data-fulltext="{{ $item->header }}" --}}>
                                 {{-- {{ Str::limit($item->header, 200) }} --}}
                                 {{ $item->header }}
                             </div>
                         @endif
                     @else
                         @if ($item->language_id == 2)
-                            <div onclick="toggleDescription(this)" class="cursor-pointer "
-                                {{-- data-fulltext="{{ $item->header }}" --}}
-                                >
+                            <div onclick="toggleDescription(this)" class="cursor-pointer " {{-- data-fulltext="{{ $item->header }}" --}}>
                                 {{ $item->header }}
                                 {{-- {{ Str::limit($item->header, 200) }} --}}
                             </div>
@@ -99,10 +95,12 @@
             </a>
         @endforeach
 
-        <div>
-            {{ $biu_news->links() }}
+        <div class="py-3 d-flex justify-content-end">
+            <div>
+                {{ $biu_news->links() }}
+            </div>
         </div>
-        
+
     </div>
 
 
