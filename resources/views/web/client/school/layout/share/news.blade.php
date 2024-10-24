@@ -99,6 +99,11 @@
         </a>
     @endforeach
 
+    <div class="py-3 d-flex justify-content-end">
+        <div>
+            {{ $bis_news->links() }}
+        </div>
+    </div>
 
     </div>
 
