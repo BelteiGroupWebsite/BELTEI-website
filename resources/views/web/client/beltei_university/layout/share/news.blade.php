@@ -99,6 +99,10 @@
             </a>
         @endforeach
 
+        <div>
+            {{ $biu_news->links() }}
+        </div>
+        
     </div>
 
 
