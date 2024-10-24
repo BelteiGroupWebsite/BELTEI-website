@@ -28,7 +28,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         PaginationPaginator::useBootstrap();
-    
+
         try {
             // Share languages with all views
             View::share('languages', Language::get());
@@ -38,7 +38,7 @@ class AppServiceProvider extends ServiceProvider
 
             // Share languages with all views
             View::share('countries', Country::get());
-    
+
             // Define an associative array with category IDs and their corresponding view variable names
             $categories = [
                 1 => 'contruction_news',
@@ -53,11 +53,11 @@ class AppServiceProvider extends ServiceProvider
                 10 => 'bicc_news',
                 11 => 'biccr_news',
             ];
-    
+
             // Loop through the categories and share the news for each category with the corresponding view variable name
             foreach ($categories as $category_id => $view_variable) {
                 try {
-                    $news = News::where('category', $category_id)->orderBy('date', 'desc')->get();
+                    $news = News::where('category', $category_id)->orderBy('date', 'desc')->paginate(10);
                     View::share($view_variable, $news);
                 } catch (\Exception $e) {
                     // Handle the exception for individual category query
@@ -71,5 +71,4 @@ class AppServiceProvider extends ServiceProvider
             // You may choose to handle this more gracefully in the user interface, if needed
         }
     }
-    
 }
