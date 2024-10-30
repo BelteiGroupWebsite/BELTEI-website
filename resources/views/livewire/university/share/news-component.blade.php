@@ -1,4 +1,39 @@
 <div class="dailyNews mt-4">
+
+    <style>
+        #slideshow {
+            animation: slideshow 30s infinite ease-in-out;
+        }
+
+        #slideshow:hover img {
+            transform: scale(1);
+        }
+
+        @keyframes slideshow {
+
+            0%,
+            25% {
+                transform: translateX(0%);
+
+            }
+
+            26%,
+            50% {
+                transform: translateX(-100%);
+            }
+
+            51%,
+            75% {
+                transform: translateX(-200%);
+            }
+
+            76%,
+            100% {
+                transform: translateX(-300%);
+            }
+        }
+    </style>
+
     <hr>
     <div>
         <h6 class="Muol-Light p-3 my-2 bg-success text-white">ព្រឹត្តិការណ៍សំខាន់ៗប្រចាំថ្ងៃ</h6>
@@ -8,13 +43,15 @@
     <a href="{{ route('beltei_university.news.detail', $biu_news->first()->id) }}" class="card card-body d-flex">
         {{-- <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex"> --}}
         <div class="overflow-hidden">
-            @if ($biu_news->first()->image)
-                @foreach (array_slice(explode(',', $biu_news->first()->image), 0, 1) as $newsImg)
-                    <img class="rounded shadow-sm width-100 w-100" loading="lazy"
-                        src="{{ asset('uploaded/university/news/images/' . $biu_news->first()->id . '/' . $newsImg) }}"
-                        alt="News Image">
-                @endforeach
-            @endif
+            <div class="position-relative d-flex" id="slideshow">
+                @if ($biu_news->first()->image)
+                    @foreach (array_slice(explode(',', $biu_news->first()->image), 0, 4) as $key => $newsImg)
+                        <img class="rounded shadow-sm width-100 w-100" loading="lazy"
+                            src="{{ asset('uploaded/university/news/images/' . $biu_news->first()->id . '/' . $newsImg) }}"
+                            alt="News Image">
+                    @endforeach
+                @endif
+            </div>
             {{-- <img class="w-100" src="{{ asset('asset/img/school/dailyNews/1/1.jpg') }}" alt=""> --}}
         </div>
         <div class="p-3">
