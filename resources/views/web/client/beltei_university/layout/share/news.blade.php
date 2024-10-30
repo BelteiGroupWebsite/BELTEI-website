@@ -97,7 +97,7 @@
 
         <div class="py-3 d-flex justify-content-end">
             <div>
-                {{ $biu_news->links() }}
+                {{ $biu_news->links('vendor.livewire.bootstrap') }}
             </div>
         </div>
 
