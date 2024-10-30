@@ -85,7 +85,7 @@
     </div>
 
 
-    <livewire:university.share.news-component />
+    {{-- <livewire:university.share.news-component  --}}
     {{-- <livewire:university.certificate-search :degree="3" :batch="$batch" /> --}}
-    {{-- @include('web.client.beltei_university.layout.share.news') --}}
+    @include('web.client.beltei_university.layout.share.news')
 @endsection
