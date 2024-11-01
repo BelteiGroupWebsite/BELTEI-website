@@ -4,6 +4,7 @@
             animation: slideshow 30s infinite ease-in-out;
         }
 
+        #slideshowCon:hover img ,
         #slideshow:hover img {
             transform: scale(1);
         }
@@ -39,7 +40,7 @@
     <hr>
 
         {{-- Hot News  --}}
-        <a href="{{ route('beltei_university.news.detail' , $bis_news->first()->id) }}" class="card card-body d-flex">
+        <a href="{{ route('beltei_university.news.detail' , $bis_news->first()->id) }}" class="card card-body d-flex" id="slideshowCon">
             {{-- <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex"> --}}
                 <div class="overflow-hidden">
                     <div class="position-relative d-flex" id="slideshow">
