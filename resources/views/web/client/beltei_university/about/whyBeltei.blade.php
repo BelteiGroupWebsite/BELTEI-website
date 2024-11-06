@@ -8,6 +8,10 @@
 
         <div>
             <img class="w-75 text-center my-3" src="{{ asset('asset/img/university/about/whybeltei.jpg') }}" alt="">
+            <img class="w-75 text-center my-3" src="{{ asset('asset/img/university/about/1.png') }}" alt="">
+            <img class="w-75 text-center my-3" src="{{ asset('asset/img/university/about/2.png') }}" alt="">
+            <img class="w-75 text-center my-3" src="{{ asset('asset/img/university/about/3.png') }}" alt="">
+            <img class="w-75 text-center my-3" src="{{ asset('asset/img/university/about/4.png') }}" alt="">
         </div>
 
         <div class="content-translate-font text-justify">
