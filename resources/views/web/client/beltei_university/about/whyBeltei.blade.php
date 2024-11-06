@@ -8,7 +8,7 @@
 
         <div>
             <img class="w-75 text-center my-3" src="{{ asset('asset/img/university/about/whybeltei.jpg') }}" alt="">
-            <div class="d-flex">
+            <div class="row">
 
                 <img class="col-6 text-center my-3" src="{{ asset('asset/img/university/about/1.png') }}" alt="">
                 <img class="col-6 text-center my-3" src="{{ asset('asset/img/university/about/2.png') }}" alt="">
