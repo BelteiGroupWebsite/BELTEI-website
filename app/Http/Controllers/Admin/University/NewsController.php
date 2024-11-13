@@ -96,7 +96,7 @@ class NewsController extends Controller
             1 => 'contruction',
             2 => 'school',
             3 => 'beltei_university',
-            4 => 'bir_news',
+            4 => 'relation',
             5 => 'tour_news',
             6 => 'testcenter_news',
             7 => 'charity_news',
@@ -115,7 +115,7 @@ class NewsController extends Controller
             abort(404, 'Category not found');
         }
         // Return the appropriate view
-        return view("web.client.beltei_university.news.detail", compact('news' , 'category'));
+        return view("web.client.beltei_university.news.detail", compact('news', 'category'));
     }
 
     /**
