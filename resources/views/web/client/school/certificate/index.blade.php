@@ -65,7 +65,7 @@
                             @else
                             <td>{{ $academicBatch->batch }}</td>
                             @endif --}}
-                        <td>{{ $academicBatch->start_academic_year }}</td>
+                        <td>{{ $academicBatch->start_academic_year . " - " . $academicBatch->start_academic_year+1 }}</td>
                         <td>{{ $academicBatch->batch }}</td>
                         <td>{{ $academicBatch->studentInfo->count() }}</td>
                         <td>{{ $academicBatch->studentInfo->where('gender', 'F')->count() }}</td>
