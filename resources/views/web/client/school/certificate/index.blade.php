@@ -11,15 +11,17 @@
                 <h4 class="pt-2 text-uppercase">{{ $grades->grade_latin }}</h4>
             </div>
         </div> --}}
-        
-        
-        <table class="table table-bordered table-hover table-responsive title-translate-font vertical-align-middle overflow-hidden shadow-sm" id="box-table-a"
-            border="0" width="100%" align="center">
+
+
+        <table
+            class="table table-bordered table-hover table-responsive title-translate-font vertical-align-middle overflow-hidden shadow-sm"
+            id="box-table-a" border="0" width="100%" align="center">
             <thead class="align-middle">
                 <tr>
                     <td colspan="10" class="p-0">
                         <div class="d-flex gap-3 bg-header-color align-items-center position-relative overflow-hidden">
-                            <img class="max-width-80 float-end" src="{{ asset('asset/img/school/app/' . $grades->id . '.jpg') }}" alt="">
+                            <img class="max-width-80 float-end"
+                                src="{{ asset('asset/img/school/app/' . $grades->id . '.jpg') }}" alt="">
 
                             <div class="title-translate-font w-100" style="color: gold">
                                 <h4>{{ $grades->grade_kh }}</h4>
@@ -35,11 +37,12 @@
                 </tr> --}}
                 <tr class="" style="background-color: lightblue">
 
-                    @if ($program == 1)
+                    {{-- @if ($program == 1)
                         <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
-                    @else
+                        @else
                         <td rowspan="2">{{ __('school/certificate/index.batch') }}</td>
-                    @endif
+                        @endif --}}
+                    <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
                     <td rowspan="2">{{ __('school/certificate/index.batch') }}</td>
 
                     <td colspan="2">{{ __('school/certificate/index.amout_sts') }}</td>
@@ -57,24 +60,28 @@
                     <tr>
 
                         {{-- <td>{{ $academicBatch->start_academic_year }}</td> --}}
-                        @if ($program == 1)
+                        {{-- @if ($program == 1)
                             <td>{{ $academicBatch->start_academic_year }}</td>
-                        @else
+                            @else
                             <td>{{ $academicBatch->batch }}</td>
-                        @endif
+                            @endif --}}
+                        <td>{{ $academicBatch->start_academic_year }}</td>
                         <td>{{ $academicBatch->batch }}</td>
                         <td>{{ $academicBatch->studentInfo->count() }}</td>
                         <td>{{ $academicBatch->studentInfo->where('gender', 'F')->count() }}</td>
-                        <td>{{ $academicBatch->studentInfo->min('student_id') }} - {{ $academicBatch->studentInfo->max('student_id') }}</td>
+                        <td>{{ $academicBatch->studentInfo->min('student_id') }} -
+                            {{ $academicBatch->studentInfo->max('student_id') }}</td>
                         <td>
-                            <a style="text-decoration: underline;" href="{{ route('school.certificate.detail' , $academicBatch->id) }}">{{ __('school/certificate/index.open') }}</a>
+                            <a style="text-decoration: underline;"
+                                href="{{ route('school.certificate.detail', $academicBatch->id) }}">{{ __('school/certificate/index.open') }}</a>
                         </td>
                         <td>
-                            <a style="text-decoration: underline;" href="{{ asset('storage/'.$academicBatch->reference) }}">{{ __('school/certificate/index.reference') }}</a>
+                            <a style="text-decoration: underline;"
+                                href="{{ asset('storage/' . $academicBatch->reference) }}">{{ __('school/certificate/index.reference') }}</a>
                         </td>
                     </tr>
                 @endforeach
-                
+
             </tbody>
         </table>
 
