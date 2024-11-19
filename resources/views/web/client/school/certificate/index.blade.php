@@ -35,11 +35,11 @@
                 </tr> --}}
                 <tr class="" style="background-color: lightblue">
 
-                    {{-- @if ($program == 1)
+                    @if ($program == 1)
                         <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
                     @else
                         <td rowspan="2">{{ __('school/certificate/index.batch') }}</td>
-                        @endif --}}
+                    @endif
                     <td rowspan="2">{{ __('school/certificate/index.batch') }}</td>
 
                     <td colspan="2">{{ __('school/certificate/index.amout_sts') }}</td>
@@ -56,6 +56,12 @@
                 @foreach ($grades->academicBatch as $academicBatch)
                     <tr>
 
+                        {{-- <td>{{ $academicBatch->start_academic_year }}</td> --}}
+                        @if ($program == 1)
+                            <td>{{ $academicBatch->start_academic_year }}</td>
+                        @else
+                            <td>{{ $academicBatch->batch }}</td>
+                        @endif
                         <td>{{ $academicBatch->batch }}</td>
                         <td>{{ $academicBatch->studentInfo->count() }}</td>
                         <td>{{ $academicBatch->studentInfo->where('gender', 'F')->count() }}</td>
