@@ -59,9 +59,11 @@
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
             src="{{ asset('asset/img/university/app/new_term_2024_2025.jpg') }}" alt="">
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
+            src="{{ asset('asset/img/university/app/new_term_2024_2025_1.jpg') }}" alt="">
+            {{-- <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
                 src="{{ asset('asset/img/university/app/F.ChineseIntakedone.jpg') }}" alt="">
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
-                src="{{ asset('asset/img/university/app/F.ChineseIntake.jpg') }}" alt="">
+                src="{{ asset('asset/img/university/app/F.ChineseIntake.jpg') }}" alt=""> --}}
 
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
                 src="{{ asset('asset/img/university/app/New_term_3.jpg') }}" alt="">
