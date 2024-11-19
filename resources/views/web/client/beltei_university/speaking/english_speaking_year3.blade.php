@@ -9,9 +9,47 @@
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16"
-                src="https://www.youtube.com/embed/q7ptDlCVANA?si=B-Aw7jUSSoMZ9c46"></iframe>
+                src="https://www.youtube.com/embed/_yQE3icwy6I?si=qg0I52ebmWSAvpoa"></iframe>
         </div>
 
+        <hr class="border border-success border-3">
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2023 ({{ __('school/public-speaking/public-speaking.Batch') }} 8)</h5>
+        <div class="row">
+            <div class="col-4 height-200 content-translate-font">
+                <iframe class="w-100 rounded shadow-sm " width="" height=""
+                    src="https://www.youtube.com/embed/_yQE3icwy6I?si=qg0I52ebmWSAvpoa" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="goldenrod font-bold">
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n1') }}
+                    </p>
+            </div>
+            <div class="col-4 height-200 content-translate-font">
+                <iframe class="w-100 rounded shadow-sm " width="" height=""
+                    src="https://www.youtube.com/embed/VakyIzdI-4s?si=0ZMPeh6csx2znRCx" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="goldenrod font-bold">
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n2') }}
+                    </p>
+            </div>
+            <div class="col-4 height-200 content-translate-font">
+                <iframe class="w-100 rounded shadow-sm " width="" height=""
+                    src="https://www.youtube.com/embed/9cRiqtBdFGI?si=WX_RNIq1wrna0d5U" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="goldenrod font-bold">
+                        {{ __('school/public-speaking/public-speaking.place') }} {{ __('school/public-speaking/public-speaking.n3') }}
+                    </p>
+            </div>
+        </div>
+
+        
+        
+        
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">{{ __('school/public-speaking/public-speaking.thewinner')  }} {{ __('school/public-speaking/public-speaking.n1') }}{{ __('school/public-speaking/public-speaking.n2') }} {{ __('school/public-speaking/public-speaking.in') }} 2023 ({{ __('school/public-speaking/public-speaking.Batch') }} 8)</h5>
         <div class="row">
