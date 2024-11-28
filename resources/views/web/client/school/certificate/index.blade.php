@@ -36,9 +36,10 @@
                     </td>
                 </tr> --}}
                 <tr class="" style="background-color: lightblue">
-                    @if (!in_array($program, $arr))
+                    {{ $program . ' ' . $arr }}
+                    {{-- @if (!in_array($program, $arr))
                         <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
-                    @endif
+                    @endif --}}
                     {{-- <td rowspan="2">{{ __('school/certificate/index.year') }}</td> --}}
                     <td rowspan="2">{{ __('school/certificate/index.batch') }}</td>
 
@@ -57,11 +58,10 @@
                     <tr>
 
                         {{-- <td>{{ $academicBatch->start_academic_year }}</td> --}}
-                        @if (!in_array($program, $arr))
-                            {{-- <td>{{ $academicBatch->start_academic_year }}</td> --}}
+                        {{-- @if (!in_array($program, $arr))
                             <td>{{ $academicBatch->start_academic_year . ' - ' . $academicBatch->start_academic_year + 1 }}
                             </td>
-                        @endif
+                        @endif --}}
                         <td>{{ $academicBatch->batch }}</td>
                         <td>{{ $academicBatch->studentInfo->count() }}</td>
                         <td>{{ $academicBatch->studentInfo->where('gender', 'F')->count() }}</td>
