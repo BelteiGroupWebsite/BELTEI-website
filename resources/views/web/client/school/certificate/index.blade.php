@@ -36,13 +36,11 @@
                     </td>
                 </tr> --}}
                 <tr class="" style="background-color: lightblue">
-
-                    {{-- @if ($program == 1)
+                    @endphp
+                    @if (!in_array($program, $arr))
                         <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
-                        @else
-                        <td rowspan="2">{{ __('school/certificate/index.batch') }}</td>
-                        @endif --}}
-                    <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
+                    @endif
+                    {{-- <td rowspan="2">{{ __('school/certificate/index.year') }}</td> --}}
                     <td rowspan="2">{{ __('school/certificate/index.batch') }}</td>
 
                     <td colspan="2">{{ __('school/certificate/index.amout_sts') }}</td>
@@ -60,12 +58,11 @@
                     <tr>
 
                         {{-- <td>{{ $academicBatch->start_academic_year }}</td> --}}
-                        {{-- @if ($program == 1)
-                            <td>{{ $academicBatch->start_academic_year }}</td>
-                            @else
-                            <td>{{ $academicBatch->batch }}</td>
-                            @endif --}}
-                        <td>{{ $academicBatch->start_academic_year . " - " . $academicBatch->start_academic_year+1 }}</td>
+                        @if (!in_array($program, $arr))
+                            {{-- <td>{{ $academicBatch->start_academic_year }}</td> --}}
+                            <td>{{ $academicBatch->start_academic_year . ' - ' . $academicBatch->start_academic_year + 1 }}
+                            </td>
+                        @endif
                         <td>{{ $academicBatch->batch }}</td>
                         <td>{{ $academicBatch->studentInfo->count() }}</td>
                         <td>{{ $academicBatch->studentInfo->where('gender', 'F')->count() }}</td>

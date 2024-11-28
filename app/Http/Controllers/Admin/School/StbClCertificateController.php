@@ -73,9 +73,11 @@ class StbClCertificateController extends Controller
 
         $grades = StbGrade::where('id' , $grade_id)->first();
 
+        $arr = [5, 6, 8];
+        
         // dd($grades->academicBatch);
         
-        return view('web.client.school.certificate.index' , compact('grades'));
+        return view('web.client.school.certificate.index' , compact('grades' , 'arr'));
         
     }
     
