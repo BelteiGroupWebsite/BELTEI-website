@@ -36,7 +36,6 @@
                     </td>
                 </tr> --}}
                 <tr class="" style="background-color: lightblue">
-                    @endphp
                     @if (!in_array($program, $arr))
                         <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
                     @endif
