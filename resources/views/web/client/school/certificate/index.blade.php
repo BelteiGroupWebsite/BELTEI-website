@@ -36,7 +36,7 @@
                     </td>
                 </tr> --}}
                 <tr class="" style="background-color: lightblue">
-                    {{ $program . ' ' . $arr }}
+                    {{-- {{ $program . ' ' . $arr }} --}}
                     {{-- @if (!in_array($program, $arr))
                         <td rowspan="2">{{ __('school/certificate/index.year') }}</td>
                     @endif --}}
