@@ -155,10 +155,10 @@
             <div>
                 <h5 class="text-center bg-success py-3 gold">ប៊ែលធីសាខាទី ${key + 1} (${campusNameArr[key]})</h5>
                 <div class="d-flex align-items-center p-2 content-translate-font">
-                    <p>
+                    <p class="p-2">
                         ${description}
                     </p>
-                    <img class="float-end rounded shadow p-2"
+                    <img class="float-end rounded shadow p-2" style="max-width: 400px; max-height: 400px"
                         src="{{ asset('asset/img/school/campus/school-B${key+1}.jpg') }}"
                         alt="">
                 </div>
