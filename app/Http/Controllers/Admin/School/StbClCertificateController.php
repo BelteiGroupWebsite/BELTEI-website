@@ -9,6 +9,7 @@ use App\Models\School\Certificate\StbProgram;
 use App\Models\School\Certificate\StbStudentInfo;
 use Illuminate\Http\Request;
 use Maatwebsite\Excel\Facades\Excel;
+
 class StbClCertificateController extends Controller
 {
     /**
@@ -67,33 +68,34 @@ class StbClCertificateController extends Controller
         //
     }
 
-    public function certificateSection($grade_id){
+    public function certificateSection($grade_id)
+    {
 
         // $program = StbProgram::where('id' , $program)->first();
 
-        $grades = StbGrade::where('id' , $grade_id)->first();
+        $grades = StbGrade::where('id', $grade_id)->first();
 
-        $arr = [5, 6, 8];
-        
+        $arr = [4, 5, 6, 8];
+
         // dd($grades->academicBatch);
-        
-        return view('web.client.school.certificate.index' , compact('grades' , 'arr'));
-        
+
+        return view('web.client.school.certificate.index', compact('grades', 'arr'));
     }
-    
-    public function certificateBatchSection($academicbatch){
+
+    public function certificateBatchSection($academicbatch)
+    {
         // $academicBatch = StbAcademicBatch::where('id', $academicbatch)->first();
 
         // $academicBatchId = $academicBatch->id;
         $academicBatchId = $academicbatch;
         // $gradeId = $academicBatch->grade->id;
         // $programId = $academicBatch->grade->program->id;
-        
+
         // $studentInfo = $academicBatch->studentInfo()->paginate(30); // Change 10 to the number of records per page you want  
 
         // dd($studentInfo);
-        
+
         // return view('web.client.school.certificate.detail' , compact('studentInfo' , 'programId' , 'gradeId' , 'academicBatchId'));
-        return view('web.client.school.certificate.detail' , compact('academicBatchId'));
+        return view('web.client.school.certificate.detail', compact('academicBatchId'));
     }
 }
