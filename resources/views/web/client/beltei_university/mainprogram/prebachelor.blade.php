@@ -3,6 +3,27 @@
 
 @section('content')
     <style>
+        table,
+        th,
+        td {
+            border: 1px solid #d7d7d7;
+            border-collapse: collapse;
+            /* font-family: "Content", cursive; */
+            padding: 10px;
+            text-align: center;
+        }
+
+        table,
+        .subjects {
+            width: 100%;
+            margin: auto;
+        }
+
+        th {
+            background: #0181ca;
+            color: #fff;
+        }
+
         .subjects th {
             background-color: #FFC62A;
         }
