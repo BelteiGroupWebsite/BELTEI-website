@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div class="p-lg-3">
+    <div class="p-lg-3">
 
         <h2 class="title-translate-font my-3 underline Blue-color">{{ __('beltei_university/about/history.header') }}</h2>
 
@@ -21,6 +21,24 @@
             </div>
             <div class="col-6">
                 <img class="w-100" src="{{ asset('asset/img/university/campus/BIU2.png') }}" alt="">
+            </div>
+            <div class="col-6">
+                <img class="w-100" src="{{ asset('asset/img/university/campus/map/biu1.jpg') }}" alt="">
+            </div>
+            <div class="col-6">
+                <img class="w-100" src="{{ asset('asset/img/university/campus/map/biu2.jpg') }}" alt="">
+            </div>
+            <div class="col-6">
+                {{-- <img class="w-100" src="{{ asset('asset/img/university/campus/map/biu1.jpg') }}" alt=""> --}}
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15636.232687399719!2d104.9168647!3d11.5476849!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109511f69ba6309%3A0xc65060947881cb4e!2sBELTEI%20International%20University%20(Campus%201%2C%20Tuol%20Sleng)!5e0!3m2!1sen!2skh!4v1722940783471!5m2!1sen!2skh"
+                    class="w-100" frameborder="0"></iframe>
+            </div>
+            <div class="col-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15637.514707648124!2d104.823231!3d11.5246703!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31094fbd312449f5%3A0xaf3393bc9eda7678!2sBELTEI%20International%20University%20(Campus%202%2C%20Chaom%20Chao%20Flyover)!5e0!3m2!1sen!2skh!4v1722940869245!5m2!1sen!2skh"
+                    class="w-100" frameborder="0"></iframe>
+                {{-- <img class="w-100" src="{{ asset('asset/img/university/campus/map/biu2.jpg') }}" alt=""> --}}
             </div>
         </div>
 
