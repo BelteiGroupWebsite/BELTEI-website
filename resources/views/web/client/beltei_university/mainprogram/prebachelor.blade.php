@@ -41,7 +41,7 @@
             <img class="w-80" src="{{ asset('asset/img/university/main_degree/chinese/logo.png') }}" alt="">
         </div>
 
-        <div class="chinese-detail text-start content-translate-font">
+        <div class="chinese-detail text-start content-translate-font my-3">
             <div>
                 <p>{{ __('beltei_university/mainprogram/prebachelor.chinese-detail') }}</p>
             </div>
