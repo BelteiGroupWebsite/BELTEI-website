@@ -24,7 +24,8 @@
                             (Quality Management System) ទទួលស្គាល់ពីសហមន៍អឺរ៉ុប (AXE-European Accreditation)
                             លេខ N. KH24-24607A</a></td>
                     <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=14"><img
-                                style="width: 150px" src="{{ asset('asset/img/university/recognition/ISO9001_2015.png') }}"
+                                style="width: 150px"
+                                src="{{ asset('asset/img/university/recognition/internationallogo.png') }}"
                                 border="0"></a></td>
                 </tr>
                 <tr>
