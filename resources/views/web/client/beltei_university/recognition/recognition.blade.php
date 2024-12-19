@@ -7,22 +7,23 @@
             border="0" width="100%" align="center">
             <tbody>
 
+
                 <tr>
                     <td>១</td>
-                    <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=14">វិញ្ញាបនបត្រអន្តរជាតិ
-                            ស្តង់ដារ ISO 9001:2015 លើប្រព័ន្ធគ្រប់គ្រងគុណភាព
-                            (Quality Management System) ទទួលស្គាល់ពីសហមន៍អឺរ៉ុប (AXE-European Accreditation)
-                            លេខ N. KH24-24607A</a></td>
-                    <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=14"><img
+                    <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=13">វិញ្ញាបនបត្រទទួលស្គាល់ស្តង់ដារជាតិ
+                            (ISO 9001:2015) លើ ប្រព័ន្ធគ្រប់គ្រងគុណភាព (Quality Management System) ពីវិទ្យាស្ថាន
+                            ស្តង់ដារកម្ពុជា (ISC) នៃព្រះរាជាណាចក្រកម្ពុជា លេខ No. QMS 006/24 D/DER-ISC</a></td>
+                    <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=13"><img
                                 style="width: 150px" src="{{ asset('asset/img/university/recognition/ISO9001_2015.png') }}"
                                 border="0"></a></td>
                 </tr>
                 <tr>
                     <td>២</td>
-                    <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=13">វិញ្ញាបនបត្រទទួលស្គាល់ស្តង់ដារជាតិ
-                            (ISO 9001:2015) លើ ប្រព័ន្ធគ្រប់គ្រងគុណភាព (Quality Management System) ពីវិទ្យាស្ថាន
-                            ស្តង់ដារកម្ពុជា (ISC) នៃព្រះរាជាណាចក្រកម្ពុជា លេខ No. QMS 006/24 D/DER-ISC</a></td>
-                    <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=13"><img
+                    <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=14">វិញ្ញាបនបត្រអន្តរជាតិ
+                            ស្តង់ដារ ISO 9001:2015 លើប្រព័ន្ធគ្រប់គ្រងគុណភាព
+                            (Quality Management System) ទទួលស្គាល់ពីសហមន៍អឺរ៉ុប (AXE-European Accreditation)
+                            លេខ N. KH24-24607A</a></td>
+                    <td><a href="{{ route('beltei_university.recognition.recognitiondetail') }}?id=14"><img
                                 style="width: 150px" src="{{ asset('asset/img/university/recognition/ISO9001_2015.png') }}"
                                 border="0"></a></td>
                 </tr>
