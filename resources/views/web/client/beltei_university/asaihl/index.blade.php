@@ -197,7 +197,7 @@
             </div>
         </div> --}}
 
-        <div class="frame my-4 d-flex justify-content-center">
+        <div class="frame my-2 d-flex justify-content-center">
 
             <iframe class="w-100" width="560" height="415"
                 src="https://www.youtube.com/embed/XRg3XUz24fI?si=2QaYU0zGICIybOme" title="YouTube video player"
@@ -329,7 +329,7 @@
 
         </div>
 
-        <div class="footer d-flex justify-content-between my-3 px-4 py-5 gold" id="footer">
+        <div class="footer d-flex justify-content-between px-4 py-5 gold" id="footer">
 
             <div class="logo-footer col-6">
                 <div class="d-flex gap-3 mb-2">
