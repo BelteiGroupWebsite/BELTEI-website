@@ -64,8 +64,9 @@
 
         .selection {
             display: grid;
-            grid-template-columns: auto auto auto auto;
-            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            /* grid-template-columns: auto auto auto auto; */
+            gap: 12px;
         }
 
         .selection a {
@@ -94,7 +95,9 @@
             height: 100%;
             position: absolute;
             z-index: -10;
-            background-color: #003572d8;
+            /* background-color: #003572d8; */
+            background-color: #003572;
+
             top: 0;
             left: 0;
         }
@@ -104,13 +107,13 @@
         .footer-icon-container div {
             display: flex;
             justify-content: center;
-            gap: 1rem;
+            gap: .75rem;
             margin-block: 1rem;
         }
 
         .footer-icon-container i {
 
-            font-size: 26px;
+            font-size: 20px;
             color: white;
         }
     </style>
@@ -140,7 +143,7 @@
 
                 // Display the result
                 document.getElementById("countdown").innerHTML =
-                    `<span>${days} Days</span> <span>${hours} Hrs</span> <span>${minutes} Min</span> <span>${seconds} Sec</span>`;
+                    `<small><span>${days} Days</span> <span>${hours} Hrs</span> <span>${minutes} Min</span> <span>${seconds} Sec</span></small>`;
             }, 100);
         });
     </script>
@@ -151,15 +154,15 @@
                 <div>
                     <img class="w-100" src="{{ asset('asset/img/university/asaihl/banner/banner2.jpg') }}" alt="">
                 </div>
-                <div class="countdown position-absolute bottom-0 start-0 w-100 background-asaihl p-3 gold">
+                <div class="countdown position-absolute bottom-0 start-0 w-100 background-asaihl p-3 pb-4 gold">
                     <div class="d-flex justify-content-evenly align-items-center gap-3 w-100 text-center">
-                        <img class="max-height-100" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
+                        <img class="max-height-80" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
                         <div>
                             <h5 class="pb-4">
                                 <strong>2025 ASAIHL Conference</strong> at BELTEI International University, <br>
                                 Phnom Penh, Kingdom of Cambodia
                             </h5>
-                            <div class="countdown-div position-absolute " style="right: 10px; bottom: 10px" id="countdown">
+                            <div class="countdown-div position-absolute " style="right: 30px; bottom: 10px" id="countdown">
                                 <span>Loading ...</span>
                             </div>
                         </div>
@@ -329,9 +332,9 @@
 
         </div>
 
-        <div class="footer d-flex justify-content-between px-4 py-5 gold" id="footer">
+        <div class="footer d-flex gap-3 align-items-center justify-content-between px-4 py-4 gold" id="footer">
 
-            <div class="logo-footer col-6">
+            <div class="logo-footer ">
                 <div class="d-flex gap-3 mb-2">
                     <div>
                         <img class="max-height-50"
@@ -343,10 +346,8 @@
                 </div>
                 <div style="line-height: .3;">
                     <small style="line-height: normal;">
-                        <br>
                         <span class="gold">Campus 1 (Toul Sleng):</span><br>
                         <span class="text-white">#21, Street, Sangkat Boeung KengKang III, Khan Boeung KengKang, Phnom Penh. (100m south of Tuol Sleng Genocide Museum)</span>
-                        <br>
                         <br>
                         <span class="gold">Campus 2 (Chom Cao Flyover):</span><br>
                         <span class="text-white">#151, National Road No. 3, Sangkat Chom Chao II, Khan Posenchey, Phnom Penh.</span>
@@ -355,24 +356,15 @@
                 </div>
             </div>
 
-            <div class="social-media col-4">
+            <div class="social-media text-center">
                 <h6>GET MORE UPDATES ON OUR SOCIAL MEDIA</h6>
                 <div class="footer-icon-container">
                     <div>
-
                         <a href=""><i class="fa-brands fa-facebook"></i></a>
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
                         <a href=""><i class="fa-brands fa-tiktok"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    </div>
-
-                    <div>
-
-
                         <a href=""><i class="fa-brands fa-youtube"></i></a>
                         <a href=""><i class="fa-brands fa-telegram"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
