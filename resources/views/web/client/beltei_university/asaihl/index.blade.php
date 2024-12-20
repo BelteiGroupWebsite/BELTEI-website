@@ -2,6 +2,41 @@
 
 @section('content')
     <style>
+        .background-asaihl {
+            position: relative;
+            z-index: 10;
+            background-color: #003572;
+        }
+
+        .background-asaihl::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: #0035729f;
+            z-index: -1;
+            top: 0;
+            left: 0;
+
+        }
+
+        .background-asaihl::before {
+            /* background-color: #003572; */
+            /* background: url('{{ asset('asset/img/university/asaihl/banner/background.png') }}') no-repeat center; */
+
+            background-color: #007222;
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -10;
+            background: url('{{ asset('asset/img/university/asaihl/banner/background.png') }}') no-repeat bottom;
+            background-size: 100%;
+
+            top: 0;
+            left: 0;
+        }
+
         .detail-container {
             padding: 1rem;
             border-radius: .5rem;
@@ -20,18 +55,37 @@
         }
 
         .countdown-div span {
-            padding: .5rem 1rem;
-            background-color: gold;
+            padding: .2rem 1rem;
+            background-color: goldenrod;
             color: white;
             border-radius: 50px;
-            font-weight: 900;
+            font-weight: bold;
         }
+
+        .selection {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+        }
+
+        .selection a {
+            text-align: center;
+            color: whitesmoke;
+            padding: 1rem;
+            border-radius: .5rem;
+            font-weight: bold;
+            /* width: 200px; */
+            background-color: #003572;
+        }
+
+        .selection div a {}
 
         #footer {
             /* background-image: url('https://static.vecteezy.com/system/resources/thumbnails/017/518/564/small/outline-phnom-penh-cambodia-city-skyline-with-blue-buildings-vector.jpg'); */
             position: relative;
             z-index: 10;
-            background-image: url('https://img.freepik.com/premium-vector/vector-illustration-phnom-penh-skyline-cambodia_668947-342.jpg');
+            background: url('https://img.freepik.com/premium-vector/vector-illustration-phnom-penh-skyline-cambodia_668947-342.jpg') no-repeat center;
+            background-size: cover;
         }
 
         #footer::before {
@@ -40,21 +94,24 @@
             height: 100%;
             position: absolute;
             z-index: -10;
-            background-color: rgba(0, 0, 139, 0.75);
+            background-color: #003572d8;
             top: 0;
             left: 0;
         }
 
+
+
         .footer-icon-container div {
             display: flex;
+            justify-content: center;
             gap: 1rem;
             margin-block: 1rem;
         }
 
         .footer-icon-container i {
 
-            font-size: 30px;
-
+            font-size: 26px;
+            color: white;
         }
     </style>
 
@@ -83,31 +140,52 @@
 
                 // Display the result
                 document.getElementById("countdown").innerHTML =
-                    `<span>${days}d</span> <span>${hours}h</span> <span>${minutes}m</span> <span>${seconds}s</span>`;
+                    `<span>${days} Days</span> <span>${hours} Hrs</span> <span>${minutes} Min</span> <span>${seconds} Sec</span>`;
             }, 100);
         });
     </script>
 
     <div class="text-start">
-        <div class="banner my-5">
-            <div>
-                <img class="w-100" src="https://www.heartmath.co.uk/wp-content/uploads/2018/05/placeholder-landscape.png"
-                    alt="">
-            </div>
-            <div class="countdown bg-primary d-flex justify-content-between align-items-center p-4 gold">
+        <div class="banner mb-4">
+            <div class="position-relative mb-3">
                 <div>
-                    <h5>2025 ASAIHL</h5>
-                    <p>at BELTEI International University</p>
+                    <img class="w-100" src="{{ asset('asset/img/university/asaihl/banner/banner2.jpg') }}" alt="">
                 </div>
+                <div class="countdown position-absolute bottom-0 start-0 w-100 background-asaihl p-3 gold">
+                    <div class="d-flex justify-content-evenly align-items-center gap-3 w-100 text-center">
+                        <img class="max-height-100" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
+                        <div>
+                            <h5 class="pb-4">
+                                <strong>2025 ASAIHL Conference</strong> at BELTEI International University, <br>
+                                Phnom Penh, Kingdom of Cambodia
+                            </h5>
+                            <div class="countdown-div position-absolute " style="right: 10px; bottom: 10px" id="countdown">
+                                <span>Loading ...</span>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="countdown-div" id="countdown">
-                    <span>Loading ...</span>
                 </div>
             </div>
+            <div class="">
+                <img class="w-100" src="{{ asset('asset/img/university/asaihl/banner/banner1.jpg') }}" alt="">
+            </div>
+            <hr class="" style="border: 5px solid #003572; ">
         </div>
 
 
-        <div class="logo">
+        <div class="selection my-5">
+            <a href="">About Us</a>
+            <a href="">Registration</a>
+            <a href="">Paper Submission</a>
+            <a href="">Conference Program</a>
+            <a href="">Venue</a>
+            <a href="">Travel Information</a>
+            <a href="">Tour Destination</a>
+            <a href="">Contact Us</a>
+        </div>
+
+        {{-- <div class="logo">
             <div class="d-flex justify-content-center align-items-center gap-5">
                 <div>
                     <img class="max-height-150"
@@ -117,18 +195,19 @@
                     <img class="max-height-150" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="frame my-4 d-flex justify-content-center">
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XRg3XUz24fI?si=2QaYU0zGICIybOme"
-                title="YouTube video player" frameborder="0"
+            <iframe class="w-100" width="560" height="415"
+                src="https://www.youtube.com/embed/XRg3XUz24fI?si=2QaYU0zGICIybOme" title="YouTube video player"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         </div>
 
-        <div class="about detail-container">
+        {{-- <div class="about detail-container">
             <h4>About BELTEI International University</h4>
 
             <div>
@@ -244,7 +323,7 @@
             <p>
                 3. Community services as climate crises resolution framework
             </p>
-        </div>
+        </div> --}}
 
         <div class="selection">
 
@@ -262,11 +341,18 @@
                         <img class="max-height-50" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
                     </div>
                 </div>
-                <small>
-                    Airlangga Global Engagement, Airlangga Sharia Entrepreneurship Education Center (ASEEC) Tower 12th
-                    floor,
-                    Jl. Airlangga, Gubeng, Surabaya, East Java 60286
-                </small>
+                <div style="line-height: .3;">
+                    <small style="line-height: normal;">
+                        <br>
+                        <span class="gold">Campus 1 (Toul Sleng):</span><br>
+                        <span class="text-white">#21, Street, Sangkat Boeung KengKang III, Khan Boeung KengKang, Phnom Penh. (100m south of Tuol Sleng Genocide Museum)</span>
+                        <br>
+                        <br>
+                        <span class="gold">Campus 2 (Chom Cao Flyover):</span><br>
+                        <span class="text-white">#151, National Road No. 3, Sangkat Chom Chao II, Khan Posenchey, Phnom Penh.</span>
+    
+                    </small>
+                </div>
             </div>
 
             <div class="social-media col-4">
