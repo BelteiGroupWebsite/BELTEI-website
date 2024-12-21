@@ -13,6 +13,9 @@
             <div class="text-justify">
                 {!! __('school/about/welcome.welcome') !!}
             </div>
+            <div class="text-end">
+                <img class="" src="{{ asset('asset/img/school/campus/signature.png') }}" alt="">
+            </div>
         </div>
     </div>
 @endsection
