@@ -14,7 +14,7 @@
                 {!! __('school/about/welcome.welcome') !!}
             </div>
             <div class="text-end">
-                <img class="max-width-100" src="{{ asset('asset/img/school/campus/signature.png') }}" alt="">
+                <img class="w-5" src="{{ asset('asset/img/school/campus/signature.png') }}" alt="">
             </div>
         </div>
     </div>
