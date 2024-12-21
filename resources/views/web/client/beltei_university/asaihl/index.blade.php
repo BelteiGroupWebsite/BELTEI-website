@@ -154,10 +154,11 @@
                 <div>
                     <img class="w-100" src="{{ asset('asset/img/university/asaihl/banner/banner2.jpg') }}" alt="">
                 </div>
-                <div class="countdown position-absolute bottom-0 start-0 w-100 background-asaihl p-3 pb-4 gold">
-                    <div class="d-flex justify-content-evenly align-items-center gap-3 w-100 text-center">
-                        <img class="max-height-80" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
-                        <div>
+                <div class="countdown position-absolute bottom-0 start-0 w-100 background-asaihl p-3 pb-4 gold"
+                    style="padding-inline: 30px !important">
+                    <div class="d-flex justify-content-between align-items-center gap-3 w-100 text-center">
+                        <img class="max-height-70" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
+                        <div class=" w-100">
                             <h5 class="pb-4">
                                 <strong>2025 ASAIHL Conference</strong> at BELTEI International University, <br>
                                 Phnom Penh, Kingdom of Cambodia
@@ -347,11 +348,13 @@
                 <div style="line-height: .3;">
                     <small style="line-height: normal;">
                         <span class="gold">Campus 1 (Toul Sleng):</span><br>
-                        <span class="text-white">#21, Street, Sangkat Boeung KengKang III, Khan Boeung KengKang, Phnom Penh. (100m south of Tuol Sleng Genocide Museum)</span>
+                        <span class="text-white">#21, Street, Sangkat Boeung KengKang III, Khan Boeung KengKang, Phnom Penh.
+                            (100m south of Tuol Sleng Genocide Museum)</span>
                         <br>
                         <span class="gold">Campus 2 (Chom Cao Flyover):</span><br>
-                        <span class="text-white">#151, National Road No. 3, Sangkat Chom Chao II, Khan Posenchey, Phnom Penh.</span>
-    
+                        <span class="text-white">#151, National Road No. 3, Sangkat Chom Chao II, Khan Posenchey, Phnom
+                            Penh.</span>
+
                     </small>
                 </div>
             </div>
