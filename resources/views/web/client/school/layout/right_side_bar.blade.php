@@ -47,7 +47,7 @@
     </ul>
     <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
         <a class="w-100" href="/">
-            <img class="w-100" src="{{ asset('asset/img/school/app/photo_2024-07-13_17-07-50.jpg') }}" alt="">
+            <img class="w-100" src="{{ asset('asset/img/school/app/date_new_term.jpg') }}" alt="">
         </a>
     </ul>
     {{-- <ul class="text-capitalize f14 ul-none-style w-100 p-0 m-0">
@@ -87,7 +87,7 @@
                 </p>
             </div>
         </a>
-        
+
         <a class="list-group-item text-center gold font-bold">{{ __('school/app.ESLProgram') }}</a>
         <a class="list-group-item" href="{{ route('school.certificate' , 4) }}" class="list-group-item text-white font-bold text-center">
             <div class="d-flex align-items-center justify-content-between Red-color-border rounded " style="border:outset 3px ;">
@@ -205,5 +205,5 @@
 
     @include('web.client.share.visitor')
 
-    
+
 </div>
