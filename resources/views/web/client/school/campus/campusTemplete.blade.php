@@ -62,6 +62,7 @@
                 "រង្វង់មូលព្រែកតាមាក់",
                 "ស្ថានីបូមទឹកផ្លូវ",
                 "ព្រែកប្រា",
+                "ព្រែកព្នៅ បុរី លី សុវណ្ណ",
                 "វត្តអង្គតាមិញ",
                 "",
                 "",
@@ -129,10 +130,11 @@
                 "Prek Ta Mek",
                 "Pumping Station 371",
                 "Preak Pra",
+                "Prek Pnov Borey Ly Sovann",
                 "Wat Ang Taminh",
-                "B28",
                 "B29",
                 "B30",
+
             ];
             var descriptionArray = [
                 'BELTEI Kirirom is located at 77, Street 125, Sangkat Veal Vong, Khan 7 Makara, Phnom Penh and was officially opened on January 01, 2002 and presided over by Mr. Oum Hoeung, Director of Phnom Penh Municipal Department of Education, Youth and Sport. It is a five-story building with 41 rooms and it belongs to BELTEI, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
