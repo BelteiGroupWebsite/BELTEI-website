@@ -172,7 +172,7 @@
                 </div>
             </div>
             <div class="">
-                <img class="w-100" src="{{ asset('asset/img/university/asaihl/banner/banner1.jpg') }}" alt="">
+                <img class="w-100" src="{{ asset('asset/img/university/asaihl/banner/banner1.gif') }}" alt="">
             </div>
             <hr class="" style="border: 5px solid #003572; ">
         </div>
