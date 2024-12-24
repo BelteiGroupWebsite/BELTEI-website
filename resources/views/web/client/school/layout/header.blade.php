@@ -16,7 +16,8 @@
             <img class="w-50 mt-2" src="{{ asset('asset/img/school/Head_combine.png') }}" alt="">
         </a>
     </div>
-    <div id="campus" class="campus d-flex shadow-sm rounded  justify-content-between mb-3 content-translate-font p-lg-3 scale-9-600px">
+    {{-- <div id="campus" class="campus d-flex shadow-sm rounded  justify-content-between mb-3 content-translate-font p-lg-3 scale-9-600px"> --}}
+    <div id="campus" class="campus shadow-sm rounded  mb-3 content-translate-font p-lg-3 scale-9-600px">
     </div>
     
     <div class="p-2">
