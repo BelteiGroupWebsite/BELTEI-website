@@ -26,9 +26,20 @@
     <link rel="stylesheet" href="{{ asset('css/school/layout/app.css') }}">
 
     <style>
+        .campus {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            /* Repeat 1fr 10 times */
+            /* gap: .5rem;   */
+        }
 
 
-
+        .campus>a {
+            /* overflow: hidden; */
+            max-width: 125px;
+            border: 3px solid #21ade3 !important;
+            margin-bottom: 5px;
+        }
     </style>
 
 </head>
