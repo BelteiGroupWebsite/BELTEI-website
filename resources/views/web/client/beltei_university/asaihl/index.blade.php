@@ -69,7 +69,8 @@
             gap: 12px;
         }
 
-        .selection a {
+        .selection a,
+        .selection button {
             text-align: center;
             color: whitesmoke;
             padding: 1rem;
@@ -115,6 +116,11 @@
 
             font-size: 20px;
             color: white;
+        }
+
+
+        .content-details>p {
+            padding-bottom: 1rem;
         }
     </style>
 
@@ -172,22 +178,325 @@
                 </div>
             </div>
             <div class="">
-                <img class="w-100" src="{{ asset('asset/img/university/asaihl/banner/banner1.gif') }}" alt="">
+                {{-- <video autoplay src="{{ asset('asset/img/university/asaihl/banner/banner1.mp4') }}"></video> --}}
+                <video class="w-100" autoplay muted loop>
+                    <source src="{{ asset('asset/img/university/asaihl/banner/banner1.mp4') }}" type="video/mp4">
+                    {{-- <source src="movie.ogg" type="video/ogg"> --}}
+                    {{-- Your browser does not support the video tag. --}}
+                </video>
+                {{-- <img class="w-100" src="{{ asset('asset/img/university/asaihl/banner/banner1.gif') }}" alt=""> --}}
             </div>
             <hr class="" style="border: 5px solid #003572; ">
         </div>
 
 
-        <div class="selection my-5">
-            <a href="">About Us</a>
-            <a href="">Registration</a>
-            <a href="">Paper Submission</a>
-            <a href="">Conference Program</a>
-            <a href="">Venue</a>
-            <a href="">Travel Information</a>
-            <a href="">Tour Destination</a>
-            <a href="">Contact Us</a>
+        <div class="selection text-white">
+            <button onclick="toggleDiv('content-detail-1')" style="background-color: #001436">About Us</button>
+            <button onclick="toggleDiv('content-detail-2')" style="background-color: #002a72">Registration</button>
+            <button onclick="toggleDiv('content-detail-3')" style="background-color: #003997">Paper Submission</button>
+            <button onclick="toggleDiv('content-detail-4')" style="background-color: #004ac4">Conference Program</button>
+            <button onclick="toggleDiv('content-detail-5')" style="background-color: #2e42d6">Venue</button>
+            <button onclick="toggleDiv('content-detail-6')" style="background-color: #0054de">Travel Information</button>
+            <button onclick="toggleDiv('content-detail-7')" style="background-color: #0061ff">Tour Destination</button>
+            <button onclick="toggleDiv('content-detail-8')" style="background-color: #2779ff">Contact Us</button>
         </div>
+
+        <div id="content-detail" class="text-justify">
+            <div id="content-detail-1" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
+
+                <div class="d-flex gap-3 align-items-center">
+                    <img src="https://media.licdn.com/dms/image/C5603AQEfV5tW79ZMJg/profile-displayphoto-shrink_200_200/0/1593411121688?e=2147483647&v=beta&t=e5O6w9XdIM4BkXWltAqsN7_9ku4WEvY6iHWBuOxH0gM"
+                        alt="">
+                    <div>
+                        <h4><strong>Chairman&rsquo;s Message</strong></h4>
+                        <p>-Delegates from ASAIHL and Partners in Higher Education around the World,</p>
+                        <p>-Your Excellencies, Lok Oknha, Lok Chumteav, National and International Distinguished Guests,</p>
+                        <p>-Ladies and Gentlemen!</p>
+                    </div>
+                </div>
+
+                <div class="py-2">
+                    <h5><strong>Welcome to 2025 ASAIHL Conference</strong></h5>
+                    <h5><strong>at BELTEI International University, Phnom Penh, The Kingdom of Cambodia!</strong></h5>
+                </div>
+                <p>Today is an auspicious day that BELTEI International University has a great honor to welcome Delegates
+                    from ASAIHL and Partners in Higher Education across the globe to 2025 ASAIHL Conference hosted by BELTEI
+                    International University, Phnom Penh, The Kingdom of Cambodia.</p>
+                <p>On behalf of the Management Team of BELTEI Group and the 2025 ASAIHL Conference Organizing Committee, I
+                    would like to express my profound thanks to all Delegates from ASAIHL and Partners in Higher Education
+                    who are spending their invaluable time and putting their efforts to attend the 2025 ASAIHL Conference.
+                </p>
+                <p>I am really honored to warmly welcome your excellencies, ladies and gentlemen to the 2025 ASAIHL
+                    Conference, which is being held from 06-08 July, 2025. I firmly believe that this event will provide an
+                    international research sharing platform for our partners in higher education not only to providing and
+                    sharing useful information regarding to their institutions but also promoting global education
+                    integration.</p>
+                <p>The 2025 ASAIHL Conference is being organized in the alignment of the aims and purposes of the Royal
+                    Government of Cambodia and the Ministry of Education, Youth, and Sports to strengthening the higher
+                    education in Cambodia through research, innovation and internationalization.</p>
+                <p>Through this meaningful conference, I strongly believe that there will be productive outcomes for all
+                    participants and our partners in higher education strengthening optimal solidarity and closed
+                    cooperation in order to promote research ecosystem and development of each institution. From this
+                    esteemed platform, I would like to suggest to all participants to pay more attention by taking notes and
+                    avail the opportunity to learn by interacting and communicating with our partners in education.</p>
+                <p>"Learn to be a leader before becoming a Leader !"</p>
+                <p>Furthermore, I would like to express my genuine gratitude to ASAIHL for providing opportunity to host
+                    2025 ASAIHL Conference and the Ministry of Education, Youth and Sports of the Kingdom of Cambodia that
+                    has always been supporting and providing opportunities to all private and public education sectors in
+                    Cambodia to operate varieties of higher education programs for the benefits of all students, learners
+                    and researchers.</p>
+                <p>Ladies and Gentlemen! Once again, I would like to express my profound thanks to ASAIHL and the Royal
+                    Government of Cambodia, Minister of Education, Youth and Sports and Officials from all the Ministries
+                    for their cooperation and contribution. I would also like to thank to all delegates of our partners in
+                    higher education and organizing committee for your vigorous dedication and contribution toward the
+                    success of this integral conference.</p>
+                <p>Last but not least, I firmly believe that the 2025 ASAIHL Conference hosted BELTEI International
+                    University, Phnom Penh, The Kingdom of Cambodia will accomplish its aims and objectives set out for this
+                    conference through strengthening the mutual interest and trust with the quality of education by
+                    transforming human resources into the human capital.</p>
+                <p>Finally, I would also like to wish Excellencies, Lok Oknha, Lok Chumteav, Ladies and Gentlemen with the 4
+                    gems of Buddhist Doctrines: Longevity, Nobility, Health and Strength. Thank you.</p>
+
+                <div class="text-center mt-4">
+                    <img class="max-height-150" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
+                </div>
+
+                <h5><strong>ASAIHL Introduction</strong></h5>
+
+                <p>The Association of Southeast Asian Institutions of Higher Learning (ASAIHL) was founded in 1956 as
+                    a&nbsp;non-governmental organization at a meeting in Bangkok of the heads of eight state universities in
+                    Southeast Asia. Field Marshal Pibulsongkram, the Prime Minister, supported its foundation and approved
+                    setting up the Secretariat in Thailand. His government began by giving financial and material support,
+                    which continued for several years until the Association had other sources of funds. More recently, in
+                    addition to physical facilities, the Thai government has been supporting the Association with a grant of
+                    US$ 10,000 annually.</p>
+                <p>ASAIHL&rsquo;s purpose is to assist member institutions to strengthen themselves through mutual self-help
+                    and to achieve international distinction in teaching, research and public service. In so doing, the
+                    institutions contribute strength to their respective nations and to the entire region. Specifically, the
+                    Association exists to foster the development of the institutions themselves, the cultivation of a sense
+                    of regional identity and interdependence and liaison with other regional and international organizations
+                    concerned with research and teaching. It serves as a clearing-house of information; provides regular
+                    opportunities for the discussion of academic development and general university development; assists
+                    member institutions in the recruitment and placement of faculty and staff, exchanges of professors and
+                    students and in the development of co-operative arrangements on specific projects; provides advisory
+                    services of consultants; strengthens the relationship with regional and international bodies and keeps
+                    member institutions informed about developments in the region; und recognizes and acknowledges
+                    distinctive achievements among Southeast Asian institutions of higher education.</p>
+                <p><strong>Association of Southeast Asian Institutions of Higher Learning (ASAIHL)</strong></p>
+                <p>7th&nbsp;Floor, Ministry of Higher Education Science Research and Innovation (MHESI) Building 328 Si
+                    Ayutthaya Road, Phaya Thai, Ratchathewi, Bangkok 10400, Thailand.</p>
+                <p>Website: <a href="www.asaihl.stou.ac.th">www.asaihl.stou.ac.th</a></p>
+                <p>E-mail: <a href="mailto:asaihl1956@gmail.com">asaihl1956@gmail.com</a></p>
+            </div>
+            <div id="content-detail-2" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
+                <p><strong>Conference Fee</strong></p>
+                <p>-ASAIHL Nominated Participants: Free of charge</p>
+                <p>-Parallel Session/Country Report Presenters: Free of charge</p>
+                <p>-Nominated Participants by Higher Education Institution Only: Free of charge</p>
+                <p>-Regular Participants: 50 USD</p>
+                <p style="color: green"><strong>Conference Registration Link For Parallel Session/Country Report
+                        Presenters</strong></p>
+                <p>Please register in this link <a class="font-bold text-primary"
+                        href="https://forms.gle/aajgf9LsprBqmu5L9">https://forms.gle/aajgf9LsprBqmu5L9</a></p>
+                <p style="color: purple"><strong>Conference Registration Link For Participants</strong></p>
+                <p>Please register in this link <a class="font-bold text-primary"
+                        href="https://forms.gle/HFq5qSamSw8SuvVv9">https://forms.gle/HFq5qSamSw8SuvVv9</a></p>
+            </div>
+
+            <div id="content-detail-3" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
+                <h6><strong>Important Dates</strong></h6>
+                <h6><strong>Call for Papers Submission</strong></h6>
+                <table class="my-2" style="width: 70%">
+                    <tr>
+                        <td>-Start: January 1, 2025</td>
+                        <td>End: June 1, 2025</td>
+                    </tr>
+                    <tr>
+                        <td>-Abstract Submission: January 1, 2025</td>
+                        <td>End: April 1, 2025</td>
+                    </tr>
+                </table>
+                <p>-Full Paper Submission: <span class="text-danger">(After the acceptance notifications are sent
+                        out)</span></p>
+                <p>-Review Process: 3 days after submission date</p>
+                <p>-Slide Presentation Submission: 2 weeks after approval</p>
+                <p>-Journal Publication: (Optional)</p>
+                <p>-Full Paper and Research Abstract Submitted to our email: <a class="text-danger"
+                        href="biu.2025asaihl@beltei.edu.kh">biu.2025asaihl@beltei.edu.kh</a></p>
+                <h6><strong>Abstract Guidelines</strong></h6>
+                <ol>
+                    <ol>
+                        <li>Page limit: 01 page in English</li>
+                        <li>Formatting:</li>
+                    </ol>
+                </ol>
+                <h6><strong>Title of the abstract</strong></h6>
+                <p>First Author*1, Second Author 2, and Third Author 3</p>
+                <p>1.Address of the first author (Department, Faculty, University, Address, Postal code, Country)</p>
+                <p>2.Address of the second author (Department, Faculty, University, Address, Postal code, Country)</p>
+                <p>3.Address of the last author (Department, Faculty, University, Address, Postal code, Country)
+                    *Corresponding author. Email: CorrespondingAuthorEmail@mail.com</p>
+                <h6><strong>Abstract</strong></h6>
+                <p>The abstract should not exceed 250 words in Times New Roman, size 12.</p>
+                <p>Keywords: 3 &ndash; 5 terms</p>
+                <h6><strong>Slide Presentation Format</strong></h6>
+                <h6><strong>Introduction</strong></h6>
+                <p>Main text in Times New Roman, size 12.</p>
+                <h6><strong>Methodology</strong></h6>
+                <p>Main text in Times New Roman, size 12.</p>
+                <h6><strong>Results</strong></h6>
+                <p>Main text in Times New Roman, size 12.</p>
+                <h6><strong>Conclusion</strong></h6>
+                <p>Main text in Times New Roman, size 12.</p>
+                <h6><strong>Reference</strong></h6>
+                <p>Text in Times New Roman, size 11.</p>
+                <h6><strong>2025 ASAIHL Conference </strong>(6-7-8 of July, 2025)</h6>
+                <p>-Conference Day 1: July 6, 2025 (ASAIHL Board Meeting)</p>
+                <p>-Conference Day 2: July 7, 2025</p>
+                <p>-Conference Day 7: July 8, 2025</p>
+                <h6><strong>Optional Tour </strong>: July 9-10, 2025</h6>
+                <ul>
+                    <li>For the optional tour, the destinations are</li>
+                    <ul>
+                        <li>1 Day Trip to Sihanoukville: Free of charge</li>
+                        <li>2 Days Trip to Siem Reap and Angkor: 100 USD</li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div id="content-detail-4" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
+                <p><strong>About 2025 ASAIHL Conference</strong></p>
+                <p>The Association of Southeast Asian Institutions of Higher Learning (ASAIHL) is thrilled to announce that
+                    the prestigious 2025 ASAIHL Conference will be hosted by the esteemed BELTEI International University in
+                    Cambodia. This significant event will bring together a diverse community of academics, researchers,
+                    administrators, and students from across the Southeast Asian region and beyond.</p>
+                <p>A Platform for Collaboration and Knowledge Sharing</p>
+                <p>The 2025 ASAIHL Conference will serve as a pivotal platform for:</p>
+                <p>Sharing cutting-edge research: Presentations and discussions will cover a wide range of topics, including
+                    advancements in teaching methodologies, innovative research findings, and best practices in higher
+                    education administration.</p>
+                <p>Fostering international collaboration: The conference will facilitate networking opportunities among
+                    participants, enabling them to establish new partnerships, explore joint research projects, and expand
+                    their international collaborations.</p>
+                <p>Addressing regional challenges: Through insightful discussions and interactive workshops, participants
+                    will delve into critical issues facing higher education in Southeast Asia, such as enhancing quality
+                    assurance, promoting inclusivity, and preparing graduates for the demands of the 21<sup>st</sup>-century
+                    workforce.</p>
+                <p>Showcasing Cambodian excellence: The conference will provide a unique opportunity to showcase the
+                    strengths and achievements of BELTEI International University and the Cambodian higher education sector
+                    to the international community.</p>
+                <p>A Memorable Experience in Cambodia</p>
+                <p>Beyond the academic program, the 2025 ASAIHL Conference promises to be a memorable cultural experience.
+                    Participants will have the opportunity to explore the rich history, vibrant culture, and stunning
+                    natural beauty of Cambodia.</p>
+                <p>Join Us in Cambodia!</p>
+                <p>We invite all members of the higher education community to join us at the 2025 ASAIHL Conference in
+                    BELTEI International University. This is an invaluable opportunity to engage with leading experts,
+                    expand your professional network, and contribute to the advancement of higher education in Southeast
+                    Asia and beyond.</p>
+                <p><strong>&nbsp;</strong></p>
+                <p><strong>Tentative Program</strong></p>
+                <p><strong>2025 ASAIHL Conference </strong>(6-7-8 of July, 2025)</p>
+                <p>Conference Day 1 │ Venue&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip; │ Sunday, July 6, 2025
+                </p>
+                <p><strong>Evening Session</strong></p>
+                <p>18.00 &ndash; 19.30&nbsp;&nbsp;&nbsp; ASAIHL Board Meeting</p>
+                <p>19.30 &ndash; 20.30&nbsp;&nbsp;&nbsp; Board Members&rsquo; Networking Dinner</p>
+                <p>Conference Day 2 │ BELTEI IU, Campus 2 │ Monday, July 7, 2025</p>
+                <p><strong>Morning Session</strong></p>
+                <p>08.00 &ndash; 09.00&nbsp;&nbsp;&nbsp;&nbsp; Registration</p>
+                <p>09.00 &ndash; 10.30&nbsp;&nbsp;&nbsp; Opening Ceremony</p>
+                <p>10.30 &ndash; 10.45&nbsp;&nbsp;&nbsp; Coffee Break</p>
+                <p>10.45 &ndash; 11.45&nbsp;&nbsp;&nbsp; Keynote Speech:
+                    &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.
+                </p>
+                <p>11.45 &ndash; 12.00&nbsp;&nbsp;&nbsp; Country Report I</p>
+                <p>12.00 &ndash; 14.00&nbsp;&nbsp;&nbsp; Lunch and Break</p>
+                <p><strong>Afternoon Session</strong></p>
+                <p>14.00 &ndash; 15.00&nbsp;&nbsp;&nbsp; Parallel Session I</p>
+                <p>15.00 &ndash; 15.15&nbsp;&nbsp;&nbsp; Country Report II</p>
+                <p>15.15 &ndash; 15.30&nbsp;&nbsp; Coffee Break</p>
+                <p>15.30 &ndash; 17.00&nbsp;&nbsp;&nbsp; Panel Discussion 1</p>
+                <p>17.00 &ndash; 18.30&nbsp;&nbsp;&nbsp; Welcome Dinner</p>
+                <p>Conference Day 3 │ BELTEI IU, Campus 2 │ Tuesday, July 8, 2025</p>
+                <p><strong>Morning Session</strong></p>
+                <p>08.00 &ndash; 09.00&nbsp;&nbsp;&nbsp;&nbsp; Registration</p>
+                <p>09.00 &ndash; 10.00&nbsp;&nbsp;&nbsp; Keynote Speech:
+                    &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.
+                </p>
+                <p>10.00 &ndash; 10.15&nbsp;&nbsp;&nbsp; Coffee Break</p>
+                <p>10.15 &ndash; 11.15&nbsp;&nbsp;&nbsp; Country Report
+                    III,&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.
+                </p>
+                <p>11.15 &ndash; 12.15&nbsp;&nbsp;&nbsp; Panel Discussion 2</p>
+                <p>12.15 &ndash; 14.00&nbsp;&nbsp;&nbsp; Lunch and Break</p>
+                <p><strong>Afternoon Session</strong></p>
+                <p>14.00 &ndash; 14.15&nbsp;&nbsp;&nbsp; Next Conference Presentation</p>
+                <p>14.15 &ndash; 15.15&nbsp;&nbsp;&nbsp;
+                    &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..
+                </p>
+                <p>15.15 &ndash; 15.30&nbsp;&nbsp; Coffee Break</p>
+                <p>15.30 &ndash; 17.00&nbsp;&nbsp;&nbsp; Closing Ceremony</p>
+                <p>Conference Day 4 │ Optional Tours │ Wednesday, July 9, 2025</p>
+            </div>
+
+            <div id="content-detail-5" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
+                <div>
+                    <img class="w-100" src="{{ asset('asset/img/university/campus/HQ.png') }}" alt="">
+                    <iframe class="w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15635.460973384806!2d104.8975925949065!3d11.561516783539464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109512310feda21%3A0x4243c6246755cc0!2sBELTEI%20GROUP%20Headquarters!5e0!3m2!1sen!2skh!4v1735013232611!5m2!1sen!2skh"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <img class="w-100" src="{{ asset('asset/img/university/campus/BIU2.png') }}" alt="">
+                    <iframe class="w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31275.029448686146!2d104.823231!3d11.52467!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31094fbd312449f5%3A0xaf3393bc9eda7678!2sBELTEI%20International%20University%20(Campus%202%2C%20Chaom%20Chao%20Flyover)!5e0!3m2!1sen!2skh!4v1735013411762!5m2!1sen!2skh"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div id="content-detail-6" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
+                <div>
+                    <p><strong>- Visa Information</strong></p>
+                    <p>-For visa information, please refer to https://www.evisa.gov.kh/</p>
+                    <p>-For any general information regarding travel to Cambodia, kindly check&nbsp;
+                        <a
+                            href="https://www.indonesia.travel/gb/en/news/new-international-travel-regulations-to-enter-indonesia-as-of-29-november-2021">
+                            the latest travel regulations</a>
+                        or contact us at (+855) 78 221 222 (Telegram, WhatsApp,)
+                    </p>
+                    <p>Our Email: biu.2025asaihl@beltei.edu.kh</p>
+                </div>
+            </div>
+            <div id="content-detail-7" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
+                <div>
+                    <h5 class="mb-3"><strong>-For the optional tour, the destinations are</strong></h5>
+                    <p class="mb-2 bg-info p-2 bold text-bold font-bold">1 Day Trip to Sihanoukville: Free of charge</p>
+                    <div class="row">
+                        @for ($i = 1; $i <= 6; $i++)
+                            <img class="col-6"
+                                src="{{ asset('asset/img/university/asaihl/sihanoukville/' . $i . '.jpg') }}"
+                                alt="">
+                        @endfor
+                    </div>
+                    <p class="mt-4 mb-2 bg-info p-2 bold text-bold font-bold">2 Days Trip to Siem Reap and Angkor: 100 USD
+                    </p>
+                    <div class="row">
+                        @for ($i = 1; $i <= 6; $i++)
+                            <img class="col-6" src="{{ asset('asset/img/university/asaihl/siemreap/' . $i . '.jpg') }}"
+                                alt="">
+                        @endfor
+                    </div>
+                </div>
+            </div>
+            <div id="content-detail-8" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
+                <div>
+                    <p>Contact us at (+855) 78 221 222 (Telegram, WhatsApp,)</p>
+                    <p>Our Email: <a href="biu.2025asaihl@beltei.edu.kh">biu.2025asaihl@beltei.edu.kh</a></p>
+                </div>
+            </div>
+
+        </div>
+
 
         {{-- <div class="logo">
             <div class="d-flex justify-content-center align-items-center gap-5">
@@ -211,124 +520,6 @@
 
         </div>
 
-        {{-- <div class="about detail-container">
-            <h4>About BELTEI International University</h4>
-
-            <div>
-
-                <p>
-                    BELTEI International University is a private higher education institution founded on August 4, 2005,
-                    originating from BELTEI International Institute, and it was developed into BELTEI International
-                    University on September 6, 2012. The university was officially inaugurated on August 21, 2014, which was
-                    presided over by Samdech Akka Moha Sena Padei Techo HUN SEN, Prime Minister of the Kingdom of Cambodia.
-                </p>
-                <p>
-                    The full name of the university in Khmer is <span class="Muol-Light">“សាកលវិទ្យាល័យ ប៊ែលធី
-                        អន្តរជាតិ”</span> and in English “BELTEI
-                    International University”; “BELTEI” is an acronym for 6 major disciplines, "BEL" stands for Business,
-                    Economics, and Law, and "TEI" stands for Tourism, English, and Information technology.
-                </p>
-                <p>
-                    His Excellency Dr. Ly Chheng is currently a Member of the National Assembly for Phnom Penh Capital City.
-                    He is the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI
-                    International University, the sole founder, who has invested the capital to establish and construct all
-                    buildings of BELTEI International University Campuses.
-                </p>
-                <p>
-                    Nowadays, there are 2 campuses located in Phnom Penh providing 2 main programs (National and
-                    International Programs) with 13 Faculties and 45 Majors:
-                </p>
-                <p>
-                    - BELTEI International University, Campus 1 (Tuol Sleng): № 21, St.360, Sangkat Boeng Keng Kang 3, Khan
-                    Boeng Keng Kang, Phnom Penh (100 meters South of Tuol Sleng Genocide Museum), a 15-storey building with
-                    110 rooms, 1 Lecture Hall with 150 seats, 1 conference hall with a capacity of 700 seats, 1 cafeteria, 1
-                    library and 2-basement parking lots.
-                </p>
-                <p>
-                    - BELTEI International University, Campus 2 (Chom Chao Flyover): № 151, National Road № 3, Sangkat Chom
-                    Chao 2, Khan Posenchey, Phnom Penh (about 500 meters from Chom Chao Flyover), a 9-storey building with
-                    142 rooms, 1 Lecture Hall with 150 seats, 1 Auditorium with 800 seats and 1 Conference Hall with a
-                    capacity of 1200 seats, 1 cafeteria, 1 library, 1 dormitory with 65 spacious rooms accommodating 130
-                    beds and more than 10,000m2 basement parking lot.
-                </p>
-
-            </div>
-
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-        </div>
-
-        <div class="introduction detail-container">
-            <h4>ASAIHL introduction</h4>
-            <div>
-                <p>The Association of Southeast Asian Institutions of Higher Learning (ASAIHL) was founded in 1956 as a
-                    non-governmental organization at a meeting in Bangkok of the heads of eight state universities in
-                    Southeast Asia. Field Marshal Pibulsongkram, the Prime Minister, supported its foundation and approved
-                    setting up the Secretariat in Thailand. His government began by giving financial and material support,
-                    which continued for several years until the Association had other sources of funds. More recently, in
-                    addition to physical facilities, the Thai government has been supporting the Association with a grant of
-                    USD 10,000 annually.
-                </p>
-                <p>
-                    ASAIHL’s purpose is to assist member institutions to strengthen themselves through mutual self-help and
-                    to achieve international distinction in teaching, research and public service. In so doing, the
-                    institutions contribute strength to their respective nations and to the entire region. Specifically, the
-                    Association exists to foster the development of the institutions themselves, the cultivation of a sense
-                    of regional identity and interdependence and liaison with other regional and international organizations
-                    concerned with research and teaching. It serves as a clearing-house of information; provides regular
-                    opportunities for the discussion of academic development and general university development; assists
-                    member institutions in the recruitment and placement of faculty and staff, exchanges of professors and
-                    students and in the development of co-operative arrangements on specific projects; provides advisory
-                    services of consultants; strengthens the relationship with regional and international bodies and keeps
-                    member institutions informed about developments in the region; and recognizes and acknowledges
-                    distinctive achievements among Southeast Asian institutions of higher education.
-                </p>
-            </div>
-        </div>
-
-        <div class="profile  detail-container text-center">
-            <img class="max-width-150 rounded-pill "
-                src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png?20150327203541"
-                alt="">
-            <div>
-                <h4>BELTEI International University</h4>
-            </div>
-        </div>
-
-
-        <div class="asaihl detail-container">
-            <h4>About ASAIHL Conference 2025</h4>
-            <p>
-                Situated in Surabaya, a port city in the Province of East Java, Indonesia, Universitas Airlangga was
-                established on 10 November 1954. Ever since it was established 69 years ago, Universitas Airlangga has been
-                committed to providing excellent education by adhering to its motto; Excellent with Morality.
-            </p>
-            <p>
-                In addition to providing excellent education over the generations, Universitas Airlangga has also attempted
-                initiatives to increase its quality in global level through the internationalization initiatives conducted
-                in various activities starting from initiating partnerships with universities overseas, organizing mobility
-                programs for both students and academic members of the university, to participating in international
-                consortia.
-            </p>
-            <p>
-                The Association of Southeast Asian Institutions of Higher Learning (ASAIHL) is one of the consortia
-                participated by UNAIR and in 2024, UNAIR has the honor to host the ASAIHL Conference 2024 on University’s
-                Role in Advancing Climate Crises Reduction with the following sub-themes:
-            </p>
-            <p>
-                1. Curriculum design towards supporting academics’ role in climate crises reduction
-            </p>
-            <p>
-                2. Green economy-oriented research in accelerating university-industry collaboration
-            </p>
-            <p>
-                3. Community services as climate crises resolution framework
-            </p>
-        </div> --}}
-
         <div class="selection">
 
         </div>
@@ -339,16 +530,19 @@
                 <div class="d-flex gap-3 mb-2">
                     <div>
                         <img class="max-height-50"
-                            src="{{ asset('asset/img/beltei_international_university_in_cambodia.png') }}" alt="">
+                            src="{{ asset('asset/img/beltei_international_university_in_cambodia.png') }}"
+                            alt="">
                     </div>
                     <div class="">
-                        <img class="max-height-50" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
+                        <img class="max-height-50" src="{{ asset('asset/img/university/asaihl/logo.png') }}"
+                            alt="">
                     </div>
                 </div>
                 <div style="line-height: .3;">
                     <small style="line-height: normal;">
                         <span class="gold">Campus 1 (Toul Sleng):</span><br>
-                        <span class="text-white">#21, Street, Sangkat Boeung KengKang III, Khan Boeung KengKang, Phnom Penh.
+                        <span class="text-white">#21, Street, Sangkat Boeung KengKang III, Khan Boeung KengKang, Phnom
+                            Penh.
                             (100m south of Tuol Sleng Genocide Museum)</span>
                         <br>
                         <span class="gold">Campus 2 (Chom Cao Flyover):</span><br>
@@ -363,11 +557,12 @@
                 <h6>GET MORE UPDATES ON OUR SOCIAL MEDIA</h6>
                 <div class="footer-icon-container">
                     <div>
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
-                        <a href=""><i class="fa-brands fa-youtube"></i></a>
-                        <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.facebook.com/belteiuniversity"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/beltei_intl_university_/?hl=en"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@beltei_iu?lang=en"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/user/BELTEIGROUP"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://t.me/belteiBICC"><i class="fa-brands fa-telegram"></i></a>
                     </div>
                 </div>
             </div>
@@ -376,4 +571,26 @@
 
 
     </div>
+
+
+    <script>
+        function toggleDiv(divId) {
+            let contentDetail = document.getElementById(divId);
+            let contentDetails = document.getElementsByClassName('content-details');
+
+            // Convert HTMLCollection to an array for easy iteration
+            Array.from(contentDetails).forEach(element => {
+                if (!element.classList.contains('d-none')) {
+                    element.classList.add('d-none');
+                }
+            });
+
+            // Toggle the selected div
+            if (contentDetail.classList.contains('d-none')) {
+                contentDetail.classList.remove('d-none');
+            } else {
+                contentDetail.classList.add('d-none');
+            }
+        }
+    </script>
 @endsection
