@@ -204,18 +204,29 @@
         <div id="content-detail" class="text-justify">
             <div id="content-detail-1" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
 
-                <div class="d-flex gap-3 align-items-center">
+                <div class="d-flex align-items-center">
                     <img src="https://media.licdn.com/dms/image/C5603AQEfV5tW79ZMJg/profile-displayphoto-shrink_200_200/0/1593411121688?e=2147483647&v=beta&t=e5O6w9XdIM4BkXWltAqsN7_9ku4WEvY6iHWBuOxH0gM"
                         alt="">
-                    <div>
-                        <h4><strong>Chairman&rsquo;s Message</strong></h4>
-                        <p>-Delegates from ASAIHL and Partners in Higher Education around the World,</p>
-                        <p>-Your Excellencies, Lok Oknha, Lok Chumteav, National and International Distinguished Guests,</p>
-                        <p>-Ladies and Gentlemen!</p>
+                    <div class="position-relative">
+                        <h5>Chairman's Message</h5>
+                        {{-- <h4 class="position-absolute bg-primary p-2" style="top: -30px"> --}}
+                        <h4 class="text-white bg-primary p-2 w-5" style="width: 300px">
+                            H.E. Dr. LY CHHENG
+                        </h4>
+                        <div class="text-white p-3" style="background-color: #002a72">
+                            <p>
+                                The Member of the National Assembly for Phnom Penh Capital City Cambodia, Founder &
+                                Director-General of BELTEI Group, Chairman of The Board of Directors of BELTEI International
+                                University
+                            </p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="py-2">
+                    <p>-Delegates from ASAIHL and Partners in Higher Education around the World,</p>
+                    <p>-Your Excellencies, Lok Oknha, Lok Chumteav, National and International Distinguished Guests,</p>
+                    <p>-Ladies and Gentlemen!</p>
                     <h5><strong>Welcome to 2025 ASAIHL Conference</strong></h5>
                     <h5><strong>at BELTEI International University, Phnom Penh, The Kingdom of Cambodia!</strong></h5>
                 </div>
@@ -301,6 +312,31 @@
                 <p style="color: purple"><strong>Conference Registration Link For Participants</strong></p>
                 <p>Please register in this link <a class="font-bold text-primary"
                         href="https://forms.gle/HFq5qSamSw8SuvVv9">https://forms.gle/HFq5qSamSw8SuvVv9</a></p>
+
+                        <br>
+                <p>Our Theme for 2025 ASAIHL Conference is <strong>&ldquo;Digitalization of Higher Education&rdquo;</strong>
+                    <br> and Subthemes are</p>
+                <p>- Higher Education Orientation to Meet Market Needs in the Digital Era</p>
+                <p>- Higher Education Skills and Work Based Learning in the Digital Era</p>
+                <p>- <a
+                        href="https://cefcambodia.com/2022/06/03/digital-transformation-in-higher-education-key-to-enhancing-cambodias-higher-education-sector/#:~:text=The%20pandemic%2Dinduced%20digital%20transformation,online%20education%20provision%20and%20management.">Digital
+                        Transformation in Higher Education</a></p>
+                <p>Follow with related topics are:</p>
+                <p>-The Impact of Artificial Intelligence (AI) on Student Learning Outcomes and Equity in Higher Education.
+                </p>
+                <p>-Digital Divide and Access to Quality Education.</p>
+                <p>-The Role of Social Media in Higher Education.</p>
+                <p>-The Role of Faculty in the Digital Age.</p>
+                <p>-The Ethics of Data-Driven Decision Making in Higher Education.</p>
+                <p>-The Application of Virtual Reality (VR) and Augmented Reality (AR) in Science, Technology, Engineering,
+                    and Mathematics (STEM) Education.</p>
+                <p>-The Use of Big Data Analytics in Scientific Research and Higher Education.</p>
+                <p>-The Impact of Digital Tools on Scientific Collaboration and Knowledge Sharing.</p>
+                <p>-The Development and Implementation of Online Laboratories and Remote Experimentation in Science
+                    Education.</p>
+                <p>-The Role of Artificial Intelligence (AI) in Scientific Research: Exploring the Potential of AI in Data
+                    Analysis, Drug Discovery, and Materials Science.</p>
+
             </div>
 
             <div id="content-detail-3" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
@@ -394,6 +430,34 @@
                     BELTEI International University. This is an invaluable opportunity to engage with leading experts,
                     expand your professional network, and contribute to the advancement of higher education in Southeast
                     Asia and beyond.</p>
+
+
+                    <br>
+
+                    <p>Our Theme for 2025 ASAIHL Conference is <strong>&ldquo;Digitalization of Higher Education&rdquo;</strong>
+                        <br> and Subthemes are</p>
+                    <p>- Higher Education Orientation to Meet Market Needs in the Digital Era</p>
+                    <p>- Higher Education Skills and Work Based Learning in the Digital Era</p>
+                    <p>- <a
+                            href="https://cefcambodia.com/2022/06/03/digital-transformation-in-higher-education-key-to-enhancing-cambodias-higher-education-sector/#:~:text=The%20pandemic%2Dinduced%20digital%20transformation,online%20education%20provision%20and%20management.">Digital
+                            Transformation in Higher Education</a></p>
+                    <p>Follow with related topics are:</p>
+                    <p>-The Impact of Artificial Intelligence (AI) on Student Learning Outcomes and Equity in Higher Education.
+                    </p>
+                    <p>-Digital Divide and Access to Quality Education.</p>
+                    <p>-The Role of Social Media in Higher Education.</p>
+                    <p>-The Role of Faculty in the Digital Age.</p>
+                    <p>-The Ethics of Data-Driven Decision Making in Higher Education.</p>
+                    <p>-The Application of Virtual Reality (VR) and Augmented Reality (AR) in Science, Technology, Engineering,
+                        and Mathematics (STEM) Education.</p>
+                    <p>-The Use of Big Data Analytics in Scientific Research and Higher Education.</p>
+                    <p>-The Impact of Digital Tools on Scientific Collaboration and Knowledge Sharing.</p>
+                    <p>-The Development and Implementation of Online Laboratories and Remote Experimentation in Science
+                        Education.</p>
+                    <p>-The Role of Artificial Intelligence (AI) in Scientific Research: Exploring the Potential of AI in Data
+                        Analysis, Drug Discovery, and Materials Science.</p>
+                    
+                    
                 <p><strong>&nbsp;</strong></p>
                 <p><strong>Tentative Program</strong></p>
                 <p><strong>2025 ASAIHL Conference </strong>(6-7-8 of July, 2025)</p>
@@ -462,7 +526,7 @@
                         <a
                             href="https://www.indonesia.travel/gb/en/news/new-international-travel-regulations-to-enter-indonesia-as-of-29-november-2021">
                             the latest travel regulations</a>
-                        or contact us at (+855) 78 221 222 (Telegram, WhatsApp,)
+                        or contact us at (+885) 78 888 803 / (+855) 78 221 222 (Telegram, WhatsApp,)
                     </p>
                     <p>Our Email: biu.2025asaihl@beltei.edu.kh</p>
                 </div>
@@ -490,7 +554,7 @@
             </div>
             <div id="content-detail-8" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
                 <div>
-                    <p>Contact us at (+855) 78 221 222 (Telegram, WhatsApp,)</p>
+                    <p>Contact us at (+885) 78 888 803 / (+855) 78 221 222 (Telegram, WhatsApp,)</p>
                     <p>Our Email: <a href="biu.2025asaihl@beltei.edu.kh">biu.2025asaihl@beltei.edu.kh</a></p>
                 </div>
             </div>
