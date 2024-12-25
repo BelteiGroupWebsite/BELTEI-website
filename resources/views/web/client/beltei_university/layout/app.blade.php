@@ -7,8 +7,7 @@
 
     <title>BELTEI International University</title>
 
-    <link rel="shortcut icon" href="{{ asset('asset/img/beltei_international_university_in_cambodia.png') }}"
-        type="image/png">
+    <link rel="shortcut icon" href="{{ asset('asset/img/favicon.ico') }}" type="image/png">
 
 
     <!-- Fonts -->
@@ -25,8 +24,7 @@
     <link rel="stylesheet" href="{{ asset('css/school/layout/app.css') }}">
 
     <style>
-
-        .right-bar-ul > li{
+        .right-bar-ul>li {
             height: 75px;
             display: flex;
             justify-content: center;
@@ -34,7 +32,8 @@
             text-align: center;
             background-image: linear-gradient(to left, #20409A -22.5%, #21ade3, #21ade3, #21ade3, #21ade3, #20409A 122.5%);
         }
-        .right-bar-ul > li > a {
+
+        .right-bar-ul>li>a {
             width: 100%;
             height: 100%;
             display: flex;
@@ -42,18 +41,20 @@
 
             justify-content: center;
         }
-        .right-bar-ul > li > a > img{
-            max-height: 70px; width: 80% !important; object-fit: contain;
+
+        .right-bar-ul>li>a>img {
+            max-height: 70px;
+            width: 80% !important;
+            object-fit: contain;
         }
-        .right-bar-ul > li:hover{
+
+        .right-bar-ul>li:hover {
             background-image: linear-gradient(to left, #20409A -22.5%, #1784af, #1784af, #1784af, #1784af, #20409A 122.5%);
         }
-        .right-bar-ul > li:hover > a > img{
+
+        .right-bar-ul>li:hover>a>img {
             transform: scale(.9);
         }
-
-
-
     </style>
 
 </head>
@@ -116,40 +117,73 @@
                 <hr>
                 <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; gap: .5rem;">
 
-                    <a href="https://www.youtube.com/embed/aLkTDdx8aS8?si=02EusmijT5ROthGA" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/aLkTDdx8aS8/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/aLkTDdx8aS8?si=02EusmijT5ROthGA" />
+                    <a href="https://www.youtube.com/embed/aLkTDdx8aS8?si=02EusmijT5ROthGA"
+                        class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                            width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail"
+                            src="https://img.youtube.com/vi/aLkTDdx8aS8/maxresdefault.jpg" alt="YouTube Video Thumbnail"
+                            data-src="https://www.youtube.com/embed/aLkTDdx8aS8?si=02EusmijT5ROthGA" />
                     </a>
-                    <a href="https://www.youtube.com/embed/1cHgtZUcEl8?si=-qnYdJks4l357rEO" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/1cHgtZUcEl8/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/1cHgtZUcEl8?si=-qnYdJks4l357rEO" />
+                    <a href="https://www.youtube.com/embed/1cHgtZUcEl8?si=-qnYdJks4l357rEO"
+                        class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                            width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail"
+                            src="https://img.youtube.com/vi/1cHgtZUcEl8/maxresdefault.jpg" alt="YouTube Video Thumbnail"
+                            data-src="https://www.youtube.com/embed/1cHgtZUcEl8?si=-qnYdJks4l357rEO" />
                     </a>
-                    <a href="https://www.youtube.com/embed/7Bozi7A_9lw?si=2R0s3VpOkFck2jPr" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/7Bozi7A_9lw/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/7Bozi7A_9lw?si=2R0s3VpOkFck2jPr" />
+                    <a href="https://www.youtube.com/embed/7Bozi7A_9lw?si=2R0s3VpOkFck2jPr"
+                        class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                            width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail"
+                            src="https://img.youtube.com/vi/7Bozi7A_9lw/maxresdefault.jpg" alt="YouTube Video Thumbnail"
+                            data-src="https://www.youtube.com/embed/7Bozi7A_9lw?si=2R0s3VpOkFck2jPr" />
                     </a>
-                    <a href="https://www.youtube.com/embed/0ha5Xtf6BLo?si=zYAql8Nj-nVJ-4-H" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/0ha5Xtf6BLo/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/0ha5Xtf6BLo?si=zYAql8Nj-nVJ-4-H" />
+                    <a href="https://www.youtube.com/embed/0ha5Xtf6BLo?si=zYAql8Nj-nVJ-4-H"
+                        class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                            width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail"
+                            src="https://img.youtube.com/vi/0ha5Xtf6BLo/maxresdefault.jpg" alt="YouTube Video Thumbnail"
+                            data-src="https://www.youtube.com/embed/0ha5Xtf6BLo?si=zYAql8Nj-nVJ-4-H" />
                     </a>
                 </div>
                 <div class="d-flex justify-content-between m-3" style="flex-wrap: wrap; gap: .5rem;">
 
-                    <a href="https://www.youtube.com/embed/7G6AK-zk7w0?si=yvkG5Uimh4puKuCR" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/7G6AK-zk7w0/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/7G6AK-zk7w0?si=yvkG5Uimh4puKuCR" />
+                    <a href="https://www.youtube.com/embed/7G6AK-zk7w0?si=yvkG5Uimh4puKuCR"
+                        class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                            width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail"
+                            src="https://img.youtube.com/vi/7G6AK-zk7w0/maxresdefault.jpg" alt="YouTube Video Thumbnail"
+                            data-src="https://www.youtube.com/embed/7G6AK-zk7w0?si=yvkG5Uimh4puKuCR" />
                     </a>
-                    <a href="https://www.youtube.com/embed/Ip-QgjIWhoo?si=xJx2AAJHR_I19LRu" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/Ip-QgjIWhoo/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/Ip-QgjIWhoo?si=xJx2AAJHR_I19LRu" />
+                    <a href="https://www.youtube.com/embed/Ip-QgjIWhoo?si=xJx2AAJHR_I19LRu"
+                        class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                            width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail"
+                            src="https://img.youtube.com/vi/Ip-QgjIWhoo/maxresdefault.jpg" alt="YouTube Video Thumbnail"
+                            data-src="https://www.youtube.com/embed/Ip-QgjIWhoo?si=xJx2AAJHR_I19LRu" />
                     </a>
-                    <a href="https://www.youtube.com/embed/l88M7K1oYlA?si=J_uCR0w6B7vBnlRe" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/l88M7K1oYlA/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/l88M7K1oYlA?si=J_uCR0w6B7vBnlRe" />
+                    <a href="https://www.youtube.com/embed/l88M7K1oYlA?si=J_uCR0w6B7vBnlRe"
+                        class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                            width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail"
+                            src="https://img.youtube.com/vi/l88M7K1oYlA/maxresdefault.jpg" alt="YouTube Video Thumbnail"
+                            data-src="https://www.youtube.com/embed/l88M7K1oYlA?si=J_uCR0w6B7vBnlRe" />
                     </a>
-                    <a href="https://www.youtube.com/embed/dNI20hmq3R0?si=SIDRfTf_jLDkAcnM" class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
-                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                        <img class="w-100 youtube-thumbnail" src="https://img.youtube.com/vi/dNI20hmq3R0/maxresdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/dNI20hmq3R0?si=SIDRfTf_jLDkAcnM" />
+                    <a href="https://www.youtube.com/embed/dNI20hmq3R0?si=SIDRfTf_jLDkAcnM"
+                        class="col rounded overflow-hidden position-relative d-flex justify-content-center align-items-center cursor-pointer">
+                        <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                            width="20%" alt="">
+                        <img class="w-100 youtube-thumbnail"
+                            src="https://img.youtube.com/vi/dNI20hmq3R0/maxresdefault.jpg"
+                            alt="YouTube Video Thumbnail"
+                            data-src="https://www.youtube.com/embed/dNI20hmq3R0?si=SIDRfTf_jLDkAcnM" />
                     </a>
 
                 </div>
@@ -165,7 +199,8 @@
 
 
         <button onclick="topFunction()" id="goToTopBtn" title="Go to top"
-            class="fa fa-angle-up bg-info shadow btn rounded-pill text-white" style="width: 40px; height: 40px;"></button>
+            class="fa fa-angle-up bg-info shadow btn rounded-pill text-white"
+            style="width: 40px; height: 40px;"></button>
 
     </main>
 
