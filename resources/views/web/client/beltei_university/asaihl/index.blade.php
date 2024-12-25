@@ -610,7 +610,7 @@
                             (100m south of Tuol Sleng Genocide Museum)</span>
                         <br>
                         <span class="gold">Campus 2 (Chom Cao Flyover):</span><br>
-                        <span class="text-white">#151, National Road No. 3, Sangkat Chom Chao II, Khan Posenchey, Phnom
+                        <span class="text-white">#151, National Road No. 3, Sangkat Chhom Chhao II, Khan Posenchey, Phnom
                             Penh.</span>
 
                     </small>
