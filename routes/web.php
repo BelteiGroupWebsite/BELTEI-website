@@ -238,8 +238,8 @@ Route::group(['prefix' => 'bis', 'as' => 'school.', 'middleware' => 'visitor.tra
         });
     });
 
-    Route::group(['prefix' => 'extracurriculum', 'as' => 'extracurriculum.'] , function () {
-        Route::view('generalknowledge', 'web.client.school.extracurriculum.generalknowledge');
+    Route::group(['prefix' => 'extracurriculum', 'as' => 'extracurriculum.'], function () {
+        Route::view('generalknowledge', 'web.client.school.extracurriculum.generalknowledge')->name('generalknowledge');
     });
 
     Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
