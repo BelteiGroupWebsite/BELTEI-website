@@ -237,6 +237,11 @@ Route::group(['prefix' => 'bis', 'as' => 'school.', 'middleware' => 'visitor.tra
             Route::view('/TOEFL', 'web.client.school.mainprogram.internationdetail.TOEFL')->name('TOEFL');
         });
     });
+
+    Route::group(['prefix' => 'extracurriculum', 'as' => 'extracurriculum.'] , function () {
+        Route::view('generalknowledge', 'web.client.school.extracurriculum.generalknowledge');
+    });
+
     Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
         Route::view('/', 'web.client.school.recognition.recognition');
         Route::view('/recognitiondetail', 'web.client.school.recognition.recognitiondetail.recognitiondetail')->name('recognitiondetail');
