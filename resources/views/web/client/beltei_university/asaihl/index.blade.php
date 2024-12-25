@@ -313,9 +313,10 @@
                 <p>Please register in this link <a class="font-bold text-primary"
                         href="https://forms.gle/HFq5qSamSw8SuvVv9">https://forms.gle/HFq5qSamSw8SuvVv9</a></p>
 
-                        <br>
+                <br>
                 <p>Our Theme for 2025 ASAIHL Conference is <strong>&ldquo;Digitalization of Higher Education&rdquo;</strong>
-                    <br> and Subthemes are</p>
+                    <br> and Subthemes are
+                </p>
                 <p>- Higher Education Orientation to Meet Market Needs in the Digital Era</p>
                 <p>- Higher Education Skills and Work Based Learning in the Digital Era</p>
                 <p>- <a
@@ -432,32 +433,33 @@
                     Asia and beyond.</p>
 
 
-                    <br>
+                <br>
 
-                    <p>Our Theme for 2025 ASAIHL Conference is <strong>&ldquo;Digitalization of Higher Education&rdquo;</strong>
-                        <br> and Subthemes are</p>
-                    <p>- Higher Education Orientation to Meet Market Needs in the Digital Era</p>
-                    <p>- Higher Education Skills and Work Based Learning in the Digital Era</p>
-                    <p>- <a
-                            href="https://cefcambodia.com/2022/06/03/digital-transformation-in-higher-education-key-to-enhancing-cambodias-higher-education-sector/#:~:text=The%20pandemic%2Dinduced%20digital%20transformation,online%20education%20provision%20and%20management.">Digital
-                            Transformation in Higher Education</a></p>
-                    <p>Follow with related topics are:</p>
-                    <p>-The Impact of Artificial Intelligence (AI) on Student Learning Outcomes and Equity in Higher Education.
-                    </p>
-                    <p>-Digital Divide and Access to Quality Education.</p>
-                    <p>-The Role of Social Media in Higher Education.</p>
-                    <p>-The Role of Faculty in the Digital Age.</p>
-                    <p>-The Ethics of Data-Driven Decision Making in Higher Education.</p>
-                    <p>-The Application of Virtual Reality (VR) and Augmented Reality (AR) in Science, Technology, Engineering,
-                        and Mathematics (STEM) Education.</p>
-                    <p>-The Use of Big Data Analytics in Scientific Research and Higher Education.</p>
-                    <p>-The Impact of Digital Tools on Scientific Collaboration and Knowledge Sharing.</p>
-                    <p>-The Development and Implementation of Online Laboratories and Remote Experimentation in Science
-                        Education.</p>
-                    <p>-The Role of Artificial Intelligence (AI) in Scientific Research: Exploring the Potential of AI in Data
-                        Analysis, Drug Discovery, and Materials Science.</p>
-                    
-                    
+                <p>Our Theme for 2025 ASAIHL Conference is <strong>&ldquo;Digitalization of Higher Education&rdquo;</strong>
+                    <br> and Subthemes are
+                </p>
+                <p>- Higher Education Orientation to Meet Market Needs in the Digital Era</p>
+                <p>- Higher Education Skills and Work Based Learning in the Digital Era</p>
+                <p>- <a
+                        href="https://cefcambodia.com/2022/06/03/digital-transformation-in-higher-education-key-to-enhancing-cambodias-higher-education-sector/#:~:text=The%20pandemic%2Dinduced%20digital%20transformation,online%20education%20provision%20and%20management.">Digital
+                        Transformation in Higher Education</a></p>
+                <p>Follow with related topics are:</p>
+                <p>-The Impact of Artificial Intelligence (AI) on Student Learning Outcomes and Equity in Higher Education.
+                </p>
+                <p>-Digital Divide and Access to Quality Education.</p>
+                <p>-The Role of Social Media in Higher Education.</p>
+                <p>-The Role of Faculty in the Digital Age.</p>
+                <p>-The Ethics of Data-Driven Decision Making in Higher Education.</p>
+                <p>-The Application of Virtual Reality (VR) and Augmented Reality (AR) in Science, Technology, Engineering,
+                    and Mathematics (STEM) Education.</p>
+                <p>-The Use of Big Data Analytics in Scientific Research and Higher Education.</p>
+                <p>-The Impact of Digital Tools on Scientific Collaboration and Knowledge Sharing.</p>
+                <p>-The Development and Implementation of Online Laboratories and Remote Experimentation in Science
+                    Education.</p>
+                <p>-The Role of Artificial Intelligence (AI) in Scientific Research: Exploring the Potential of AI in Data
+                    Analysis, Drug Discovery, and Materials Science.</p>
+
+
                 <p><strong>&nbsp;</strong></p>
                 <p><strong>Tentative Program</strong></p>
                 <p><strong>2025 ASAIHL Conference </strong>(6-7-8 of July, 2025)</p>
@@ -609,7 +611,7 @@
                             Penh.
                             (100m south of Tuol Sleng Genocide Museum)</span>
                         <br>
-                        <span class="gold">Campus 2 (Chom Cao Flyover):</span><br>
+                        <span class="gold">Campus 2 (Chom Chao Flyover):</span><br>
                         <span class="text-white">#151, National Road No. 3, Sangkat Chom Chao II, Khan Posenchey, Phnom
                             Penh.</span>
 
