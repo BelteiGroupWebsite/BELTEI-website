@@ -167,7 +167,7 @@
                         <div class=" w-100">
                             <h5 class="pb-4">
                                 <strong>2025 ASAIHL Conference</strong> at BELTEI International University, <br>
-                                Phnom Penh, Kingdom of Cambodia
+                                Phnom Penh, The Kingdom of Cambodia
                             </h5>
                             <div class="countdown-div position-absolute " style="right: 30px; bottom: 10px" id="countdown">
                                 <span>Loading ...</span>
