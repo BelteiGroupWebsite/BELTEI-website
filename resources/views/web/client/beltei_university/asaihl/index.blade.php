@@ -531,6 +531,13 @@
                         or contact us at (+885) 78 888 803 / (+855) 78 221 222 (Telegram, WhatsApp,)
                     </p>
                     <p>Our Email: biu.2025asaihl@beltei.edu.kh</p>
+
+                    <p>Accommodation and Transportation<br />-Hotel will be recommended later on.<br />-Pass App/Crab is
+                        recommended for public taxi.<br />-Pick &amp; Drop service is provided on your request.<br />-Please
+                        contact us at (+855) 78 8888 03/78 221 222 (Telegram, WhatsApp,)<br />-Our Email:
+                        <a href="biu.2025asaihl@beltei.edu.kh">biu.2025asaihl@beltei.edu.kh</a>
+                    </p>
+
                 </div>
             </div>
             <div id="content-detail-7" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
