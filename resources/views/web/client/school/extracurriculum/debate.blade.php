@@ -3,7 +3,7 @@
 @section('content')
     <div class="px-3 ">
         <h3 class="py-3 title-translate-font">
-            {!! __('school/extracurriculum/generalknowledge.header') !!}
+            {!! __('school/extracurriculum/debate.header') !!}
         </h3>
         <div class="content-translate-font text-start">
 
