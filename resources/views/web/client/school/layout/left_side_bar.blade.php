@@ -43,7 +43,7 @@
             class="list-group-item text-white">{{ __('school/app.C5') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C6') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C7') }}</a>
-        <a href="{{ route('school.construction') }}"
+        <a href="{{ route('school.extracurriculum.readingprogram') }}"
             class="list-group-item text-white f12">{{ __('school/app.C8') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C9') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C10') }}</a>

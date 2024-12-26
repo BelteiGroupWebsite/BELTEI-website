@@ -241,6 +241,7 @@ Route::group(['prefix' => 'bis', 'as' => 'school.', 'middleware' => 'visitor.tra
     Route::group(['prefix' => 'extracurriculum', 'as' => 'extracurriculum.'], function () {
         Route::view('generalknowledge', 'web.client.school.extracurriculum.generalknowledge')->name('generalknowledge');
         Route::view('debate', 'web.client.school.extracurriculum.debate')->name('debate');
+        Route::view('readingprogram', 'web.client.school.extracurriculum.readingprogram')->name('readingprogram');
     });
 
     Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
