@@ -1,5 +1,8 @@
 <?php
 return [
+
+    'header' => "Increase General Knowledge",
+    
     'header-1' => "1. Understanding of Drug and E-cigarette (Vape) (Grade 7 & 8 - Level 7 & 8)",
     'header-2' => "2. Traffic Law (Grade 7 & 8 - Level 7 & 8)",
     'header-3' => "3. Concept of Buddhism (Grad 9 - Level 9)",

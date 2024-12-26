@@ -2,7 +2,9 @@
 
 @section('content')
     <div class="px-3">
-        <h3 class="py-3">Increase General Knowledge</h3>
+        <h3 class="py-3">
+            {!! __('school/extracurriculum/generalknowledge.header') !!}
+        </h3>
         <div class="content-translate-font text-start">
 
             <div class="py-2">
