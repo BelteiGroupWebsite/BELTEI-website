@@ -1,8 +1,8 @@
 <?php
 return [
 
-    'header' => "12 Extra Curriculum",
-    // 'header' => "Increase General Knowledge",
+    // 'header' => "12 Extra Curriculum",
+    'header' => "Increase General Knowledge",
     
     'header-1' => "1. Understanding of Drug and E-cigarette (Vape) (Grade 7 & 8 - Level 7 & 8)",
     'header-2' => "2. Traffic Law (Grade 7 & 8 - Level 7 & 8)",
