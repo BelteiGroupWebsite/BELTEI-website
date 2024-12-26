@@ -1,7 +1,7 @@
 @extends('web.client.school.layout.app')
 
 @section('content')
-    <div class="px-3">
+    <div class="px-3 title-translate-font">
         <h3 class="py-3">
             {!! __('school/extracurriculum/generalknowledge.header') !!}
         </h3>
