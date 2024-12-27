@@ -15,10 +15,10 @@
                 {!! __('beltei_university/about/welcome.welcome') !!}
             </div>
             <div class="d-flex justify-content-end">
-                <div class="w-50">
+                <div class="col-6">
                     <div>
-                        <img class="float-start rounded" style="width: 200px"
-                            src="{{ asset('asset/img/biu/app/HEDr_sign.png') }}" alt="">
+                        <img class="rounded" style="width: 200px" src="{{ asset('asset/img/biu/app/HEDr_sign.png') }}"
+                            alt="">
                     </div>
                     <br>
                     <p class="title-translate-font">{!! __('beltei_university/about/welcome.founder') !!}</p>
