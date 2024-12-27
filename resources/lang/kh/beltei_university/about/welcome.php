@@ -31,7 +31,7 @@ return [
 <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp;</span></p>
 
 <div class="d-flex justify-content-end">
-    <div class="col-4">
+    <div class="col-6">
         <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>ស្ថាបនិកប៊ែលធី គ្រុប</span></p>
         <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>ប្រធានក្រុមប្រឹក្សាភិបាល</span></p>
         <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ</span></p>

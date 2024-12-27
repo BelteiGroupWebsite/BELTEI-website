@@ -15,7 +15,7 @@
                 {!! __('beltei_university/about/welcome.welcome') !!}
             </div>
             <div class="d-flex justify-content-end">
-                <div class="col-4">
+                <div class="col-6">
                     <div>
                         <img class="float-start rounded" style="width: 200px"
                             src="{{ asset('asset/img/biu/app/HEDr_sign.png') }}" alt="">
