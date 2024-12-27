@@ -621,6 +621,13 @@
                                 alt="">
                         </a>
                     </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://sunmoonmsia.my/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/korea/6.png') }}"
+                                alt="">
+                        </a>
+                    </li>
                 </ul>
 
 
