@@ -323,6 +323,57 @@
                                 alt="">
                         </a>
                     </li>
+
+
+                    <li class="list-group-item p-0">
+                        <a href="https://www.bakc.org.kh/index.php/en/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/29.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.chiefbank.com.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/30.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://vireakbuntham.com/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/31.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://sokhahotels.com.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/32.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.cambodiaangkorair.com/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/33.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.ppcbank.com.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/34.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.ppcbank.com.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/35.png') }}"
+                                alt="">
+                        </a>
+                    </li>
                 </ul>
 
                 {{-- <ul class="list-group text-center right-bar-ul">
@@ -939,13 +990,15 @@
                     <li class="list-group-item p-0">
                         <a href="https://www.au.edu/" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/1.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/1.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
                         <a href="https://www.bu.ac.th/en/international-programs" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/2.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/2.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
