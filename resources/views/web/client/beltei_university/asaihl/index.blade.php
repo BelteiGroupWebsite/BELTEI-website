@@ -532,7 +532,9 @@
                     </p>
                     <p>Our Email: biu.2025asaihl@beltei.edu.kh</p>
 
-                    <p>Accommodation and Transportation<br />-Hotel will be recommended later on.<br />-Pass App/Crab is
+                    <h6 class="pt-3 pb-1">Accommodation and Transportation</h6>
+                    <p>
+                        -Hotel will be recommended later on.<br />-Pass App/Crab is
                         recommended for public taxi.<br />-Pick &amp; Drop service is provided on your request.<br />-Please
                         contact us at (+855) 78 8888 03/78 221 222 (Telegram, WhatsApp,)<br />-Our Email:
                         <a href="biu.2025asaihl@beltei.edu.kh">biu.2025asaihl@beltei.edu.kh</a>

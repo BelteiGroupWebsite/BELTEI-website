@@ -5,7 +5,10 @@ return [
 
     'header' => "Message from Chairman of the Board of Directors",
 
+    'founder' => "His Excellency Dr. Ly Chheng",
+
     'welcome' => '
+    
     <p>With great reverence, I warmly welcome Samdech, Your Excellencies, Lok Oknha, Lok Chumteav, Civil Servants, Staff, Lecturers, Teachers, NGO staff, especially all Students, Ladies and Gentlemen who have decided to pursue their undergraduate studies at BELTEI International University to improve knowledge and ability to achieve their future goals.</p>
 <p>BELTEI International University was established with the purpose of contributing to the development of higher education in Cambodia and the growth of human capital with "Quality, Efficiency, Excellence, Morality, and Virtue". It aligns with the Royal Government\'s Rectangular Strategy formulated by Samdech Akka Moha Sena Padei Techo HUN SEN, the Former Prime Minister, who is the National Hero, the Top Founder, Special Guide, and Operator of the Win-Win Policy Who Brings Peace and Full National Unity! It also aligns with the Pentagonal Strategy of the Royal Government\'s 7th Mandate of the National Assembly led by Samdech Moha Borvor Thipadei HUN MANET, the Prime Minister of Cambodia, who is a competent leader to lead the country for peace and development of all sectors. Currently, the University has been offering at the Associate Degrees, Bachelor&rsquo;s Degrees, Master&rsquo;s Degrees Doctoral Degrees for National and International Programs with 12 main Faculties as follows:</p>
 
@@ -35,5 +38,6 @@ return [
 </ol>
 <p>On behalf of the Board of Directors, Management Team, Staff, Professors and Lecturers of BELTEI International University, we are committed to developing and updating our curricula in accordance with national and international standards in order to enhance the quality of education, knowledge, language, professionalism, science, technology, creativity with sufficient ability corresponding to the digital era and the fourth industrial revolution, together with high morality and virtue.</p>
 <p>We look forward to welcoming Samdech, Your Excellencies, Lok Oknha, Lok Chumteav, Ladies and Gentlemen and all students who are planning to pursue their tertiary studies at BELTEI International University. Please, accept my best wishes for good health, happiness, and constantly great success.</p>
+
     '
 ];

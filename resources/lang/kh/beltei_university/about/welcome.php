@@ -5,6 +5,8 @@ return [
 
     'header' => "សារស្វាគមន៍ ស្ថាបនិក និងជាប្រធានក្រុមប្រឹក្សាភិបាល",
 
+    'founder' => "បណ្ឌិត លី ឆេង",
+
     'welcome' => '
 
 <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>សូមគោរព និងសូមស្វាគមន៍ សម្តេច ឯកឧត្តម &nbsp; លោកឧកញ៉ា &nbsp;លោកជំទាវ &nbsp;លោក លោកស្រី អ្នកនាង &nbsp;កញ្ញា &nbsp; ជាថ្នាក់ដឹកនាំ មន្ត្រីរាជការ បុគ្គលិក សាស្រ្តាចារ្យ លោកគ្រូ អ្នកគ្រូបុគ្គលិកអង្គការមិនមែនរដ្ឋាភិបាល និងសិស្ស-និស្សិតទាំងអស់ដែលបានសម្រេចចិត្តបន្តការសិក្សាថ្នាក់ឧត្តមសិក្សានៅសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ ដើម្បីបង្កើនចំណេះដឹង សមត្ថភាពនិងសម្រេចគោលដៅរបស់ខ្លួនទៅថ្ងៃអនាគត។សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ បានបង្កើតឡើង ក្នុងគោលបំណងរួមចំណែកអភិវឌ្ឍវិស័យអប់រំថ្នាក់ឧត្តមសិក្សានៅប្រទេសកម្ពុជា និងដើម្បីបង្កើនមូលធនមនុស្សប្រកបដោយ &ldquo;គុណភាព ប្រសិទ្ធភាព ឧត្តមភាព សីលធម៌ និងគុណធម៌&rdquo; ស្របតាមយុទ្ធសាស្ត្រចតុកោណ &nbsp; របស់រាជរដ្ឋាភិបាល &nbsp; ដឹកនាំដោយ &nbsp;សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុន សែន អតីតនាយករដ្ឋមន្ត្រី ដែលជាវីរបុរសជាតិស្ថាបនិកមគ្គុទេសក៍ឯក និងប្រតិបត្តិករ នយោបាយ ឈ្នះ ឈ្នះដែលនាំមកនូវសន្តិភាព និងការឯកភាពជាតិពេញលេញព្រមទាំងស្របតាមយុទ្ធសាស្ត្របញ្ចកោណរបស់រាជរដ្ឋាភិបាល នីតិកាលទី៧ នៃរដ្ឋសភាដឹកនាំដោយ <strong>សម្តេចមហាបវរធិបតី &nbsp;</strong></span><strong><span style=\'font-size:16px;line-height:107%;font-family:"Khmer M1";\'>ហ៊ុន &nbsp;ម៉ាណែត</span></strong><strong><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; នាយករដ្ឋមន្ត្រី</span></strong><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp; នៃព្រះរាជាណាចក្រកម្ពុជា ពោរពេញដោយសមត្ថភាព បន្តដឹកនាំប្រទេសជាតិឱ្យមាន សុខសន្តិភាព &nbsp; និងការអភិវឌ្ឍលើគ្រប់វិស័យ។ សាកលវិទ្យាល័យបាននឹងកំពុងបណ្តុះបណ្តាលថ្នាក់បរិញ្ញាបត្ររង ថ្នាក់បរិញ្ញាបត្រ ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់ និងថ្នាក់បណ្ឌិតតាមកម្មវិធីសិក្សាជាភាសាជាតិ និងអន្តរជាតិ ដែលមាន១២មហាវិទ្យាល័យរួមមាន៖</span></p>
@@ -28,15 +30,14 @@ return [
 <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>យើងខ្ញុំរង់ចាំទទួលស្វាគមន៍ សម្តេច ឯកឧត្តម លោកឧកញ៉ា លោកជំទាវលោកលោកស្រី អ្នកនាង កញ្ញានិងសិស្សនិស្សិតទាំងអស់ ដោយក្តីសោមនស្សរីករាយជានិច្ច។ សូមគោរពជូនពរ សុខភាពល្អ សុភមង្គលនិងជោគជ័យគ្រប់ភារកិច្ចជានិច្ចនិរន្ដរ៍។</span></p>
 <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;\'><span style=\'font-size:16px;line-height:107%;font-family:"Khmer OS Battambang";\'>&nbsp;</span></p>
 
-<div class="col-4">
-<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>ស្ថាបនិកប៊ែលធី គ្រុប</span></p>
-<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>ប្រធានក្រុមប្រឹក្សាភិបាល</span></p>
-<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ</span></p>
-<p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><br></p>
+<div class="d-flex justify-content-end">
+    <div class="col-4">
+        <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>ស្ថាបនិកប៊ែលធី គ្រុប</span></p>
+        <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>ប្រធានក្រុមប្រឹក្សាភិបាល</span></p>
+        <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ</span></p>
+        <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><br></p>
+    </div>
 
 </div>
-
-
-
 '
 ];
