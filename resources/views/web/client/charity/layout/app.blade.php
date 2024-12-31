@@ -5,10 +5,9 @@
     <meta charset="utf-8">
     {{-- <meta name="viewport" content="width=device-width, initial-scale=1"> --}}
 
-    <title>BELTEI Tour & Travel</title>
+    <title>BELTEI Charity</title>
 
-    <link rel="shortcut icon" href="{{ asset('asset/img/beltei_tours_in_cambodia.png') }}"
-        type="image/png">
+    <link rel="shortcut icon" href="{{ asset('asset/img/charity/beltei_charity_in_cambodia.ico') }}" type="image/icon">
 
 
     <!-- Fonts -->
@@ -83,44 +82,6 @@
             </div>
 
             {{-- footer  --}}
-
-
-            <div>
-
-                <table class="table position-relative" border="0">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><img class="w-100"
-                                    src="{{ asset('asset/img/tours/footer/footer_top.png') }}"
-                                    border="0"></td>
-                        </tr>
-                        <tr>
-                            <td><img src="{{ asset('asset/img/tours/footer/beltei_tour_text.png') }}"
-                                    border="0"></td>
-                            <td><img src="{{ asset('asset/img/tours/footer/tour_facility.png') }}"
-                                    border="0">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><img class="w-100"
-                                    src="{{ asset('asset/img/tours/footer/line_break.png') }}"
-                                    border="0"></td>
-                        </tr>
-                        <tr>
-                            <td><img src="{{ asset('asset/img/tours/footer/beltei_service_text.png') }}"
-                                    border="0"></td>
-                            <td><img src="{{ asset('asset/img/tours/footer/beltei_tour_passport.png') }}"
-                                    border="0"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><img class="w-100"
-                                    src="{{ asset('asset/img/tours/footer/footer_bottom.png') }}"
-                                    border="0"></td>
-                        </tr>
-                    </tbody>
-                </table>
-
-            </div>
 
         </div>
 

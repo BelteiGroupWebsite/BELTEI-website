@@ -5,7 +5,7 @@
 
 
  // left sidebar
- 'A' => "About BELTEI Tourism School",
+ 'A' => "About BELTEI Charity",
  'A1' => "Welcome Message",
  'A2' => "Purpose",
  'A3' => "Target Mission Vision",

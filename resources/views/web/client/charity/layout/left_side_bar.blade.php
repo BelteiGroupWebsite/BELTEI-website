@@ -7,12 +7,6 @@
         <a href="{{ route('charity.about.purpose') }}" class="list-group-item text-white">{{ __('charity/app.A2') }}</a>
         <a href="{{ route('charity.about.vision') }}" class="list-group-item text-white">{{ __('charity/app.A3') }}</a>
         <a href="{{ route('charity.about.history') }}" class="list-group-item text-white">{{ __('charity/app.A4') }}</a>
-        <a  target="blank" class="list-group-item text-white unhover-padding">{{ __('charity/app.A5') }}
-            
-            <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('charity.about.cambodia.brief-information') }}" class="ps-4 py-2 border-bottom text-white">- {{ __('charity/app.A6') }}
-            <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('charity.about.cambodia.khmer-ancient-temple-legacy') }}" class="ps-4 py-2 border-bottom text-white">- {{ __('charity/app.A7') }}
-            <a style="border-color: rgba(0,0,0,.125) !important;" href="{{ route('charity.about.cambodia.cambodia-culture') }}" class="ps-4 py-2 border-bottom text-white">- {{ __('charity/app.A8') }}</a>
-        </a>
     </ul>
     
     
