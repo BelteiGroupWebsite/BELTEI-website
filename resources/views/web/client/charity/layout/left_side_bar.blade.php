@@ -71,11 +71,4 @@
 
     </ul>
 
-    <ul class="text-capitalize list-group f14">
-        <a href="{{ route('charity.') }}">
-            <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('charity/app.H') }}</h6>
-        </a>
-        
-    </ul>
-
 </div>
