@@ -1,127 +1,17 @@
 <?php
 
 return [
-    'header' => "History and Location Layout",
-   
+    'header' => "History of BELTEI Charty",
+
     'description' => '
    
     <div>
    
-    <h6 class = "font-bolder mt-3 mb-2">
-    A - About BELTEI Tourism
-    </h6>
-   
-    <p>
-    BELTEI TOURS & TRAVEL is a part of BELTEI Group which was established on the 1st January 2012, with the office located at Building 57, Preah Monireth Blvd., corner of Street 290, Sangkat Toul Svay Prey 2 Khan Chamkar Mon, Phnom Penh (about 100 meters west of the Olympic swimming pool) and obtained a license From the Ministry of Tourism No. 374/2011, dated December 23, 2011. BELTEI TOURS & TRAVEL ) Become a full member of the Cambodian Association of Travel Agents (CATA) and the Asian Tourism Association PACA Cambodia (PATA) has three major services, including:
-    </p>
-   
-    <h6 class = "font-bolder mt-3 mb-2">
-    B. Receive district tourism package preparation services
-    </h6>
-   
-    <ul style = "" class = "">
-    <li>
-    Visit the main tourist destinations in Phnom Penh
-    </li>
-    <li>
-    To Siem Reap
-    </li>
-    <li>
-    To Kampong Thom - Siem Reap
-    </li>
-    <li>
-    To Kampong Thom - Siem Reap - Preah Vihear
-    </li>
-    <li>
-    To Preah Vihear-Oddar Meanchey province
-    </li>
-    <li>
-    To Pursat - Battambang - Banteay Meanchey
-    </li>
-    <li>
-    To Kratie - Stung Treng - Rattanakiri - Mondulkiri
-    </li>
-    <li>
-    To Koh Kong - Sihanoukville - Kampot - Kep
-    </li>
-    <li>
-    Excursions to more attractions in the Kingdom of Cambodia
-    </li>
-    </ul>
-   
-    <h6 class = "font-bolder mt-3 mb-2">
-    C- Receive services to arrange tour packages into the country
-    </h6>
-   
-    <ul>
-    <li>
-    Visit the main tourist destinations in Phnom Penh
-    </li>
-    <li>
-    To Siem Reap
-    </li>
-    <li>
-    To Kampong Thom - Siem Reap
-    </li>
-    <li>
-    To Kampong Thom - Siem Reap - Preah Vihear
-    </li>
-    <li>
-    To Preah Vihear - Oddar Meanchey - Siem Reap
-    </li>
-    <li>
-    To Pursat - Battambang - Banteay Meanchey
-    </li>
-    <li>
-    To Kratie - Stung Treng - Rattanakiri - Mondulkiri
-    </li>
-    <li>
-    To Koh Kong - Sihanoukville - Kampot - Kep
-    </li>
-    <li>
-    Excursions to more attractions in the Kingdom of Cambodia
-    </li>
-    </ul>
-   
-   
-    <h6 class = "font-bolder mt-3 mb-2">
-    G-Receive services to organize travel packages abroad, such as:
-    </h6>
-   
-    <p>
-    Vietnam, Laos, Thailand, Myanmar, Malaysia, Singapore, Indonesia, China, Japan, Korea, Brunei, India, United States English, French, Canadian, Australian, German, Russian, Egyptian and African, etc. Other services available Such as:
-   
-    </p>
-   
-    <ul>
-   
-    <li>
-    Luxury cars for rent, 15 seats, 25 seats and 45 seats
-    </li>
-   
-    <li>
-    Adventure tours, conferences, conferences and exhibitions
-    </li>
-    <li>
-    Cruises and specific needs
-    </li>
-    <li>
-    Sell ​​plane tickets around the world
-    </li>
-    <li>
-    Domestic and international hotel reservations
-    </li>
-    <li>
-    Overseas visa facilitation services, extension and issuance of new passports, visa extension for foreigners
-    </li>
-   
-    <li>
-    Travel consulting services
-    </li>
-   
-    </ul>
+    <p>BELTEI Charity Association was founded by <strong>H.E. Dr. LY Chheng</strong>, Member of the National Assembly for Phnom Penh Capital City, Founder and Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University on May 25, 2015. It was established to serve the disadvantaged communities through philanthropic activities with a broader mission.</p>
+    <p>In order to provide immediate relief and create lasting solutions to poverty, hunger, and education needs for impoverish communities throughout the country with the support from Cambodian Red Cross, our activities have been expanded covering all underprivileged communities with a wider range of supplies and support.</p>
+    <p>BELTEI Charity Association is involved with many social and welfare activities such as building pagodas, roads, schools in impoverish communities, providing some funds to women to cover their maternity expenses, offering daily essentials to poor, old and disabled people in the community. Moreover, this foundation also engages to provide the basic education to the students of Primary School in the rural area by offering stationery and learning materials. Most of the funds are raised through donations from the founder, the management team of BELTEI Group, BELTEI students and others.</p>
    
    </div>
    
     '
-   ];
+];
