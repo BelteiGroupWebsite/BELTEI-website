@@ -99,7 +99,7 @@ class NewsController extends Controller
             4 => 'relation',
             5 => 'tour_news',
             6 => 'testcenter_news',
-            7 => 'charity_news',
+            7 => 'charity',
             8 => 'beltei_university',
             9 => 'beltei_university',
             10 => 'beltei_university',

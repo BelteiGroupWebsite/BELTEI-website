@@ -6,39 +6,40 @@
     <hr>
 
     {{-- Hot News  --}}
-    <a href="{{ route('beltei_university.news.detail', $charity_news->first()->id) }}" class="card card-body d-flex">
-        {{-- <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex"> --}}
-        <div class="overflow-hidden">
-            @if ($charity_news->first()->image)
-                @foreach (array_slice(explode(',', $charity_news->first()->image), 0, 1) as $newsImg)
-                    <img class="rounded shadow-sm width-100 w-100" loading="lazy"
-                        src="{{ asset('uploaded/university/news/images/' . $charity_news->first()->id . '/' . $newsImg) }}"
-                        alt="News Image">
-                @endforeach
-            @endif
-            {{-- <img class="w-100" src="{{ asset('asset/img/school/dailyNews/1/1.jpg') }}" alt=""> --}}
-        </div>
-        <div class="p-3">
-            <h6 class="Muol-Light line-height-15">
-                @foreach ($charity_news->first()->newsDetail as $item)
-                    @if (app()->getLocale() == 'kh')
-                        @if ($item->language_id == 1)
-                            <div onclick="toggleDescription(this)" class="cursor-pointer "
-                                data-fulltext="{{ $item->header }}">
-                                {{ Str::limit($item->header, 200) }}
-                            </div>
+    @isset($charity_news->first()->id)
+        <a href="{{ route('beltei_university.news.detail', $charity_news->first()->id) }}" class="card card-body d-flex">
+            {{-- <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex"> --}}
+            <div class="overflow-hidden">
+                @if ($charity_news->first()->image)
+                    @foreach (array_slice(explode(',', $charity_news->first()->image), 0, 1) as $newsImg)
+                        <img class="rounded shadow-sm width-100 w-100" loading="lazy"
+                            src="{{ asset('uploaded/university/news/images/' . $charity_news->first()->id . '/' . $newsImg) }}"
+                            alt="News Image">
+                    @endforeach
+                @endif
+                {{-- <img class="w-100" src="{{ asset('asset/img/school/dailyNews/1/1.jpg') }}" alt=""> --}}
+            </div>
+            <div class="p-3">
+                <h6 class="Muol-Light line-height-15">
+                    @foreach ($charity_news->first()->newsDetail as $item)
+                        @if (app()->getLocale() == 'kh')
+                            @if ($item->language_id == 1)
+                                <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                    data-fulltext="{{ $item->header }}">
+                                    {{ Str::limit($item->header, 200) }}
+                                </div>
+                            @endif
+                        @else
+                            @if ($item->language_id == 2)
+                                <div onclick="toggleDescription(this)" class="cursor-pointer "
+                                    data-fulltext="{{ $item->header }}">
+                                    {{ Str::limit($item->header, 200) }}
+                                </div>
+                            @endif
                         @endif
-                    @else
-                        @if ($item->language_id == 2)
-                            <div onclick="toggleDescription(this)" class="cursor-pointer "
-                                data-fulltext="{{ $item->header }}">
-                                {{ Str::limit($item->header, 200) }}
-                            </div>
-                        @endif
-                    @endif
-                @endforeach
-            </h6>
-            {{-- <p class="Battambang-Regular f14 line-height-15">​
+                    @endforeach
+                </h6>
+                {{-- <p class="Battambang-Regular f14 line-height-15">​
                     @foreach ($charity_news->first()->newsDetail as $item)
                         @if ($item->language_id == 1)
                             <div onclick="toggleDescription(this)" class="cursor-pointer "
@@ -48,8 +49,9 @@
                         @endif
                     @endforeach
                 </p> --}}
-        </div>
-    </a>
+            </div>
+        </a>
+    @endisset
 
 
     <div class="row p-0 m-0">
