@@ -243,6 +243,13 @@ Route::group(['prefix' => 'bis', 'as' => 'school.'], function () {
         Route::view('generalknowledge', 'web.client.school.extracurriculum.generalknowledge')->name('generalknowledge');
         Route::view('debate', 'web.client.school.extracurriculum.debate')->name('debate');
         Route::view('readingprogram', 'web.client.school.extracurriculum.readingprogram')->name('readingprogram');
+        Route::view('mathchallenge', 'web.client.school.extracurriculum.mathchallenge')->name('mathchallenge');
+        Route::view('publicspeaking', 'web.client.school.extracurriculum.publicspeaking')->name('publicspeaking');
+        Route::view('talentcompetition', 'web.client.school.extracurriculum.talentcompetition')->name('talentcompetition');
+        Route::view('writingcompetition', 'web.client.school.extracurriculum.writingcompetition')->name('writingcompetition');
+
+
+
     });
 
     Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
