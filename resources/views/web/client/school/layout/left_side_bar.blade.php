@@ -37,15 +37,18 @@
         <a href="{{ route('school.extracurriculum.generalknowledge') }}"
             class="list-group-item text-white">{{ __('school/app.C2') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C3') }}</a>
-        <a href="{{ route('school.construction.extracurriculum.publicspeaking') }}"
+        <a href="{{ route('school.extracurriculum.publicspeaking') }}"
             class="list-group-item text-white f12">{{ __('school/app.C4') }}</a>
         <a href="{{ route('school.extracurriculum.debate') }}"
             class="list-group-item text-white">{{ __('school/app.C5') }}</a>
-        <a href="{{ route('school.extracurriculum.writingcompetition') }}" class="list-group-item text-white">{{ __('school/app.C6') }}</a>
-        <a href="{{ route('school.extracurriculum.mathchallenge') }}" class="list-group-item text-white">{{ __('school/app.C7') }}</a>
+        <a href="{{ route('school.extracurriculum.writingcompetition') }}"
+            class="list-group-item text-white">{{ __('school/app.C6') }}</a>
+        <a href="{{ route('school.extracurriculum.mathchallenge') }}"
+            class="list-group-item text-white">{{ __('school/app.C7') }}</a>
         <a href="{{ route('school.extracurriculum.readingprogram') }}"
             class="list-group-item text-white f12">{{ __('school/app.C8') }}</a>
-        <a href="{{ route('school.extracurriculum.talentcompetition') }}" class="list-group-item text-white">{{ __('school/app.C9') }}</a>
+        <a href="{{ route('school.extracurriculum.talentcompetition') }}"
+            class="list-group-item text-white">{{ __('school/app.C9') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C10') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C11') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C12') }}</a>
