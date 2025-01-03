@@ -247,6 +247,8 @@ Route::group(['prefix' => 'bis', 'as' => 'school.'], function () {
         Route::view('publicspeaking', 'web.client.school.extracurriculum.publicspeaking')->name('publicspeaking');
         Route::view('talentcompetition', 'web.client.school.extracurriculum.talentcompetition')->name('talentcompetition');
         Route::view('writingcompetition', 'web.client.school.extracurriculum.writingcompetition')->name('writingcompetition');
+        Route::view('sport', 'web.client.school.extracurriculum.sport')->name('sport');
+        Route::view('robotic', 'web.client.school.extracurriculum.robotic')->name('robotic');
 
 
 

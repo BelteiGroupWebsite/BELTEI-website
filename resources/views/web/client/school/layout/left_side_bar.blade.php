@@ -50,8 +50,10 @@
         <a href="{{ route('school.extracurriculum.talentcompetition') }}"
             class="list-group-item text-white">{{ __('school/app.C9') }}</a>
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C10') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C11') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C12') }}</a>
+        <a href="{{ route('school.extracurriculum.sport') }}"
+            class="list-group-item text-white">{{ __('school/app.C11') }}</a>
+        <a href="{{ route('school.extracurriculum.robotic') }}"
+            class="list-group-item text-white">{{ __('school/app.C12') }}</a>
     </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('school.') }}">
