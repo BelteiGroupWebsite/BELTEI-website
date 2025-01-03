@@ -1,7 +1,9 @@
 <?php
 
 return [
-    'header' => "កម្មវិធីអប់រំស្ទែម និងរ៉ូបូទិក",
-    'header-1' => "កម្មវិធីអប់រំស្ទែម និងរ៉ូបូទិក",
-    'detail-1' => "កម្មវិធីរ៉ូប៉ូទិក គឺជាផ្នែកមួយនៃស្ទែម (STEM) ដែលផ្សារភ្ជាប់ទ្រឹស្តី និងការអនុវត្តផ្នែកវិទ្យាសាស្ត្រ វិស្វកម្ម បច្ចេកវិទ្យា និងគណិតវិទ្យាដើម្បីឱ្យសិស្សានុសិស្សចេះចែករំលែកគម្រោងស្នាដៃ និងគំនិតរបស់ខ្លួនក្នុងការអភិវឌ្ឍសង្គមជាតិក៏ដូចជាចូលរួមបណ្តុះបណ្តាលធនធានមនុស្ស និងជំរុញឱ្យមានជំនាញខាងផ្នែកវិទ្យាសាស្ត្រច្រើនថែមទៀតផងដែរ។"
+    'header' => "STEM Education & Robotic Program",
+    'header-1' => "STEM Education & Robotic Program",
+    'detail-1' => "The Robotics program is part of the Stem (STEM) program, which connects the theory and practice of science, engineering, technology and mathematics so that students can share their ideas for society development, as well as participate in educated on human resources and promoting to have more scientific skills as well."
 ];
+
+?>
