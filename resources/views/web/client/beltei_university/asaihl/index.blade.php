@@ -268,6 +268,10 @@
                 <p>Finally, I would also like to wish Excellencies, Lok Oknha, Lok Chumteav, Ladies and Gentlemen with the 4
                     gems of Buddhist Doctrines: Longevity, Nobility, Health and Strength. Thank you.</p>
 
+
+                <div class="text-center my-3">
+                    <img src="{{ asset('asset/img/university/app/photo_2024-07-05_09-06-55.jpg') }}" alt="">
+                </div>
                 <div class="text-center mt-4">
                     <img class="max-height-150" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
                 </div>
@@ -545,7 +549,8 @@
             <div id="content-detail-7" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
                 <div>
                     <h5 class="mb-3"><strong>-For the optional tour, the destinations are</strong></h5>
-                    <p class="mb-2 bg-info p-2 bold text-bold font-bold">1 Day Trip to Sihanoukville: Free of charge</p>
+                    <p class="mb-2 bg-info p-2 bold text-bold font-bold">1 Day Trip to Sihanoukville <span
+                            class="text-danger">(July 09, 2025)</span>: Free of charge</p>
                     <div class="row">
                         @for ($i = 1; $i <= 6; $i++)
                             <img class="col-6"
@@ -553,7 +558,8 @@
                                 alt="">
                         @endfor
                     </div>
-                    <p class="mt-4 mb-2 bg-info p-2 bold text-bold font-bold">2 Days Trip to Siem Reap and Angkor: 100 USD
+                    <p class="mt-4 mb-2 bg-info p-2 bold text-bold font-bold">2 Days Trip to Siem Reap and Angkor: 100
+                        USD<span class="text-danger">(July 09-10, 2025)</span>
                     </p>
                     <div class="row">
                         @for ($i = 1; $i <= 6; $i++)
