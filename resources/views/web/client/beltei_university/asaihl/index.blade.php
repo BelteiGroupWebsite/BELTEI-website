@@ -272,6 +272,7 @@
                 <div class="text-center my-3">
                     <img class="w-75" src="{{ asset('asset/img/university/app/photo_2024-07-05_09-06-55.jpg') }}" alt="">
                 </div>
+                <hr class="" style="border: 3px solid #003572; ">
                 <div class="text-center mt-4">
                     <img class="max-height-150" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
                 </div>
