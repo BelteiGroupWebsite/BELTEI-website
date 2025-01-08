@@ -270,7 +270,7 @@
 
 
                 <div class="text-center my-3">
-                    <img src="{{ asset('asset/img/university/app/photo_2024-07-05_09-06-55.jpg') }}" alt="">
+                    <img class="w-75" src="{{ asset('asset/img/university/app/photo_2024-07-05_09-06-55.jpg') }}" alt="">
                 </div>
                 <div class="text-center mt-4">
                     <img class="max-height-150" src="{{ asset('asset/img/university/asaihl/logo.png') }}" alt="">
