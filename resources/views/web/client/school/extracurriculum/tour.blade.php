@@ -292,10 +292,10 @@
             </div>
             <div class="py-2">
                 <h5>
-                    {!! __('school/extracurriculum/tour.header-16') !!}
+                    {!! __('school/extracurriculum/tour.header-17') !!}
                 </h5>
                 <p class="indent-1rem pt-1">
-                    {!! __('school/extracurriculum/tour.detail-16') !!}
+                    {!! __('school/extracurriculum/tour.detail-17') !!}
                 </p>
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
