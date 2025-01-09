@@ -249,9 +249,6 @@ Route::group(['prefix' => 'bis', 'as' => 'school.'], function () {
         Route::view('writingcompetition', 'web.client.school.extracurriculum.writingcompetition')->name('writingcompetition');
         Route::view('sport', 'web.client.school.extracurriculum.sport')->name('sport');
         Route::view('robotic', 'web.client.school.extracurriculum.robotic')->name('robotic');
-
-
-
     });
 
     Route::group(['prefix' => 'recognition', 'as' => 'recognition.'], function () {
@@ -495,6 +492,7 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.'], function () {
     Route::group(['prefix' => 'asaihl', 'as' => 'asaihl.'], function () {
         // Route::view('/', 'web.client.beltei_university.asaihl.index')->name('index');
         // Route::get('/countdown', [CountdownController::class, 'showCountdown'])->name('countdown');
+        session(['locale' => 'en']);
         Route::get('/', [CountdownController::class, 'showCountdown'])->name('index');
     });
 });
