@@ -492,7 +492,6 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.'], function () {
     Route::group(['prefix' => 'asaihl', 'as' => 'asaihl.'], function () {
         // Route::view('/', 'web.client.beltei_university.asaihl.index')->name('index');
         // Route::get('/countdown', [CountdownController::class, 'showCountdown'])->name('countdown');
-        session(['locale' => 'en']);
         Route::get('/', [CountdownController::class, 'showCountdown'])->name('index');
     });
 });
