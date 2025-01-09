@@ -36,7 +36,7 @@
         <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C1') }}</a>
         <a href="{{ route('school.extracurriculum.generalknowledge') }}"
             class="list-group-item text-white">{{ __('school/app.C2') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C3') }}</a>
+        <a href="{{ route('school.extracurriculum.tour') }}" class="list-group-item text-white">{{ __('school/app.C3') }}</a>
         <a href="{{ route('school.extracurriculum.publicspeaking') }}"
             class="list-group-item text-white f12">{{ __('school/app.C4') }}</a>
         <a href="{{ route('school.extracurriculum.debate') }}"
