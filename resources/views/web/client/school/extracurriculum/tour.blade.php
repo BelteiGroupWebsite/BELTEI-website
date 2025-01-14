@@ -17,8 +17,7 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/1/1/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/1/1/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
@@ -32,8 +31,7 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/2/1/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/2/1/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
@@ -47,23 +45,7 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/2/2/' . $i . '.jpg') }}"
-                            alt="">
-                    @endfor
-                </div>
-            </div>
-            <div class="py-2">
-                <h5>
-                    {!! __('school/extracurriculum/tour.header-3') !!}
-                </h5>
-                <p class="indent-1rem pt-1">
-                    {!! __('school/extracurriculum/tour.detail-3') !!}
-                </p>
-                <div class="row ">
-                    @for ($i = 1; $i <= 10; $i++)
-                        <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/3/1/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/2/2/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
@@ -77,12 +59,10 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/3/2/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/3/1/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
-
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-5') !!}
@@ -93,11 +73,11 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/4/1/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/3/2/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
+
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-6') !!}
@@ -108,13 +88,10 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/4/2/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/4/1/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
-
-
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-7') !!}
@@ -125,11 +102,12 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/5/1/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/4/2/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
+
+
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-8') !!}
@@ -140,13 +118,10 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/5/2/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/5/1/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
-
-
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-9') !!}
@@ -157,11 +132,12 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/6/1/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/5/2/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
+
+
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-10') !!}
@@ -172,13 +148,10 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/6/2/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/6/1/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
-
-
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-11') !!}
@@ -189,11 +162,12 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/7/1/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/6/2/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
+
+
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-12') !!}
@@ -204,13 +178,10 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/7/2/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/7/1/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
-
-
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-13') !!}
@@ -221,11 +192,12 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/8/1/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/7/2/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
+
+
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-14') !!}
@@ -236,13 +208,10 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/8/2/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/8/1/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
-
-
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-15') !!}
@@ -253,11 +222,12 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/9/1/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/8/2/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
+
+
             <div class="py-2">
                 <h5>
                     {!! __('school/extracurriculum/tour.header-16') !!}
@@ -268,8 +238,21 @@
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
                         <img class="col-6 p-2" loading="lazy"
-                            src="{{ asset('asset/img/school/extracurriculum/tour/9/2/' . $i . '.jpg') }}"
-                            alt="">
+                            src="{{ asset('asset/img/school/extracurriculum/tour/9/1/' . $i . '.jpg') }}" alt="">
+                    @endfor
+                </div>
+            </div>
+            <div class="py-2">
+                <h5>
+                    {!! __('school/extracurriculum/tour.header-17') !!}
+                </h5>
+                <p class="indent-1rem pt-1">
+                    {!! __('school/extracurriculum/tour.detail-17') !!}
+                </p>
+                <div class="row ">
+                    @for ($i = 1; $i <= 10; $i++)
+                        <img class="col-6 p-2" loading="lazy"
+                            src="{{ asset('asset/img/school/extracurriculum/tour/9/2/' . $i . '.jpg') }}" alt="">
                     @endfor
                 </div>
             </div>
@@ -277,10 +260,10 @@
 
             <div class="py-2">
                 <h5>
-                    {!! __('school/extracurriculum/tour.header-16') !!}
+                    {!! __('school/extracurriculum/tour.header-18') !!}
                 </h5>
                 <p class="indent-1rem pt-1">
-                    {!! __('school/extracurriculum/tour.detail-16') !!}
+                    {!! __('school/extracurriculum/tour.detail-18') !!}
                 </p>
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)
@@ -292,10 +275,10 @@
             </div>
             <div class="py-2">
                 <h5>
-                    {!! __('school/extracurriculum/tour.header-17') !!}
+                    {!! __('school/extracurriculum/tour.header-19') !!}
                 </h5>
                 <p class="indent-1rem pt-1">
-                    {!! __('school/extracurriculum/tour.detail-17') !!}
+                    {!! __('school/extracurriculum/tour.detail-19') !!}
                 </p>
                 <div class="row ">
                     @for ($i = 1; $i <= 10; $i++)

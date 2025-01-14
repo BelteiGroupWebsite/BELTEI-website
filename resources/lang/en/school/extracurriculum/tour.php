@@ -9,7 +9,7 @@ return [
 
     'detail-1' => "Phnom Penh Safari is the largest natural zoo in Cambodia. It's a place where provides general shelters to wildlife animals like a natural place that they used to live and the daily wonderful animals show with impression. The most important purpose of study tour is to cultivate the spirit of students by letting them know, love, protect and preserve the different kinds of animals with combination between human beings and animals, animals with the natural environment.",
 
-    'header-2' => "2.	Grade 4 and Level 4 to Royal Palace and Phnom Tamao Zoo",
+    'header-2' => "2.	Grade 4 and Level 4 to Royal Palace and Phnom Tamao Zoo <br> 2.1.	Royal Palace",
 
     'detail-2' => "Students learn about the culture, civilization, National heritage, cultural legacy, which were great achievement of the Cambodian kings, especially, it makes them respect, love the king and nation and cultivate their mind to protect the cultural legacy.",
 
@@ -17,7 +17,7 @@ return [
 
     'detail-3' => "Tamao Mountain is one of the potential natural resorts and national resource in Cambodia, which allow Khmer people to visit and study about all kinds of animals are being kept over there. The main purpose of the Field Trip is to cultivate the students’ mind to get to know the national resources, to love and to preserve all kinds of wild animals for the Cambodian next generation.",
 
-    'header-4' => "3. Grade 5 and Level 5 to National Museum and Oudong Mountain",
+    'header-4' => "3. Grade 5 and Level 5 to National Museum and Oudong Mountain <br>3.1. National Museum",
 
     'detail-4' => "The National Museum is a Cambodian historical place where the ancients cultures and arts from all era were exhibited.  Moreover, it is a place keeps all the kinds of artefacts for all nations to visit and research the rich cultural resources of Cambodia. The most important purpose is to allow the students to study and understand about the growth of Cambodia from the all era especially in Angkor Era.",
 
@@ -25,7 +25,7 @@ return [
 
     'detail-5' => "Oudong mountain is a sacred place where the construction of a huge stupa has recently been built to store and conserve the relic of Preah Serei Roek Theat (Ash of the Buddha) with the statues of Buddha for Cambodian people to worship and it is also a tourist attraction. The main purpose of the Field Trip is to know the historical resort and find out the value of the national culture.",
 
-    'header-6' => "4. Grade 6 and Level 6 to Tuol Sleng Genocide Museum and Phnom Penh Safari",
+    'header-6' => "4. Grade 6 and Level 6 to Tuol Sleng Genocide Museum and Phnom Penh Safari <br>4.1. Tuol Sleng Genocide Museum",
 
     'detail-6' => "Tuol Sleng was the place where innocent people were tortured and questioned. Toul Sleng is the Genocide Museum where thousand people was killed cruelly during Khmer Rouge led by Pol Pot. The main purpose of this visiting is to allow all students to understand the tragic and bitter history of Cambodia for three years, eight months and twenty days and also know the reasons why and how the Khmer Rouge killed their own nation and let them keep researching.",
 
@@ -33,7 +33,7 @@ return [
 
     'detail-7' => "Phnom Penh Safari is the largest natural zoo in Cambodia. It's a place where provides general shelters to wildlife animals like a natural place that they used to live and the daily wonderful animals show with impression. The most important purpose of study tour is to cultivate the spirit of students by letting them know, love, protect and preserve the different kinds of animals with combination between human beings and animals, animals with the natural environment.",
 
-    'header-8' => "5. Grade 7 and Level 7 to Chheung Ak Genocide Museum and Phnom Tamao Zoo",
+    'header-8' => "5. Grade 7 and Level 7 to Chheung Ak Genocide Museum and Phnom Tamao Zoo <br>5.1. Chheung Ak Genocide Museum",
 
     'detail-8' => "Field Trip to Choeung Ek Genocide Center, is to Strengthen general knowledge for students studying in school and for Cambodian children to understand the bitter history of the genocidal regime of Pol Pot, the dark Democratic Kampuchea that was cut down killed millions of Cambodians between 1975 to 1979.",
 
@@ -41,7 +41,7 @@ return [
 
     'detail-9' => "Tamao Mountain is one of the potential natural resorts and national resource in Cambodia, which allow Khmer people to visit and study about all kinds of animals are being kept over there. The main purpose of the Field Trip is to cultivate the students’ mind to get to know the national resources, to love and to preserve all kinds of wild animals for the Cambodian next generation.",
 
-    'header-10' => "6. Grade 8 and Level 8 to Oudong Mountain and Win-Win Memorial",
+    'header-10' => "6. Grade 8 and Level 8 to Oudong Mountain and Win-Win Memorial <br>6.1. Oudong Mountain",
 
     'detail-10' => "Oudong mountain is a sacred place where the construction of a huge stupa has recently been built to store and conserve the relic of Preah Serei Roek Theat (Ash of the Buddha) with the statues of Buddha for Cambodian people to worship and it is also a tourist attraction. The main purpose of the Field Trip is to know the historical resort and find out the value of the national culture.",
 
@@ -49,7 +49,7 @@ return [
 
     'detail-11' => "This Field Trips aims to promote students' deeper understanding of Cambodia's true history, in the process of ending the civil war in Cambodia and the finding for peace through complication with the implementation of the Win-Win policy of Samdech Akka Moha Sena Padei Techo Hun Sen, former Prime Minister of the Kingdom of Cambodia, and this is also a historical monument of the foundation of national unity, territorial unity, and complete peace in Cambodia.",
 
-    'header-12' => "7. Grade 9 and Level 9 to National Museum of Cambodian and Kirirom National Park",
+    'header-12' => "7. Grade 9 and Level 9 to National Museum of Cambodian and Kirirom National Park <br> 7.1. National Museum of Cambodian",
 
     'detail-12' => "The National Museum is a Cambodian historical place where the ancient cultures and arts from all era were exhibited.  Moreover, it is a place keeps all the kinds of artefacts for all nations to visit and research the rich cultural resources of Cambodia. The most important purpose is to allow the students to study and understand about the growth of Cambodia from the all era especially in Angkor Era.",
 
@@ -57,7 +57,7 @@ return [
 
     'detail-13' => "Kirirom National Park is a natural tourist attraction and well conserved park with nice views of waterfalls, pine trees, orchid flowers and abundant in fresh air attracting more both local and international tourists. The main purpose of the Field Trip is to make students love the environment, trees and conserve the natural legacy.",
 
-    'header-14' => "8. Grade 10 and Level 10 to Icanvarman Museum and Sihanoukville",
+    'header-14' => "8. Grade 10 and Level 10 to Icanvarman Museum and Sihanoukville <br>8.1. Icanvarman Museum",
 
     'detail-14' => "The Preah Srey Icanvarman Museum of Economics and Currency, also known as SOSORO, is a museum located in the heart of Phnom Penh. This museum is a modern museum in Cambodia that shows about the political and economic history of the currency from many eras to the present. The SOSORO has a great variety of things that Cambodians, especially youth, should visit and understand. The SOSORO also focuses on facilitating reading and understanding of the modern economy through the important role of monetary and monetary policy.",
 
@@ -65,7 +65,7 @@ return [
 
     'detail-15' => "Sihanoukville is an important tourist and economic city located in Sihanouk Province, southwestern Cambodia. Sihanoukville is an great area for geographical development by the sea, with deep-sea ports, airports and many tourist beaches.  The Royal Government has decided to study and prepare a master plan to develop and transform Sihanoukville into a model multi-purpose special economic zone as defined in the Cambodian Industrial Development Policy 2015-2025.",
 
-    'header-16' => "9. Grade 11 and Level 11 to Tuol Sleng Genocide Museum and Kompot-Kep Phnom Kampong Trach ",
+    'header-16' => "9. Grade 11 and Level 11 to Tuol Sleng Genocide Museum and Kompot-Kep Phnom Kampong Trach <br>9.1. Tuol Sleng Genocide Museum",
 
     'detail-16' => "Toul Sleng was the place where innocent people were tortured and questioned. Toul Sleng is the Genocide Museum where thousand people was killed cruelly during Khmer Rouge led by Pol Pot. The main purpose of this visiting is to allow all students to understand the tragic and bitter history of Cambodia for three years, eight months and twenty days and also know the reasons why and how the Khmer Rouge killed their own nation and let them keep researching.",
 
@@ -74,7 +74,7 @@ return [
     'detail-17' => "Kep is one of the smallest provinces in Cambodia with beautiful beaches and delicious seafood. The purpose of this study tour is to get students to know the coastal areas of Cambodia, to relax and enjoy the fresh air of the natural sea, especially the taste of crabs, prawns and other fresh and natural seafood in Kep province.",
 
 
-    'header-18' => "10. Grade 12 and Level 12 to Win-Win Memorial and Sombo Preykok Temple",
+    'header-18' => "10. Grade 12 and Level 12 to Win-Win Memorial and Sombo Preykok Temple <br>10.1. Win-Win Memorial",
 
     'detail-18' => "This Field Trips aims to promote students' deeper understanding of Cambodia's true history, in the process of ending the civil war in Cambodia and the finding for peace through complication with the implementation of the Win-Win policy of Samdech Akka Moha Sena Padei Techo Hun Sen, former Prime Minister of the Kingdom of Cambodia, and this is also a historical monument of the foundation of national unity, territorial unity, and complete peace in Cambodia",
 
