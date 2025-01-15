@@ -6,12 +6,22 @@
     </div>
 
     <div class="row">
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/recieptionist/bis12.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/recieptionist/bis13.png')}}" alt="" class="w-100">
-        </div>
+        @php
+            $No = 9; 
+            try {
+                $folderPath = public_path("asset/img/school/equipment/$No");
+                $fileCount = count(glob("$folderPath/*"));
+
+                for ($i = 1; $i <= $fileCount; $i++) {
+                    echo "<div class='col-6 p-2'>
+                        <img src='" . asset("asset/img/school/equipment/$No/$i.jpg") . "' alt='' class='w-100'>
+                    </div>";
+                }
+                
+            } catch (\Throwable $th) {
+                //Handle any exceptions here
+            }
+        @endphp
     </div>
 
     @include('web.client.school.layout.share.news')

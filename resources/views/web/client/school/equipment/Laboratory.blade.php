@@ -7,30 +7,22 @@
 
 
     <div class="row">
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/laboratory/bislaboratory.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/laboratory/bislaboratory01.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/laboratory/bislaboratory02.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/laboratory/bislaboratory03.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/laboratory/bislaboratory04.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/laboratory/bislaboratory05.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/laboratory/bislaboratory06.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/laboratory/bislaboratory07.png')}}" alt="" class="w-100">
-        </div>
+        @php
+            $No = 4; 
+            try {
+                $folderPath = public_path("asset/img/school/equipment/$No");
+                $fileCount = count(glob("$folderPath/*"));
+
+                for ($i = 1; $i <= $fileCount; $i++) {
+                    echo "<div class='col-6 p-2'>
+                        <img src='" . asset("asset/img/school/equipment/$No/$i.jpg") . "' alt='' class='w-100'>
+                    </div>";
+                }
+                
+            } catch (\Throwable $th) {
+                //Handle any exceptions here
+            }
+        @endphp
     </div>
     
 
