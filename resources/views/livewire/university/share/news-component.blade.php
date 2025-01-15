@@ -47,7 +47,7 @@
             <div class="position-relative d-flex" id="slideshow">
                 @if ($biu_news->first()->image)
                     @foreach (array_slice(explode(',', $biu_news->first()->image), 0, 4) as $key => $newsImg)
-                        <img class="rounded shadow-sm width-100 w-100" loading="lazy"
+                        <img class="rounded shadow-sm width-100 w-100" loading="lazy" style="object-fit: cover"
                             src="{{ asset('uploaded/university/news/images/' . $biu_news->first()->id . '/' . $newsImg) }}"
                             alt="News Image">
                     @endforeach
