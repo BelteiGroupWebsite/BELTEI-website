@@ -72,7 +72,7 @@
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
                 src="{{ asset('asset/img/university/app/F.ChineseIntake.jpg') }}" alt=""> --}}
 
-            <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
+            {{-- <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
                 src="{{ asset('asset/img/university/app/New_term_3.jpg') }}" alt="">
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
                 src="{{ asset('asset/img/university/app/New_term_4.jpg') }}" alt="">
@@ -87,7 +87,7 @@
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0" src="{{ asset('asset/img/university/app/5.jpg') }}"
                 alt="">
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
-                src="{{ asset('asset/img/university/app/Doctor_2024-09-11_16-39-16.jpg') }}" alt="">
+                src="{{ asset('asset/img/university/app/Doctor_2024-09-11_16-39-16.jpg') }}" alt=""> --}}
 
         </div>
 
