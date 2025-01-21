@@ -48,7 +48,7 @@ return [
 
 
     'B' => "5 Main Degrees",
-    'B1' => "Inensive course (English and Computer)",
+    'B1' => "Inensive course",
     'B2' => "Associate Degrees",
     'B3' => "Bachelor's Degrees",
     'B4' => "Master's Degrees",
