@@ -61,6 +61,8 @@
 
         <div class="row gy-2 justify-content-center">
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
+            src="{{ asset('asset/img/university/app/2nd_intake2.jpg') }}" alt="">
+            <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
             src="{{ asset('asset/img/university/app/2nd_intake.jpg') }}" alt="">
 
             {{--<img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
