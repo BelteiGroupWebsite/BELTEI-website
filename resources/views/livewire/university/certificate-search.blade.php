@@ -92,7 +92,8 @@
 
                         @endphp
                         <tr style="border-color: {{ $facultyColor }} !important;">
-                            <td>{{ $certificateNo }}</td>
+                            {{-- <td>{{ $certificateNo }}</td> --}}
+                            <td>{{ $certificate->student_id }}</td>
                             <td>{{ $name }}</td>
                             <td>{{ $certificate->gender }}</td>
                             <td>{{ Carbon::parse($certificate->dob)->format('d/M/Y') }}</td>
