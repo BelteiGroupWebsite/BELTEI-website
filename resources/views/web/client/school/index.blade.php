@@ -11,6 +11,10 @@
     </div>
 
     <div class="row gy-2 justify-content-center">
+        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('asset/img/school/app/news/Group_1.jpg') }}"
+            border="0">
+        <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('asset/img/school/app/news/esl.jpg') }}"
+            border="0">
         <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('asset/img/school/app/news/new_term_2025.jpg') }}"
             border="0">
         <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('asset/img/school/app/news/gradeA.jpg') }}"
