@@ -11,11 +11,18 @@
                         {{ __('school/outstanding-student/gradeA.student') }}
                     </h5>
 
+                    @php
+                        $studentGradeAPage = request()->query('studentGradeAPage', 1); // Default to 1 if not present
+                    @endphp
+                    
                     @foreach ($gradeA->studentGradeAPaginated as $key => $studentGradeA)
+                        @php
+                            $adjustedKey = ($key == 0) ? ($key + 1) * $studentGradeAPage + 1 : $key * $studentGradeAPage + 1;
+                        @endphp
                         <div class="d-flex align-items-center border">
                             <div class="max-width-200 max-height-200 overflow-hidden">
                                 <img class="w-100 rounded shadow-sm" loading="lazy"
-                                    src="{{ asset('storage/upload/gradeA/' . $gradeA->start_academic_year . '/profile/' . ($key + 1) . '.jpg') }}"
+                                    src="{{ asset('storage/upload/gradeA/' . $gradeA->start_academic_year . '/profile/' . $adjustedKey . '.jpg') }}"
                                     alt="">
                             </div>
                             @if (app()->getLocale() == 'kh')
@@ -23,8 +30,7 @@
                                     <strong>{{ $studentGradeA->khmer_name }}</strong>
                                     សិក្សា​នៅ​សា​លា​ប៊ែល​ធី​អន្តរ​ជាតិ​ទី​{{ $studentGradeA->campus_id }} ​(
                                     <strong>{{ $studentGradeA->campus->campus_kh }}</strong> ) ជាប់
-                                    ​និ​ទ្ទេស​ “A” ​ ទូទាំង​ប្រទេស​ ទទួល​បាន​រង្វាន់​លើក​ទឹក​ចិត្ត​ចំនួន​ <strong>$១
-                                        ០០០​</strong>
+                                    ​និ​ទ្ទេស​ “A” ​ ទូទាំង​ប្រទេស​ ទទួល​បាន​រង្វាន់​លើក​ទឹក​ចិត្ត​ចំនួន​ <strong>$១ ០០០​</strong>
                                     និង​អាហា​រូបករណ៍​ពី ​​ឧត្តម​បណ្ឌិត​ លី​ ឆេង​ តំណាង​រាស្រ្ត​មណ្ឌល​រាជ​ធានី​ភ្នំពេញ​
                                     ស្ថាបនិក​
                                     និង​ជា​អគ្គ​នាយក​ប៊ែលធី​ គ្រុប​ និង​​លោកជំទាវ​ សិក្សា​ថ្នាក់​បរិញ្ញា​បត្រ​
@@ -44,6 +50,7 @@
                             @endif
                         </div>
                     @endforeach
+                
 
                     <!-- Pagination Links for studentGradeA -->
                     {{ $gradeA->studentGradeAPaginated->appends(['studentGradeAPage' => $gradeA->studentGradeAPaginated->currentPage()])->links() }}
