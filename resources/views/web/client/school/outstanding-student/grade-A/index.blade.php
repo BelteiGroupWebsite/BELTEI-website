@@ -17,7 +17,8 @@
                     
                     @foreach ($gradeA->studentGradeAPaginated as $key => $studentGradeA)
                         @php
-                            $adjustedKey = ($key == 0) ? ($key + 1) * $studentGradeAPage + 1 : $key * $studentGradeAPage + 1;
+                            // $adjustedKey = ($key == 0) ? ($key + 1) * $studentGradeAPage + 1 : $key * $studentGradeAPage + 1;
+                            $adjustedKey = (($studentGradeAPage * 10) - 10) + $key + 1;
                         @endphp
                         <div class="d-flex align-items-center border">
                             <div class="max-width-200 max-height-200 overflow-hidden">
