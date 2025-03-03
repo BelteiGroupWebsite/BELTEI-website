@@ -3,6 +3,7 @@
 
 @section('content')
     {!! trans('school/outstanding-student/city.table', [
+        'image_2024_12_1' => asset('asset/img/school/outstanding-student/city/2024_12_1.jpg'),
         'image_1' => asset('asset/img/school/outstanding-student/city/cao_yinhhveng.png'),
         'image_2' => asset('asset/img/school/outstanding-student/city/chan_dara_mony.png'),
         'image_3' => asset('asset/img/school/outstanding-student/city/sea_sopor.png'),
@@ -47,6 +48,9 @@
         'image_42' => asset('asset/img/school/outstanding-student/city/chhoeurn_sovanntheaith.png'),
         'image_43' => asset('asset/img/school/outstanding-student/city/ly_masola.png'),
     
+        'image_2024_9_1' => asset('asset/img/school/outstanding-student/city/2024_9_1.jpg'),
+        'image_2024_9_2' => asset('asset/img/school/outstanding-student/city/2024_9_2.jpg'),
+        'image_2024_9_3' => asset('asset/img/school/outstanding-student/city/2024_9_3.jpg'),
         'image_44' => asset('asset/img/school/outstanding-student/city/sovann_raksa.png'),
         'image_45' => asset('asset/img/school/outstanding-student/city/tea_kealim.png'),
         'image_46' => asset('asset/img/school/outstanding-student/city/chan_daravatey.png'),
