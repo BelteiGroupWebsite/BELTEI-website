@@ -19,7 +19,7 @@ return
                 2024 = 01
             </h5>
             <div class="d-flex align-items-center border">
-                <img src=":image2024" alt="" />
+                <img style="max-width: 180px" src=":image2024" alt="" />
                 <p>
                     In the academic year 2023-2024, a student named Ry Cheaheng, grade 9, won 2nd place in the national selection exam for outstanding student in mathematics, received an incentive prize of $900. The teacher also received an incentive prize of $900 from His Excellency Dr. Ly Chheng, Member of the National Assembly of Phnom Penh, Founder and Director General of BELTEI Group and Lok Chumteav.
                 </p>
