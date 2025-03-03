@@ -3,6 +3,7 @@
 @section('content')
 
 {!! trans('school/outstanding-student/national.table', [
+'image2024' => asset("asset/img/school/outstanding-student/national/outstanding2024.jpg"), 
 'image01' => asset("asset/img/school/outstanding-student/national/outstanding01.png"), 
 'image02' => asset("asset/img/school/outstanding-student/national/outstanding02.png"),        
 'image03' => asset("asset/img/school/outstanding-student/national/outstanding03.png"),        

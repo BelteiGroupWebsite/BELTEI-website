@@ -2,16 +2,24 @@
 
 return
 
-[
+    [
 
-    'table' => '
+        'table' => '
     
     <div>
 
     <h4 class="title-translate-font bg-info p-3 text-white">សិស្សពូកែថ្នាក់ទី១២</h4>
     <div class="content-translate-font table text-start">
 
-
+        <div>
+            <h5 class="title-translate-font bg-success p-2 text-white text-center">ឆ្នាំ២០២៤ = ០១នាក់</h5>
+            <div class="d-flex align-items-center border">
+                <img src=":image2024" alt="">
+                <p>
+                    ឆ្នាំសិក្សា២០២៣-២០២៤ សិស្សឈ្មោះ រី ជាហេង ថ្នាក់ទី៩ ទទួលបានជ័យលាភីលេខ២ ក្នុងការប្រឡងជ្រើសរើសសិស្សពូកែទូទាំងប្រទេស ផ្នែកគណិតវិទ្យា ទទួលបានរង្វាន់លើកទឹកចិត្តចំនួន $៩០០  និងលោកគ្រូ អ្នកគ្រូ ក៏ទទួលបានរង្វាន់លើកទឹកចិត្តចំនួន $៩០០ ផងដែរពី ឯកឧត្តមបណ្ឌិត លី ឆេង តំណាងរាស្រ្តមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិក និងជាអគ្គនាយកប៊ែលធី គ្រុប។
+                </p>
+            </div>
+        </div>
         <div>
             <h5 class="title-translate-font bg-success p-2 text-white text-center">ឆ្នាំ២០២២ = ០១នាក់</h5>
             <div class="d-flex align-items-center border">
@@ -287,6 +295,4 @@ return
     
     '
 
-];
-
-?>
+    ];
