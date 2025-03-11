@@ -13,16 +13,15 @@
             <div class="text-justify">
                 {!! __('testcenter/about/welcome.welcome') !!}
             </div>
-            <div>
+            <div style="font-weight: bold">
                 {!! __('beltei_university/about/welcome.message') !!}
             </div>
             <div class="d-flex justify-content-end">
-                <div class="col-4">
+                <div class="col-6 text-center">
                     <div>
                         <img class="rounded" style="width: 200px" src="{{ asset('asset/img/biu/app/HEDr_sign.png') }}"
                             alt="">
                     </div>
-                    <br>
                     <p class="title-translate-font">{!! __('beltei_university/about/welcome.founder') !!}</p>
                 </div>
             </div>
