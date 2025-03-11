@@ -7,14 +7,14 @@
 
 
     <div class="text-start">
-        <div class="content-translate-font p-lg-4 ul-none-style">
+        <div class=" p-lg-4 ul-none-style">
             <img class="float-start rounded shadow-sm p-3"
                 src="https://media.licdn.com/dms/image/C5603AQEfV5tW79ZMJg/profile-displayphoto-shrink_200_200/0/1593411121688?e=2147483647&v=beta&t=e5O6w9XdIM4BkXWltAqsN7_9ku4WEvY6iHWBuOxH0gM"
                 alt="">
-            <div class="text-justify">
+            <div class="text-justify content-translate-font">
                 {!! __('beltei_university/about/welcome.welcome') !!}
             </div>
-            <div style="font-weight: bold">
+            <div style="font-weight: bold" class="mt-2 title-translate-font">
                 {!! __('beltei_university/about/welcome.message') !!}
             </div>
             <div class="d-flex justify-content-end">

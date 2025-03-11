@@ -7,13 +7,13 @@
 
 
     <div class="text-start">
-        <div class="content-translate-font p-lg-4 ul-none-style">
+        <div class="p-lg-4 ul-none-style">
             <img class="float-start rounded shadow-sm mx-3"
                 src="https://www.beltei.edu.kh/khm/images/beltei_pic/H.E_Dr_Ly_chheng_beltei.jpg" alt="">
-            <div class="text-justify">
+            <div class="text-justify content-translate-font">
                 {!! __('testcenter/about/welcome.welcome') !!}
             </div>
-            <div style="font-weight: bold">
+            <div style="font-weight: bold" class="mt-2 title-translate-font">
                 {!! __('beltei_university/about/welcome.message') !!}
             </div>
             <div class="d-flex justify-content-end">
