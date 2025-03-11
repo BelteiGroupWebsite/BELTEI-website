@@ -13,6 +13,16 @@
             <div class="text-justify">
                 {!! __('relation/about/welcome.welcome') !!}
             </div>
+            <div class="d-flex justify-content-end">
+                <div class="col-4">
+                    <div>
+                        <img class="rounded" style="width: 200px" src="{{ asset('asset/img/biu/app/HEDr_sign.png') }}"
+                            alt="">
+                    </div>
+                    <br>
+                    <p class="title-translate-font">{!! __('beltei_university/about/welcome.founder') !!}</p>
+                </div>
+            </div>
         </div>
     </div>
 @endsection
