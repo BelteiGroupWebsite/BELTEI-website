@@ -13,6 +13,9 @@
             <div class="text-justify">
                 {!! __('relation/about/welcome.welcome') !!}
             </div>
+            <div>
+                {!! __('beltei_university/about/welcome.message') !!}
+            </div>
             <div class="d-flex justify-content-end">
                 <div class="col-4">
                     <div>

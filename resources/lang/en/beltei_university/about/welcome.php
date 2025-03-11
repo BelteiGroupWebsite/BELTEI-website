@@ -58,5 +58,15 @@ return [
 <p>We look forward to welcoming Samdech, Your Excellencies, Lok Oknha, Lok Chumteav, Ladies and Gentlemen and all students who are planning to pursue their tertiary studies at BELTEI International University. Please, accept my best wishes for good health, happiness, and constantly great success.</p>
     
 
+    ',
+    'message' => '
+    
+    <div class="d-flex justify-content-end">
+    <div class="col-6">
+        <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><span style=\'font-size:16px;font-family:"Khmer OS Battambang";\'>Chairman of the Board of Directors</span></p>
+        <p style=\'margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;\'><br></p>
+    </div>
+
+</div>
     '
 ];
