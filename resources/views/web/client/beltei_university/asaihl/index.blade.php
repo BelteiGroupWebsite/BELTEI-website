@@ -270,7 +270,8 @@
 
 
                 <div class="text-center my-3">
-                    <img class="w-75" src="{{ asset('asset/img/university/app/photo_2024-07-05_09-06-55.jpg') }}" alt="">
+                    <img class="w-75" src="{{ asset('asset/img/university/app/photo_2024-07-05_09-06-55.jpg') }}"
+                        alt="">
                 </div>
                 <hr class="" style="border: 3px solid #003572; ">
                 <div class="text-center mt-4">
@@ -355,7 +356,7 @@
                     </tr>
                     <tr>
                         <td>-Abstract Submission: January 1, 2025</td>
-                        <td>End: April 1, 2025</td>
+                        <td>End: April 30, 2025</td>
                     </tr>
                 </table>
                 <p>-Full Paper Submission: <span class="text-danger">(After the acceptance notifications are sent
