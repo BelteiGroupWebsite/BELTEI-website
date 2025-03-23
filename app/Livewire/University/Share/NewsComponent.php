@@ -9,10 +9,21 @@ use Livewire\WithPagination;
 class NewsComponent extends Component
 {
     use WithPagination;
+
+    public $category; // Define the category property
+
+    public function mount($category)
+    {
+        $this->category = $category; // Assign the passed category
+    }
+
     public function render()
     {
-        $biu_news = News::where('category', 3)->orderBy('date', 'desc')->paginate(10);
+        // Use the passed category in the query
+        $Allnews = News::where('category', $this->category)
+                        ->orderBy('date', 'desc')
+                        ->paginate(10);
         
-        return view('livewire.university.share.news-component' , compact('biu_news'));
+        return view('livewire.university.share.news-component', compact('Allnews'));
     }
 }

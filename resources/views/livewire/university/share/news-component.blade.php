@@ -5,7 +5,7 @@
             animation: slideshow 30s infinite ease-in-out;
         }
 
-        #slideshowCon:hover img ,
+        #slideshowCon:hover img,
         #slideshow:hover img {
             transform: scale(1);
         }
@@ -41,42 +41,44 @@
     </div>
     <hr>
     {{-- Hot News  --}}
-    <a href="{{ route('beltei_university.news.detail', $biu_news->first()->id) }}" class="card card-body d-flex" id="slideshowCon">
-        {{-- <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex"> --}}
-        <div class="overflow-hidden">
-            <div class="position-relative d-flex" id="slideshow">
-                @if ($biu_news->first()->image)
-                    @foreach (array_slice(explode(',', $biu_news->first()->image), 0, 4) as $key => $newsImg)
-                        <img class="rounded shadow-sm width-100 w-100" loading="lazy" style="object-fit: cover"
-                            src="{{ asset('uploaded/university/news/images/' . $biu_news->first()->id . '/' . $newsImg) }}"
-                            alt="News Image">
-                    @endforeach
-                @endif
-            </div>
-            {{-- <img class="w-100" src="{{ asset('asset/img/school/dailyNews/1/1.jpg') }}" alt=""> --}}
-        </div>
-        <div class="p-3">
-            <h6 class="Muol-Light line-height-15">
-                @foreach ($biu_news->first()->newsDetail as $item)
-                    @if (app()->getLocale() == 'kh')
-                        @if ($item->language_id == 1)
-                            <div onclick="toggleDescription(this)" class="cursor-pointer " {{-- data-fulltext="{{ $item->header }}" --}}>
-                                {{-- {{ Str::limit($item->header, 200) }} --}}
-                                {{ $item->header }}
-                            </div>
-                        @endif
-                    @else
-                        @if ($item->language_id == 2)
-                            <div onclick="toggleDescription(this)" class="cursor-pointer " {{-- data-fulltext="{{ $item->header }}" --}}>
-                                {{ $item->header }}
-                                {{-- {{ Str::limit($item->header, 200) }} --}}
-                            </div>
-                        @endif
+    @if ($Allnews->first())
+        <a href="{{ route('beltei_university.news.detail', $Allnews->first()->id) }}" class="card card-body d-flex"
+            id="slideshowCon">
+            {{-- <a href="{{ route('school.news.bacll-batch18') }}" class="card card-body d-flex"> --}}
+            <div class="overflow-hidden">
+                <div class="position-relative d-flex" id="slideshow">
+                    @if ($Allnews->first()->image)
+                        @foreach (array_slice(explode(',', $Allnews->first()->image), 0, 4) as $key => $newsImg)
+                            <img class="rounded shadow-sm width-100 w-100" loading="lazy" style="object-fit: cover"
+                                src="{{ asset('uploaded/university/news/images/' . $Allnews->first()->id . '/' . $newsImg) }}"
+                                alt="News Image">
+                        @endforeach
                     @endif
-                @endforeach
-            </h6>
-            {{-- <p class="Battambang-Regular f14 line-height-15">​
-                @foreach ($biu_news->first()->newsDetail as $item)
+                </div>
+                {{-- <img class="w-100" src="{{ asset('asset/img/school/dailyNews/1/1.jpg') }}" alt=""> --}}
+            </div>
+            <div class="p-3">
+                <h6 class="Muol-Light line-height-15">
+                    @foreach ($Allnews->first()->newsDetail as $item)
+                        @if (app()->getLocale() == 'kh')
+                            @if ($item->language_id == 1)
+                                <div onclick="toggleDescription(this)" class="cursor-pointer " {{-- data-fulltext="{{ $item->header }}" --}}>
+                                    {{-- {{ Str::limit($item->header, 200) }} --}}
+                                    {{ $item->header }}
+                                </div>
+                            @endif
+                        @else
+                            @if ($item->language_id == 2)
+                                <div onclick="toggleDescription(this)" class="cursor-pointer " {{-- data-fulltext="{{ $item->header }}" --}}>
+                                    {{ $item->header }}
+                                    {{-- {{ Str::limit($item->header, 200) }} --}}
+                                </div>
+                            @endif
+                        @endif
+                    @endforeach
+                </h6>
+                {{-- <p class="Battambang-Regular f14 line-height-15">​
+                @foreach ($Allnews->first()->newsDetail as $item)
                     @if ($item->language_id == 1)
                         <div onclick="toggleDescription(this)" class="cursor-pointer "
                             data-fulltext="{{ $item->description }}">
@@ -85,13 +87,16 @@
                     @endif
                 @endforeach
             </p> --}}
-        </div>
-    </a>
+            </div>
+        </a>
+
+    @endif
+    {{-- End Hot News  --}}
 
 
     <div class="row p-0 m-0">
 
-        @foreach ($biu_news as $news)
+        @foreach ($Allnews as $news)
             <a href="{{ route('beltei_university.news.detail', $news->id) }}"
                 class="col-6 row align-items-center py-2 border m-0">
                 <div class=" col-6 overflow-hidden">
@@ -135,8 +140,8 @@
 
         <div class="py-3 d-flex justify-content-end">
             <div>
-                {{ $biu_news->links('vendor.livewire.bootstrap-1') }}
-                {{-- {{ $biu_news->links('vendor.livewire.bootstrap') }} --}}
+                {{ $Allnews->links('vendor.livewire.bootstrap-1') }}
+                {{-- {{ $Allnews->links('vendor.livewire.bootstrap') }} --}}
             </div>
         </div>
 

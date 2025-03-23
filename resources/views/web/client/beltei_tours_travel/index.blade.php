@@ -25,5 +25,6 @@
         border="0">
 
 
-    @include('web.client.beltei_tours_travel.layout.share.news')
+    {{-- @include('web.client.beltei_tours_travel.layout.share.news') --}}
+    <livewire:university.share.news-component :category="5" />
 @endsection

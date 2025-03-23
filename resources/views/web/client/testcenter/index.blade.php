@@ -36,4 +36,5 @@
 
 
     {{-- @include('web.client.school.layout.share.news') --}}
+    <livewire:university.share.news-component :category="6" />
 @endsection

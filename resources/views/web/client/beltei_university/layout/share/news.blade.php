@@ -1,1 +1,1 @@
-<livewire:university.share.news-component />
+<livewire:university.share.news-component :category="3" />
