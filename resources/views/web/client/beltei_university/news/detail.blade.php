@@ -1,10 +1,9 @@
 {{-- @extends('web.client.beltei_university.layout.app') --}}
-@extends('web.client.'.$category.'.layout.app')
+@extends('web.client.' . $category . '.layout.app')
 
 @section('content')
-
     <style>
-        #newsDescription *{
+        #newsDescription * {
             width: 100% !important;
         }
     </style>
@@ -42,6 +41,7 @@
     </div>
 
     <div>
-        @include('web.client.'.$category.'.layout.share.news')
+        <livewire:university.share.news-component :category="$categoryKey" />
+        {{-- @include('web.client.'.$category.'.layout.share.news') --}}
     </div>
 @endsection
