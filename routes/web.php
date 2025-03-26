@@ -13,6 +13,7 @@ use App\Http\Controllers\Admin\University\CertificateController as UniversityCer
 use App\Http\Controllers\Admin\University\NewsController;
 use App\Http\Controllers\Admin\University\UtbCertificateController;
 use App\Http\Controllers\CountdownController;
+use App\Http\Controllers\ShowCertificateController;
 use App\Http\Controllers\VisitorController;
 use App\Models\University\Certificate\UtbDegreeAcademicbatch;
 use App\Models\VisitorInfo;
@@ -146,7 +147,7 @@ Route::post('/track-visitor', function (Request $request) {
 
 // client pages
 // Route::group(['prefix' => 'con', 'as' => 'contruction.', 'middleware' => 'visitor.tracking'], function () {
-Route::group(['prefix' => 'con', 'as' => 'contruction.'], function () {
+Route::group(['prefix' => 'con', 'as' => 'contruction.' ,'middleware' => 'visitor.tracking' ], function () {
     Route::view('/', 'web.client.contruction.index');
     Route::view('/construction', 'web.client.contruction.construction')->name('construction');
 
@@ -177,7 +178,7 @@ Route::group(['prefix' => 'con', 'as' => 'contruction.'], function () {
 });
 
 
-Route::group(['prefix' => 'bis', 'as' => 'school.'], function () {
+Route::group(['prefix' => 'bis', 'as' => 'school.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/', 'web.client.school.index');
     Route::view('/construction', 'web.client.school.construction')->name('construction');
@@ -322,7 +323,7 @@ Route::group(['prefix' => 'bis', 'as' => 'school.'], function () {
     });
 });
 
-Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.'], function () {
+Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/', 'web.client.testcenter.index');
     Route::view('/construction', 'web.client.beltei_tours_travel.construction')->name('construction');
@@ -355,7 +356,7 @@ Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.'], function () {
 
 Route::get('new/detail/{id}', [NewsController::class, 'show'])->name('beltei_university.news.detail');
 
-Route::group(['prefix' => 'biu', 'as' => 'beltei_university.'], function () {
+Route::group(['prefix' => 'biu', 'as' => 'beltei_university.' ,'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/', 'web.client.beltei_university.index');
     Route::view('/construction', 'web.client.beltei_university.construction')->name('construction');
@@ -497,7 +498,7 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.'], function () {
     });
 });
 
-Route::group(['prefix' => 'tour', 'as' => 'beltei_tours_travel.'], function () {
+Route::group(['prefix' => 'tour', 'as' => 'beltei_tours_travel.' , 'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/', 'web.client.beltei_tours_travel.index');
     Route::view('/construction', 'web.client.beltei_tours_travel.construction')->name('construction');
@@ -561,7 +562,7 @@ Route::group(['prefix' => 'tour', 'as' => 'beltei_tours_travel.'], function () {
     });
 });
 
-Route::group(['prefix' => 'bir', 'as' => 'relation.'], function () {
+Route::group(['prefix' => 'bir', 'as' => 'relation.' ,'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/', 'web.client.relation.index');
     Route::view('/construction', 'web.client.beltei_tours_travel.construction')->name('construction');
@@ -643,7 +644,7 @@ Route::group(['prefix' => 'bir', 'as' => 'relation.'], function () {
 
 
 
-Route::group(['prefix' => 'charity', 'as' => 'charity.'], function () {
+Route::group(['prefix' => 'charity', 'as' => 'charity.' ,'middleware' => 'visitor.tracking'], function () {
 
     Route::view('/', 'web.client.charity.index');
     Route::view('/construction', 'web.client.charity.construction')->name('construction');
@@ -714,7 +715,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 // admin pages
-Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'can:access-admin-page']], function () {
+Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'can:access-admin-page' , 'visitor.tracking']], function () {
     // Dashboard
     Route::get('/', function () {
         return view('web.admin.index');
@@ -773,6 +774,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
 
 
         Route::resource('news', NewsController::class)->names('news');
+
+        Route::view('collaborator' , 'web.admin.university.collaborator.index')->name('collaborator');
+        Route::view('poster' , 'web.admin.university.poster.index')->name('poster');
     });
 
 
@@ -784,3 +788,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
     //     return back();
     // })->name('set-new-category');
 });
+
+
+Route::get('/certificate/view/{filename}', [ShowCertificateController::class, 'view'])->name('certificate.view');
