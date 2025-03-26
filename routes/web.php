@@ -146,8 +146,8 @@ Route::post('/track-visitor', function (Request $request) {
 
 
 // client pages
-// Route::group(['prefix' => 'con', 'as' => 'contruction.', 'middleware' => ['visitor.tracking', 'throttle:60,1']], function () {
-Route::group(['prefix' => 'con', 'as' => 'contruction.', 'middleware' => ['visitor.tracking', 'throttle:60,1']], function () {
+// Route::group(['prefix' => 'con', 'as' => 'contruction.', 'middleware' => ['visitor.tracking', 'throttle:30,1']], function () {
+Route::group(['prefix' => 'con', 'as' => 'contruction.', 'middleware' => ['visitor.tracking', 'throttle:30,1']], function () {
     Route::view('/', 'web.client.contruction.index');
     Route::view('/construction', 'web.client.contruction.construction')->name('construction');
 
@@ -178,7 +178,7 @@ Route::group(['prefix' => 'con', 'as' => 'contruction.', 'middleware' => ['visit
 });
 
 
-Route::group(['prefix' => 'bis', 'as' => 'school.', 'middleware' => ['visitor.tracking', 'throttle:60,1']], function () {
+Route::group(['prefix' => 'bis', 'as' => 'school.', 'middleware' => ['visitor.tracking', 'throttle:30,1']], function () {
 
     Route::view('/', 'web.client.school.index');
     Route::view('/construction', 'web.client.school.construction')->name('construction');
@@ -323,7 +323,7 @@ Route::group(['prefix' => 'bis', 'as' => 'school.', 'middleware' => ['visitor.tr
     });
 });
 
-Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.', 'middleware' => ['visitor.tracking', 'throttle:60,1']], function () {
+Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.', 'middleware' => ['visitor.tracking', 'throttle:30,1']], function () {
 
     Route::view('/', 'web.client.testcenter.index');
     Route::view('/construction', 'web.client.beltei_tours_travel.construction')->name('construction');
@@ -356,7 +356,7 @@ Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.', 'middleware' => [
 
 Route::get('new/detail/{id}', [NewsController::class, 'show'])->name('beltei_university.news.detail');
 
-Route::group(['prefix' => 'biu', 'as' => 'beltei_university.', 'middleware' => ['visitor.tracking', 'throttle:60,1']], function () {
+Route::group(['prefix' => 'biu', 'as' => 'beltei_university.', 'middleware' => ['visitor.tracking', 'throttle:30,1']], function () {
 
     Route::view('/', 'web.client.beltei_university.index');
     Route::view('/construction', 'web.client.beltei_university.construction')->name('construction');
@@ -498,7 +498,7 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.', 'middleware' => [
     });
 });
 
-Route::group(['prefix' => 'tour', 'as' => 'beltei_tours_travel.', 'middleware' => ['visitor.tracking', 'throttle:60,1']], function () {
+Route::group(['prefix' => 'tour', 'as' => 'beltei_tours_travel.', 'middleware' => ['visitor.tracking', 'throttle:30,1']], function () {
 
     Route::view('/', 'web.client.beltei_tours_travel.index');
     Route::view('/construction', 'web.client.beltei_tours_travel.construction')->name('construction');
@@ -562,7 +562,7 @@ Route::group(['prefix' => 'tour', 'as' => 'beltei_tours_travel.', 'middleware' =
     });
 });
 
-Route::group(['prefix' => 'bir', 'as' => 'relation.', 'middleware' => ['visitor.tracking', 'throttle:60,1']], function () {
+Route::group(['prefix' => 'bir', 'as' => 'relation.', 'middleware' => ['visitor.tracking', 'throttle:30,1']], function () {
 
     Route::view('/', 'web.client.relation.index');
     Route::view('/construction', 'web.client.beltei_tours_travel.construction')->name('construction');
@@ -644,7 +644,7 @@ Route::group(['prefix' => 'bir', 'as' => 'relation.', 'middleware' => ['visitor.
 
 
 
-Route::group(['prefix' => 'charity', 'as' => 'charity.', 'middleware' => ['visitor.tracking', 'throttle:60,1']], function () {
+Route::group(['prefix' => 'charity', 'as' => 'charity.', 'middleware' => ['visitor.tracking', 'throttle:30,1']], function () {
 
     Route::view('/', 'web.client.charity.index');
     Route::view('/construction', 'web.client.charity.construction')->name('construction');
