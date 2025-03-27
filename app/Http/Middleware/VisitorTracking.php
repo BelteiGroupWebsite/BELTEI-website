@@ -8,6 +8,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Http;
 use App\Models\Country;
 use App\Models\Visitor;
+use Illuminate\Support\Facades\Log;
 
 class VisitorTracking
 {
@@ -19,23 +20,38 @@ class VisitorTracking
     public function handle(Request $request, Closure $next): Response
     {
         $ip = $request->ip();
-        $response = Http::get("https://ipinfo.io/{$ip}/json");
-        $data = $response->json();
+        
+        try {
+            $response = Http::get("https://ipinfo.io/{$ip}/json");
+            $data = $response->json();
 
-        $region = $data['region'] ?? 'Unknown';
-        $countryName = $data['country'] ?? 'Unknown';
+            // Log the entire data array with context
+            Log::channel('visitor')->info('Visitor IP Information', [
+                'ip' => $ip,
+                'data' => $data
+            ]);
 
-        $country = Country::firstOrCreate(
-            ['name' => $countryName],
-            ['region' => $region]
-        );
+            $region = $data['region'] ?? 'Unknown';
+            $countryName = $data['country'] ?? 'Unknown';
 
-        $visitor = Visitor::firstOrCreate(
-            ['ip_address' => $ip],
-            ['country_id' => $country->id]
-        );
-        $visitor->increment('visits');
-        $visitor->save();
+            $country = Country::firstOrCreate(
+                ['name' => $countryName],
+                ['region' => $region]
+            );
+
+            $visitor = Visitor::firstOrCreate(
+                ['ip_address' => $ip],
+                ['country_id' => $country->id]
+            );
+            $visitor->increment('visits');
+            $visitor->save();
+        } catch (\Exception $e) {
+            // Log any errors that occur during the process
+            Log::channel('visitor')->error('Visitor Tracking Error', [
+                'ip' => $ip,
+                'error' => $e->getMessage()
+            ]);
+        }
 
         return $next($request);
     }
