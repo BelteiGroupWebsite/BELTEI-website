@@ -21,56 +21,77 @@ class VisitorTracking
     public function handle(Request $request, Closure $next): Response
     {
         $ip = $request->ip();
-        
+
         try {
-            // $response = Http::get("https://ipinfo.io/{$ip}/json");
-            $response = Http::get("https://ipinfo.io/{$ip}?token=fa209dfb8db28e");
-            $data = $response->json();
+            $visitor = Visitor::where('ip_address', $ip)->first();
 
-            // Log the entire data array with context
-            Log::channel('visitor')->info('Visitor IP Information', [
-                'ip' => $ip,
-                'data' => $data
-            ]);
-
-            $region = $data['region'] ?? 'Unknown';
-            $countryName = $data['country'] ?? 'Unknown';
-
-            // Explicitly check if the country is not Cambodia (KH)
-            if ($countryName !== 'KH') {
-                Log::channel('visitor')->warning('Non-Cambodian visitor blocked', [
-                    'ip' => $ip,
-                    'country' => $countryName
-                ]);
-                
-                throw new NotFoundHttpException('Access denied');
+            if ($visitor) {
+                $this->handleExistingVisitor($visitor);
+            } else {
+                $this->handleNewVisitor($ip);
             }
-
-            $country = Country::firstOrCreate(
-                ['name' => $countryName],
-                ['region' => $region]
-            );
-
-            $visitor = Visitor::firstOrCreate(
-                ['ip_address' => $ip],
-                ['country_id' => $country->id]
-            );
-            $visitor->increment('visits');
-            $visitor->save();
-            
         } catch (\Exception $e) {
-            // Log any errors that occur during the process
-            Log::channel('visitor')->error('Visitor Tracking Error', [
-                'ip' => $ip,
-                'error' => $e->getMessage()
-            ]);
+            $this->logError($ip, $e);
 
-            // Re-throw the exception if it's a NotFoundHttpException
             if ($e instanceof NotFoundHttpException) {
                 throw $e;
             }
         }
 
         return $next($request);
+    }
+
+    private function handleExistingVisitor(Visitor $visitor): void
+    {
+        if ($visitor->country->name !== "KH") {
+            throw new NotFoundHttpException('Access denied');
+        }
+
+        $visitor->increment('visits');
+        $visitor->save();
+    }
+
+    private function handleNewVisitor(string $ip): void
+    {
+        $response = Http::get("https://ipinfo.io/{$ip}?token=fa209dfb8db28e");
+        $data = $response->json();
+
+        Log::channel('visitor')->info('Visitor IP Information', [
+            'ip' => $ip,
+            'data' => $data
+        ]);
+
+        $region = $data['region'] ?? 'Unknown';
+        $countryName = $data['country'] ?? 'Unknown';
+
+        if ($countryName !== 'KH') {
+            Log::channel('visitor')->warning('Non-Cambodian visitor blocked', [
+                'ip' => $ip,
+                'country' => $countryName
+            ]);
+
+            throw new NotFoundHttpException('Access denied');
+        }
+
+        $country = Country::firstOrCreate(
+            ['name' => $countryName],
+            ['region' => $region]
+        );
+
+        $visitor = Visitor::firstOrCreate(
+            ['ip_address' => $ip],
+            ['country_id' => $country->id]
+        );
+
+        $visitor->increment('visits');
+        $visitor->save();
+    }
+
+    private function logError(string $ip, \Exception $e): void
+    {
+        Log::channel('visitor')->error('Visitor Tracking Error', [
+            'ip' => $ip,
+            'error' => $e->getMessage()
+        ]);
     }
 }
