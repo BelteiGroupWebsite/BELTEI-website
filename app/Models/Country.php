@@ -8,10 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Country extends Model
 {
     use HasFactory;
-    protected $fillable = [ 'name' , 'region'];
+    protected $fillable = ['name', 'region'];
 
-    public function visitors() {
-        return $this->hasMany(Visitor::class , 'country_id' , 'id');
+    public function visitors()
+    {
+        return $this->hasMany(Visitor::class, 'country_id', 'id');
     }
-    
 }
