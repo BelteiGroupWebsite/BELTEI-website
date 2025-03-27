@@ -8,7 +8,6 @@ use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Http;
 use App\Models\Country;
 use App\Models\Visitor;
-use Illuminate\Support\Facades\Log;
 
 class VisitorTracking
 {
@@ -22,8 +21,6 @@ class VisitorTracking
         $ip = $request->ip();
         $response = Http::get("https://ipinfo.io/{$ip}/json");
         $data = $response->json();
-
-        Log::info('visitor data', $data);
 
         $region = $data['region'] ?? 'Unknown';
         $countryName = $data['country'] ?? 'Unknown';
