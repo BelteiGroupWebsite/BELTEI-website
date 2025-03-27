@@ -125,10 +125,14 @@ Route::get('/uploaded-link', function () {
 });
 
 
-Route::get('/', function (Request $request, VisitorController $controller) {
-    $controller->handleVisitor($request);
+Route::get('/', function () {
     return view('welcome');
-});
+})->middleware(['visitor.tracking', 'throttle:30,1']);
+
+// Route::get('/', function (Request $request, VisitorController $controller) {
+//     $controller->handleVisitor($request);
+//     return view('welcome');
+// });
 
 Route::post('/track-visitor', function (Request $request) {
     $visitor = VisitorInfo::create([
