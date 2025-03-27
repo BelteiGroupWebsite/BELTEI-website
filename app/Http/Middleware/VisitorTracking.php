@@ -23,7 +23,8 @@ class VisitorTracking
         $ip = $request->ip();
         
         try {
-            $response = Http::get("https://ipinfo.io/{$ip}/json");
+            // $response = Http::get("https://ipinfo.io/{$ip}/json");
+            $response = Http::get("https://ipinfo.io/{$ip}?token=fa209dfb8db28e");
             $data = $response->json();
 
             // Log the entire data array with context
