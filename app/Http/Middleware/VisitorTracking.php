@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Http;
 use App\Models\Country;
 use App\Models\Visitor;
 use Illuminate\Support\Facades\Log;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class VisitorTracking
 {
@@ -34,6 +35,16 @@ class VisitorTracking
             $region = $data['region'] ?? 'Unknown';
             $countryName = $data['country'] ?? 'Unknown';
 
+            // Explicitly check if the country is not Cambodia (KH)
+            if ($countryName !== 'KH') {
+                Log::channel('visitor')->warning('Non-Cambodian visitor blocked', [
+                    'ip' => $ip,
+                    'country' => $countryName
+                ]);
+                
+                throw new NotFoundHttpException('Access denied');
+            }
+
             $country = Country::firstOrCreate(
                 ['name' => $countryName],
                 ['region' => $region]
@@ -45,12 +56,18 @@ class VisitorTracking
             );
             $visitor->increment('visits');
             $visitor->save();
+            
         } catch (\Exception $e) {
             // Log any errors that occur during the process
             Log::channel('visitor')->error('Visitor Tracking Error', [
                 'ip' => $ip,
                 'error' => $e->getMessage()
             ]);
+
+            // Re-throw the exception if it's a NotFoundHttpException
+            if ($e instanceof NotFoundHttpException) {
+                throw $e;
+            }
         }
 
         return $next($request);
