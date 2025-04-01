@@ -64,14 +64,14 @@ class VisitorTracking
         $region = $data['region'] ?? 'Unknown';
         $countryName = $data['country'] ?? 'Unknown';
 
-        if ($countryName !== 'KH') {
-            Log::channel('visitor')->warning('Non-Cambodian visitor blocked', [
-                'ip' => $ip,
-                'country' => $countryName
-            ]);
+        // if ($countryName !== 'KH') {
+        //     Log::channel('visitor')->warning('Non-Cambodian visitor blocked', [
+        //         'ip' => $ip,
+        //         'country' => $countryName
+        //     ]);
 
-            throw new NotFoundHttpException('Access denied');
-        }
+        //     throw new NotFoundHttpException('Access denied');
+        // }
 
         $country = Country::firstOrCreate(
             ['name' => $countryName],
