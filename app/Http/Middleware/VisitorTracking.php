@@ -43,9 +43,9 @@ class VisitorTracking
 
     private function handleExistingVisitor(Visitor $visitor): void
     {
-        if ($visitor->country->name !== "KH") {
-            throw new NotFoundHttpException('Access denied');
-        }
+        // if ($visitor->country->name !== "KH") {
+        //     throw new NotFoundHttpException('Access denied');
+        // }
 
         $visitor->increment('visits');
         $visitor->save();
