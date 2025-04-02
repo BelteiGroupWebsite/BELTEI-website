@@ -9,6 +9,17 @@
 
     <link rel="shortcut icon" href="{{ asset('asset/img/favicon.ico') }}" type="image/png">
 
+    <meta property="og:title" content="Beltei University - Quality Education for Everyone">
+    <meta property="og:description" content="Explore top-quality education at Beltei University. Learn more about our programs and admissions.">
+    <meta property="og:image" content="https://www.beltei.edu.kh/asset/img/university/campus/BIU3.png">
+    <meta property="og:url" content="https://www.beltei.edu.kh">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags (Optional but Recommended) -->
+    {{-- <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Beltei University">
+    <meta name="twitter:description" content="Explore top-quality education at Beltei University.">
+    <meta name="twitter:image" content="https://www.beltei.edu.kh/asset/img/university/campus/BIU3.png"> --}}
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
