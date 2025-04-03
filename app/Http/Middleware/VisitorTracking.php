@@ -43,9 +43,9 @@ class VisitorTracking
 
     private function handleExistingVisitor(Visitor $visitor): void
     {
-        // if ($visitor->country->name !== "KH") {
-        //     throw new NotFoundHttpException('Access denied');
-        // }
+        if ($visitor->country->name !== "KH") {
+            throw new NotFoundHttpException('Access denied');
+        }
 
         $visitor->increment('visits');
         $visitor->save();
@@ -64,14 +64,14 @@ class VisitorTracking
         $region = $data['region'] ?? 'Unknown';
         $countryName = $data['country'] ?? 'Unknown';
 
-        // if ($countryName !== 'KH') {
-        //     Log::channel('visitor')->warning('Non-Cambodian visitor blocked', [
-        //         'ip' => $ip,
-        //         'country' => $countryName
-        //     ]);
+        if ($countryName !== 'KH') {
+            Log::channel('visitor')->warning('Non-Cambodian visitor blocked', [
+                'ip' => $ip,
+                'country' => $countryName
+            ]);
 
-        //     throw new NotFoundHttpException('Access denied');
-        // }
+            throw new NotFoundHttpException('Access denied');
+        }
 
         $country = Country::firstOrCreate(
             ['name' => $countryName],
