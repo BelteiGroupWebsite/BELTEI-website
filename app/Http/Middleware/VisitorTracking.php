@@ -6,21 +6,24 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Log;
 use App\Models\Country;
 use App\Models\Visitor;
-use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class VisitorTracking
 {
     /**
      * Handle an incoming request.
-     *
-     * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
     public function handle(Request $request, Closure $next): Response
     {
         $ip = $request->ip();
+
+        if ($this->isIpBlocked($ip)) {
+            throw new NotFoundHttpException('Access denied');
+        }
 
         try {
             $visitor = Visitor::where('ip_address', $ip)->first();
@@ -44,47 +47,48 @@ class VisitorTracking
     private function handleExistingVisitor(Visitor $visitor): void
     {
         if ($visitor->country->name !== "KH") {
+            $this->blockIp($visitor->ip_address); // Block this IP
             throw new NotFoundHttpException('Access denied');
         }
 
         $visitor->increment('visits');
-        $visitor->save();
     }
 
     private function handleNewVisitor(string $ip): void
     {
-        $response = Http::get("https://ipinfo.io/{$ip}?token=fa209dfb8db28e");
-        $data = $response->json();
+        // Check if we have cached country data
+        $cachedData = Cache::get("ipinfo:$ip");
+        
+        if (!$cachedData) {
+            // Fetch IP details from ipinfo.io
+            $response = Http::get("https://ipinfo.io/{$ip}?token=fa209dfb8db28e");
+            $cachedData = $response->json();
+            
+            // Store result in cache for 24 hours
+            Cache::put("ipinfo:$ip", $cachedData, now()->addDay());
+        }
+
+        $countryName = $cachedData['country'] ?? 'Unknown';
+        $region = $cachedData['region'] ?? 'Unknown';
 
         Log::channel('visitor')->info('Visitor IP Information', [
             'ip' => $ip,
-            'data' => $data
+            'country' => $countryName,
+            'region' => $region
         ]);
 
-        $region = $data['region'] ?? 'Unknown';
-        $countryName = $data['country'] ?? 'Unknown';
-
+        // Block if not from Cambodia
         if ($countryName !== 'KH') {
-            Log::channel('visitor')->warning('Non-Cambodian visitor blocked', [
-                'ip' => $ip,
-                'country' => $countryName
-            ]);
-
+            $this->blockIp($ip);
             throw new NotFoundHttpException('Access denied');
         }
 
-        $country = Country::firstOrCreate(
-            ['name' => $countryName],
-            ['region' => $region]
-        );
+        $country = Country::firstOrCreate(['name' => $countryName], ['region' => $region]);
 
-        $visitor = Visitor::firstOrCreate(
+        Visitor::firstOrCreate(
             ['ip_address' => $ip],
             ['country_id' => $country->id]
-        );
-
-        $visitor->increment('visits');
-        $visitor->save();
+        )->increment('visits');
     }
 
     private function logError(string $ip, \Exception $e): void
@@ -94,4 +98,50 @@ class VisitorTracking
             'error' => $e->getMessage()
         ]);
     }
+
+    /**
+     * Dynamically block IPs that should not access the site.
+     */
+    private function blockIp(string $ip): void
+    {
+        // Cache the blocked IP for 1 hour
+        Cache::put("blocked_ip:$ip", true, now()->addHours(1));
+    
+        // Write the IP to .htaccess
+        $this->updateHtaccess($ip);
+    
+        Log::channel('visitor')->warning("IP Blocked via .htaccess", ['ip' => $ip]);
+    }
+    
+    /**
+     * Update .htaccess file to deny access to blocked IPs.
+     */
+    private function updateHtaccess(string $ip): void
+    {
+        $htaccessPath = base_path('.htaccess');
+    
+        // Check if the file exists
+        if (!file_exists($htaccessPath)) {
+            file_put_contents($htaccessPath, ""); // Create if not exists
+        }
+    
+        // Read the current .htaccess content
+        $htaccessContent = file_get_contents($htaccessPath);
+    
+        // Check if the IP is already blocked
+        if (strpos($htaccessContent, "Deny from $ip") === false) {
+            // Append IP to the .htaccess file
+            file_put_contents($htaccessPath, "\nDeny from $ip", FILE_APPEND);
+        }
+    }
+    
+
+    /**
+     * Check if an IP is already blocked.
+     */
+    private function isIpBlocked(string $ip): bool
+    {
+        return Cache::has("blocked_ip:$ip");
+    }
+    
 }
