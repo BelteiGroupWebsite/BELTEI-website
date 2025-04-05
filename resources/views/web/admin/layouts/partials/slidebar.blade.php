@@ -75,6 +75,21 @@
                     <div class="menu-title">Beltei University</div>
                 </a>
                 <ul>
+                    <li>
+                        <a class="has-arrow" href="javascript:;">
+                            {{-- <div class="parent-icon"><i class="lni lni-graduation"></i>
+                            </div> --}}
+                            <div class="menu-title">Page Layout</div>
+                        </a>
+                        <ul>
+                            <li> 
+                                <a href="{{ route('admin.university.poster') }}"><i class="bi bi-circle"></i>Poster</a>
+                            </li>
+                            <li> 
+                                <a href="{{ route('admin.university.collaborator') }}"><i class="bi bi-circle"></i>Collaborator</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li> 
                         <a href="{{ route('admin.university.news.index') }}"><i class="bi bi-circle"></i>News</a>
                     </li>

@@ -43,7 +43,7 @@
                         <div class="col-6 mb-3">
                             <label for="" class="form-label"><b>Category</b></label>
                             <div class="form-group d-flex">
-                                <select required class="form-control" name="category" id="">
+                                <select wire:model.live="category"  class="form-control" name="category">
                                     <option selected disabled value="">Please select news category</option>
                                     <option value="1">Beltei Contruction</option>
                                     <option value="2">Beltei School</option>
@@ -57,6 +57,7 @@
                                     <option value="10">BICC Education Fair</option>
                                     <option value="11">BICC Research Forum</option>
                                 </select>
+                                
                             </div>
                         </div>
                         <div class="col-6 mb-3">

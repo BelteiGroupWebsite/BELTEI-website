@@ -13,6 +13,16 @@ class SetLanguage
      *
      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
+    // public function handle(Request $request, Closure $next): Response
+    // {
+    //     if (session()->has('locale')) {
+    //         app()->setLocale(session('locale'));
+    //     } else {
+    //         app()->setLocale(config('app.locale'));
+    //     }
+    //     return $next($request);
+    // }
+
     public function handle(Request $request, Closure $next): Response
     {
         if (session()->has('locale')) {
@@ -20,6 +30,8 @@ class SetLanguage
         } else {
             app()->setLocale(config('app.locale'));
         }
-        return $next($request);
+
+        return $next($request); // Ensure `$next` is a Closure
     }
+    
 }

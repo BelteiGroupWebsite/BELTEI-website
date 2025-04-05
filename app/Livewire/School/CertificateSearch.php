@@ -5,14 +5,20 @@ namespace App\Livewire\School;
 use App\Models\school\AcademicBatch;
 use App\Models\school\Certificate;
 use App\Models\School\Certificate\StbAcademicBatch;
+use App\Models\School\Certificate\StbStudentInfo;
+use Illuminate\Support\Facades\Crypt;
 use Livewire\Component;
 use Livewire\WithPagination;
+use PhpOffice\PhpSpreadsheet\Calculation\Statistical\Distributions\StudentT;
 
 class CertificateSearch extends Component
 {
     use WithPagination;
     public $search = "";
     public $program;
+
+    public $gradeId;
+    public $programId;
     public $batch;
 
     public function mount( $batch)
@@ -68,6 +74,8 @@ class CertificateSearch extends Component
 
         $gradeId = $grade->id;
         $programId = $grade->program->id;
+        $this->gradeId = $gradeId;
+        $this->programId = $programId;
 
         $query = $academicBatch->studentInfo();
 
@@ -85,5 +93,49 @@ class CertificateSearch extends Component
     }
 
 
+    public $studentID;
+    public $dob;
+    public function openCertificateModal($id){
+        $this->studentID = $id;
+    }
+    public function verify()
+    {
+        $this->validate([
+            // 'khmerName' => 'required',
+            // 'latinName' => 'required',
+            'dob' => 'required',
+        ]);
 
+        // $khmerName = $this->khmerName;
+        // $latinName = $this->latinName;
+        $dob = $this->dob;
+
+        $originalInfo = StbStudentInfo::find($this->studentID);
+
+
+        // if ($originalInfo->khmer_name == $khmerName && $originalInfo->latin_name == $latinName && $this->convertDateToYmd($originalInfo->dob) == $dob) {
+        //     $this->showModal = !$this->showModal;
+        //     $encryptedPath = Crypt::encryptString($this->programId . '/' . $this->gradeId . '/' . $this->batch . '/beltei/' . $originalInfo->certi_no . '.jpg');
+        //     return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
+        // } 
+        $encryptedPath = Crypt::encryptString($this->programId . '/' . $this->gradeId . '/' . $this->batch . '/beltei/' . $originalInfo->certi_no . '.jpg');
+        return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
+
+
+        if ($this->convertDateToYmd($originalInfo->dob) == $dob) {
+            // $this->showModal = !$this->showModal;
+            $encryptedPath = Crypt::encryptString($this->programId . '/' . $this->gradeId . '/' . $this->batch . '/beltei/' . $originalInfo->certi_no . '.jpg');
+            
+            return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
+        } 
+        else {
+            session()->flash('error', 'Information does not match!');
+        }
+    }
+
+    private function convertDateToYmd($dateString)
+    {
+        $timestamp = strtotime($dateString);
+        return $timestamp ? date('Y-m-d', $timestamp) : null;
+    }
 }

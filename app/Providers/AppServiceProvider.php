@@ -2,9 +2,12 @@
 
 namespace App\Providers;
 
+use App\Models\Branch;
 use App\Models\Country;
 use App\Models\Language;
+use App\Models\University\Collaborator\UtbCountry;
 use App\Models\University\News;
+use App\Models\University\Poster\UtbPoster;
 use App\Models\Visitor;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Pagination\Paginator as PaginationPaginator;
@@ -39,6 +42,11 @@ class AppServiceProvider extends ServiceProvider
             // Share languages with all views
             View::share('countries', Country::get());
 
+            // Share languages with all views
+            View::share('utb_countries', UtbCountry::orderBy('order_column')->get());
+
+            View::share('utb_posters', UtbPoster::where('branch', 3)->get());
+            
             // Define an associative array with category IDs and their corresponding view variable names
             $categories = [
                 1 => 'contruction_news',

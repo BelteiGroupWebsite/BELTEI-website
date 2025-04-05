@@ -11,9 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('visitors', function (Blueprint $table) {
-            //
-            $table->integer('country_id')->nullable();
+        Schema::create('utb_countries', function (Blueprint $table) {
+            $table->id();
+            $table->text('flag');
+            $table->enum('status', ['active', 'inactive'])->default('active');
+            $table->integer('order_column')->nullable();
+            $table->timestamps();
         });
     }
 
@@ -22,9 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('visitors', function (Blueprint $table) {
-            //
-            $table->dropColumn('country_id');
-        });
+        Schema::dropIfExists('utb_countries');
     }
 };
