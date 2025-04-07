@@ -202,7 +202,7 @@
                                             </td>
                                         </tr>
                                     </table>
-                                    <button class="btn btn-outline-success" data-bs-target="#updateStudentModal"
+                                    <button class="btn btn-outline-success" data-bs-target="#updateStudentModal"  wire:click="openCertificateModal('{{ $studentInfoShow->id }}','beltei' , '{{ $studentInfoShow->certi_no }}')"
                                         data-bs-toggle="modal" data-bs-dismiss="modal">
                                         View Certificate
                                     </button>
