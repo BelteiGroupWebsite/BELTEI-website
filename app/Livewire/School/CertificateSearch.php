@@ -9,128 +9,95 @@ use App\Models\School\Certificate\StbStudentInfo;
 use Illuminate\Support\Facades\Crypt;
 use Livewire\Component;
 use Livewire\WithPagination;
-use PhpOffice\PhpSpreadsheet\Calculation\Statistical\Distributions\StudentT;
 
 class CertificateSearch extends Component
 {
     use WithPagination;
+
     public $search = "";
     public $program;
-
     public $gradeId;
     public $programId;
     public $batch;
+    public $studentID, $studentInfoShow;
+    public $robot;
 
-    public function mount( $batch)
+    public $displayFolder , $displayField;
+
+    public function mount($batch)
     {
-        // $this->program = $program;
         $this->batch = $batch;
+
+        $academicBatch = StbAcademicBatch::with(['grade.program'])->find($batch);
+        if ($academicBatch) {
+            $this->gradeId = $academicBatch->grade->id;
+            $this->programId = $academicBatch->grade->program->id;
+        }
     }
-
-
-
-    // public function render()
-    // {
-    //     $batchId = $this->batch;
-
-    //     $academicBatch = StbAcademicBatch::where('id', $this->batch)->first();
-
-    //     $profile = $academicBatch->grade->profile;
-    //     $beltei = $academicBatch->grade->beltei;
-    //     $moey = $academicBatch->grade->moey;
-    //     $ielts = $academicBatch->grade->ielts;
-
-    //     $gradeId = $academicBatch->grade->id;
-
-    //     $programId = $academicBatch->grade->program->id;
-
-    //     if (strlen($this->search) >= 1) {
-    //         $studentInfos = $academicBatch->studentInfo()->where('certi_no', 'like', '%' . $this->search . '%')
-    //                       ->orWhere('khmer_name', 'like', '%' . $this->search . '%')
-    //                       ->orWhere('latin_name', 'like', '%' . $this->search . '%')->paginate(20);
-    //     } else {
-    //         $studentInfos = $academicBatch->studentInfo()->paginate(30);
-    //     }
-
-    //     return view('livewire.school.certificate-search', compact('studentInfos' , 'programId' , 'gradeId' , 'batchId'));
-    // }
-
 
     public function render()
     {
-        $batchId = $this->batch;
+        $query = StbAcademicBatch::find($this->batch)?->studentInfo();
 
-        // $academicBatch = StbAcademicBatch::with(['grade', 'grade.program'])->find($batchId);
-        $academicBatch = StbAcademicBatch::find($batchId);
-
-        $grade = $academicBatch->grade;
-
-
-
-        $profile = $grade->profile;
-        $beltei = $grade->beltei;
-        $moey = $grade->moey;
-        $ielts = $grade->ielts;
-
-        $gradeId = $grade->id;
-        $programId = $grade->program->id;
-        $this->gradeId = $gradeId;
-        $this->programId = $programId;
-
-        $query = $academicBatch->studentInfo();
-
-        if (strlen($this->search) >= 1) {
+        if ($query && strlen($this->search) >= 1) {
             $query->where(function ($q) {
                 $q->where('certi_no', 'like', '%' . $this->search . '%')
-                ->orWhere('khmer_name', 'like', '%' . $this->search . '%')
-                ->orWhere('latin_name', 'like', '%' . $this->search . '%');
+                    ->orWhere('khmer_name', 'like', '%' . $this->search . '%')
+                    ->orWhere('latin_name', 'like', '%' . $this->search . '%');
             });
         }
 
-        $studentInfos = $query->paginate(strlen($this->search) >= 1 ? 20 : 30);
+        $studentInfos = $query ? $query->paginate(strlen($this->search) >= 1 ? 10 : 20) : collect();
 
-        return view('livewire.school.certificate-search', compact('studentInfos', 'programId', 'gradeId', 'batchId' , 'profile' , 'beltei' , 'moey' , 'ielts'));
+        $academicBatch = StbAcademicBatch::find($this->batch);
+
+        return view('livewire.school.certificate-search', [
+            'studentInfos' => $studentInfos,
+            'programId' => $this->programId,
+            'gradeId' => $this->gradeId,
+            'batchId' => $this->batch,
+            'profile' => $academicBatch?->grade->profile,
+            'beltei' => $academicBatch?->grade->beltei,
+            'moey' => $academicBatch?->grade->moey,
+            'ielts' => $academicBatch?->grade->ielts,
+        ]);
     }
 
+    public function showProfile($id)
+    {
+        // Implement showProfile logic if needed
+    }
 
-    public $studentID;
-    public $dob;
-    public function openCertificateModal($id){
+    public function openPortalModal($id)
+    {
         $this->studentID = $id;
+        $this->studentInfoShow = StbStudentInfo::find($this->studentID);
     }
+    public function openCertificateModal($id, $display, $field)
+    {
+        $this->studentID = $id;
+        $this->displayFolder = $display;
+        $this->displayField = $field;
+        // $this->studentInfoShow = StbStudentInfo::find($this->studentID);
+        // dd($this->programId . '/' . $this->gradeId . '/' . $this->batch . '/' . $this->displayFolder . '/' . $this->displayField . '.jpg');
+    }
+
     public function verify()
     {
         $this->validate([
-            // 'khmerName' => 'required',
-            // 'latinName' => 'required',
-            'dob' => 'required',
+            'robot' => 'required',
         ]);
 
-        // $khmerName = $this->khmerName;
-        // $latinName = $this->latinName;
-        $dob = $this->dob;
+        $this->reset('robot');
 
-        $originalInfo = StbStudentInfo::find($this->studentID);
+        // $originalInfo = StbStudentInfo::find($this->studentID);
+        // dd($this->programId . '/' . $this->gradeId . '/' . $this->batch . '/' . $this->displayFolder . '/' . $this->displayField . '.jpg');
+        $encryptedPath = Crypt::encryptString(
+            $this->programId . '/' . $this->gradeId . '/' . $this->batch . '/' . $this->displayFolder . '/' . $this->displayField . '.jpg'
+            // $this->programId . '/' . $this->gradeId . '/' . $this->batch . '/beltei/' . $originalInfo->certi_no . '.jpg'
+        );
 
-
-        // if ($originalInfo->khmer_name == $khmerName && $originalInfo->latin_name == $latinName && $this->convertDateToYmd($originalInfo->dob) == $dob) {
-        //     $this->showModal = !$this->showModal;
-        //     $encryptedPath = Crypt::encryptString($this->programId . '/' . $this->gradeId . '/' . $this->batch . '/beltei/' . $originalInfo->certi_no . '.jpg');
-        //     return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
-        // } 
-        $encryptedPath = Crypt::encryptString($this->programId . '/' . $this->gradeId . '/' . $this->batch . '/beltei/' . $originalInfo->certi_no . '.jpg');
         return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
-
-
-        if ($this->convertDateToYmd($originalInfo->dob) == $dob) {
-            // $this->showModal = !$this->showModal;
-            $encryptedPath = Crypt::encryptString($this->programId . '/' . $this->gradeId . '/' . $this->batch . '/beltei/' . $originalInfo->certi_no . '.jpg');
-            
-            return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
-        } 
-        else {
-            session()->flash('error', 'Information does not match!');
-        }
     }
 
     private function convertDateToYmd($dateString)

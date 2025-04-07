@@ -38,7 +38,8 @@ use Illuminate\Http\Request;
 Route::get('{prefix}/images/batch{batchId}', function ($prefix, $batchId, Request $request) {
 
     $degreeAcademicbatch = UtbDegreeAcademicbatch::where('batch', $batchId)->first();
-    session()->flash('sorry', "We apologize for any inconvenience caused by our recent website update. To find your certificate, please use the new search feature on our site. If you need any assistance or have questions, feel free to contact our support team. Thank you for your understanding.");
+    // session()->flash('sorry', "We apologize for any inconvenience caused by our recent website update. To find your certificate, please use the new search feature on our site. If you need any assistance or have questions, feel free to contact our support team. Thank you for your understanding.");
+    session()->flash('sorry', __('alert.certificate-first-version-url'));
 
     if ($degreeAcademicbatch) {
         $batch = $degreeAcademicbatch->id;

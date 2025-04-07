@@ -21,6 +21,10 @@ class VisitorTracking
     {
         $ip = $request->ip();
 
+        if($ip == '127.0.0.1') {
+            return $next($request);
+        }
+
         if ($this->isIpBlocked($ip)) {
             throw new NotFoundHttpException('Access denied');
         }

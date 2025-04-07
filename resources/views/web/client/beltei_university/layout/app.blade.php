@@ -20,7 +20,7 @@
     <meta name="twitter:title" content="Beltei University">
     <meta name="twitter:description" content="Explore top-quality education at Beltei University.">
     <meta name="twitter:image" content="https://www.beltei.edu.kh/asset/img/university/campus/BIU3.png"> --}}
-
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />

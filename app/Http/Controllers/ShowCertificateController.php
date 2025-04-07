@@ -26,4 +26,6 @@ class ShowCertificateController extends Controller
 
         return response()->file(storage_path("app/{$path}"));
     }
+
+    
 }
