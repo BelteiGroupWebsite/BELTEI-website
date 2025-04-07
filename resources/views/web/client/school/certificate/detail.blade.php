@@ -2,15 +2,51 @@
 
 
 @section('content')
-<div class="">
-    <div class="card">
-        <div class="card-body">
-            <div class="my-3">
-                {{-- @livewire('school.certificate-search') --}}
-                {{-- <livewire:school.certificate-search :program="$program" :grade="$grade" :year="$year"/> --}}
-                <livewire:school.certificate-search :batch="$academicBatchId"/>
+    <style>
+        .recaptcha-box {
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 15px 20px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
 
-                {{-- <table class="table table-bordered " >
+        .recaptcha-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .recaptcha-left input[type="checkbox"] {
+            width: 22px;
+            height: 22px;
+            margin-right: 15px;
+        }
+
+        .recaptcha-right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 12px;
+        }
+
+        .recaptcha-right img {
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+
+    <div class="">
+        <div class="card">
+            <div class="card-body">
+                <div class="my-3">
+                    {{-- @livewire('school.certificate-search') --}}
+                    {{-- <livewire:school.certificate-search :program="$program" :grade="$grade" :year="$year"/> --}}
+                    <livewire:school.certificate-search :batch="$academicBatchId" />
+
+                    {{-- <table class="table table-bordered " >
                     <thead >
                         <th>ID</th>
                         <th>Khmer Name</th>
@@ -50,8 +86,8 @@
                 </table>
                 {{ $studentInfo->links() }} --}}
 
-            </div>            
+                </div>
+            </div>
         </div>
     </div>
-</div>
 @endsection
