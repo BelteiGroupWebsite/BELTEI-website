@@ -167,8 +167,13 @@
                         <div class="d-flex flex-column justify-content-center align-items-center py-4">
                             @if ($studentInfoShow)
                                 @php
+                                    if($studentInfoShow->profile_no == null){
+                                        $imageCard = $studentInfoShow->beltei_no;
+                                    }else{
+                                        $imageCard = $studentInfoShow->profile_no;
+                                    }
                                     $encryptedProfile = Crypt::encryptString(
-                                        "$programId/$gradeId/$batchId/profile/$studentInfoShow->profile_no.jpg",
+                                        "$programId/$gradeId/$batchId/profile/$imageCard.jpg",
                                     );
                                 @endphp
                                 <div class="d-flex flex-row justify-content-center align-items-end position-relative">
