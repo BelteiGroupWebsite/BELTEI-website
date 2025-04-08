@@ -167,9 +167,9 @@
                         <div class="d-flex flex-column justify-content-center align-items-center py-4">
                             @if ($studentInfoShow)
                                 @php
-                                    if($studentInfoShow->profile_no == null){
-                                        $imageCard = $studentInfoShow->beltei_no;
-                                    }else{
+                                    if ($studentInfoShow->profile_no == null) {
+                                        $imageCard = $studentInfoShow->beltei;
+                                    } else {
                                         $imageCard = $studentInfoShow->profile_no;
                                     }
                                     $encryptedProfile = Crypt::encryptString(
@@ -207,7 +207,8 @@
                                             </td>
                                         </tr>
                                     </table>
-                                    <button class="btn btn-outline-success" data-bs-target="#updateStudentModal"  wire:click="openCertificateModal('{{ $studentInfoShow->id }}','beltei' , '{{ $studentInfoShow->certi_no }}')"
+                                    <button class="btn btn-outline-success" data-bs-target="#updateStudentModal"
+                                        wire:click="openCertificateModal('{{ $studentInfoShow->id }}','beltei' , '{{ $studentInfoShow->certi_no }}')"
                                         data-bs-toggle="modal" data-bs-dismiss="modal">
                                         View Certificate
                                     </button>
