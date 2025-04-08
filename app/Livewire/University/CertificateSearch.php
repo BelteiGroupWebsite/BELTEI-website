@@ -2,10 +2,9 @@
 
 namespace App\Livewire\University;
 
-use App\Models\University\AcademicBatch;
-use App\Models\University\Certificate;
 use App\Models\University\Certificate\UtbDegreeAcademicbatch;
-use App\Models\University\Degree;
+use App\Models\University\Certificate\UtbStudentInfo;
+use Illuminate\Support\Facades\Crypt;
 use Livewire\Component;
 use Livewire\WithPagination;
 
@@ -16,47 +15,77 @@ class CertificateSearch extends Component
     public $search = "";
     public $degree;
     public $batch;
+    public $studentID, $displayFolder, $displayField;
+    public $robot;
+    public $batchCert;
+    public $studentInfoShow;
+    public $encryptedProfile;
 
     public function mount($degree, $batch)
     {
         $this->degree = $degree;
         $this->batch = $batch;
+        $this->loadBatchCert();
     }
 
-
+    private function loadBatchCert()
+    {
+        $this->batchCert = UtbDegreeAcademicbatch::where('id', $this->batch)->first();
+    }
 
     public function render()
     {
-        $degreeId = $this->degree;
-        // $degreeCert = Degree::where('id',$degreeId)->get();
-        $batchCert = UtbDegreeAcademicbatch::where('id',$this->batch)->first();
+        $certificates = $this->getCertificates();
 
-        // dd($degree);
-
-        $batchId = $this->batch;
-
-        $degreeAcademicbatch = UtbDegreeAcademicbatch::where('id' , $this->batch)->first();
-
-        // $academicBatches = AcademicBatch::where('degree_id', $this->degree)->where('batch', $this->batch)->first();
-        // $academicBatchesId = $academicBatches ? $academicBatches->id : 0;
-
-        if (strlen($this->search) >= 1) {
-            $certificates = $degreeAcademicbatch->studentInfo()->where('certi_no', 'like', '%' . $this->search . '%')
-                          ->orWhere('khmer_name', 'like', '%' . $this->search . '%')
-                          ->orWhere('latin_name', 'like', '%' . $this->search . '%')->paginate(20);
-            // $certificates = Certificate::where('academic_year_id', $academicBatchesId)
-            //     ->where(function ($query) {
-            //         $query->where('certi_no', 'like', '%' . $this->search . '%')
-            //               ->orWhere('name_kh', 'like', '%' . $this->search . '%')
-            //               ->orWhere('name_eng', 'like', '%' . $this->search . '%');
-            //     })
-            //     ->paginate(10);
-        } else {
-            // $certificates = Certificate::where('academic_year_id', $academicBatchesId)->paginate(50);
-            $certificates = $degreeAcademicbatch->studentInfo()->paginate(30);
-        }
-
-        return view('livewire.university.certificate-search', compact('certificates' , 'degreeId' , 'batchId' , 'batchCert'));
+        return view('livewire.university.certificate-search', [
+            'certificates' => $certificates,
+            'degreeId' => $this->degree,
+            'batchId' => $this->batch
+        ]);
     }
 
+    private function getCertificates()
+    {
+        if (strlen($this->search) >= 1) {
+            return $this->batchCert->studentInfo()
+                ->where('certi_no', 'like', '%' . $this->search . '%')
+                ->orWhere('khmer_name', 'like', '%' . $this->search . '%')
+                ->orWhere('latin_name', 'like', '%' . $this->search . '%')
+                ->paginate(10);
+        }
+
+        return $this->batchCert->studentInfo()->paginate(20);
+    }
+
+    public function openCertificateModal($id, $display, $field)
+    {
+        $this->studentID = $id;
+        $this->displayFolder = $display;
+        $this->displayField = $field;
+    }
+
+    public function verify()
+    {
+        $this->validate([
+            'robot' => 'required',
+        ]);
+
+        $this->reset('robot');
+
+        $encryptedPath = Crypt::encryptString(
+            'university/' . $this->degree . '/' . $this->batch . '/' . $this->displayFolder . '/' . $this->displayField . '.jpg'
+        );
+
+        return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
+    }
+
+    public function openPortalModal($id)
+    {
+        $this->studentID = $id;
+        $this->studentInfoShow = UtbStudentInfo::find($this->studentID);
+        // dd($this->studentInfoShow);
+        $this->encryptedProfile = Crypt::encryptString(
+            'university/' . $this->degree . '/' . $this->batch . '/profile/' . $this->studentInfoShow->profile_no . '.jpg'
+        );
+    }
 }
