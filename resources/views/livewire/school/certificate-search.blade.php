@@ -21,7 +21,7 @@
                     <td>N<sup>o</sup></td>
                     <td>{{ __('beltei_university/certificate/certificate.khmer_name') }}</td>
                     <td>{{ __('beltei_university/certificate/certificate.gender') }}</td>
-                    <td>{{ __('beltei_university/certificate/certificate.dob') }}</td>
+                    {{-- <td>{{ __('beltei_university/certificate/certificate.dob') }}</td> --}}
                     @if ($profile)
                         <td>{{ __('beltei_university/certificate/certificate.profile') }}</td>
                     @endif
@@ -66,7 +66,7 @@
                             <td>{{ $student->student_id }}</td>
                             <td>{{ $student->khmer_name }}</td>
                             <td>{{ $student->gender }}</td>
-                            <td>{{ $student->dob }}</td>
+                            {{-- <td>{{ $student->dob }}</td> --}}
                             @if ($profile)
                                 <td>
                                     {{-- {{ $student->profile_no }} --}}
