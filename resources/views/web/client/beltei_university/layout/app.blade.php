@@ -10,7 +10,8 @@
     <link rel="shortcut icon" href="{{ asset('asset/img/favicon.ico') }}" type="image/png">
 
     <meta property="og:title" content="Beltei University - Quality Education for Everyone">
-    <meta property="og:description" content="Explore top-quality education at Beltei University. Learn more about our programs and admissions.">
+    <meta property="og:description"
+        content="Explore top-quality education at Beltei University. Learn more about our programs and admissions.">
     <meta property="og:image" content="https://www.beltei.edu.kh/asset/img/university/campus/BIU3.png">
     <meta property="og:url" content="https://www.beltei.edu.kh">
     <meta property="og:type" content="website">
@@ -20,7 +21,7 @@
     <meta name="twitter:title" content="Beltei University">
     <meta name="twitter:description" content="Explore top-quality education at Beltei University.">
     <meta name="twitter:image" content="https://www.beltei.edu.kh/asset/img/university/campus/BIU3.png"> --}}
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
@@ -65,6 +66,40 @@
 
         .right-bar-ul>li:hover>a>img {
             transform: scale(.9);
+        }
+
+        .recaptcha-box {
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 15px 20px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .recaptcha-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .recaptcha-left input[type="checkbox"] {
+            width: 22px;
+            height: 22px;
+            margin-right: 15px;
+        }
+
+        .recaptcha-right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 12px;
+        }
+
+        .recaptcha-right img {
+            width: 25px;
+            height: 25px;
         }
     </style>
 
@@ -184,7 +219,8 @@
                         <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
                             width="20%" alt="">
                         <img class="w-100 youtube-thumbnail"
-                            src="https://img.youtube.com/vi/l88M7K1oYlA/maxresdefault.jpg" alt="YouTube Video Thumbnail"
+                            src="https://img.youtube.com/vi/l88M7K1oYlA/maxresdefault.jpg"
+                            alt="YouTube Video Thumbnail"
                             data-src="https://www.youtube.com/embed/l88M7K1oYlA?si=J_uCR0w6B7vBnlRe" />
                     </a>
                     <a href="https://www.youtube.com/embed/dNI20hmq3R0?si=SIDRfTf_jLDkAcnM"
