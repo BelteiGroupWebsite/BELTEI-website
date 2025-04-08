@@ -29,7 +29,7 @@
                     <td>N<sup>o</sup></td>
                     <td>{{ __('beltei_university/certificate/certificate.khmer_name') }}</td>
                     <td>{{ __('beltei_university/certificate/certificate.gender') }}</td>
-                    <td>{{ __('beltei_university/certificate/certificate.dob') }}</td>
+                    {{-- <td>{{ __('beltei_university/certificate/certificate.dob') }}</td> --}}
                     <td>{{ __('beltei_university/certificate/certificate.profile') }}</td>
                     <td>{{ __('beltei_university/certificate/certificate.certificate') }}</td>
                 </tr>
@@ -70,7 +70,7 @@
                             <td>{{ $certificateNo }}</td>
                             <td>{{ $name }}</td>
                             <td>{{ $certificate->gender }}</td>
-                            <td>{{ Carbon::parse($certificate->dob)->format('d/M/Y') }}</td>
+                            {{-- <td>{{ Carbon::parse($certificate->dob)->format('d/M/Y') }}</td> --}}
                             <td>
                                 <img data-bs-toggle="modal" data-bs-target="#VerifyModal"
                                     wire:click="openCertificateModal('{{ $certificate->id }}','profile' , '{{ $certificate->profile_no }}')"
