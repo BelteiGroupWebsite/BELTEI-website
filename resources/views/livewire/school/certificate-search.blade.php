@@ -168,12 +168,14 @@
                             @if ($studentInfoShow)
                                 @php
                                     if (!$profile) {
+                                        $imageCardFolder = "beltei";
                                         $imageCard = $studentInfoShow->beltei;
                                     } else {
+                                        $imageCardFolder = "profile";
                                         $imageCard = $studentInfoShow->profile_no;
                                     }
                                     $encryptedProfile = Crypt::encryptString(
-                                        "$programId/$gradeId/$batchId/profile/$imageCard.jpg",
+                                        "$programId/$gradeId/$batchId/$imageCardFolder/$imageCard.jpg",
                                     );
                                 @endphp
                                 <div class="d-flex flex-row justify-content-center align-items-end position-relative">
