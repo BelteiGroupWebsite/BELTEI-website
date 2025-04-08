@@ -73,9 +73,9 @@
                                     <img style="max-width: 50px" loading="lazy" data-bs-toggle="modal"
                                         data-bs-target="#updateStudentModal"
                                         wire:click="openCertificateModal('{{ $student->id }}','profile' , '{{ $student->profile_no }}')"
-                                        @if ($student->gender == 'F') src="https://media.istockphoto.com/id/2060009001/vector/avatar-user-profile-person-icon-profile-picture-for-social-media-profiles-icons-screensavers.jpg?s=612x612&w=0&k=20&c=onk7rmEoISSvHVlqc-SiBvcUr8ilCm2u9kcw3_Bm_SA="
+                                        @if ($student->gender == 'F') src="https://t3.ftcdn.net/jpg/07/64/40/98/360_F_764409867_iXpBxs90ZimTFHobmqvOaTtuJHJgHPOR.jpg"
                                         @else
-                                            src="https://media.istockphoto.com/id/1934800957/vector/man-empty-avatar-vector-photo-placeholder-for-social-networks-resumes-forums-and-dating.jpg?s=612x612&w=0&k=20&c=uegpkq9-EgMlLR2MjUOgYV5Ev4hftQ_X4CONfDInjE8=" @endif
+                                            src="https://t3.ftcdn.net/jpg/07/64/40/98/360_F_764409869_bcZuUrVPCXkeX09GIZOlSseroQKANt4O.jpg" @endif
                                         alt="Profile Image">
                                 </td>
                             @endif
@@ -167,7 +167,7 @@
                         <div class="d-flex flex-column justify-content-center align-items-center py-4">
                             @if ($studentInfoShow)
                                 @php
-                                    if ($studentInfoShow->profile_no == null) {
+                                    if (!$profile) {
                                         $imageCard = $studentInfoShow->beltei;
                                     } else {
                                         $imageCard = $studentInfoShow->profile_no;
