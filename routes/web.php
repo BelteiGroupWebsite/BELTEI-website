@@ -795,4 +795,4 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
 });
 
 
-Route::get('/certificate/view/{filename}', [ShowCertificateController::class, 'view'])->name('certificate.view');
+Route::get('/document/view/{filename}', [ShowCertificateController::class, 'view'])->name('certificate.view');

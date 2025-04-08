@@ -16,7 +16,8 @@ class ShowCertificateController extends Controller
             abort(404);
         }
 
-        $path = "private/upload/certificate/school/" . $filename;
+        // $path = "private/upload/certificate/school/" . $filename;
+        $path = "private/upload/certificate/" . $filename;
 
         // dd($filename);
         if (!Storage::exists($path)) {

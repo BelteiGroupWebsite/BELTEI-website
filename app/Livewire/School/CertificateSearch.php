@@ -93,7 +93,7 @@ class CertificateSearch extends Component
         // $originalInfo = StbStudentInfo::find($this->studentID);
         // dd($this->programId . '/' . $this->gradeId . '/' . $this->batch . '/' . $this->displayFolder . '/' . $this->displayField . '.jpg');
         $encryptedPath = Crypt::encryptString(
-            $this->programId . '/' . $this->gradeId . '/' . $this->batch . '/' . $this->displayFolder . '/' . $this->displayField . '.jpg'
+            'school/'.$this->programId . '/' . $this->gradeId . '/' . $this->batch . '/' . $this->displayFolder . '/' . $this->displayField . '.jpg'
             // $this->programId . '/' . $this->gradeId . '/' . $this->batch . '/beltei/' . $originalInfo->certi_no . '.jpg'
         );
 

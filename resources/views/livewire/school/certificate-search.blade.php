@@ -175,7 +175,7 @@
                                         $imageCard = $studentInfoShow->certi_no;
                                     }
                                     $encryptedProfile = Crypt::encryptString(
-                                        "$programId/$gradeId/$batchId/$imageCardFolder/$imageCard.jpg",
+                                        "school/$programId/$gradeId/$batchId/$imageCardFolder/$imageCard.jpg",
                                     );
                                 @endphp
                                 <div class="d-flex flex-row justify-content-center align-items-end position-relative">
