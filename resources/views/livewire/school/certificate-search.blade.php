@@ -167,12 +167,12 @@
                         <div class="d-flex flex-column justify-content-center align-items-center py-4">
                             @if ($studentInfoShow)
                                 @php
-                                    if (!$profile) {
-                                        $imageCardFolder = "beltei";
-                                        $imageCard = $studentInfoShow->beltei;
-                                    } else {
-                                        $imageCardFolder = "profile";
+                                    if ($profile) {
+                                        $imageCardFolder = 'profile';
                                         $imageCard = $studentInfoShow->profile_no;
+                                    } else {
+                                        $imageCardFolder = 'beltei';
+                                        $imageCard = $studentInfoShow->certi_no;
                                     }
                                     $encryptedProfile = Crypt::encryptString(
                                         "$programId/$gradeId/$batchId/$imageCardFolder/$imageCard.jpg",
