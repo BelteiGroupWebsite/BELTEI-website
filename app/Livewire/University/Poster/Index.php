@@ -4,6 +4,7 @@ namespace App\Livewire\University\Poster;
 
 use App\Models\Branch;
 use App\Models\University\Poster\UtbPoster;
+use Illuminate\Support\Facades\Storage;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 
@@ -13,7 +14,7 @@ class Index extends Component
 
     public $posters, $branches;
     public $poster_id, $poster_image;
-    public $branch=1; // Fixed syntax error
+    public $branch = 1; // Fixed syntax error
     protected $listeners = ['posterDelete' => 'deletePoster'];
     public function mount()
     {
@@ -46,7 +47,7 @@ class Index extends Component
         $this->poster_id = $poster_id;
         $poster = UtbPoster::find($this->poster_id);
         $this->poster_image = $poster->logo;
-    }   
+    }
     public function updatePoster()
     {
         $poster = UtbPoster::find($this->poster_id);
@@ -54,6 +55,16 @@ class Index extends Component
         $poster->branch = $this->branch;
 
         if ($this->poster_image) {
+            $imagePath = $poster->image;
+            
+            // Move the file to a "deleted" folder before deleting the record
+            if (Storage::disk('public')->exists($imagePath)) {
+                $filename = basename($imagePath);
+                $deletedPath = 'deleted/' . $imagePath;
+                
+                Storage::disk('public')->move($imagePath, $deletedPath); //
+            }
+            
             $poster->image = $this->storeFile($this->poster_image, 'posters/' . $this->branch);
         }
 
@@ -69,7 +80,7 @@ class Index extends Component
 
         UtbPoster::create([
             'branch' => $this->branch,
-            'image' => $this->storeFile($this->poster_image, 'posters/'.$this->branch),
+            'image' => $this->storeFile($this->poster_image, 'posters/' . $this->branch),
         ]);
 
         session()->flash('message', 'Poster saved successfully!');
@@ -100,11 +111,27 @@ class Index extends Component
     public function deleteposter()
     {
         $poster = UtbPoster::find($this->poster_id);
-        $poster->delete();
+
+        if ($poster && $poster->image) {
+            $imagePath = $poster->image;
+
+            // Move the file to a "deleted" folder before deleting the record
+            if (Storage::disk('public')->exists($imagePath)) {
+                $filename = basename($imagePath);
+                $deletedPath = 'deleted/' . $imagePath;
+
+                Storage::disk('public')->move($imagePath, $deletedPath); //
+            }
+
+            // Now delete the database record
+            $poster->delete();
+        }
+
         $this->reset('poster_id');
-        session()->flash('message', 'poster deleted successfully!');
+        session()->flash('message', 'Poster deleted successfully!');
         $this->loadPosters();
     }
+
     public function deletePosterID($poster_id)
     {
         $this->poster_id = $poster_id;

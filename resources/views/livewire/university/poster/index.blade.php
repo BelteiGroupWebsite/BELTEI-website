@@ -219,7 +219,7 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" wire:click="closeModal"
                             data-bs-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="submit" wire:loading.attr="disabled" class="btn btn-primary">Save</button>
                     </div>
                 </form>
             </div>
