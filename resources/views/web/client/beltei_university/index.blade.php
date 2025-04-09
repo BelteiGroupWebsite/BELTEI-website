@@ -61,14 +61,14 @@
 
         <div class="row gy-2 justify-content-center">
 
-            {{-- @foreach ($utb_posters->sortBy('order_column') as $poster)
+            @foreach ($utb_posters->sortBy('order_column') as $poster)
                 <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0" src="{{ asset('storage/'.$poster->image) }}" alt="">
-            @endforeach --}}
+            @endforeach
             
-            <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
+            {{-- <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
             src="{{ asset('asset/img/university/app/2nd_intake2.jpg') }}" alt="">
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
-            src="{{ asset('asset/img/university/app/2nd_intake.jpg') }}" alt="">
+            src="{{ asset('asset/img/university/app/2nd_intake.jpg') }}" alt=""> --}}
 
             {{--<img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
             src="{{ asset('asset/img/university/app/new_term_2024_2025.jpg') }}" alt="">
