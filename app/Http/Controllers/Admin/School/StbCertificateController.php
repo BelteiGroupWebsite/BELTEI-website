@@ -91,7 +91,7 @@ class StbCertificateController extends Controller
             Log::info('New StbAcademicBatch record created', ['academicBatch' => $academicBatch]);
     
             // Store the certificate reference PDF file
-            $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/school/'.$validated['programs'].'/'.$validated['grade'].'/'.$academicBatch->id.'/reference', 'public');
+            $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/school/'.$validated['programs'].'/'.$validated['grade'].'/'.$academicBatch->id.'/reference', 'private');
             Log::info('Certificate reference PDF stored', ['referencePath' => $referencePath]);
     
             // Update the academic batch with the reference path
@@ -187,7 +187,7 @@ class StbCertificateController extends Controller
                 }
             
                 // Store the new reference PDF file
-                $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/school/' . $validated['programs'] . '/' . $validated['grade'] . '/' . $academicBatch->id . '/reference', 'public');
+                $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/school/' . $validated['programs'] . '/' . $validated['grade'] . '/' . $academicBatch->id . '/reference', 'private');
             
                 // Update the academic batch with the new reference path
                 $academicBatch->reference = $referencePath;

@@ -76,6 +76,22 @@ class UtbCertificateController extends Controller
 
         try {
             Excel::import(new StudentInfoImport($academicBatch->id), $request->file('certificateInformationExcel'));
+
+            if ($request->hasFile('certificateReferencePDF')) {
+                $currentReferencePath = 'storage/' . $academicBatch->reference;
+                if (file_exists($currentReferencePath) && is_file($currentReferencePath)) {
+                    unlink($currentReferencePath);
+                }
+    
+                // Store the new reference PDF file
+                $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/university/' . $validated['degree'] . '/' . $academicBatch->id . '/reference', 'private');
+                // $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/university/' . $validated['degree'] . '/' . $academicBatch->id . '/reference', 'public');
+    
+                // Update the academic batch with the new reference path
+                $academicBatch->reference = $referencePath;
+                $academicBatch->save();
+            }
+            
             return back()->with('success', 'Excel data imported successfully.');
         } catch (\Exception $e) {
             return back()->with('error', 'There was a problem importing the data: ' . $e->getMessage());
@@ -161,7 +177,8 @@ class UtbCertificateController extends Controller
                 }
     
                 // Store the new reference PDF file
-                $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/university/' . $validated['degree'] . '/' . $academicBatch->id . '/reference', 'public');
+                $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/university/' . $validated['degree'] . '/' . $academicBatch->id . '/reference', 'private');
+                // $referencePath = $request->file('certificateReferencePDF')->store('upload/certificate/university/' . $validated['degree'] . '/' . $academicBatch->id . '/reference', 'public');
     
                 // Update the academic batch with the new reference path
                 $academicBatch->reference = $referencePath;
