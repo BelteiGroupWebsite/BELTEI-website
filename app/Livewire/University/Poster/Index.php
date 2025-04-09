@@ -41,22 +41,26 @@ class Index extends Component
         $this->loadPosters();
     }
 
+    public function editPoster($poster_id)
+    {
+        $this->poster_id = $poster_id;
+        $poster = UtbPoster::find($this->poster_id);
+        $this->poster_image = $poster->logo;
+    }   
     public function updatePoster()
     {
         $poster = UtbPoster::find($this->poster_id);
 
-        $updateData = [
-            'utb_country_id' => $this->country_id,
-            'link' => $this->collaboration_website,
-        ];
+        $poster->branch = $this->branch;
 
         if ($this->poster_image) {
-            $updateData['logo'] = $this->storeFile($this->poster_image, 'logos');
+            $poster->image = $this->storeFile($this->poster_image, 'posters/' . $this->branch);
         }
 
-        $poster->update($updateData);
+        $poster->save();
+        $this->reset('poster_id', 'poster_image');
 
-        session()->flash('message', 'Collaborator updated successfully!');
+        session()->flash('message', 'Poster updated successfully!');
     }
 
     public function createPoster()
@@ -65,7 +69,7 @@ class Index extends Component
 
         UtbPoster::create([
             'branch' => $this->branch,
-            'image' => $this->storeFile($this->poster_image, 'posters'),
+            'image' => $this->storeFile($this->poster_image, 'posters/'.$this->branch),
         ]);
 
         session()->flash('message', 'Poster saved successfully!');
@@ -91,7 +95,7 @@ class Index extends Component
     }
     private function storeFile($file, $folder)
     {
-        return $file->store("university/posters/{$folder}", 'public');
+        return $file->store("app/{$folder}", 'public');
     }
     public function deleteposter()
     {
