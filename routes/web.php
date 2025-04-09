@@ -12,6 +12,7 @@ use App\Http\Controllers\GradeAController;
 use App\Http\Controllers\Admin\University\CertificateController as UniversityCertificateController;
 use App\Http\Controllers\Admin\University\NewsController;
 use App\Http\Controllers\Admin\University\UtbCertificateController;
+use App\Http\Controllers\Client\University\RedirectCertificateController;
 use App\Http\Controllers\CountdownController;
 use App\Http\Controllers\ShowCertificateController;
 use App\Http\Controllers\VisitorController;
@@ -70,6 +71,27 @@ Route::get('{prefix}/images/batch{batchId}/{filename?}', function ($prefix, $bat
     }
 })->where('prefix', 'biue|biuk')->where('filename', '.*');
 
+// http://127.0.0.1:8000/storage/upload/certificate/university/3/1/beltei/2943.jpg
+// Route::get('storage/upload/certificate/university/{degree}/{batch}/{prefix}/{filename}', function ($degree, $batch, $prefix, $filename) {
+//     $path = storage_path("app/private/upload/certificate/university/$degree/$batch/$prefix/$filename");
+
+//     // Route::get('degree/{degree}/batch/{batch}', [UniversityCertificateController::class, 'certificateBatchSection'])->name('certificate.detail');
+//     // $encryptedPath = Crypt::encryptString(
+//     //     'university/' . $this->degree . '/' . $this->batch . '/' . $this->displayFolder . '/' . $this->displayField . '.jpg'
+//     // );
+//     return redirect()->route('beltei_university.certificate.detail', ['degree' => $degree , 'batch' => $batch, 'filename' => $filename]);   
+
+//     if (!file_exists($path)) {
+//         abort(404, 'Certificate not found.');
+//     }
+
+//     return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
+
+//     // return response()->file($path); // or ->download($path) if you prefer download
+// })->where('filename', '.*');
+
+
+Route::get('storage/upload/certificate/university/{degree}/{batch}/{prefix}/{filename}', RedirectCertificateController::class);
 
 
 

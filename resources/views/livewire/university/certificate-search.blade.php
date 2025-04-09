@@ -156,7 +156,7 @@
                                             width="150" />
                                     </div>
                                     <img class="position-absolute" style="bottom: -15px" width="40"
-                                        src="https://media0.giphy.com/media/lwdArutvbQTeuBDEBZ/giphy.gif?cid=6c09b952vr6i21rr0x7pgzqc7yzmrebrljq0ok8kwhq3kvvo&ep=v1_stickers_search&rid=giphy.gif&ct=s">
+                                        src="{{ asset('asset/img/university/certificate/TickSticker.gif') }}">
                                 </div>
                                 <div class="mt-4">
                                     <p class="Muol-Light">{{ $studentInfoShow->khmer_name }}</p>
