@@ -61,6 +61,13 @@
                             );
                         @endphp --}}
 
+                        @php
+                            $profileImagePath = Crypt::encryptString(
+                                "school/$programId/$gradeId/$batchId/profile/$student->profile_no.jpg",
+                            );
+
+                        @endphp
+
                         <tr class="cursor-pointer" data-bs-toggle="modal" data-bs-target="#testModel"
                             {{-- wire:click="openCertificateModal('{{ $student->id }}','beltei' , '{{ $student->certi_no }}')" --}} wire:click="openPortalModal('{{ $student->id }}')">
                             <td>{{ $student->student_id }}</td>
@@ -73,10 +80,11 @@
                                     <img style="max-width: 50px" loading="lazy" data-bs-toggle="modal"
                                         data-bs-target="#updateStudentModal"
                                         wire:click="openCertificateModal('{{ $student->id }}','profile' , '{{ $student->profile_no }}')"
-                                        @if ($student->gender == 'F') src="https://t3.ftcdn.net/jpg/07/64/40/98/360_F_764409867_iXpBxs90ZimTFHobmqvOaTtuJHJgHPOR.jpg"
+                                        src="{{ route('certificate.view', ['filename' => $profileImagePath]) }}"
+                                        {{-- @if ($student->gender == 'F') src="https://t3.ftcdn.net/jpg/07/64/40/98/360_F_764409867_iXpBxs90ZimTFHobmqvOaTtuJHJgHPOR.jpg"
                                         @else
-                                            src="https://t3.ftcdn.net/jpg/07/64/40/98/360_F_764409869_bcZuUrVPCXkeX09GIZOlSseroQKANt4O.jpg" @endif
-                                        alt="Profile Image">
+                                            src="https://t3.ftcdn.net/jpg/07/64/40/98/360_F_764409869_bcZuUrVPCXkeX09GIZOlSseroQKANt4O.jpg" 
+                                            @endif --}} alt="Profile Image">
                                 </td>
                             @endif
                             @if ($beltei)
@@ -162,8 +170,8 @@
                 </div>
                 <div class="container my-2 py-2 px-3 d-flex justify-content-center">
                     <div class="card overflow-hidden shadow-lg border-2 border-header-color">
-                        <img class="py-2 bg-header-color" src="{{ asset('asset\img\school\certificate/header2.png') }}"
-                            alt="">
+                        <img class="py-2 bg-header-color"
+                            src="{{ asset('asset\img\school\certificate/header2.png') }}" alt="">
                         <div class="d-flex flex-column justify-content-center align-items-center py-4">
                             @if ($studentInfoShow)
                                 @php
