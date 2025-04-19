@@ -79,6 +79,10 @@ class CertificateSearch extends Component
         return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
     }
 
+    public function submit(){
+        $this->verify();
+    }
+
     public function openPortalModal($id)
     {
         $this->studentID = $id;

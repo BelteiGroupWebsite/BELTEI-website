@@ -1,0 +1,149 @@
+<style>
+    @keyframes glowBox {
+        0%,
+        100% {
+            box-shadow: none;
+        }
+        50% {
+            box-shadow: -0 5px 0 rgba(var(--glow-rgb), 0.4),
+                -0 10px 0 rgba(var(--glow-rgb), 0.3),
+                -0 15px 0 rgba(var(--glow-rgb), 0.2),
+                -0 20px 0 rgba(var(--glow-rgb), 0.1),
+                -0 25px 0 rgba(var(--glow-rgb), 0.05);
+        }
+    }
+
+    .animated-faculty {
+        animation: glowBox 3s ease-in-out infinite;
+        animation-delay: var(--delay);
+        border-radius: 2rem;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        text-shadow: none;
+        font-size: 14px;
+        text-decoration: none;
+    }
+</style>
+
+<div class="list-group" style="max-width: 400px">
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=1"
+        class="list-group-item title-translate-font py-4 BBA-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="--glow-rgb: 0, 119, 182; --delay: 0s; background-color: #0077b6"
+    >
+        {{ __('beltei_university/app.C1') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=2"
+        class="list-group-item title-translate-font py-4 BFB-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="
+            --glow-rgb: 0, 150, 136;
+            --delay: 0.3s;
+            background-color: #009688;
+        "
+    >
+        {{ __('beltei_university/app.C2') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=3"
+        class="list-group-item title-translate-font py-4 BEco-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="
+            --glow-rgb: 255, 111, 0;
+            --delay: 0.6s;
+            background-color: #ff6f00;
+        "
+    >
+        {{ __('beltei_university/app.C3') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=4"
+        class="list-group-item title-translate-font py-4 BLaw-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="
+            --glow-rgb: 139, 0, 139;
+            --delay: 0.9s;
+            background-color: #8b008b;
+        "
+    >
+        {{ __('beltei_university/app.C4') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=5"
+        class="list-group-item title-translate-font py-4 BEdu-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="--glow-rgb: 0, 128, 0; --delay: 1.2s; background-color: #008000"
+    >
+        {{ __('beltei_university/app.C5') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=6"
+        class="list-group-item title-translate-font py-4 BTh-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="--glow-rgb: 255, 0, 0; --delay: 1.5s; background-color: #ff0000"
+    >
+        {{ __('beltei_university/app.C6') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=7"
+        class="list-group-item title-translate-font py-4 BIT-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="--glow-rgb: 0, 0, 255; --delay: 1.8s; background-color: #0000ff"
+    >
+        {{ __('beltei_university/app.C7') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=8"
+        class="list-group-item title-translate-font py-4 BDT-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="
+            --glow-rgb: 255, 165, 0;
+            --delay: 2.1s;
+            background-color: #ffa500;
+        "
+    >
+        {{ __('beltei_university/app.C8') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=9"
+        class="list-group-item title-translate-font py-4 BEng-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="
+            --glow-rgb: 199, 21, 133;
+            --delay: 2.4s;
+            background-color: #c71585;
+        "
+    >
+        {{ __('beltei_university/app.C9') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=10"
+        class="list-group-item title-translate-font py-4 BArch-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="
+            --glow-rgb: 255, 20, 147;
+            --delay: 2.7s;
+            background-color: #ff1493;
+        "
+    >
+        {{ __('beltei_university/app.C10') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=11"
+        class="list-group-item title-translate-font py-4 BIR-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="--glow-rgb: 64, 224, 208; --delay: 3s; background-color: #40e0d0"
+    >
+        {{ __('beltei_university/app.C11') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=12"
+        class="list-group-item title-translate-font py-4 BCA-color-bg border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="--glow-rgb: 255, 69, 0; --delay: 3.3s; background-color: #ff4500"
+    >
+        {{ __('beltei_university/app.C12') }}
+    </a>
+    <a
+        href="{{ route('beltei_university.faculty-detail') }}?id=13"
+        class="list-group-item title-translate-font py-4 border border-2 border-bottom-0 Gold-color-border text-white animated-faculty"
+        style="
+            --glow-rgb: 255, 198, 42;
+            --delay: 3.6s;
+            background-color: #ffc62a;
+        "
+    >
+        {{ __('beltei_university/app.C13') }}
+    </a>
+</div>
