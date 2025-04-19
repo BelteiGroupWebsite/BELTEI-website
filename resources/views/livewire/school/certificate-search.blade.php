@@ -140,7 +140,7 @@
                         </div>
                         <div class="recaptcha-box w-100">
                             <div class="recaptcha-left">
-                                <input wire:model="robot" type="checkbox" id="notRobot">
+                                <input wire:model="robot" wire:change="submit" type="checkbox" id="notRobot">
                                 <label for="notRobot" class="mb-0">I'm not a robot</label>
                             </div>
                             <div class="recaptcha-right">
@@ -151,9 +151,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-success">Verify</button>
                     </div>
                 </form>
             </div>

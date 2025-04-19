@@ -101,7 +101,9 @@ class CertificateSearch extends Component
 
         return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
     }
-
+    public function submit(){
+        $this->verify();
+    }
     private function convertDateToYmd($dateString)
     {
         $timestamp = strtotime($dateString);
