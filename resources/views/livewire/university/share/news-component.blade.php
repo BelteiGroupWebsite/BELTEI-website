@@ -37,7 +37,7 @@
 
     <hr>
     <div>
-        <h6 class="Muol-Light p-3 my-2 bg-success text-white">ព្រឹត្តិការណ៍សំខាន់ៗប្រចាំថ្ងៃ</h6>
+        {{-- <h6 class="Muol-Light p-3 my-2 bg-success text-white">ព្រឹត្តិការណ៍សំខាន់ៗប្រចាំថ្ងៃ</h6> --}}
     </div>
     <hr>
     {{-- Hot News  --}}

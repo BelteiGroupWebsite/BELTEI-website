@@ -1,1 +1,1 @@
-<livewire:school.share.news-component />
+<livewire:share.news-component :category="2" />

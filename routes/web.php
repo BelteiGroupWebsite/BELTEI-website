@@ -381,7 +381,7 @@ Route::group(['prefix' => 'testcenter', 'as' => 'testcenter.', 'middleware' => [
     });
 });
 
-Route::get('new/detail/{id}', [NewsController::class, 'show'])->name('beltei_university.news.detail');
+Route::get('news/detail/{id}', [NewsController::class, 'show'])->name('beltei_university.news.detail');
 
 Route::group(['prefix' => 'biu', 'as' => 'beltei_university.', 'middleware' => ['visitor.tracking', 'throttle:30,1']], function () {
 

@@ -24,20 +24,22 @@ class CertificateSearch extends Component
 
     public $displayFolder , $displayField;
 
+    public $academicBatch;
     public function mount($batch)
     {
         $this->batch = $batch;
 
-        $academicBatch = StbAcademicBatch::with(['grade.program'])->find($batch);
-        if ($academicBatch) {
-            $this->gradeId = $academicBatch->grade->id;
-            $this->programId = $academicBatch->grade->program->id;
+        $this->academicBatch = StbAcademicBatch::with(['grade.program'])->find($batch);
+        if ($this->academicBatch) {
+            $this->gradeId = $this->academicBatch->grade->id;
+            $this->programId = $this->academicBatch->grade->program->id;
         }
     }
 
     public function render()
     {
-        $query = StbAcademicBatch::find($this->batch)?->studentInfo();
+        // $query = StbAcademicBatch::find($this->batch)?->studentInfo();
+        $query = $this->academicBatch?->studentInfo();
 
         if ($query && strlen($this->search) >= 1) {
             $query->where(function ($q) {
@@ -49,17 +51,17 @@ class CertificateSearch extends Component
 
         $studentInfos = $query ? $query->paginate(strlen($this->search) >= 1 ? 10 : 20) : collect();
 
-        $academicBatch = StbAcademicBatch::find($this->batch);
+        // $this->academicBatch = StbAcademicBatch::find($this->batch);
 
         return view('livewire.school.certificate-search', [
             'studentInfos' => $studentInfos,
             'programId' => $this->programId,
             'gradeId' => $this->gradeId,
             'batchId' => $this->batch,
-            'profile' => $academicBatch?->grade->profile,
-            'beltei' => $academicBatch?->grade->beltei,
-            'moey' => $academicBatch?->grade->moey,
-            'ielts' => $academicBatch?->grade->ielts,
+            'profile' => $this->academicBatch?->grade->profile,
+            'beltei' => $this->academicBatch?->grade->beltei,
+            'moey' => $this->academicBatch?->grade->moey,
+            'ielts' => $this->academicBatch?->grade->ielts,
         ]);
     }
 

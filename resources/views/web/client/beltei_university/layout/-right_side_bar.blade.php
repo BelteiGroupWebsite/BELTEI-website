@@ -90,43 +90,335 @@
         </a>
     </ul>
 
-    {{-- @foreach ($utb_countries->sortBy('order_column') as $country)
-        <ul class="p-0 m-0  list-group ">
+    <ul class="p-0 m-0  list-group ">
 
-            <li class="list-group-item d-flex justify-content-center">
+        <li class="list-group-item d-flex justify-content-center">
 
-                <div style="border:inset 7px ; border-radius: 15px ; border-color: #006cb8"
-                    class="w-100 overflow-hidden border-blue">
-                    <a href="#" class="cursor-pointer justify-content-center">
-                        <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
-                            <img loading="lazy" class="w-100 max-width-100 justify-content-center"
-                                src="{{ asset('storage/' . $country->flag) }}" alt=""> <br>
-                            {{ $country->countryName->firstWhere('language.key', app()->getLocale())?->name ?? 'N/A' }}
-                        </p>
-                    </a>
+            <div style="border:inset 7px ; border-radius: 15px ; border-color: #006cb8"
+                class="w-100 overflow-hidden border-blue">
+                <a href="#" class="cursor-pointer justify-content-center">
+                    <p style="font-family: KhmerOSMoul ; text-align: center" class="bg-success text-white p-2">
+                        <img loading="lazy" class="w-100 max-width-100 justify-content-center"
+                            src="{{ asset('asset/img/school/language/khmer.png') }}" alt=""> <br>
+                        ប្រទេសកម្ពុជា
+                    </p>
+                </a>
 
-                    <ul class="list-group text-center right-bar-ul">
-                        @forelse ($country->collaborators->sortBy('order_column') as $collaborator)
-                            <li class="list-group-item p-0">
-                                <a href="{{ $collaborator->link }}" target="blank">
-                                    <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
-                                        class="justify-content-center"
-                                        src="{{ asset('storage/' . $collaborator->logo) }}"
-                                        alt="">
-                                </a>
-                            </li>
-                        @empty
+                <ul class="list-group text-center right-bar-ul">
+                    <li class="list-group-item p-0">
+                        <a href="https://moeys.gov.kh/kh" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/1.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://moeys.gov.kh/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/2.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://opendevelopmentcambodia.net/tag/cambodian-higher-education-association-chea/"
+                            target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/3.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://consumer.huawei.com/kh/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/4.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/5.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://libraryhub-manila.blogspot.com/p/home.html" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/6.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.wownow-kh.com/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/7.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.gfdexchange.com/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/8.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://mrtrainingandjobscenter.com.kh/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/9.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://poscardigital.com/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/10.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.firstcambodia.com.kh/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/11.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.sofitel-phnompenh-phokeethra.com/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/12.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://yourshumanly.org/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/13.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.hyatt.com/en-US/hotel/cambodia/hyatt-regency-phnom-penh/pnhrp/rooms"
+                            target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/14.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.rosewoodhotels.com/en/phnom-penh" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/15.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.prudential.com.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/16.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.pse.ong/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/17.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://mlmupc.gov.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/18.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://mptc.gov.kh/en/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/19.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://mptc.gov.kh/en/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/20.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://mptc.gov.kh/en/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/21.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://dmuc.edu.kh/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/22.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/23.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.marriott.com/en-us/hotels/pnhcy-courtyard-phnom-penh/overview/"
+                            target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/24.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.himawarihotel.com/" target="_blank">
+                            <img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"
+                                class="justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/25.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://experteducation.com/australia/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/26.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.mlvt.gov.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/27.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://cdc.gov.kh/km/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/28.png') }}"
+                                alt="">
+                        </a>
+                    </li>
 
-                        @endforelse
 
-                    </ul>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.bakc.org.kh/index.php/en/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/29.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.chiefbank.com.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/30.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://vireakbuntham.com/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/31.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://sokhahotels.com.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/32.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.cambodiaangkorair.com/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/33.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.ppcbank.com.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/34.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="list-group-item p-0">
+                        <a href="https://www.ppcbank.com.kh/" target="_blank">
+                            <img loading="lazy" class="w-100 justify-content-center"
+                                src="{{ asset('asset/img/university/app/rightsidebar/cambodia/35.png') }}"
+                                alt="">
+                        </a>
+                    </li>
+                </ul>
 
-                </div>
-            </li>
+                {{-- <ul class="list-group text-center right-bar-ul">
+                <li class="list-group-item p-0">
+                    <a href="https://moeys.gov.kh/kh" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;" class="justify-content-center" src="https://moeys.gov.kh/uploads/images/general-sitting/6686023ab18c5.png" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://consumer.huawei.com/kh/" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://consumer.huawei.com/etc/designs/huawei-cbg-site/clientlib-campaign-v4/common-v4/images/logo.svg" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://koha-community.org" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://koha-community.org/files/2013/09/cropped-kohabanner3.jpg" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://www.wownow-kh.com" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.wownow-kh.com/images/wownow/logo/wownow-white-no-slogan.png" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://www.gfdexchange.com" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://static.wixstatic.com/media/7951a7_4c40ab41165b4fb794336776ceffcbf8~mv2.png/v1/fill/w_356,h_88,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/gfde_logo.png" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://mrtrainingandjobscenter.com.kh" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="http://mrtrainingandjobscenter.com.kh/wp-content/uploads/2023/03/LOGO-MR-UYFC-01.png" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://www.firstcambodia.com.kh" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.firstcambodia.com.kh/assets/img/fc_logo_white.webp" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://poscardigital.com/" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://bongsrey.sgp1.digitaloceanspaces.com/library/26272/images/622876d1e94c5.png" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://www.sofitel-phnompenh-phokeethra.com" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/90/2024/06/04075931/Sofitel__Phnom-Penh-Phokeethra_logo_White_2024.png" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://www.rosewoodhotels.com/en/phnom-penh" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.rosewoodhotels.com/content/dam/rosewoodhotels/property/phnom-penh/en/logo/34_RW%20Phnom%20Penh%20English%20reverse%20FA.svg" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://www.hyatt.com/" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://1000logos.net/wp-content/uploads/2019/11/Hyatt-Logo.png" alt=""></a>
+                </li>
+                <li class="list-group-item p-0">
+                    <a href="https://www.information.gov.kh/" target="_blank"><img loading="lazy" style="max-height: 75px; width: 80% !important; object-fit: fill;"  class="justify-content-center" src="https://www.information.gov.kh/_next/static/images/logo-website-e3c294f0d2594b180dd35793aee6dc1a.png" alt=""></a>
+                </li>
+            </ul> --}}
 
-        </ul>
-    @endforeach --}}
+            </div>
+        </li>
 
+    </ul>
     <ul class="text-capitalize list-group f14">
         <a href="{{ route('beltei_university.') }}">
             <h6 style="height: 60px; border:inset 3px ; border-radius: 15px ; font-family: KhmerOSMoul"
@@ -705,55 +997,64 @@
                     <li class="list-group-item p-0">
                         <a href="https://www.au.edu/" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/1.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/1.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
                         <a href="https://www.bu.ac.th/en/international-programs" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/2.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/2.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
                         <a href="https://ism.utcc.ac.th/" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/3.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/3.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
                         <a href="https://www.eng.rmutt.ac.th/" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/4.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/4.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
                         <a href="https://www.aihm.education/" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/5.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/5.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
                         <a href="https://www.pim.ac.th/" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/6.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/6.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
                         <a href="https://asaihl.stou.ac.th/" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/7.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/7.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
                         <a href="https://www.thebritishcollege.edu.np/" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/8.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/8.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
                         <a href="https://dtc.ac.th/en/home/" target="_blank">
                             <img loading="lazy" class="w-100 justify-content-center"
-                                src="{{ asset('asset/img/university/app/rightsidebar/thai/9.png') }}" alt="">
+                                src="{{ asset('asset/img/university/app/rightsidebar/thai/9.png') }}"
+                                alt="">
                         </a>
                     </li>
                     <li class="list-group-item p-0">
@@ -1090,42 +1391,4 @@
 
 
     @include('web.client.share.visitor')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
-
-

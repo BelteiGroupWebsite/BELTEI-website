@@ -73,7 +73,7 @@ class StbClCertificateController extends Controller
 
         // $program = StbProgram::where('id' , $program)->first();
 
-        $grades = StbGrade::where('id', $grade_id)->first();
+        $grades = StbGrade::with('academicBatch.studentInfo')->where('id', $grade_id)->first();
 
         $arr = [4, 5, 6, 8];
 

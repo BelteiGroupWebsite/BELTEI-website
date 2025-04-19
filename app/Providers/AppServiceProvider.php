@@ -5,6 +5,7 @@ namespace App\Providers;
 use App\Models\Branch;
 use App\Models\Country;
 use App\Models\Language;
+use App\Models\University\Collaborator\UtbCollaborators;
 use App\Models\University\Collaborator\UtbCountry;
 use App\Models\University\News;
 use App\Models\University\Poster\UtbPoster;
@@ -37,42 +38,11 @@ class AppServiceProvider extends ServiceProvider
             View::share('languages', Language::get());
 
             // Share languages with all views
-            View::share('visitor', Visitor::get());
+            View::share('visitorCount', Visitor::count());
 
             // Share languages with all views
-            View::share('countries', Country::get());
+            View::share('countries', Country::withCount('visitors')->having('visitors_count', '>', 100)->get());
 
-            // Share languages with all views
-            View::share('utb_countries', UtbCountry::orderBy('order_column')->get());
-
-            View::share('utb_posters', UtbPoster::where('branch', 3)->get());
-            
-            // Define an associative array with category IDs and their corresponding view variable names
-            $categories = [
-                1 => 'contruction_news',
-                2 => 'bis_news',
-                3 => 'biu_news',
-                4 => 'bir_news',
-                5 => 'tour_news',
-                6 => 'testcenter_news',
-                7 => 'charity_news',
-                8 => 'biutrip_news',
-                9 => 'biutraining_news',
-                10 => 'bicc_news',
-                11 => 'biccr_news',
-            ];
-
-            // Loop through the categories and share the news for each category with the corresponding view variable name
-            foreach ($categories as $category_id => $view_variable) {
-                try {
-                    $news = News::where('category', $category_id)->orderBy('date', 'desc')->paginate(10);
-                    View::share($view_variable, $news);
-                } catch (\Exception $e) {
-                    // Handle the exception for individual category query
-                    Log::error("Failed to fetch news for category ID $category_id: " . $e->getMessage());
-                    View::share($view_variable, collect()); // Share an empty collection as a fallback
-                }
-            }
         } catch (\Exception $e) {
             // Handle the exception for the overall process
             Log::error("Failed to fetch data in AppServiceProvider boot method: " . $e->getMessage());

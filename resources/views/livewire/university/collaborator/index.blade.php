@@ -1,32 +1,4 @@
 <div>
-
-
-
-
-    @foreach ($collaborators as $collaboratorbybranch)
-        @php
-            $firstCollaborator = $collaboratorbybranch->first();
-            $countryName =
-                optional(optional($firstCollaborator->country)->countryName)->firstWhere(
-                    'language.key',
-                    app()->getLocale(),
-                )?->name ?? 'N/A';
-        @endphp
-
-        <p class="title-translate-font">{{ $countryName }}</p>
-
-        <div wire:sortable="updateCollaboratorOrder">
-            @foreach ($collaboratorbybranch->sortBy('order_column') as $collaborator)
-                <img wire:sortable.item="{{ $collaborator->id }}" wire:key="collaborator-{{ $collaborator->id }}"
-                    style="max-width: 60px; max-height: 60px; cursor: move;"
-                    src="{{ asset('storage/' . $collaborator->logo) }}" alt="">
-            @endforeach
-        </div>
-    @endforeach
-
-
-
-
     <section class="intro">
         <div class="bg-image h-100 py-4 rounded">
             <div class="mask d-flex align-items-center h-100">
@@ -72,53 +44,61 @@
                                                 </tr>
                                             </thead>
                                             <tbody class="content-translate-font">
-                                                {{-- @foreach ($collaborators as $collaborator)
-                                                    <tr>
-                                                        <td>{{ $collaborator->id }}</td>
-                                                        <td>{{ $collaborator->collaborator->firstWhere('language.key', app()->getLocale())?->description ?? 'N/A' }}
-                                                        </td>
-                                                        <td><img loading="lazy"
-                                                                style="max-width: 100px; max-height: 100px;"
-                                                                src="{{ asset('storage/' . $collaborator->logo) }}"
-                                                                alt=""></td>
-                                                        <td>
+                                                @foreach ($collaborators as $collaboratorbybranch)
 
-                                                            @php
-                                                                $photos = json_decode($collaborator->photos, true);
-                                                            @endphp
-
-                                                            @if (is_array($photos))
-                                                                @foreach ($photos as $photo)
-                                                                    <img loading="lazy"
-                                                                        style="max-width: 50px; max-height: 5  0px;"
-                                                                        src="{{ asset('storage/' . $photo) }}"
+                                                    <div>
+                                                        @foreach ($collaboratorbybranch->sortBy('order_column') as $collaborator)
+                                                            <tr >
+                                                                <td>{{ $collaborator->id }}</td>
+                                                                <td>{{ $collaborator->collaborator->firstWhere('language.key', app()->getLocale())?->description ?? 'N/A' }}
+                                                                </td>
+                                                                <td>
+                                                                    <img loading="lazy" style="max-width: 60px; max-height: 60px; cursor: move;"
+                                                                        src="{{ asset('storage/' . $collaborator->logo) }}"
                                                                         alt="">
-                                                                @endforeach
-                                                            @else
-                                                                <img loading="lazy"
-                                                                    style="max-width: 50px; max-height: 5  0px;"
-                                                                    src="{{ asset('storage/' . $collaborator->photos) }}"
-                                                                    alt="">
-                                                            @endif
+                                                                </td>
+                                                                <td>
+                                                                    @php
+                                                                        $photos = json_decode(
+                                                                            $collaborator->photos,
+                                                                            true,
+                                                                        );
+                                                                    @endphp
 
-                                                        </td>
-                                                        <td><a class="underline text-primary" target="blank"
-                                                                href="{{ $collaborator->link }}">Goto Website</a></td>
-                                                        <td>
-                                                            <div
-                                                                class="d-flex justify-content-center align-items-center gap-2">
-                                                                <button type="button" data-bs-toggle="modal"
-                                                                    data-bs-target="#collaboratorModal"
-                                                                    wire:click="updateCollaboratorModal({{ $collaborator->id }})"
-                                                                    class="btn btn-warning btn-sm bi bi-pencil-square"></button>
-                                                                <button type="button"
-                                                                    class="btn btn-danger btn-sm bi bi-trash"
-                                                                    wire:click="deleteId({{ $collaborator->id }})"
-                                                                    onclick="confirmDelete({{ $collaborator->id }})"></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                @endforeach --}}
+                                                                    @if (is_array($photos))
+                                                                        @foreach ($photos as $photo)
+                                                                            <img loading="lazy"
+                                                                                style="max-width: 50px; max-height: 50px;"
+                                                                                src="{{ asset('storage/' . $photo) }}"
+                                                                                alt="">
+                                                                        @endforeach
+                                                                    @else
+                                                                        <img loading="lazy"
+                                                                            style="max-width: 50px; max-height: 50px;"
+                                                                            src="{{ asset('storage/' . $collaborator->photos) }}"
+                                                                            alt="">
+                                                                    @endif
+                                                                </td>
+                                                                <td><a
+                                                                        href="{{ $collaborator->link }}">{{ $collaborator->link }}</a>
+                                                                </td>
+                                                                <td>
+                                                                    <div
+                                                                        class="d-flex justify-content-center align-items-center gap-2">
+                                                                        <button type="button" data-bs-toggle="modal"
+                                                                            data-bs-target="#collaboratorModal"
+                                                                            wire:click="updateCollaboratorModal({{ $collaborator->id }})"
+                                                                            class="btn btn-warning btn-sm bi bi-pencil-square"></button>
+                                                                        <button type="button"
+                                                                            class="btn btn-danger btn-sm bi bi-trash"
+                                                                            wire:click="deleteId({{ $collaborator->id }})"
+                                                                            onclick="confirmDelete({{ $collaborator->id }})"></button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        @endforeach
+                                                    </div>
+                                                @endforeach
                                             </tbody>
                                         </table>
                                         <div class="my-2">
@@ -148,7 +128,7 @@
                                                 </tr>
                                             </thead>
                                             <tbody class="content-translate-font" wire:sortable="updateCountryOrder">
-                                                {{-- @foreach ($countries->sortBy('order_column') as $country)
+                                                @foreach ($countries->sortBy('order_column') as $country)
                                                     <tr wire:sortable.item="{{ $country->id }}" style="cursor: move;"
                                                         wire:key="country-{{ $country->id }}">
                                                         <td>{{ $country->id }}</td>
@@ -160,7 +140,7 @@
                                                                 alt=""></td>
                                                         <td>{{ $country->collaborators->count() }}</td>
                                                     </tr>
-                                                @endforeach --}}
+                                                @endforeach
                                             </tbody>
                                         </table>
                                         <div class="my-2">
@@ -184,52 +164,37 @@
                                         <table class="table mb-0">
                                             <thead>
                                                 <tr>
-                                                    <th scope="col">ID</th>
+                                                    {{-- <th scope="col">ID</th> --}}
                                                     <th scope="col">Country</th>
-                                                    <th scope="col">Flag</th>
+                                                    {{-- <th scope="col">Flag</th> --}}
                                                     <th scope="col">Collaborators</th>
-                                                    <th scope="col">Action</th>
+                                                    {{-- <th scope="col">Action</th> --}}
                                                 </tr>
                                             </thead>
                                             <tbody class="content-translate-font">
-                                                {{-- @foreach ($countries->sortBy('order_column') as $country)
+                                                @foreach ($collaboratorsByCountry as $collaborators)
                                                     <tr>
-                                                        <td>{{ $country->id }}</td>
-                                                        <td>{{ $country->countryName->firstWhere('language.key', app()->getLocale())?->name ?? 'N/A' }}
-                                                        </td>
-                                                        <td><img loading="lazy"
-                                                                style="max-width: 100px; max-height: 100px;"
-                                                                src="{{ asset('storage/' . $country->flag) }}"
-                                                                alt=""></td>
                                                         <td>
-                                                            <div class="d-flex gap-2" wire:sortable="updateTaskOrder">
-                                                                @forelse ($country->collaborators->sortBy('order_column') as $collaborator)
-                                                                    <div class="d-flex align-items-center"
-                                                                        wire:sortable.item="{{ $collaborator->id }}"
+                                                            <img loading="lazy"
+                                                                style="max-width: 50px; max-height: 50px;"
+                                                                src="{{ asset('storage/' . $collaborators->first()->country->flag) }}"
+                                                                alt="">
+                                                        </td>
+                                                        <td>
+                                                            <div wire:sortable="updateCollaboratorOrder">
+                                                                @foreach ($collaborators as $collaborator)
+                                                                    <img wire:sortable.item="{{ $collaborator->id }}"
                                                                         wire:key="collaborator-{{ $collaborator->id }}"
-                                                                        style="cursor: move;">
-                                                                        <img loading="lazy"
-                                                                            style="max-height: 80px; max-width: 80px;"
-                                                                            src="{{ asset('storage/' . $collaborator->logo) }}"
-                                                                            alt="">
-                                                                    </div>
-                                                                @empty
-                                                                    <a class="text-primary underline cursor-pointer"
-                                                                        data-bs-toggle="modal"
-                                                                        data-bs-target="#collaboratorModal"
-                                                                        wire:click="setCountry({{ $country->id }})">Click
-                                                                        here to insert!</a>
-                                                                @endforelse
+                                                                        loading="lazy"
+                                                                        style="max-width: 50px; max-height: 50px;cursor: move;"
+                                                                        src="{{ asset('storage/' . $collaborator->logo) }}"
+                                                                        alt="">
+                                                                @endforeach
                                                             </div>
-                                                        </td>
-                                                        <td>
-                                                            <button class="btn btn-sm btn-primary bi bi-plus-lg"
-                                                                data-bs-toggle="modal"
-                                                                data-bs-target="#collaboratorModal"
-                                                                wire:click="setCountry({{ $country->id }})"></button>
+
                                                         </td>
                                                     </tr>
-                                                @endforeach --}}
+                                                @endforeach
                                             </tbody>
                                         </table>
                                     </div>
