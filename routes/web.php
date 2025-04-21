@@ -104,48 +104,7 @@ Route::get('set-locale/{locale}', function ($locale) {
 })->name('set-locale');
 
 
-// link folder
-Route::get('/storage-link', function () {
-    $targetFolder = storage_path('app/public');
-    $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/storage';
-    symlink($targetFolder, $linkFolder);
-});
 
-Route::get('/asset-link', function () {
-    $targetFolder = public_path('asset');
-    $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/asset';
-
-    try {
-        // Check if the symlink already exists
-        if (!file_exists($linkFolder)) {
-            // Create the symbolic link
-            symlink($targetFolder, $linkFolder);
-            return 'Symbolic link created successfully.';
-        } else {
-            return 'Symbolic link already exists.';
-        }
-    } catch (\Throwable $e) {
-        return 'Error creating symbolic link: ' . $e->getMessage();
-    }
-});
-
-Route::get('/uploaded-link', function () {
-    $targetFolder = public_path('uploaded');
-    $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/uploaded';
-
-    try {
-        // Check if the symlink already exists
-        if (!file_exists($linkFolder)) {
-            // Create the symbolic link
-            symlink($targetFolder, $linkFolder);
-            return 'Symbolic link created successfully.';
-        } else {
-            return 'Symbolic link already exists.';
-        }
-    } catch (\Throwable $e) {
-        return 'Error creating symbolic link: ' . $e->getMessage();
-    }
-});
 
 
 Route::get('/', function () {
@@ -463,7 +422,7 @@ Route::group(['prefix' => 'biu', 'as' => 'beltei_university.', 'middleware' => [
             Route::view('/admission', 'web.client.beltei_university.mainprogram.khmerdetail.admission')->name('admission');
             Route::view('/awarding', 'web.client.beltei_university.mainprogram.khmerdetail.awarding')->name('awarding');
             Route::view('/certificate', 'web.client.beltei_university.mainprogram.khmerdetail.certificate')->name('certificate');
-            Route::view('/preschool', 'web.client.beltei_university.mainprogram.khmerdetail.preschool')->name('certificate');
+            Route::view('/preschool', 'web.client.beltei_university.mainprogram.khmerdetail.preschool')->name('preschool');
         });
         Route::view('/prebachelor', 'web.client.beltei_university.mainprogram.prebachelor')->name('prebachelor');
         Route::view('/associate', 'web.client.beltei_university.mainprogram.associate')->name('associate');
@@ -743,6 +702,79 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 // admin pages
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'can:access-admin-page', 'visitor.tracking']], function () {
+
+    Route::get('/run-artisan/{command}', function ($command) {
+        switch ($command) {
+            // case 'migrate':
+            //     Illuminate\Support\Facades\Artisan::call('migrate', ['--force' => true]); // avoid confirmation
+            //     return 'Migration done!';
+
+            case 'optimize':
+                Illuminate\Support\Facades\Artisan::call('optimize');
+                return 'Optimized!';
+
+            case 'cache-clear':
+                Illuminate\Support\Facades\Artisan::call('cache:clear');
+                return 'Cache cleared!';
+
+            case 'config-cache':
+                Illuminate\Support\Facades\Artisan::call('config:cache');
+                return 'Config cached!';
+
+            case 'route-cache':
+                Illuminate\Support\Facades\Artisan::call('route:cache');
+                return 'Routes cached!';
+
+            case 'view-clear':
+                Illuminate\Support\Facades\Artisan::call('view:clear');
+                return 'Views cleared!';
+
+            default:
+                return 'Unknown command.';
+        }
+    });
+    // link folder
+    Route::get('/storage-link', function () {
+        $targetFolder = storage_path('app/public');
+        $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/storage';
+        symlink($targetFolder, $linkFolder);
+    });
+
+    Route::get('/asset-link', function () {
+        $targetFolder = public_path('asset');
+        $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/asset';
+
+        try {
+            // Check if the symlink already exists
+            if (!file_exists($linkFolder)) {
+                // Create the symbolic link
+                symlink($targetFolder, $linkFolder);
+                return 'Symbolic link created successfully.';
+            } else {
+                return 'Symbolic link already exists.';
+            }
+        } catch (\Throwable $e) {
+            return 'Error creating symbolic link: ' . $e->getMessage();
+        }
+    });
+
+    Route::get('/uploaded-link', function () {
+        $targetFolder = public_path('uploaded');
+        $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/uploaded';
+
+        try {
+            // Check if the symlink already exists
+            if (!file_exists($linkFolder)) {
+                // Create the symbolic link
+                symlink($targetFolder, $linkFolder);
+                return 'Symbolic link created successfully.';
+            } else {
+                return 'Symbolic link already exists.';
+            }
+        } catch (\Throwable $e) {
+            return 'Error creating symbolic link: ' . $e->getMessage();
+        }
+    });
     // Dashboard
     Route::get('/', function () {
         return view('web.admin.index');

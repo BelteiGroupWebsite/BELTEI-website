@@ -21,9 +21,9 @@ class VisitorTracking
     {
         $ip = $request->ip();
 
-        if($ip == '127.0.0.1') {
-            return $next($request);
-        }
+        // if($ip == '127.0.0.1') {
+        //     return $next($request);
+        // }
 
         if ($this->isIpBlocked($ip)) {
             throw new NotFoundHttpException('Access denied');
@@ -50,10 +50,11 @@ class VisitorTracking
 
     private function handleExistingVisitor(Visitor $visitor): void
     {
-        if ($visitor->country->name !== "KH") {
-            $this->blockIp($visitor->ip_address); // Block this IP
-            throw new NotFoundHttpException('Access denied');
-        }
+        // Block if not from Cambodia
+        // if ($visitor->country->name !== "KH") {
+        //     $this->blockIp($visitor->ip_address); // Block this IP
+        //     throw new NotFoundHttpException('Access denied');
+        // }
 
         $visitor->increment('visits');
     }
@@ -82,10 +83,10 @@ class VisitorTracking
         ]);
 
         // Block if not from Cambodia
-        if ($countryName !== 'KH') {
-            $this->blockIp($ip);
-            throw new NotFoundHttpException('Access denied');
-        }
+        // if ($countryName !== 'KH') {
+        //     $this->blockIp($ip);
+        //     throw new NotFoundHttpException('Access denied');
+        // }
 
         $country = Country::firstOrCreate(['name' => $countryName], ['region' => $region]);
 
