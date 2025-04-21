@@ -717,6 +717,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
                 Illuminate\Support\Facades\Artisan::call('cache:clear');
                 return 'Cache cleared!';
 
+            case 'config-clear':
+                Illuminate\Support\Facades\Artisan::call('config:clear');
+                return 'Config cleared!';
+
             case 'config-cache':
                 Illuminate\Support\Facades\Artisan::call('config:cache');
                 return 'Config cached!';
