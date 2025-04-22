@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('visitor_infos', function (Blueprint $table) {
             $table->id();
-            $table->string('ip_address');
-            $table->string('public_ip')->nullable();
+            // $table->string('ip_address');
+            // $table->string('public_ip')->nullable();
+            $table->integer('visitor_id');
             $table->string('user_agent')->nullable();
             $table->string('platform')->nullable();
             $table->string('browser')->nullable();

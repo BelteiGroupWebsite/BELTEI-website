@@ -127,7 +127,7 @@ return [
             'path' => storage_path('logs/laravel.log'),
         ],
         'visitor' => [
-            // 'driver' => 'single',
+            'driver' => 'single',
             'path' => storage_path('logs/visitor.log'),
         ],
     ],

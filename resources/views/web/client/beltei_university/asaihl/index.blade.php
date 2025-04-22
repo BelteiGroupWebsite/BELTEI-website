@@ -272,6 +272,10 @@
                 <div class="text-center my-3">
                     <img class="w-75" src="{{ asset('asset/img/university/app/photo_2024-07-05_09-06-55.jpg') }}"
                         alt="">
+                    <img class="w-75" src="{{ asset('asset/img/university/app/qr.jpg') }}"
+                        alt="">
+                        <a href="https://onelink.to/646cp2" class="btn btn-lg mt-2 btn-success">Download BELTEI IU App</a>
+
                 </div>
                 <hr class="" style="border: 3px solid #003572; ">
                 <div class="text-center mt-4">
@@ -469,46 +473,44 @@
                 <p><strong>&nbsp;</strong></p>
                 <p><strong>Tentative Program</strong></p>
                 <p><strong>2025 ASAIHL Conference </strong>(6-7-8 of July, 2025)</p>
-                <p>Conference Day 1 │ Venue&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip; │ Sunday, July 6, 2025
+                <p>Conference Day 1 │ Venue BELTEI Group Headquarters │ Sunday, July 6, 2025
                 </p>
-                <p><strong>Evening Session</strong></p>
-                <p>18.00 &ndash; 19.30&nbsp;&nbsp;&nbsp; ASAIHL Board Meeting</p>
-                <p>19.30 &ndash; 20.30&nbsp;&nbsp;&nbsp; Board Members&rsquo; Networking Dinner</p>
+                <p><strong><mark style="background-color: lightgreen"> Evening Session </mark></strong></p>
+                <p>18:00 &ndash; 19:30&nbsp;&nbsp;&nbsp; ASAIHL Board Meeting</p>
+                <p>19:30 &ndash; 20:30&nbsp;&nbsp;&nbsp; Board Members&rsquo; Networking Dinner</p>
                 <p>Conference Day 2 │ BELTEI IU, Campus 2 │ Monday, July 7, 2025</p>
-                <p><strong>Morning Session</strong></p>
-                <p>08.00 &ndash; 09.00&nbsp;&nbsp;&nbsp;&nbsp; Registration</p>
-                <p>09.00 &ndash; 10.30&nbsp;&nbsp;&nbsp; Opening Ceremony</p>
-                <p>10.30 &ndash; 10.45&nbsp;&nbsp;&nbsp; Coffee Break</p>
-                <p>10.45 &ndash; 11.45&nbsp;&nbsp;&nbsp; Keynote Speech:
-                    &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.
+                <p><strong><mark style="background-color: lightgreen"> Morning Session </mark></strong></p>
+                <p>08:00 &ndash; 09:00&nbsp;&nbsp;&nbsp;&nbsp; Registration</p>
+                <p>09:00 &ndash; 10:30&nbsp;&nbsp;&nbsp; Opening Ceremony by Dr. Hang Chuon Naron, Dputy Prime Minister and Minister of Education Youth and Sport.</p>
+                <p>10:30 &ndash; 10:45&nbsp;&nbsp;&nbsp; Coffee Break</p>
+                <p>10:45 &ndash; 11:45&nbsp;&nbsp;&nbsp; Keynote Speech: (1)
                 </p>
-                <p>11.45 &ndash; 12.00&nbsp;&nbsp;&nbsp; Country Report I</p>
-                <p>12.00 &ndash; 14.00&nbsp;&nbsp;&nbsp; Lunch and Break</p>
-                <p><strong>Afternoon Session</strong></p>
-                <p>14.00 &ndash; 15.00&nbsp;&nbsp;&nbsp; Parallel Session I</p>
-                <p>15.00 &ndash; 15.15&nbsp;&nbsp;&nbsp; Country Report II</p>
-                <p>15.15 &ndash; 15.30&nbsp;&nbsp; Coffee Break</p>
-                <p>15.30 &ndash; 17.00&nbsp;&nbsp;&nbsp; Panel Discussion 1</p>
-                <p>17.00 &ndash; 18.30&nbsp;&nbsp;&nbsp; Welcome Dinner</p>
+                <p>11:45 &ndash; 12:00&nbsp;&nbsp;&nbsp; Country Report I</p>
+                <p>12:00 &ndash; 14:00&nbsp;&nbsp;&nbsp; Lunch and Break</p>
+                <p><strong><mark style="background-color: lightgreen"> Afternoon Session </mark></strong></p>
+                <p>14:00 &ndash; 15:00&nbsp;&nbsp;&nbsp; Parallel Session I</p>
+                <p>15:00 &ndash; 15:15&nbsp;&nbsp;&nbsp; Country Report II</p>
+                <p>15:15 &ndash; 15:30&nbsp;&nbsp;&nbsp; Country Report III</p>
+                <p>15:30 &ndash; 15:45&nbsp;&nbsp; Coffee Break</p>
+                <p>15:45 &ndash; 17:00&nbsp;&nbsp;&nbsp; Panel Discussion 1</p>
+                <p>17:00 &ndash; 18:30&nbsp;&nbsp;&nbsp; Welcome Dinner</p>
                 <p>Conference Day 3 │ BELTEI IU, Campus 2 │ Tuesday, July 8, 2025</p>
-                <p><strong>Morning Session</strong></p>
-                <p>08.00 &ndash; 09.00&nbsp;&nbsp;&nbsp;&nbsp; Registration</p>
-                <p>09.00 &ndash; 10.00&nbsp;&nbsp;&nbsp; Keynote Speech:
-                    &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.
+                <p><strong><mark style="background-color: lightgreen"> Morning Session </mark></strong></p>
+                <p>08:00 &ndash; 09:00&nbsp;&nbsp;&nbsp;&nbsp; Registration</p>
+                <p>09:00 &ndash; 10:00&nbsp;&nbsp;&nbsp; Keynote Speech: (2)</p>
+                <p>10:00 &ndash; 10:15&nbsp;&nbsp;&nbsp; Country Report IV</p>
+                <p>10:15 &ndash; 10:35&nbsp;&nbsp;&nbsp; Coffee Break</p>
+                <p>10:35 &ndash; 10:45&nbsp;&nbsp;&nbsp; Country Report V
                 </p>
-                <p>10.00 &ndash; 10.15&nbsp;&nbsp;&nbsp; Coffee Break</p>
-                <p>10.15 &ndash; 11.15&nbsp;&nbsp;&nbsp; Country Report
-                    III,&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.
+                <p>10:45 &ndash; 11:35&nbsp;&nbsp;&nbsp; Panel Discussion 2</p>
+                <p>11:35 &ndash; 14:00&nbsp;&nbsp;&nbsp; Lunch and Break</p>
+                <p><strong><mark style="background-color: lightgreen"> Afternoon Session </mark></strong></p>
+                <p>14:00 &ndash; 14:15&nbsp;&nbsp;&nbsp; Next Conference Presentation</p>
+                <p>14:15 &ndash; 15:15&nbsp;&nbsp;&nbsp;
+                    Country Report VI-VII
                 </p>
-                <p>11.15 &ndash; 12.15&nbsp;&nbsp;&nbsp; Panel Discussion 2</p>
-                <p>12.15 &ndash; 14.00&nbsp;&nbsp;&nbsp; Lunch and Break</p>
-                <p><strong>Afternoon Session</strong></p>
-                <p>14.00 &ndash; 14.15&nbsp;&nbsp;&nbsp; Next Conference Presentation</p>
-                <p>14.15 &ndash; 15.15&nbsp;&nbsp;&nbsp;
-                    &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..
-                </p>
-                <p>15.15 &ndash; 15.30&nbsp;&nbsp; Coffee Break</p>
-                <p>15.30 &ndash; 17.00&nbsp;&nbsp;&nbsp; Closing Ceremony</p>
+                <p>15:15 &ndash; 15:30&nbsp;&nbsp; Coffee Break</p>
+                <p>15:30 &ndash; 17:00&nbsp;&nbsp;&nbsp; Closing Ceremony H.E. Dr. LY CHHENG The Member of the National Assembly for Phnom Penh Capital City Cambodia, Founder & Director-General of BELTEI Group, Chairman of The Board of Directors of BELTEI International University</p>
                 <p>Conference Day 4 │ Optional Tours │ Wednesday, July 9, 2025</p>
             </div>
 

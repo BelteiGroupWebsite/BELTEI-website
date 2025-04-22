@@ -11,7 +11,7 @@ use App\Models\Visitor;
 use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
-class VisitorTracking
+class VisitorTrackingOld
 {
     /**
      * Handle an incoming request.
