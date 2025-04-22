@@ -16,21 +16,20 @@ use Jenssegers\Agent\Agent;
 
 class VisitorTracking
 {
-    protected int $visitThreshold = 100; // Customize: how many hits/hour before block
-    protected int $blockDuration = 3600; // in seconds (1 hour)
-
     public function handle(Request $request, Closure $next): Response
     {
         $ip = $request->ip();
+
+        // Skip localhost during dev (optional)
+        // if ($ip === '127.0.0.1') return $next($request);
 
         if ($this->isIpBlocked($ip)) {
             throw new NotFoundHttpException('Access denied');
         }
 
         try {
-            $this->checkVisitRate($ip); // check if needs to be blocked
-
             $visitor = Visitor::firstWhere('ip_address', $ip);
+
             $agent = new Agent();
             $agent->setUserAgent($request->userAgent());
 
@@ -39,26 +38,12 @@ class VisitorTracking
             } else {
                 $this->createVisitor($ip, $agent, $request);
             }
-
-            $this->cleanExpiredBlocks(); // cleanup .htaccess
         } catch (\Throwable $e) {
             $this->logError($ip, $e);
             if ($e instanceof NotFoundHttpException) throw $e;
         }
 
         return $next($request);
-    }
-
-    private function checkVisitRate(string $ip): void
-    {
-        $key = "visit_count:$ip";
-        $count = Cache::increment($key);
-        Cache::put($key, $count, now()->addHour());
-
-        if ($count > $this->visitThreshold) {
-            $this->blockIp($ip);
-            throw new NotFoundHttpException('Access denied');
-        }
     }
 
     private function updateVisitor(Visitor $visitor, Agent $agent, Request $request): void
@@ -88,6 +73,12 @@ class VisitorTracking
             'country' => $countryCode,
             'region' => $region,
         ]);
+
+        // Optional: restrict access to Cambodia only
+        // if ($countryCode !== 'KH') {
+        //     $this->blockIp($ip);
+        //     throw new NotFoundHttpException('Access denied');
+        // }
 
         $country = Country::firstOrCreate(
             ['name' => $countryCode],
@@ -119,54 +110,28 @@ class VisitorTracking
 
     private function blockIp(string $ip): void
     {
-        Cache::put("blocked_ip:$ip", now()->addSeconds($this->blockDuration));
-        $this->updateHtaccess($ip, true);
+        Cache::put("blocked_ip:$ip", true, now()->addHours(1));
+        $this->updateHtaccess($ip);
         Log::channel('visitor')->warning("IP blocked", ['ip' => $ip]);
+    }
+
+    private function updateHtaccess(string $ip): void
+    {
+        $htaccessPath = base_path('.htaccess');
+        $line = "Deny from $ip";
+
+        if (!file_exists($htaccessPath)) {
+            file_put_contents($htaccessPath, "$line\n");
+        } else {
+            $content = file_get_contents($htaccessPath);
+            if (!str_contains($content, $line)) {
+                file_put_contents($htaccessPath, "\n$line", FILE_APPEND);
+            }
+        }
     }
 
     private function isIpBlocked(string $ip): bool
     {
         return Cache::has("blocked_ip:$ip");
-    }
-
-    private function updateHtaccess(string $ip, bool $block = true): void
-    {
-        $htaccessPath = base_path('.htaccess');
-        $denyLine = "Deny from $ip";
-
-        if (!file_exists($htaccessPath)) {
-            file_put_contents($htaccessPath, "Order Allow,Deny\nAllow from all\n");
-        }
-
-        $content = file_get_contents($htaccessPath);
-
-        if ($block && !str_contains($content, $denyLine)) {
-            file_put_contents($htaccessPath, "$denyLine\n", FILE_APPEND);
-        } elseif (!$block && str_contains($content, $denyLine)) {
-            $content = str_replace("$denyLine\n", '', $content);
-            file_put_contents($htaccessPath, $content);
-        }
-    }
-
-    private function cleanExpiredBlocks(): void
-    {
-        $htaccessPath = base_path('.htaccess');
-        if (!file_exists($htaccessPath)) return;
-
-        $lines = explode("\n", file_get_contents($htaccessPath));
-        $newLines = [];
-
-        foreach ($lines as $line) {
-            if (str_starts_with($line, "Deny from")) {
-                $ip = trim(str_replace("Deny from", '', $line));
-                if (Cache::has("blocked_ip:$ip")) {
-                    $newLines[] = $line;
-                }
-            } else {
-                $newLines[] = $line;
-            }
-        }
-
-        file_put_contents($htaccessPath, implode("\n", $newLines));
     }
 }
