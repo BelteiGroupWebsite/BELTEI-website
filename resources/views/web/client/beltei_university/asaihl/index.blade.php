@@ -510,7 +510,7 @@
                     Country Report VI-VII
                 </p>
                 <p>15:15 &ndash; 15:30&nbsp;&nbsp; Coffee Break</p>
-                <p>15:30 &ndash; 17:00&nbsp;&nbsp;&nbsp; Closing Ceremony H.E. Dr. LY CHHENG The Member of the National Assembly for Phnom Penh Capital City Cambodia, Founder & Director-General of BELTEI Group, Chairman of The Board of Directors of BELTEI International University</p>
+                <p>15:30 &ndash; 17:00&nbsp;&nbsp;&nbsp; Closing Ceremony by H.E. Dr. LY CHHENG The Member of the National Assembly for Phnom Penh Capital City Cambodia, Founder & Director-General of BELTEI Group, Chairman of The Board of Directors of BELTEI International University</p>
                 <p>Conference Day 4 │ Optional Tours │ Wednesday, July 9, 2025</p>
             </div>
 
