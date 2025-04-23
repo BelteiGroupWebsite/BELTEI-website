@@ -117,12 +117,20 @@ class VisitorTracking
         ]);
     }
 
-    private function blockIp(string $ip): void
+    public function blockIp(string $ip): void
     {
+        // dd('Blocking IP:', $ip);
         Cache::put("blocked_ip:$ip", now()->addSeconds($this->blockDuration));
         $this->updateHtaccess($ip, true);
         Log::channel('visitor')->warning("IP blocked", ['ip' => $ip]);
     }
+
+    public function unblockIp(string $ip): void
+    {
+        $this->updateHtaccess($ip, false);
+        Log::channel('visitor')->info("IP unblocked", ['ip' => $ip]);
+    }
+
 
     private function isIpBlocked(string $ip): bool
     {
@@ -131,8 +139,10 @@ class VisitorTracking
 
     private function updateHtaccess(string $ip, bool $block = true): void
     {
-        $htaccessPath = base_path('.htaccess');
+        $htaccessPath = base_path('../public_html/.htaccess');
         $denyLine = "Deny from $ip";
+
+        // dd($htaccessPath);
 
         if (!file_exists($htaccessPath)) {
             file_put_contents($htaccessPath, "Order Allow,Deny\nAllow from all\n");
@@ -150,7 +160,7 @@ class VisitorTracking
 
     private function cleanExpiredBlocks(): void
     {
-        $htaccessPath = base_path('.htaccess');
+        $htaccessPath = base_path('../public_html/.htaccess');
         if (!file_exists($htaccessPath)) return;
 
         $lines = explode("\n", file_get_contents($htaccessPath));

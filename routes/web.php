@@ -703,6 +703,26 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 // admin pages
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'can:access-admin-page', 'visitor.tracking']], function () {
 
+    // Test: Block current IP
+    Route::get('/test-block', function () {
+        $ip = request()->ip(); // or specify a test IP like '123.123.123.123'
+        app(App\Http\Middleware\VisitorTracking::class)->blockIp($ip);
+        return "Blocked IP: $ip";
+    });
+
+    // Test: Unblock current IP
+    Route::get('/test-unblock', function () {
+        $ip = request()->ip();
+        app(App\Http\Middleware\VisitorTracking::class)->unblockIp($ip);
+        return "Unblocked IP: $ip";
+    });
+
+    // Optional: Manually clean expired blocks
+    // Route::get('/test-clean-blocks', function () {
+    //     app(App\Http\Middleware\VisitorTracking::class)->cleanExpiredBlocks();
+    //     return "Cleaned expired blocks.";
+    // });
+
     Route::get('/run-artisan/{command}', function ($command) {
         switch ($command) {
             // case 'migrate':
