@@ -203,6 +203,11 @@
                                             <td class="Times-New-Roman">{{ $studentInfoShow->student_id }}</td>
                                         </tr>
                                         <tr>
+                                            <td class="Times-New-Roman">Profile No</td>
+                                            <td class="Times-New-Roman">:</td>
+                                            <td class="Times-New-Roman">{{ $gradeId.'/'.$batchId.'/'.$imageCard }}</td>
+                                        </tr>
+                                        <tr>
                                             <td class="Times-New-Roman">Gender</td>
                                             <td class="Times-New-Roman">:</td>
                                             <td class="Times-New-Roman">{{ $studentInfoShow->gender }}</td>
