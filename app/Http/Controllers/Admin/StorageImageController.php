@@ -11,8 +11,9 @@ class StorageImageController extends Controller
     //
     public function show($filename)
     {
-        $path = 'private/upload/certificate/' . $filename;
+        $path = 'private/upload/certificate/' . base64_decode($filename);
 
+        
         if (!Storage::exists($path)) {
             abort(404);
         }
