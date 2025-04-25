@@ -124,7 +124,7 @@ class StbCertificateController extends Controller
     public function show($id)
     {
         $academicBatch = StbAcademicBatch::where('id', $id)->first();
-        $studentInfo = $academicBatch->studentInfo()->paginate(25); // Change 10 to the number of records per page you want
+        $studentInfo = $academicBatch->studentInfo()->paginate(15); // Change 10 to the number of records per page you want
     
         return view('web.admin.school.new-certificate.show', compact('academicBatch', 'studentInfo'));
     }
