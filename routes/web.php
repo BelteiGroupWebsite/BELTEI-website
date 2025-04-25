@@ -701,7 +701,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 // admin pages
-Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'can:access-admin-page', 'visitor.tracking']], function () {
+Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'can:access-admin-page', 'throttle:30,1','visitor.tracking']], function () {
 
     // Test: Block current IP
     Route::get('/test-block', function () {
@@ -870,6 +870,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
     //     }
     //     return back();
     // })->name('set-new-category');
+
+
+    Route::get('/document/{filename}', [App\Http\Controllers\Admin\StorageImageController::class, 'show'])->name('image.show');    
 });
 
 

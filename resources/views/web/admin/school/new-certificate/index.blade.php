@@ -82,11 +82,11 @@
                         </td>
                         <td class="">
                             <a href="{{ route('admin.school.certificate-new.edit', $academicBatch->id) }}" class="btn btn-warning bi bi-pencil-square"></a>
-                            <form id="delete-form-{{ $academicBatch->id }}" action="{{ route('admin.school.certificate-new.destroy', $academicBatch->id) }}" method="POST" style="display: inline;">
+                            {{-- <form id="delete-form-{{ $academicBatch->id }}" action="{{ route('admin.school.certificate-new.destroy', $academicBatch->id) }}" method="POST" style="display: inline;">
                                 @csrf
                                 @method('DELETE')
                                 <button type="button" class="btn btn-outline-danger bi bi-trash" onclick="confirmDelete({{ $academicBatch->id }})"></button>
-                            </form>                         
+                            </form>                          --}}
                         </td>
                     </tr>
                 @endforeach
