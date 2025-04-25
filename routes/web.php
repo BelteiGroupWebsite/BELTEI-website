@@ -872,8 +872,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
     // })->name('set-new-category');
 
 
-    Route::get('/document/{filename}', [App\Http\Controllers\Admin\StorageImageController::class, 'show'])->name('image.show');    
 });
+
+Route::get('/document/{filename}', [App\Http\Controllers\Admin\StorageImageController::class, 'show'])->name('image.show');    
 
 
 Route::get('/document/view/{filename}', [ShowCertificateController::class, 'view'])->name('certificate.view');

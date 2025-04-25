@@ -52,7 +52,7 @@
                     <td>
                         <img style="max-width: 50px" loading="lazy"
 
-                            src="{{ route('admin.image.show' , ['filename'=> $profileImage]) }}"
+                            src="{{ route('image.show' , ['filename'=> $profileImage]) }}"
                             alt="Profile image">
                     </td>
                     {{-- <td>
