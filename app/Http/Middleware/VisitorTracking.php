@@ -142,7 +142,7 @@ class VisitorTracking
         Cache::put("blocked_ip:$ip", now()->addSeconds($this->blockDuration));
 
         // Add to .htaccess
-        $this->updateHtaccess($ip, true);
+        // $this->updateHtaccess($ip, true);
 
         Log::channel('visitor')->warning("IP blocked", ['ip' => $ip]);
     }
@@ -150,7 +150,7 @@ class VisitorTracking
     public function unblockIp(string $ip): void
     {
         // Remove from .htaccess
-        $this->updateHtaccess($ip, false);
+        // $this->updateHtaccess($ip, false);
 
         Log::channel('visitor')->info("IP unblocked", ['ip' => $ip]);
     }
