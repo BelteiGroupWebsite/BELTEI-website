@@ -30,16 +30,16 @@
                 <th>Gender</th>
                 <th>DOB</th>
                 <th>Profile</th>
-                <th>Certificate</th>
-                <th>Moey</th>
+                {{-- <th>Certificate</th>
+                <th>Moey</th> --}}
             </thead>
             @foreach ($studentInfo as $student)
 
                 @php
                     
                     $profileImage = base64_encode('school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/profile/' . $student->profile_no . '.jpg');
-                    $certiImage = base64_encode('school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/beltei/' . $student->beltei_no . '.jpg');
-                    $moeyImage = base64_encode('school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/moey/' . $student->moey_no . '.jpg');
+                    // $certiImage = base64_encode('school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/beltei/' . $student->beltei_no . '.jpg');
+                    // $moeyImage = base64_encode('school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/moey/' . $student->moey_no . '.jpg');
                     
                 @endphp
 
@@ -55,7 +55,7 @@
                             src="{{ route('admin.image.show' , ['filename'=> $profileImage]) }}"
                             alt="Profile image">
                     </td>
-                    <td>
+                    {{-- <td>
                         <img style="max-width: 50px" loading="lazy"
 
                             src="{{ route('admin.image.show' , ['filename'=> $certiImage]) }}"
@@ -66,7 +66,7 @@
 
                             src="{{ route('admin.image.show' , ['filename'=> $moeyImage]) }}"
                             alt="Certificate">
-                    </td>
+                    </td> --}}
                 </tr>
             @endforeach
 

@@ -701,7 +701,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 // admin pages
-Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'can:access-admin-page', 'throttle:30,1','visitor.tracking']], function () {
+Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'can:access-admin-page', 'visitor.tracking']], function () {
 
     // Test: Block current IP
     Route::get('/test-block', function () {
