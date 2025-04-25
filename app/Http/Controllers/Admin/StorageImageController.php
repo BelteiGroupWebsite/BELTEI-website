@@ -17,10 +17,10 @@ class StorageImageController extends Controller
             abort(404);
         }
 
-        $file = Storage::get($path);
-        $type = Storage::mimeType($path);
+        // $file = Storage::get($path);
+        // $type = Storage::mimeType($path);
 
-        return response($file, 200)->header('Content-Type', $type);
-        // return response()->file(storage_path("app/{$path}"));
+        // return response($file, 200)->header('Content-Type', $type);
+        return response()->file(storage_path("app/{$path}"));
     }
 }

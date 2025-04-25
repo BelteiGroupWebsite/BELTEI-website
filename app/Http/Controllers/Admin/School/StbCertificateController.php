@@ -24,7 +24,9 @@ class StbCertificateController extends Controller
     public function index()
     {
         //
-        $programs = StbProgram::get();
+        // $programs = StbProgram::with('grade.academicBatch.grade.program' , 'grade.academicBatch.studentInfo')->get(); // in these case the i dont want to select all studentInfo, i just want the count and min and max(student_id) of it
+        $programs = StbProgram::with('grade.academicBatch.grade.program')->get();
+
         return view('web.admin.school.new-certificate.index' , compact('programs'));
     }
 

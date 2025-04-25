@@ -38,7 +38,7 @@
 
                 @php
                     
-                    $profileImage = 'school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/profile/' . $student->student_id . '.jpg';
+                    $profileImage = 'school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/profile/' . $student->profile_no . '.jpg';
                     
                 @endphp
 
