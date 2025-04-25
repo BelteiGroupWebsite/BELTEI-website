@@ -29,7 +29,6 @@
                 <th>Latin Name</th>
                 <th>Gender</th>
                 <th>DOB</th>
-                <th>Nationality</th>
                 <th>Profile</th>
                 <th>Certificate</th>
                 <th>Moey</th>
@@ -39,6 +38,8 @@
                 @php
                     
                     $profileImage = base64_encode('school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/profile/' . $student->profile_no . '.jpg');
+                    $certiImage = base64_encode('school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/beltei/' . $student->beltei_no . '.jpg');
+                    $moeyImage = base64_encode('school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/moey/' . $student->moey_no . '.jpg');
                     
                 @endphp
 
@@ -48,28 +49,23 @@
                     <td>{{ $student->latin_name }}</td>
                     <td>{{ $student->gender }}</td>
                     <td>{{ $student->dob }}</td>
-                    <td>{{ $student->nationality }}</td>
                     <td>
                         <img style="max-width: 50px" loading="lazy"
 
                             src="{{ route('admin.image.show' , ['filename'=> $profileImage]) }}"
-                            alt="{{ $profileImage }}">
+                            alt="Profile image">
                     </td>
                     <td>
-                        <a
-                            href="{{ asset('storage/upload/certificate/school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/beltei/' . $student->student_id . '.jpg') }}">
-                            <img style="max-width: 50px" loading="lazy"
-                                src="{{ asset('storage/upload/certificate/school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/beltei/' . $student->student_id . '.jpg') }}"
-                                alt="Beltei certificate">
-                        </a>
+                        <img style="max-width: 50px" loading="lazy"
+
+                            src="{{ route('admin.image.show' , ['filename'=> $certiImage]) }}"
+                            alt="Certificate">
                     </td>
                     <td>
-                        <a
-                            href="{{ asset('storage/upload/certificate/school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/moey/' . $student->moey . '.jpg') }}">
-                            <img style="max-width: 50px" loading="lazy"
-                                src="{{ asset('storage/upload/certificate/school/' . $academicBatch->grade->program->id . '/' . $academicBatch->grade->id . '/' . $academicBatch->id . '/beltei/' . $student->student_id . '.jpg') }}"
-                                alt="Moey certificate">
-                        </a>
+                        <img style="max-width: 50px" loading="lazy"
+
+                            src="{{ route('admin.image.show' , ['filename'=> $moeyImage]) }}"
+                            alt="Certificate">
                     </td>
                 </tr>
             @endforeach
