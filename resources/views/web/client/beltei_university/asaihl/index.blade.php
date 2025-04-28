@@ -272,9 +272,8 @@
                 <div class="text-center my-3">
                     <img class="w-75" src="{{ asset('asset/img/university/app/photo_2024-07-05_09-06-55.jpg') }}"
                         alt="">
-                    <img class="w-75" src="{{ asset('asset/img/university/app/qr.jpg') }}"
-                        alt="">
-                        <a href="https://onelink.to/646cp2" class="btn btn-lg mt-2 btn-success">Download BELTEI IU App</a>
+                    <img class="w-75" src="{{ asset('asset/img/university/app/qr.jpg') }}" alt="">
+                    <a href="https://onelink.to/646cp2" class="btn btn-lg mt-2 btn-success">Download BELTEI IU App</a>
 
                 </div>
                 <hr class="" style="border: 3px solid #003572; ">
@@ -360,7 +359,7 @@
                     </tr>
                     <tr>
                         <td>-Abstract Submission: January 1, 2025</td>
-                        <td>End: April 30, 2025</td>
+                        <td>End: June 1, 2025</td>
                     </tr>
                 </table>
                 <p>-Full Paper Submission: <span class="text-danger">(After the acceptance notifications are sent
@@ -386,6 +385,176 @@
                 <h6><strong>Abstract</strong></h6>
                 <p>The abstract should not exceed 250 words in Times New Roman, size 12.</p>
                 <p>Keywords: 3 &ndash; 5 terms</p>
+
+                <h6><strong>Full Paper Format</strong></h6>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;text-indent:5.1pt;line-height:115%;'>
+                    <strong><span
+                            style='font-size:19px;line-height:115%;font-family:"Times New Roman",serif;'>Topic</span></strong>
+                </p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;text-indent:5.1pt;line-height:115%;'>
+                    <strong><span
+                            style='font-size:19px;line-height:115%;font-family:"Times New Roman",serif;'>&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</span></strong>
+                </p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;text-indent:5.1pt;line-height:115%;'>
+                    <strong><span style='font-size:19px;line-height:115%;font-family:"Times New Roman",serif;'>(Times New
+                            Roman, Bold, 14, Center)</span></strong></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;text-indent:5.1pt;line-height:115%;'>
+                    <strong><span style='font-family:"Times New Roman",serif;'>Author&rsquo;s name
+                            &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</span></strong></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;text-indent:5.1pt;line-height:115%;'>
+                    <strong><span style='font-family:"Times New Roman",serif;'>(Times New Roman, Bold, 11,
+                            Center)</span></strong></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;text-indent:5.1pt;line-height:115%;'>
+                    <strong><span style='font-family:"Times New Roman",serif;'>Email
+                            &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</span></strong>
+                </p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;text-indent:5.1pt;line-height:115%;'>
+                    <strong><span style='font-family:"Times New Roman",serif;'>University
+                            &hellip;&hellip;&hellip;&hellip;.</span></strong></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;text-indent:5.1pt;line-height:115%;'>
+                    <span style='font-family:"Times New Roman",serif;'>* Corresponding Author:&nbsp;</span><a
+                        href="mailto:megadewiambarwati@gmail.com"><span
+                            style='font-family:"Times New Roman",serif;color:blue;'>..................................@gmail.com</span></a>
+                </p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;text-indent:5.1pt;line-height:115%;'>
+                    <span style='font-family:"Times New Roman",serif;'>[Times New Roman, 11, center, if there are two or
+                        more authors, insert the main author/ <em>Corresponding Author</em>]</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-indent:5.1pt;line-height:115%;'>
+                    &nbsp;</p>
+                <p
+                    style='margin-top:6.0pt;margin-right:0cm;margin-bottom:8.0pt;margin-left:-5.1pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-indent:5.1pt;line-height:115%;border:none;'>
+                    <strong><sub><span
+                                style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;color:black;'>ABSTRACT</span></sub></strong>
+                </p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;'>
+                    <em><span style='font-family:"Times New Roman",serif;color:#222222;'>Write-off is a way to improve
+                            credit system of bank by moving a problematic loan that difficult to handle from bank&apos;s
+                            balance sheet become extractable therefore it will not burden the bank&apos;s performance
+                            later&hellip;. (150-250 words, Times New Roman, Italic, 11, Single spaces. Should concisely
+                            describe the background of the paper, research problem, aim, research method, and
+                            result)</span></em></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <strong><span
+                            style='font-family:"Times New Roman",serif;'>Keywords:<em>&nbsp;</em></span></strong><em><span
+                            style='font-family:"Times New Roman",serif;'>write-off, improve credit, problematic credit<span
+                                style="color:#222222;">&nbsp;&hellip;&nbsp;</span>(3-5 words, Times New Roman 11, italic)
+                        </span></em></p>
+                <h3
+                    style='margin-top:2.0pt;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:16px;font-family:"Calibri Light",sans-serif;color:#1F3763;font-weight:normal;text-align:justify;line-height:115%;'>
+                    <strong><span style='font-family:"Times New Roman",serif;'>INTRODUCTION&nbsp;</span></strong></h3>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:1.0cm;line-height:115%;'>
+                    <span style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>[Times New Roman 12,
+                        justify, 1.15 spaces, first paragraph indented a centimeter. Introduction contains a description of
+                        the research background, problem statement and research objectives]</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:1.0cm;line-height:115%;'>
+                    <span style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>Write-off is a way
+                        to improve credit system of bank by moving non-performing loans (problematic) that difficult to
+                        handle from bank&apos;s balance sheet to being ultracapable therefore it will not burden the
+                        bank&apos;s performance later, however, it does not remove the bank&apos;s right to collect the loan
+                        as an effort to pay problematic loans to the debtor.</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:1.0cm;line-height:115%;'>
+                    <span style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>The write-off
+                        mechanism is basically a last resort that usually chosen by banking institutions if several other
+                        credit rescue efforts such as intensive billing, reconditioning, rescheduling, restructuring and
+                        selling collateral do not provide maximum results, or the debtor runs away, disappears, and cannot
+                        be contacted. This research has a goal in order to improve the financial performance of banks with a
+                        write off system. The specific objective is to provide legal protection for banks that carry out a
+                        write-off system and to rescue non-performing loans (bad credit) with a write-off system.</span></p>
+                <h4
+                    style='margin-top:2.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;font-size:15px;font-family:"Calibri Light",sans-serif;color:#2F5496;font-weight:normal;font-style:italic;line-height:115%;'>
+                    <strong><span style='font-family:"Times New Roman",serif;'>LITERATURE REVIEW&nbsp;</span></strong></h4>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:1.0cm;line-height:115%;'>
+                    <span style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>[Times New Roman 12,
+                        justify, 1.15 spaced, contains a paragraph and begins with 1 cm indented line. Literature Review are
+                        description of the theory, explanation based on expert, and provide previous relevant studies that
+                        are relevant to your paper]</span></p>
+                <h4
+                    style='margin-top:2.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;font-size:15px;font-family:"Calibri Light",sans-serif;color:#2F5496;font-weight:normal;font-style:italic;line-height:115%;'>
+                    <strong><span style='font-family:"Times New Roman",serif;'>RESEARCH METHODOLOGY</span></strong></h4>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:1.0cm;line-height:115%;'>
+                    <span style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>[Times New Roman 12,
+                        justify, 1.15 spaced, contains a paragraph and begins with 1 cm indented line. Methodology contains
+                        a description of the approach method, research specifications, types and techniques of data
+                        collection and data analysis methods.]</span></p>
+                <h4
+                    style='margin-top:2.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;font-size:15px;font-family:"Calibri Light",sans-serif;color:#2F5496;font-weight:normal;font-style:italic;line-height:115%;'>
+                    <strong><span style='font-family:"Times New Roman",serif;'>RESULT AND DISCUSSION</span></strong></h4>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:1.0cm;line-height:115%;'>
+                    <span style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>[Times New Roman 12,
+                        justify, 1.15 spaces, each paragraph begins with indented a centimeter on first line. The results of
+                        the research and discussion are explained in a scientific, analytical and critical descriptive. If
+                        there is any sub-chapter, it should be written in Times New Roman, 12, bold]</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:1.0cm;line-height:115%;'>
+                    <span style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>[Any table and
+                        figures should be followed by subtitle (ex: Table 1. Table title) and source]</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:115%;'>
+                    <strong><span style='font-family:"Times New Roman",serif;'>Table 1.</span></strong><span
+                        style='font-family:"Times New Roman",serif;'>&nbsp;Result Value Index Eckel [</span><span
+                        style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>Times New Roman 12,
+                        line left, 1.15 spaces]</span></p>
+
+                <img class="w-5" src="{{ asset('asset/img/university/asaihl/papersubmition.jpg') }}" alt="">
+
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:115%;'>
+                    <span style='font-family:"Times New Roman",serif;'>Source: Secondary data, 2018</span></p>
+                <img class="w-5" src="{{ asset('asset/img/university/asaihl/papersubmition2.jpg') }}" alt="">
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:115%;'>
+                    <strong><span style='font-family:"Times New Roman",serif;'>Figures 1.</span></strong><span
+                        style='font-family:"Times New Roman",serif;'>&nbsp;Mind Mapping [</span><span
+                        style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>Times New Roman 12,
+                        line left, 1.15 spaces]</span></p>
+                <h3
+                    style='margin-top:2.0pt;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:16px;font-family:"Calibri Light",sans-serif;color:#1F3763;font-weight:normal;text-align:justify;line-height:115%;'>
+                    <span style='font-family:"Times New Roman",serif;'><strong>CONCLUSION and suggestion</strong></span>
+                </h3>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:1.0cm;line-height:115%;'>
+                    <span style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>[Times New Roman 12,
+                        justify, 1.15 space, each paragraph begins with indented a centimeter on first line. Contains a
+                        brief summary and suggestion from the research conclusion]</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:115%;'>
+                    <strong><span
+                            style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;color:black;'>REFERENCES</span></strong>
+                </p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:115%;'>
+                    <span style='font-size:16px;line-height:115%;font-family:"Times New Roman",serif;'>[The composition of
+                        references should contain (80%) primary sources from national journal, international journal,
+                        thesis, dissertation, conference proceedings national and international. Other sources (20%) can be
+                        books or other reference sources.</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Each article must
+                        contain at least 10 (ten) references and <strong>only references used as citations</strong> may be
+                        listed in the Bibliography. Bibliography sources used in research must be at least the last 10
+                        years. Format writing references using <strong>APA 7th edition</strong>]</span></p>
+
+                <br>
+
+
                 <h6><strong>Slide Presentation Format</strong></h6>
                 <h6><strong>Introduction</strong></h6>
                 <p>Main text in Times New Roman, size 12.</p>
@@ -471,56 +640,374 @@
 
 
                 <p><strong>&nbsp;</strong></p>
-                <p><strong>Tentative Program</strong></p>
-                <p><strong>2025 ASAIHL Conference </strong>(6-7-8 of July, 2025)</p>
-                <p>Conference Day 1 │ Venue BELTEI Group Headquarters │ Sunday, July 6, 2025
-                </p>
-                <p><strong><mark style="background-color: lightgreen"> Evening Session </mark></strong></p>
-                <p>18:00 &ndash; 19:30&nbsp;&nbsp;&nbsp; ASAIHL Board Meeting</p>
-                <p>19:30 &ndash; 20:30&nbsp;&nbsp;&nbsp; Board Members&rsquo; Networking Dinner</p>
-                <p>Conference Day 2 │ BELTEI IU, Campus 2 │ Monday, July 7, 2025</p>
-                <p><strong><mark style="background-color: lightgreen"> Morning Session </mark></strong></p>
-                <p>08:00 &ndash; 09:00&nbsp;&nbsp;&nbsp;&nbsp; Registration</p>
-                <p>09:00 &ndash; 10:30&nbsp;&nbsp;&nbsp; Opening Ceremony by Dr. Hang Chuon Naron, Dputy Prime Minister and Minister of Education Youth and Sport.</p>
-                <p>10:30 &ndash; 10:45&nbsp;&nbsp;&nbsp; Coffee Break</p>
-                <p>10:45 &ndash; 11:45&nbsp;&nbsp;&nbsp; Keynote Speech: (1)
-                </p>
-                <p>11:45 &ndash; 12:00&nbsp;&nbsp;&nbsp; Country Report I</p>
-                <p>12:00 &ndash; 14:00&nbsp;&nbsp;&nbsp; Lunch and Break</p>
-                <p><strong><mark style="background-color: lightgreen"> Afternoon Session </mark></strong></p>
-                <p>14:00 &ndash; 15:00&nbsp;&nbsp;&nbsp; Parallel Session I</p>
-                <p>15:00 &ndash; 15:15&nbsp;&nbsp;&nbsp; Country Report II</p>
-                <p>15:15 &ndash; 15:30&nbsp;&nbsp;&nbsp; Country Report III</p>
-                <p>15:30 &ndash; 15:45&nbsp;&nbsp; Coffee Break</p>
-                <p>15:45 &ndash; 17:00&nbsp;&nbsp;&nbsp; Panel Discussion 1</p>
-                <p>17:00 &ndash; 18:30&nbsp;&nbsp;&nbsp; Welcome Dinner</p>
-                <p>Conference Day 3 │ BELTEI IU, Campus 2 │ Tuesday, July 8, 2025</p>
-                <p><strong><mark style="background-color: lightgreen"> Morning Session </mark></strong></p>
-                <p>08:00 &ndash; 09:00&nbsp;&nbsp;&nbsp;&nbsp; Registration</p>
-                <p>09:00 &ndash; 10:00&nbsp;&nbsp;&nbsp; Keynote Speech: (2)</p>
-                <p>10:00 &ndash; 10:15&nbsp;&nbsp;&nbsp; Country Report IV</p>
-                <p>10:15 &ndash; 10:35&nbsp;&nbsp;&nbsp; Coffee Break</p>
-                <p>10:35 &ndash; 10:45&nbsp;&nbsp;&nbsp; Country Report V
-                </p>
-                <p>10:45 &ndash; 11:35&nbsp;&nbsp;&nbsp; Panel Discussion 2</p>
-                <p>11:35 &ndash; 14:00&nbsp;&nbsp;&nbsp; Lunch and Break</p>
-                <p><strong><mark style="background-color: lightgreen"> Afternoon Session </mark></strong></p>
-                <p>14:00 &ndash; 14:15&nbsp;&nbsp;&nbsp; Next Conference Presentation</p>
-                <p>14:15 &ndash; 15:15&nbsp;&nbsp;&nbsp;
-                    Country Report VI-VII
-                </p>
-                <p>15:15 &ndash; 15:30&nbsp;&nbsp; Coffee Break</p>
-                <p>15:30 &ndash; 17:00&nbsp;&nbsp;&nbsp; Closing Ceremony by H.E. Dr. LY CHHENG The Member of the National Assembly for Phnom Penh Capital City Cambodia, Founder & Director-General of BELTEI Group, Chairman of The Board of Directors of BELTEI International University</p>
-                <p>Conference Day 4 │ Optional Tours │ Wednesday, July 9, 2025</p>
+
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>Tentative
+                            Program</span></strong></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>2025 ASAIHL
+                            Conference </span></strong><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>(6-7-8 of July,
+                        2025)</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>Conference Day
+                            1</span></strong><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Arial",sans-serif;'>│</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;Venue BELTEI Group
+                        Headquarters&nbsp;</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Arial",sans-serif;'>│</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;Sunday, July 6,
+                        2025</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;background-color: lightgreen'>Evening
+                            Session</span></strong></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>17:30 &ndash; 19:30
+                        &nbsp; &nbsp;ASAIHL Board Meeting</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>19:30 &ndash; 20:30
+                        &nbsp; &nbsp;Board Members&rsquo; Networking Dinner</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>Conference Day
+                            2</span></strong><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Arial",sans-serif;'>│</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;BELTEI IU, Campus
+                        2&nbsp;</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Arial",sans-serif;'>│</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;Monday, July 7,
+                        2025</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;background-color: lightgreen'>Morning
+                            Session</span></strong></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>07:00 &ndash; 07:30
+                        &nbsp; &nbsp; Pick Up from Hotel</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>08:00 &ndash; 08:30
+                        &nbsp; &nbsp; Registration</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>08:30 &ndash; 10:30
+                        &nbsp; &nbsp;<strong>Opening Ceremony</strong></span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:90.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>- Welcome Remark by
+                        H.E LY Navuth, Deputy Director-General of BELTEI Group and The President of BELTEI International
+                        University</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:90.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>- Keynote Speech by
+                        Professor Dr. Wilert Purivatra, President of ASAIHL</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:90.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>- Keynote Speech by
+                        the Ambassador of the&nbsp;Kingdom of Thailand to the Kingdom of Cambodia</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:90.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>- Opening Speech by
+                        H.E Dr. Hang Chuon Naron, Deputy Prime Minister and Minister of Education Youth and Sport</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>10:30 &ndash; 10:45
+                        &nbsp; &nbsp;Coffee Break</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>10:45 &ndash; 11:00
+                        &nbsp; &nbsp;Country Report 1</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>11:00 &ndash; 12:00
+                        &nbsp; &nbsp;Country Report 2</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>12:00 &ndash; 14:00
+                        &nbsp; &nbsp;Lunch and Break</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;background-color: lightgreen'>Afternoon
+                            Session</span></strong></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>14:00 &ndash; 14:15
+                        &nbsp; &nbsp;Country Report 3</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>14:15 &ndash; 14:30
+                        &nbsp; &nbsp;Country Report 4</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>14:30 &ndash; 16:00
+                        &nbsp; &nbsp;Parallel Session/Paper Presentation (Breakout Rooms)</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>16:00 &ndash; 16:15
+                        &nbsp; Coffee Break</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>16:15 &ndash; 17:15
+                        &nbsp; &nbsp;Panel Discussion 1</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>17:15 &ndash; 20:30
+                        &nbsp; &nbsp;Welcome Dinner</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>Conference Day
+                            3</span></strong><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Arial",sans-serif;'>│</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;BELTEI IU, Campus
+                        2&nbsp;</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Arial",sans-serif;'>│</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;Tuesday, July 8,
+                        2025</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;background-color: lightgreen'>Morning
+                            Session</span></strong></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>08:00 &ndash; 08:30
+                        &nbsp; &nbsp; Pick Up from Hotel</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>08:30 &ndash; 09:00
+                        &nbsp; &nbsp; Registration</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>09:00 &ndash; 09:15
+                        &nbsp; &nbsp;Country Report 5</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>09:15 &ndash; 09:30
+                        &nbsp; &nbsp;Country Report 6</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>09:30 &ndash; 09:45
+                        &nbsp; &nbsp;Country Report 7</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>09:45 &ndash; 10:00
+                        &nbsp; &nbsp;Coffee Break</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>10:00 &ndash; 10:15
+                        &nbsp; &nbsp;Country Report 8</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>10:15 &ndash; 11:30
+                        &nbsp; &nbsp;Panel Discussion 2</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>11:30 &ndash; 14:00
+                        &nbsp; &nbsp;Lunch and Break</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;background-color: lightgreen'>Afternoon
+                            Session</span></strong></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>14:00 &ndash; 14:15
+                        &nbsp; &nbsp;Country Report 9</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>14:15 &ndash; 14:30
+                        &nbsp; &nbsp;Next Conference Presentation</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>14:30 &ndash; 15:30
+                        &nbsp; Coffee Break and Networking</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>15:30 &ndash;
+                        17:00&nbsp;&nbsp; &nbsp;Closing Ceremony</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:90.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>- Report by H.E LY
+                        Navuth, Deputy Director-General of BELTEI Group and The President of BELTEI International
+                        University</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:90.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>- Report by ASAIHL
+                        Secretariat&nbsp;</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:90.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>- Closing Speech by
+                        H.E. Dr. LY CHHENG The Member of the National Assembly for Phnom Penh Capital City Cambodia, Founder
+                        &amp; Director-General of BELTEI Group, Chairman of The Board of Directors of BELTEI International
+                        University</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <strong><span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>Conference Day
+                            4</span></strong><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Arial",sans-serif;'>│</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;Optional
+                        Tours&nbsp;</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Arial",sans-serif;'>│</span><span
+                        style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>&nbsp;Wednesday, July 9,
+                        2025</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>1 Day Trip to
+                        Sihanoukville (July 09, 2025): Free of charge</span></p>
+                <p
+                    style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>2 Days Trip to Siem
+                        Reap and Angkor: 100 USD (July 09-10, 2025)</span></p>
+
+
+
             </div>
 
             <div id="content-detail-5" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
                 <div>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <strong><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Accommodation</span></strong>
+                    </p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <strong><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-Recommended
+                                hotels are</span></strong></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <strong><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>+
+                                Fairfield by Marriott Phnom Penh</span></strong></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>About
+                            49.98 USD / Night</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Please
+                            book through this link :</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>https://www.marriott.com/event-reservations/reservation-link.mi?id=1742362908152&amp;key=GRP&amp;guestreslink2=true&amp;app=resvlink</span>
+                    </p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <strong><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>+
+                                HIMAWARI Hotel</span></strong></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>About
+                            75 USD / Night</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Please
+                            contact to Moe Sett Yadana, Director &nbsp;of Sales and Marketing&nbsp;</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
+                        <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>HP:
+                            (855) 16 931 555</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>E-mail:
+                            dsm@himawari.com.kh</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>WhatsApp/Telegram:
+                            +855 16 931 555</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <strong><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>+
+                                Sofitel Phnom Penh Phokeethra</span></strong></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Please
+                            book through this link :</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>https://all.accor.com/lien_externe.svlt?goto=resa_express&amp;code_hotel=6526&amp;code_chaine=SOF&amp;code_avantage=BELTIE</span>
+                    </p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>&nbsp;</span>
+                    </p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>For
+                            further information, please visit our conference contact the Organizing Committee at
+                            biu.2025asaihl@beltei.edu.kh.</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>&nbsp;</span>
+                    </p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <strong><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Transportation</span></strong>
+                    </p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-Pick
+                            &amp; Drop service is provided on your request. (From the airport to hotel and from hotel to the
+                            conference)</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-Pass
+                            App/Crab is recommended for public taxi.</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-Please
+                            contact us at (+855) 78 8888 03/78 221 222 (Telegram, WhatsApp,)</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-Our
+                            Email:&nbsp;</span><a href="mailto:biu.2025asaihl@beltei.edu.kh"><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>biu.2025asaihl@beltei.edu.kh</span></a>
+                    </p>
+
+
+                    <p style="margin-top: .5rem; text-align: center;"><span style="background-color: lightgreen; ">Conference Venue BELTEI Group Headquarters</span></p>
+                    
                     <img class="w-100" src="{{ asset('asset/img/university/campus/HQ.png') }}" alt="">
                     <iframe class="w-100"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15635.460973384806!2d104.8975925949065!3d11.561516783539464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109512310feda21%3A0x4243c6246755cc0!2sBELTEI%20GROUP%20Headquarters!5e0!3m2!1sen!2skh!4v1735013232611!5m2!1sen!2skh"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <p style="margin-top: .5rem; text-align: center;"><span style="background-color: lightgreen; ">Conference Venue BELTEI International University Campus 2</span></p>
+
+                        
                     <img class="w-100" src="{{ asset('asset/img/university/campus/BIU2.png') }}" alt="">
                     <iframe class="w-100"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31275.029448686146!2d104.823231!3d11.52467!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31094fbd312449f5%3A0xaf3393bc9eda7678!2sBELTEI%20International%20University%20(Campus%202%2C%20Chaom%20Chao%20Flyover)!5e0!3m2!1sen!2skh!4v1735013411762!5m2!1sen!2skh"
@@ -530,23 +1017,70 @@
             </div>
             <div id="content-detail-6" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
                 <div>
-                    <p><strong>- Visa Information</strong></p>
-                    <p>-For visa information, please refer to https://www.evisa.gov.kh/</p>
-                    <p>-For any general information regarding travel to Cambodia, kindly check&nbsp;
-                        <a
-                            href="https://www.indonesia.travel/gb/en/news/new-international-travel-regulations-to-enter-indonesia-as-of-29-november-2021">
-                            the latest travel regulations</a>
-                        or contact us at (+885) 78 888 803 / (+855) 78 221 222 (Telegram, WhatsApp,)
+                    <p><strong><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Visa
+                                Information</span></strong></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <strong><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>I-Visa-Free
+                                Entry (up to 30 days):</span></strong></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span
+                            style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Brunei,
+                            Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Vietnam.</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <strong><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>II-Cambodia
+                                E-visa</span></strong></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-For
+                            visa information, please refer to https://www.evisa.gov.kh/</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-For
+                            any general information regarding travel to Cambodia, kindly check the latest travel regulations
+                            or contact us at (+885) 78 888 803 / (+855) 78 221 222 (Telegram, WhatsApp,)</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Our
+                            Email: biu.2025asaihl@beltei.edu.kh</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <strong><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>III-
+                                e-Arrival</span></strong></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-The
+                            Cambodia e-Arrival Card (CeA) is&nbsp;a digital immigration form that replaces the traditional
+                            paper-based forms required upon arrival in Cambodia.</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-
+                            All travelers can submit the Cambodia e-Arrival within 7 days before their arrival</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                        <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-For
+                            any general information regarding The Cambodia e-Arrival Card (CeA), kindly check&nbsp;</span><a
+                            href="https://arrival.gov.kh/"><span
+                                style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>https://arrival.gov.kh/</span></a>
                     </p>
-                    <p>Our Email: biu.2025asaihl@beltei.edu.kh</p>
-
-                    <h6 class="pt-3 pb-1">Accommodation and Transportation</h6>
-                    <p>
-                        -Hotel will be recommended later on.<br />-Pass App/Crab is
-                        recommended for public taxi.<br />-Pick &amp; Drop service is provided on your request.<br />-Please
-                        contact us at (+855) 78 8888 03/78 221 222 (Telegram, WhatsApp,)<br />-Our Email:
-                        <a href="biu.2025asaihl@beltei.edu.kh">biu.2025asaihl@beltei.edu.kh</a>
-                    </p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:normal;'>
+                        <span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#212529;'>&nbsp;</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:normal;'>
+                        <span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#212529;'>-For any general
+                            information regarding travel to Cambodia, kindly check &nbsp;the latest travel regulations or
+                            contact us at (+885) 78 888 803 / (+855) 78 221 222 (Telegram, WhatsApp,)</span></p>
+                    <p
+                        style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:normal;'>
+                        <span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#212529;'>Our Email:
+                            biu.2025asaihl@beltei.edu.kh</span></p>
 
                 </div>
             </div>
