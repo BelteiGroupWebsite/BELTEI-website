@@ -93,7 +93,7 @@
                                         data-bs-target="#updateStudentModal"
                                         wire:click="openCertificateModal('{{ $student->id }}','beltei' , '{{ $student->certi_no }}')"
                                         class="cursor-pointer" loading="lazy"
-                                        src="{{ asset('asset\img\school\certificate\diploma\certplaceholder.jpg') }}"
+                                        src="{{ asset('asset\img\school\certificate\diploma\certplaceholder'.$gradeId.'.jpg') }}"
                                         alt="Profile Image">
                                 </td>
                             @endif
