@@ -109,12 +109,12 @@
                             @endif
                             @if ($ielts)
                                 <td>
-                                    <a
-                                        href="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/moey/' . $student->ielts_no . '.jpg') }}">
-                                        <img style="max-width: 50px" loading="lazy"
-                                            src="{{ asset('storage/upload/certificate/school/' . $programId . '/' . $gradeId . '/' . $batchId . '/moey/' . $student->ielts_no . '.jpg') }}"
-                                            alt="IELTS">
-                                    </a>
+                                    <img style="max-width: 50px" data-bs-toggle="modal"
+                                        data-bs-target="#updateStudentModal"
+                                        wire:click="openCertificateModal('{{ $student->id }}','ielts' , '{{ $student->ielts_no }}')"
+                                        class="cursor-pointer" loading="lazy"
+                                        src="{{ asset('asset\img\school\certificate\diploma\ieltsplaceholder.jpg') }}"
+                                        alt="IELTS Image">
                                 </td>
                             @endif
                         </tr>
@@ -205,7 +205,8 @@
                                         <tr>
                                             <td class="Times-New-Roman">Profile No</td>
                                             <td class="Times-New-Roman">:</td>
-                                            <td class="Times-New-Roman">{{ $gradeId.'/'.$batchId.'/'.$imageCard }}</td>
+                                            <td class="Times-New-Roman">{{ $gradeId . '/' . $batchId . '/' . $imageCard }}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="Times-New-Roman">Gender</td>
