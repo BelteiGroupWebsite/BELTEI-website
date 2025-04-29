@@ -108,12 +108,17 @@
                                 </td>
                             @endif
                             @if ($ielts)
+                                @php
+                                    $ieltsImagePath = Crypt::encryptString(
+                                        "school/$programId/$gradeId/$batchId/ielts/$student->ielts_no.jpg",
+                                    );
+                                @endphp
                                 <td>
                                     <img style="max-width: 50px" data-bs-toggle="modal"
                                         data-bs-target="#updateStudentModal"
                                         wire:click="openCertificateModal('{{ $student->id }}','ielts' , '{{ $student->ielts_no }}')"
                                         class="cursor-pointer" loading="lazy"
-                                        src="{{ asset('asset\img\school\certificate\diploma\ieltsplaceholder.jpg') }}"
+                                        src="{{ route('certificate.view', ['filename' => $ieltsImagePath]) }}"
                                         alt="IELTS Image">
                                 </td>
                             @endif
@@ -205,7 +210,8 @@
                                         <tr>
                                             <td class="Times-New-Roman">Profile No</td>
                                             <td class="Times-New-Roman">:</td>
-                                            <td class="Times-New-Roman">{{ $gradeId . '/' . $batchId . '/' . $imageCard }}
+                                            <td class="Times-New-Roman">
+                                                {{ $gradeId . '/' . $batchId . '/' . $imageCard }}
                                             </td>
                                         </tr>
                                         <tr>
