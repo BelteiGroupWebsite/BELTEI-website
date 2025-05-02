@@ -61,6 +61,10 @@
         <img src="{{ asset('asset/img/construction/youtube.jpg') }}" alt="">
     </div>
 
+    <div class="py-2">
+        <iframe class="w-100" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/Lp2sQ83uXrU?si=6jTvQPc_Q8wd3-fM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
 </div>
 
 
