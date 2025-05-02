@@ -22,7 +22,9 @@
 
 
 <div>
-    <table class="table table-bordered " >
+    <livewire:admin.university.certificate-component :batch="$id" />
+
+    {{-- <table class="table table-bordered " >
         <thead >
             <th>Student ID</th>
             <th>Khmer Name</th>
@@ -59,7 +61,7 @@
         @endforeach
         
         
-    </table>
+    </table> --}}
     {{-- {{ $studentInfo->links() }} --}}
 </div>
 

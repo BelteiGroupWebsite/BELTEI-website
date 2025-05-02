@@ -18,7 +18,7 @@ class UtbCertificateController extends Controller
      */
     public function index()
     {
-        $degrees = Degree::get();
+        $degrees = Degree::with('degreeAcademicbatch.degree' , 'degreeAcademicbatch.studentInfo')->get();
         return view('web.admin.university.new-certificate.index', compact('degrees'));
     }
 
@@ -103,13 +103,14 @@ class UtbCertificateController extends Controller
      */
     public function show(string $id)
     {
-        $academicBatch = UtbDegreeAcademicbatch::findOrFail($id);
+        // $academicBatch = UtbDegreeAcademicbatch::findOrFail($id);
 
-        $academicBatchId = $id;
-        $degreeId = $academicBatch->degree->id;
+        // $academicBatchId = $id;
+        // $degreeId = $academicBatch->degree->id;
         
-        $studentInfo = $academicBatch->studentInfo()->paginate(25);
-        return view('web.admin.university.new-certificate.show', compact('studentInfo', 'degreeId', 'academicBatchId'));
+        // $studentInfo = $academicBatch->studentInfo()->paginate(25);
+        // return view('web.admin.university.new-certificate.show', compact('studentInfo', 'degreeId', 'academicBatchId'));
+        return view('web.admin.university.new-certificate.show', compact('id'));
     }
 
     /**
