@@ -15,13 +15,11 @@ use App\Http\Controllers\Admin\University\UtbCertificateController;
 use App\Http\Controllers\Client\University\RedirectCertificateController;
 use App\Http\Controllers\CountdownController;
 use App\Http\Controllers\ShowCertificateController;
-use App\Http\Controllers\VisitorController;
 use App\Models\University\Certificate\UtbDegreeAcademicbatch;
 use App\Models\VisitorInfo;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -878,3 +876,5 @@ Route::get('/document/{filename}', [App\Http\Controllers\Admin\StorageImageContr
 
 
 Route::get('/document/view/{filename}', [ShowCertificateController::class, 'view'])->name('certificate.view');
+Route::get('/document/{filename}', [ShowCertificateController::class, 'viewEn'])->name('certificate.viewEn');
+Route::get('/document/check/{filename}', [ShowCertificateController::class, 'check'])->name('certificate.check');

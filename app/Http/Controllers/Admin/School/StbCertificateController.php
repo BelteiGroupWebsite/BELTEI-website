@@ -5,16 +5,12 @@ namespace App\Http\Controllers\Admin\School;
 use App\Http\Controllers\Controller;
 use App\Imports\School\StudentInfoImport;
 use App\Models\School\Certificate\StbAcademicBatch;
-use App\Models\School\Certificate\StbStudentInfo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use App\Imports\StudentsImport;
 use App\Models\School\Certificate\StbProgram;
 use Maatwebsite\Excel\Facades\Excel;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Storage;
 
-use function Livewire\store;
 
 class StbCertificateController extends Controller
 {
@@ -24,8 +20,8 @@ class StbCertificateController extends Controller
     public function index()
     {
         //
-        // $programs = StbProgram::with('grade.academicBatch.grade.program' , 'grade.academicBatch.studentInfo')->get(); // in these case the i dont want to select all studentInfo, i just want the count and min and max(student_id) of it
-        $programs = StbProgram::with('grade.academicBatch.grade.program')->get();
+        $programs = StbProgram::with('grade.academicBatch.grade.program' , 'grade.academicBatch.studentInfo')->get(); // in these case the i dont want to select all studentInfo, i just want the count and min and max(student_id) of it
+        // $programs = StbProgram::with( 'grade.academicBatch.grade.program')->get();
 
         return view('web.admin.school.new-certificate.index' , compact('programs'));
     }
@@ -123,10 +119,12 @@ class StbCertificateController extends Controller
      */
     public function show($id)
     {
-        $academicBatch = StbAcademicBatch::where('id', $id)->first();
-        $studentInfo = $academicBatch->studentInfo()->paginate(15); // Change 10 to the number of records per page you want
+        // $academicBatch = StbAcademicBatch::where('id', $id)->first();
+        // $studentInfo = $academicBatch->studentInfo()->paginate(15); // Change 10 to the number of records per page you want
     
-        return view('web.admin.school.new-certificate.show', compact('academicBatch', 'studentInfo'));
+        // return view('web.admin.school.new-certificate.show', compact('academicBatch', 'studentInfo'));
+
+        return view('web.admin.school.new-certificate.show', compact('id'));
     }
 
     /**
