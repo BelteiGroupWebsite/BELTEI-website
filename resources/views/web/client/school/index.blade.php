@@ -10,7 +10,9 @@
         <img class="w-50-600px" src="{{ asset('assets/images/school/beltei_youtube.png') }}" alt="">
     </div>
 
-    <div class="row gy-2 justify-content-center">
+    <livewire:share.poster-component :poster_id="2" />
+
+    {{-- <div class="row gy-2 justify-content-center">
         
         <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('asset/img/school/app/news/Group_1.jpg') }}"
             border="0">
@@ -21,7 +23,7 @@
         <img data-aos="zoom-out-up"  class="w-75" src="{{ asset('asset/img/school/app/news/gradeA.jpg') }}"
             border="0">
 
-    </div>
+    </div> --}}
 
 
     @include('web.client.school.layout.share.news')

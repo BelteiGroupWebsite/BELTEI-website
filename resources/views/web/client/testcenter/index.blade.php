@@ -17,11 +17,13 @@
         <img src="https://www.beltei.edu.kh/khm/images/specialevents/beltei_youtube.png" alt="">
     </div>
 
-    <div>
+    <livewire:share.poster-component :poster_id="6" />
+    
+    {{-- <div>
         <img data-aos="zoom-out-up" class="w-75 my-2" src="{{ asset('asset/img/BTG.png') }}" alt="">
         <img data-aos="zoom-out-up" class="w-75 my-2 shadow-sm rounded" src="{{ asset('asset/img/testcenter/ToeflAndGre.jpg') }}" alt="">
         <img data-aos="zoom-out-up" class="w-75 my-2 shadow-sm rounded" src="{{ asset('asset/img/testcenter/BELTEIITCCover.png') }}" alt="">
-    </div>
+    </div> --}}
     
     {{-- <img data-aos="zoom-out-up" class="" src="https://www.beltei.edu.kh/khm/images/announcement/New_term_2024.jpg"
         border="0">
@@ -36,5 +38,6 @@
 
 
     {{-- @include('web.client.school.layout.share.news') --}}
-    <livewire:university.share.news-component :category="6" />
+    {{-- <livewire:university.share.news-component :category="6" /> --}}
+    <livewire:share.news-component :category="7" />
 @endsection

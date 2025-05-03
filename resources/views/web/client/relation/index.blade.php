@@ -11,7 +11,10 @@
             ដែលបានប្រព្រឹត្តទៅនាថ្ងៃទី៦-៨ មិថុនា ២០២៣</p>
     </div>
 
-    <div>
+
+    <livewire:share.poster-component :poster_id="4" />
+    
+    {{-- <div>
         <img data-aos="zoom-out-up" class="w-75 my-2" src="{{ asset('asset/img/BTG.png') }}" alt="">
         <iframe width="500" height="285" src="https://www.youtube.com/embed/UyMJdh_j1AQ?si=KGP9XP6NAgJvCiGG" ></iframe>
         <iframe width="500" height="285" src="https://www.youtube.com/embed/Sia-Qj5lHzU?si=nOBmydBZydAB4uqw" ></iframe>
@@ -21,7 +24,7 @@
         <img data-aos="zoom-out-up"  class="w-100-600px" src="{{ asset('asset/img/relation/beltei-international-relations-service4.jpg') }}" alt="">
         <img data-aos="zoom-out-up"  class="w-100-600px" src="{{ asset('asset/img/relation/beltei-international-relations-service5.jpg') }}" alt="">
         <img data-aos="zoom-out-up"  class="w-100-600px" src="{{ asset('asset/img/relation/beltei-international-relations-service6.jpg') }}" alt="">
-    </div>
+    </div> --}}
 
 
 
