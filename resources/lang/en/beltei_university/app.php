@@ -147,7 +147,7 @@ return [
         </span>',
 
 
-    'belteigroup' => "Beltei Group​ Headquarters",
+    'belteigroup' => "BELTEI Group​ Headquarters",
     'campus1' => "Campus 1 (Tuol Sleng)",
     'campus2' => "Campus 2 (Chom Chao)",
     'campus3' => "Campus 3 ",
