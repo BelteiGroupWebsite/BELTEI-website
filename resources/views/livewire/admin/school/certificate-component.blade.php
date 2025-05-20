@@ -39,6 +39,18 @@
                     <td>{{ $student->gender }}</td>
                     <td>{{ $student->dob }}</td>
                     <td>
+                        @php
+                            $imageCardFolder = 'Beltei';
+                            $imageCard = $student->certi_no;
+                            $encryptedBeltei = base64_encode(
+                                "school/$programId/$gradeId/$academicBatch->id/$imageCardFolder/$imageCard.jpg",
+                            );
+                        @endphp
+                        <img loading="lazy" class="w-100"
+                            src="{{ route('certificate.viewEn', ['filename' => $encryptedBeltei]) }}">
+
+                    </td>
+                    <td>
                         <button type="button" class="btn btn-warning btn-sm bi bi-pencil-square" data-bs-toggle="modal"
                             data-bs-target="#StudentModal" wire:click="editStudent({{ $student->id }})"></button>
                         <button type="button" class="btn btn-outline-danger btn-sm bi bi-trash"
@@ -91,42 +103,50 @@
                                     <div class="text-start row px-3">
                                         <div class="form-group col-6">
                                             <label>Khmer Name</label>
-                                            <input type="text" required placeholder="សុខ សិរីវិសាល" class="form-control" wire:model="khmer_name">
+                                            <input type="text" required placeholder="សុខ សិរីវិសាល"
+                                                class="form-control" wire:model="khmer_name">
                                         </div>
 
                                         <div class="form-group col-6">
                                             <label>Latin Name</label>
-                                            <input type="text" required placeholder="Sok sereyvisal" class="form-control" wire:model="latin_name">
+                                            <input type="text" required placeholder="Sok sereyvisal"
+                                                class="form-control" wire:model="latin_name">
                                         </div>
 
                                         <div class="form-group col-6">
                                             <label>Gender</label>
-                                            <input type="text" required placeholder="M" class="form-control" wire:model="gender">
+                                            <input type="text" required placeholder="M" class="form-control"
+                                                wire:model="gender">
                                         </div>
 
                                         <div class="form-group col-6">
                                             <label>Date of Birth</label>
-                                            <input type="text" required placeholder="01-09-2004" class="form-control" wire:model="dob">
+                                            <input type="text" required placeholder="01-09-2004" class="form-control"
+                                                wire:model="dob">
                                         </div>
 
                                         <div class="form-group col-6">
                                             <label>Nationality</label>
-                                            <input type="text" required placeholder="Khmer" class="form-control" wire:model="nationality">
+                                            <input type="text" required placeholder="Khmer" class="form-control"
+                                                wire:model="nationality">
                                         </div>
 
                                         <div class="form-group col-6">
                                             <label>Campus</label>
-                                            <input type="text" required placeholder="1" class="form-control" wire:model="campus">
+                                            <input type="text" required placeholder="1" class="form-control"
+                                                wire:model="campus">
                                         </div>
 
                                         <div class="form-group col-6">
                                             <label>Academic Batch ID</label>
-                                            <input type="text" required placeholder="{{ $batchID }}" class="form-control" wire:model="academic_batch_id" >
+                                            <input type="text" required placeholder="{{ $batchID }}"
+                                                class="form-control" wire:model="academic_batch_id">
                                         </div>
 
                                         <div class="form-group col-6">
                                             <label>Student ID</label>
-                                            <input type="text" required placeholder="052444" class="form-control" wire:model="student_id">
+                                            <input type="text" required placeholder="052444" class="form-control"
+                                                wire:model="student_id">
                                         </div>
 
                                         <div class="form-group col-3">
