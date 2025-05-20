@@ -40,7 +40,7 @@
                     <td>{{ $student->dob }}</td>
                     <td>
                         @php
-                            $imageCardFolder = 'Beltei';
+                            $imageCardFolder = 'beltei';
                             $imageCard = $student->certi_no;
                             $encryptedBeltei = base64_encode(
                                 "school/$programId/$gradeId/$academicBatch->id/$imageCardFolder/$imageCard.jpg",
