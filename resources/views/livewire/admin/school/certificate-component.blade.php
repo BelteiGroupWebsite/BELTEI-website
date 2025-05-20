@@ -46,7 +46,7 @@
                                 "school/$programId/$gradeId/$academicBatch->id/$imageCardFolder/$imageCard.jpg",
                             );
                         @endphp
-                        <img loading="lazy" class="w-100"
+                        <img loading="lazy" width="50px"
                             src="{{ route('certificate.viewEn', ['filename' => $encryptedBeltei]) }}">
 
                     </td>
