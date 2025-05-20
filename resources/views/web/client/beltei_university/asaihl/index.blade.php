@@ -747,7 +747,7 @@
                 <p
                     style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:90.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                     <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>- Keynote Speech by
-                        Professor Dr. Wilert Purivatra, President of ASAIHL</span>
+                        Prof. Wilert Puriwat, President of ASAIHL</span>
                 </p>
                 <p
                     style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:90.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
@@ -984,7 +984,8 @@
                     </p>
                     <p
                         style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
-                        <a class="text-primary" class="text-primary" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1742362908152&key=GRP&guestreslink2=true&app=resvlink">https://www.marriott.com/event-reservations/reservation-link.mi?id=1742362908152&key=GRP&guestreslink2=true&app=resvlink</a>
+                        <a class="text-primary" class="text-primary"
+                            href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1742362908152&key=GRP&guestreslink2=true&app=resvlink">https://www.marriott.com/event-reservations/reservation-link.mi?id=1742362908152&key=GRP&guestreslink2=true&app=resvlink</a>
                     </p>
 
                     <div class="row pt-2 pb-3">
@@ -1051,7 +1052,8 @@
                     </p>
                     <p
                         style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;text-indent:36.0pt;line-height:150%;'>
-                        <a class="text-primary" href="https://all.accor.com/ssr/app/accor/rates/6526/index.en.shtml?compositions=1&stayplus=false&snu=false&accessibleRooms=false&hideWDR=false&productCode=null&hideHotelDetails=false">https://all.accor.com/ssr/app/accor/rates/6526/index.en.shtml?compositions=1&stayplus=false&snu=false&accessibleRooms=false&hideWDR=false&productCode=null&hideHotelDetails=false</a>
+                        <a class="text-primary"
+                            href="https://all.accor.com/ssr/app/accor/rates/6526/index.en.shtml?compositions=1&stayplus=false&snu=false&accessibleRooms=false&hideWDR=false&productCode=null&hideHotelDetails=false">https://all.accor.com/ssr/app/accor/rates/6526/index.en.shtml?compositions=1&stayplus=false&snu=false&accessibleRooms=false&hideWDR=false&productCode=null&hideHotelDetails=false</a>
                     </p>
                     <p
                         style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
@@ -1060,10 +1062,12 @@
                     </p>
 
                     <div class="row pt-2 pb-3">
-                        <img class="col-6" src="{{ asset('asset\img\university\asaihl\hotel\Sofitel\1.jpg') }}" alt="">
-                        <img class="col-6" src="{{ asset('asset\img\university\asaihl\hotel\Sofitel\2.jpg') }}" alt="">
+                        <img class="col-6" src="{{ asset('asset\img\university\asaihl\hotel\Sofitel\1.jpg') }}"
+                            alt="">
+                        <img class="col-6" src="{{ asset('asset\img\university\asaihl\hotel\Sofitel\2.jpg') }}"
+                            alt="">
                     </div>
-                    
+
                     <p
                         style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>For
@@ -1071,10 +1075,10 @@
                             biu.2025asaihl@beltei.edu.kh.</span>
                     </p>
 
-                    
 
-                    
-                    
+
+
+
                     <p
                         style='margin-top:0cm;margin-right:0cm;margin-bottom:.0001pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span
