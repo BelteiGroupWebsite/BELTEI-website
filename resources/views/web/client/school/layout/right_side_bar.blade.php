@@ -139,7 +139,7 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.english-speaking') }}</h6>
         </a>
-        <a href="{{ route('school.english-speaking-12') }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking' , ['grade' => 3]) }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n12') }}
              <div class="d-flex justify-content-center ">
                 <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
@@ -148,7 +148,7 @@
                 </div>
             </div>
         </a>
-        <a href="{{ route('school.english-speaking-9') }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking' , ['grade' => 6]) }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n9') }}
             <div class="d-flex justify-content-center ">
                 <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
@@ -157,7 +157,7 @@
                 </div>
              </div>
         </a>
-        <a href="{{ route('school.english-speaking-6') }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking' , ['grade' => 7]) }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n6') }}
              <div class="d-flex justify-content-center ">
                 <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
@@ -166,7 +166,7 @@
                 </div>
             </div>
         </a>
-        <a href="{{ route('school.english-speaking-3') }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking' , ['grade' => 8]) }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n3') }}
             <div class="d-flex justify-content-center ">
                 <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">

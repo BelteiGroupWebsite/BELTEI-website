@@ -18,7 +18,7 @@ return [
     'n11' => '11',
     'n12' => '12',
 
-    "thewinner" => "The Winners of Grade",
+    "thewinner" => "The Winners of ",
 
     "Batch" => "Batch",
     

@@ -121,7 +121,7 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.H') }}</h6>
         </a>
-        <a href="{{ route('school.public-speaking-12') }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking' , ['grade' => 1]) }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n12') }}
             <div class="d-flex justify-content-center ">
                 <div
@@ -133,7 +133,7 @@
                 </div>
             </div>
         </a>
-        <a href="{{ route('school.public-speaking-9') }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking' , ['grade' => 2]) }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n9') }}
             <div class="d-flex justify-content-center ">
                 <div
@@ -145,7 +145,7 @@
                 </div>
             </div>
         </a>
-        <a href="{{ route('school.public-speaking-6') }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking' , ['grade' => 4]) }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n6') }}
             <div class="d-flex justify-content-center ">
                 <div
@@ -157,7 +157,7 @@
                 </div>
             </div>
         </a>
-        <a href="{{ route('school.public-speaking-3') }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking' , ['grade' => 5]) }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n3') }}
             <div class="d-flex justify-content-center ">
                 <div

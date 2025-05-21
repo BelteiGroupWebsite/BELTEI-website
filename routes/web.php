@@ -12,6 +12,7 @@ use App\Http\Controllers\GradeAController;
 use App\Http\Controllers\Admin\University\CertificateController as UniversityCertificateController;
 use App\Http\Controllers\Admin\University\NewsController;
 use App\Http\Controllers\Admin\University\UtbCertificateController;
+use App\Http\Controllers\Client\Share\CompetitionController;
 use App\Http\Controllers\Client\University\RedirectCertificateController;
 use App\Http\Controllers\CountdownController;
 use App\Http\Controllers\ShowCertificateController;
@@ -276,12 +277,12 @@ Route::group(['prefix' => 'bis', 'as' => 'school.', 'middleware' => ['visitor.tr
     // });
 
 
-    Route::view('/public-speaking', 'web.client.school.public-speaking.grade12')->name('public-speaking');
+    Route::get('/public-speaking/{grade}', [CompetitionController::class, 'show'])->name('public-speaking');
 
-    Route::view('/public-speaking/12', 'web.client.school.public-speaking.grade12')->name('public-speaking-12');
-    Route::view('/public-speaking/9', 'web.client.school.public-speaking.grade9')->name('public-speaking-9');
-    Route::view('/public-speaking/6', 'web.client.school.public-speaking.grade6')->name('public-speaking-6');
-    Route::view('/public-speaking/3', 'web.client.school.public-speaking.grade3')->name('public-speaking-3');
+    // Route::view('/public-speaking/12', 'web.client.school.public-speaking.grade12')->name('public-speaking-12');
+    // Route::view('/public-speaking/9', 'web.client.school.public-speaking.grade9')->name('public-speaking-9');
+    // Route::view('/public-speaking/6', 'web.client.school.public-speaking.grade6')->name('public-speaking-6');
+    // Route::view('/public-speaking/3', 'web.client.school.public-speaking.grade3')->name('public-speaking-3');
 
     Route::view('/english-speaking/12', 'web.client.school.english-speaking.grade12')->name('english-speaking-12');
     Route::view('/english-speaking/9', 'web.client.school.english-speaking.grade9')->name('english-speaking-9');
@@ -862,6 +863,8 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
 
 
     Route::resource('news', NewsController::class)->names('news');
+    Route::view('competition', 'web.admin.share.competition.index')->name('competitionte');
+
     // Route::get('set-new-category/{locale}', function ($locale) {
     //     if (in_array($locale, ['en', 'kh' , 'ch'])) {
     //         session(['locale' => $locale]);
@@ -872,7 +875,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
 
 });
 
-Route::get('/document/{filename}', [App\Http\Controllers\Admin\StorageImageController::class, 'show'])->name('image.show');    
+Route::get('/document/{filename}', [App\Http\Controllers\Admin\StorageImageController::class, 'show'])->name('image.show');
 
 
 Route::get('/document/view/{filename}', [ShowCertificateController::class, 'view'])->name('certificate.view');
