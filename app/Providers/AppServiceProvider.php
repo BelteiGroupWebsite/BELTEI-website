@@ -42,8 +42,8 @@ class AppServiceProvider extends ServiceProvider
 
             // Share languages with all views
             View::share('countries', Country::withCount('visitors')->having('visitors_count', '>', 100)->get());
-            View::share('bicc_news', News::where('category', 11)->orderBy('date', 'desc')->paginate(10));
-            View::share('biccr_news', News::where('category', 12)->orderBy('date', 'desc')->paginate(10));
+            View::share('bicc_news', News::where('category', 10)->orderBy('date', 'desc')->paginate(10));
+            View::share('biccr_news', News::where('category', 11)->orderBy('date', 'desc')->paginate(10));
 
             // $categories = [
             //     1 => 'contruction_news',
