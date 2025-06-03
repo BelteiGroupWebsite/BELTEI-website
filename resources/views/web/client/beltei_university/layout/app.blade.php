@@ -101,6 +101,10 @@
             width: 25px;
             height: 25px;
         }
+
+        .footer-link:hover{
+            color: white;
+        }
     </style>
 
 </head>
@@ -242,8 +246,16 @@
                 </marquee>
             </div>
 
-            <div>
+            <div class="p-4 Times-New-Roman" style="background-color: #006cb8">
                 <img class="w-100" src="{{ asset('asset/img/biu/app/footer.jpg') }}" alt="">
+                <div class=" gold">
+                    <h5 class="underline">Contact Us: </h5>
+                    <ul class="pt-2">
+                        <li>Email: <a class="underline font-bold footer-link" href="biu.admin@beltei.edu.kh">biu.admin@beltei.edu.kh</a> (General Information)</li>
+                        <li>Email: <a class="underline font-bold footer-link" href="biu.academic@beltei.edu.kh">biu.academic@beltei.edu.kh</a> (Student's Service and Confirmation)</li>
+                    </ul>
+                </div>
+
             </div>
 
         </div>
@@ -267,111 +279,6 @@
     <script>
         AOS.init();
     </script>
-
-    {{-- <script>
-        var campusDiv = document.getElementById("campus");
-        var campusDivChildren = campusDiv.children;
-
-        var lang = document.documentElement.getAttribute("lang");
-        // console.log(lang); // Output: en
-        // alert(lang)
-
-        if (lang == "kh") {
-            var campusNameArr = [
-                "គីរីរម្យ",
-                "ផ្សារទួលទំពូង",
-                "ដេអិន",
-                "ផ្សារដើមថ្កូវ",
-                "ច្បារអំពៅ",
-                "អូរឫស្សី",
-                "ពេទ្យលោកសង្ឃ",
-                "ផ្សារពោធិ៍ចិនតុង",
-                "ស្ទឹងមានជ័យ",
-                "អាងទឹកអូឡាំពិក",
-                "ផ្សារតូច",
-                "ផ្សារដីហុយ",
-                "រង្វង់មូលកាំកូស៊ីធី",
-                "ក្រុងតាខ្មៅ",
-                "ផ្សារជម្ពូវ័ន",
-                "ផ្លូវកោងវែងស្រេង",
-                "ឫស្សីកែវ",
-                "ផ្សារព្រែកឯក",
-                "ផ្សារព្រែកលៀប",
-                "ចោមចៅ",
-                "ផ្សារឈូកមាស",
-                "រង្វង់មូលគួរស្រូវ",
-                "ផ្លូវព្រៃសស្តុបឫស្សីសាញ់",
-                "រង្វង់មូលព្រែកតាមាក់",
-                "ស្ថានីបូមទឹកផ្លូវ",
-                "ព្រែកប្រា",
-                "",
-                "",
-                "",
-                "",
-            ];
-        } else {
-            var campusNameArr = [
-                "Kirirom",
-                "Toul Tum Pong",
-                "DN",
-                "Phsar Doeum Thkov",
-                "Chbar Ampeou",
-                "Orssei",
-                "Loksang Hospital",
-                "Pochen Tong",
-                "Steung Meanchey",
-                "Ang Teuk Olympic",
-                "Phsar Touch",
-
-                "Phsar Deihoy",
-                "Comko City",
-                "Takhmao Town",
-                "Phsar Chumpu Vorn",
-                "Phlov Yeng Sreng",
-                "Russey Keo",
-                "Phsar Preak Leap",
-                "Phsar Preak Eak",
-                "Chom Chao",
-                "Phsar Chhouk Meas",
-                "Kour Srov",
-                "Preysor Russey Sanh",
-                "Prek Ta Mek",
-                "Pumping Station 371",
-                "Preak Pra",
-                "B27",
-                "B28",
-                "B29",
-                "B30",
-            ];
-        }
-
-        for (let i = 1; i <= 2; i++) {
-            var campusCardTemplate = `
-        <a id="sammenten${i}" href="{{ route('beltei_university.campus.campusTemplete') }}?id=${i}" data-aos="fade-left" data-aos-delay="${
-            i * 100
-        }" class="border rounded shadow-sm" style="width:1000px; max-width:500px ; max-height:500px ; height:250px">
-            <img class="shadow-sm rounded w-100 " style="max-height:2000px;"
-                src="{{ asset('asset/img/university/campus/BIU${i}.png') }}"
-                alt="">
-            <div class="d-flex align-items-center justify-content-around p-1">
-                <h6 style="min-width:50px ; width: 50px; height: 50px;"
-                    class="f14 rounded-pill bg-header-color d-flex justify-content-center align-items-center text-white">
-                    ${i}
-                </h6>
-                <b class=" text-center ${
-                    campusNameArr[i - 1].length > 12 ? "f10" : "f12"
-                }">
-                    ${campusNameArr[i - 1]}
-                </b>
-            </div>
-        </a>
-    `;
-            var div = document.createElement("div");
-            div.innerHTML = campusCardTemplate.trim();
-            campusDiv.appendChild(div.firstChild);
-
-        }
-    </script> --}}
 
 
     <script src="{{ asset('css/school/layout/app.js') }}"></script>
