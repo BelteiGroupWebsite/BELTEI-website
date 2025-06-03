@@ -42,7 +42,22 @@ class AppServiceProvider extends ServiceProvider
 
             // Share languages with all views
             View::share('countries', Country::withCount('visitors')->having('visitors_count', '>', 100)->get());
+            View::share('bicc_news', News::where('category', 11)->orderBy('date', 'desc')->paginate(10));
+            View::share('biccr_news', News::where('category', 12)->orderBy('date', 'desc')->paginate(10));
 
+            // $categories = [
+            //     1 => 'contruction_news',
+            //     10 => 'bicc_news',
+            //     11 => 'biccr_news',
+            // ];
+
+            // foreach ($categories as $category_id => $view_variable) {
+            //     try {
+            //         $news = News::where( 'category', $category_id)->orderBy('date', 'desc')->paginate(10);
+            //         View::share($view_variable, $news);
+            //     } catch (\Exception $e) {
+            //     }
+            // }
         } catch (\Exception $e) {
             // Handle the exception for the overall process
             Log::error("Failed to fetch data in AppServiceProvider boot method: " . $e->getMessage());
