@@ -242,6 +242,10 @@
                 </marquee>
             </div>
 
+            <div>
+                <img class="w-100" src="{{ asset('asset/img/biu/app/footer.jpg') }}" alt="">
+            </div>
+
         </div>
 
 
