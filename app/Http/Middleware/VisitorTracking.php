@@ -69,8 +69,11 @@ class VisitorTracking
 
         if ($count > $this->visitThreshold) {
             // Block IP if it exceeds the threshold
-            $this->blockIp($ip);
-            throw new NotFoundHttpException('Access denied');
+
+            // unblock 
+            // $this->blockIp($ip);
+            // throw new NotFoundHttpException('Access denied');
+
         }
     }
 
