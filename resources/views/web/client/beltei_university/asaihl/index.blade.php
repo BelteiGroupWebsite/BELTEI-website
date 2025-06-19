@@ -1221,12 +1221,12 @@
             <div id="content-detail-7" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
                 <div>
                     <h5 class="mb-3"><strong>-For the optional tour, the destinations are</strong></h5>
-                    <p class="mb-2 bg-info p-2 bold text-bold font-bold">1 Day Trip to Sihanoukville <span
+                    <p class="mb-2 bg-info p-2 bold text-bold font-bold">1 Day Trip to Royal Palace <span
                             class="text-danger">(July 09, 2025)</span>: Free of charge</p>
                     <div class="row">
                         @for ($i = 1; $i <= 6; $i++)
                             <img class="col-6"
-                                src="{{ asset('asset/img/university/asaihl/sihanoukville/' . $i . '.jpg') }}"
+                                src="{{ asset('asset/img/university/asaihl/royalpalace/' . $i . '.jpg') }}"
                                 alt="">
                         @endfor
                     </div>
