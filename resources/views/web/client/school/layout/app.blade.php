@@ -185,8 +185,6 @@
         var campusDivChildren = campusDiv.children;
 
         var lang = document.documentElement.getAttribute("lang");
-        // console.log(lang); // Output: en
-        // alert(lang)
 
         if (lang == "kh") {
             var campusNameArr = [
@@ -205,64 +203,65 @@
                 "រង្វង់មូលកាំកូស៊ីធី",
                 "ក្រុងតាខ្មៅ",
                 "ផ្សារជម្ពូវ័ន",
-                "ផ្លូវកោងវែងស្រេង",
-                "ឫស្សីកែវ",
-                "ផ្សារព្រែកឯក",
+                "ផ្លូវកោងវេងស្រេង",
+                "ឫស្សីកេវគីឡូលេខ១០",
+                "ព្រែកឯង",
                 "ផ្សារព្រែកលៀប",
                 "ចោមចៅ",
                 "ផ្សារឈូកមាស",
-                "រង្វង់មូលគួរស្រូវ",
+                "រង្វង់មូលកួរស្រូវ",
                 "ផ្លូវព្រៃសស្តុបឫស្សីសាញ់",
-                "រង្វង់មូលព្រែកតាមាក់",
-                "ស្ថានីបូមទឹកផ្លូវ",
+                "រង្វង់មូលគល់ស្ពានព្រែកតាមាក់",
+                "ស្ថានីយបូមទឹក ផ្លូវ៣៧១",
                 "ព្រែកប្រា",
                 "ព្រែកព្នៅ បុរី លី សុវណ្ណ",
-                "វត្តអង្គតាមិញ",
+                "វត្តអង្គតាម៉ិញ",
                 "ទួលពង្រ",
                 "បុរីអ័រគីដេ ៦អា",
-                "វត្តទួលឬស្សីកែវ",
+                "វត្តទួលឫស្សីកែវ",
                 "ក្រាំងធ្នង់",
                 
                 "ទួលពង្រ",
                 "បុរីអ័រគីដេ ៦អា",
                 "វត្តទួលឬស្សីកែ",
                 "ក្រាំងធ្នង់",
+
             ];
         } else {
             var campusNameArr = [
                 "Kirirom",
-                "Toul Tum Pong",
+                "Phsar Toul Tum Poung",
                 "DN",
                 "Phsar Doeum Thkov",
                 "Chbar Ampeou",
-                "Orssei",
+                "Orssey",
                 "Loksang Hospital",
-                "Pochen Tong",
+                "Phsar Pochentong",
                 "Steung Meanchey",
-                "Ang Teuk Olympic",
-                "Phsar Touch",
-
+                "AngTeuk Olumpic",
+                "Pshar Toch",
                 "Phsar Deihoy",
-                "Comko City",
+                "Camko City",
                 "Takhmao Town",
-                "Phsar Chumpu Vorn",
-                "Phlov Yeng Sreng",
+                "Phsar Chumpou Vorn",
+                "Phlov Koang Veng Sreng",
                 "Russey Keo",
-                "Phsar Preak Leap",
-                "Phsar Preak Eak",
-                "Chom Chao",
+                "Phsar Prek Eng",
+                "Phsar Prek Leab",
+                "Choam Chao",
                 "Phsar Chhouk Meas",
-                "Kour Srov",
-                "Preysor Russey Sanh",
-                "Prek Ta Mek",
+                "Kour Srov Roundabout",
+                "Prey Sar Road, Russey Sanh Stoplight",
+                "Prek Tamak Bridge Roundabout",
                 "Pumping Station 371",
                 "Preak Pra",
                 "Prek Pnov Borey Ly Sovann",
                 "Wat Ang Taminh",
                 "Tuol Pongro",
                 "Borey Orkide 6A",
-                "Watt Toul ",
+                "Wat Toul Russey Keo",
                 "Krang Tnong"
+                
             ];
         }
 
