@@ -220,7 +220,7 @@
                 "បុរីអ័រគីដេ ៦អា",
                 "វត្តទួលឫស្សីកែវ",
                 "ក្រាំងធ្នង់",
-                
+
                 "ទួលពង្រ",
                 "បុរីអ័រគីដេ ៦អា",
                 "វត្តទួលឬស្សីកែ",
@@ -239,7 +239,7 @@
                 "Phsar Pochentong",
                 "Steung Meanchey",
                 "Angteuk Olympic",
-                "Pshar Toch",
+                "Phsar Toch",
                 "Phsar Deihoy",
                 "Camko City",
                 "Takhmao Town",
@@ -254,14 +254,14 @@
                 "Prey Sar Road, Russey Sanh Stoplight",
                 "Prek Tamak Bridge Roundabout",
                 "Pumping Station 371",
-                "Preak Pra",
+                "Prek Pra",
                 "Prek Pnov Borey Ly Sovann",
                 "Wat Ang Taminh",
                 "Tuol Pongro",
                 "Borey Orkide 6A",
                 "Wat Toul Russey Keo",
                 "Krang Tnong"
-                
+
             ];
         }
 
