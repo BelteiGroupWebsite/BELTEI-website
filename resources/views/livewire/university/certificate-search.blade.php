@@ -83,7 +83,7 @@
                                 <img data-bs-toggle="modal" data-bs-target="#VerifyModal"
                                     wire:click="openCertificateModal('{{ $certificate->id }}','beltei' , '{{ $certificate->certi_no }}')"
                                     loading="lazy" style="max-width: 80px" class="cursor-pointer"
-                                    src="{{ asset('asset/img/university/certificate/certi_placeholder.jpg') }}"
+                                    src="{{ asset('asset/img/university/certificate/certi_placeholder'.$degreeId.'.jpg') }}"
                                     alt="certificate">
                             </td>
                         </tr>
