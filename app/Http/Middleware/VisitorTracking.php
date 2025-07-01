@@ -17,7 +17,8 @@ use Jenssegers\Agent\Agent;
 class VisitorTracking
 {
     // How many hits per hour a single IP is allowed before getting blocked
-    protected int $visitThreshold = 100;
+    protected int $visitThreshold = 50;
+    // protected int $visitThreshold = 100;
 
     // How long the IP will be blocked (in seconds)
     protected int $blockDuration = 3600; // 1 hour
@@ -46,7 +47,7 @@ class VisitorTracking
 
             
 
-            $this->cleanExpiredBlocks(); // Remove expired IP blocks from .htaccess
+            // $this->cleanExpiredBlocks(); // Remove expired IP blocks from .htaccess
 
 
 
