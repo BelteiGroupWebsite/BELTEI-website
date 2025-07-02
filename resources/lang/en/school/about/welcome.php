@@ -5,110 +5,40 @@ return [
 
     'header' => "Message from President",
 
-    'welcome' => '
-    <p>
-Welcome Samdech, Your Excellencies, Lok Chumteav, Oknha, Ladies, Gentlemen, Parents, Guardians and all dear students who have trusted, and decided to choose BELTEI International School for high quality and up to date knowledge to the (Digital Era) in order to achieve their goals in the future. 
-	BELTEI International School was established with the aim of contributing to the development of education and increase human capital with "Quality, Efficiency, Excellence, Morality, Virtue" in accordance with the Rectangular Strategy of the Royal Government led by Samdech Akka Moha Sena Padei Techo HUN SEN, Former Prime minister and National Hero Founder of the Guide to Building Peace and Development in Cambodia, as well as in accordance with the Pentagonal Strategy of the Royal Government of the 7th term of the National Assembly led by Samdech Moha Borvor Thipadei HUN MANET, the Prime Minister of Cambodia which is an outstanding leader with full of ability to continue to lead the country for peace and development in all sectors.
-    <br>
-There are 5 main programs such as:
-</p>
-<ul>
-    <li>
-        1. General Education
-    </li>
-    <li>
-        2. ESL Program 
-    </li>
-    <li>
-        3. CSL Program
-    </li>
-    <li>
-        4. Intelligent Mental-Arithmetic
-    </li>
-    <li>
-        5. International Test Preparation Courses. 
-    </li>
-</ul>
-
-<p>
-12 Extracurricular Courses:
-</p>
-
-<ul>
-    <li>
-        1. E-learning (BELTEI IS App)              
-    </li>
-    <li>
-        2. Know How Improvement Program
-    </li>
-    <li>
-        3. Field Trip Program
-    </li>
-    <li>
-        4. Public Speaking Program 
-    </li>
-    <li>
-        5. Writing Contest Program               
-    </li>
-    <li>
-        6. Debate Program
-    </li>
-    <li>
-        7. Mathematic Contest Program
-    </li>
-    <li>
-        8. Educational Reading 
-    </li>
-    <li>
-        9. Talent Contest Program
-    </li>
-    <li>
-        10. TV Program 
-    </li>
-    <li>
-        11. Sports 
-    </li>
-    <li>
-        12. STEM Education & Robotic Program 
-    </li>
-</ul>
-
-<p>
-In order to strengthen the quality the School adds
-</p>
-
-<ul>
-    <li>
-	1.	BELTEI Mobile App for students to be able to do self-study every time and everywhere.
-        </li>
-    <li>
-	2.	Large library for students to research and a lot of books.
-        </li>
-    <li>
-	3.	Laboratory for student researching and experimenting with modern materials and equipment.
-        </li>
-    <li>
-	4.	Robotic for research to innovation, mechanical construction, coding, competence development and time management 
-		effectively by practicing directly with Robotic devices.
-    </li>
-    <li>
-	5.	The curriculum is implemented according to the BELTEI Standard in all BELTEI, including the study schedule, lessons, 
-		study period, start date, exam date and end date.
-
-        </li>
-</ul>
-
-<p>
-On behalf of the management team, staff and teachers of BELTEI International School, we are committed to developing a more modern curricula in line with national and international standards to improve the quality of education in terms of intellect, general knowledge, English, Chinese, computer and responsive skills to the technological advances of the "Industrial Revolution 4.0" and training the students to have a national conscience, social morality, know their identity, love their country, know the values of culture, civilization, respect the state law, respect the internal rules of the school, be united without racism, status, role, especially good relations between School, Family and Society.
-</p>
-
-<p>
-We are looking forward to welcoming Samdech, Your Excellencies, Lok Chumteav, Oknha, Ladies, Gentlemen, Parents, Guardians and all students to our school.
-</p>
-
-<p>
-
-    We wish you have good health and success in all work.
-</p>
-    '
+    'welcome' => "
+        <p style='text-indent:36.0pt;'><span>Welcome Samdech, Your Excellencies, Lok Chumteav, Oknha, Ladies, Gentlemen, Parents, Guardians and all dear students who have trusted, and decided to choose BELTEI International School for high quality and up to date knowledge to the (Digital Era) in order to achieve their goals in the future.&nbsp;</span></p>
+        <p style='text-indent:36.0pt;'><span>BELTEI International School was established with the aim of contributing to the development of education and increase human capital with &quot;Quality, Efficiency, Excellence, Morality, Virtue&quot; in accordance with the Rectangular Strategy of the Royal Government led by Samdech Akka Moha Sena Padei Techo HUN SEN, Former Prime minister, President of Senate and Chairman of the Supreme Advisory Council of the King, Founder of guaranteed Peace and Development in Cambodia, as well as in accordance with the Pentagon&nbsp;</span><span >S</span><span>trategy of the Royal Government, 7th legislature of the National Assembly led by Samdech Moha Borvor Thipadei HUN MANET, the Prime Minister of Cambodia, an outstanding leader and be fulfilled with ability, who continues to lead the country toward peace and development in all sectors.</span></p>
+        <p><span>There are 5 main programs such as:</span></p>
+        <p><span>1. General Education</span></p>
+        <p><span>2. ESL Program &nbsp; &nbsp;&nbsp;</span></p>
+        <p><span>3. CSL Program</span></p>
+        <p><span>4. Intelligent Mental-Arithmetic</span></p>
+        <p><span>5. International Test Preparation Courses.</span></p>
+        <p><span>And has included 12 Extracurricular Courses program:</span></p>
+        <p><span>1. E-learning (BELTEI IS App) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+        <p><span>2. Know-How Improvement Program&nbsp;&nbsp;</span></p>
+        <p><span>3. Field Trip Program&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</span></p>
+        <p><span>4. Public Speaking Program&nbsp;</span></p>
+        <p><span>5. Debate Program&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</span></p>
+        <p><span>6. Writing Contest Program &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p>
+        <p><span>7. Mathematics Contest Program</span></p>
+        <p><span>8. Educational Reading Program</span></p>
+        <p><span>9. Talent Contest Program</span></p>
+        <p><span>10. TV Program&nbsp;</span></p>
+        <p><span>11. Sports&nbsp; &nbsp;&nbsp;</span></p>
+        <p><span>12. STEM &ndash; STEAM Education &amp; Robotic Program</span></p>
+        <p><span>In order to strengthen the quality the school adds</span></p>
+        <p><span>1. BELEI IS Mobile App</span><span>&nbsp;</span><span>for students to be able to do self-study every time and everywhere.</span></p>
+        <p><span>2.&nbsp;&nbsp;Large library for students to research and a lot of books.</span></p>
+        <p><span>3.&nbsp;&nbsp;Laboratory for student researching and experimenting with modern materials and equipment.</span></p>
+        <p><span>4. Robotics for research to innovation, mechanical construction, coding, competence development</span><span>&nbsp;</span></p>
+        <p><span>&nbsp; &nbsp; &nbsp;and time management effectively by practicing directly with Robotics devices.</span></p>
+        <p><span>5.&nbsp;&nbsp;The curriculum is implemented according to the BELTEI Standard in all BELTEI, including&nbsp;</span></p>
+        <p><span>&nbsp; &nbsp; &nbsp;the study schedule, lessons, study period, start date, exam date and end date.</span></p>
+        <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;On behalf of the management team, staff, and teachers of BELTEI International School, we are committed to developing more modern curricular that align with both national and international standards. This effort aims to enhance the quality of education such as intellectual development, General Education, English, Chinese, computer literacy, and skills that respond to the technological advancements of the Fourth Industrial Revolution (Industry 4.0). We are also dedicated to nurturing students to develop a strong national conscience, uphold social morality, understand and value their cultural identity, and foster a deep love for their country. Our mission includes instilling respect for cultural values and civilization, adherence to state laws, and compliance with school regulations. We emphasize unity, free from discrimination based on race or role and prioritize strong relationships among the School, Family, and Society.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p>
+        <p><span>We are looking forward to welcoming Samdech, Your Excellencies, Lok Chumteav, Oknha, Ladies, Gentlemen, Parents, Guardians and all students to our school.</span></p>
+        <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; We wish you have good health and success in all work.</span></p>
+    "
 ];
+
+
