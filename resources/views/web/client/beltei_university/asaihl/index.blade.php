@@ -568,8 +568,7 @@
                         thesis, dissertation, conference proceedings national and international. Other sources (20%) can be
                         books or other reference sources.</span>
                 </p>
-                <p
-                    style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                     <span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Each article must
                         contain at least 10 (ten) references and <strong>only references used as citations</strong> may be
                         listed in the Bibliography. Bibliography sources used in research must be at least the last 10
@@ -690,93 +689,108 @@
                 </p> --}}
 
 
-                <h5 class="text-center" style="font-family: 'Times New Roman', Times, serif"><strong><span>Tentative Program <br>2025 ASAIHL Conference&nbsp;(July 6-7-8, 2025) <br>&quot;Digitalization in Higher Education&quot;</span></strong></h5>
-                <br/>
-<p><strong><span>Conference Day 1</span></strong><span>&nbsp;<strong>│ Venue, BELTEI Group Headquarters │ Sunday, July 6, 2025</strong></span></p>
-<p><strong><u><span>Evening Session</span></u></strong></p>
-<p><span>17:00 &ndash; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- &nbsp;&nbsp;Pick Up from Hotel</span></p>
-<ul>
-    <li><span>ASAIHL Board Meeting <em>(Hybrid Mode)</em></span></li>
-    <li><span>Board Members&rsquo; Networking Dinner</span></li>
-</ul>
-<p><strong><span>&nbsp;</span></strong></p>
-<p><strong><span>Conference Day 2 │ BELTEI IU, Campus 2 │ Monday, July 7, 2025</span></strong></p>
-<p><strong><u><span>Morning Session</span></u></strong></p>
-<p><strong><u><span>Conference Hall Zone A &amp; B</span></u></strong></p>
-<p><span>07:30 &ndash;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Pick Up from Hotel</span></p>
-<p><span>08:30 &ndash;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Registration</span></p>
-<p><span>08:30 &ndash; 10:30 &nbsp; &nbsp;<strong><u>Opening Ceremony</u></strong></span></p>
-<p><span>-National Anthem of The Kingdom of Cambodia&nbsp;</span></p>
-<p><span>-Khmer Blessing Dance</span></p>
-<p><span>-Video Clip about 2025 ASAIHL Conference in Cambodia</span></p>
-<p><span>-Welcoming Address by <strong>H.E Ly Navuth</strong>, Deputy Director-General of BELTEI Group and The President of BELTEI International University</span></p>
-<p><span>-Keynote Speech by <strong>H.E. Dr. Ly Chheng</strong>, The Member of the National Assembly for Phnom Penh Capital City Cambodia, Founder &amp; Director-General of BELTEI Group</span></p>
-<p><span>-Video Clip of Keynote Adress by <strong>Professor Dr. Wilert Purivatra</strong>, the President of ASAIHL</span></p>
-<p><span>-Opening Speech by <strong>H.E Dr. Sann Vathana</strong>, Secretary of State of Education Youth and Sport</span></p>
-<div>
-    <ul>
-        <li><span>&nbsp;Photo Session</span></li>
-    </ul>
-</div>
-<p><strong><u><span>Conference Hall Zone B</span></u></strong></p>
-<p><span>10:45 &ndash; 12:00 &nbsp;&nbsp;- <strong>Country Report- Thailand</strong></span></p>
-<p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;- <strong>Country Report- Poland</strong></span></p>
-<p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;- Keynote Adress (Prof, Dr. Heng Kreng, Director of Research Department</span></p>
-<p><em><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;of MoEYS, Cambodia)</span></em></p>
-<p><em><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-Letter of Appreciation Awarding</span></em></p>
-<p><span>12:00 &ndash; 14:00 &nbsp; &nbsp;Lunch <em>(Cafeteria-VPI Lounge)</em></span></p>
-<p><span>-Campus Tour</span></p>
-<p><span>&nbsp;</span></p>
-<p><strong><u><span>Afternoon Session</span></u></strong></p>
-<p><strong><u><span>Conference Hall Zone B</span></u></strong></p>
-<p><span>14:00 &ndash; 15:30 &nbsp; Paper Presentation <em>(4 Breakout Rooms = 12 Presenters, Room 101-104)</em></span></p>
-<p><span>15:30 &ndash; 16:00 &nbsp; Coffee Break <em>(Zone A)</em></span></p>
-<p><span>16:00 &ndash; 16:30 &nbsp; <strong>Country Report- Malaysia</strong></span></p>
-<p><span>16:30 &ndash; 17:00 &nbsp; <strong>Country Report- Philippines</strong></span></p>
-<p><span>17:00 &ndash; 17:30 &nbsp; <strong>Country Report- Japan</strong></span></p>
-<p><span>18:30 &ndash; 20:30 &nbsp; Dinner at Tonle Bassac Restaurant</span></p>
-<p><strong><u><span>Conference Day 3 │ BELTEI IU, Campus 2 │ Tuesday, July 8, 2025</span></u></strong></p>
-<p><strong><u><span>Morning Session</span></u></strong></p>
-<p><strong><u><span>Conference Hall Zone B</span></u></strong></p>
-<p><span>07:30 &ndash; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Pick Up from Hotel</span></p>
-<p><span>08:30 &ndash;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; Registration</span></p>
-<p><span>08:30 &ndash; 09:30<strong>&nbsp; &nbsp; Keynote Adress&nbsp;</strong><em>(Prof, Dr. ALADDIN D. RILLO, Senior Economic Advisor)</em></span></p>
-<p><span>09:30 &ndash; 10:00 &nbsp; &nbsp;<strong>Country Report- Taiwan</strong></span></p>
-<p><span>10:00 &ndash; 10:30&nbsp;&nbsp;&nbsp; Coffee Break <em>(Zone A)</em></span></p>
-<p><span>10:30 &ndash; 12:00&nbsp;&nbsp;&nbsp; Paper Presentation <em>(4 Breakout Rooms = 09 Presenters, Room 101-104)</em></span></p>
-<p><span>12:00 &ndash; 13:00 &nbsp; &nbsp;Lunch <em>(Cafeteria-VIP Lounge)</em>&nbsp;</span></p>
-<p><strong><u><span>Afternoon Session</span></u></strong></p>
-<p><strong><u><span>Conference Hall Zone A</span></u></strong></p>
-<p><span>13:00 &ndash; 14:00 &nbsp; DYNAMEID Program</span></p>
-<p><span>14:00 &ndash; 14:30 &nbsp; <strong>Country Report- Bulgari</strong></span></p>
-<p><span>14:30 &ndash; 15:00 &nbsp; <strong>Country Report- Uzbekistan</strong></span></p>
-<p><span>15:00 &ndash; 15:30&nbsp;&nbsp;&nbsp; Coffee Break <em>(Zone B)</em></span></p>
-<p><strong><span>15:30 &ndash; 17:45</span></strong><span>&nbsp; &nbsp;<strong>Closing Ceremony</strong></span></p>
-<p><strong><span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - </span></strong><span>Next Conference Presentation</span></p>
-<p><strong><span>- Country Report- Cambodia</span></strong></p>
-<p><span>- Report by ASAIHL</span></p>
-<p><span>-Video Clip about 2025 ASAIHL Conference in Cambodia</span></p>
-<p><span>- Closing Speech by <strong>H.E. Dr. LY CHHENG,</strong> The Member of the National Assembly for Phnom Penh Capital City Cambodia, Founder &amp; Director-General of BELTEI Group,&nbsp;</span></p>
-<p><span>-Photo Session</span></p>
+                <h5 class="text-center" style="font-family: 'Times New Roman', Times, serif"><strong><span>Tentative
+                            Program <br>2025 ASAIHL Conference&nbsp;(July 6-7-8, 2025) <br>&quot;Digitalization in Higher
+                            Education&quot;</span></strong></h5>
+                <br />
+                <p><strong><span>Conference Day 1</span></strong><span>&nbsp;<strong>│ Venue, BELTEI Group Headquarters │
+                            Sunday, July 6, 2025</strong></span></p>
+                <p><strong><u><span>Evening Session</span></u></strong></p>
+                <p><span>17:00 &ndash; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- &nbsp;&nbsp;Pick Up from Hotel</span></p>
+                <ul>
+                    <li><span>ASAIHL Board Meeting <em>(Hybrid Mode)</em></span></li>
+                    <li><span>Board Members&rsquo; Networking Dinner</span></li>
+                </ul>
+                <p><strong><span>&nbsp;</span></strong></p>
+                <p><strong><span>Conference Day 2 │ BELTEI IU, Campus 2 │ Monday, July 7, 2025</span></strong></p>
+                <p><strong><u><span>Morning Session</span></u></strong></p>
+                <p><strong><u><span>Conference Hall Zone A &amp; B</span></u></strong></p>
+                <p><span>07:30 &ndash;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Pick Up from Hotel</span>
+                </p>
+                <p><span>08:30 &ndash;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Registration</span></p>
+                <p><span>08:30 &ndash; 10:30 &nbsp; &nbsp;<strong><u>Opening Ceremony</u></strong></span></p>
+                <p><span>-National Anthem of The Kingdom of Cambodia&nbsp;</span></p>
+                <p><span>-Khmer Blessing Dance</span></p>
+                <p><span>-Video Clip about 2025 ASAIHL Conference in Cambodia</span></p>
+                <p><span>-Welcoming Address by <strong>H.E Ly Navuth</strong>, Deputy Director-General of BELTEI Group and
+                        The President of BELTEI International University</span></p>
+                <p><span>-Keynote Speech by <strong>H.E. Dr. Ly Chheng</strong>, The Member of the National Assembly for
+                        Phnom Penh Capital City Cambodia, Founder &amp; Director-General of BELTEI Group</span></p>
+                <p><span>-Video Clip of Keynote Adress by <strong>Professor Dr. Wilert Purivatra</strong>, the President of
+                        ASAIHL</span></p>
+                <p><span>-Opening Speech by <strong>H.E Dr. Sann Vathana</strong>, Secretary of State of Education Youth and
+                        Sport</span></p>
+                <div>
+                    <ul>
+                        <li><span>&nbsp;Photo Session</span></li>
+                    </ul>
+                </div>
+                <p><strong><u><span>Conference Hall Zone B</span></u></strong></p>
+                <p><span>10:45 &ndash; 12:00 &nbsp;&nbsp;- <strong>Country Report- Thailand</strong></span></p>
+                <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-
+                        <strong>Country Report- Poland</strong></span></p>
+                <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-
+                        Keynote Adress (Prof, Dr. Heng Kreng, Director of Research Department</span></p>
+                <p><em><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp;&nbsp;of MoEYS, Cambodia)</span></em></p>
+                <p><em><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp;&nbsp;-Letter of Appreciation Awarding</span></em></p>
+                <p><span>12:00 &ndash; 14:00 &nbsp; &nbsp;Lunch <em>(Cafeteria-VPI Lounge)</em></span></p>
+                <p><span>-Campus Tour</span></p>
+                <p><span>&nbsp;</span></p>
+                <p><strong><u><span>Afternoon Session</span></u></strong></p>
+                <p><strong><u><span>Conference Hall Zone B</span></u></strong></p>
+                <p><span>14:00 &ndash; 15:30 &nbsp; Paper Presentation <em>(4 Breakout Rooms = 12 Presenters, Room
+                            101-104)</em></span></p>
+                <p><span>15:30 &ndash; 16:00 &nbsp; Coffee Break <em>(Zone A)</em></span></p>
+                <p><span>16:00 &ndash; 16:30 &nbsp; <strong>Country Report- Malaysia</strong></span></p>
+                <p><span>16:30 &ndash; 17:00 &nbsp; <strong>Country Report- Philippines</strong></span></p>
+                <p><span>17:00 &ndash; 17:30 &nbsp; <strong>Country Report- Japan</strong></span></p>
+                <p><span>18:30 &ndash; 20:30 &nbsp; Dinner at Tonle Bassac Restaurant</span></p>
+                <p><strong><u><span>Conference Day 3 │ BELTEI IU, Campus 2 │ Tuesday, July 8, 2025</span></u></strong></p>
+                <p><strong><u><span>Morning Session</span></u></strong></p>
+                <p><strong><u><span>Conference Hall Zone B</span></u></strong></p>
+                <p><span>07:30 &ndash; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Pick Up from Hotel</span></p>
+                <p><span>08:30 &ndash;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; Registration</span></p>
+                <p><span>08:30 &ndash; 09:30<strong>&nbsp; &nbsp; Keynote Adress&nbsp;</strong><em>(Prof, Dr. ALADDIN D.
+                            RILLO, Senior Economic Advisor)</em></span></p>
+                <p><span>09:30 &ndash; 10:00 &nbsp; &nbsp;<strong>Country Report- Taiwan</strong></span></p>
+                <p><span>10:00 &ndash; 10:30&nbsp;&nbsp;&nbsp; Coffee Break <em>(Zone A)</em></span></p>
+                <p><span>10:30 &ndash; 12:00&nbsp;&nbsp;&nbsp; Paper Presentation <em>(4 Breakout Rooms = 09 Presenters,
+                            Room 101-104)</em></span></p>
+                <p><span>12:00 &ndash; 13:00 &nbsp; &nbsp;Lunch <em>(Cafeteria-VIP Lounge)</em>&nbsp;</span></p>
+                <p><strong><u><span>Afternoon Session</span></u></strong></p>
+                <p><strong><u><span>Conference Hall Zone A</span></u></strong></p>
+                <p><span>13:00 &ndash; 14:00 &nbsp; DYNAMEID Program</span></p>
+                <p><span>14:00 &ndash; 14:30 &nbsp; <strong>Country Report- Bulgari</strong></span></p>
+                <p><span>14:30 &ndash; 15:00 &nbsp; <strong>Country Report- Uzbekistan</strong></span></p>
+                <p><span>15:00 &ndash; 15:30&nbsp;&nbsp;&nbsp; Coffee Break <em>(Zone B)</em></span></p>
+                <p><strong><span>15:30 &ndash; 17:45</span></strong><span>&nbsp; &nbsp;<strong>Closing
+                            Ceremony</strong></span></p>
+                <p><strong><span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - </span></strong><span>Next Conference
+                        Presentation</span></p>
+                <p><strong><span>- Country Report- Cambodia</span></strong></p>
+                <p><span>- Report by ASAIHL</span></p>
+                <p><span>-Video Clip about 2025 ASAIHL Conference in Cambodia</span></p>
+                <p><span>- Closing Speech by <strong>H.E. Dr. LY CHHENG,</strong> The Member of the National Assembly for
+                        Phnom Penh Capital City Cambodia, Founder &amp; Director-General of BELTEI Group,&nbsp;</span></p>
+                <p><span>-Photo Session</span></p>
 
 
             </div>
 
             <div id="content-detail-5" class="content-details p-3 d-none" style="background-color: rgb(215, 244, 253);">
                 <div>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <strong><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Accommodation</span></strong>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <strong><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-Recommended
                                 hotels are</span></strong>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <strong><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>+
                                 Fairfield by Marriott Phnom Penh</span></strong>
@@ -808,8 +822,7 @@
                             alt="">
                     </div>
 
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <strong><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>+
                                 HIMAWARI Hotel</span></strong>
@@ -851,8 +864,7 @@
                             alt="">
                     </div>
 
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <strong><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>+
                                 Sofitel Phnom Penh Phokeethra</span></strong>
@@ -868,8 +880,7 @@
                         <a class="text-primary"
                             href="https://all.accor.com/ssr/app/accor/rates/6526/index.en.shtml?compositions=1&stayplus=false&snu=false&accessibleRooms=false&hideWDR=false&productCode=null&hideHotelDetails=false">https://all.accor.com/ssr/app/accor/rates/6526/index.en.shtml?compositions=1&stayplus=false&snu=false&accessibleRooms=false&hideWDR=false&productCode=null&hideHotelDetails=false</a>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span
                             style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>&nbsp;</span>
                     </p>
@@ -881,8 +892,7 @@
                             alt="">
                     </div>
 
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>For
                             further information, please visit our conference contact the Organizing Committee at
                             biu.2025asaihl@beltei.edu.kh.</span>
@@ -892,37 +902,31 @@
 
 
 
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span
                             style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>&nbsp;</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <strong><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Transportation</span></strong>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span
                             style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-Pick
                             &amp; Drop service is provided on your request. (From the airport to hotel and from hotel to the
                             conference)</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span
                             style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-Pass
                             App/Crab is recommended for public taxi.</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span
                             style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-Please
                             contact us at (+855) 78 8888 03/78 221 222 (Telegram, WhatsApp,)</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-Our
                             Email:&nbsp;</span><a href="mailto:biu.2025asaihl@beltei.edu.kh"><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>biu.2025asaihl@beltei.edu.kh</span></a>
@@ -955,76 +959,63 @@
                     <p><strong><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Visa
                                 Information</span></strong></p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <strong><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>I-Visa-Free
                                 Entry (up to 30 days):</span></strong>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span
                             style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Brunei,
                             Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Vietnam.</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <strong><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>II-Cambodia
                                 E-visa</span></strong>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-For
                             visa information, please refer to https://www.evisa.gov.kh/</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-For
                             any general information regarding travel to Cambodia, kindly check the latest travel regulations
                             or contact us at (+885) 78 888 803 / (+855) 78 221 222 (Telegram, WhatsApp,)</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>Our
                             Email: biu.2025asaihl@beltei.edu.kh</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <strong><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>III-
                                 e-Arrival</span></strong>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-The
                             Cambodia e-Arrival Card (CeA) is&nbsp;a digital immigration form that replaces the traditional
                             paper-based forms required upon arrival in Cambodia.</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-
                             All travelers can submit the Cambodia e-Arrival within 7 days before their arrival</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'>
                         <span style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;color:#212529;'>-For
                             any general information regarding The Cambodia e-Arrival Card (CeA), kindly check&nbsp;</span><a
                             href="https://arrival.gov.kh/"><span
                                 style='font-size:16px;line-height:150%;font-family:"Segoe UI",sans-serif;'>https://arrival.gov.kh/</span></a>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:normal;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:normal;'>
                         <span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#212529;'>&nbsp;</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:normal;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:normal;'>
                         <span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#212529;'>-For any general
                             information regarding travel to Cambodia, kindly check &nbsp;the latest travel regulations or
                             contact us at (+885) 78 888 803 / (+855) 78 221 222 (Telegram, WhatsApp,)</span>
                     </p>
-                    <p
-                        style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:normal;'>
+                    <p style='font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:normal;'>
                         <span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#212529;'>Our Email:
                             biu.2025asaihl@beltei.edu.kh</span>
                     </p>
@@ -1078,6 +1069,11 @@
 
         <div class="frame my-2 d-flex justify-content-center">
 
+            <iframe class="w-100" width="560" height="415"
+                src="https://www.youtube.com/embed/xp1W9G_zZXg?si=qwG0YrFxYnDxpFtd" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <iframe class="w-100" width="560" height="415"
                 src="https://www.youtube.com/embed/XRg3XUz24fI?si=2QaYU0zGICIybOme" title="YouTube video player"
                 frameborder="0"
