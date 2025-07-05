@@ -716,7 +716,8 @@
                         The President of BELTEI International University</span></p>
                 <p><span>-Keynote Speech by <strong>H.E. Dr. Ly Chheng</strong>, The Member of the National Assembly for
                         Phnom Penh Capital City Cambodia, Founder &amp; Director-General of BELTEI Group</span></p>
-                <p><span>-Video Clip of Keynote Adress by <strong>Professor Dr. Wilert Purivatra</strong>, the President of
+                <p><span>-Video Clip of Keynote Adress by <strong>Professor Wilert Puriwat, D.Phil. (Oxon)</strong>, the
+                        President of
                         ASAIHL</span></p>
                 <p><span>-Opening Speech by <strong>H.E Dr. Sann Vathana</strong>, Secretary of State of Education Youth and
                         Sport</span></p>
