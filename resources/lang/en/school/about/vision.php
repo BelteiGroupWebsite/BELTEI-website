@@ -8,67 +8,49 @@ return [
     <h6 class="font-bolder mt-3 mb-2">
         A-Vision
     </h6>
-    BELTEI International school will become the school which has the high quality of education in accordance with the
-    national and international standards; the most well-known institute in Cambodia and it will be worldwide recognized.
-    Students who graduated from BELTEI International school have enough abilities in mental ability, general knowledge,
-    English, Computer, Science, technics and specific skills to challenge into both local and international labor markets
-    successfully, in accordance with BELTEI’s slogan:
+    <p>
+        BELTEL International School will become a leading and well known school in Cambodia with high quality of education in accordance with the national and international standards and it will be worldwide recognized. Students who graduated from BELTEI International School have enough abilities in mental ability, general knowledge, English, Computer, Technical Science and specific skills to challenge both local and international labor markets successfully, in accordance with BELTEI\'s slogan: <b>"BELTEI, the Best Quality of Education in Cambodia".</b>
+    </p>
 
-
-    <h5 class="text-center font-bolder mt-3 mb-2">
-        “BELTEI, the Best Quality of Education in Cambodia”
-    </h5>
 
     <h6 class="font-bolder mt-3 mb-2">
     B-Mission
     </h6>
     <p>
-    To achieve the vision above, the school has set the mission to improve the educational field by offering the important
-    life skills to the students proficiently such as analyzing, thinking, reading, writing, speaking, and being
-    self-confidence in their study through the 5 main programs:
+        <span>In order to achieve the above
+            vision, our school set the mission to promote the education quality by providing students with new knowledge and
+            new experiences from a total of 114 teachers:</span>
     </p>
-    <ul>
-        <li>
-        1. General Education- starts from grade 1 to 12.
-        </li>
-        <li>
-        2. ESL (English as a Second Language)- starts from Pre-school to level 12.
-        </li>
-        <li>
-        3. Intelligent Mental Arithmetic (IMA).
-        </li>
-        <li>
-        4. Computer Training Course.
-        </li>
-        <li>
-        5. International Preparation Courses- consists of TOEFL, Password and ICDL.
-        </li>
-    </ul>
-
-
     <p>
-    All subjects have been taught by teachers and lecturers who graduated and had enough experience in teaching. All the
-    facilities are modern and imported from USA. It is equipped with air conditioners and close-circuit cameras in all the
-    classrooms for monitoring students\' learning and teacher\'s teaching. One room is limited only 30 to 40 students.
-    The management is well structured from top level to low level. All of campuses in BELTEI International Institute
-    implement only one standard "BELTEI Standard" on new term, monthly test, mid-term /semester exam and final exam. We
-    are proud that all our campuses are equipped with powerful generators 150KVA, and all the buildings belong to BELTEI,
-    Which provided the opportunities to student with regular learning without disturbance.
+        <span>- General Education (Preschool,
+            Grade 1 to 12)</span>
     </p>
+    <p>
+        <span>- ESL Program (Preschool, Level
+            1 to 12), as well as important life</span>
+    </p>
+    <p>
+        <span>skills such as: writing,
+            reading, speaking, listening, critical thinking, analytical skills and self-confidence. Our target is to let
+            students reach high school diploma national exam (BACII) with pass 95% up and overall band score 5.0 IELTS up
+            for International Test upon the completion of Level 12. All subjects are taught by qualified and experienced
+            teachers with the pedagogy in the teaching profession. Modern study materials are imported from abroad.
+            Classrooms are equipped with air-conditioners, security cameras to monitor students studies and teachers
+            teaching, and limit the number of students to 36 per class. The management structure is smooth and robust from
+            top to bottom. All BELTEI campuses follow the same standard (BELTEI Standard) on the day of enrollment, monthly
+            exam, midterm exam and final exam. We are also proud that all BELTEI campuses are equipped with 150KVA
+            generators and all campuses are owned by BELTEI which be able to provide students with the opportunity of study
+            consistently without interruption.</span>
+    </p>
+
 
     <h6 class="font-bolder mt-3 mb-2">
     C-Goals
     </h6>
 
     <p>
-    With clear vision and defined mission for the improvement of the quality of education, we strongly believe that the
-    students who graduated from BELTEI International school will gain the high quality of education in accordance with
-    national and international standards. Furthermore, students who are studying at BELTEI International school can transfer
-    to study abroad and they can study the same level as well as study in BELTEI. When the students finish their studies
-    from BELTEI, they will become good citizens and leaders with high morality, virtues, and full of ability in general
-    knowledge, English, computer and specific skills and they can use their abilities effectively to face the challenge in
-    both national and international labor markets in accordance with BELTEI’s motto: Quality, Efficiency, Excellence,
-    Morality, and Virtue like a Bamboo shoot growing up to be Bamboo for the future of Nation.
+        With a clear vision and defined mission for the improvement of the quality of education, we strongly believe that the students who graduated from BELTEI International School will gain the quality of education in accordance with national and international standards. Furthermore, students who are studying at BELTEI International School can transfer to study abroad and can study at the same level as they study in BELTEI. When finishing their studies at BELTEI, they will become good citizens and leaders with morality, virtues, and ability in general knowledge, English, computer and specific skills. 
+        They can use their abilities effectively to face the challenge in both national and international labor markets in accordance with BELTEl\'s motto: <b>"Quality, Efficiency, Excellence, Morality, Virtue"</b> like a Bamboo shoot growing up to be Bamboo for the future of the country.
     </p>
 
 </div>'
