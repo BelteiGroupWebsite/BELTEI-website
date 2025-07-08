@@ -5,15 +5,92 @@
 
         <h3 class="title-translate-font p-3 bg-success text-white">Public Speaking Content</h3>
         <hr>
+
+       
+        
+
+
         <div>
             <iframe class="w-100 aspect-ratio-16" id="vd-container"
-                src="https://www.youtube.com/embed/YqmUKjLuzzk?si=zYCwRjWHpnsI2iUk" title="YouTube video player"
+                src="https://www.youtube.com/embed/2N-4cnZXAf0?si=npxyFo3kRuO9DkH-" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
+        <hr>
+
+
+                 {{--  --}}
+        
+        <h6 class="content-translate-font p-3 bg-success text-white">សូមរីករាយទស្សនាវីដេអូ កម្មវិធី “ប្រកួតជជែកដេញដោល ផ្នែកភាសាអង់គ្លេស” រដូវកាលទី២ ឆ្នាំ២០២៤ របស់សិស្សកម្រិតទី៩ & ១០ វគ្គផ្តាច់ព្រ័ត្រ ក្រោមប្រធានបទ៖ "ការកំណត់អាយុក្នុងការសេពគ្រឿងស្រវឹងគឺជាជម្រើសដ៏ល្អបំផុតក្នុងការធានាសុខុមាលភាពយុវជននៅកម្ពុជា"។ នារសៀលថ្ងៃអង្គារ ទី២៧ ខែមិថុនា ឆ្នាំ២០២៥ នៅសាលសន្និសីទ នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិទីតាំងទី២ (ស្ពានអាកាសចោមចៅ)។</h6>
+        <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
+            វីដេអូវគ្គទី១ និង វគ្គទី២
+        </h5>
+        <div class="row">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/2N-4cnZXAf0/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/2N-4cnZXAf0?si=npxyFo3kRuO9DkH-">
+                </div>
+            </div>
+
+
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/Dke1nB1p9g8/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/Dke1nB1p9g8?si=mid6ih2Y1GsCFwFj">
+                </div>
+            </div>
+        </div>
+        <hr class="border border-success border-3">
 
         <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
+            វីដេអូវគ្គទី៣ និង វគ្គទី៤
+        </h5>
+        <div class="row">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/_PtnkLt3FjE/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/_PtnkLt3FjE?si=-Ru3i2Dijmm9eLpZ">
+                </div>
+            </div>
+
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/NLZh12uMyl8/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/NLZh12uMyl8?si=m6okA_LcYTlzepNn">
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="border border-success border-3">
+
+        <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
+            វីដេអូវគ្គទី៥
+        </h5>
+        <div class="row justify-content-center">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/_IULLMPcjmc/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/_IULLMPcjmc?si=g7-DWIdtSUwaGr-U">
+                </div>
+            </div>
+
+        </div>
+
+
+
+        {{--  --}}
+        
+        
+        
+
+         {{--  --}}
+        
         <h6 class="content-translate-font p-3 bg-success text-white">សូមរីករាយទស្សនាវីដេអូ កម្មវិធី “ប្រកួតជជែកដេញដោល ផ្នែកភាសាអង់គ្លេស” រដូវកាលទី២ ឆ្នាំ២០២៤ របស់សិស្សកម្រិតទី៩ & ១០ វគ្គផ្តាច់ព្រ័ត្រ ក្រោមប្រធានបទ៖ "ការចូលរួមចំណែកពីសាលារៀន និងគ្រូបង្រៀនគឺជាកត្តាចម្បងក្នុងការកែទម្រង់វិស័យអប់រំកម្ពុជា"។ នារសៀលថ្ងៃអង្គារ ទី០៩ ខែកក្កដា ឆ្នាំ២០២៤ នៅសាលសន្និសីទ នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិទីតាំងទី២ (ស្ពានអាកាសចោមចៅ)។</h6>
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
@@ -75,6 +152,9 @@
         </div>
 
 
+
+        {{--  --}}
+        
 
 
         <hr>
