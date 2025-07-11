@@ -7,7 +7,7 @@
 
         <h2 class="title-translate-font my-3 underline">{{ __('school/about/belteigroup.header') }}</h2>
         
-        <div class="row g-3">
+        <div class="row g-3 mb-2">
             <div class="col-12 col-md-6">
                 <img class="w-100" src="{{ asset('assets/images/school/belteigroup.jpg') }}" alt="">
             </div>
