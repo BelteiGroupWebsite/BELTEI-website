@@ -19,6 +19,11 @@
 
     </div>
 
+
+
+
+
+
     <script>
         var lang = document.documentElement.getAttribute("lang");
         if (lang == "kh") {
@@ -39,20 +44,20 @@
                 "ក្រុងតាខ្មៅ",
                 "ផ្សារជម្ពូវ័ន",
                 "ផ្លូវកោងវែងស្រេង",
-                "ឫស្សីកែវ",
-                "ផ្សារព្រែកឯក",
+                "ឫស្សីកែវគីឡូលេខ១០",
+                "ផ្សារព្រែកឯង",
                 "ផ្សារព្រែកលៀប",
                 "ចោមចៅ",
                 "ផ្សារឈូកមាស",
-                "រង្វង់មូលគួរស្រូវ",
+                "រង្វង់មូលកួរស្រូវ",
                 "ផ្លូវព្រៃសស្តុបឫស្សីសាញ់",
-                "រង្វង់មូលព្រែកតាមាក់",
-                "ស្ថានីបូមទឹកផ្លូវ",
+                "រង្វង់មូលគល់ស្ពានព្រែកតាមាក់",
+                "ស្ថានីយបូមទឹកផ្លូវ៣៧១",
                 "ព្រែកប្រា",
-                "",
-                "",
-                "",
-                "",
+                "ព្រែកព្នៅ បុរី លី សុវណ្ណ",
+                "វត្តអង្គតាម៉ិញ",
+                "ទួលពង្រ",
+                "បុរីអរគីដេ៦អា",
             ];
         } else {
             var campusNameArr = [
@@ -67,28 +72,32 @@
                 "Steung Meanchey",
                 "Ang Teuk Olympic",
                 "Phsar Touch",
-
                 "Phsar Deihoy",
                 "Comko City",
                 "Takhmao Town",
                 "Phsar Chumpu Vorn",
                 "Phlov Yeng Sreng",
                 "Russey Keo",
-                "Phsar Preak Eak",
+                "Psar Prek Eng",
                 "Phsar Preak Leap",
                 "Chom Chao",
                 "Phsar Chhouk Meas",
-                "Kour Srov",
+                "Kour Srov Roundabout",
                 "Preysor Russey Sanh",
-                "Prek Ta Mek",
+                "Prek Tamak Roundabout",
                 "Pumping Station 371",
-                "Preak Pra",
-                "B27",
-                "B28",
-                "B29",
-                "B30",
+                "Prek Pra",
+                "Prek Pnov Borey Ly Sovann",
+                "Wat Ang Taminh",
+                "Phsar Tuol Pongro",
+                "Orkide The Botanic City 6A",
             ];
         }
+
+
+
+
+
 
         if (lang == "kh") {
             var descriptionArray = [
@@ -108,14 +117,20 @@
                 'ស្ថិត​នៅ​អ​គារ​លេខ​ ៧៨៦​A ផ្លូវ​ជាតិ​លេខ​២ ​សង្កាត់​ព្រែក​ឫ​ស្សី​ ក្រុង​តា​ខ្មៅ​ ខេត្ត​កណ្តាល​ ដែលបានដាក់សម្ពោធអោយដំណើរការនៅថ្ងៃទី០៤ ខែឧសភា ឆ្នាំ២០១៥ ក្រោម​អធិ​បតី​ភាព​ ឯក​ឧត្តម​ លី ​ឆេង​ អគ្គ​នា​យក​ ប៊ែល​ធី​ គ្រុប​ និង​លោក​ជំ​ទាវ​។ អ​គារ​ប៊ែល​ធី​ទី​១៤​នេះ​ មាន​កំ​ពស់​ ៧​ជាន់​ ចំ​ណត​ក្រោម​ដី​០១​ជាន់​ និង​មាន​ ៧0​បន្ទប់​ ដោយ​មាន​ទី​ធ្លា​ខាង​លើ​សម្រាប់​ហាត់​ប្រាណ​-​លំ​ហែ​កាយ​ និង​អា​ហារ​ដ្ឋាន​​ ដែល​ជា​កម្ម​សិទ្ធិ​ផ្ទាល់ខ្លួន​ និង​សាង​សង់​ដោយ​ខ្លួន​ឯង​ផ្ទាល់។',
                 'ស្ថិត​នៅ​អ​គារ​លេខ​ ១១៩A ផ្លូវ​ជាតិ​លេខ​៤ ភូមិជម្ពូវ័ន ​សង្កាត់ចោមចៅ ខណ្ឌពោធិ៍សែនជ័យ រាជធានីភ្នំពេញ​ ដែលបានសម្ពោធបើកអោយដំណើរការនៅថ្ងៃទី៣០ ខែកញ្ញា ឆ្នាំ២០៥ ក្រោម​អធិ​បតី​ភាព​ ឯក​ឧត្តម​ លី ​ឆេង​ អគ្គ​នា​យក​ ប៊ែល​ធី​ គ្រុប​ និង​លោក​ជំ​ទាវ​។ អ​គារ​ប៊ែល​ធី​ទី​១៥​នេះ​ មាន​កំ​ពស់​ ០៤​ជាន់​ ចំ​ណត​ក្រោម​ដី​០១​ជាន់​ និង​មាន​ ៦៧​បន្ទប់​ ដោយ​មាន​ទី​ធ្លា​ខាង​លើ​សម្រាប់​ហាត់​ប្រាណ​-​លំ​ហែ​កាយ​ និង​អា​ហារ​ដ្ឋាន​​ ដែល​ជា​កម្ម​សិទ្ធិ​ផ្ទាល់ខ្លួន​ និង​សាង​សង់​ដោយ​ខ្លួន​ឯង​ផ្ទាល់។',
                 'ស្ថិត​នៅ​អ​គារ​លេខ​ ៧៧A ផ្លូវ​វេង​ស្រេង​ ភូមិ​ជ្រៃ​កោង ​សង្កាត់​ចោម​ចៅ​ ខណ្ឌ​ពោធិ៍​សែន​ជ័យ​ រាជ​ធា​នី​ភ្នំ​ពេញ​ ដែល​បាន​សម្ពោធ​បើក​ឱ្យ​ដំ​ណើរ​ការ​នៅថ្ងៃទី៣០ ខែឧសភា ឆ្នាំ២០១៦ ក្រោម​អធិ​បតី​ភាព​ដ៏​ខ្ពង់​ខ្ពស់​របស់​ ឯក​ឧត្តម​ លី ​ឆេង​ អគ្គ​នា​យក​ប៊ែល​ធី​ គ្រុប​ និង​ជា​សា​កល​វិ​ទ្យា​ធិ​ការ​ សា​កល​វិ​ទ្យា​ល័យ ​ប៊ែល​ធី​ អន្តរ​ជាតិ​ និង​លោក​ជំ​ទាវ​ ។ សា​លា​ប៊ែល​ធី​ទី​១៦​ សង់​ឡើង​ពី​បេ​តុង​អាម៉េ​(Reinforced Concrete) មាន​កម្ពស់​ ០៤ជាន់​ មាន​ ៨២បន្ទប់​ និង​មាន​ជាន់​ក្រោម​ដី​សម្រាប់​ធ្វើ​ជា​ចំ​ណត​កង់​-​ម៉ូ​តូ ដែល​ជា​កម្ម​សិទ្ធិ​ផ្ទាល់ខ្លួន​ និង​សាង​សង់​ដោយ​ខ្លួន​ឯង​ផ្ទាល់។',
-                'ស្ថិតនៅផ្លូវជាតិលេខ៥​ ​សង្កាត់​ស្វាយប៉ាក ខណ្ឌ​ឫស្សីកែវ រាជ​ធា​នី​ភ្នំ​ពេញ​ ដែល​បាន​សម្ពោធ​បើក​ឱ្យ​ដំ​ណើរ​ការនៅថ្ងៃទី០២ ខែឧសភា ឆ្នាំ២០១៧ ​ក្រោម​អធិ​បតី​ភាព​ដ៏​ខ្ពង់​ខ្ពស់​របស់​ ឯក​ឧត្តម​ លី ​ឆេង​ អគ្គ​នា​យក​ប៊ែល​ធី​ គ្រុប​ និង​ជា​សា​កល​វិ​ទ្យា​ធិ​ការ​ សា​កល​វិ​ទ្យា​ល័យ ​ប៊ែល​ធី​ អន្តរ​ជាតិ​ និង​លោក​ជំ​ទាវ​ ។',
-                'ស្ថិតនៅផ្លូវជាតិលេខ១​ ភូមិព្រែកជាងព្រំ ​សង្កាត់​វាលស្បូវ ខណ្ឌ​ច្បារអំពៅ រាជ​ធា​នី​ភ្នំ​ពេញ​ ដែលមានកម្ពស់ ៧ជាន់ មាន៧២បន្ទប់ ក្នុងនោះមានជាន់ក្រោមដី​ធំទូលាយសម្រាប់ចតឡាន ម៉ូតូ ​ទី​ធ្លា​ខាង​លើ​សម្រាប់​ហាត់​ប្រាណ​-​លំ​ហែ​កាយ​ និង​អា​ហារ​ដ្ឋាន ព្រមទាំងមានក្លោងទ្វារដែលជាអត្តសញ្ញាណរបស់ប៊ែលធីផងដែរ និង​បាន​សម្ពោធ​បើក​ឱ្យ​ដំ​ណើរ​ការនៅថ្ងៃទី២៩ ខែមីនា ឆ្នាំ២០១៨ ​ក្រោម​អធិ​បតី​ភាព​ដ៏​ខ្ពង់​ខ្ពស់​របស់​ ឯក​ឧត្តម​ លី ​ឆេង​ អគ្គ​នា​យក​ប៊ែល​ធី​ គ្រុប​ និង​ជា​សា​កល​វិ​ទ្យា​ធិ​ការ​ សា​កល​វិ​ទ្យា​ល័យ ​ប៊ែល​ធី​ អន្តរ​ជាតិ​ និង​លោក​ជំ​ទាវ​ ដែល​ជា​កម្ម​សិទ្ធិ​ផ្ទាល់ខ្លួន​ និង​សាង​សង់​ដោយ​ខ្លួន​ឯង​ផ្ទាល់។',
+                'ស្ថិតនៅផ្លូវជាតិលេខ ៥ សង្កាត់ស្វាយប៉ាក ខណ្ឌប្ញស្សីកែវ រាជធានីភ្នំពេញ បានសម្ពោធបើកឲ្យដំណើរការនៅថ្ងៃទី២៧ ខែកក្កដា      ឆ្នាំ២០១៧ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ ឯកឧត្តមបណ្ឌិត លី ឆេង អគ្គនាយកប៊ែលធីគ្រុប និងជាសាកលវិទ្យាធិការសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលាប៊ែលធីទី១៧ សង់ឡើងពី   បេតុងអាម៉េកម្ពស់ ៧ជាន់មាន ៧០បន្ទប់ និងមានជាន់ក្រោមដី  សម្រាប់ធ្វើជាចំណតកង់ម៉ូតូ។',
+                'ស្ថិតនៅផ្លូវជាតិលេខ១ ភូមិព្រែកជាងព្រំ សង្កាត់វាលស្បូវ ខណ្ឌច្បារអំពៅ រាជធានីភ្នំពេញ បានសម្ពោធបើកឲ្យដំណើរការនៅថ្ងៃទី២៩ ខែមីនា ឆ្នាំ២០១៨ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ ឯកឧត្តមបណ្ឌិត លី ឆេង អគ្គនាយកប៊ែលធីគ្រុប និងជាសាកលវិទ្យាធិការ សាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលាប៊ែលធីទី១៨ សង់ឡើងពីបេតុងអាម៉េកម្ពស់៨ជាន់មាន ៧២បន្ទប់ និងមានជាន់ក្រោមដីសម្រាប់ធ្វើជាចំណតកង់ម៉ូតូ។',
                 'ស្ថិតនៅ​ ផ្លូវជាតិលេខ ៦អា សង្កាត់​ព្រែលលៀប ខណ្ឌជ្រោយចង្វាររាជធានីភ្នំពេញ បានសម្ពោធបើកឱ្យដំណើរការនៅថ្ងៃទី២៥ ខែកក្កដា ២០១៨ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ ឯកឧត្តម បណ្ឌិត លី ឆេង អគ្គនាយកប៊ែលធី គ្រុប និងជាសាកលវិទ្យាធិការ សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។ សាលាប៊ែលធីទី១៩ សង់ឡើងពីបេតុងអាម៉េ កម្ពស់ ០៨ជាន់ មាន ៧០បន្ទប់ និងមានជាន់ផ្ទាល់ដី សម្រាប់ចតកង់-ម៉ូតូ។ ​',
                 'សិ្ថតនៅផ្លូវជាតិលេខ៣​ សង្កាត់ចោមចៅ៣ខណ្ឌពោធិ៍សែនជ័យ ​ រាជ​ធា​នី​ភ្នំ​ពេញ​ ដែល​បាន​សម្ពោធ​បើក​ឱ្យ​ដំ​ណើរ​ការ​នៅ ថ្ងៃទី០៤ ខែមីនា ឆ្នាំ២០១៩ ក្រោម​អធិ​បតី​ភាព​ដ៏​ខ្ពង់​ខ្ពស់​របស់​ ឯក​ឧត្តម​បណ្ឌិត លី ​ឆេង​ តំណាងរាស្ដ្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គ​នា​យក​ ប៊ែល​ធី​គ្រុប​ និង​ជា​ប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។​ សាលាប៊ែលធីទី២០​ សាងសង់​ឡើង​ពី​បេ​តុង​អាម៉េ​មាន​កម្ពស់​ ០៥ជាន់​ មាន​ ៧៥បន្ទប់​ និង​មាន​ជាន់​ក្រោម​ដី​សម្រាប់​ធ្វើ​ជា​ចំ​ណត​កង់​-​ម៉ូ​តូ ។',
                 'សិ្ថតនៅ ផ្លូវឧកញ៉ាំ ទ្រីហេង​ ភូមិគោកឃ្លាង សង្កាត់គោកឃ្លាងខណ្ឌពោធិ៍សែនសុខ ​ រាជ​ធា​នី​ភ្នំ​ពេញ។​ ដែល​បាន​សម្ពោធ​បើក​ឱ្យ​ដំ​ណើរ​ការ​នៅ ថ្ងៃទី០៣ ខែកញ្ញា ឆ្នាំ២០២០ ក្រោម​អធិ​បតី​ភាព​ដ៏​ខ្ពង់​ខ្ពស់​របស់​ ឯក​ឧត្តម​បណ្ឌិត លី ​ឆេង​ តំណាងរាស្ដ្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គ​នា​យក​ ប៊ែល​ធី​គ្រុប​ និង​ជា​ប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។​ សាលាប៊ែលធីទី២១ សាងសង់​ឡើង​ពី​បេ​តុង​អាម៉េ​មាន​កម្ពស់​ ០៩ជាន់​ មាន​ ១១៥បន្ទប់​ និង​មាន​ជាន់​ក្រោម​ដី​សម្រាប់​ធ្វើ​ជា​ចំ​ណត​កង់​-​ម៉ូ​តូ ។',
-                'សិ្ថតនៅផ្លូវជាតិលេខ២​ ភូមិក្រាំស្វាយ សង្កាត់ព្រែកកំពឹសខណ្ឌដង្កោ ​ រាជ​ធា​នី​ភ្នំ​ពេញ។​ ដែល​បាន​សម្ពោធ​បើក​ឱ្យ​ដំ​ណើរ​ការ​នៅ ថ្ងៃទី៣០ ខែសីហាឆ្នាំ២០២១ ក្រោម​អធិ​បតី​ភាព​ដ៏​ខ្ពង់​ខ្ពស់​របស់​ ឯក​ឧត្តម​បណ្ឌិត លី ​ឆេង​ តំណាងរាស្ដ្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គ​នា​យក​ ប៊ែល​ធី​គ្រុប​ និង​ជា​ប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។​ សាលាប៊ែលធីទី២២ សាងសង់​ឡើង​ពី​បេ​តុង​អាម៉េ​មាន​កម្ពស់​ ០៩ជាន់​ មាន​ ១៥៦បន្ទប់​ និង​មាន​ជាន់​ក្រោម​ដី​សម្រាប់​ធ្វើ​ជា​ចំ​ណត​កង់​-​ម៉ូ​តូ ។',
+                'ស្ថិតនៅផ្លូវជាតិលេខ២ ភូមិក្រាំងស្វាយ សង្កាត់ ព្រែកកំពឹស ខណ្ឌដង្កោ រាជធានីភ្នំពេញ។ បានសម្ពោធបើកឱ្យដំណើរការ       នៅថ្ងៃទី៣០ ខែសីហា ឆ្នាំ ២០២១ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ ឯកឧត្តមបណ្ឌិត លី ឆេង អគ្គនាយក ប៊ែលធីគ្រុប  និងជាប្រធានក្រុមប្រឹក្សាភិបាលនៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។ សាលាប៊ែលធីទី២២ សង់ឡើងពីបេតុងអាម៉េ កម្ពស់៩ជាន់ មាន ១៥៦ បន្ទប់ និងមានជាន់ក្រោមដីសម្រាប់ ធ្វើជាចំណត កង់-ម៉ូតូ។',
                 'ស្ថិតនៅភូមិប្រការ សង្កាត់ព្រៃស ខណ្ឌដង្កោ រាជធានីភ្នំពេញ បានសម្ពោធបើកឱ្យដំណើរការ នៅថ្ងៃទី២៩ ខែសីហា ឆ្នាំ ២០២២ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ ឯកឧត្តម បណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌល រាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គនាយកប៊ែលធី គ្រុបនិង ជាប្រធានក្រុម ប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលា ប៊ែលធីទី២៣ សង់ឡើងពីបេតុង អាម៉េ កម្ពស់ ៩ជាន់ មាន ១៧៩បន្ទប់ និងមានជាន់ក្រោមដីសម្រាប់ធ្វើជាចំណត កង់-ម៉ូតូ។',
-                'ស្ថិតនៅ ភូមិព្រែកតាមាក់ ឃុំព្រែកតាមាក់ ស្រុកខ្សាច់ កណ្តាល ខេត្តកណ្តាល បានសម្ពោធបើកឱ្យដំណើរការ នៅថ្ងៃទី០៥ ខែកញ្ញា ឆ្នាំ ២០២២ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ ឯកឧត្តម បណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌល រាជធានីភ្នំពេញ ស្ថាបនិកនិងជាអគ្គនាយកប៊ែលធី គ្រុបនិង ជាប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលាប៊ែលធីទី២៤ សង់ឡើងពីបេតុង អាម៉េ កម្ពស់ ៩ជាន់ មាន ១៧៣បន្ទប់ និងមានជាន់ក្រោមដីសម្រាប់ធ្វើជា ចំណត កង់-ម៉ូតូ។',
+                'ស្ថិតនៅអគារលេខ៤ ផ្លូវជាតិលេខ៨ ឃុំព្រែកតាមាក់ ស្រុកខ្សាច់កណ្តាល។ បានសម្ពោធបើកឱ្យដំណើរការ នៅថ្ងៃទី២៩ ខែសីហា ឆ្នាំ ២០២២ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់របស់ឯកឧត្តមបណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថានិក និងជាអគ្គនាយក ប៊ែលធីគ្រុប  និងជាប្រធានក្រុមប្រឹក្សាភិបាលនៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។ សាលាប៊ែលធីទី២៤ សង់ឡើងពីបេតុង អាម៉េ កម្ពស់៩ជាន់ មាន ១៧៣ បន្ទប់ និងមានជាន់ក្រោមដីសម្រាប់ ធ្វើជាចំណត កង់-ម៉ូតូ។',
+                'ស្ថិតនៅជិតស្ថានីយបូមទឹក ផ្លូវ៣៧១ ភូមិត្នោតជ្រុំ៣ សង្កាត់បឹងទំពន់២ ខណ្ឌមានជ័យ រាជធានីភ្នំពេញ បើកដំណើរការនៅថ្ងៃទី០១ ខែកញ្ញា ឆ្នាំ២០២៣ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ ឯកឧត្តមបណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិក និងជាអគ្គនាយកប៊ែលធី គ្រុប និងជាប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលា ប៊ែលធី អន្តរជាតិទី២៥ សង់ឡើងពីបេតុង អាម៉េកម្ពស់ ១០ជាន់មាន ១២៦បន្ទប់ និងមានជាន់ក្រោមដីចំនួន ២ជាន់ សម្រាប់ធ្វើជាចំណត កង់-ម៉ូតូ។',
+                'ស្ថិតនៅអគារលេខ ៣៦២-៣៦៣ ផ្លូវ៣៦៩ ភូមិអូរអណ្តូង សង្កាត់ព្រែកប្រា ខណ្ឌច្បារអំពៅ រាជធានីភ្នំពេញ បើកដំណើរការនៅថ្ងៃទី០១ ខែកញ្ញា ឆ្នាំ ២០២៣ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ ឯកឧត្តមបណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិក និងជាអគ្គនាយកប៊ែលធី គ្រុប និងជាប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលា ប៊ែលធី    អន្តរជាតិទី២៦ សង់ឡើងពីបេតុងអាម៉េកម្ពស់ ៩ជាន់ មាន ១៥៤បន្ទប់ និងមានជាន់ក្រោមដី សម្រាប់ធ្វើជា ចំណត កង់-ម៉ូតូ។',
+                'ស្ថិតនៅផ្លូវទំនប់កប់ស្រូវ សង្កាត់ព្រែកព្នៅ ខណ្ឌព្រែកព្នៅ រាជធានីភ្នំពេញ។ បើកដំណើរការ នៅថ្ងៃទី១១ ខែមីនា ឆ្នាំ២0២៤ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ ឯកឧត្តមបណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិក និងជាអគ្គនាយកប៊ែលធី គ្រុប និងជាប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលា  ប៊ែលធី អន្តរជាតិទី២៧  សង់ឡើងពីបេតុង អាម៉េ កម្ពស់ ៩ជាន់ មាន ១៨៤បន្ទប់ និងមានជាន់ក្រោមដី សម្រាប់ធ្វើជាចំណត កង់- ម៉ូតូ។',
+                'ស្ថិតនៅអគារលេខ ២០៤ ផ្លវ ២០០៤ ភូមិគោកចំបក់ សង្កាត់ចោមចៅ ខណ្ឌពោធិសែនជ័យ រាជធានីភ្នំពេញ។ បើកដំណើរការនៅថ្ងៃទី០១ ខែកញ្ញា ឆ្នាំ២0២៤ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ ឯកឧត្តមបណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិក និងជាអគ្គនាយកប៊ែលធី គ្រុប និងជាប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលា ប៊ែលធីទី២៨ សង់ឡើងពីបេតុងអាម៉េកម្ពស់ ៩ជាន់ មាន ១៥៧បន្ទប់ និងមានជាន់ក្រោមដី សម្រាប់ធ្វើជា ចំណត កង់-ម៉ូតូ។',
+                'ស្ថិតនៅអគារលេខ៦៥៨៥ ផ្លូវបេតុង ភូមិត្រពាំងរំចេក សង្កាត់ចោមចៅ១ ខណ្ឌពោធិ៍សែនជ័យ រាជធានីភ្នំពេញ បើកដំណើរការនៅថ្ងៃទី០៣ ខែមីនា ឆ្នាំ២០២៥ ក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ ឯកឧត្តមបណ្ឌិត លី ឆេង តំណាងរាស្ត្រមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិក និងជាអគ្គនាយកប៊ែលធីគ្រុប និងជាប្រធានក្រុមប្រឹក្សាភិបាលសាកលវិទ្យាល័យប៊ែលធី អន្តរជាតិ។ សាលា ប៊ែលធីទី២៩ សង់ឡើងពីបេតុងអាម៉េកម្ពស់ ៩ជាន់ មាន ២០២បន្ទប់ និងមានជាន់ក្រោមដី សម្រាប់ធ្វើជា ចំណត កង់-ម៉ូតូ។',
+                'ស្ថិតនៅអគារលេខ៤៥១១ ភូមិព្រែកតាគង់ សង្កាត់ព្រែកតាសេក ខណ្ឌជ្រោយចង្វារ  រាជធានីភ្នំពេញ។',
 
             ]
         } else {
@@ -137,14 +152,19 @@
                 'BELTEI International School Campus 15 (Phsar Chompovorn), which is located at Building Nº 119A, National Road number 4, Chumpou Vorn Village, Sangkat Chaom Chao, Khan Posenchey, Phnom Penh Capital City. The BELTEI International Institute Campus 15 building consists of 04 floors including a basement for parking; 67 classrooms; terrace for exercise; and a canteen , which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
                 'It is located at Nº 77A Veng Sreng Street, Chrey Koang Village, Sangkat Posenchey, Phnom Penh City. It was inauguration on May 30, 2016 and highly presided over by H.E. Ly Chheng, Director-General of BELTEI Group and President of BELTEI International University and Lok Chum Teav. It is a four-storey reinforced concrete building with 82 rooms and basement for parking lot, which was built by BELTEI Construction Company of BELTEI Group, and it belongs to BELTEI.',
                 'It is located at the National Road No 5, Sangkat Svay Pak, Khan Russey Keo,  Phnom Penh City. It was inauguration on May 02, 2017 and highly presided over by H.E. Ly Chheng, Director-General of BELTEI Group and President of BELTEI International University and Lok Chum Teav.',
-                'It is located at the National Road No 1, Preak Cheang Prom Village, Sangkat Veal Sbov, Khan Chbar Ampov,  Phnom Penh City. It is schedule to open in 2017.',
+                'It is located at the National Road No.1, Prek Cheang Prom Village, Sangkat Veal Sbov, Khan Chbar Ampov, Phnom Penh city. It was inaugurated on March 29, 2018 and highly presided over by H.E. Dr. Ly Chheng, Director-General of BELTEI Group and President of BELTEI International University. It is a eight-storey reinforced concrete building with 72 rooms and a basement for parking.',
                 'It is located at the National Road Nº 6A, Sangkat Preak Leab, Khan Chroy Changvar, Phnom Penh City. It was inaugurated on July 25, 2018 and highly presided over by H.E. Dr. LY Chheng, Director-General of BELTEI Group and President of BELTEI International University. It is a eight-storey reinforced concrete building with 70 rooms and a basement for parking.',
                 'It is located at the National Road Nº 3, Sangkat Chaom Chao 3, Khan Porsenchey, Phnom Penh City. It was inaugurated on March 04, 2019 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, founder and the Director-General of BELTEI Group and the Chairman of the Biard Directors of BELTEI International University. It is five storey reinforced concrete building with 75 rooms and a basement for parking.',
                 'It is located at Street Okhna Triheng (2011) kok Kleang Village, sangkat Kok kleang, Khan Sen sok, Phnom Penh. It was inaugurated on September 03, 2020 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, founder and the Director-General of BELTEI Group and the Chairman of the Biard Directors of BELTEI International University. It is nine storey reinforced concrete building with 115 rooms and a basement for parking.',
-                'It is located at National Road N2, Krang Svay, sangkat Prek Kompues, Khan Dangkor, Phnom Penh. It was inaugurated on august 30, 2021 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, founder and the Director-General of BELTEI Group and the Chairman of the Biard Directors of BELTEI International University. It is nine storey reinforced concrete building with 156 rooms and a basement for parking.',
+                'It is located at National Road N2, Krang Svay sangkat Prek Kompues, Khan Dangkor, Phnom Penh. It was inaugurated on August 30, 2021 and highly presided over by H.E. Dr. Ly Chheng, Director-General of BELTEI Group and the Chairman of the Board Director of BELTEI International University. It is nine storey reinforced concrete building with 156 rooms and a basement for parking.',
                 'It is located at Phum Brakar sangkat Prey Sar, Khan Dangkor, Phnom Penh. It was inaugurated on August 29, 2022 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 179 rooms and a basement for parking..',
-                'It is located at Phum Ta Meak, Khum Prek Ta Meak, Khsach Kandal District, Kandal Province. It was inaugurated on September 05, 2022 and highly presided over by H.E. Dr. Ly Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 173 rooms and a basement for parking.',
-                'It is located nearby the Beoung Tompun Pumping Station, Street 371, Tnot Chhrum 3 Village, Sangkhat Beoung Tompun, Khan Mean Chhey, Phnom Penh',
+                'It is located at #4, National Road N8, Prek Tamak Commune, Khsach Kandal District, Kandal Province. It was inaugurated on August 29, 2022 and highly presided over by H.E. Dr. Ly Chheng, a Member of the National Assembly for Phnom Penh Capital, Founder and Director-General of BELTEI Group and the Chairman of the Board Director of BELTEI International University. It is nine storey reinforced concrete building with 173 rooms and a basement for parking.',
+                'It is located nearby the Beoung Tompun Pumping Station, Street 371, Tnot Chhrum 3 Village, Sangkat Beoung Tompun, Khan Mean Chey, Phnom Penh and opened on September 18, 2023 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 126 rooms and a basement for parking.',
+                'It is located at N.362-363, Street 369, Ou Andoung Village, Sangkat Prek Pra, Khan Chbar Ampov, Phnom Penh and opened on September 01, 2023 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 154 rooms and a basement for parking.',
+                'It is located along Tumnup Kobsrov, Sangkat Prek Phnov, Khan Prek Phnov, Phnom Penh and and opened on March 11, 2024 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 184 rooms and a basement for parking.',
+                'It is located at street 2004, Sangkat Chom Chao, Khan Porsenchey, Phnom Penh and opened on September 01, 2024 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 157 rooms and a basement for parking.',
+                'It is located at No.6585 Street Betong, Tropang Romchek Village, Sangkat Chaom Chao 1, Khan Pou Senchey, Phnom Penh and opened on March 03, 2025 and highly presided over by H.E. Dr. LY Chheng, a Member of the National Assembly for Phnom Penh Capital City, Founder and the Director-General of BELTEI Group and the Chairman of the Board of Directors of BELTEI International University. It is nine storey reinforced concrete building with 202 rooms and a basement for parking.',
+                'It is located at No.4511, Prektakong Village, Sangkat Prektasek, Khan Chroy Changva, Phnom Penh.'
             ]
         }
 
