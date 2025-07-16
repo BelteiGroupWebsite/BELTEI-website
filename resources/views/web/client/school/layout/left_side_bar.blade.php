@@ -33,10 +33,12 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.C') }}</h6>
         </a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C1') }}</a>
+        <a href="{{ route('school.extracurriculum.e-learning') }}"
+            class="list-group-item text-white">{{ __('school/app.C1') }}</a>
         <a href="{{ route('school.extracurriculum.generalknowledge') }}"
             class="list-group-item text-white">{{ __('school/app.C2') }}</a>
-        <a href="{{ route('school.extracurriculum.tour') }}" class="list-group-item text-white">{{ __('school/app.C3') }}</a>
+        <a href="{{ route('school.extracurriculum.tour') }}"
+            class="list-group-item text-white">{{ __('school/app.C3') }}</a>
         <a href="{{ route('school.extracurriculum.publicspeaking') }}"
             class="list-group-item text-white f12">{{ __('school/app.C4') }}</a>
         <a href="{{ route('school.extracurriculum.debate') }}"
@@ -49,7 +51,8 @@
             class="list-group-item text-white f12">{{ __('school/app.C8') }}</a>
         <a href="{{ route('school.extracurriculum.talentcompetition') }}"
             class="list-group-item text-white">{{ __('school/app.C9') }}</a>
-        <a href="{{ route('school.construction') }}" class="list-group-item text-white">{{ __('school/app.C10') }}</a>
+        <a href="{{ route('school.extracurriculum.tv-program') }}"
+            class="list-group-item text-white">{{ __('school/app.C10') }}</a>
         <a href="{{ route('school.extracurriculum.sport') }}"
             class="list-group-item text-white">{{ __('school/app.C11') }}</a>
         <a href="{{ route('school.extracurriculum.robotic') }}"
@@ -121,7 +124,8 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.H') }}</h6>
         </a>
-        <a href="{{ route('school.public-speaking' , ['grade' => 1]) }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking', ['grade' => 1]) }}"
+            class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n12') }}
             <div class="d-flex justify-content-center ">
                 <div
@@ -133,7 +137,8 @@
                 </div>
             </div>
         </a>
-        <a href="{{ route('school.public-speaking' , ['grade' => 2]) }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking', ['grade' => 2]) }}"
+            class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n9') }}
             <div class="d-flex justify-content-center ">
                 <div
@@ -145,7 +150,8 @@
                 </div>
             </div>
         </a>
-        <a href="{{ route('school.public-speaking' , ['grade' => 4]) }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking', ['grade' => 4]) }}"
+            class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n6') }}
             <div class="d-flex justify-content-center ">
                 <div
@@ -157,7 +163,8 @@
                 </div>
             </div>
         </a>
-        <a href="{{ route('school.public-speaking' , ['grade' => 5]) }}" class="list-group-item text-white text-center">
+        <a href="{{ route('school.public-speaking', ['grade' => 5]) }}"
+            class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n3') }}
             <div class="d-flex justify-content-center ">
                 <div
