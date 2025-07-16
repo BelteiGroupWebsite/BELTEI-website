@@ -19,7 +19,7 @@
                     <img class="col-6 p-2" loading="lazy"
                     src="{{ asset('asset/img/school/extracurriculum/tv-program/' . $i . '.png') }}"
                     alt="">
-                    @endfor
+                @endfor
             </div>
         </div>
     </div>
