@@ -15,7 +15,7 @@
                     {!! __('school/extracurriculum/readingprogram.detail-1') !!}
                 </p>
                 <div class="row ">
-                    @for ($i = 1; $i <= 10; $i++)
+                    @for ($i = 1; $i <= 16; $i++)
                         <img class="col-6 p-2" loading="lazy"
                             src="{{ asset('asset/img/school/extracurriculum/readingprogram/' . $i . '.jpg') }}" alt="">
                     @endfor
