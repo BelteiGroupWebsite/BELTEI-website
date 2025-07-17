@@ -13,7 +13,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០២៤ = ០១នាក់</th>
     </tr>
     <tr>
@@ -26,7 +26,7 @@ return [
     </tr>
     
     
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០២២ = ០៨នាក់</th>
     </tr>
     <tr>
@@ -128,7 +128,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៨=០៩នាក់</th>
     </tr>
     <tr>
@@ -228,7 +228,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៧=០១នាក់</th>
     </tr>
     <tr>
@@ -241,7 +241,7 @@ return [
                 អគ្គនាយកប៊ែលធីគ្រុបនិងជានាយកសាលាប៊ែលធីអន្តរជាតិ។</p>
         </td>
     </tr>
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៦=០២នាក់</th>
     </tr>
     <tr>
@@ -266,7 +266,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៥=០៧នាក់</th>
     </tr>
     <tr>
@@ -347,7 +347,7 @@ return [
 
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៤=០១នាក់</th>
     </tr>
     <tr>
@@ -364,7 +364,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៣=០១នាក់</th>
     </tr>
     <tr>
@@ -381,7 +381,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១២=០១នាក់</th>
     </tr>
     <tr>
@@ -398,7 +398,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១១=០១នាក់</th>
     </tr>
     <tr>
@@ -415,7 +415,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០០៩=០១នាក់</th>
     </tr>
     <tr>
@@ -433,7 +433,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០០៨=០១នាក់</th>
     </tr>
     <tr>
@@ -451,7 +451,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០០៧=០១នាក់</th>
     </tr>
     <tr>
@@ -468,7 +468,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០០៦=០១នាក់</th>
     </tr>
     <tr>
@@ -490,7 +490,7 @@ return [
     <th>សិស្សពូកែថ្នាក់ទី៩</th>
     </trclass=>
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០២៤=៣នាក់</th>
     </tr>
     <tr>
@@ -518,7 +518,7 @@ return [
         </td>
     </tr>
     
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០២២=១២នាក់</th>
     </tr>
     <tr>
@@ -678,7 +678,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៨=០៨នាក់</th>
     </tr>
     <tr>
@@ -779,7 +779,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៧ = ០៧នាក់</th>
     </tr>
     <tr>
@@ -871,7 +871,7 @@ return [
 
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៦ = ០៤នាក់</th>
     </tr>
     <tr>
@@ -924,7 +924,7 @@ return [
 
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៤ = ០៣នាក់</th>
     </tr>
     <tr>
@@ -960,7 +960,7 @@ return [
 
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០១៣ = ០១នាក់</th>
     </tr>
     <tr>
@@ -976,7 +976,7 @@ return [
     </tr>
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០០៩ = ០១នាក់</th>
     </tr>
     <tr>
@@ -994,7 +994,7 @@ return [
 
 
 
-    <tr class="bg-success text-white">
+    <tr class="bg-success text-white title-translate-font">
         <th>ឆ្នាំ២០០៧ = ០១នាក់</th>
     </tr>
     <tr>
