@@ -123,6 +123,8 @@ return [
     'n12' => '១២',
     'npre-6' => 'ថ្នាក់ត្រៀម',
 
+    'level' => "កម្រិកទី",
+
 
     'marquee' => '                
         <strong class="Muol-Light">សាលា​ ប៊ែលធី អន្តរជាតិ</strong>

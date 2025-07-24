@@ -36,6 +36,8 @@ return [
     'CampusB29' => "" ,
     'CampusB30' => "" ,
 
+    'level' => "Level",
+
 
     // left sidebar
     'A' => "About School",
