@@ -23,6 +23,7 @@ class CompetitionController extends Controller
         //     'firstPlaceVideo' => $firstPlaceVideo,
         // ]);
 
-        return view('web.client.school.public-speaking.public-speaking', compact('competitionBatches' , 'firstPlaceVideo'));
+        return view('web.client.school.competition.competition', compact('competitionBatches' , 'firstPlaceVideo'));
+        // return view('web.client.school.public-speaking.public-speaking', compact('competitionBatches' , 'firstPlaceVideo'));
     }
 }

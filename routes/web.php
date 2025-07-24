@@ -280,6 +280,7 @@ Route::group(['prefix' => 'bis', 'as' => 'school.', 'middleware' => ['visitor.tr
 
 
     Route::get('/public-speaking/{grade}', [CompetitionController::class, 'show'])->name('public-speaking');
+    Route::get('/competition/{grade}', [CompetitionController::class, 'show'])->name('competition');
 
     // Route::view('/public-speaking/12', 'web.client.school.public-speaking.grade12')->name('public-speaking-12');
     // Route::view('/public-speaking/9', 'web.client.school.public-speaking.grade9')->name('public-speaking-9');
