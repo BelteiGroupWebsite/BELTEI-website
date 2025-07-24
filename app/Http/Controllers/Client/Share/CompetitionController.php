@@ -27,7 +27,7 @@ class CompetitionController extends Controller
         //     'firstPlaceVideo' => $firstPlaceVideo,
         // ]);
 
-        dd($competition);
+        dd($competition->translate);
 
 
         return view('web.client.school.competition.competition', compact('competitionBatches', 'firstPlaceVideo', 'competition'));
