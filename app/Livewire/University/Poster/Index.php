@@ -74,7 +74,7 @@ class Index extends Component
         session()->flash('message', 'Poster updated successfully!');
     }
 
-    public function createPoster()
+    public function createPo ster()
     {
         $this->validate($this->ValidationRules());
 
