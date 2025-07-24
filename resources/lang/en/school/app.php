@@ -103,6 +103,7 @@ return [
     'I' => "Debate",
 
     'english-speaking' => "English Speaking Content",
+    'english-reading' => "English Reading competition",
 
     'grade' => "Grade" ,
 
@@ -120,7 +121,7 @@ return [
     'n10' => '10',
     'n11' => '11',
     'n12' => '12',
-    
+    'npre-6' => 'Preschool 6',
     
     'marquee' => '                
         <strong class="Muol-Light">BELTEI International School</strong>

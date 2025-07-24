@@ -183,7 +183,7 @@
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.english-reading') }}</h6>
         </a>
         <a href="{{ route('school.competition' , ['grade' => 9]) }}" class="list-group-item text-white text-center">
-            {{ __('school/app.grade') }} {{ __('school/app.n12') }}
+            {{ __('school/app.grade') }} {{ __('school/app.n4') }}
              <div class="d-flex justify-content-center ">
                 <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
@@ -192,7 +192,7 @@
             </div>
         </a>
         <a href="{{ route('school.competition' , ['grade' => 10]) }}" class="list-group-item text-white text-center">
-            {{ __('school/app.grade') }} {{ __('school/app.n9') }}
+            {{ __('school/app.grade') }} {{ __('school/app.n2') }}
             <div class="d-flex justify-content-center ">
                 <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
@@ -201,7 +201,7 @@
              </div>
         </a>
         <a href="{{ route('school.competition' , ['grade' => 11]) }}" class="list-group-item text-white text-center">
-            {{ __('school/app.grade') }} {{ __('school/app.n6') }}
+            {{ __('school/app.grade') }} {{ __('school/app.npre-6') }}
              <div class="d-flex justify-content-center ">
                 <div class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
