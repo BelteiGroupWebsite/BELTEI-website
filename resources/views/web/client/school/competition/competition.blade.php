@@ -4,7 +4,7 @@
 
     <div class="px-2">
 
-        <h3 class="title-translate-font p-3 bg-success text-white">Competition</h3>
+        <h3 class="title-translate-font p-3 bg-success text-white">{{ $competition->translate }}</h3>
         {{-- <h3 class="title-translate-font p-3 bg-success text-white">Public Speaking Content</h3> --}}
         <hr>
         <div>
