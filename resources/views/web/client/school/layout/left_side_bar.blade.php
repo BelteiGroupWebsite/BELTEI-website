@@ -227,7 +227,7 @@
             </h6>
         </a>
         <a href="{{ route('school.competition', ['grade' => 12]) }}" class="list-group-item text-white text-center">
-            {{ __('school/app.grade') }} {{ __('school/app.n4') }}
+            {{ __('school/app.grade') }} {{ __('school/app.n3') }}
             <div class="d-flex justify-content-center ">
                 <div
                     class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
