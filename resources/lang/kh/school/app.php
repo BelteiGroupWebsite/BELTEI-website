@@ -104,6 +104,7 @@ return [
 
     'english-speaking' => "ការប្រកួតនិយាយភាសាអង់គ្លេស",
     'english-reading' => "ការប្រកួតអំណានភាសាអង់គ្លេស",
+    'education-english-reading' => "ការប្រកួតអំណានអប់រំ",
 
     'grade' => "ថ្នាក់ទី",
 

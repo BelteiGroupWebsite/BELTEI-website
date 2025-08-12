@@ -106,6 +106,7 @@ return [
 
     'english-speaking' => "English Speaking Content",
     'english-reading' => "English Reading competition",
+    'education-english-reading' => "Educational Reading Competition",
 
     'grade' => "Grade" ,
 
