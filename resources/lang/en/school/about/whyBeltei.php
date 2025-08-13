@@ -6,7 +6,7 @@ return [
 
 
     "description" => '
-    <div class="title-translate-font">
+    <div class="Times-New-Roman">
 
         <p><strong><span>1. RECOGNITIONS</span></strong></p>
         <p>- Officially recognized by the Ministry of Education Youth and Sport according to the Prakas No 291&nbsp;</span><span>អយក.ប្រក&nbsp;</span><span>dated on March 25,</span><span style="font-size:19px;font-family:DaunPenh;">&nbsp;</span><span>2003.</span></p>
