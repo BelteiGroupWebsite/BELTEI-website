@@ -23,7 +23,7 @@ return [
         <p>- All campus buildings are equipped with 15oKVA generators.&nbsp;</span></p>
         <p>- All school vans are owned by BELTEI</span><span>.</span></p>
         <p><strong><span>3. ADVANTAGES</span></strong></p>
-        <h4 class="text-center mt-2"><strong><u><span>GENERAL EDUCATION</span></u></strong></h4>
+        <h4 class="text-center mt-2 mb-1"><strong><u><span>GENERAL EDUCATION</span></u></strong></h4>
         <p>- For the students who transfer from other schools throughout the country, BELTEI assures to fill out the application forms free of charge, and BELTEI students can transfer to study at the public schools without any problem.</span></p>
         <p>- BELTEI IS E-Learning Program (BELTEI APP).</span></p>
         <p>- Each Room limited between 30 to 40 students for Elementary School and 30 to 36 students for Secondary School.</span></p>
@@ -50,7 +50,7 @@ return [
         <p>-</span><span>&nbsp;</span><span>BELTEI&apos;s Grade 12 graduates get 50 percent scholarship for 4 years Bachelor Degree (BEd) at BELTEI International University.</span></p>
         <p>- Grade A students get full scholarship (100%) of <strong>Oknha Ly Chheng</strong> to study abroad with allowances.</span></p>
         <p>- Follow the curriculum of the Ministry of Education Youth and Sport.</span></p>
-        <h4 class="text-center mt-2"><strong><u><span>ESL PROGRAM</span></u></strong></h4>
+        <h4 class="text-center mt-2 mb-1"><strong><u><span>ESL PROGRAM</span></u></strong></h4>
         <p>- This program is conducted by following American Standard starting from Preschool 1 - Level 12.</span></p>
         <p>- Each room is limited between 20 to 25 students.</span></p>
         <p>- All Text books and Teaching Materials are sponsored and supported by McGraw-HILL Education in the United States.&nbsp;</span></p>
