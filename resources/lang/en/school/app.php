@@ -100,11 +100,11 @@ return [
     'G' => "Outstanding Student",
 
     
-    'H' => "Public speaking Content",
+    'H' => "Public Speaking Contest",
     
     'I' => "Debate",
 
-    'english-speaking' => "English Speaking Content",
+    'english-speaking' => "English Speaking Contest",
     'english-reading' => "English Reading competition",
     'education-english-reading' => "Educational Reading Competition",
 

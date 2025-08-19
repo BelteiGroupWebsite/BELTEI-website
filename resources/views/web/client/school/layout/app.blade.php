@@ -230,7 +230,7 @@
         } else {
             var campusNameArr = [
                 "Kirirom",
-                "Phsar Toul Tum Poung",
+                "Phsar Tuol Tumpoung",
                 "DN",
                 "Phsar Doeum Thkov",
                 "Chbar Ampeou",
