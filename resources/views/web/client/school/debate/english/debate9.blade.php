@@ -12,7 +12,7 @@
 
         <div>
             <iframe class="w-100 aspect-ratio-16" id="vd-container"
-                src="https://www.youtube.com/embed/2N-4cnZXAf0?si=npxyFo3kRuO9DkH-" title="YouTube video player"
+                src="https://www.youtube.com/embed/TAo8Ro78C2w?si=GvZMP5rz-SEo347g" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -20,7 +20,7 @@
         <hr>
 
 
-                 {{--  --}}
+        {{--  --}}
         
         <h6 class="content-translate-font p-3 bg-success text-white">សូមរីករាយទស្សនាវីដេអូ កម្មវិធី “ប្រកួតជជែកដេញដោល ផ្នែកភាសាអង់គ្លេស” រដូវកាលទី២ ឆ្នាំ២០២៤ របស់សិស្សកម្រិតទី៩ & ១០ វគ្គផ្តាច់ព្រ័ត្រ ក្រោមប្រធានបទ៖ "ការកំណត់អាយុក្នុងការសេពគ្រឿងស្រវឹងគឺជាជម្រើសដ៏ល្អបំផុតក្នុងការធានាសុខុមាលភាពយុវជននៅកម្ពុជា"។ នារសៀលថ្ងៃអង្គារ ទី២៧ ខែមិថុនា ឆ្នាំ២០២៥ នៅសាលសន្និសីទ នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិទីតាំងទី២ (ស្ពានអាកាសចោមចៅ)។</h6>
         <hr>
@@ -31,7 +31,7 @@
             <div class="col-6 height-300 content-translate-font">
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
-                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/2N-4cnZXAf0/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/2N-4cnZXAf0?si=npxyFo3kRuO9DkH-">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/TAo8Ro78C2w/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/TAo8Ro78C2w?si=GvZMP5rz-SEo347g">
                 </div>
             </div>
 
@@ -39,7 +39,7 @@
             <div class="col-6 height-300 content-translate-font">
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
-                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/Dke1nB1p9g8/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/Dke1nB1p9g8?si=mid6ih2Y1GsCFwFj">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/cjYcqZ_QFrc/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/cjYcqZ_QFrc?si=Pt2lgOUIHTk2YX-I">
                 </div>
             </div>
         </div>
@@ -53,14 +53,14 @@
             <div class="col-6 height-300 content-translate-font">
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
-                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/_PtnkLt3FjE/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/_PtnkLt3FjE?si=-Ru3i2Dijmm9eLpZ">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/WUjvPSfrLnc/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/WUjvPSfrLnc?si=9q3pG6s-V0K8tUab">
                 </div>
             </div>
 
             <div class="col-6 height-300 content-translate-font">
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
-                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/NLZh12uMyl8/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/NLZh12uMyl8?si=m6okA_LcYTlzepNn">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/hKpeLb5_qXg/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/hKpeLb5_qXg?si=rFpE2dr1X7kaX8m3">
                 </div>
             </div>
 
@@ -76,7 +76,7 @@
             <div class="col-6 height-300 content-translate-font">
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="Play Button">
-                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/_IULLMPcjmc/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/_IULLMPcjmc?si=g7-DWIdtSUwaGr-U">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/wjzXW38aaQ4/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/wjzXW38aaQ4?si=3fInxC6dtJNlC0Wr">
                 </div>
             </div>
 
