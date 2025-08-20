@@ -18,7 +18,7 @@ class NewsController extends Controller
     {
         //
 
-        $news = News::paginate(100);
+        $news = News::paginate(10);
 
         return view('web.admin.share.news.index', compact('news'));
     }
