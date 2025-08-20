@@ -69,15 +69,21 @@
                                                     @enderror
                                                 </div>
                                             </div>
-                                            <div class="col-6">
+                                            
+
+                                            {{-- Close remember token to make auto logout --}}
+                                            {{-- <div class="col-6">
                                                 <div class="form-check form-switch">
                                                     <input class="form-check-input" type="checkbox"
-                                                        id="flexSwitchCheckChecked" checked="" name="remember"
-                                                        id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                                    id="flexSwitchCheckChecked" checked="" name="remember"
+                                                    id="remember" {{ old('remember') ? 'checked' : '' }}>
                                                     <label class="form-check-label" for="flexSwitchCheckChecked">Remember
                                                         Me</label>
-                                                </div>
-                                            </div>
+                                                    </div>
+                                                </div> --}}
+                                            {{-- Close remember token to make auto logout --}}
+
+                                                
                                             <div class="col-6 text-end">
                                                 @if (Route::has('password.request'))
                                                     <a class="" href="{{ route('password.request') }}">
