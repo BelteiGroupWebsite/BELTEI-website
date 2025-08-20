@@ -3,7 +3,7 @@
 @section('content')
     <div class="px-2">
 
-        <h3 class="title-translate-font p-3 bg-success text-white">Public Speaking Content</h3>
+        <h3 class="title-translate-font p-3 bg-success text-white">{{ __('school/app.I') }}</h3>
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16" id="vd-container"
