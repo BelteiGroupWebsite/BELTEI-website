@@ -12,7 +12,7 @@
         <div class="text-center row" id="images">
         </div>
 
-        
+
         <div id="map" class="row my-3">
         </div>
     </div>
@@ -25,7 +25,6 @@
             //echo "<p>Page <script>x</script> of  $fileCount</p>";
             echo "
             <script>
-                var id = $id;
                 var fileCount = $fileCount;
             </script>
             ";
