@@ -9,11 +9,11 @@
         </div>
         <p id="description" class="p-2"></p>
         
-        <div class="text-center row" id="images">
+        <div class="text-center row g-3" id="images">
         </div>
 
 
-        <div id="map" class="row my-3 gap-3">
+        <div id="map" class="row my-3">
         </div>
     </div>
 
