@@ -92,6 +92,15 @@
                     div.innerHTML = img.trim();
                     images.appendChild(div.firstChild);
                 }
+                // if fileCount is odd, change the first image class
+                if (fileCount % 2 !== 0) {
+                    let firstImg = images.querySelector("img:first-child");
+                    if (firstImg) {
+                        firstImg.classList.remove("col-6");
+                        firstImg.classList.add("col-12");
+                    }
+                }
+
             }
         } catch (error) {
 
