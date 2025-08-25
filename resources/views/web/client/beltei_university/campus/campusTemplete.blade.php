@@ -13,7 +13,7 @@
         </div>
 
 
-        <div id="map" class="row my-3">
+        <div id="map" class="row my-3 gap-3">
         </div>
     </div>
 
@@ -87,7 +87,7 @@
                 
                 var images = document.getElementById('images');
                 for(let i = 1 ; i <= fileCount ; i++){
-                    var img = `<img class="w-50 rounded shadow-sm " src="{{ asset('asset/img/university/campus/campus${id}/${i}.jpg') }}" alt="">`;
+                    var img = `<img class="col-6 rounded shadow-sm " src="{{ asset('asset/img/university/campus/campus${id}/${i}.jpg') }}" alt="">`;
                     var div = document.createElement("div");
                     div.innerHTML = img.trim();
                     images.appendChild(div.firstChild);
