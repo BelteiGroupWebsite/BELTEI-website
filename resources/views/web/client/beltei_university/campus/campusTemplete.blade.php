@@ -8,13 +8,33 @@
             <img class="w-75 rounded shadow-sm " id="img" src="" alt="">
         </div>
         <p id="description" class="p-2"></p>
-        <div id="map" class="row my-3">
-
-        </div>
+        
         <div class="text-center row" id="images">
+        </div>
+
+        
+        <div id="map" class="row my-3">
         </div>
     </div>
 
+    @php
+        try {
+            $id = $_GET['id']; //Retrieve the 'id' parameter from the URL
+            $folderPath = public_path("asset/img/university/campus/campus${id}");
+            $fileCount = count(glob("$folderPath/*"));
+            //echo "<p>Page <script>x</script> of  $fileCount</p>";
+            echo "
+            <script>
+                var id = $id;
+                var fileCount = $fileCount;
+            </script>
+            ";
+        } catch (\Throwable $th) {
+            //Handle any exceptions here
+        }
+    @endphp
+    
+    
     <script>
         const myKeysValues = window.location.search;
         const urlParams = new URLSearchParams(myKeysValues);
@@ -67,35 +87,12 @@
                 document.getElementById('map').innerHTML = mapArray[id-1];
                 
                 var images = document.getElementById('images');
-                for(let i = 1 ; i <= 2 ; i++){
-                    var img = `<img class="w-50 rounded shadow-sm " id="images" src="{{ asset('asset/img/university/campus/BIU${id}.png') }}" alt="">`;
+                for(let i = 1 ; i <= fileCount ; i++){
+                    var img = `<img class="w-50 rounded shadow-sm " src="{{ asset('asset/img/university/campus/campus${id}/${i}.jpg') }}" alt="">`;
                     var div = document.createElement("div");
                     div.innerHTML = img.trim();
                     images.appendChild(div.firstChild);
                 }
-
-
-                // var campusContainer = document.getElementById('campusDetail');
-
-                // descriptionArray.forEach((description, key) => {
-                //     var temp = `
-                //     <div>
-                //         <h5 class="text-center bg-success py-3 gold">ប៊ែលធីសាខាទី ${key + 1} (${campusNameArr[key]})</h5>
-                //         <div class="d-flex align-items-center p-2 content-translate-font">
-                //             <p>
-                //                 ${description}
-                //             </p>
-                //             <img class="float-end rounded shadow p-2"
-                //                 src="{{ asset('asset/img/school/campus/school-B${key+1}.jpg') }}"
-                //                 alt="">
-                //         </div>
-                //     </div>
-                //     `;
-
-                //     var div = document.createElement("div");
-                //     div.innerHTML = temp.trim();
-                //     campusContainer.appendChild(div.firstChild);
-                // });
             }
         } catch (error) {
 
