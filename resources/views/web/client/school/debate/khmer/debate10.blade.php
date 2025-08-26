@@ -63,7 +63,7 @@
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
             រគ្គទី ៣
         </h5>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-6 height-300 content-translate-font">
                 <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
