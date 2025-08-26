@@ -14,10 +14,12 @@
         </div>
 
 
+        <h6 class="content-translate-font p-3 bg-success text-white">សូមរីករាយទស្សនាវីដេអូក្នុងកម្មវិធីប្រកួតជជែកដេញដោល ក្រោមប្រធានបទ៖ "ការចែកចាយព័ត៌មានបំពុលសង្គម គឺជាមូលហេតុចម្បងនាំមកនូវភាពអនាធិបតេយ្យក្នុងសង្គម"។ កម្មវិធីនេះ បានប្រព្រឹត្តទៅនាថ្ងៃទី២០ ខែសីហា ឆ្នាំ២០២៥ នៅសាលសន្និសីទ នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិទីតាំងទី២ (ស្ពានអាកាសចោមចៅ)។</h6>
 
-                <hr>
+
+        <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
-            រគ្គទី ១​
+            វីដេអូវគ្គទី ១ និង ២
         </h5>
         <div class="row">
             <div class="col-6 height-300 content-translate-font">
@@ -39,7 +41,7 @@
 
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
-            រគ្គទី ២
+            វីដេអូវគ្គទី ៣ និង ៤
         </h5>
         <div class="row">
             <div class="col-6 height-300 content-translate-font">
@@ -61,7 +63,7 @@
 
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
-            រគ្គទី ៣
+            វីដេអូវគ្គទី ៥
         </h5>
         <div class="row justify-content-center">
             <div class="col-6 height-300 content-translate-font">
