@@ -7,12 +7,77 @@
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16" id="vd-container"
-                src="https://www.youtube.com/embed/H0FtZylz8ks?si=rKrwUrcTm5bhRfHN" title="YouTube video player"
+                src="https://www.youtube.com/embed/H3CMPK6Yhkc?si=i5BIho5Zzqf5zzGr" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
 
+
+
+                <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
+            រគ្គទី ១​
+        </h5>
+        <div class="row">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/H3CMPK6Yhkc/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/H3CMPK6Yhkc?si=i5BIho5Zzqf5zzGr">
+                </div>
+                
+            </div>
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/weAibPZLgPI/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/weAibPZLgPI?si=ITYrC116219ex5db">
+                </div>
+                
+            </div>
+        </div>
+        <hr class="border border-success border-3">
+
+        <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
+            រគ្គទី ២
+        </h5>
+        <div class="row">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/PPeCHGAkQqc/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/PPeCHGAkQqc?si=thax7Mw-VyCNxXHv">
+                </div>
+                
+            </div>
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/XHIN8AShG1s/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/XHIN8AShG1s?si=lXnxVo9ZF8OF7Sbt">
+                </div>
+                
+            </div>
+        </div>
+        <hr class="border border-success border-3">
+
+        <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
+            រគ្គទី ៣
+        </h5>
+        <div class="row">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/thYXe-9OBcg/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/thYXe-9OBcg?si=LVsvAzxUabXRwGhD">
+                </div>
+                
+            </div>
+        </div>
+        <hr class="border border-success border-3">
+
+
+        
+        
+        
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
             រគ្គទី ១​ <br>
@@ -82,6 +147,14 @@
         </div>
         <hr class="border border-success border-3">
         
+
+
+
+
+
+
+
+
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
             រគ្គទី 4 <br>
