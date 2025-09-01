@@ -97,14 +97,14 @@
                     <td>
                         @if ($linkArr[$i - 1] !== 'N/A')
                             <a href="{{ $linkArr[$i - 1] }}" target="_blank">
-                                <img style="max-height:80px;" src="{{ asset("asset/img/university/mou/national/logo/{$i}.png") }}" alt="Logo {{ $i }}">
+                                <img loading="lazy" style="max-height:80px;" src="{{ asset("asset/img/university/mou/national/logo/{$i}.png") }}" alt="Logo {{ $i }}">
                             </a>
                         @else
-                            <img style="max-height:80px;" src="{{ asset("asset/img/university/mou/national/logo/{$i}.png") }}" alt="Logo {{ $i }}">
+                            <img loading="lazy" style="max-height:80px;" src="{{ asset("asset/img/university/mou/national/logo/{$i}.png") }}" alt="Logo {{ $i }}">
                         @endif
                     </td>
                     <td>
-                        <img src="{{ asset("asset/img/university/mou/national/image/{$i}.jpg") }}" alt="Image {{ $i }}" style="max-height:120px;">
+                        <img loading="lazy" src="{{ asset("asset/img/university/mou/national/image/{$i}.jpg") }}" alt="Image {{ $i }}" style="max-height:120px;">
                     </td>
                 </tr>
             @endfor
