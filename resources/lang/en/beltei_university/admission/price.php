@@ -40,7 +40,7 @@ return [
  <div>
  <h4 class = "title-translate-font mt-4 mb-2"> 2. Tuition Fee for International Program </h4>
  <table class = "table table-hover table-bordered">
- <tr class = "bg-primary title-translate-font text-white">
+ <tr class = "bg-warning title-translate-font text-white">
  <th> Program </th>
  <th> Semester </th>
  <th> Year </th>
