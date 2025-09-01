@@ -40,7 +40,7 @@ return [
     <div>
         <h5 class="title-translate-font mt-4 mb-2">២. តម្លៃសិក្សាកម្មវិធីអន្តរជាតិ</h5>
         <table class="table table-hover table-bordered">
-            <tr class="bg-primary title-translate-font text-white">
+            <tr class="bg-warning title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
                 <td>ឆមាស</td>
                 <td>ឆ្នាំ</td>
