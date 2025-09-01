@@ -104,7 +104,7 @@
                         @endif
                     </td>
                     <td>
-                        <img src="{{ asset("asset/img/university/mou/national/image/{$i}.jpg") }}" alt="Image {{ $i }}" style="max-height:80px;">
+                        <img src="{{ asset("asset/img/university/mou/national/image/{$i}.jpg") }}" alt="Image {{ $i }}" style="max-height:120px;">
                     </td>
                 </tr>
             @endfor
