@@ -154,7 +154,7 @@ return [
             </tr>
             <tr>
                 <td> ថ្ងៃអាទិត្យ </td>
-                <td> 02:00PM – 05:15PM <br> 01:30PM – 05:30PM</td>
+                <td> 08:00AM – 11:15AM <br> 01:30PM – 05:30PM</td>
             </tr>
     </table>
     </div>
