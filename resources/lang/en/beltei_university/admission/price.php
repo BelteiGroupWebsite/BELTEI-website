@@ -69,7 +69,29 @@ return [
  </div>
 
  <div>
- <h4 class = "title-translate-font mt-4 mb-2"> 3. Tuition Fee for International Program (Civil Aviation) </h4>
+ <h4 class = "title-translate-font mt-4 mb-2"> 3. Tuition Fee for national Program (Civil Aviation) </h4>
+ <table class = "table table-hover table-bordered">
+ <tr class = "bg-primary title-translate-font text-white">
+ <th> Program </th>
+ <th> Semester </th>
+ <th> Year </th>
+ </tr>
+ <tr>
+ <td> Associate of Civil Aviation</td>
+ <td> $ 800</td>
+ <td> $ 1,500 </td>
+ </tr>
+ <tr>
+ <td> Bachelor of Civil Aviation </td>
+ <td> $ 800</td>
+ <td> $ 1,500 </td>
+ </tr>
+
+ </table>
+ </div>
+
+ <div>
+ <h4 class = "title-translate-font mt-4 mb-2"> 4. Tuition Fee for International Program (Civil Aviation) </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Program </th>
