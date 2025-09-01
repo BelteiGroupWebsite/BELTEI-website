@@ -7,7 +7,7 @@ return [
     'description' => '
 
         <div>
-        <h6 class="title-translate-font mb-2">១. តម្លៃសិក្សាកម្មវិធីជា ភាសាជាតិ</h6>
+        <h5 class="title-translate-font mb-2">១. តម្លៃសិក្សាកម្មវិធីជា ភាសាជាតិ</h5>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
@@ -38,7 +38,7 @@ return [
     </div>
 
     <div>
-        <h6 class="title-translate-font mt-4 mb-2">២. តម្លៃសិក្សាកម្មវិធីអន្តរជាតិ</h6>
+        <h5 class="title-translate-font mt-4 mb-2">២. តម្លៃសិក្សាកម្មវិធីអន្តរជាតិ</h5>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
@@ -69,7 +69,7 @@ return [
     </div>
 
     <div>
-        <h6 class="title-translate-font mt-4 mb-2">៣. កម្មវិធីសិក្សាជា ភាសាជាតិ <span class="text-danger">(សម្រាប់មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span></h6>
+        <h5 class="title-translate-font mt-4 mb-2">៣. កម្មវិធីសិក្សាជា ភាសាជាតិ <span class="text-danger">(មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span></h5>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
@@ -90,7 +90,7 @@ return [
     </div>
 
     <div>
-        <h6 class="title-translate-font mt-4 mb-2">៤. កម្មវិធីសិក្សា អន្តរជាតិ <span class="text-danger">(សម្រាប់មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span></h6>
+        <h5 class="title-translate-font mt-4 mb-2">៤. កម្មវិធីសិក្សា អន្តរជាតិ <span class="text-danger">(មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span></h5>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
@@ -121,7 +121,7 @@ return [
     </div>
 
     <div>
-        <h6 class="title-translate-font mt-4 mb-2">ថ្ងៃ និង ម៉ោងសិក្សា</h6>
+        <h5 class="title-translate-font mt-4 mb-2">ថ្ងៃ និង ម៉ោងសិក្សា</h5>
          <table class = "table table-hover table-bordered">
             <tr class = "bg-primary title-translate-font text-white">
                 <td> ច័ន្ទ – សុក្រ </td>
