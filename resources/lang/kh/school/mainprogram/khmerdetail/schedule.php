@@ -4,7 +4,7 @@ return [
     'header' => "បវេសនកាល និងតម្លៃសិក្សា",
 
     'description' => '
-    
+
     <div class="content-translate-font">
 
     <h5>វគ្គសិក្សា និង ម៉ោង​សិក្សា​</h5>
@@ -16,50 +16,19 @@ return [
             <th>បវេសនកាលប្រចាំឆ្នាំ</th>
         </tr>
 
-        <tr>
-            <td>
-                ក-ថ្នាក់ត្រៀម​មុន​ចូល​ថ្នាក់​ទី១
-            </td>
-            <td class="text-center">
-                <p>
-                    សិក្សាពីថ្ងៃច័ន្ទ ដល់​ ថ្ងៃសុក្រ
-                </p>
-
-                <p>
-                    ព្រឹក-៨:០០ – ១០:៣០AM <br>
-                    ល្ងាច-២:០០ – ៤:៣០PM
-                </p>
-            </td>
-            <td>
-                <p>មាន៤វគ្គក្នុង​១ឆ្នាំ</p>
-                <ul>
-                    <li>
-                        ខែកុម្ភៈ - ខែសីហា
-
-                    </li>
-                    <li>
-                        ខែឧសភា​ - ខែវិច្ឆិកា
-
-                    </li>
-                    <li>
-                        ខែសីហា - ខែកុម្ភៈ
-
-                    </li>
-                    <li>
-                        ខែវិច្ឆិកា​ - ខែឧសភា
-
-                    </li>
-                </ul>
-            </td>
-        </tr>
 
         <tr>
             <td>
-                ខ-ចំណេះទូទៅ
+                ចំណេះទូទៅ
             </td>
 
             <td class="text-center">
                 <p>សិក្សាពីថ្ងៃ ច័ន្ទ ដល់​ ថ្ងៃសៅរ៍</p>
+                <p class="text-danger">ថ្នាក់មត្តេយ្យកម្រិតខ្ពស់</p>
+                <p>
+                    ព្រឹក-៧:៣០ – ១០:៣០AM <br>
+                    ល្ងាច-១:៣០ – ៤:៣០PM
+                </p>
                 <p class="text-danger">ថ្នាក់​បឋមសិក្សា</p>
                 <p>
                     ព្រឹក-៧:៣០ – ១០:៣០AM <br>
@@ -74,7 +43,7 @@ return [
                 </p>
             </td>
             <td>
-                ចូលរៀនថ្ងៃទី០១ សីហា រៀងរាល់ឆ្នាំ
+                ចូលរៀនថ្ងៃទី០១ កញ្ញា រៀងរាល់ឆ្នាំ
             </td>
         </tr>
     </table>
@@ -84,43 +53,37 @@ return [
     <h6>ក-អំពីតម្លៃសិក្សា ថ្នាក់ត្រៀមមុនចូលថ្នាក់ទី១</h6>
 
     <table class="table table-bordered table-hover bg-light text-center">
-        <tr class="bg-success text-center text-white">
-            <th>Grade</th>
-            <th>3 Months</th>
-            <th>6 Months</th>
-        </tr>
-        <tr>
-            <td>Preschool 1</td>
-            <td>$​160</td>
-            <td>$​300</td>
-        </tr>
-        <tr>
-            <td>Preschool 2</td>
-            <td>$​160</td>
-            <td>$​300</td>
-        </tr>
-        <tr>
-            <td>Preschool 3</td>
-            <td>$​160</td>
-            <td>$​300</td>
-        </tr>
-        <tr>
-            <td>Preschool 4</td>
-            <td>$​160</td>
-            <td>$​300</td>
-        </tr>
-        <tr>
-            <td>Preschool 5</td>
-            <td>$​160</td>
-            <td>$​300</td>
-        </tr>
-        <tr>
-            <td>Preschool 6</td>
-            <td>$​160</td>
-            <td>$​300</td>
-        </tr>
+        <tbody>
+            <tr class="bg-success text-center text-white">
+                <td>
+                    <p><strong><span>ថ្នាក់</span></strong></p>
+                </td>
+                <td>
+                    <p><strong><span>តម្លៃឆមាសទី១</span></strong></p>
+                </td>
+                <td>
+                    <p><strong><span>តម្លៃឆមាសទី២</span></strong></p>
+                </td>
+                <td>
+                    <p><strong><span>តម្លៃ១ឆ្នាំ</span></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>មត្តេយ្យកម្រិតខ្ពស់</span></p>
+                </td>
+                <td>
+                    <p><span>$ 270</span></p>
+                </td>
+                <td>
+                    <p><span>$ 270</span></p>
+                </td>
+                <td>
+                    <p><span>$ 500</span></p>
+                </td>
+            </tr>
+        </tbody>
     </table>
-
 
     <h6>ខ-អំពីតម្លៃសិក្សា ពីថ្នាក់ទី១-ទី៦</h6>
     <table class="table table-bordered table-hover bg-light text-center">
@@ -170,7 +133,7 @@ return [
     </table>
 
 
-    <h6>គ-អំពីតម្លៃសិក្សា អនុវិទ្យាល័យ​ពីថ្នាក់​ទី ៧ ដល់ថ្នាក់ទី៨</h6>
+    <h6>គ-អំពីតម្លៃសិក្សា អនុវិទ្យាល័យ​ពីថ្នាក់​ទី ៧ ដល់ថ្នាក់ទី៩</h6>
 
     <table class="table table-hover table-bordered text-center bg-light">
         <tr class="bg-success text-white">
@@ -201,31 +164,31 @@ return [
             <td>$ 420</td>
             <td>$ 800</td>
         </tr>
-        
-    </table>
-
-
-    <h6>ឃ-អំពីតម្លៃសិក្សា វិទ្យាល័យ​ពីថ្នាក់​ទី ៩ ដល់ថ្នាក់ទី១២</h6>
-    <table class="table table-hover table-bordered text-center bg-light">
-        <tr class="bg-success text-white">
-            <th>
-                ថ្នាក់ទី	
-            </th>
-            <th>
-                តម្លៃឆមាសទី១	
-            </th>
-            <th>
-                តម្លៃឆមាសទី២	
-            </th>
-            <th>
-                តម្លៃ១ឆ្នាំ
-            </th>
-        </tr>
         <tr>
             <td>9</td>
             <td>$ 445</td>
             <td>$ 445</td>
             <td>$ 850</td>
+        </tr>
+
+    </table>
+
+
+    <h6>ឃ-អំពីតម្លៃសិក្សា វិទ្យាល័យ​ពីថ្នាក់​ទី ១០ ដល់ថ្នាក់ទី១២</h6>
+    <table class="table table-hover table-bordered text-center bg-light">
+        <tr class="bg-success text-white">
+            <th>
+                ថ្នាក់ទី
+            </th>
+            <th>
+                តម្លៃឆមាសទី១
+            </th>
+            <th>
+                តម្លៃឆមាសទី២
+            </th>
+            <th>
+                តម្លៃ១ឆ្នាំ
+            </th>
         </tr>
         <tr>
             <td>10</td>
@@ -248,6 +211,6 @@ return [
     </table>
 
 </div>
-    
+
     '
 ];
