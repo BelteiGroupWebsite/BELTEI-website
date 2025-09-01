@@ -6,25 +6,24 @@
     </div>
 
     <div class="row">
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/hall/bisconferencehall.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/hall/bisconferencehall01.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/hall/bisconferencehall02.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/hall/bisconferencehall03.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/hall/bisconferencehall04.png')}}" alt="" class="w-100">
-        </div>
-        <div class="col-6 p-2">
-            <img src="{{asset('asset/img/school/equipment/hall/bisconferencehall05.png')}}" alt="" class="w-100">
-        </div>
+        @php
+            $No = "meetingroom";
+            try {
+                $folderPath = public_path("asset/img/school/equipment/$No");
+                $fileCount = count(glob("$folderPath/*"));
+
+                for ($i = 1; $i <= $fileCount; $i++) {
+                    echo "<div class='col-6 p-2'>
+                        <img src='" . asset("asset/img/school/equipment/$No/$i.jpg") . "' alt='' class='w-100'>
+                    </div>";
+                }
+
+            } catch (\Throwable $th) {
+                //Handle any exceptions here
+            }
+        @endphp
     </div>
+
 
     @include('web.client.school.layout.share.news')
 @endsection
