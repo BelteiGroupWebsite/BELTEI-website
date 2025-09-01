@@ -10,9 +10,9 @@ return [
         <h6 class="title-translate-font mb-2">១. តម្លៃសិក្សាកម្មវិធីជា ភាសាជាតិ</h6>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
-                <th>កម្រិតសិក្សា</th>
-                <th>ឆមាស</th>
-                <th>ឆ្នាំ</th>
+                <td>កម្រិតសិក្សា</td>
+                <td>ឆមាស</td>
+                <td>ឆ្នាំ</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្ររង</td>
@@ -41,9 +41,9 @@ return [
         <h6 class="title-translate-font mt-4 mb-2">២. តម្លៃសិក្សាកម្មវិធីអន្តរជាតិ</h6>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
-                <th>កម្រិតសិក្សា</th>
-                <th>ឆមាស</th>
-                <th>ឆ្នាំ</th>
+                <td>កម្រិតសិក្សា</td>
+                <td>ឆមាស</td>
+                <td>ឆ្នាំ</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្ររង</td>
@@ -72,9 +72,9 @@ return [
         <h6 class="title-translate-font mt-4 mb-2">៣. កម្មវិធីសិក្សាជា ភាសាជាតិ <span class="text-danger">(សម្រាប់មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span></h6>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
-                <th>កម្រិតសិក្សា</th>
-                <th>ឆមាស</th>
-                <th>ឆ្នាំ</th>
+                <td>កម្រិតសិក្សា</td>
+                <td>ឆមាស</td>
+                <td>ឆ្នាំ</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្ររង អាកាសចរ ស៊ីវិល</td>
@@ -93,9 +93,9 @@ return [
         <h6 class="title-translate-font mt-4 mb-2">៤. កម្មវិធីសិក្សា អន្តរជាតិ <span class="text-danger">(សម្រាប់មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span></h6>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
-                <th>កម្រិតសិក្សា</th>
-                <th>ឆមាស</th>
-                <th>ឆ្នាំ</th>
+                <td>កម្រិតសិក្សា</td>
+                <td>ឆមាស</td>
+                <td>ឆ្នាំ</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្ររង អាកាសចរ ស៊ីវិល</td>
@@ -124,8 +124,8 @@ return [
         <h6 class="title-translate-font mt-4 mb-2">ថ្ងៃ និង ម៉ោងសិក្សា</h6>
          <table class = "table table-hover table-bordered">
             <tr class = "bg-primary title-translate-font text-white">
-                <th> ច័ន្ទ – សុក្រ </th>
-                <th> ម៉ោង </th>
+                <td> ច័ន្ទ – សុក្រ </td>
+                <td> ម៉ោង </td>
             </tr>
             <tr>
                 <td> ព្រឹក </td>
@@ -142,8 +142,8 @@ return [
         </table>
     <table class = "table table-hover table-bordered">
             <tr class = "bg-primary title-translate-font text-white">
-                <th> សៅរ៍ – អាទិត្យ </th>
-                <th> Time </th>
+                <td> សៅរ៍ – អាទិត្យ </td>
+                <td> Time </td>
             </tr>
             <tr>
                 <td> ថ្ងៃសៅរ៍ </td>
