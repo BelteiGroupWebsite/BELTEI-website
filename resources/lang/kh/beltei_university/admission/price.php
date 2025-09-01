@@ -69,7 +69,28 @@ return [
     </div>
 
     <div>
-        <h4 class="title-translate-font mt-4 mb-2">៣. តម្លៃសិក្សាកម្មវិធីអន្តរជាតិ (អាកាសចរស៊ីវិល)</h4>
+        <h4 class="title-translate-font mt-4 mb-2">៣. កម្មវិធីសិក្សាជា ភាសាជាតិ <span class="text-danger">(សម្រាប់មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span></h4>
+        <table class="table table-hover table-bordered">
+            <tr class="bg-primary title-translate-font text-white">
+                <th>កម្រិតសិក្សា</th>
+                <th>ឆមាស</th>
+                <th>ឆ្នាំ</th>
+            </tr>
+            <tr>
+                <td>ថ្នាក់បរិញ្ញាបត្ររង អាកាសចរ ស៊ីវិល</td>
+                <td>$ 800</td>
+                <td>$ 1,500</td>
+            </tr>
+            <tr>
+                <td>ថ្នាក់បរិញ្ញាបត្រ អាកាសចរ ស៊ីវិល</td>
+                <td>$ 800</td>
+                <td>$ 1,500</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h4 class="title-translate-font mt-4 mb-2">៤. កម្មវិធីសិក្សា អន្តរជាតិ <span class="text-danger">(សម្រាប់មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span></h4>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
                 <th>កម្រិតសិក្សា</th>
