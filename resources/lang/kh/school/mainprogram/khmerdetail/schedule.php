@@ -50,7 +50,7 @@ return [
 
 
     <h5>តម្លៃសិក្សា</h5>
-    <h6>ក-អំពីតម្លៃសិក្សា ថ្នាក់ត្រៀមមុនចូលថ្នាក់ទី១</h6>
+    <h6>ក-អំពីតម្លៃសិក្សា ថ្នាក់មត្តេយ្យកម្រិតខ្ពស់</h6>
 
     <table class="table table-bordered table-hover bg-light text-center">
         <tbody>
