@@ -5,15 +5,15 @@
 
 <div class="text-start p-3">
 
-    <h2 class="title-translate-font text-center my-3 underline">{{ __('school/mainprogram/khmer.header') }}</h2>
+    <h2 class="title-translate-font text-center my-3 underline">{{ __('school/mainprogram/ESL.header') }}</h2>
 
 
     <div>
-        
+
         @include('web.client.school.layout.share.mainprogram.ESL')
 
     </div>
 
-</div>  
+</div>
 
 @endsection
