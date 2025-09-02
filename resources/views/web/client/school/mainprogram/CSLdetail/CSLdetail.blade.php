@@ -14,13 +14,13 @@
         <div class="row">
 
             <div class="col-4 p-2">
-                <img src="{{ asset('asset/img/school/mainprogram/csl/cert1.jpg') }}" alt="">
+                <img class="w-100" src="{{ asset('asset/img/school/mainprogram/csl/cert1.jpg') }}" alt="">
             </div>
             <div class="col-4 p-2">
-                <img src="{{ asset('asset/img/school/mainprogram/csl/cert2.jpg') }}" alt="">
+                <img class="w-100" src="{{ asset('asset/img/school/mainprogram/csl/cert2.jpg') }}" alt="">
             </div>
             <div class="col-4 p-2">
-                <img src="{{ asset('asset/img/school/mainprogram/csl/cert3.jpg') }}" alt="">
+                <img class="w-100" src="{{ asset('asset/img/school/mainprogram/csl/cert3.jpg') }}" alt="">
             </div>
 
         </div>
