@@ -69,7 +69,7 @@ return [
  </div>
 
  <div>
- <h4 class = "title-translate-font mt-4 mb-2"> 3. Tuition Fee for national Program (Civil Aviation) <img style="max-width: 200px" src="{{ asset(\'asset/img/university/admission/price/plane.png\') }}" alt="">
+ <h4 class = "title-translate-font mt-4 mb-2"> 3. Tuition Fee for national Program (Civil Aviation) <img style="max-width: 200px" src="<?php echo asset(\'asset/img/university/admission/price/plane.png\'); ?>" alt="">
 </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
