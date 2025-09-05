@@ -6,9 +6,9 @@ return [
 
     'description' => '
 
-        <div class="title-translate-font">
+        <div>
         <h5 class="title-translate-font mb-2 text-start">១. តម្លៃសិក្សាកម្មវិធីជា ភាសាជាតិ</h5>
-        <table class="table table-hover table-bordered">
+        <table class="table table-hover table-bordered content-translate-font">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
                 <td>ឆមាស</td>
@@ -39,7 +39,7 @@ return [
 
     <div>
         <h5 class="title-translate-font mt-4 mb-2 text-start">២. តម្លៃសិក្សាកម្មវិធីអន្តរជាតិ</h5>
-        <table class="table table-hover table-bordered">
+        <table class="table table-hover table-bordered content-translate-font">
             <tr class="bg-warning title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
                 <td>ឆមាស</td>
@@ -70,7 +70,7 @@ return [
 
     <div>
         <h6 class="title-translate-font mt-4 mb-2 text-start">៣. កម្មវិធីសិក្សាជា ភាសាជាតិ <span class="text-danger">(មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span>  <img style="max-width: 200px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png" alt=""></h6>
-        <table class="table table-hover table-bordered">
+        <table class="table table-hover table-bordered content-translate-font">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
                 <td>ឆមាស</td>
@@ -91,7 +91,7 @@ return [
 
     <div>
         <h6 class="title-translate-font mt-4 mb-2 text-start">៤. កម្មវិធីសិក្សា អន្តរជាតិ <span class="text-danger">(មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span> <img style="max-width: 200px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png" alt=""></h6>
-        <table class="table table-hover table-bordered">
+        <table class="table table-hover table-bordered content-translate-font">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
                 <td>ឆមាស</td>
@@ -122,7 +122,7 @@ return [
 
     <div>
         <h5 class="title-translate-font mt-4 mb-2">ថ្ងៃ និង ម៉ោងសិក្សា</h5>
-         <table class = "table table-hover table-bordered">
+         <table class = "table table-hover table-bordered content-translate-font">
             <tr class = "bg-primary title-translate-font text-white">
                 <td> ច័ន្ទ – សុក្រ </td>
                 <td> ម៉ោង </td>
@@ -140,7 +140,7 @@ return [
                 <td> 05:30PM – 08:30PM </td>
             </tr>
         </table>
-    <table class = "table table-hover table-bordered">
+    <table class = "table table-hover table-bordered content-translate-font">
             <tr class = "bg-primary title-translate-font text-white">
                 <td> សៅរ៍ – អាទិត្យ </td>
                 <td> Time </td>
