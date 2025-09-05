@@ -6,7 +6,7 @@ return [
 
     'description' => '
 
-        <div>
+        <div class="title-translate-font">
         <h5 class="title-translate-font mb-2 text-start">១. តម្លៃសិក្សាកម្មវិធីជា ភាសាជាតិ</h5>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
