@@ -9,10 +9,12 @@
     }
 </style>
 
-<h3 class="text-center title-translate-font mb-4">{!! __('beltei_university/admission/price.header') !!}</h3>
 
+<div>
+    <h3 class="title-translate-font p-3 bg-success text-white">{{ __('beltei_university/admission/price.header')  }}</h3>
+</div>
 
-<div class="content-translate-font">
+<div class="">
 
     {!! __('beltei_university/admission/price.description') !!}
     
