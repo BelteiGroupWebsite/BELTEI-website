@@ -69,7 +69,7 @@ return [
  </div>
 
  <div>
- <h4 class = "title-translate-font mt-4 mb-2 text-start"> 3. Tuition Fee for national Program (Civil Aviation) <img style="max-width: 200px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png" alt="">
+ <h4 class = "title-translate-font mt-4 mb-2 text-start"> 3. Tuition Fee for national Program <span class="text-danger">(Civil Aviation)</span> <img style="max-width: 200px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png" alt="">
 </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
@@ -92,7 +92,7 @@ return [
  </div>
 
  <div>
- <h4 class = "title-translate-font mt-4 mb-2 text-start"> 4. Tuition Fee for International Program (Civil Aviation) </h4>
+ <h4 class = "title-translate-font mt-4 mb-2 text-start"> 4. Tuition Fee for International Program <span class="text-danger">(Civil Aviation)</span> </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Program </th>

@@ -9,6 +9,8 @@
     }
 </style>
 
+<h3 class="text-center title-translate-font mb-4">{!! __('beltei_university/admission/price.header') !!}</h3>
+
 
 <div class="content-translate-font">
 
