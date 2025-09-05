@@ -14,7 +14,7 @@
     <h3 class="title-translate-font p-3 bg-success text-white">{{ __('beltei_university/admission/price.header')  }}</h3>
 </div>
 
-<div class="mt-4">
+<div class="mt-4 fee-table">
 
     {!! __('beltei_university/admission/price.description') !!}
     
