@@ -2,12 +2,12 @@
 
 return [
 
-    'header' => "",
+    'header' => "តម្លៃសិក្សា",
 
     'description' => '
 
         <div>
-        <h5 class="title-translate-font mb-2">១. តម្លៃសិក្សាកម្មវិធីជា ភាសាជាតិ</h5>
+        <h5 class="title-translate-font mb-2 text-start">១. តម្លៃសិក្សាកម្មវិធីជា ភាសាជាតិ</h5>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
@@ -38,7 +38,7 @@ return [
     </div>
 
     <div>
-        <h5 class="title-translate-font mt-4 mb-2">២. តម្លៃសិក្សាកម្មវិធីអន្តរជាតិ</h5>
+        <h5 class="title-translate-font mt-4 mb-2 text-start">២. តម្លៃសិក្សាកម្មវិធីអន្តរជាតិ</h5>
         <table class="table table-hover table-bordered">
             <tr class="bg-warning title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
@@ -69,7 +69,7 @@ return [
     </div>
 
     <div>
-        <h5 class="title-translate-font mt-4 mb-2">៣. កម្មវិធីសិក្សាជា ភាសាជាតិ <span class="text-danger">(មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span></h5>
+        <h6 class="title-translate-font mt-4 mb-2 text-start">៣. កម្មវិធីសិក្សាជា ភាសាជាតិ <span class="text-danger">(មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span>  <img style="max-width: 200px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png" alt=""></h6>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
@@ -90,7 +90,7 @@ return [
     </div>
 
     <div>
-        <h5 class="title-translate-font mt-4 mb-2">៤. កម្មវិធីសិក្សា អន្តរជាតិ <span class="text-danger">(មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span></h5>
+        <h6 class="title-translate-font mt-4 mb-2 text-start">៤. កម្មវិធីសិក្សា អន្តរជាតិ <span class="text-danger">(មហាវិទ្យាល័យ អាកាសចរស៊ីវិល)</span> <img style="max-width: 200px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png" alt=""></h6>
         <table class="table table-hover table-bordered">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>

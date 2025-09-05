@@ -2,12 +2,12 @@
 
 return [
 
-    'header' => "",
+    'header' => "Tuition Fee",
 
     'description' => '
 
 <div>
- <h4 class = "title-translate-font mb-2"> 1. Tuition Fee for National Program  </h4>
+ <h4 class = "title-translate-font mb-2 text-start"> 1. Tuition Fee for National Program  </h4>
  <table class = "table table-hover table-bordered fee-table">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Program </th>
@@ -38,7 +38,7 @@ return [
  </div>
 
  <div>
- <h4 class = "title-translate-font mt-4 mb-2"> 2. Tuition Fee for International Program </h4>
+ <h4 class = "title-translate-font mt-4 mb-2 text-start"> 2. Tuition Fee for International Program </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-warning title-translate-font text-white">
  <th> Program </th>
@@ -69,7 +69,7 @@ return [
  </div>
 
  <div>
- <h4 class = "title-translate-font mt-4 mb-2"> 3. Tuition Fee for national Program (Civil Aviation) <img style="max-width: 200px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png" alt="">
+ <h4 class = "title-translate-font mt-4 mb-2 text-start"> 3. Tuition Fee for national Program (Civil Aviation) <img style="max-width: 200px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png" alt="">
 </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
@@ -78,7 +78,7 @@ return [
  <th> Year </th>
  </tr>
  <tr>
- <td> Associate of Civil Aviation</td>
+ <td> Associate of Civil Aviation <img style="max-width: 200px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png" alt=""></td>
  <td> $ 800</td>
  <td> $ 1,500 </td>
  </tr>
@@ -92,7 +92,7 @@ return [
  </div>
 
  <div>
- <h4 class = "title-translate-font mt-4 mb-2"> 4. Tuition Fee for International Program (Civil Aviation) </h4>
+ <h4 class = "title-translate-font mt-4 mb-2 text-start"> 4. Tuition Fee for International Program (Civil Aviation) </h4>
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Program </th>
