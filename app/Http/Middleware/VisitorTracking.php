@@ -17,7 +17,7 @@ use Jenssegers\Agent\Agent;
 class VisitorTracking
 {
     // How many hits per hour a single IP is allowed before getting blocked
-    protected int $visitThreshold = 100000;
+    protected int $visitThreshold = 100;
     // protected int $visitThreshold = 100;
 
     // How long the IP will be blocked (in seconds)
@@ -211,3 +211,6 @@ class VisitorTracking
         file_put_contents($htaccessPath, implode("\n", $newLines));
     }
 }
+
+
+
