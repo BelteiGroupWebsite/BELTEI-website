@@ -76,15 +76,14 @@
                             <td>
                                 <img data-bs-toggle="modal" data-bs-target="#VerifyModal"
                                     wire:click="openCertificateModal('{{ $certificate->id }}','profile' , '{{ $certificate->profile_no }}')"
-                                    loading="lazy" style="max-width: 80px"
-                                    src="{{ route('certificate.view', ['filename' => $profileImagePath]) }}"
+                                    loading="lazy" style="max-width: 80px" src="{{ route('certificate.view', ['filename' => $profileImagePath]) }}"
                                     alt="profile">
                             </td>
                             <td>
                                 <img data-bs-toggle="modal" data-bs-target="#VerifyModal"
                                     wire:click="openCertificateModal('{{ $certificate->id }}','beltei' , '{{ $certificate->certi_no }}')"
                                     loading="lazy" style="max-width: 80px" class="cursor-pointer"
-                                    src="{{ asset('asset/img/university/certificate/certi_placeholder' . $degreeId . '.jpg') }}"
+                                    src="{{ asset('asset/img/university/certificate/certi_placeholder'.$degreeId.'.jpg') }}"
                                     alt="certificate">
                             </td>
                         </tr>
@@ -192,11 +191,4 @@
             </div>
         </div>
     </div>
-
-    <script>
-        window.addEventListener('open-new-tab', event => {
-            const url = event.detail.url;
-            window.open(url, '_blank');
-        });
-    </script>
 </div>

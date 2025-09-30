@@ -76,16 +76,10 @@ class CertificateSearch extends Component
             'university/' . $this->degree . '/' . $this->batch . '/' . $this->displayFolder . '/' . $this->displayField . '.jpg'
         );
 
-        // Dispatch browser event with URL
-        $url = route('certificate.view', ['filename' => $encryptedPath]);
-
-        $this->dispatchBrowserEvent('open-new-tab', ['url' => $url]);
-
-        // return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
+        return redirect()->route('certificate.view', ['filename' => $encryptedPath]);
     }
 
-    public function submit()
-    {
+    public function submit(){
         $this->verify();
     }
 
