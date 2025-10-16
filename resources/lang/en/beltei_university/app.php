@@ -122,12 +122,13 @@ return [
     'K3' => "Expatriate Lecturers",
 
     'L' => "Extra-Curricular Courses",
-    'L1' => "Public Speaking Program",
+    'L1' => "Public Speaking Program (NP)",
     'L2' => "Year 1",
     'L3' => "Year 2",
     'L4' => "Year 3",
     'L5' => "Year 4",
 
+    'L6' => "Public Speaking Program (IP)",
 
 
     // left sidebar
