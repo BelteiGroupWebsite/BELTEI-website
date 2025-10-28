@@ -50,7 +50,7 @@
                             );
                         @endphp
                         <img loading="lazy" width="50px"
-                            src="{{ route('certificate.viewEn', ['filename' => $encryptedProfile]) }}">
+                            src="{{ route('certificate.view', ['filename' => $encryptedProfile]) }}">
 
                     </td>
                     <td>
