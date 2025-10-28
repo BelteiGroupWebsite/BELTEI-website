@@ -40,10 +40,13 @@
                     <td>{{ $student->dob }}</td>
                     <td>
                         @php
-                            $profileCardFolder = 'profile';
-                            $profileCard = $student->profile;
-                            $encryptedProfile = base64_encode(
-                                "school/$programId/$gradeId/$academicBatch->id/$profileCardFolder/$profileCard.jpg",
+                            // $profileCardFolder = 'profile';
+                            // $profileCard = $student->profile;
+                            // $encryptedProfile = base64_encode(
+                            //     "school/$programId/$gradeId/$academicBatch->id/$profileCardFolder/$profileCard.jpg",
+                            // );
+                            $encryptedProfile = Crypt::encryptString(
+                                "school/$programId/$gradeId/$academicBatch->id/profile/$student->profile_no.jpg",
                             );
                         @endphp
                         <img loading="lazy" width="50px"
