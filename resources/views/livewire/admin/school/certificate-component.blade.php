@@ -41,7 +41,7 @@
                     <td>
                         @php
                             $profileCardFolder = 'profile';
-                            $profileCard = $student->certi_no;
+                            $profileCard = $student->profile;
                             $encryptedProfile = base64_encode(
                                 "school/$programId/$gradeId/$academicBatch->id/$profileCardFolder/$profileCard.jpg",
                             );
