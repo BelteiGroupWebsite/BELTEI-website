@@ -40,6 +40,18 @@
                     <td>{{ $student->dob }}</td>
                     <td>
                         @php
+                            $profileCardFolder = 'profile';
+                            $profileCard = $student->certi_no;
+                            $encryptedProfile = base64_encode(
+                                "school/$programId/$gradeId/$academicBatch->id/$profileCardFolder/$profileCard.jpg",
+                            );
+                        @endphp
+                        <img loading="lazy" width="50px"
+                            src="{{ route('certificate.viewEn', ['filename' => $encryptedProfile]) }}">
+
+                    </td>
+                    <td>
+                        @php
                             $imageCardFolder = 'beltei';
                             $imageCard = $student->certi_no;
                             $encryptedBeltei = base64_encode(
@@ -49,6 +61,17 @@
                         <img loading="lazy" width="50px"
                             src="{{ route('certificate.viewEn', ['filename' => $encryptedBeltei]) }}">
 
+                    </td>
+                    <td>
+                        @php
+                            $moeyCardFolder = 'moey';
+                            $moeyCard = $student->moey_no;
+                            $encryptedMoey = base64_encode(
+                                "school/$programId/$gradeId/$academicBatch->id/$moeyCardFolder/$moeyCard.jpg",
+                            );
+                        @endphp
+                        <img loading="lazy" width="50px"
+                            src="{{ route('certificate.viewEn', ['filename' => $encryptedMoey]) }}">
                     </td>
                     <td>
                         <button type="button" class="btn btn-warning btn-sm bi bi-pencil-square" data-bs-toggle="modal"
