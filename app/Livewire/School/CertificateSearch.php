@@ -49,7 +49,7 @@ class CertificateSearch extends Component
             });
         }
 
-        $studentInfos = $query ? $query->paginate(strlen($this->search) >= 1 ? 10 : 20) : collect();
+        $studentInfos = $query ? $query->orderBy('student_id', 'asc')->paginate(strlen($this->search) >= 1 ? 10 : 20) : collect();
 
         // $this->academicBatch = StbAcademicBatch::find($this->batch);
 
