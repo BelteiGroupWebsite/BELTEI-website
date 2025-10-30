@@ -46,7 +46,6 @@ class StudentInfoImport implements ToCollection, WithHeadingRow
                     'ielts_no' => preg_replace('/\s+/', '', $row['ielts_no']),
                     'academic_batch_id' => $this->academic_batch_id,
                 ]);
-                
             } catch (\Exception $e) {
                 Log::error('Error importing data in row ' . ($key + 1) . ': ' . $e->getMessage());
                 // return back()->with('error', 'There was a problem importing the data: ' . $e->getMessage());
