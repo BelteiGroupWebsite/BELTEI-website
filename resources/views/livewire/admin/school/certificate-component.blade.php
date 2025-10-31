@@ -88,52 +88,45 @@
         </tbody>
     </table>
 
-    @if ($this->missingFiles['total'] > 0)
+    @if ($this->missingFiles['students']->count())
         <div class="mt-4">
+            <h6 class="fw-bold text-danger">Students Missing Files:</h6>
 
-            <div class="alert alert-info">
-                <strong>Missing Document Summary</strong><br>
-                Total Students: <b>{{ $this->missingFiles['total'] }}</b> <br>
-                Missing Profile: <b class="text-danger">{{ $this->missingFiles['profile'] }}</b> |
-                Missing Beltei: <b class="text-danger">{{ $this->missingFiles['beltei'] }}</b> |
-                Missing MoEY: <b class="text-danger">{{ $this->missingFiles['moey'] }}</b>
-            </div>
+            <table class="table table-bordered table-sm">
+                <thead class="table-warning">
+                    <tr>
+                        <th>#</th>
+                        <th>Student Name</th>
+                        <th>Student ID</th>
+                        <th>Missing Files</th>
+                    </tr>
+                </thead>
 
-            @if (count($this->missingFiles['students']) > 0)
-                <table class="table table-sm table-bordered">
-                    <thead class="table-warning">
+                <tbody>
+                    @foreach ($this->missingFiles['students'] as $i => $item)
+                        @php $s = $item['student']; @endphp
                         <tr>
-                            <th>Student ID</th>
-                            <th>Student Name (Khmer)</th>
-                            <th>Student Name (Latin)</th>
-                            <th>Missing Files</th>
+                            <td>{{ $i + 1 }}</td>
+                            <td>{{ $s->latin_name }} ({{ $s->khmer_name }})</td>
+                            <td>{{ $s->student_id }}</td>
+                            <td>
+                                @if ($item['missing_profile'])
+                                    <span class="badge bg-danger">Profile</span>
+                                @endif
+                                @if ($item['missing_beltei'])
+                                    <span class="badge bg-warning text-dark">Beltei</span>
+                                @endif
+                                @if ($item['missing_moey'])
+                                    <span class="badge bg-info">MoEY</span>
+                                @endif
+                            </td>
                         </tr>
-                    </thead>
-                    <tbody>
-                        @foreach ($this->missingFiles['students'] as $stu)
-                            <tr>
-                                <td>{{ $stu->student_id }}</td>
-                                <td class="Muol-Light">{{ $stu->khmer_name }}</td>
-                                <td>{{ $stu->latin_name }}</td>
-                                <td class="fw-bold text-danger">
-                                    @if (!$stu->profile_no)
-                                        ❌ Profile
-                                    @endif
-                                    @if (!$stu->certi_no)
-                                        ❌ Beltei
-                                    @endif
-                                    @if (!$stu->moey_no)
-                                        ❌ MoEY
-                                    @endif
-                                </td>
-                            </tr>
-                        @endforeach
-                    </tbody>
-                </table>
-            @endif
-
+                    @endforeach
+                </tbody>
+            </table>
         </div>
     @endif
+
 
 
     <div class="d-flex justify-content-end">

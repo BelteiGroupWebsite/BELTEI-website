@@ -201,18 +201,23 @@ class CertificateComponent extends Component
     {
         $students = $this->academicBatch?->studentInfo()->get() ?? collect();
 
-        $missingProfile = $students->whereNull('profile_no')->count();
-        $missingBeltei = $students->whereNull('certi_no')->count();
-        $missingMoey   = $students->whereNull('moey_no')->count();
+        $missing = $students->map(function ($s) {
+            return [
+                'student' => $s,
+                'missing_profile' => !$s->profile_no,
+                'missing_beltei'  => !$s->certi_no,
+                'missing_moey'    => !$s->moey_no,
+            ];
+        })->filter(function ($item) {
+            return $item['missing_profile'] || $item['missing_beltei'] || $item['missing_moey'];
+        });
 
         return [
-            'profile' => $missingProfile,
-            'beltei'  => $missingBeltei,
-            'moey'    => $missingMoey,
+            'profile' => $students->whereNull('profile_no')->count(),
+            'beltei'  => $students->whereNull('certi_no')->count(),
+            'moey'    => $students->whereNull('moey_no')->count(),
             'total'   => $students->count(),
-            'students' => $students->filter(function ($s) {
-                return !$s->profile_no || !$s->certi_no || !$s->moey_no;
-            })
+            'students' => $missing
         ];
     }
 }
