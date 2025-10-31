@@ -16,7 +16,7 @@ class CertificateComponent extends Component
     use WithPagination, WithFileUploads;
 
     public $batchID;
-    
+
     public $academicBatch, $programId, $gradeId, $search;
     public $studentInfoShow, $studentIdRecord;
     public $student_id, $khmer_name, $latin_name, $gender, $dob, $nationality, $campus, $academic_batch_id;
@@ -67,7 +67,6 @@ class CertificateComponent extends Component
 
         session()->flash('message', 'Student information updated successfully!');
         $this->resetForm();
-
     }
 
     public function createStudent()
@@ -195,5 +194,67 @@ class CertificateComponent extends Component
         }
 
         return response()->file(storage_path("app/{$path}"));
+    }
+
+
+
+    public function getMissingDocumentReport()
+    {
+        $batchId = $this->academicBatch->id;
+
+        $students = StbStudentInfo::where('academic_batch_id', $batchId)->get();
+
+        $missing = [
+            'no_profile' => 0,
+            'no_beltei' => 0,
+            'no_moey' => 0,
+            'no_ielts' => 0,
+            'list' => []
+        ];
+
+        foreach ($students as $student) {
+            $noProfile = empty($student->profile_no);
+            $noBeltei = empty($student->certi_no);
+            $noMoey = empty($student->moey_no);
+            $noIelts = empty($student->ielts_no);
+
+            // Check storage files too
+            $base = "upload/certificate/school/{$this->programId}/{$this->gradeId}/{$batchId}";
+
+            $paths = [
+                'profile' => "$base/profile/{$student->profile_no}.jpg",
+                'beltei'  => "$base/beltei/{$student->certi_no}.jpg",
+                'moey'    => "$base/moey/{$student->moey_no}.jpg",
+                'ielts'   => "$base/ielts/{$student->ielts_no}.jpg",
+            ];
+
+            foreach ($paths as $key => $path) {
+                if (!Storage::disk('private')->exists($path)) {
+                    ${"no" . ucfirst($key)} = true;
+                }
+            }
+
+            if ($noProfile || $noBeltei || $noMoey || $noIelts) {
+
+                $missing['list'][] = [
+                    'id' => $student->id,
+                    'student_id' => $student->student_id,
+                    'name' => $student->latin_name,
+                    'missing' => [
+                        'profile' => $noProfile,
+                        'beltei' => $noBeltei,
+                        'moey' => $noMoey,
+                        'ielts' => $noIelts
+                    ]
+                ];
+
+                $missing['no_profile'] += $noProfile;
+                $missing['no_beltei'] += $noBeltei;
+                $missing['no_moey'] += $noMoey;
+                $missing['no_ielts'] += $noIelts;
+            }
+        }
+
+        return $missing;
     }
 }
