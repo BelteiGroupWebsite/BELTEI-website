@@ -300,7 +300,7 @@
                     <button class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
 
-                <div class="modal-body">
+                {{-- <div class="modal-body">
                     <ul>
                         <li>Students missing Profile: {{ $missingReport['no_profile'] ?? 0 }}</li>
                         <li>Students missing Beltei: {{ $missingReport['no_beltei'] ?? 0 }}</li>
@@ -328,7 +328,7 @@
                             </tr>
                         @endforeach
                     </table>
-                </div>
+                </div> --}}
 
             </div>
         </div>
