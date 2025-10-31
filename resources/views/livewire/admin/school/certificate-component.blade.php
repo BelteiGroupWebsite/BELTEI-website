@@ -336,12 +336,9 @@
 
 
 
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        window.addEventListener('show-report', () => {
-            new bootstrap.Modal(document.getElementById('MissingReportModal')).show();
-        });
-
         function confirmDelete(collaboratorId) {
             Swal.fire({
                 title: "Are you sure?",
@@ -361,6 +358,11 @@
                 }
             });
         }
+
+        window.addEventListener('show-report', () => {
+            new bootstrap.Modal(document.getElementById('MissingReportModal')).show();
+        });
+
 
         window.addEventListener('show-modal', event => {
             const modal = new bootstrap.Modal(document.getElementById('StudentModal'));

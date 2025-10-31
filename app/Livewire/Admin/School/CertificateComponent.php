@@ -197,6 +197,14 @@ class CertificateComponent extends Component
     }
 
 
+    public $missingReport = [];
+
+    public function showReport()
+    {
+        $this->missingReport = $this->getMissingDocumentReport();
+        $this->dispatch('show-report');
+    }
+
 
     public function getMissingDocumentReport()
     {
@@ -255,7 +263,7 @@ class CertificateComponent extends Component
             }
         }
 
-        dd ($missing);
+        dd($missing);
 
         return $missing;
     }
