@@ -255,6 +255,8 @@ class CertificateComponent extends Component
             }
         }
 
+        dd ($missing);
+
         return $missing;
     }
 }
