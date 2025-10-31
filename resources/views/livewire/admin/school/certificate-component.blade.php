@@ -88,47 +88,6 @@
         </tbody>
     </table>
 
-    @if ($this->missingFiles['students']->count())
-        <div class="mt-4">
-            <h6 class="fw-bold text-danger">Students Missing Files:</h6>
-
-            <table class="table table-bordered table-sm">
-                <thead class="table-warning">
-                    <tr>
-                        <th>#</th>
-                        <th>Student Name</th>
-                        <th>Student ID</th>
-                        <th>Missing Files</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    @foreach ($this->missingFiles['students'] as $i => $item)
-                        @php $s = $item['student']; @endphp
-                        <tr>
-                            <td>{{ $i + 1 }}</td>
-                            <td>{{ $s->latin_name }} ({{ $s->khmer_name }})</td>
-                            <td>{{ $s->student_id }}</td>
-                            <td>
-                                @if ($item['missing_profile'])
-                                    <span class="badge bg-danger">Profile</span>
-                                @endif
-                                @if ($item['missing_beltei'])
-                                    <span class="badge bg-warning text-dark">Beltei</span>
-                                @endif
-                                @if ($item['missing_moey'])
-                                    <span class="badge bg-info">MoEY</span>
-                                @endif
-                            </td>
-                        </tr>
-                    @endforeach
-                </tbody>
-            </table>
-        </div>
-    @endif
-
-
-
     <div class="d-flex justify-content-end">
         {{ $studentInfo->links('vendor.livewire.bootstrap') }}
     </div>
