@@ -208,6 +208,7 @@ class CertificateComponent extends Component
 
     public function getMissingDocumentReport()
     {
+        dd('getMissingDocumentReport');
         $batchId = $this->academicBatch->id;
 
         $students = StbStudentInfo::where('academic_batch_id', $batchId)->get();
