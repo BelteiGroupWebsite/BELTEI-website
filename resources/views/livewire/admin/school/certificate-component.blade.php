@@ -15,10 +15,6 @@
         <button class="btn btn-outline-primary" wire:click="createStudent" data-bs-toggle="modal"
             data-bs-target="#StudentModal">Add New</button>
         <button class="btn btn-outline-primary" wire:click="downloadFile">Excel Export</button>
-        <button class="btn btn-warning" wire:click="showReport">
-            Missing Documents Report
-        </button>
-
 
     </div>
 
@@ -87,9 +83,47 @@
         </tbody>
     </table>
 
+
+
+
     <div class="d-flex justify-content-end">
         {{ $studentInfo->links('vendor.livewire.bootstrap') }}
     </div>
+
+
+    <button class="btn btn-danger" wire:click="checkMissingFiles">
+        Check Missing Files
+    </button>
+    @if (!empty($missingStudents))
+        <div class="alert alert-warning mt-2">
+            <strong>Missing Files Report:</strong><br>
+            Profiles: {{ $missingProfiles }} |
+            Beltei: {{ $missingBeltei }} |
+            MoEY: {{ $missingMoey }} |
+            IELTS: {{ $missingIelts }}
+        </div>
+
+        <table class="table table-sm table-bordered mt-2">
+            <thead class="table-danger">
+                <tr>
+                    <th>Student ID</th>
+                    <th>Student Name</th>
+                    <th>Missing Files</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach ($missingStudents as $item)
+                    <tr>
+                        <td>{{ $item['student_id'] }}</td>
+                        <td>{{ $item['khmer_name'] }} ({{ $item['latin_name'] }})</td>
+                        <td class="text-danger fw-bold">{{ $item['missing_files'] }}</td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    @endif
+
+
 
     <div wire:ignore.self class="modal modal-lg fade" id="StudentModal" tabindex="-1"
         aria-labelledby="StudentModalLabel" aria-hidden="true">
@@ -291,52 +325,6 @@
         </div>
     </div>
 
-    <div wire:ignore.self class="modal fade" id="MissingReportModal">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <h5>Missing Documents Report</h5>
-                    <button class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-
-                {{-- <div class="modal-body">
-                    <ul>
-                        <li>Students missing Profile: {{ $missingReport['no_profile'] ?? 0 }}</li>
-                        <li>Students missing Beltei: {{ $missingReport['no_beltei'] ?? 0 }}</li>
-                        <li>Students missing MoEY: {{ $missingReport['no_moey'] ?? 0 }}</li>
-                        <li>Students missing IELTS: {{ $missingReport['no_ielts'] ?? 0 }}</li>
-                    </ul>
-
-                    <table class="table table-bordered">
-                        <tr>
-                            <th>ID</th>
-                            <th>Name</th>
-                            <th>Missing</th>
-                        </tr>
-                        @foreach ($missingReport['list'] ?? [] as $row)
-                            <tr>
-                                <td>{{ $row['student_id'] }}</td>
-                                <td>{{ $row['name'] }}</td>
-                                <td>
-                                    @foreach ($row['missing'] as $doc => $missing)
-                                        @if ($missing)
-                                            <span class="badge bg-danger">{{ $doc }}</span>
-                                        @endif
-                                    @endforeach
-                                </td>
-                            </tr>
-                        @endforeach
-                    </table>
-                </div> --}}
-
-            </div>
-        </div>
-    </div>
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         function confirmDelete(collaboratorId) {
@@ -358,11 +346,6 @@
                 }
             });
         }
-
-        window.addEventListener('show-report', () => {
-            new bootstrap.Modal(document.getElementById('MissingReportModal')).show();
-        });
-
 
         window.addEventListener('show-modal', event => {
             const modal = new bootstrap.Modal(document.getElementById('StudentModal'));

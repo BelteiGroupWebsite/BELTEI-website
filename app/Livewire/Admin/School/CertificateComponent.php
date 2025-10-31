@@ -15,6 +15,14 @@ class CertificateComponent extends Component
 {
     use WithPagination, WithFileUploads;
 
+
+    public $missingProfiles = 0;
+    public $missingBeltei = 0;
+    public $missingMoey = 0;
+    public $missingIelts = 0;
+    public $missingStudents = [];
+
+
     public $batchID;
 
     public $academicBatch, $programId, $gradeId, $search;
@@ -197,75 +205,57 @@ class CertificateComponent extends Component
     }
 
 
-    public $missingReport = [];
 
-    public function showReport()
+    public function checkMissingFiles()
     {
-        $this->missingReport = $this->getMissingDocumentReport();
-        $this->dispatch('show-report');
-    }
-
-
-    public function getMissingDocumentReport()
-    {
-        $batchId = $this->academicBatch->id;
-        
-        $students = StbStudentInfo::where('academic_batch_id', $batchId)->get();
-        dd($students);
-
-        $missing = [
-            'no_profile' => 0,
-            'no_beltei' => 0,
-            'no_moey' => 0,
-            'no_ielts' => 0,
-            'list' => []
-        ];
+        $students = $this->academicBatch?->studentInfo()->get();
+        $this->missingProfiles = $this->missingBeltei = $this->missingMoey = $this->missingIelts = 0;
+        $this->missingStudents = [];
 
         foreach ($students as $student) {
-            $noProfile = empty($student->profile_no);
-            $noBeltei = empty($student->certi_no);
-            $noMoey = empty($student->moey_no);
-            $noIelts = empty($student->ielts_no);
 
-            // Check storage files too
-            $base = "upload/certificate/school/{$this->programId}/{$this->gradeId}/{$batchId}";
+            $missing = [];
 
-            $paths = [
-                'profile' => "$base/profile/{$student->profile_no}.jpg",
-                'beltei'  => "$base/beltei/{$student->certi_no}.jpg",
-                'moey'    => "$base/moey/{$student->moey_no}.jpg",
-                'ielts'   => "$base/ielts/{$student->ielts_no}.jpg",
+            // Build file paths
+            $basePath = "upload/certificate/school/{$this->programId}/{$this->gradeId}/{$this->academicBatch->id}";
+
+            $files = [
+                'profile' => "{$basePath}/profile/{$student->profile_no}.jpg",
+                'beltei'  => "{$basePath}/beltei/{$student->certi_no}.jpg",
+                'moey'    => "{$basePath}/moey/{$student->moey_no}.jpg",
+                'ielts'   => "{$basePath}/ielts/{$student->ielts_no}.jpg",
             ];
 
-            foreach ($paths as $key => $path) {
-                if (!Storage::disk('private')->exists($path)) {
-                    ${"no" . ucfirst($key)} = true;
-                }
+            if (!Storage::disk('private')->exists($files['profile'])) {
+                $this->missingProfiles++;
+                $missing[] = 'Profile';
             }
 
-            if ($noProfile || $noBeltei || $noMoey || $noIelts) {
+            if (!Storage::disk('private')->exists($files['beltei'])) {
+                $this->missingBeltei++;
+                $missing[] = 'Beltei';
+            }
 
-                $missing['list'][] = [
-                    'id' => $student->id,
+            if (!Storage::disk('private')->exists($files['moey'])) {
+                $this->missingMoey++;
+                $missing[] = 'MoEY';
+            }
+
+            if (!Storage::disk('private')->exists($files['ielts'])) {
+                $this->missingIelts++;
+                $missing[] = 'IELTS';
+            }
+
+            if ($missing) {
+                $this->missingStudents[] = [
                     'student_id' => $student->student_id,
-                    'name' => $student->latin_name,
-                    'missing' => [
-                        'profile' => $noProfile,
-                        'beltei' => $noBeltei,
-                        'moey' => $noMoey,
-                        'ielts' => $noIelts
-                    ]
+                    'khmer_name' => $student->khmer_name,
+                    'latin_name' => $student->latin_name,
+                    'missing_files' => implode(', ', $missing)
                 ];
-
-                $missing['no_profile'] += $noProfile;
-                $missing['no_beltei'] += $noBeltei;
-                $missing['no_moey'] += $noMoey;
-                $missing['no_ielts'] += $noIelts;
             }
         }
 
-        dd($missing);
-
-        return $missing;
+        session()->flash('message', 'Missing file report generated.');
     }
 }
