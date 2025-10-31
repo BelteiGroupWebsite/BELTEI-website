@@ -22,7 +22,7 @@
 
 
     <livewire:admin.school.certificate-component :batch="$id" />
-    <livewire:admin.school.check-certificate-component :batch="$id" />
+    {{-- <livewire:admin.school.check-certificate-component :batch="$id" /> --}}
 
     {{-- <div>
         <table class="table table-bordered ">

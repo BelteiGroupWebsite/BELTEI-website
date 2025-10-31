@@ -819,6 +819,11 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth', 'c
 
         // Route::resource('certificate',StbCertificateController::class)->names('certificate');
         Route::resource('certificate-new', StbCertificateController::class)->names('certificate-new');
+        Route::get('certificate-new/check', [StbCertificateController::class , 'check'])->name('certificate-check');
+
+        Route::get('certificate-new/{batch}/check' , function($batch){
+            return view('web.admin.school.certificate.check',compact('batch'));
+        })->name('certificate-new.batch.check');
 
         Route::resource('certificate', CertificateController::class)->names('certificate');
         Route::prefix('certificate')->as('certificate')->group(function () {
