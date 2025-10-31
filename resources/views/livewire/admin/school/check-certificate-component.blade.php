@@ -13,8 +13,10 @@
         <thead class="table-warning">
             <tr>
                 <th>#</th>
-                <th>Name</th>
+                <th>Khmer Name</th>
+                <th>Latin Name</th>
                 <th>ID</th>
+                <th>Campus</th>
                 <th>Missing</th>
             </tr>
         </thead>
@@ -23,8 +25,10 @@
             @php $s = $r['student']; @endphp
             <tr>
                 <td>{{ $i+1 }}</td>
-                <td>{{ $s->latin_name }} ({{ $s->khmer_name }})</td>
+                <td>{{ $s->khmer_name }}</td>
+                <td>{{ $s->latin_name }}</td>
                 <td>{{ $s->student_id }}</td>
+                <td>{{ $s->campus }}</td>
                 <td>
                     @if($r['missing_profile']) <span class="badge bg-danger">Profile</span> @endif
                     @if($r['missing_beltei'])  <span class="badge bg-warning text-dark">Beltei</span> @endif
