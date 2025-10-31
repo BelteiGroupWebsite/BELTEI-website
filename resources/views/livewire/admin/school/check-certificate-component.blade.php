@@ -12,29 +12,35 @@
     <table class="table table-bordered table-sm">
         <thead class="table-warning">
             <tr>
-                <th>#</th>
+                {{-- <th>#</th> --}}
+                <th>ID</th>
                 <th>Khmer Name</th>
                 <th>Latin Name</th>
-                <th>ID</th>
                 <th>Campus</th>
                 <th>Missing</th>
             </tr>
         </thead>
         <tbody>
             @foreach ($this->missing['rows'] as $i => $r)
-            @php $s = $r['student']; @endphp
-            <tr>
-                <td>{{ $i+1 }}</td>
-                <td>{{ $s->khmer_name }}</td>
-                <td>{{ $s->latin_name }}</td>
-                <td>{{ $s->student_id }}</td>
-                <td>{{ $s->campus }}</td>
-                <td>
-                    @if($r['missing_profile']) <span class="badge bg-danger">Profile</span> @endif
-                    @if($r['missing_beltei'])  <span class="badge bg-warning text-dark">Beltei</span> @endif
-                    @if($r['missing_moey'])    <span class="badge bg-info">MoEY</span> @endif
-                </td>
-            </tr>
+                @php $s = $r['student']; @endphp
+                <tr>
+                    {{-- <td>{{ $i+1 }}</td> --}}
+                    <td>{{ $s->student_id }}</td>
+                    <td>{{ $s->khmer_name }}</td>
+                    <td>{{ $s->latin_name }}</td>
+                    <td>{{ $s->campus }}</td>
+                    <td>
+                        @if ($r['missing_profile'])
+                            <span class="badge bg-danger">Profile</span>
+                        @endif
+                        @if ($r['missing_beltei'])
+                            <span class="badge bg-warning text-dark">Beltei</span>
+                        @endif
+                        @if ($r['missing_moey'])
+                            <span class="badge bg-info">MoEY</span>
+                        @endif
+                    </td>
+                </tr>
             @endforeach
         </tbody>
     </table>
