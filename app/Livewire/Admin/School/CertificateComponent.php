@@ -16,7 +16,7 @@ class CertificateComponent extends Component
     use WithPagination, WithFileUploads;
 
     public $batchID;
-
+    
     public $academicBatch, $programId, $gradeId, $search;
     public $studentInfoShow, $studentIdRecord;
     public $student_id, $khmer_name, $latin_name, $gender, $dob, $nationality, $campus, $academic_batch_id;
@@ -67,6 +67,7 @@ class CertificateComponent extends Component
 
         session()->flash('message', 'Student information updated successfully!');
         $this->resetForm();
+
     }
 
     public function createStudent()
@@ -194,30 +195,5 @@ class CertificateComponent extends Component
         }
 
         return response()->file(storage_path("app/{$path}"));
-    }
-
-
-    public function getMissingFilesProperty()
-    {
-        $students = $this->academicBatch?->studentInfo()->get() ?? collect();
-
-        $missing = $students->map(function ($s) {
-            return [
-                'student' => $s,
-                'missing_profile' => !$s->profile_no,
-                'missing_beltei'  => !$s->certi_no,
-                'missing_moey'    => !$s->moey_no,
-            ];
-        })->filter(function ($item) {
-            return $item['missing_profile'] || $item['missing_beltei'] || $item['missing_moey'];
-        });
-
-        return [
-            'profile' => $students->whereNull('profile_no')->count(),
-            'beltei'  => $students->whereNull('certi_no')->count(),
-            'moey'    => $students->whereNull('moey_no')->count(),
-            'total'   => $students->count(),
-            'students' => $missing
-        ];
     }
 }
