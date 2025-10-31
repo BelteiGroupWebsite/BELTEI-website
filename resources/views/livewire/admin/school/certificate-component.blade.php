@@ -40,6 +40,11 @@
                     <td>{{ $student->dob }}</td>
                     <td>
                         @php
+                            // $profileCardFolder = 'profile';
+                            // $profileCard = $student->profile;
+                            // $encryptedProfile = base64_encode(
+                            //     "school/$programId/$gradeId/$academicBatch->id/$profileCardFolder/$profileCard.jpg",
+                            // );
                             $encryptedProfile = Crypt::encryptString(
                                 "school/$programId/$gradeId/$academicBatch->id/profile/$student->profile_no.jpg",
                             );
@@ -83,47 +88,57 @@
         </tbody>
     </table>
 
+    @if ($this->missingFiles['total'] > 0)
+        <div class="mt-4">
 
+            <div class="alert alert-info">
+                <strong>Missing Document Summary</strong><br>
+                Total Students: <b>{{ $this->missingFiles['total'] }}</b> <br>
+                Missing Profile: <b class="text-danger">{{ $this->missingFiles['profile'] }}</b> |
+                Missing Beltei: <b class="text-danger">{{ $this->missingFiles['beltei'] }}</b> |
+                Missing MoEY: <b class="text-danger">{{ $this->missingFiles['moey'] }}</b>
+            </div>
+
+            @if (count($this->missingFiles['students']) > 0)
+                <table class="table table-sm table-bordered">
+                    <thead class="table-warning">
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Student Name (Khmer)</th>
+                            <th>Student Name (Latin)</th>
+                            <th>Missing Files</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach ($this->missingFiles['students'] as $stu)
+                            <tr>
+                                <td>{{ $stu->student_id }}</td>
+                                <td class="Muol-Light">{{ $stu->khmer_name }}</td>
+                                <td>{{ $stu->latin_name }}</td>
+                                <td class="fw-bold text-danger">
+                                    @if (!$stu->profile_no)
+                                        ❌ Profile
+                                    @endif
+                                    @if (!$stu->certi_no)
+                                        ❌ Beltei
+                                    @endif
+                                    @if (!$stu->moey_no)
+                                        ❌ MoEY
+                                    @endif
+                                </td>
+                            </tr>
+                        @endforeach
+                    </tbody>
+                </table>
+            @endif
+
+        </div>
+    @endif
 
 
     <div class="d-flex justify-content-end">
         {{ $studentInfo->links('vendor.livewire.bootstrap') }}
     </div>
-
-
-    <button class="btn btn-danger" wire:click="checkMissingFiles">
-        Check Missing Files
-    </button>
-    @if (!empty($missingStudents))
-        <div class="alert alert-warning mt-2">
-            <strong>Missing Files Report:</strong><br>
-            Profiles: {{ $missingProfiles }} |
-            Beltei: {{ $missingBeltei }} |
-            MoEY: {{ $missingMoey }} |
-            IELTS: {{ $missingIelts }}
-        </div>
-
-        <table class="table table-sm table-bordered mt-2">
-            <thead class="table-danger">
-                <tr>
-                    <th>Student ID</th>
-                    <th>Student Name</th>
-                    <th>Missing Files</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach ($missingStudents as $item)
-                    <tr>
-                        <td>{{ $item['student_id'] }}</td>
-                        <td>{{ $item['khmer_name'] }} ({{ $item['latin_name'] }})</td>
-                        <td class="text-danger fw-bold">{{ $item['missing_files'] }}</td>
-                    </tr>
-                @endforeach
-            </tbody>
-        </table>
-    @endif
-
-
 
     <div wire:ignore.self class="modal modal-lg fade" id="StudentModal" tabindex="-1"
         aria-labelledby="StudentModalLabel" aria-hidden="true">

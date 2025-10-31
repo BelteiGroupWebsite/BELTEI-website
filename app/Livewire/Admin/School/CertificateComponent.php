@@ -15,14 +15,6 @@ class CertificateComponent extends Component
 {
     use WithPagination, WithFileUploads;
 
-
-    public $missingProfiles = 0;
-    public $missingBeltei = 0;
-    public $missingMoey = 0;
-    public $missingIelts = 0;
-    public $missingStudents = [];
-
-
     public $batchID;
 
     public $academicBatch, $programId, $gradeId, $search;
@@ -205,57 +197,22 @@ class CertificateComponent extends Component
     }
 
 
-
-    public function checkMissingFiles()
+    public function getMissingFilesProperty()
     {
-        $students = $this->academicBatch?->studentInfo()->get();
-        $this->missingProfiles = $this->missingBeltei = $this->missingMoey = $this->missingIelts = 0;
-        $this->missingStudents = [];
+        $students = $this->academicBatch?->studentInfo()->get() ?? collect();
 
-        foreach ($students as $student) {
+        $missingProfile = $students->whereNull('profile_no')->count();
+        $missingBeltei = $students->whereNull('certi_no')->count();
+        $missingMoey   = $students->whereNull('moey_no')->count();
 
-            $missing = [];
-
-            // Build file paths
-            $basePath = "upload/certificate/school/{$this->programId}/{$this->gradeId}/{$this->academicBatch->id}";
-
-            $files = [
-                'profile' => "{$basePath}/profile/{$student->profile_no}.jpg",
-                'beltei'  => "{$basePath}/beltei/{$student->certi_no}.jpg",
-                'moey'    => "{$basePath}/moey/{$student->moey_no}.jpg",
-                'ielts'   => "{$basePath}/ielts/{$student->ielts_no}.jpg",
-            ];
-
-            if (!Storage::disk('private')->exists($files['profile'])) {
-                $this->missingProfiles++;
-                $missing[] = 'Profile';
-            }
-
-            if (!Storage::disk('private')->exists($files['beltei'])) {
-                $this->missingBeltei++;
-                $missing[] = 'Beltei';
-            }
-
-            if (!Storage::disk('private')->exists($files['moey'])) {
-                $this->missingMoey++;
-                $missing[] = 'MoEY';
-            }
-
-            if (!Storage::disk('private')->exists($files['ielts'])) {
-                $this->missingIelts++;
-                $missing[] = 'IELTS';
-            }
-
-            if ($missing) {
-                $this->missingStudents[] = [
-                    'student_id' => $student->student_id,
-                    'khmer_name' => $student->khmer_name,
-                    'latin_name' => $student->latin_name,
-                    'missing_files' => implode(', ', $missing)
-                ];
-            }
-        }
-
-        session()->flash('message', 'Missing file report generated.');
+        return [
+            'profile' => $missingProfile,
+            'beltei'  => $missingBeltei,
+            'moey'    => $missingMoey,
+            'total'   => $students->count(),
+            'students' => $students->filter(function ($s) {
+                return !$s->profile_no || !$s->certi_no || !$s->moey_no;
+            })
+        ];
     }
 }
