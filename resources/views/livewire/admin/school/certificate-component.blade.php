@@ -26,6 +26,7 @@
                 <th>Khmer Name</th>
                 <th>Latin Name</th>
                 <th>Gender</th>
+                <th>Campus</th>
                 <th>DOB</th>
                 <th>Action</th>
             </tr>
@@ -37,6 +38,7 @@
                     <td class="Muol-Light">{{ $student->khmer_name }}</td>
                     <td>{{ $student->latin_name }}</td>
                     <td>{{ $student->gender }}</td>
+                    <td>{{ $student->campus }}</td>
                     <td>{{ $student->dob }}</td>
                     <td>
                         @php
