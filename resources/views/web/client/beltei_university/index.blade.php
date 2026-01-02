@@ -38,8 +38,12 @@
                     src="{{ asset('asset/img/university/app/beltei_the_future_of_global_leaders.gif') }}">
             </div>
             <div class="d-flex gap-5 justify-content-center my-3">
+                <a href="{{ url('https://journal.biuelibrary.com/') }}">
+                    <img data-aos="zoom-out-up" class="" style="max-width: 150px"
+                        src="{{ asset('asset/img/university/app/researchjournal.png') }}">
+                </a>
                 <a href="{{ route('beltei_university.bicc.bicc') }}">
-                    <img data-aos="zoom-out-up" class="" style="max-width: 200px"
+                    <img data-aos="zoom-out-up" class="" style="max-width: 150px"
                         src="{{ asset('asset/img/university/app/BICC.jpg') }}">
                 </a>
                 <a href="{{ route('beltei_university.asaihl.index') }}">
@@ -63,16 +67,16 @@
 
         <div class="row gy-2 justify-content-center">
 
-            
 
 
-            
+
+
             {{-- <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
             src="{{ asset('asset/img/university/app/2nd_intake2.jpg') }}" alt="">
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
             src="{{ asset('asset/img/university/app/2nd_intake.jpg') }}" alt=""> --}}
 
-            {{--<img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
+            {{-- <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
             src="{{ asset('asset/img/university/app/new_term_2024_2025.jpg') }}" alt="">
             <img data-aos="zoom-out-up" class="w-75 rounded shadow p-0"
             src="{{ asset('asset/img/university/app/new_term_2024_2025_1.jpg') }}" alt="">
