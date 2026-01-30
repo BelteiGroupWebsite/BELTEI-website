@@ -28,7 +28,7 @@ class StbStudentInfo extends Model
 
     public function campuses()
     {
-        return $this->belongsTo(Campus::class, 'campus');
+        return $this->belongsTo(Campus::class, foreignKey: 'campus');
     }
     
 }

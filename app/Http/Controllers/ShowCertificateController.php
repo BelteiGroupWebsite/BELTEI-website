@@ -44,7 +44,7 @@ class ShowCertificateController extends Controller
         }
 
         return response()->json(['status' => true]);
-    }   
+    }
 
     public function viewEn($encryptedFilename)
     {
@@ -64,7 +64,5 @@ class ShowCertificateController extends Controller
 
 
         return response()->file(storage_path("app/{$path}"));
-    }   
-
-    
+    }
 }
