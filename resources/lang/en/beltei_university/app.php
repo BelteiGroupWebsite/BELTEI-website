@@ -41,14 +41,14 @@ return [
     'A' => "University Overview",
     'A1' => "Message from Chairman",
     'A2' => "Purpose",
-    'A3' => "Vission, Mission, and Gold",
+    'A3' => "Vision, Mission, and Goal",
     'A4' => "History and BELTEI Location",
-    'A5' => "Sturcture",
+    'A5' => "Structure",
     'A6' => "Why study at BELTEI-IU?",
 
 
     'B' => "5 Main Degrees",
-    'B1' => "Inensive course",
+    'B1' => "Intensive course",
     'B2' => "Associate Degrees",
     'B3' => "Bachelor's Degrees",
     'B4' => "Master's Degrees",
@@ -88,7 +88,7 @@ return [
     'F2' => "Local Students",
     'F3' => "International Students",
     'F4' => "Tuition Fee / Date & Time",
-    'F5' => "Academic Calenda",
+    'F5' => "Academic Calendar",
 
     'G' => "Students Activities",
     'G1' => "Local Field Trip",
@@ -101,15 +101,15 @@ return [
     'H' => "Alumni",
     'H1' => "Doctoral Degrees",
     'H2' => "Master's Degrees",
-    'H3' => "bachelor's Degrees",
+    'H3' => "Bachelor's Degrees",
     'H4' => "Associate Degrees",
-    'H5' => "Atudent Achievement",
+    'H5' => "Student Achievement",
 
 
     'I' => "List of Graduated Students",
     'I1' => "Doctoral Degrees",
     'I2' => "Master's Degrees",
-    'I3' => "Bchelor's Degrees",
+    'I3' => "Bachelor's Degrees",
     'I4' => "Associate Degree",
 
     'J' => "Main Event",
