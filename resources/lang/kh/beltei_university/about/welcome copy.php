@@ -59,7 +59,6 @@ return [
 
 ',
 
-
     'message' => '
     <div class="d-flex justify-content-end">
     <div class="col-6">
