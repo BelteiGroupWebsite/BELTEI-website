@@ -13,8 +13,10 @@ return [
 
 <div>
 <table style="width: 100%; border-collapse: collapse; border: none;>
-  <tbody>
-
+    <tr>
+      <td style="width: 50%; padding: 10px 0; border: none; color: #E23439; font-weight: bold;">១. គ្រប់គ្រងពាណិជ្ជកម្ម</td>
+      <td style="width: 50%; padding: 10px 0; border: none; color: #8F61A7; font-weight: bold;">៨. បច្ចេកវិទ្យាឌីជីថល និងទូរគមនាគមន៍</td>
+    </tr>
     <tr>
       <td style="padding: 10px 0; border: none; color: #8E2F39; font-weight: bold;">២. ហិរញ្ញវត្ថុ និងធនាគារ</td>
       <td style="padding: 10px 0; border: none; color: #EE8A36; font-weight: bold;">៩. វិស្វកម្ម</td>
@@ -39,7 +41,6 @@ return [
       <td style="padding: 10px 0; border: none; color: #C1AA3F; font-weight: bold;">៧. ព័ត៌មានវិទ្យា និងវិទ្យាសាស្ត្រ</td>
       <td style="border: none;"></td>
     </tr>
-  </tbody>
 </table>
 </div>
 
