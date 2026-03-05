@@ -9,8 +9,8 @@
     <div class="text-start">
         <div class=" p-lg-4 ul-none-style">
             <img class="float-start rounded shadow-sm p-3"
-                src="https://media.licdn.com/dms/image/C5603AQEfV5tW79ZMJg/profile-displayphoto-shrink_200_200/0/1593411121688?e=2147483647&v=beta&t=e5O6w9XdIM4BkXWltAqsN7_9ku4WEvY6iHWBuOxH0gM"
-                alt="">
+                {{-- src="https://media.licdn.com/dms/image/C5603AQEfV5tW79ZMJg/profile-displayphoto-shrink_200_200/0/1593411121688?e=2147483647&v=beta&t=e5O6w9XdIM4BkXWltAqsN7_9ku4WEvY6iHWBuOxH0gM" --}}
+                src="{{ asset('asset/img/university/app/dr_lychheng.jpg') }}">
             <div class="text-justify content-translate-font">
                 {!! __('beltei_university/about/welcome.welcome') !!}
             </div>
