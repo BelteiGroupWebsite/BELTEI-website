@@ -11,38 +11,7 @@ return [
 
 <p style=\'text-align:justify;\'><span>សូមគោរព និងសូមស្វាគមន៍ សម្តេច ឯកឧត្តម &nbsp; លោកឧកញ៉ា &nbsp;លោកជំទាវ &nbsp;លោក លោកស្រី អ្នកនាង &nbsp;កញ្ញា &nbsp; ជាថ្នាក់ដឹកនាំ មន្ត្រីរាជការ បុគ្គលិក សាស្រ្តាចារ្យ លោកគ្រូ អ្នកគ្រូបុគ្គលិកអង្គការមិនមែនរដ្ឋាភិបាល និងសិស្ស-និស្សិតទាំងអស់ដែលបានសម្រេចចិត្តបន្តការសិក្សាថ្នាក់ឧត្តមសិក្សានៅសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ ដើម្បីបង្កើនចំណេះដឹង សមត្ថភាពនិងសម្រេចគោលដៅរបស់ខ្លួនទៅថ្ងៃអនាគត។សាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ បានបង្កើតឡើង ក្នុងគោលបំណងរួមចំណែកអភិវឌ្ឍវិស័យអប់រំថ្នាក់ឧត្តមសិក្សានៅប្រទេសកម្ពុជា និងដើម្បីបង្កើនមូលធនមនុស្សប្រកបដោយ &ldquo;គុណភាព ប្រសិទ្ធភាព ឧត្តមភាព សីលធម៌ និងគុណធម៌&rdquo; ស្របតាមយុទ្ធសាស្ត្រចតុកោណ &nbsp; របស់រាជរដ្ឋាភិបាល &nbsp; ដឹកនាំដោយ &nbsp;សម្តេចអគ្គមហាសេនាបតីតេជោ ហ៊ុន សែន អតីតនាយករដ្ឋមន្ត្រី ដែលជាវីរបុរសជាតិស្ថាបនិកមគ្គុទេសក៍ឯក និងប្រតិបត្តិករ នយោបាយ ឈ្នះ ឈ្នះដែលនាំមកនូវសន្តិភាព និងការឯកភាពជាតិពេញលេញព្រមទាំងស្របតាមយុទ្ធសាស្ត្របញ្ចកោណរបស់រាជរដ្ឋាភិបាល នីតិកាលទី៧ នៃរដ្ឋសភាដឹកនាំដោយ <strong>សម្តេចមហាបវរធិបតី &nbsp;</strong></span><strong><span>ហ៊ុន ម៉ាណែត</span></strong><strong><span>&nbsp; នាយករដ្ឋមន្ត្រី</span></strong><span>&nbsp; នៃព្រះរាជាណាចក្រកម្ពុជា ពោរពេញដោយសមត្ថភាព បន្តដឹកនាំប្រទេសជាតិឱ្យមាន សុខសន្តិភាព &nbsp; និងការអភិវឌ្ឍលើគ្រប់វិស័យ។ សាកលវិទ្យាល័យបាននឹងកំពុងបណ្តុះបណ្តាលថ្នាក់បរិញ្ញាបត្ររង ថ្នាក់បរិញ្ញាបត្រ ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់ និងថ្នាក់បណ្ឌិតតាមកម្មវិធីសិក្សាជាភាសាជាតិ និងអន្តរជាតិ ដែលមាន១៣មហាវិទ្យាល័យរួមមាន៖</span></p>
 
-<div>
-<table style="width: 100%; border-collapse: collapse; border: none;>
-    <tr>
-      <td style="width: 50%; padding: 10px 0; border: none; color: #E23439; font-weight: bold;">១. គ្រប់គ្រងពាណិជ្ជកម្ម</td>
-      <td style="width: 50%; padding: 10px 0; border: none; color: #8F61A7; font-weight: bold;">៨. បច្ចេកវិទ្យាឌីជីថល និងទូរគមនាគមន៍</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px 0; border: none; color: #8E2F39; font-weight: bold;">២. ហិរញ្ញវត្ថុ និងធនាគារ</td>
-      <td style="padding: 10px 0; border: none; color: #EE8A36; font-weight: bold;">៩. វិស្វកម្ម</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px 0; border: none; color: #006F87; font-weight: bold;">៣. សេដ្ឋកិច្ច</td>
-      <td style="padding: 10px 0; border: none; color: #F3868C; font-weight: bold;">១០. ស្ថាបត្យកម្ម</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px 0; border: none; color: #0F2263; font-weight: bold;">៤. ច្បាប់</td>
-      <td style="padding: 10px 0; border: none; color: #55545E; font-weight: bold;">១១. ទំនាក់ទំនងអន្តរជាតិ</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px 0; border: none; color: #4156A3; font-weight: bold;">៥. អប់រំ សិល្បៈ និងមនុស្សសាស្ត្រ</td>
-      <td style="padding: 10px 0; border: none; color: #42B7DA; font-weight: bold;">១២. អាកាសចរស៊ីវិល</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px 0; border: none; color: #39A753; font-weight: bold;">៦. ទេសចរណ៍ និងបដិសណ្ឋារកិច្ច</td>
-      <td style="padding: 10px 0; border: none; color: #FFC62A; font-weight: bold;">១៣. ភាសាចិន</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px 0; border: none; color: #C1AA3F; font-weight: bold;">៧. ព័ត៌មានវិទ្យា និងវិទ្យាសាស្ត្រ</td>
-      <td style="border: none;"></td>
-    </tr>
-</table>
-</div>
+
 
 <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;បច្ចុប្បន្នសាកលវិទ្យាល័យផ្ដល់ជូននូវកម្មវិធីសិក្សាតាមវិធីសាស្ត្រ</span></p>
 <p><span>ធំៗទាំង៣៖&nbsp;</span></p>
