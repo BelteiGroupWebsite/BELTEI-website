@@ -283,7 +283,7 @@
             </div>
         </a>
         <a href="{{ route('school.competition', ['grade' => 11]) }}" class="list-group-item text-white text-center">
-            {{ __('school/app.npre-6') }}
+            {{ __('school/app.npre-6') }}{{ __('school/app.level') }} {{ __('school/app.n6') }}
             <div class="d-flex justify-content-center ">
                 <div
                     class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
@@ -291,6 +291,18 @@
                         width="20%" alt="">
                     <img class="w-100 h-100 shadow"
                         src="{{ asset('asset/img/school/app/english-reading/pre-6.png') }}" alt="">
+                </div>
+            </div>
+        </a>
+        <a href="{{ route('school.competition', ['grade' => 18]) }}" class="list-group-item text-white text-center">
+            {{ __('school/app.npre-6') }}{{ __('school/app.level') }} {{ __('school/app.n4') }}
+            <div class="d-flex justify-content-center ">
+                <div
+                    class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                        width="20%" alt="">
+                    <img class="w-100 h-100 shadow"
+                        src="{{ asset('asset/img/school/app/english-reading/pre-4.png') }}" alt="">
                 </div>
             </div>
         </a>
