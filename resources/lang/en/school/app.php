@@ -132,7 +132,12 @@ return [
         Offers 5 Main Programs such as:
         </span>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
-        1- Khmer General Education | 2- ESL Program | 3- Skills Training Program | 4- Computer Training Program | 5- International Test Preparation Courses
+            1. General Education 
+            2. ECSL Program 
+            3. ESL Program 
+            4. CSL Program 
+            5. Intelligent Mental-Arithmetic 
+            6. International Test Preparation Courses
 
         </span>',
 
