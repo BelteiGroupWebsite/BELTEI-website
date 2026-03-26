@@ -130,7 +130,7 @@ return [
     'marquee' => '                
         <strong class="Muol-Light">សាលា​ ប៊ែលធី អន្តរជាតិ</strong>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
-            មានកម្មវិធីសិក្សាធំៗ ៥ គឺ
+            មានកម្មវិធីសិក្សាធំៗ ៦ គឺ
         </span>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
             ១.ថ្នាក់ចំណេះទូទៅ 

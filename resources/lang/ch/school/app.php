@@ -9,7 +9,7 @@
         'marquee' => '                
         <strong class="Muol-Light">BELTEI 国际学校</strong>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
-        有5个主要课程
+        有六个主要课程
         </span>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
             1. 柬文普通教育

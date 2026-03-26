@@ -129,7 +129,7 @@ return [
     'marquee' => '                
         <strong class="Muol-Light">BELTEI International School</strong>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
-        Offers 5 Main Programs such as:
+        Offers 6 Main Programs such as:
         </span>
         <span style="color: green; font-size: small;font-family: Khmer OS Battambang;">
             1. General Education 
