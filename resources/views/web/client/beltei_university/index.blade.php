@@ -61,6 +61,13 @@
                         src="{{ asset('asset/img/university/app/youtube.jpg') }}">
                 </a>
             </div>
+            <div>
+                <a
+                    href="https://www.monashcollege.edu.au/about-us/our-international-partners/cambodia/beltei-foundation-year-standard">
+                    <img data-aos="zoom-out-up" class="" style="max-width: 100%"
+                        src="{{ asset('asset\img\university\app\MONASH-logo-x-BELTEI-IU-Black.png') }}">
+                </a>
+            </div>
         </div>
 
         <livewire:share.poster-component :poster_id="3" />
