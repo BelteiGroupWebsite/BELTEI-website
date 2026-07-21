@@ -11,18 +11,28 @@ return [
         <table class="table table-hover table-bordered content-translate-font">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
+                <td>ឆមាស</td>
+                <td>ឆ្នាំ</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្ររង</td>
+                <td>$ 380</td>
+                <td>$ 700</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្រ</td>
+                <td>$ 380</td>
+                <td>$ 700</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់</td>
+                <td>$ 800</td>
+                <td>$ 1,500</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បណ្ឌិត</td>
+                <td>$ 1,300</td>
+                <td>$ 2,500</td>
             </tr>
         </table>
     </div>
@@ -37,15 +47,23 @@ return [
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្ររង</td>
+                <td>$ 550</td>
+                <td>$ 1,000</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្រ</td>
+                <td>$ 550</td>
+                <td>$ 1,000</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់</td>
+                <td>$ 800</td>
+                <td>$ 1,500</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បណ្ឌិត</td>
+                <td>$ 1,300</td>
+                <td>$ 2,500</td>
             </tr>
         </table>
     </div>
@@ -55,12 +73,18 @@ return [
         <table class="table table-hover table-bordered content-translate-font">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
+                <td>ឆមាស</td>
+                <td>ឆ្នាំ</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្ររង អាកាសចរ ស៊ីវិល</td>
+                <td>$ 800</td>
+                <td>$ 1,500</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្រ អាកាសចរ ស៊ីវិល</td>
+                <td>$ 800</td>
+                <td>$ 1,500</td>
             </tr>
         </table>
     </div>
@@ -70,18 +94,28 @@ return [
         <table class="table table-hover table-bordered content-translate-font">
             <tr class="bg-primary title-translate-font text-white">
                 <td>កម្រិតសិក្សា</td>
+                <td>ឆមាស</td>
+                <td>ឆ្នាំ</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្ររង អាកាសចរ ស៊ីវិល</td>
+                <td>$ 1,100</td>
+                <td>$ 2,000</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្រ អាកាសចរ ស៊ីវិល</td>
+                <td>$ 1,100</td>
+                <td>$ 2,000</td>
             </tr>
             <tr>
                 <td>ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់ អាកាសចរ ស៊ីវិល</td>
+                <td>$ 1,300</td>
+                <td>$ 2,500</td>
             </tr>
             <tr>
                 <td>ថ្នាកបណ្ឌិត អាកាសចរ ស៊ីវិល</td>
+                <td>$ 1,800</td>
+                <td>$ 3,500</td>
             </tr>
         </table>
     </div>
