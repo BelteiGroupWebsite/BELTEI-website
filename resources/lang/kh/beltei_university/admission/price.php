@@ -49,22 +49,6 @@ return [
     </div>
 
     <div>
-        <h5 class="title-translate-font mt-4 mb-2 text-start">៣. ថ្នាក់បំប៉ន (English/Chinese Intensive Course and Computer Course)</h5>
-        <table class="table table-hover table-bordered content-translate-font">
-            <tr class="bg-primary title-translate-font text-white">
-                <td>ថ្នាក់បំប៉នភាសាអង់គ្លេស ឬ ភាសាចិន ១ឆ្នាំ និងកុំព្យូទ័រ១ឆ្នាំ</td>
-                <td>តម្លៃសរុបសម្រាប់ សិស្ស-និស្សិតទូទៅ</td>
-                <td>តម្លៃសម្រាប់និស្សិតដែលបាន ចុះឈ្មោះចូលរៀនឆ្នាំទី១ ឆមាសទី១ (កម្មវិធីសិក្សាជាភាសាជាតិ និងអន្តរជាតិ)</td>
-            </tr>
-            <tr>
-                <td>ថ្នាក់បំប៉នភាសាអង់គ្លេស ឬ ភាសាចិន ១ឆ្នាំ និងកុំព្យូទ័រ១ឆ្នាំ</td>
-                <td>$ 700</td>
-                <td>បង់ត្រឹមតែ $ 100 ប៉ុណ្ណោះ</td>
-            </tr>
-        </table>
-    </div>
-
-    <div>
         <h5 class="title-translate-font mt-4 mb-2">ថ្ងៃ និង ម៉ោងសិក្សា</h5>
         <table class="table table-hover table-bordered content-translate-font">
             <tr class="bg-primary title-translate-font text-white">

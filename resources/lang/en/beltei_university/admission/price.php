@@ -48,21 +48,7 @@ return [
  </table>
  </div>
 
- <div>
- <h4 class = "title-translate-font mt-4 mb-2 text-start"> 3. Intensive Course (English/Chinese Intensive Course and Computer Course) </h4>
- <table class = "table table-hover table-bordered">
- <tr class = "bg-primary title-translate-font text-white">
- <th> Program </th>
- <th> Total Fee for General Students </th>
- <th> Special Fee for Enrolled Students (Year 1, Semester 1) </th>
- </tr>
- <tr>
- <td> 1-Year English or Chinese Intensive Course & 1-Year Computer Course </td>
- <td> $ 700 </td>
- <td> Pay only $ 100 </td>
- </tr>
- </table>
- </div>
+
 
  <div>
  <h4 class = "title-translate-font mt-4 mb-2"> DAY AND TIME </h4>
