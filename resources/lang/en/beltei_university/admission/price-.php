@@ -11,28 +11,18 @@ return [
  <table class = "table table-hover table-bordered fee-table">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Program </th>
- <th> Semester </th>
- <th> Year </th>
  </tr>
  <tr>
  <td> Associate Degree </td>
- <td> $ 380 </td>
- <td> $ 700 </td>
  </tr>
  <tr>
  <td> Bachelor Degree </td>
- <td> $ 380 </td>
- <td> $ 700 </td>
  </tr>
  <tr>
  <td> Master\'s Degree </td>
- <td> $ 800 </td>
- <td> $ 1,500 </td>
  </tr>
  <tr>
  <td> PhD </td>
- <td> $ 1,300 </td>
- <td> $ 2,500 </td>
  </tr>
  </table>
  </div>
@@ -42,28 +32,18 @@ return [
  <table class = "table table-hover table-bordered">
  <tr class = "bg-warning title-translate-font text-white">
  <th> Program </th>
- <th> Semester </th>
- <th> Year </th>
  </tr>
  <tr>
  <td> Associate Degree </td>
- <td> $ 550 </td>
- <td> $ 1,000 </td>
  </tr>
  <tr>
  <td> Bachelor Degree </td>
- <td> $ 550 </td>
- <td> $ 1,000 </td>
  </tr>
  <tr>
  <td> Master\'s Degree </td>
- <td> $ 800 </td>
- <td> $ 1,500 </td>
  </tr>
  <tr>
  <td> PhD </td>
- <td> $ 1,300 </td>
- <td> $ 2,500 </td>
  </tr>
  </table>
  </div>
@@ -74,18 +54,13 @@ return [
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Program </th>
- <th> Semester </th>
- <th> Year </th>
  </tr>
  <tr>
  <td> Associate of Civil Aviation</td>
- <td> $ 800</td>
- <td> $ 1,500 </td>
  </tr>
  <tr>
  <td> Bachelor of Civil Aviation </td>
- <td> $ 800</td>
- <td> $ 1,500 </td>
+
  </tr>
 
  </table>
@@ -96,28 +71,18 @@ return [
  <table class = "table table-hover table-bordered">
  <tr class = "bg-primary title-translate-font text-white">
  <th> Program </th>
- <th> Semester </th>
- <th> Year </th>
  </tr>
  <tr>
  <td> Associate of Civil Aviation</td>
- <td> $ 1,100 </td>
- <td> $ 2,000 </td>
  </tr>
  <tr>
  <td> Bachelor of Civil Aviation </td>
- <td> $ 1,100 </td>
- <td> $ 2,000 </td>
  </tr>
  <tr>
  <td> Master of Civil Aviation</td>
- <td> $ 1,300 </td>
- <td> $ 2,500 </td>
  </tr>
   <tr>
  <td> Doctoral of Civil Aviation</td>
- <td> $ 1,800 </td>
- <td> $ 3,500 </td>
  </tr>
  </table>
  </div>
@@ -160,6 +125,8 @@ return [
  </tr>
  </table>
  </div>
+
+
 
 
     '
