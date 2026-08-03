@@ -9,16 +9,16 @@ return [
 <div>
   <h5 class="title-translate-font mb-2 text-start">១. កម្មវិធីសិក្សា ជាភាសាជាតិ (National Program)</h5>
   <table class="table table-hover table-bordered content-translate-font text-center">
-    <tr class="bg-primary title-translate-font text-white">
-      <th class="text-start">ថ្នាក់បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</th>
-      <th>ឆមាសទី ១</th>
-      <th>ឆមាសទី ២</th>
-      <th>ឆមាសទី ៣</th>
-      <th>ឆមាសទី ៤</th>
-      <th>ឆមាសទី ៥</th>
-      <th>ឆមាសទី ៦</th>
-      <th>ឆមាសទី ៧</th>
-      <th>ឆមាសទី ៨</th>
+    <tr class="bg-primary content-translate-font text-white">
+      <td class="text-start">ថ្នាក់បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
+      <td>ឆមាសទី ១</td>
+      <td>ឆមាសទី ២</td>
+      <td>ឆមាសទី ៣</td>
+      <td>ឆមាសទី ៤</td>
+      <td>ឆមាសទី ៥</td>
+      <td>ឆមាសទី ៦</td>
+      <td>ឆមាសទី ៧</td>
+      <td>ឆមាសទី ៨</td>
     </tr>
     <tr>
       <td class="text-start">មហាវិទ្យាល័យទូទៅ</td>
@@ -49,16 +49,16 @@ return [
 <div>
   <h5 class="title-translate-font mt-4 mb-2 text-start">២. កម្មវិធីសិក្សា អន្តរជាតិ (International Program)</h5>
   <table class="table table-hover table-bordered content-translate-font text-center">
-    <tr class="bg-warning title-translate-font text-white">
-      <th class="text-start">ថ្នាក់បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</th>
-      <th>ឆមាសទី ១</th>
-      <th>ឆមាសទី ២</th>
-      <th>ឆមាសទី ៣</th>
-      <th>ឆមាសទី ៤</th>
-      <th>ឆមាសទី ៥</th>
-      <th>ឆមាសទី ៦</th>
-      <th>ឆមាសទី ៧</th>
-      <th>ឆមាសទី ៨</th>
+    <tr class="bg-warning content-translate-font text-white">
+      <td class="text-start">ថ្នាក់បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
+      <td>ឆមាសទី ១</td>
+      <td>ឆមាសទី ២</td>
+      <td>ឆមាសទី ៣</td>
+      <td>ឆមាសទី ៤</td>
+      <td>ឆមាសទី ៥</td>
+      <td>ឆមាសទី ៦</td>
+      <td>ឆមាសទី ៧</td>
+      <td>ឆមាសទី ៨</td>
     </tr>
     <tr>
       <td class="text-start">មហាវិទ្យាល័យទូទៅ</td>
@@ -85,22 +85,7 @@ return [
   </table>
 </div>
 
-<!-- ៣. ថ្នាក់បំប៉ន -->
-<div>
-  <h5 class="title-translate-font mt-4 mb-2 text-start">៣. ថ្នាក់បំប៉ន (English/Chinese Intensive Course and Computer Course)</h5>
-  <table class="table table-hover table-bordered content-translate-font">
-    <tr class="bg-primary title-translate-font text-white">
-      <th>ថ្នាក់បំប៉នភាសាអង់គ្លេស ឬ ភាសាចិន ១ឆ្នាំ និងកុំព្យូទ័រ១ឆ្នាំ</th>
-      <th>តម្លៃសរុបសម្រាប់ សិស្ស-និស្សិតទូទៅ</th>
-      <th>តម្លៃសម្រាប់និស្សិតដែលបាន ចុះឈ្មោះចូលរៀនឆ្នាំទី១ ឆមាសទី១ (កម្មវិធីសិក្សាជាភាសាជាតិ និងអន្តរជាតិ)</th>
-    </tr>
-    <tr>
-      <td>ថ្នាក់បំប៉នភាសាអង់គ្លេស ឬ ភាសាចិន ១ឆ្នាំ និងកុំព្យូទ័រ១ឆ្នាំ</td>
-      <td>$ 700</td>
-      <td>បង់ត្រឹមតែ $ 100 ប៉ុណ្ណោះ</td>
-    </tr>
-  </table>
-</div>
+
 
 <!-- ថ្ងៃ និង ម៉ោងសិក្សា -->
 <div>
