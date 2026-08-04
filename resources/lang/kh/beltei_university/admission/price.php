@@ -38,7 +38,7 @@ return [
         <td>$450</td>
       </tr>
       <tr>
-        <td class="text-start">មហាវិទ្យាល័យព័ត៌មានវិទ្យា</td>
+        <td class="text-start">មហាវិទ្យាល័យព័ត៌មានវិទ្យា (IT)</td>
         <td>$450</td>
         <td>$450</td>
         <td>$450</td>
