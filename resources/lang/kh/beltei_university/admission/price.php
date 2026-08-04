@@ -11,7 +11,7 @@ return [
   <table class="table table-hover table-bordered content-translate-font text-center align-middle">
     <thead class="bg-primary content-translate-font text-white">
       <tr>
-        <td rowspan="2" class="text-start align-middle">បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
+        <td rowspan="2" class="text-start align-middle">ថ្នាក់បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
         <td colspan="8">ឆមាស</td>
       </tr>
       <tr>
@@ -58,7 +58,7 @@ return [
   <table class="table table-hover table-bordered content-translate-font text-center align-middle">
     <thead class="bg-warning content-translate-font text-white">
       <tr>
-        <td rowspan="2" class="text-start align-middle">បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
+        <td rowspan="2" class="text-start align-middle">ថ្នាក់បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
         <td colspan="8">ឆមាស</td>
       </tr>
       <tr>
