@@ -9,9 +9,9 @@ return [
 <div>
   <h5 class="title-translate-font mb-2 text-start">១. កម្មវិធីសិក្សា ជាភាសាជាតិ (National Program)</h5>
   <table class="table table-hover table-bordered content-translate-font text-center align-middle">
-    <thead class="bg-primary title-translate-font text-white">
+    <thead class="bg-primary content-translate-font text-white">
       <tr>
-        <td rowspan="2" class="text-start align-middle">កម្រិត<br>បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
+        <td rowspan="2" class="text-start align-middle">បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
         <td colspan="8">ឆមាស</td>
       </tr>
       <tr>
@@ -56,9 +56,9 @@ return [
 <div>
   <h5 class="title-translate-font mt-4 mb-2 text-start">២. កម្មវិធីសិក្សា អន្តរជាតិ (International Program)</h5>
   <table class="table table-hover table-bordered content-translate-font text-center align-middle">
-    <thead class="bg-warning title-translate-font text-white">
+    <thead class="bg-warning content-translate-font text-white">
       <tr>
-        <td rowspan="2" class="text-start align-middle">កម្រិត<br>បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
+        <td rowspan="2" class="text-start align-middle">បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
         <td colspan="8">ឆមាស</td>
       </tr>
       <tr>
