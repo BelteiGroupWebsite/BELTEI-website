@@ -11,18 +11,18 @@ return [
   <table class="table table-hover table-bordered content-translate-font text-center align-middle">
     <thead class="bg-primary title-translate-font text-white">
       <tr>
-        <th rowspan="2" class="text-start align-middle">កម្រិត<br>បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</th>
-        <th colspan="8">ឆមាស</th>
+        <td rowspan="2" class="text-start align-middle">កម្រិត<br>បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
+        <td colspan="8">ឆមាស</td>
       </tr>
       <tr>
-        <th>ទី ១</th>
-        <th>ទី ២</th>
-        <th>ទី ៣</th>
-        <th>ទី ៤</th>
-        <th>ទី ៥</th>
-        <th>ទី ៦</th>
-        <th>ទី ៧</th>
-        <th>ទី ៨</th>
+        <td>ទី ១</td>
+        <td>ទី ២</td>
+        <td>ទី ៣</td>
+        <td>ទី ៤</td>
+        <td>ទី ៥</td>
+        <td>ទី ៦</td>
+        <td>ទី ៧</td>
+        <td>ទី ៨</td>
       </tr>
     </thead>
     <tbody>
@@ -58,18 +58,18 @@ return [
   <table class="table table-hover table-bordered content-translate-font text-center align-middle">
     <thead class="bg-warning title-translate-font text-white">
       <tr>
-        <th rowspan="2" class="text-start align-middle">កម្រិត<br>បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</th>
-        <th colspan="8">ឆមាស</th>
+        <td rowspan="2" class="text-start align-middle">កម្រិត<br>បរិញ្ញាបត្រ/បរិញ្ញាបត្ររង</td>
+        <td colspan="8">ឆមាស</td>
       </tr>
       <tr>
-        <th>ទី ១</th>
-        <th>ទី ២</th>
-        <th>ទី ៣</th>
-        <th>ទី ៤</th>
-        <th>ទី ៥</th>
-        <th>ទី ៦</th>
-        <th>ទី ៧</th>
-        <th>ទី ៨</th>
+        <td>ទី ១</td>
+        <td>ទី ២</td>
+        <td>ទី ៣</td>
+        <td>ទី ៤</td>
+        <td>ទី ៥</td>
+        <td>ទី ៦</td>
+        <td>ទី ៧</td>
+        <td>ទី ៨</td>
       </tr>
     </thead>
     <tbody>
@@ -96,23 +96,6 @@ return [
         <td>$1,200</td>
       </tr>
     </tbody>
-  </table>
-</div>
-
-<!-- ៣. ថ្នាក់បំប៉ន -->
-<div>
-  <h5 class="title-translate-font mt-4 mb-2 text-start">៣. ថ្នាក់បំប៉ន (English/Chinese Intensive Course and Computer Course)</h5>
-  <table class="table table-hover table-bordered content-translate-font">
-    <tr class="bg-primary title-translate-font text-white">
-      <th>ថ្នាក់បំប៉នភាសាអង់គ្លេស ឬ ភាសាចិន ១ឆ្នាំ និងកុំព្យូទ័រ១ឆ្នាំ</th>
-      <th>តម្លៃសរុបសម្រាប់ សិស្ស-និស្សិតទូទៅ</th>
-      <th>តម្លៃសម្រាប់និស្សិតដែលបាន ចុះឈ្មោះចូលរៀនឆ្នាំទី១ ឆមាសទី១ (កម្មវិធីសិក្សាជាភាសាជាតិ និងអន្តរជាតិ)</th>
-    </tr>
-    <tr>
-      <td>ថ្នាក់បំប៉នភាសាអង់គ្លេស ឬ ភាសាចិន ១ឆ្នាំ និងកុំព្យូទ័រ១ឆ្នាំ</td>
-      <td>$ 700</td>
-      <td>បង់ត្រឹមតែ $ 100 ប៉ុណ្ណោះ</td>
-    </tr>
   </table>
 </div>
 
