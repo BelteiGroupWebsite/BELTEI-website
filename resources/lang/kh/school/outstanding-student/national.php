@@ -14,6 +14,15 @@ return
         <div>
             <h5 class="title-translate-font bg-success p-2 text-white text-center">ឆ្នាំ២០២២ = ០១នាក់</h5>
             <div class="d-flex align-items-center border">
+                <img src=":image2025" alt="">
+                <p>
+                    ឆ្នាំសិក្សា២០២៤-២០២៥ សិស្សឈ្មោះ ភឿន នរបុត្រ ថ្នាក់ទី១២ ទទួលបានជ័យលាភីលេខ៤ ក្នុងការប្រឡងជ្រើសរើសសិស្សពូកែទូទាំងប្រទេស រូបវិទ្យា ទទួលបានរង្វាន់លើកទឹកចិត្តចំនួន $៥០០  និងលោកគ្រូ អ្នកគ្រូ ក៏ទទួលបានរង្វាន់លើកទឹកចិត្តចំនួន $៥០០ ផងដែរពី ឯកឧត្តមបណ្ឌិត លី ឆេង តំណាងរាស្រ្តមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិក-អគ្គនាយក ប៊ែលធី គ្រុប និងជាប្រធានក្រុមប្រឹក្សាភិបាល នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។
+                </p>
+            </div>
+        </div>
+        <div>
+            <h5 class="title-translate-font bg-success p-2 text-white text-center">ឆ្នាំ២០២២ = ០១នាក់</h5>
+            <div class="d-flex align-items-center border">
                 <img src=":image01" alt="">
                 <p>
                     ឆ្នាំ​សិក្សា​២០២១​-២០២២​ សិស្ស​ឈ្មោះ​​ តែ​ ប៊ុន​ម៉េង​ ថ្នាក់​ទី​១២​ ទទួល​បាន​ជ័យ​លាភី​លេខ​៤​
@@ -129,6 +138,15 @@ return
     <h4 class="title-translate-font bg-info p-3 text-white">សិស្សពូកែថ្នាក់ទី៩</h4>
     <div class="content-translate-font table text-start">
 
+        <div>
+            <h5 class="title-translate-font bg-success p-2 text-white text-center">ឆ្នាំ២០២៤ = ០១នាក់</h5>
+            <div class="d-flex align-items-center border">
+                <img style="max-width: 200px" src=":image9_2025" alt="">
+                <p>
+                ឆ្នាំសិក្សា២០២៤-២០២៥ សិស្សឈ្មោះ ខេង ម៉ីលីង ថ្នាក់ទី៩ ទទួលបានជ័យលាភីលេខ៣ ក្នុងការប្រឡងជ្រើសរើសសិស្សពូកែទូទាំងប្រទេស ផ្នែកអក្សរសិល្ប៍ខ្មែរ ទទួលបានរង្វាន់លើកទឹកចិត្តចំនួន $៨០០  និងលោកគ្រូ អ្នកគ្រូ ក៏ទទួលបានរង្វាន់លើកទឹកចិត្តចំនួន $៨០០ ផងដែរពី ឯកឧត្តមបណ្ឌិត លី ឆេង តំណាងរាស្រ្តមណ្ឌលរាជធានីភ្នំពេញ ស្ថាបនិក-អគ្គនាយក ប៊ែលធី គ្រុប និងជាប្រធានក្រុមប្រឹក្សាភិបាល នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ។
+                </p>
+            </div>
+        </div>
         <div>
             <h5 class="title-translate-font bg-success p-2 text-white text-center">ឆ្នាំ២០២៤ = ០១នាក់</h5>
             <div class="d-flex align-items-center border">

@@ -4,11 +4,12 @@
 
 {!! trans('school/outstanding-student/national.table', [
 'image2024' => asset("asset/img/school/outstanding-student/national/outstanding2024.jpg"), 
+'image2025' => asset("asset/img/school/outstanding-student/national/outstanding2025.jpg"), 
+'image9_2025' => asset("asset/img/school/outstanding-student/national/outstanding9_2025.jpg"), 
 'image01' => asset("asset/img/school/outstanding-student/national/outstanding01.png"), 
 'image02' => asset("asset/img/school/outstanding-student/national/outstanding02.png"),        
 'image03' => asset("asset/img/school/outstanding-student/national/outstanding03.png"),        
 'image04' => asset("asset/img/school/outstanding-student/national/outstanding04.png"),
-'image04' => asset("asset/img/school/outstanding-student/national/outstanding04.png"),    
 'image05' => asset("asset/img/school/outstanding-student/national/outstanding05.png"),        
 'image06' => asset("asset/img/school/outstanding-student/national/outstanding06.png"),        
 'image07' => asset("asset/img/school/outstanding-student/national/outstanding07.png"),        

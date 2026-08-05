@@ -47,7 +47,13 @@
         'image_41' => asset('asset/img/school/outstanding-student/city/sang_rachana.png'),
         'image_42' => asset('asset/img/school/outstanding-student/city/chhoeurn_sovanntheaith.png'),
         'image_43' => asset('asset/img/school/outstanding-student/city/ly_masola.png'),
+        'image_2025_12_1' => asset('asset/img/school/outstanding-student/city/2025_12_1.jpg'),
+        'image_2025_12_2' => asset('asset/img/school/outstanding-student/city/2025_12_2.jpg'),
+        'image_2025_12_3' => asset('asset/img/school/outstanding-student/city/2025_12_3.jpg'),
+        'image_2025_12_4' => asset('asset/img/school/outstanding-student/city/2025_12_4.jpg'),
     
+        'image_2025_9_1' => asset('asset/img/school/outstanding-student/city/2025_9_1.jpg'),
+        'image_2025_9_2' => asset('asset/img/school/outstanding-student/city/2025_9_2.jpg'),
         'image_2024_9_1' => asset('asset/img/school/outstanding-student/city/2024_9_1.jpg'),
         'image_2024_9_2' => asset('asset/img/school/outstanding-student/city/2024_9_2.jpg'),
         'image_2024_9_3' => asset('asset/img/school/outstanding-student/city/2024_9_3.jpg'),
@@ -81,5 +87,4 @@
         'image_71' => asset('asset/img/school/outstanding-student/city/thean_sreymei.png'),
         'image_72' => asset('asset/img/school/outstanding-student/city/ly_monoka.png'),
     ]) !!}
-
 @endsection
