@@ -139,7 +139,7 @@ return
     <div class="content-translate-font table text-start">
 
         <div>
-            <h5 class="title-translate-font bg-success p-2 text-white text-center">ឆ្នាំ២០២៤ = ០១នាក់</h5>
+            <h5 class="title-translate-font bg-success p-2 text-white text-center">ឆ្នាំ២០២៥ = ០១នាក់</h5>
             <div class="d-flex align-items-center border">
                 <img style="max-width: 200px" src=":image9_2025" alt="">
                 <p>
