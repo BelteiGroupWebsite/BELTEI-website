@@ -10,8 +10,46 @@ return [
     </tr>
 
     <tr class="bg-success text-white">
-        <th>2024 = 1 student</th>
+        <th>2025 = 4 student</th>
+    </tr
+    <tr>
+        <td class="d-flex text-start align-items-center">
+            <img style="max-width: 200px" src=":image_2025_12_1" alt="" />
+            <p>
+            In the academic year 2024-2025, student named Chenda Nisa, grade 12, won 3rd place in the Phnom Penh Outstanding Student Competition in Khmer Literature, received an incentive prize of $600. The teacher also received an incentive prize of $600 from H.E. Dr. LY Chheng, Member of the National Assembly for Phnom Penh Capital, Founder - Director General of BELTEI Group and Chairman of The Board of Directors of BELTEI International University.
+            </p>
+        </td>
     </tr>
+    <tr>
+        <td class="d-flex text-start align-items-center">
+            <img style="max-width: 200px" src=":image_2025_12_2" alt="" />
+            <p>
+            In the academic year 2024-2025, student named Ly Masola, grade 12, won 4th place in the Phnom Penh Outstanding Student Competition in Mathematics, received an incentive prize of $200. The teacher also received an incentive prize of $200 from H.E. Dr. LY Chheng, Member of the National Assembly for Phnom Penh Capital, Founder - Director General of BELTEI Group and Chairman of The Board of Directors of BELTEI International University
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td class="d-flex text-start align-items-center">
+            <img style="max-width: 200px" src=":image_2025_12_3" alt="" />
+            <p>
+            In the academic year 2024-2025, student named Phoeun Noreakboth, grade 12, won 3rd place in the Phnom Penh Outstanding Student Competition in Physic, received an incentive prize of $500. The teacher also received an incentive prize of $500 from H.E. Dr. LY Chheng, Member of the National Assembly for Phnom Penh Capital, Founder - Director General of BELTEI Group and Chairman of The Board of Directors of BELTEI International University
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td class="d-flex text-start align-items-center">
+            <img style="max-width: 200px" src=":image_2025_12_4" alt="" />
+            <p>
+            In the academic year 2024-2025, student named Heng Pich, grade 12, won 4th place in the Phnom Penh Outstanding Student Competition in Physic, received an incentive prize of $200. The teacher also received an incentive prize of $200 from H.E. Dr. LY Chheng, Member of the National Assembly for Phnom Penh Capital, Founder - Director General of BELTEI Group and Chairman of The Board of Directors of BELTEI International University
+            </p>
+        </td>
+    </tr>
+
+
+
+    <tr class="bg-success text-white">
+        <th>2024 = 1 student</th>
+    </tr
     <tr>
         <td class="d-flex text-start align-items-center">
             <img style="max-width: 200px" src=":image_2024_12_1" alt="" />
@@ -525,6 +563,27 @@ return [
     </tr>
 
 
+    <tr class="bg-success text-white">
+        <th>2025 = 2 students</th>
+    </tr>
+    <tr>
+        <td class="d-flex text-start align-items-center">
+            <img style="max-width: 200px" src=":image_2024_9_1" alt="" />
+            <p>
+            In the academic year 2024-2025, student named Kheng Meyling, grade 9, won 1st place in the Phnom Penh Outstanding Student Competition in Khmer Literature, received an incentive prize of $800. The teacher also received an incentive prize of $800 from H.E. Dr. LY Chheng, Member of the National Assembly for Phnom Penh Capital, Founder - Director General of BELTEI Group and Chairman of The Board of Directors of BELTEI International University.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td class="d-flex text-start align-items-center">
+            <img style="max-width: 200px" src=":image_2024_9_1" alt="" />
+            <p>
+
+            In the academic year 2024-2025, student named Kouch Huyong, grade 9, won 3rd place in the Phnom Penh Outstanding Student Competition in Physic, received an incentive prize of $500. The teacher also received an incentive prize of $500 from H.E. Dr. LY Chheng, Member of the National Assembly for Phnom Penh Capital, Founder - Director General of BELTEI Group and Chairman of The Board of Directors of BELTEI International University.
+            
+            </p>
+        </td>
+    </tr>
     <tr class="bg-success text-white">
         <th>2024 = 3students</th>
     </tr>

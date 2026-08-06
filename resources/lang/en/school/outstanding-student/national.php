@@ -16,6 +16,21 @@ return
             <h5
                 class="title-translate-font bg-success p-2 text-white text-center"
             >
+                2025 = 01
+            </h5>
+            <div class="d-flex align-items-center border">
+                <img style="max-width: 200px" src=":image2025" alt="" />
+                <p>
+                In the academic year 2024-2025, a student named Phoeun Noreakboth, grade 12, won 4th place in the national selection exam for outstanding student in Physic, received an incentive prize of $500. The teacher also received an incentive prize of $500 from H.E. Dr. LY Chheng, Member of the National Assembly for Phnom Penh Capital, Founder - Director General of BELTEI Group and Chairman of The Board of Directors of BELTEI International University.
+                </p>
+            </div>
+        </div>
+
+
+        <div>
+            <h5
+                class="title-translate-font bg-success p-2 text-white text-center"
+            >
                 2024 = 01
             </h5>
             <div class="d-flex align-items-center border">
@@ -182,6 +197,18 @@ return
         Outstanding Student Grade 9
     </h4>
     <div class="content-translate-font table text-start">
+        <div>
+            <h5
+                class="title-translate-font bg-success p-2 text-white text-center"
+            >
+                2025 = 01 student
+            </h5>
+            <div class="d-flex align-items-center border">
+                <img src=":image9_2025" alt="" />
+                <p>
+                    In the academic year 2024-2025, a student named Kheng Meyling, grade 9, won 3rd place in the national selection exam for outstanding student in Khmer Literature, received an incentive prize of $800. The teacher also received an incentive prize of $800 from H.E. Dr. LY Chheng, Member of the National Assembly for Phnom Penh Capital, Founder - Director General of BELTEI Group and Chairman of The Board of Directors of BELTEI International University.                </p>
+            </div>
+        </div>
         <div>
             <h5
                 class="title-translate-font bg-success p-2 text-white text-center"
