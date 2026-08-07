@@ -150,14 +150,14 @@ return [
         <th colspan="2">ឆ្នាំទី៤</th>
       </tr>
       <tr>
-        <th>ឆមាស១</th>
-        <th>ឆមាស២</th>
-        <th>ឆមាស១</th>
-        <th>ឆមាស២</th>
-        <th>ឆមាស១</th>
-        <th>ឆមាស២</th>
-        <th>ឆមាស១</th>
-        <th>ឆមាស២</th>
+        <th>ឆម១</th>
+        <th>ឆម២</th>
+        <th>ឆម១</th>
+        <th>ឆម២</th>
+        <th>ឆម១</th>
+        <th>ឆម២</th>
+        <th>ឆម១</th>
+        <th>ឆម២</th>
       </tr>
     </thead>
     <tbody>
