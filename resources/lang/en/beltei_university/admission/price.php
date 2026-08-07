@@ -138,7 +138,7 @@ return [
 <!-- II. International Program (IP) -->
 <div class="mb-5">
   <div class="text-center mb-3">
-    <span class="badge bg-primary px-4 py-2 fs-6 rounded-pill">II- International Program (IP)</span>
+    <span class="badge bg-primary px-4 py-2 fs-6 rounded-pill content-translate-font">II- International Program (IP)</span>
   </div>
   <table class="table table-hover table-bordered text-center align-middle">
     <thead class="bg-primary text-white align-middle">
