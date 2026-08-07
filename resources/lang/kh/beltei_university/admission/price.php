@@ -37,7 +37,6 @@ return [
         <th>ឆម១</th>
         <th>ឆម២</th>
         <th colspan="2">ឆម១/២</th>
-        // <th>ឆម២</th>
       </tr>
     </thead>
     <tbody>
