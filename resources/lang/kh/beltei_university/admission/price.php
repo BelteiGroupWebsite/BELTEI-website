@@ -41,142 +41,152 @@ return [
     <tbody>
       <tr>
         <td class="text-start">
-          <strong>១-គ្រប់គ្រងពាណិជ្ជកម្ម</strong><br>
+        ១-គ្រប់គ្រងពាណិជ្ជកម្ម
+    
         </td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
         <td colspan="2"></td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>២-ហិរញ្ញវត្ថុ និងធនាគារ</strong><br>
+        ២-ហិរញ្ញវត្ថុ និងធនាគារ
+    
         </td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
         <td colspan="2"></td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>៣-សេដ្ឋកិច្ច</strong><br>
+        ៣-សេដ្ឋកិច្ច
+    
         </td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
         <td colspan="2"></td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>៤-ច្បាប់</strong><br>
+        ៤-ច្បាប់
+    
         </td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
         <td colspan="2"></td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>៥-អប់រំ សិល្បៈ និងមនុស្សសាស្ត្រ</strong><br>
+        ៥-អប់រំ សិល្បៈ និងមនុស្សសាស្ត្រ
+    
         </td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
         <td colspan="2"></td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>៦-ទេសចរណ៍ និងបដិសណ្ឋារកិច្ច</strong><br>
+        ៦-ទេសចរណ៍ និងបដិសណ្ឋារកិច្ច
+    
         </td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
         <td colspan="2"></td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>៧-ព័ត៌មានវិទ្យា និងវិទ្យាសាស្ត្រ</strong><br>
+        ៧-ព័ត៌មានវិទ្យា និងវិទ្យាសាស្ត្រ
+    
         </td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 500</td>
-        <td >$ 500</td>
-        <td >$ 500</td>
-        <td >$ 500</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 500</td>
+        <td class="Times-New-Roman" >$ 500</td>
+        <td class="Times-New-Roman" >$ 500</td>
+        <td class="Times-New-Roman" >$ 500</td>
         <td colspan="2"></td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>៨-បច្ចេកវិទ្យាឌីជីថល និងទូរគមនាគមន៍</strong><br>
+        ៨-បច្ចេកវិទ្យាឌីជីថល និងទូរគមនាគមន៍
+    
         </td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 500</td>
-        <td >$ 500</td>
-        <td >$ 500</td>
-        <td >$ 500</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 500</td>
+        <td class="Times-New-Roman" >$ 500</td>
+        <td class="Times-New-Roman" >$ 500</td>
+        <td class="Times-New-Roman" >$ 500</td>
         <td colspan="2"></td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>៩-វិស្វកម្ម</strong><br>
+        ៩-វិស្វកម្ម
+    
         </td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
         <td colspan="2">$ 450</td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>១០-ស្ថាបត្យកម្ម</strong><br>
+        ១០-ស្ថាបត្យកម្ម
+    
         </td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 400</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
-        <td >$ 450</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 400</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
         <td colspan="2">$ 450</td>
       </tr>
     </tbody>
@@ -211,59 +221,115 @@ return [
     <tbody>
       <tr>
         <td class="text-start">
-          <strong>១-គ្រប់គ្រងពាណិជ្ជកម្ម</strong><br>
+        ១-គ្រប់គ្រងពាណិជ្ជកម្ម
+    
         </td>
-        <td colspan="4">$ 550</td>
-        <td colspan="4">$ 600</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>២-ហិរញ្ញវត្ថុ និងធនាគារ</strong><br>
+        ២-ហិរញ្ញវត្ថុ និងធនាគារ
+    
         </td>
-        <td colspan="4">$ 550</td>
-        <td colspan="4">$ 600</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>៣-សេដ្ឋកិច្ច</strong><br>
+        ៣-សេដ្ឋកិច្ច
+    
         </td>
-        <td colspan="4">$ 550</td>
-        <td colspan="4">$ 600</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>៤-ច្បាប់</strong><br>
+        ៤-ច្បាប់
+    
         </td>
-        <td colspan="4">$ 550</td>
-        <td colspan="4">$ 600</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>៥-អប់រំ សិល្បៈ និងមនុស្សសាស្ត្រ</strong><br>
+        ៥-អប់រំ សិល្បៈ និងមនុស្សសាស្ត្រ
+    
         </td>
-        <td colspan="4">$ 550</td>
-        <td colspan="4">$ 600</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>១១-ទំនាក់ទំនងអន្តរជាតិ</strong><br>
+        ១១-ទំនាក់ទំនងអន្តរជាតិ
+    
         </td>
-        <td colspan="4">$ 550</td>
-        <td colspan="4">$ 600</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>១២-អាកាសចរស៊ីវិល</strong> <img style="max-width: 120px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png" alt=""><br>
+        ១២-អាកាសចរស៊ីវិល</strong> <img style="max-width: 120px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png
+    
         </td>
-        <td colspan="4">$ 1,100</td>
-        <td colspan="4">$ 1,200</td>
+        <td>$ 1,100</td>
+        <td>$ 1,100</td>
+        <td>$ 1,100</td>
+        <td>$ 1,100</td>
+        <td>$ 1,200</td>
+        <td>$ 1,200</td>
+        <td>$ 1,200</td>
+        <td>$ 1,200</td>
       </tr>
       <tr>
         <td class="text-start">
-          <strong>១៣-ភាសាចិន</strong><br>
+        ១៣-ភាសាចិន
+    
         </td>
-        <td colspan="4">$ 550</td>
-        <td colspan="4">$ 600</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 550</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
+        <td>$ 600</td>
       </tr>
     </tbody>
   </table>
@@ -298,7 +364,8 @@ return [
     </thead>
     <tbody>
       <tr>
-        <td class="text-start"><strong>ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់</strong></td>
+      ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់<
+  
         <td>$ 800</td>
         <td>$ 800</td>
         <td>$ 900</td>
@@ -306,7 +373,8 @@ return [
         <td colspan="2"></td>
       </tr>
       <tr>
-        <td class="text-start"><strong>ថ្នាក់បណ្ឌិត</strong></td>
+      ថ្នាក់បណ្ឌិត<
+  
         <td>$ 1,300</td>
         <td>$ 1,300</td>
         <td>$ 1,500</td>
@@ -339,7 +407,8 @@ return [
     </thead>
     <tbody>
       <tr>
-        <td class="text-start"><strong>ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់</strong></td>
+      ថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់<
+  
         <td>$ 1,300</td>
         <td>$ 1,300</td>
         <td>$ 1,500</td>
