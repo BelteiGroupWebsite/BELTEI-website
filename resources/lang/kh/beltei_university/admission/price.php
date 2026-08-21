@@ -35,7 +35,8 @@ return [
         <td>ឆម២</td>
         <td>ឆម១</td>
         <td>ឆម២</td>
-        <td colspan="2">ឆម១/២</td>
+        <td>ឆម១</td>
+        <td>ឆម២</td>
       </tr>
     </thead>
     <tbody>
@@ -172,7 +173,8 @@ return [
         <td class="Times-New-Roman" >$ 450</td>
         <td class="Times-New-Roman" >$ 450</td>
         <td class="Times-New-Roman" >$ 450</td>
-        <td colspan="2">$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
       </tr>
       <tr>
         <td class="text-start">
@@ -187,7 +189,8 @@ return [
         <td class="Times-New-Roman" >$ 450</td>
         <td class="Times-New-Roman" >$ 450</td>
         <td class="Times-New-Roman" >$ 450</td>
-        <td colspan="2">$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
+        <td class="Times-New-Roman" >$ 450</td>
       </tr>
     </tbody>
   </table>
