@@ -305,7 +305,7 @@ return [
       </tr>
       <tr>
         <td class="text-start">
-        ១២-អាកាសចរស៊ីវិល</strong> <img style="max-width: 120px" src="https://beltei.edu.kh/asset/img/university/admission/price/plane.png
+        ១២-អាកាសចរស៊ីវិល
     
         </td>
         <td>$ 1,100</td>
