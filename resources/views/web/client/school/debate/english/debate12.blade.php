@@ -7,7 +7,7 @@
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16"  id="vd-container"
-                src="https://www.youtube.com/embed/2N-4cnZXAf0?si=npxyFo3kRuO9DkH-" title="YouTube video player"
+                src="https://www.youtube.com/embed/VjURifpUM-4" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -16,10 +16,60 @@
         <hr>
 
 
-
         {{--  --}}
         
         <h6 class="content-translate-font p-3 bg-success text-white">សូមរីករាយទស្សនាវីដេអូក្នុងកម្មវិធីប្រកួតជជែកដេញដោល ផ្នែកភាសាអង់គ្លេស ក្រោមប្រធានបទ៖ "ការកំណត់អាយុក្នុងការសេពគ្រឿងស្រវឹងគឺជាជម្រើសដ៏ល្អបំផុតក្នុងការធានាសុខុមាលភាពយុវជននៅកម្ពុជា"។នាថ្ងៃទី២៧ ខែមិថុនា ឆ្នាំ២០២៥ នៅសាលសន្និសីទ នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិទីតាំងទី២ (ស្ពានអាកាសចោមចៅ)។</h6>
+        
+        <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
+            វីដេអូបន្ថែម
+        </h5>
+        <div class="row">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/VjURifpUM-4/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/VjURifpUM-4">
+                </div>
+            </div>
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/KW9F5kyimGo/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/KW9F5kyimGo">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/KW9F5kyimGo/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/KW9F5kyimGo">
+                </div>
+            </div>
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/dANK6DAMUfA/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/dANK6DAMUfA">
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/ZVxmJJuWpPs/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/ZVxmJJuWpPs">
+                </div>
+            </div>
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/ascnbxCBNX0/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/ascnbxCBNX0">
+                </div>
+            </div>
+        </div>
+        <hr class="border border-success border-3">
+
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
             វីដេអូវគ្គទី១ និង វគ្គទី២

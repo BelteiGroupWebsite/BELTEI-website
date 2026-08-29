@@ -7,7 +7,7 @@
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16" id="vd-container"
-                src="https://www.youtube.com/embed/H3CMPK6Yhkc?si=i5BIho5Zzqf5zzGr" title="YouTube video player"
+                src="https://www.youtube.com/embed/fymUyW6eqMc" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -16,6 +16,50 @@
 
         <h6 class="content-translate-font p-3 bg-success text-white">សូមរីករាយទស្សនាវីដេអូក្នុងកម្មវិធីប្រកួតជជែកដេញដោល ក្រោមប្រធានបទ៖ "ការចែកចាយព័ត៌មានបំពុលសង្គម គឺជាមូលហេតុចម្បងនាំមកនូវភាពអនាធិបតេយ្យក្នុងសង្គម"។ កម្មវិធីនេះ បានប្រព្រឹត្តទៅនាថ្ងៃទី២០ ខែសីហា ឆ្នាំ២០២៥ នៅសាលសន្និសីទ នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិទីតាំងទី២ (ស្ពានអាកាសចោមចៅ)។</h6>
 
+
+        <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
+            វីដេអូបន្ថែម
+        </h5>
+        <div class="row">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/fymUyW6eqMc/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/fymUyW6eqMc">
+                </div>
+            </div>
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/0eWNly0WLGw/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/0eWNly0WLGw">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/mkPHLh8S18A/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/mkPHLh8S18A">
+                </div>
+            </div>
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/e2EuNAG7aWE/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/e2EuNAG7aWE">
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 justify-content-center">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/hNUEXneS0jc/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/hNUEXneS0jc">
+                </div>
+            </div>
+        </div>
+        <hr class="border border-success border-3">
 
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">

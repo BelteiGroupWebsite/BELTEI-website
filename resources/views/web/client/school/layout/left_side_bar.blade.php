@@ -189,7 +189,7 @@
                     class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute "
                         width="20%" alt="">
-                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/debate/10.png') }}"
+                    <img class="w-100 h-100 shadow" src="https://img.youtube.com/vi/fymUyW6eqMc/hqdefault.jpg"
                         alt="">
                 </div>
             </div>
@@ -201,7 +201,7 @@
                     class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute "
                         width="20%" alt="">
-                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/debate/8.png') }}"
+                    <img class="w-100 h-100 shadow" src="https://img.youtube.com/vi/kBOxbuJpGVk/hqdefault.jpg"
                         alt="">
                 </div>
             </div>
@@ -213,7 +213,7 @@
                     class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute "
                         width="20%" alt="">
-                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/debate/6.png') }}"
+                    <img class="w-100 h-100 shadow" src="https://img.youtube.com/vi/fymUyW6eqMc/hqdefault.jpg"
                         alt="">
                 </div>
             </div>

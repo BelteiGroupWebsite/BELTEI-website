@@ -7,7 +7,7 @@
         <hr>
         <div>
             <iframe class="w-100 aspect-ratio-16" id="vd-container"
-                src="https://www.youtube.com/embed/qxNFShnNhmw?si=nK2ZsWOhuEIL-YGp" title="YouTube video player"
+                src="https://www.youtube.com/embed/y9GuCWHfPMI" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -16,6 +16,49 @@
 
         <h6 class="content-translate-font p-3 bg-success text-white">សូមរីករាយទស្សនាវីដេអូក្នុងកម្មវិធីប្រកួតជជែកដេញដោល ក្រោមប្រធានបទ៖ "យុវជន ពោរពេញដោយចំណេះដឹង និងជំនាញ គឺជាមូលធនមនុស្សពិតប្រាកដ"។ កម្មវិធីនេះ បានប្រព្រឹត្តទៅនាថ្ងៃទី២០ ខែសីហា ឆ្នាំ២០២៥ នៅសាលសន្និសីទ នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិទីតាំងទី២ (ស្ពានអាកាសចោមចៅ)។</h6>
 
+        <hr>
+        <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
+            វីដេអូបន្ថែម
+        </h5>
+        <div class="row">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/y9GuCWHfPMI/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/y9GuCWHfPMI">
+                </div>
+            </div>
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/Cp-kwSgLfFQ/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/Cp-kwSgLfFQ">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/zyk4IX8qqCE/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/zyk4IX8qqCE">
+                </div>
+            </div>
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/_8KMLhJSAAE/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/_8KMLhJSAAE">
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 justify-content-center">
+            <div class="col-6 height-300 content-translate-font">
+                <div class="position-relative d-flex justify-content-center align-items-center cursor-pointer" onclick="setVideoSource(this)">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute" width="20%" alt="">
+                    <img class="w-100 rounded shadow-sm" src="https://img.youtube.com/vi/IW8ZF04SLuU/hqdefault.jpg" alt="YouTube Video Thumbnail" data-src="https://www.youtube.com/embed/IW8ZF04SLuU">
+                </div>
+            </div>
+        </div>
+        <hr class="border border-success border-3">
 
         <hr>
         <h5 class="mt-4 mb-2 content-translate-font mt-3 mb-1">
@@ -188,7 +231,5 @@
         </div>
         <hr class="border border-success border-3">
         
-        
-
     </div>
 @endsection
