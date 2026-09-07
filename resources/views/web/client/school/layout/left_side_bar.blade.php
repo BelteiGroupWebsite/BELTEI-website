@@ -182,6 +182,18 @@
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.I') }}</h6>
         </a>
+        <a href="{{ route('school.khmer-debate-11') }}" class="list-group-item text-white text-center">
+            {{ __('school/app.grade') }} {{ __('school/app.n11') }}
+            <div class="d-flex justify-content-center ">
+                <div
+                    class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute "
+                        width="20%" alt="">
+                    <img class="w-100 h-100 shadow" src="https://img.youtube.com/vi/fymUyW6eqMc/hqdefault.jpg"
+                        alt="">
+                </div>
+            </div>
+        </a>
         <a href="{{ route('school.khmer-debate-10') }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n10') }}
             <div class="d-flex justify-content-center ">
@@ -221,10 +233,22 @@
     </ul>
 
 
-        <ul class="text-capitalize list-group f14 unhover-padding">
+    <ul class="text-capitalize list-group f14 unhover-padding">
         <a href="{{ route('school.') }}">
             <h6 class="text-uppercase text-center py-2 bg-header-color gold ">{{ __('school/app.education-english-reading') }}
             </h6>
+        </a>
+        <a href="{{ route('school.competition', ['grade' => 20]) }}" class="list-group-item text-white text-center">
+            {{ __('school/app.grade') }} {{ __('school/app.n4') }}
+            <div class="d-flex justify-content-center ">
+                <div
+                    class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                        width="20%" alt="">
+                    <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/education-english-reading/3.png') }}"
+                        alt="">
+                </div>
+            </div>
         </a>
         <a href="{{ route('school.competition', ['grade' => 12]) }}" class="list-group-item text-white text-center">
             {{ __('school/app.grade') }} {{ __('school/app.n3') }}
@@ -246,6 +270,18 @@
                     <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
                         width="20%" alt="">
                     <img class="w-100 h-100 shadow" src="{{ asset('asset/img/school/app/education-english-reading/2.png') }}"
+                        alt="">
+                </div>
+            </div>
+        </a>
+        <a href="{{ route('school.competition', ['grade' => 19]) }}" class="list-group-item text-white text-center">
+            {{ __('school/app.grade') }} {{ __('school/app.n1') }}
+            <div class="d-flex justify-content-center ">
+                <div
+                    class="w-90 height-100 rounded position-relative d-flex justify-content-center align-items-center">
+                    <img src="{{ asset('asset/img/biu/speaking/youtube-logo.png') }}" class="position-absolute"
+                        width="20%" alt="">
+                    <img class="w-100 h-100 shadow" src="https://img.youtube.com/vi/_SMMixqBsQM/hqdefault.jpg"
                         alt="">
                 </div>
             </div>
