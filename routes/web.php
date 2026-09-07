@@ -613,7 +613,9 @@ Route::group(['prefix' => 'bir', 'as' => 'relation.', 'middleware' => ['visitor.
     Route::view('/english-speaking/3', 'web.client.relation.english-speaking.grade3')->name('english-speaking-3');
 
 
+    Route::view('/khmer/debate/11', 'web.client.relation.debate.khmer.debate11')->name('khmer-debate-11');
     Route::view('/khmer/debate/10', 'web.client.relation.debate.khmer.debate10')->name('khmer-debate-10');
+    Route::view('/khmer/debate/9', 'web.client.relation.debate.khmer.debate9')->name('khmer-debate-9');
     Route::view('/khmer/debate/8', 'web.client.relation.debate.khmer.debate8')->name('khmer-debate-8');
     Route::view('/khmer/debate/6', 'web.client.relation.debate.khmer.debate6')->name('khmer-debate-6');
 
