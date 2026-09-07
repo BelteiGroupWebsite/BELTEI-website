@@ -293,7 +293,7 @@ Route::group(['prefix' => 'bis', 'as' => 'school.', 'middleware' => ['visitor.tr
     Route::view('/english-speaking/3', 'web.client.school.english-speaking.grade3')->name('english-speaking-3');
 
 
-    Route::view('/khmer/debate/10', 'web.client.school.debate.khmer.debate11')->name('khmer-debate-11');
+    Route::view('/khmer/debate/11', 'web.client.school.debate.khmer.debate11')->name('khmer-debate-11');
     Route::view('/khmer/debate/10', 'web.client.school.debate.khmer.debate10')->name('khmer-debate-10');
     Route::view('/khmer/debate/8', 'web.client.school.debate.khmer.debate8')->name('khmer-debate-8');
     Route::view('/khmer/debate/6', 'web.client.school.debate.khmer.debate6')->name('khmer-debate-6');
